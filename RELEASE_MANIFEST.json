@@ -29,7 +29,7 @@
     "store_compliance": "PASS_STATIC; Apple age result=UNVERIFIED; Google IARC=UNVERIFIED",
     "observability_static": "PASS; crash provider=@sentry/react-native; analytics provider=NOT_CONFIGURED; worker heartbeat=present; ops-health=present",
     "release_versioning": "EAS appVersionSource=remote; production autoIncrement=true",
-    "project_lint": "2388 text files PASS",
+    "project_lint": "2389 text files PASS",
     "i18n": "en,es,pt-BR,fr,de,it,ru,tr,ar,hi,id,ja,ko,zh-Hans,zh-Hant,nl,pl,th,vi ready; native metadata 19/19; status PASS"
   },
   "technical_identifiers": {

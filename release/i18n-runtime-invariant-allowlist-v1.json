@@ -98,7 +98,11 @@
       "inbox.title",
       "common.action",
       "dateTime.date",
-      "notifications.channel.messages"
+      "notifications.channel.messages",
+      "feed.likes.few",
+      "feed.likes.two",
+      "feed.likes.many",
+      "feed.likes.other"
     ],
     "pt-BR": [
       "nav.feed",
@@ -185,7 +189,11 @@
       "petProfile.temperament",
       "petProfile.like",
       "swipe.like",
-      "swipe.pass"
+      "swipe.pass",
+      "feed.likes.few",
+      "feed.likes.two",
+      "feed.likes.many",
+      "feed.likes.other"
     ],
     "pl": [
       "premium.title",
