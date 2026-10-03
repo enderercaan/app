@@ -1,4 +1,4 @@
-import { createClient } from '@supabase/supabase-js';
+import { createClient, type Session } from '@supabase/supabase-js';
 import { AppState, Platform } from 'react-native';
 import { env, isBackendConfigured } from './config';
 import { secureStorage } from './secureStorage';
@@ -73,7 +73,7 @@ export async function stageOAuthAuthorizationCode(provider:OauthCaptureProvider,
   return stageOAuthProviderCredential(provider,'authorization_code',authorizationCode);
 }
 
-async function stageOauthCredentialFromSession(session:any,provider:OauthCaptureProvider|null):Promise<OauthCaptureDisposition>{
+async function stageOauthCredentialFromSession(session:Session|null,provider:OauthCaptureProvider|null):Promise<OauthCaptureDisposition>{
   if(!session?.user?.id)return 'not_applicable';
   const inferred=String(session.user?.app_metadata?.provider??'').toLowerCase();
   const resolved=provider??(inferred==='apple'||inferred==='google'?inferred as OauthCaptureProvider:null);

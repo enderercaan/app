@@ -9,7 +9,7 @@ const navigationIntegration=Sentry.reactNavigationIntegration({
   ignoreEmptyBackNavigationTransactions:true
 });
 
-function scrubEvent(event:any){
+function scrubEvent<T extends Sentry.Event>(event:T):T{
   // Tailmance never intentionally attaches account identity, message bodies,
   // request payloads, cookies, auth headers, screenshots, or view hierarchy.
   if(event&&typeof event==='object'){
@@ -24,7 +24,7 @@ function scrubEvent(event:any){
   return event;
 }
 
-function scrubBreadcrumb(breadcrumb:any){
+function scrubBreadcrumb(breadcrumb:Sentry.Breadcrumb):Sentry.Breadcrumb|null{
   if(!breadcrumb||typeof breadcrumb!=='object')return breadcrumb;
   const category=String(breadcrumb.category??'').toLowerCase();
   if(/(?:http|xhr|fetch|console)/.test(category))return null;
@@ -35,11 +35,11 @@ function scrubBreadcrumb(breadcrumb:any){
   return breadcrumb;
 }
 
-function scrubTransactionEvent(event:any){
+function scrubTransactionEvent<T extends Sentry.Event>(event:T):T{
   scrubEvent(event);
   if(event&&typeof event==='object'){
     if(typeof event.transaction==='string')event.transaction=event.transaction.replace(/[0-9a-f]{8}-[0-9a-f-]{27,}/gi,'<id>').slice(0,120);
-    if(Array.isArray(event.spans))for(const span of event.spans){
+    if(Array.isArray(event.spans))for(const span of event.spans as unknown as Array<Record<string,unknown>|null>){
       if(!span||typeof span!=='object')continue;
       if(typeof span.description==='string')span.description=span.description
         .replace(/([?&])[^\s]*/g,'$1<redacted>')
@@ -81,7 +81,7 @@ export function initCrashReporting(){
 
 const OPERATIONAL_ISSUE_CODE=/^[a-z0-9][a-z0-9_.-]{2,79}$/;
 
-export function registerCrashNavigationContainer(container:any){
+export function registerCrashNavigationContainer(container:Parameters<typeof navigationIntegration.registerNavigationContainer>[0]|null|undefined){
   if(!tracingEnabled||!container)return;
   navigationIntegration.registerNavigationContainer(container);
 }
@@ -92,6 +92,6 @@ export function recordOperationalIssue(code:string){
   Sentry.captureMessage('tailmance_operational_warning',{level:'warning',tags:{operation:normalized}});
 }
 
-export function wrapRootWithCrashReporting<T extends React.ComponentType<any>>(component:T):T{
+export function wrapRootWithCrashReporting<T extends React.ComponentType<Record<string,unknown>>>(component:T):T{
   return Sentry.wrap(component) as T;
 }

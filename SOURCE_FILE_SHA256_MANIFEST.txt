@@ -9,7 +9,7 @@ c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
 40aa3964248629a7b15447fc50ae505108defa38d45a19d698eb24cf712dd94a  ./NOTICE.md
 a9615384aab74a7a0c7635bf316d69c966fc22e8f291e4aa4556b4604a56ea0b  ./PRODUCT_STRATEGY_RETENTION_AND_MONETIZATION_BOUNDARY_2026-09-30.md
 e24920393900a3423dc708af5c5816785bb75f2885fd23c769511296fc053ac3  ./README.md
-bcf725ff3f3df42f0bfaf2a251c13081cb6511434f58d84d1c28553b002ed01b  ./RELEASE_EVIDENCE.json
+8dbd3d732175fd5e0164ebe5cdf92511bfa14b922e7f8a7ba4d2aee6e9ae63ab  ./RELEASE_EVIDENCE.json
 109f4af31d41bff08586fe81f072534abbadfe134930ca18b3887bc9692abb5c  ./RELEASE_MANIFEST.json
 00d612bc7d4a59ccf19ccf172386fbc4320272f10f6a8d991b6b079d6b56c7a2  ./app.config.ts
 beda473907a881e07bb39055e760ff808f3735b616ff40e2dbfb65b56ee679c9  ./assets/adaptive-foreground.png
@@ -157,8 +157,8 @@ a683e79d9d55260f78400cac70d15568a70c037b3f65fbea572a0f002f0470b5  ./release/lega
 17fa37a2d27f175cf414572ae99d6f929c0e5b2eeafdcab03f1d510e7806ed7f  ./release/legal-language-applicability-r8.json
 2177968b99de307ac00cc12b0035153f8bef47c0ec57a437266dbb8e3bc6e323  ./release/legal-language-review-v19.json
 c09a7cbb7d87430d64296da0be8ed6e24597f4265c91203279840a33d0d3f02c  ./release/legal-web-localization-manifest-v1.json
-61791fd694ac1e3887361b8b408e240531cbda7475071cdaac9fe0e91bbc28a2  ./release/local-typecheck-evidence.json
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./release/local-validation/typecheck.txt
+f33ca2f01cf6be2bc4c831aa9a58ceb48a6fbe5162c9b5e0fd9838e3de8f4548  ./release/local-typecheck-evidence.json
+33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1  ./release/local-validation/typecheck.txt
 cb30c51c4ac44a933300cbfa76324efa3114ca3e5ddb8bb30dee3f586765de5e  ./release/localized-legal-web-manifest-r8.json
 93ef877f86ecc01f23d67c09521e8d054ec6a763f4b2e21a4bdddb2808cb4472  ./release/official-source-review-v19.json
 66d3239ebae77b04500b195d529e76ca9cbc0e7b58f0429f4da6aba6b07fa30a  ./release/operator-tax-registration-subdimension-review-v19.json
@@ -355,7 +355,7 @@ f169c83d500a5f0c429a0a87817ca0e390cc17ea6a1ee40b8e1257fdce3baace  ./src/navigati
 acce7411868c488229bc9eb17f7cb7863e75edb9a227a087b4bb3b83da361c36  ./src/screens/DiscoverScreen.tsx
 e21322a7dbc0167e3352adba08047e6bd352f34615b781789a8b33e45c29e6b3  ./src/screens/EventsScreen.tsx
 f3955f845b36f3c1e392515b15da9ee60b6d6d9f33299fb26f16d845e29410b6  ./src/screens/FavoritesScreen.tsx
-c4e7278f9baa377bf1e3c69905f5f892e2229891ac28bdd9e42b9701c8f5dbb9  ./src/screens/FeedScreen.tsx
+6c8c1af78c95a99bcfe8ff7283f07d3dd7346750e19af2fd9608cb9f2532e3e7  ./src/screens/FeedScreen.tsx
 c12dbf5e5d22c1d8af935e69f70ff069cb67c6554679f778054eda371455f208  ./src/screens/HealthScreen.tsx
 640319ee2543a8f5a87a193fbc61447b71d670144077ccab87619f31a64e9ef8  ./src/screens/InboxScreen.tsx
 833dba3f266e3c0a49bedf5b1fad6bcac833ca05b8e27cbc36c155cdc5ab9af1  ./src/screens/LegalConsentScreen.tsx
@@ -388,7 +388,7 @@ f42415735281ea7e5524639a27920ac68546bfe16a0b3104f0503992dfa21ae9  ./src/services
 6a655db12e65ace85713d8ee9b46971c07f60d32615d47ea268fb110d00c118b  ./src/services/bestEffort.ts
 590d5f5f20157856d6a419a75403a4bddae50df8b6d29185986cce104c89ac7a  ./src/services/clientOperation.ts
 f001a22aabdd143eed354a8ce49b33d23e1abfc83dac03a82ae214e624c5134e  ./src/services/config.ts
-243e43d4af0619ace35f36a49e9d8fd80fd32fe2c9d606c71221abf04494c9f4  ./src/services/crashReporting.ts
+725e87ed66e7a674ac7050bfab385ccd5b9b3dbbca6ff66e0bfe2d9c65ac714e  ./src/services/crashReporting.ts
 a6170645b2a393968207c76f1e881b27b3114e3f4c553d95f6d1c2a2b9176012  ./src/services/deepLinks.ts
 ff0a2913af5c13b5c0aae6fc527d154ed914cd4cc9681d2fd12fc9801a32d757  ./src/services/deviceIntegrity.ts
 d34f8b48e8b49d3b1ef68df38b0ae3dc7d1eb2dcd3d37ea2303ae4c60f73afe3  ./src/services/edgeAi.ts
@@ -416,7 +416,7 @@ f2a3555ccb282b3adcaa77b42246584287011cfa52f3a6963228a02063d11f6c  ./src/services
 1bd14cf31beb9bafce54cd49288ec7ec9441f90c33fc6689e481983b83aa3c29  ./src/services/secureStorage.ts
 fa22f4db95cd57759740fbcf9ab3be45be4ba9ca2c47140e6770e029680121bb  ./src/services/socialShare.ts
 06057b07f3aa1e020136387e3f74a258371a17a2df5c529a4eaff3bf20523f60  ./src/services/storeRating.ts
-d90944d3ed7cca60257fb6c4d484bc5404c6950acafc9f0b27a10e2ef1bab045  ./src/services/supabase.ts
+f3ecaccf0cdc70a9594e86f6e4ae33f41a7cf05e8e49086122f5a603fdd337f8  ./src/services/supabase.ts
 0964f6e2eb1b9f49088fed61837b5f4a59fa918a3ca8eb0310225b526fb94c19  ./src/services/systemCalls.ts
 440849f52dc8b3a6688c0e21d2478745805c1e21fc0631652e90fe977ee50404  ./src/services/uploads.ts
 4215ecae9f0f053963522cc7b7d3a8720b5ef45c5f64127bdd83646f555d2d4e  ./src/theme.ts
