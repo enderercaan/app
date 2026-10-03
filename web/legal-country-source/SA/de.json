@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "SA",
+  "country_display_name": "Saudi-Arabien",
+  "document_locale": "de",
+  "document_language_display_names": "Arabisch",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Rechtsordnungsspezifische rechtliche Ergänzung",
+  "sections": [
+    {
+      "heading": "Rechtlicher Geltungsbereich",
+      "paragraphs": [
+        "Diese Ergänzung gilt, wenn Tailmance feststellt, dass Saudi-Arabien das für Ihr Konto maßgebliche Land ist. Sie ergänzt die Nutzungsbedingungen, Datenschutzhinweise, Community-Richtlinien, Abonnementhinweise und weitere rechtliche Dokumente; sie ersetzt diese nicht.",
+        "Tailmance richtet rechtliche Pflichten nach diesem verifizierten Land und, soweit erforderlich, nach dem einschlägigen regionalen oder lokalen Rechtsrahmen aus. Eine Änderung der App-Sprache, eine Reise oder ein Wechsel der Store-Region ändert diesen Rechtsrahmen nicht automatisch."
+      ]
+    },
+    {
+      "heading": "Dokumentsprache",
+      "paragraphs": [
+        "Die verbindlichen rechtlichen Dokumente für diese rechtliche Konfiguration werden in den erforderlichen Sprachen bereitgehalten: Arabisch. Ist eine bestimmte Dokumentensprache vorgeschrieben, wird nicht ohne Hinweis automatisch eine andere Sprache verwendet.",
+        "Diese Fassung wird als barrierearme Übersetzung bereitgestellt. Sie ersetzt keine vorgeschriebene Sprachfassung, wenn das anwendbare Recht oder diese rechtliche Konfiguration eine solche verlangt."
+      ]
+    },
+    {
+      "heading": "Länderspezifische rechtliche Anforderungen",
+      "paragraphs": [
+        "Für das maßgebliche Land werden zweiundzwanzig Bereiche rechtlicher Anforderungen anhand zuordenbarer amtlicher Quellen geprüft. Geltendes Recht und Wirksamkeitsdaten werden von Entwürfen, Konsultationen und künftigen Maßnahmen getrennt; ein Vorschlag wird nie als geltendes Recht behandelt.",
+        "Stand der Quellenprüfung: 1. Oktober 2026. Künftige, im Entwurf befindliche oder konsultierte Maßnahmen werden getrennt verfolgt und nicht als geltendes Recht dargestellt."
+      ]
+    },
+    {
+      "heading": "Geprüfte Rechtsrahmen",
+      "paragraphs": [
+        "Nachstehend sind die wesentlichen Rechtsrahmen aufgeführt, die in der amtlichen Quellenprüfung von Tailmance für das maßgebliche Land erfasst sind. Die Aufnahme kennzeichnet nur den Prüfungsumfang: Ob eine Regel bereits gilt, künftig wirksam wird, lediglich vorgeschlagen ist oder nur unter engeren Voraussetzungen Anwendung findet, bestimmen die Wirksamkeits- und Anwendbarkeitskontrollen; dies wird niemals allein aus dieser Liste abgeleitet."
+      ],
+      "items": [
+        "Personal Data Protection Law and implementing/transfer regulations"
+      ]
+    },
+    {
+      "heading": "Datenschutz, Sicherheit und Nutzerrechte",
+      "paragraphs": [
+        "Datenschutzrechte, Auskunfts- und Löschanträge, internationale Übermittlungen, Altersprüfung, elektronische Werbung sowie Sicherheits- und Meldepflichten werden im exakten Rechtskontext angewendet. Hinweise, Export- und Löschwege finden Sie im Legal Center der App."
+      ]
+    },
+    {
+      "heading": "Abonnements und Verbraucherinformationen",
+      "paragraphs": [
+        "Der App-Store, über den der Kauf erfolgt, ist für den angezeigten Abonnementpreis, die Währung und die anwendbare steuerliche Darstellung maßgeblich. Verlängerung, Kündigung und erforderliche vorvertragliche Informationen werden vor dem Kauf angezeigt. Tailmance verkauft weder Tiere noch physische Waren und wickelt keine Zahlungen zwischen Nutzern für Tierverkäufe ab."
+      ]
+    },
+    {
+      "heading": "Tierwohl und Nicht-Kommerzialisierung",
+      "paragraphs": [
+        "Kommerzielle Tierverkäufe und Marktplätze für gewerbliche Zucht sind verboten. Von Haltern organisierte Verpaarungen sind nur verfügbar, wenn die einschlägigen länderspezifischen Anforderungen an Tierwohl, Zucht, Gesundheit, Verwandtschaft und Eignung erfüllt sind; andernfalls bleibt die Funktion gesperrt."
+      ]
+    },
+    {
+      "heading": "Kontakt und amtliche Quellen",
+      "paragraphs": [
+        "Fragen zu diesen Hinweisen oder Datenschutzanfragen können an yektaozel@icloud.com gesendet werden. Die für diese Rechtsprüfung verwendeten amtlichen Quellen sind nachstehend aufgeführt."
+      ],
+      "official_sources": [
+        "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+        "https://mc.gov.sa/ar/ECC/pages/default.aspx",
+        "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2d3cb83a-0379-4cde-8e0b-a9a700f272bd/1",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Implementing%20Regulations%20of%20The%20Agriculture%20Law.pdf",
+        "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Pet%20import%20mechanism.pdf",
+        "https://www.mewa.gov.sa/ar/InformationCenter/DocsCenter/RulesLibrary/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%81%D9%82%20%D8%A8%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%20%D9%88%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A%D8%A9.pdf",
+        "https://laws.boe.gov.sa/BoeLaws/Laws/SearchDetails/?Id=93f81644-fbbc-49ca-b33c-a9a700f16701",
+        "https://www.cst.gov.sa/en/business/services/Social-Media-platforms-notification",
+        "https://mc.gov.sa/en/guides/Documents/MerchantGuide.pdf",
+        "https://sdaia.gov.sa/en/SDAIA/about/Documents/ExecutiveRegulations.pdf",
+        "https://dga.gov.sa/sites/default/files/2022-12/The%20Guideline%20for%20Web%20Accessibility%20of%20Government%20Websites%20%E2%80%93%20V1.0_1.pdf",
+        "https://mc.gov.sa/en/mediacenter/News/Pages/29-03-23-02.aspx",
+        "https://www.uqn.gov.sa/details?p=28845",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4000304",
+        "https://sdaia.gov.sa/en/SDAIA/about/Documents/ImplementingRegulation.pdf",
+        "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL2",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/Overview.aspx",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/Legalframework.aspx",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/List.aspx"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "7401a26decfd07d38be1384a15f08e38c7436087d47b43e5e4d03a4cbca4b375",
+  "official_source_count": 43,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Personal Data Protection Law and implementing/transfer regulations"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ar"
+  ],
+  "display_language_name": "Deutsch"
+}

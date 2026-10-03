@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance accède uniquement aux photos que vous choisissez pour les profils d’animaux et les publications sociales.",
+    "NSCameraUsageDescription": "Tailmance utilise l’appareil photo pour les photos d’animaux, les stories et la vérification des animaux.",
+    "NSLocationWhenInUseUsageDescription": "Tailmance utilise votre position approximative pour afficher les animaux à proximité selon la distance."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

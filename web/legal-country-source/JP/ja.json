@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "JP",
+  "country_display_name": "日本",
+  "document_locale": "ja",
+  "document_language_display_names": "日本語",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "法域別リーガル補足",
+  "sections": [
+    {
+      "heading": "法的適用範囲",
+      "paragraphs": [
+        "この補足文書は、Tailmance が 日本 をお客様のアカウントに適用される法令上の国として判定した場合に適用されます。利用規約、プライバシー通知、コミュニティガイドライン、サブスクリプション通知その他の法的文書を補完するものであり、これらに代わるものではありません。",
+        "Tailmance は、その確認済みの国と、必要な場合には該当する地域または地方の法的枠組みに基づいて法的義務を適用します。アプリの言語変更、旅行、ストア地域の変更だけで適用される法的枠組みが自動的に変わることはありません。"
+      ]
+    },
+    {
+      "heading": "文書の言語",
+      "paragraphs": [
+        "この法的設定に関する拘束力のある文書は、必要な言語で提供されます：日本語。特定の言語が必要な場合、Tailmance が通知なく別の言語に自動的に置き換えることはありません。"
+      ]
+    },
+    {
+      "heading": "国別の法的要件",
+      "paragraphs": [
+        "適用国について、22分野の法的要件を出所が確認できる公的資料に基づいて確認しています。現行法と施行日は、提案、意見募集、将来の措置と区別され、提案を現行法として扱うことはありません。",
+        "資料レビュー日: 2026年10月1日。将来の措置、草案、意見募集は別途追跡し、現行法として表示しません。"
+      ]
+    },
+    {
+      "heading": "確認済みの法的枠組み",
+      "paragraphs": [
+        "この法的国について、Tailmance の公的資料レビューで確認対象として記録された主要な法的枠組みを以下に示します。掲載はレビュー範囲を示すだけです。各規則が現在施行中か、将来施行か、提案段階か、またはより限定された適用条件に従うかは、施行日と正確な適用範囲のコントロールで判断され、この一覧だけから推定されることはありません。"
+      ],
+      "items": [
+        "APPI, consolidated rules/guidelines"
+      ]
+    },
+    {
+      "heading": "プライバシー、安全性、利用者の権利",
+      "paragraphs": [
+        "プライバシー権、データ請求、アカウントおよびデータの削除、国際移転、年齢確認、電子マーケティング、セキュリティおよび侵害通知の義務は、正確な法的状況に基づいて適用されます。通知、エクスポート、削除にはアプリ内のリーガルセンターを利用してください。"
+      ]
+    },
+    {
+      "heading": "サブスクリプションと消費者情報",
+      "paragraphs": [
+        "購入に利用するアプリストアが、表示されるサブスクリプション価格、通貨および適用される税の表示に関する基準となります。更新、解約および必要な契約前情報は購入前に提示されます。Tailmance は動物や物理商品を販売せず、動物売買に関する利用者間の支払いを処理しません。"
+      ]
+    },
+    {
+      "heading": "動物福祉と非商取引",
+      "paragraphs": [
+        "商業的な動物販売および商業繁殖を目的とするマーケットプレイスは禁止されています。飼い主同士で手配する交配は、その国で適用される動物福祉、繁殖、健康、血縁および適格性の要件を満たす場合にのみ利用でき、それ以外は機能が利用できません。"
+      ]
+    },
+    {
+      "heading": "連絡先と公的資料",
+      "paragraphs": [
+        "本通知に関する質問やプライバシー請求は yektaozel@icloud.com まで送付できます。この法的レビューで使用した公的資料は以下に記載しています。"
+      ],
+      "official_sources": [
+        "https://www.ppc.go.jp/en/legal/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+        "https://www.ppc.go.jp/news/press/2026/260717/",
+        "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+        "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+        "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+        "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+        "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+        "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+        "https://www.digital.go.jp/accessibility-statement",
+        "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "5c60be24566ec78070e2ed720356cf4a4c7f8a83dd1af56d1cd7f737be9766b0",
+  "official_source_count": 42,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "APPI, consolidated rules/guidelines"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "required_binding_document_locale",
+  "required_binding_document_locales": [
+    "ja"
+  ],
+  "display_language_name": "日本語"
+}

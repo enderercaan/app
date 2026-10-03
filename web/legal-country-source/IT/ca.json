@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "IT",
+  "country_display_name": "Itàlia",
+  "document_locale": "ca",
+  "document_language_display_names": "italià",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplement jurídic específic de la jurisdicció",
+  "sections": [
+    {
+      "heading": "Àmbit jurídic",
+      "paragraphs": [
+        "Aquest suplement s’aplica quan Tailmance determina que Itàlia és el país la legislació del qual s’aplica al teu compte. Complementa les Condicions d’ús, l’Avís de privacitat, les Normes de la comunitat, l’avís de subscripció i altres documents jurídics, sense substituir-los.",
+        "Tailmance aplica les obligacions jurídiques d’acord amb aquest país verificat i, quan cal, amb el marc jurídic regional o local aplicable. Canviar l’idioma de l’aplicació, viatjar o canviar la regió de la botiga no modifica per si sol aquest marc jurídic."
+      ]
+    },
+    {
+      "heading": "Llengua dels documents",
+      "paragraphs": [
+        "Els documents jurídics vinculants d’aquesta configuració es mantenen en les llengües exigides: italià. Quan s’exigeix una llengua determinada, Tailmance no la substitueix automàticament i sense avís per una altra llengua.",
+        "Aquesta versió s’ofereix com a traducció d’accessibilitat. No substitueix una versió en una llengua obligatòria quan la legislació aplicable o aquesta configuració jurídica l’exigeixen."
+      ]
+    },
+    {
+      "heading": "Requisits jurídics específics del país",
+      "paragraphs": [
+        "Es revisen vint-i-dues àrees de requisits jurídics per al país aplicable a partir de fonts oficials identificables. El dret vigent i les dates d’efecte se separen de propostes, consultes i mesures futures; una proposta mai no es tracta com a dret vigent.",
+        "Data de revisió de les fonts: 1 d’octubre de 2026. Les mesures futures, els projectes i les consultes es controlen per separat i no es presenten com a dret vigent."
+      ]
+    },
+    {
+      "heading": "Marcs jurídics revisats",
+      "paragraphs": [
+        "A continuació s’indiquen els principals marcs jurídics registrats en la revisió de fonts oficials de Tailmance per al país aplicable. La inclusió només delimita l’abast de la revisió: si una norma és vigent, entra en vigor en el futur, és una proposta o depèn d’una condició d’aplicabilitat més limitada es determina mitjançant els controls de data d’efecte i d’àmbit exacte, i mai no es dedueix únicament d’aquesta llista."
+      ],
+      "items": [
+        "EU GDPR",
+        "Italian Privacy Code",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Privacitat, seguretat i drets de les persones usuàries",
+      "paragraphs": [
+        "Els drets de privacitat, les sol·licituds sobre dades, la supressió del compte i de les dades, les transferències internacionals, la verificació d’edat, el màrqueting electrònic i les obligacions de seguretat i notificació s’apliquen dins del context jurídic exacte. Fes servir el Centre jurídic de l’aplicació per als avisos, l’exportació i la supressió."
+      ]
+    },
+    {
+      "heading": "Subscripcions i informació al consumidor",
+      "paragraphs": [
+        "La botiga d’aplicacions a través de la qual es fa la compra és la referència per al preu de subscripció mostrat, la moneda i el tractament fiscal aplicable. La renovació, la cancel·lació i la informació precontractual exigida es presenten abans de la compra. Tailmance no ven animals ni productes físics i no processa pagaments entre usuaris per vendes d’animals."
+      ]
+    },
+    {
+      "heading": "Benestar animal i absència de comerç",
+      "paragraphs": [
+        "Es prohibeixen les vendes comercials d’animals i els mercats destinats a la cria comercial. Els aparellaments organitzats pels propietaris només estan disponibles quan es compleixen els requisits aplicables del país sobre benestar animal, cria, salut, parentiu i idoneïtat; en cas contrari, la funció roman bloquejada."
+      ]
+    },
+    {
+      "heading": "Contacte i fonts oficials",
+      "paragraphs": [
+        "Les consultes sobre aquests avisos o les sol·licituds de privacitat es poden enviar a yektaozel@icloud.com. A continuació s’enumeren les fonts oficials utilitzades en aquesta revisió jurídica."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10225019",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://www.normattiva.it/eli/id/2026/03/09/26G00047/CONSOLIDATED",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6=",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig=",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig=",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2010%3B201",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-08-05%3B134",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1991;281=",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/possesso-responsabile/",
+        "https://www.regione.piemonte.it/web/temi/agricoltura/zootecnia-pascoli-apicoltura/normativa-materia-riproduzione-animale",
+        "https://www.regione.lombardia.it/agricoltura/zootecnia/regole-riproduzione-animale",
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/main.aspx?iddoc=lr002009123000033&view=showdoc",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=rr002017041300002ar0013a&view=showpart",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/viaggio-verso-litalia/",
+        "https://www.regione.piemonte.it/web/temi/sanita/veterinaria-salute-alimentare/normativa-relativa-agli-animali-daffezione",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=lr002009123000033ar0105a&view=showpart",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art9=",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://www.garanteprivacy.it/data-breach",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "140aad60332618de8eb2c51387e5080431f484b38920d630723e868c3da26aed",
+  "official_source_count": 59,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "Italian Privacy Code",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "it"
+  ],
+  "display_language_name": "català"
+}

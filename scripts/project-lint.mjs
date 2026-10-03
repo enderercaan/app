@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { join } from 'node:path';
+const files=[]; const walk=(d)=>{for(const n of readdirSync(d)){if(['node_modules','.git','.tmp-domain-test'].includes(n))continue;const p=join(d,n);statSync(p).isDirectory()?walk(p):files.push(p)}}; walk('.');
+const textFiles=files.filter(f=>/\.(ts|tsx|js|mjs|sql|json|md|html|toml|yml|yaml)$/.test(f) && !f.endsWith('scripts/project-lint.mjs'));
+const forbidden=[new RegExp('SUPABASE_SERVICE_ROLE_KEY\\s*=\\s*[\\\'\"][^\\\'\"]+[\\\'\"]','i'),new RegExp('sk_[A-Za-z0-9]{20,}'),new RegExp('-----BEGIN '+'PRIVATE KEY-----')];
+for(const f of textFiles){const s=readFileSync(f,'utf8');for(const p of forbidden)assert.doesNotMatch(s,p,`secret-like value in ${f}`)}
+const packageJson=JSON.parse(readFileSync('package.json','utf8'));
+assert.equal(packageJson.dependencies.expo,'~57.0.23');
+assert.equal(packageJson.dependencies['react-native'],'0.86.3');
+assert.equal(packageJson.packageManager,'npm@10.9.2');
+assert.ok(packageJson.scripts['verify:offline']);
+assert.ok(files.some(f=>f.endsWith('docs/SECURITY.md')));
+assert.ok(files.some(f=>f.endsWith('docs/STORE_RELEASE_CHECKLIST.md')));
+assert.ok(files.some(f=>f.endsWith('src/components/AppIcon.tsx')));
+const verificationReport=readFileSync('docs/VERIFICATION_REPORT.md','utf8');
+if(!files.some(f=>f==='package-lock.json'))assert.doesNotMatch(verificationReport,/Release structure[^\n]*PASS|release:structure[^\n]*PASS/i,'Verification report must not claim release structure PASS while package-lock.json is absent');
+assert.match(verificationReport,/RELEASE_EVIDENCE\.json/,'Verification report must defer exact counts to generated release evidence');
+const migration004=readFileSync('supabase/migrations/004_social_product_polish.sql','utf8');
+assert.doesNotMatch(migration004,/pet_events\([^)]*\) where deleted_at is null/,'004 migration must not reference nonexistent pet_events.deleted_at');
+for(const file of files) assert.doesNotMatch(file,/(?:\.tmp|\.bak|~)$/i,`temporary/source scratch file is forbidden: ${file}`);
+console.log(`project-lint: scanned ${textFiles.length} text files; passed`);

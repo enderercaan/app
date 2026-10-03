@@ -1,0 +1,5 @@
+{
+  "platforms": ["android", "ios"],
+  "ios": { "modules": ["TailmanceEdgeAiModule"] },
+  "android": { "modules": ["expo.modules.tailmanceedgeai.TailmanceEdgeAiModule"] }
+}

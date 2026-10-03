@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "AU",
+  "country_display_name": "Australië",
+  "document_locale": "nl",
+  "document_language_display_names": "Engels",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Jurisdictiespecifieke juridische aanvulling",
+  "sections": [
+    {
+      "heading": "Juridische reikwijdte",
+      "paragraphs": [
+        "Deze aanvulling geldt wanneer Tailmance vaststelt dat Australië het land is waarvan het recht op uw account van toepassing is. Zij vult de Gebruiksvoorwaarden, Privacyverklaring, Communityrichtlijnen, abonnementsinformatie en andere juridische documenten aan en vervangt die niet.",
+        "Tailmance past juridische verplichtingen toe op basis van dat geverifieerde land en, waar vereist, het toepasselijke regionale of lokale rechtskader. Een wijziging van de app-taal, reizen of een wijziging van de store-regio verandert dat rechtskader niet automatisch."
+      ]
+    },
+    {
+      "heading": "Documenttaal",
+      "paragraphs": [
+        "De bindende juridische documenten voor deze juridische configuratie worden beschikbaar gehouden in de vereiste taal of talen: Engels. Wanneer een bepaalde documenttaal verplicht is, wordt die niet zonder kennisgeving automatisch door een andere taal vervangen.",
+        "Deze versie wordt aangeboden als toegankelijkheidsvertaling. Zij vervangt geen verplichte taalversie wanneer het toepasselijke recht of deze juridische configuratie die vereist."
+      ]
+    },
+    {
+      "heading": "Landspecifieke juridische vereisten",
+      "paragraphs": [
+        "Voor het toepasselijke land worden tweeëntwintig gebieden van juridische vereisten getoetst aan herleidbare officiële bronnen. Geldend recht en ingangsdata worden gescheiden van voorstellen, consultaties en toekomstige maatregelen; een voorstel wordt nooit als geldend recht behandeld.",
+        "Datum bronbeoordeling: 1 oktober 2026. Toekomstige maatregelen, ontwerpen en consultaties worden afzonderlijk gevolgd en niet als geldend recht weergegeven."
+      ]
+    },
+    {
+      "heading": "Beoordeelde juridische kaders",
+      "paragraphs": [
+        "Hieronder staan de belangrijkste juridische kaders die in de officiële-bronnenbeoordeling van Tailmance voor dit rechtsland zijn opgenomen. Vermelding geeft alleen de reikwijdte van de beoordeling aan: of een regel nu geldt, later in werking treedt, slechts is voorgesteld of alleen onder een beperktere toepasselijkheidsvoorwaarde geldt, wordt bepaald door de controles op ingangsdatum en exacte toepasselijkheid en nooit uitsluitend uit deze lijst afgeleid."
+      ],
+      "items": [
+        "Privacy Act 1988",
+        "Australian Privacy Principles"
+      ]
+    },
+    {
+      "heading": "Privacy, veiligheid en gebruikersrechten",
+      "paragraphs": [
+        "Privacyrechten, gegevensverzoeken, account- en gegevensverwijdering, internationale doorgiften, leeftijdscontrole, elektronische marketing en verplichtingen rond beveiliging en datalekken worden toegepast binnen de exacte juridische context. Gebruik het Juridisch Centrum in de app voor kennisgevingen, export en verwijdering."
+      ]
+    },
+    {
+      "heading": "Abonnementen en consumenteninformatie",
+      "paragraphs": [
+        "De appwinkel waarmee de aankoop wordt gedaan, is leidend voor de weergegeven abonnementsprijs, valuta en toepasselijke belastingweergave. Verlenging, opzegging en vereiste precontractuele informatie worden vóór aankoop getoond. Tailmance verkoopt geen dieren of fysieke producten en verwerkt geen betalingen tussen gebruikers voor de verkoop van dieren."
+      ]
+    },
+    {
+      "heading": "Dierenwelzijn en geen handelsplatform",
+      "paragraphs": [
+        "Commerciële dierenverkoop en marktplaatsen voor commerciële fokkerij zijn verboden. Door eigenaren georganiseerde paringen zijn alleen beschikbaar wanneer aan de toepasselijke landspecifieke eisen voor dierenwelzijn, fokkerij, gezondheid, verwantschap en geschiktheid is voldaan; anders blijft de functie geblokkeerd."
+      ]
+    },
+    {
+      "heading": "Contact en officiële bronnen",
+      "paragraphs": [
+        "Vragen over deze kennisgevingen of privacyverzoeken kunnen worden gestuurd naar yektaozel@icloud.com. De officiële bronnen die voor deze juridische beoordeling zijn gebruikt, staan hieronder."
+      ],
+      "official_sources": [
+        "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines",
+        "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-8-app-8-cross-border-disclosure-of-personal-information",
+        "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
+        "https://www.legislation.gov.au/C2004A00109/latest/text",
+        "https://www.legislation.gov.au/C2024A00127/latest/text",
+        "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+        "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
+        "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+        "https://www.esafety.gov.au/industry/regulatory-guidance",
+        "https://developer.apple.com/news/?id=f5zj08ey",
+        "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
+        "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.apple.com/news/?id=yrrb45pw",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.agriculture.gov.au/animal/welfare/state",
+        "https://legislation.nsw.gov.au/view/pdf/inforce/current/act-1998-087",
+        "https://www.legislation.vic.gov.au/in-force/acts/domestic-animals-act-1994/062",
+        "https://www.legislation.gov.au/C2021A00076/latest/text",
+        "https://www.acma.gov.au/avoid-sending-spam",
+        "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services",
+        "https://business.gov.au/finance/payments-and-invoicing/how-to-invoice",
+        "https://business.gov.au/finance/payments-and-invoicing/receipts-and-proof-of-purchase",
+        "https://www.legislation.gov.au/C1968A00063/latest/text",
+        "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme",
+        "https://www.oaic.gov.au/privacy/notifiable-data-breaches/quick-reference-guide-for-responding-to-data-breaches",
+        "https://business.gov.au/finance/payments-and-invoicing/record-keeping",
+        "https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list",
+        "https://www.dfat.gov.au/international-relations/security/sanctions/about-sanctions"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "d9090a4ea9ce0938a87b70250c39be72092e7681b69e12cc0783959f249e9ac9",
+  "official_source_count": 51,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Privacy Act 1988",
+    "Australian Privacy Principles"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "Nederlands"
+}

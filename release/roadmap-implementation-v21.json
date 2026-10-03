@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-01",
+  "product": "Tailmance",
+  "owner": "Yekta Ozel",
+  "policy": "Roadmap requirements are mapped to the existing Expo/React Native + Supabase architecture. Equivalent managed components are preferred over technology-for-technology rewrites. Real gaps remain explicit until implemented; production/provider facts remain external gates.",
+  "phases": {
+    "1_clean_architecture_offline_sync": {
+      "status": "IMPLEMENTED_SOURCE_NATIVE_QA_EXTERNAL",
+      "evidence": [
+        "src/services/offlineMutationQueue.ts",
+        "src/services/offlineSyncTask.ts",
+        "scripts/offline-sync-checks.mjs",
+        "scripts/repository-hygiene-checks.mjs"
+      ],
+      "note": "Replay-safe social mutations use an account-bound SQLCipher queue; high-risk payment/legal/health/delete operations are intentionally excluded."
+    },
+    "2_postgres_postgis_spatial": {
+      "status": "IMPLEMENTED_SOURCE_REDIS_RUNTIME_EXTERNAL",
+      "evidence": [
+        "supabase/migrations/157_postgis_private_spatial_index_and_proximity_queries.sql",
+        "supabase/migrations/169_redis_social_read_cache_rehydration.sql",
+        "supabase/functions/_shared/redisCache.ts",
+        "supabase/functions/social-read-cache/index.ts",
+        "scripts/redis-cache-checks.mjs",
+        "docs/ARCHITECTURE.md",
+        "supabase/migrations/181_pgvector_pet_matchmaking_hybrid_ranking.sql",
+        "scripts/pgvector-matchmaking-checks.mjs"
+      ],
+      "note": "Private WGS-84 geography points + GiST/ST_DWithin are implemented. A private deterministic 40D pet feature embedding with pgvector/HNSW cosine ranking now reranks only after the mature authorization/privacy/mating/distance discovery gates; existing rules retain 70% of the score. Feed/Reels/default discovery use short-lived serverless Redis acceleration with current-Postgres reauthorization. Real Redis production credentials/metrics remain external."
+    },
+    "3_auth_masvs_attestation": {
+      "status": "PARTIAL_CORE_SECURITY_IMPLEMENTED_PINNING_EXTERNAL_DECISION",
+      "evidence": [
+        "src/services/auth.ts",
+        "src/services/deviceIntegrity.ts",
+        "release/security-control-applicability-v19.json",
+        "scripts/auth-session-boundary-checks.mjs"
+      ],
+      "note": "OAuth/MFA, App Attest, Play Integrity, secure storage, cleartext blocking, screen protection and local compromise risk signals are implemented. Certificate/SPKI pinning is intentionally not claimed until production host ownership, backup-pin rotation and managed-provider compatibility are evidence-backed."
+    },
+    "4_social_matching_chat_ugc": {
+      "status": "IMPLEMENTED_SOURCE_VIDEO_MODERATION_PROVIDER_EXTERNAL",
+      "evidence": [
+        "src/contexts/AppDataContext.tsx",
+        "src/screens/FeedScreen.tsx",
+        "src/screens/ChatScreen.tsx",
+        "src/screens/ReelsScreen.tsx",
+        "src/services/realtime.ts",
+        "src/services/uploads.ts",
+        "supabase/migrations/160_moderation_review_sla_under_24h.sql",
+        "supabase/migrations/167_pet_first_reels_video_pipeline.sql",
+        "supabase/functions/moderate-media/index.ts",
+        "scripts/reels-checks.mjs"
+      ],
+      "note": "Matching, pet-first grid/feed, 24h Stories, asymmetric chat, private realtime typing/read state, Pati Radar, report/block, deterministic text/OCR moderation, and production-source short-video/Reels are implemented. Reel publication is fail-closed until the configured moderation provider supplies the complete Tailmance policy contract plus a duration-verified, allowlisted sanitized MP4 derivative; live provider credentials and operational evidence remain external release gates."
+    },
+    "5_health_trust_passport": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_PROVIDER_EVIDENCE",
+      "evidence": [
+        "src/screens/HealthScreen.tsx",
+        "src/screens/VerificationCenterScreen.tsx",
+        "supabase/migrations/143_health_verification_temporal_authority.sql",
+        "release/external-security-evidence.json",
+        "supabase/migrations/182_health_ai_ocr_registry_guardrail_pipeline.sql",
+        "supabase/migrations/184_health_ai_privacy_export_and_erasure_binding.sql",
+        "supabase/functions/health-ai-worker/index.ts",
+        "scripts/health-ai-checks.mjs",
+        "release/health-ai-provider-evidence-v22.json",
+        "scripts/health-ai-provider-release-check.mjs"
+      ],
+      "note": "Health documents enter a private AI/OCR queue. Provider output is strict-schema validated; <0.65 or invalid credential integrity rejects, 0.65–0.85/unverified routes to manual review, and >0.85 auto-verification still requires registry/credential integrity plus provenance-bound health attestations. AI decision metadata is private, exportable for owned documents, and erased with the document. Live registry/provider credentials, accuracy and operational SLA evidence remain external."
+    },
+    "6_monetization_revenuecat": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_STORE_EVIDENCE",
+      "evidence": [
+        "src/services/purchases.ts",
+        "supabase/functions/revenuecat-webhook/index.ts",
+        "supabase/migrations/152_consumable_store_transaction_idempotency.sql",
+        "supabase/migrations/156_consumable_transaction_authoritative_owner_resolution.sql"
+      ]
+    },
+    "7_design_responsiveness_motion": {
+      "status": "IMPLEMENTED_SOURCE_DEVICE_QA_EXTERNAL",
+      "evidence": [
+        "src/theme.ts",
+        "scripts/ux-checks.mjs",
+        "scripts/accessibility-checks.mjs"
+      ]
+    },
+    "8_i18n_privacy_manifest": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_BINARY_VERIFY",
+      "evidence": [
+        "src/i18n",
+        "app.config.ts",
+        "scripts/i18n-release-check.mjs",
+        "scripts/release-structure-check.mjs"
+      ]
+    },
+    "9_legal_devsecops_store": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_DEPLOYMENT_EVIDENCE",
+      "evidence": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        ".github/workflows/security-scan.yml",
+        "docs/STORE_RELEASE_CHECKLIST.md",
+        "docs/STORE_REVIEW_ACCESS_RUNBOOK.md",
+        "release/store-review-access-v22.json",
+        "scripts/store-review-access-checks.mjs"
+      ],
+      "note": "Legal/store/DevSecOps source controls are implemented. Store reviewer access uses ordinary production auth and store sandbox/license-test billing with no hardcoded credentials or entitlement bypass. Real reviewer account provisioning and console instructions remain an explicit external release gate."
+    },
+    "10_zero_crash_memory": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_NATIVE_SOAK",
+      "evidence": [
+        "src/services/errorTelemetry.ts",
+        "src/services/crashReporting.ts",
+        "scripts/observability-checks.mjs",
+        "src/services/performanceTelemetry.ts",
+        "supabase/migrations/183_privacy_minimal_client_frame_performance_telemetry.sql"
+      ]
+    },
+    "11_webrtc_calls": {
+      "status": "PARTIAL_NATIVE_SYSTEM_CALL_SOURCE_IMPLEMENTED_EXTERNAL_VOIP_PROVIDER_VERIFY",
+      "evidence": [
+        "src/screens/CallScreen.native.tsx",
+        "src/screens/CallScreen.web.tsx",
+        "src/screens/ChatScreen.tsx",
+        "src/services/api.ts",
+        "supabase/migrations/170_matched_pet_livekit_call_sessions.sql",
+        "supabase/migrations/171_matched_pet_livekit_call_sessions.sql",
+        "supabase/functions/livekit-call-token/index.ts",
+        "app.config.ts",
+        "package.json",
+        "modules/tailmance-system-calls/expo-module.config.json",
+        "modules/tailmance-system-calls/ios/TailmanceSystemCallsModule.swift",
+        "modules/tailmance-system-calls/android/src/main/java/expo/modules/tailmancesystemcalls/TailmanceConnectionService.kt",
+        "plugins/withSystemCalls.cjs",
+        "src/services/systemCalls.ts",
+        "src/services/notifications.ts",
+        "supabase/migrations/173_push_transport_and_voip_call_delivery.sql",
+        "supabase/functions/_shared/apnsVoip.ts",
+        "supabase/functions/push-dispatch/index.ts",
+        "supabase/migrations/176_pet_call_current_access_gate_parity.sql",
+        "supabase/migrations/177_livekit_room_teardown_outbox.sql",
+        "supabase/migrations/178_livekit_teardown_survives_account_deletion.sql",
+        "supabase/functions/livekit-room-reaper/index.ts"
+      ],
+      "note": "Matched-pet LiveKit audio/video calls include source-level iOS CallKit + PushKit and Android self-managed Telecom/ConnectionService integration. Every user-callable call RPC is re-authorized against active session plus current legal/product access; terminal decline/end/expiry and account-deletion cascades transactionally enqueue a service-only room-teardown outbox, and a secret-protected reaper forcibly deletes LiveKit rooms with atomic claims and retry/backoff. Expo and APNs VoIP token transports remain isolated. Production LiveKit/TURN, real APNs VoIP credentials/delivery, scheduled room-reaper execution/monitoring, forced-disconnect outage/recovery drills and representative physical-device background/killed-state CallKit/Telecom QA remain external release evidence and are not represented as complete."
+    },
+    "12_observability_tracing": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_PROVIDER_EVIDENCE",
+      "evidence": [
+        "src/services/crashReporting.ts",
+        "src/services/errorTelemetry.ts",
+        "scripts/observability-checks.mjs",
+        "src/services/performanceTelemetry.ts",
+        "supabase/migrations/183_privacy_minimal_client_frame_performance_telemetry.sql",
+        "supabase/migrations/189_worker_heartbeat_allowlist_and_ops_snapshot_parity.sql",
+        "docs/OPERATIONS_RUNBOOK.md"
+      ],
+      "note": "Sentry native crash reporting includes low-sampled privacy-scrubbed navigation tracing and native slow/frozen frame tracking. Tailmance also records bounded anonymous aggregate JS frame windows through a private rate-limited RPC. All eight scheduled workers are now database-allowlisted for private heartbeat writes, and the service-only ops snapshot includes health-AI SLA/stale-lease and LiveKit teardown health counters. Real Sentry DSN, release source-map/symbol upload, scheduler and dashboard alert evidence remain external."
+    },
+    "13_on_device_ai": {
+      "status": "PARTIAL_NATIVE_RUNTIME_AND_PET_PHOTO_PREFILTER_IMPLEMENTED_MODEL_EVIDENCE_EXTERNAL",
+      "evidence": [
+        "modules/tailmance-edge-ai/expo-module.config.json",
+        "modules/tailmance-edge-ai/ios/TailmanceEdgeAiModule.swift",
+        "modules/tailmance-edge-ai/android/src/main/java/expo/modules/tailmanceedgeai/TailmanceEdgeAiModule.kt",
+        "src/services/edgeAi.ts",
+        "src/services/uploads.ts",
+        "src/screens/PetEditorScreen.tsx",
+        "scripts/edge-ai-runtime-checks.mjs",
+        "release/edge-ai-model-evidence-v21.json"
+      ],
+      "note": "Native Core ML/Vision and MediaPipe Tasks Vision runtimes are integrated into pet-photo flows. Local safety can block high-confidence unsafe media before upload but never replaces authoritative server moderation or authorizes cloud publication; breed output remains advisory. Production artifacts, provenance/license, representative accuracy/bias/safety, and physical-device evidence including <=30 ms p95 warm inference remain fail-closed external gates."
+    },
+    "14_bundle_on_demand_assets": {
+      "status": "IMPLEMENTED_SOURCE_MEDIA_OPTIMIZATION_BUILD_SIZE_EXTERNAL",
+      "evidence": [
+        "src/services/uploads.ts",
+        "scripts/asset-optimization-checks.mjs",
+        "app.config.ts",
+        "scripts/repository-hygiene-checks.mjs"
+      ],
+      "note": "Pet/social images are privacy-normalized and WebP re-encoded before upload; health/verification images remain JPEG for document interoperability. Static source assets are budget-gated and heavyweight video/model binaries are rejected. Android dynamic-feature/iOS ODR packaging is intentionally not claimed without measured release-build benefit and native artifact evidence."
+    },
+    "15_universal_links": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_ASSOCIATION_IDENTITY",
+      "evidence": [
+        "src/services/deepLinks.ts",
+        "src/navigation/AppNavigator.tsx",
+        "src/screens/ReelsScreen.tsx",
+        "src/screens/FeedScreen.tsx",
+        "scripts/generate-app-link-associations.mjs",
+        "supabase/migrations/158_shareable_pet_profile_deep_link_authorization.sql",
+        "supabase/migrations/174_reel_story_universal_link_authorization.sql",
+        "docs/ARCHITECTURE.md"
+      ],
+      "note": "Pet profile, Reel and active Story Universal/App Links are source-implemented with strict URL parsing, legal/onboarding gating and server-authoritative visibility checks. Reel links honor discoverable/incognito privacy; Story links mirror current follower/own-pet visibility. Real Apple Team ID, Android Play signing fingerprints and hosted association files remain external production identity evidence."
+    },
+    "16_store_automation_fastlane": {
+      "status": "PARTIAL_FASTLANE_BINARY_SUBMISSION_IMPLEMENTED_SCREENSHOT_CAPTURE_EXTERNAL",
+      "evidence": [
+        "Gemfile",
+        "fastlane/Fastfile",
+        "fastlane/Appfile",
+        "fastlane/Matchfile",
+        "scripts/fastlane-automation-checks.mjs",
+        "docs/STORE_RELEASE_CHECKLIST.md",
+        "docs/STORE_REVIEW_ACCESS_RUNBOOK.md",
+        "scripts/store-review-access-release-check.mjs"
+      ],
+      "note": "Pinned Fastlane source automates read-only signing sync and fail-closed upload of EAS-signed IPA/AAB artifacts. Real multi-device screenshots remain a separate release-candidate QA gate and are not fabricated."
+    },
+    "17_accessibility": {
+      "status": "IMPLEMENTED_SOURCE_DEVICE_QA_EXTERNAL",
+      "evidence": [
+        "scripts/accessibility-checks.mjs",
+        "scripts/ux-checks.mjs"
+      ]
+    },
+    "18_zero_trust_backend": {
+      "status": "IMPLEMENTED_MANAGED_EQUIVALENT_EXTERNAL_EDGE_EVIDENCE",
+      "evidence": [
+        "supabase/functions",
+        "scripts/security-checks.mjs",
+        "release/external-security-evidence.json"
+      ],
+      "note": "Supabase managed Edge/RLS + provider perimeter is the current architecture. Istio/Vault are not inserted into a managed platform where they cannot control the provider data plane."
+    },
+    "19_ha_disaster_recovery": {
+      "status": "EXTERNAL_MANAGED_PLATFORM_EVIDENCE_REQUIRED",
+      "evidence": [
+        "docs/OPERATIONS_RUNBOOK.md",
+        "release/external-security-evidence.json"
+      ],
+      "note": "Multi-region/failover/backup guarantees are deployment-provider facts, not source claims."
+    },
+    "20_predictive_autoscaling_finops": {
+      "status": "EXTERNAL_MANAGED_PLATFORM_EVIDENCE_REQUIRED",
+      "evidence": [
+        "docs/OPERATIONS_RUNBOOK.md"
+      ],
+      "note": "KEDA is not applicable to the current managed Supabase data plane; workload scaling evidence belongs to the deployed provider architecture."
+    },
+    "21_chaos_engineering": {
+      "status": "IMPLEMENTED_SOURCE_FAULT_INJECTION_STAGING_EXTERNAL",
+      "evidence": [
+        "scripts/resilience-chaos-checks.mjs",
+        "supabase/functions/_shared/http.ts",
+        "src/services/supabase.ts",
+        "src/services/offlineMutationQueue.ts"
+      ],
+      "note": "Deterministic source-level fault injection covers timeout, oversized/invalid payload, 429/5xx, bounded retry and idempotency behavior without touching production. Destructive provider/network chaos remains a staging-only external exercise; Chaos Mesh is not inserted into the managed Supabase data plane."
+    }
+  }
+}

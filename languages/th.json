@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance จะเข้าถึงเฉพาะรูปภาพที่คุณเลือกสำหรับโปรไฟล์สัตว์เลี้ยงและโพสต์บนโซเชียลเท่านั้น",
+    "NSCameraUsageDescription": "Tailmance ใช้กล้องสำหรับถ่ายรูปสัตว์เลี้ยง สตอรี่ และการยืนยันสัตว์เลี้ยง",
+    "NSLocationWhenInUseUsageDescription": "Tailmance ใช้ตำแหน่งโดยประมาณของคุณเพื่อแสดงสัตว์เลี้ยงใกล้เคียงตามระยะทาง"
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

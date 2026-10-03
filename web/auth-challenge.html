@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; object-src 'none'; script-src 'self' https://challenges.cloudflare.com; style-src 'self'; frame-src https://challenges.cloudflare.com; connect-src https://challenges.cloudflare.com; img-src 'self' data:; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Tailmance security check</title>
+<link rel="stylesheet" href="./auth-challenge.css">
+<script src="./config.js" defer></script>
+<script src="./auth-challenge.js" defer></script>
+</head>
+<body>
+<main class="card" aria-labelledby="title">
+<div class="paw" aria-hidden="true">🐾</div>
+<h1 id="title">Security check</h1>
+<p id="body">Complete this quick verification to continue securely in Tailmance.</p>
+<div id="turnstile" aria-live="polite"></div>
+<p id="status" role="status" aria-live="polite"></p>
+<button id="cancel" type="button">Cancel</button>
+</main>
+</body>
+</html>

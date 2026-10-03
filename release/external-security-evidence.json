@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "policy": "fail_closed",
+  "last_reviewed": "2026-10-01",
+  "items": {
+    "apple_app_attest_server_verification": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Production App Attest entitlement, server challenge, attestation and assertion verification must be exercised on supported physical iOS hardware."
+    },
+    "google_play_integrity_server_verification": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Play Integrity Standard requests and server-side verdict verification must be exercised from a Play-distributed production-equivalent build."
+    },
+    "sentry_native_crash_symbolication": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "A controlled native crash must arrive in the production Sentry project with source maps/native symbols and without prohibited PII."
+    },
+    "revenuecat_apple_server_notifications": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "App Store Server Notifications V2 must be connected for sandbox and production through the chosen RevenueCat/store architecture, and a recent signed JWS notification delivery must be verified end-to-end."
+    },
+    "revenuecat_google_rtdn": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Google Play RTDN/PubSub must be connected to RevenueCat and confirmed with a test notification / recent delivery timestamp."
+    },
+    "revenuecat_tailmance_webhook": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "RevenueCat webhook high-entropy Authorization plus HMAC-SHA256 signing over the exact raw body, five-minute signature timestamp tolerance, exact PRODUCTION/SANDBOX environment binding, app allowlist, retry behavior, idempotent ledger and RevenueCat REST reconciliation must be exercised against the deployed Edge Function."
+    },
+    "iap_sandbox_lifecycle": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Purchase, restore, renewal, cancellation, refund/revocation and account-transfer scenarios must be tested end-to-end on both stores."
+    },
+    "native_auth_anti_bot_challenge": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Source implements production native Turnstile challenge flow for email sign-in/sign-up, password reset and phone OTP using CSPRNG state, HTTPS challenge page, action/state-bound deep-link callback and Supabase captchaToken. Before release, verify the hosted Turnstile widget/site key, hosted Supabase Auth CAPTCHA setting/secret, physical-device return flow, expiry/cancel/error handling and rate-limit interaction in production."
+    },
+    "physical_device_security_smoke": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "MFA, screen-capture protection, background/resume, push lifecycle, account switch/logout, deep links and permission prompts must pass on representative physical iOS/Android devices."
+    },
+    "production_push_credentials_and_delivery": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Verify production iOS APNs/PushKit VoIP and Android FCM V1 credentials are configured for the exact Tailmance bundle/package and EAS project; APNs VoIP uses the exact bundle .voip topic and production signing key, while ordinary Expo tokens remain a separate transport. On representative devices verify Expo push plus iOS killed/background incoming-call CallKit wakeup, Android Telecom incoming-call behavior, token rotation/account switch/logout cleanup, invalid/unregistered token retirement, recipient binding and deep-link/call routing without exposing payload secrets."
+    },
+    "production_livekit_terminal_room_teardown": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Verify LIVEKIT_ROOM_REAPER_SECRET is provisioned, the livekit-room-reaper Edge Function is scheduled with overlapping-run protection, worker health/alerts are monitored, and representative decline/end/hard-expiry/account-deletion scenarios physically delete the LiveKit room and disconnect all participants. Exercise provider outage/recovery to prove the transactional outbox retries until cleanup completes without retaining completed operational rows."
+    },
+    "production_tls_endpoint_scan": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Production Supabase/functions/web endpoints must pass an external TLS and response-header scan showing HTTPS-only service, modern protocol/cipher configuration, valid chain/hostname, no unintended cleartext listener/redirect downgrade, HSTS where appropriate, nosniff/referrer protections, and an HTTP-delivered CSP for sensitive web surfaces. The hosted auth challenge must enforce frame-ancestors via the HTTP CSP response header because meta CSP cannot provide authoritative frame-ancestor enforcement."
+    },
+    "production_mobile_transport_pinning_decision": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Inventory every production mobile endpoint and record the transport-identity decision per host. For first-party endpoints whose TLS keys and rotation are operationally controlled, either implement/test public-key (SPKI) pinning with at least one independent backup pin and a rotation/recovery plan, or document a reviewed risk decision. Do not hard-code brittle single-leaf pins for managed third-party endpoints such as Apple, Google, RevenueCat or managed Supabase certificates whose rotation Tailmance does not control. Verify the final store binaries against this inventory."
+    },
+    "ios_merged_privacy_manifest_required_reason_audit": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Dependency-resolved App Store archive must be inspected for merged PrivacyInfo.xcprivacy, third-party SDK manifests/signatures and Required Reason API declarations; reasons must match actual use and App Privacy answers."
+    },
+    "release_binary_hardening_audit": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Inspect the actual store-ready Android App Bundle and iOS archive: production signing only, no debuggable/test flags or secrets, Android R8/resource shrinking actually applied with mapping retained privately, iOS shipped symbols stripped as appropriate while dSYM/source maps are uploaded privately, entitlements/permissions match the approved allowlist, and release network/privacy settings are present in the generated artifacts."
+    },
+    "moderation_provider_and_response_sla": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Production moderation must be exercised against the configured provider on representative multilingual text/image abuse classes, with sampled false-positive/false-negative review, a working manual-review queue, staffed report handling/contact path, and a documented response/escalation SLA. Source wiring alone cannot prove live classifier quality or operational coverage."
+    },
+    "production_moderation_provider_quality_and_sla": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Exercise the exact production text/image moderation provider and policy configuration against representative multilingual abuse classes; record sampled false-positive/false-negative review, provider failure/manual-review fallback, staffed report-handling ownership, response/escalation SLA, and illegal-content/emergency escalation. Provider DPA/data-region and retention settings must match the approved privacy data map."
+    },
+    "production_environment_and_secret_inventory": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Production environment variables, secrets, key rotation/ownership and absence of dev/test credentials must be verified from the deployed projects. Source placeholders are not evidence."
+    },
+    "google_maps_android_api_key_restrictions": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Verify the production Google Maps Android API key is restricted in Google Cloud to the exact Android application package and release signing certificate fingerprint, and API-restricted to only the Maps Platform APIs/SDKs Tailmance actually uses. Record the production credential/configuration evidence without exposing the key itself."
+    },
+    "production_data_at_rest_encryption_and_key_management": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Verify deployed production database, object storage, backups/snapshots and provider-managed replicas are encrypted at rest with the approved cryptographic/KMS configuration; record key ownership/custody, access controls, rotation/revocation process, backup encryption and restore behavior, and provider evidence without exposing secret key material. SQLCipher/local app encryption and private buckets do not by themselves prove server-side AES-256/KMS encryption."
+    },
+    "reproducible_dependency_lockfile_and_resolution": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "A real dependency resolution must produce a committed lockfile and reproducible clean install/build evidence. Do not fabricate a package-lock.json or infer dependency integrity from package.json alone."
+    },
+    "real_store_release_binary_identity": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "The exact App Store / Play candidate binaries must be cryptographically identified and matched to the audited source, configuration, signing identities and release evidence."
+    },
+    "production_legal_country_resolver_smoke": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Exercise the deployed legal-country resolver and immutable-bundle routing with real production-equivalent data for supported, mismatched, expired, unknown and subnational cases; no source-only PASS."
+    },
+    "production_age_assurance_integration": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Where a jurisdiction requires age assurance beyond self-attestation, verify the selected production provider/process, evidence quality, minimization, retention, failure handling and jurisdiction-specific routing."
+    },
+    "hosted_supabase_auth_effective_config": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Verify deployed Supabase Auth settings match source intent: 15-minute JWT expiry, refresh-token rotation/reuse interval, email confirmation, secure password change, redirect allowlist, TOTP availability, auth rate limits and the chosen production anti-bot challenge path. Also verify Apple and Google OAuth providers are enabled with the exact production client/service IDs and secrets, callback/redirect URIs are allowlisted, and physical-device sign-in plus account-link flows complete without open redirect or identity-confusion behavior. Source config alone does not prove hosted dashboard state."
+    },
+    "security_incident_response_tabletop_27_markets": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Exercise the production incident runbook against all 27 configured-market obligation rows, including awareness/detection/determination clocks, evidence preservation, authority/data-subject routing, phased notices, subnational escalation, designated legal/privacy escalation contacts, and immutable incident records. A desk matrix alone is not operational proof."
+    },
+    "google_play_account_deletion_web_url": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Deploy the external account-deletion web path and enter that exact HTTPS URL in Play Console Data safety/account deletion. Verify the route initiates deletion without requiring app access and accurately describes legally required retention."
+    },
+    "storefront_subscription_price_tax_parity": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Verify the live monthly Premium product is configured at the intended USD 14.99 base price in the designated base storefront and that App Store / Google Play localized storefront pricing, renewal terms and applicable tax/VAT/KDV presentation match the native purchase sheet. The app must render the store-provided localized price string and must not calculate or append client-side tax."
+    },
+    "production_health_verification_provider_ocr_signature": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Exercise the production health-verification provider/OCR/clinic-signature path end-to-end with representative vaccination, neutering, microchip and genetic/pedigree evidence. Confirm signed webhook delivery, clinic public identifier accuracy, false-positive/false-negative review, expiry/revocation behavior, provider DPA/retention/data-region settings, and that no raw provider reference or health-document content is exposed on public pet surfaces."
+    }
+  },
+  "reviewed_at": "2026-09-30"
+}

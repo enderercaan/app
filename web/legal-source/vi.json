@@ -1,0 +1,859 @@
+{
+  "schema_version": 1,
+  "locale": "vi",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Điều khoản sử dụng",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Phiên bản 2026-09-29. Các Điều khoản này điều chỉnh việc bạn sử dụng Tailmance. Mọi điều khoản dành riêng cho quốc gia hoặc khu vực được hiển thị cho bạn đều là một phần của các Điều khoản này. Chủ tài khoản phải từ 18 tuổi trở lên."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Dịch vụ và tài khoản",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance giúp chủ nuôi mèo và chó tạo hồ sơ thú cưng và sử dụng các tính năng khám phá và xã hội. Hãy giữ thông tin tài khoản chính xác, bảo vệ an toàn tài khoản và không chuyển giao tài khoản cho người khác. Tailmance không phải là dịch vụ thú y, y tế, khẩn cấp, bán động vật hay trung gian thanh toán."
+            }
+          ]
+        },
+        {
+          "heading": "2. Tuổi và điều kiện sử dụng",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bạn phải từ 18 tuổi trở lên để tạo tài khoản. Khi pháp luật áp dụng hoặc quy tắc của cửa hàng yêu cầu bảo đảm độ tuổi bổ sung, quyền truy cập có thể cần xác minh thêm. Khai báo sai tuổi có thể dẫn đến hạn chế hoặc chấm dứt quyền truy cập."
+            }
+          ]
+        },
+        {
+          "heading": "3. Hồ sơ thú cưng và trách nhiệm người dùng",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Chỉ tải lên thông tin về thú cưng, ảnh, sức khỏe và hồ sơ mà bạn có quyền sử dụng và chia sẻ. Không cố ý khai sai thông tin về tiêm chủng, sức khỏe, giống, tuổi, giới tính, quyền sở hữu hoặc trạng thái xác minh, và không tải lên dữ liệu cá nhân hoặc nhạy cảm không cần thiết của người khác."
+            }
+          ]
+        },
+        {
+          "heading": "4. Nội dung người dùng và giấy phép",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bạn giữ các quyền đối với nội dung mình tải lên. Bạn cấp cho Tailmance giấy phép không độc quyền trên toàn thế giới, chỉ giới hạn ở việc vận hành, lưu trữ, hiển thị, truyền, bảo vệ và kiểm duyệt nội dung đó khi cần để cung cấp dịch vụ. Quyền sở hữu nội dung không chuyển sang Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "5. Nội dung và hành vi bị cấm",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Cấm ngược đãi động vật, quấy rối, đe dọa, thù ghét, tài liệu lạm dụng tình dục trẻ em, gian lận, hàng hóa hoặc dịch vụ bất hợp pháp, chia sẻ trái phép dữ liệu cá nhân hoặc nội dung thân mật, thông tin sức khỏe hoặc xác minh sai, xâm phạm sở hữu trí tuệ, mạo danh, vượt qua biện pháp bảo mật hoặc kiểm duyệt và hỗ trợ hoạt động trái pháp luật. Hướng dẫn Cộng đồng cung cấp thêm chi tiết."
+            }
+          ]
+        },
+        {
+          "heading": "6. Bán thú cưng, nhân giống thương mại và phối giống",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance không phải là chợ thú cưng, nền tảng bán động vật hay chợ dành cho người nhân giống. Không được sử dụng Tailmance để thỏa thuận giá, tiền đặt cọc, bán hoặc giao động vật, tìm khách hàng cho hoạt động nhân giống thương mại, nhân giống trái pháp luật hoặc buôn bán động vật. Tính năng phối giống mặc định bị tắt và chỉ có thể được bật khi Tailmance kích hoạt rõ ràng và pháp luật cùng quy tắc phúc lợi động vật áp dụng cho phép. Dịch vụ cũng không được dùng để đề nghị, yêu cầu, môi giới hoặc sắp xếp việc nhận nuôi, tìm nhà mới hoặc chuyển quyền sở hữu thú cưng."
+            }
+          ]
+        },
+        {
+          "heading": "7. Kiểm duyệt, an toàn và khiếu nại",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance có thể hạn chế khả năng hiển thị nội dung hoặc quyền truy cập tài khoản vì lý do an toàn, Điều khoản, Hướng dẫn Cộng đồng hoặc pháp lý. Khi phù hợp, người dùng được cung cấp lý do và kênh khiếu nại hiện có. Khiếu nại thành công không hủy bỏ một hạn chế độc lập và hợp lệ khác áp dụng cho cùng nội dung hoặc tài khoản."
+            }
+          ]
+        },
+        {
+          "heading": "8. Sức khỏe động vật và tình huống khẩn cấp",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance không cung cấp chăm sóc thú y, chẩn đoán y khoa hoặc dịch vụ khẩn cấp. Hồ sơ tiêm chủng, sức khỏe hoặc xác minh trong ứng dụng không thay thế đánh giá chuyên môn của bác sĩ thú y. Khi cần, hãy liên hệ bác sĩ thú y, dịch vụ khẩn cấp hoặc cơ quan có thẩm quyền thích hợp."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium và thanh toán qua cửa hàng",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium là tùy chọn và chế độ Standard vẫn dùng được không cần đăng ký. Trừ khi cửa hàng nêu khác, Premium tự động gia hạn. App Store hoặc Google Play hiển thị giá, tiền tệ, thuế, chu kỳ, thời gian dùng thử và điều kiện khuyến mại có tính ràng buộc. Hãy quản lý và hủy qua cửa hàng tương ứng. Xóa tài khoản Tailmance không tự động hủy đăng ký tại cửa hàng."
+            }
+          ]
+        },
+        {
+          "heading": "10. Quyền riêng tư và bảo đảm độ tuổi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Chính sách Quyền riêng tư và các phụ lục quyền riêng tư địa phương áp dụng giải thích việc xử lý dữ liệu. Đồng ý nhận thông báo đẩy tiếp thị là riêng biệt và tùy chọn. Nếu bảo đảm độ tuổi sử dụng dữ liệu định danh, khuôn mặt, sinh trắc học hoặc dữ liệu nhạy cảm khác, thông tin quyền riêng tư bổ sung và các quyền liên quan phải được cung cấp riêng."
+            }
+          ]
+        },
+        {
+          "heading": "11. Hạn chế, chấm dứt và xóa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bạn có thể xóa vĩnh viễn tài khoản và sử dụng kênh xóa qua web nếu không thể truy cập ứng dụng. Tailmance có thể áp dụng hạn chế tương xứng đối với vi phạm Điều khoản, an toàn hoặc pháp luật và, khi áp dụng, cung cấp lý do cùng quyền khiếu nại. Việc xóa không đòi hỏi phải xóa ngay những hồ sơ giới hạn mà pháp luật yêu cầu chúng tôi giữ lại cho mục đích an ninh, tranh chấp, yêu cầu hợp pháp hoặc kế toán."
+            }
+          ]
+        },
+        {
+          "heading": "12. Sở hữu trí tuệ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Chỉ tải lên nội dung mà bạn có quyền chia sẻ. Chủ sở hữu quyền có thể sử dụng quy trình Thông báo Sở hữu trí tuệ. Các quyền thông báo, phản thông báo và khôi phục riêng theo quốc gia vẫn áp dụng khi được yêu cầu."
+            }
+          ]
+        },
+        {
+          "heading": "13. Thay đổi và tính khả dụng của dịch vụ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Các tính năng có thể thay đổi, bị tạm ngừng hoặc không khả dụng tại một quốc gia vì lý do an toàn, pháp luật, chính sách cửa hàng hoặc sản phẩm. Tailmance không bảo đảm quyền truy cập liên tục hoặc hoàn toàn không có lỗi, nhưng các quyền bắt buộc của người tiêu dùng và nghĩa vụ đối với dịch vụ trả phí vẫn được giữ nguyên."
+            }
+          ]
+        },
+        {
+          "heading": "14. Trách nhiệm và các quyền không thể từ bỏ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Không nội dung nào trong các Điều khoản này loại bỏ quyền của người tiêu dùng, quyền bảo vệ dữ liệu, quyền tiếp cận hoặc các quyền khác mà pháp luật áp dụng không cho phép bạn từ bỏ. Tuyên bố miễn trừ và giới hạn trách nhiệm chỉ áp dụng trong phạm vi pháp luật cho phép."
+            }
+          ]
+        },
+        {
+          "heading": "15. Luật điều chỉnh và điều khoản địa phương",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Luật áp dụng, diễn đàn bắt buộc cho người tiêu dùng, giải quyết tranh chấp thay thế, tòa án, quyền tiếp cận cơ quan quản lý và các quyền địa phương khác có thể khác nhau tùy nơi bạn thường trú hoặc nơi dịch vụ được cung cấp. Các phụ lục dành riêng cho quốc gia hoặc khu vực bổ sung cho các Điều khoản này và các quyền địa phương bắt buộc vẫn được bảo lưu."
+            }
+          ]
+        },
+        {
+          "heading": "16. Thay đổi và chấp thuận lại",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Khi Điều khoản có tính ràng buộc hoặc phụ lục địa phương áp dụng thay đổi đáng kể, Tailmance sẽ thông báo hoặc yêu cầu chấp thuận lại khi cần. Sự chấp thuận trong bối cảnh quốc gia, khu vực hoặc ngôn ngữ tài liệu cũ không tự động chuyển sang bối cảnh mới."
+            }
+          ]
+        },
+        {
+          "heading": "17. Liên hệ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sử dụng trang Hỗ trợ và Liên hệ cho các yêu cầu về hỗ trợ, an toàn, quyền riêng tư và các yêu cầu khác. Khi pháp luật áp dụng yêu cầu thông tin về đơn vị vận hành, đại diện, cơ quan quản lý hoặc đầu mối người tiêu dùng, thông tin đó sẽ được nêu trong phụ lục địa phương liên quan."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Chính sách Quyền riêng tư",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Phiên bản 2026-09-29. Bên kiểm soát dữ liệu: Yekta Özel. Chính sách này giải thích cách Tailmance xử lý dữ liệu cá nhân. Các phụ lục quyền riêng tư dành riêng cho quốc gia hoặc khu vực được hiển thị cho bạn áp dụng cùng Chính sách này. Chính sách này không phải là sự đồng ý tiếp thị."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Các loại dữ liệu chúng tôi xử lý",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Chúng tôi có thể xử lý dữ liệu tài khoản và phiên; dữ liệu bảo mật, thiết bị, mạng, IP và mã thông báo đẩy; hồ sơ thú cưng, ảnh và tương tác xã hội; vị trí gần đúng để khám phá; hồ sơ sức khỏe, tiêm chủng và xác minh mà bạn chọn tải lên; trạng thái đăng ký và tham chiếu giao dịch cửa hàng; báo cáo, chặn, kiểm duyệt và khiếu nại; tùy chọn thông báo và tiếp thị; cùng hồ sơ chứng minh bối cảnh pháp lý và tài liệu nào đã được hiển thị cho bạn."
+            }
+          ]
+        },
+        {
+          "heading": "2. Nguồn dữ liệu",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Chúng tôi nhận dữ liệu trực tiếp từ bạn, thiết bị và việc sử dụng ứng dụng, nội dung bạn tải lên, các quy trình an toàn và kiểm duyệt, App Store hoặc Google Play, các nhà cung cấp dịch vụ được ủy quyền và, trong một số trường hợp hạn chế, từ báo cáo hoặc nội dung của người dùng khác."
+            }
+          ]
+        },
+        {
+          "heading": "3. Mục đích",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Chúng tôi xử lý dữ liệu để cung cấp tài khoản và tính năng xã hội, khám phá và ghép nối, nhắn tin và thông báo, bảo mật và ngăn chặn gian lận, kiểm duyệt và khiếu nại, xác minh đăng ký, xử lý yêu cầu người dùng, xuất và xóa dữ liệu, duy trì độ tin cậy của dịch vụ và tuân thủ pháp luật áp dụng."
+            }
+          ]
+        },
+        {
+          "heading": "4. Cơ sở pháp lý và khác biệt địa phương",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tùy mục đích, loại dữ liệu và pháp luật áp dụng, việc xử lý có thể dựa trên hợp đồng, nghĩa vụ pháp lý, lợi ích hợp pháp, sự đồng ý hoặc cơ sở hợp pháp khác. Các phụ lục quyền riêng tư địa phương giải thích các khác biệt theo từng khu vực pháp lý."
+            }
+          ]
+        },
+        {
+          "heading": "5. Thông báo tách biệt với sự đồng ý tiếp thị",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Thông báo quyền riêng tư cung cấp thông tin về việc xử lý; đó không phải là sự đồng ý bao quát. Thông báo đẩy tiếp thị cần lựa chọn riêng, tự nguyện và có thể rút lại, và không cho phép tiếp thị qua email, SMS, điện thoại hoặc kênh khác trừ khi được cho phép riêng."
+            }
+          ]
+        },
+        {
+          "heading": "6. Vị trí",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nếu bạn cho phép truy cập vị trí, Tailmance có thể sử dụng vị trí thiết bị cho tính năng khám phá. Tọa độ được làm tròn đến ba chữ số thập phân trước khi gửi tới máy chủ, được lưu riêng tư và không hiển thị cho người dùng khác; chỉ khoảng cách gần đúng được hiển thị. Tín hiệu vị trí của thiết bị và cửa hàng không tự chúng xác định khu vực pháp lý."
+            }
+          ]
+        },
+        {
+          "heading": "7. Dữ liệu sức khỏe và dữ liệu nhạy cảm",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hồ sơ sức khỏe và tiêm chủng của thú cưng có thể chứa thông tin nhạy cảm. Chỉ tải lên những gì cần thiết và tránh dữ liệu của bên thứ ba. Khi dữ liệu định danh, khuôn mặt, sinh trắc học hoặc thông tin nhạy cảm khác được dùng để bảo đảm độ tuổi, phải cung cấp thông báo bổ sung, biện pháp bảo vệ, giới hạn lưu giữ, thông tin nhà cung cấp và quy trình thay thế theo yêu cầu."
+            }
+          ]
+        },
+        {
+          "heading": "8. Chia sẻ và bên xử lý",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Dữ liệu chỉ có thể được chia sẻ với các nhà cung cấp hạ tầng, an ninh, kiểm duyệt, nhắn tin, thông báo, phân tích/sự cố, đăng ký và các nhà cung cấp được ủy quyền khác trong phạm vi cần thiết cho dịch vụ, và với cơ quan công quyền khi pháp luật yêu cầu hợp pháp. Tailmance không bán dữ liệu cá nhân cho nhà quảng cáo."
+            }
+          ]
+        },
+        {
+          "heading": "9. Chuyển dữ liệu quốc tế",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Khi dữ liệu được chuyển quốc tế, Tailmance phải sử dụng cơ chế và biện pháp bảo vệ mà khu vực pháp lý áp dụng yêu cầu và cung cấp mọi thông báo địa phương bắt buộc. Quy tắc chuyển dữ liệu có thể khác nhau theo quốc gia hoặc khu vực."
+            }
+          ]
+        },
+        {
+          "heading": "10. Lưu giữ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Dữ liệu chỉ được lưu trong thời gian cần thiết cho mục đích xử lý hoặc theo yêu cầu của pháp luật. Các loại dữ liệu khác nhau có thời hạn khác nhau. Việc xóa tài khoản không yêu cầu xóa ngay các hồ sơ giới hạn về an ninh, gian lận, tranh chấp, kế toán hoặc yêu cầu hợp pháp mà phải được lưu giữ."
+            }
+          ]
+        },
+        {
+          "heading": "11. Bảo mật",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance sử dụng các biện pháp kỹ thuật và tổ chức được thiết kế để bảo vệ dữ liệu, gồm kiểm soát truy cập, mã hóa khi truyền, kiểm soát lưu trữ riêng tư, hồ sơ kiểm toán và ngăn ngừa lạm dụng. Không hệ thống nào có thể bảo đảm an toàn tuyệt đối."
+            }
+          ]
+        },
+        {
+          "heading": "12. Quyền của bạn",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tùy pháp luật áp dụng, bạn có thể có quyền truy cập, sửa, xóa, hạn chế hoặc phản đối xử lý, chuyển dữ liệu, rút lại sự đồng ý, phản đối một số quyết định tự động, khiếu nại với cơ quan quản lý và nhận thông tin về bên nhận và việc chuyển dữ liệu. Phụ lục địa phương giải thích chính xác các quyền và thủ tục."
+            }
+          ]
+        },
+        {
+          "heading": "13. Trẻ em và độ tuổi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tài khoản Tailmance dành cho người lớn từ 18 tuổi trở lên. Quy tắc sản phẩm này không thay thế nghĩa vụ về bảo đảm độ tuổi, an toàn trẻ em, báo cáo hoặc nền tảng có thể áp dụng theo pháp luật hoặc chính sách cửa hàng. Nếu Tailmance biết một người chưa thành niên không đủ điều kiện đã tạo tài khoản, có thể áp dụng biện pháp hạn chế và xóa phù hợp."
+            }
+          ]
+        },
+        {
+          "heading": "14. Hệ thống tự động và kiểm duyệt",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hệ thống tự động có thể hỗ trợ an toàn, phát hiện gian lận, xếp hạng, khuyến nghị và kiểm duyệt. Khi pháp luật áp dụng yêu cầu giải thích, xem xét bởi con người, phản đối hoặc biện pháp bảo vệ khác đối với quyết định có hệ quả, các quyền đó sẽ được cung cấp."
+            }
+          ]
+        },
+        {
+          "heading": "15. Thay đổi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Những thay đổi đáng kể đối với Chính sách này hoặc phụ lục địa phương sẽ được thông báo khi cần. Nếu thay đổi yêu cầu sự đồng ý hoặc xác nhận mới, Tailmance sẽ yêu cầu thay vì dựa vào lựa chọn cũ."
+            }
+          ]
+        },
+        {
+          "heading": "16. Liên hệ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sử dụng trang Hỗ trợ và Liên hệ cho yêu cầu về quyền riêng tư. Khi pháp luật yêu cầu đại diện địa phương, đầu mối quyền riêng tư, cơ quan bảo vệ dữ liệu hoặc liên hệ khác theo khu vực pháp lý, phụ lục địa phương liên quan sẽ cung cấp thông tin đó."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Hướng dẫn Cộng đồng",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Các quy tắc này áp dụng cùng Điều khoản nhằm giữ Tailmance tôn trọng, an toàn và tập trung vào phúc lợi động vật. Pháp luật địa phương áp dụng nghiêm ngặt hơn được ưu tiên."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Tôn trọng con người và động vật",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Không ngược đãi hoặc gây nguy hiểm cho động vật, quấy rối, đe dọa, theo dõi, bóc lột, phân biệt đối xử hoặc hướng lời thù ghét vào người khác. Không khuyến khích việc xử lý động vật không an toàn hoặc che giấu rủi ro đáng kể đối với phúc lợi của chúng."
+            }
+          ]
+        },
+        {
+          "heading": "2. Bóc lột tình dục và an toàn trẻ em",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tài liệu lạm dụng tình dục trẻ em, bóc lột tình dục người chưa thành niên, grooming, dụ dỗ hoặc nội dung tạo điều kiện cho hành vi đó đều bị cấm. Tailmance có thể bảo toàn, hạn chế và báo cáo tài liệu khi pháp luật yêu cầu và cung cấp kênh liên hệ về an toàn trẻ em."
+            }
+          ]
+        },
+        {
+          "heading": "3. Hồ sơ xác thực và tuyên bố sức khỏe",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Không mạo danh người khác, khai sai quyền sở hữu thú cưng, giống, tuổi, giới tính, sức khỏe, tiêm chủng hoặc trạng thái xác minh, hoặc nộp tài liệu giả. Huy hiệu xác minh không phải là bảo đảm thú y."
+            }
+          ]
+        },
+        {
+          "heading": "4. Quyền riêng tư và nội dung thân mật",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Không chia sẻ dữ liệu riêng tư, vị trí chính xác, thông tin đăng nhập, thông tin y tế hoặc hình ảnh thân mật của người khác nếu chưa được phép. Tránh đưa dữ liệu cá nhân của bên thứ ba không cần thiết vào hồ sơ thú cưng hoặc tin nhắn."
+            }
+          ]
+        },
+        {
+          "heading": "5. Hàng hóa bất hợp pháp, gian lận và hành vi nguy hiểm",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Không sử dụng Tailmance cho gian lận, hàng hóa hoặc dịch vụ bất hợp pháp, vũ khí hoặc hoạt động nguy hiểm, chương trình tài chính không được phép, hoặc hành vi tạo điều kiện cho tội phạm hay né tránh các biện pháp an toàn hợp pháp."
+            }
+          ]
+        },
+        {
+          "heading": "6. Bán thú cưng và nhân giống thương mại",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance không phải là chợ bán thú cưng hay chợ cho người nhân giống. Cấm thương lượng giá, đặt cọc, bán hoặc giao động vật, tạo đầu mối khách hàng cho người nhân giống thương mại, nhân giống bất hợp pháp, buôn bán động vật hoặc hoạt động trại nhân giống hàng loạt gây hại. Dịch vụ cũng không được dùng để đề nghị, yêu cầu, môi giới hoặc sắp xếp việc nhận nuôi, tìm nhà mới hoặc chuyển quyền sở hữu thú cưng."
+            }
+          ]
+        },
+        {
+          "heading": "7. Phối giống và phúc lợi động vật",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tính năng phối giống mặc định bị tắt và chỉ có thể được bật sau khi các kiểm soát pháp lý, phúc lợi, tuổi, sức khỏe và quan hệ huyết thống theo từng quốc gia được phê duyệt. Người dùng không được sử dụng dịch vụ để thúc đẩy nhân giống có hại hoặc trái pháp luật."
+            }
+          ]
+        },
+        {
+          "heading": "8. Báo cáo, chặn và kiểm duyệt",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sử dụng chức năng báo cáo và chặn trong ứng dụng cho các vấn đề an toàn. Tailmance có thể xóa hoặc hạn chế nội dung hoặc tài khoản và sẽ cung cấp lý do cùng kênh khiếu nại khi phù hợp và được pháp luật yêu cầu."
+            }
+          ]
+        },
+        {
+          "heading": "9. Quy tắc địa phương",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nghĩa vụ theo quốc gia hoặc khu vực về nội dung bất hợp pháp, an toàn trẻ em, phúc lợi động vật, báo cáo, bảo toàn và thực thi pháp luật có thể bổ sung cho Hướng dẫn này. Tailmance áp dụng quy tắc nghiêm ngặt hơn khi được yêu cầu."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Đồng ý nhận thông báo đẩy tiếp thị",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Lựa chọn này tách biệt với Điều khoản và Chính sách Quyền riêng tư. Đây là lựa chọn tự nguyện và không bắt buộc để sử dụng dịch vụ cốt lõi của Tailmance."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Lựa chọn push tiếp thị",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nếu bạn chủ động bật thông báo đẩy tiếp thị, Tailmance có thể gửi tin tức sản phẩm, ưu đãi hoặc cập nhật quảng bá tới thiết bị di động. Bạn có thể rút lại lựa chọn này bất cứ lúc nào trong Cài đặt mà không ảnh hưởng đến thông báo dịch vụ cần thiết. Sự đồng ý này không bao gồm email, SMS, điện thoại hoặc kênh khác. Khi chế độ địa phương như quy tắc thông điệp điện tử thương mại của Türkiye hoặc quy tắc chống thư rác của Canada đặt ra yêu cầu bổ sung, các yêu cầu đó phải được đáp ứng riêng."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Thông tin Đăng ký và Người tiêu dùng",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Trang này giải thích Tailmance Premium và thông tin người tiêu dùng áp dụng trước và sau khi mua. Các quyền bắt buộc của người tiêu dùng địa phương luôn được bảo lưu."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium là tùy chọn. Chế độ Standard tiếp tục sử dụng được mà không cần đăng ký. Các tính năng Premium được mô tả trong ứng dụng và có thể thay đổi cho tương lai theo pháp luật bảo vệ người tiêu dùng áp dụng."
+            }
+          ]
+        },
+        {
+          "heading": "2. Giá và thanh toán",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Giá, tiền tệ, thuế, kỳ thanh toán, dùng thử và điều kiện khuyến mại có tính ràng buộc là các giá trị được App Store hoặc Google Play hiển thị ngay trước khi mua. Tailmance không trực tiếp thu thập số thẻ thanh toán của bạn."
+            }
+          ]
+        },
+        {
+          "heading": "3. Tự động gia hạn",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Trừ khi cửa hàng nêu rõ khác đi, Premium tự động gia hạn cho đến khi bị hủy. Thời điểm gia hạn và khoản phí tuân theo điều khoản của cửa hàng liên quan và pháp luật áp dụng."
+            }
+          ]
+        },
+        {
+          "heading": "4. Hủy",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quản lý hoặc hủy qua tài khoản cửa hàng đã dùng để mua. Xóa tài khoản Tailmance không tự động hủy đăng ký của cửa hàng. Việc hủy thường dừng các lần gia hạn trong tương lai và tự nó không tạo quyền hoàn tiền."
+            }
+          ]
+        },
+        {
+          "heading": "5. Hoàn tiền, quyền rút lại và quyền bắt buộc",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quyền hoàn tiền, thời gian cân nhắc, quyền rút lại, sự phù hợp theo luật định và quyền đối với dịch vụ số phụ thuộc vào cửa hàng và pháp luật người tiêu dùng áp dụng. Không nội dung nào trên trang này hạn chế các quyền không thể bị từ bỏ hợp pháp."
+            }
+          ]
+        },
+        {
+          "heading": "6. Xóa tài khoản và quyền lợi đăng ký",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nếu bạn xóa tài khoản Tailmance trong khi đăng ký cửa hàng vẫn hoạt động, việc thanh toán qua cửa hàng có thể tiếp tục cho đến khi được hủy riêng. Khôi phục hoặc chuyển quyền lợi phụ thuộc vào tài khoản cửa hàng và hồ sơ đăng ký đã được Tailmance xác minh."
+            }
+          ]
+        },
+        {
+          "heading": "7. Thông tin trình bày trước khi mua",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Trước khi mua trong ứng dụng, Tailmance ghi lại chính xác bộ tài liệu người tiêu dùng đã trình bày cho bạn. Nếu bundle pháp lý hoặc hash tài liệu thay đổi trước khi bảng mua hàng của cửa hàng mở, luồng mua phải dừng và yêu cầu xem xét lại."
+            }
+          ]
+        },
+        {
+          "heading": "8. Thông tin địa phương",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Thông tin đơn vị vận hành, thông tin thuế, hướng dẫn rút lại, kênh giải quyết tranh chấp hoặc tiết lộ bắt buộc khác theo quốc gia hoặc khu vực được cung cấp trong phụ lục địa phương áp dụng khi cần."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Quyết định Kiểm duyệt và Khiếu nại",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance sử dụng kiểm duyệt để bảo vệ người dùng, động vật, dịch vụ và việc tuân thủ pháp luật. Các quyết định đủ điều kiện có phần giải thích và kênh khiếu nại khi phù hợp."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Quyết định",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance có thể xóa, hạn chế, hạ thứ hạng hoặc giới hạn nội dung, tính năng hoặc tài khoản vì Hướng dẫn Cộng đồng, Điều khoản, an toàn, gian lận, phúc lợi động vật hoặc lý do pháp lý. Quyết định được ghi lại với lý do hiển thị cho người dùng trừ khi việc tiết lộ bị cấm vì lý do an toàn hoặc pháp luật."
+            }
+          ]
+        },
+        {
+          "heading": "2. Khiếu nại",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Khi có quyền khiếu nại, hãy gửi qua ứng dụng hoặc kênh được nêu trong thời hạn áp dụng. Khiếu nại được xem xét cùng bằng chứng của quyết định và có thể bao gồm xem xét bởi con người. Khiếu nại thành công không vô hiệu hóa một hạn chế độc lập và hợp lệ khác."
+            }
+          ]
+        },
+        {
+          "heading": "3. Khôi phục",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quyết định bị đảo ngược không được coi là hoàn tất cho đến khi trạng thái sản phẩm bị ảnh hưởng thực sự được khôi phục nếu việc khôi phục phù hợp. Các quyết định đang có hiệu lực và xung đột ngăn việc khôi phục tự động không an toàn."
+            }
+          ]
+        },
+        {
+          "heading": "4. Hạn chế tài khoản",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nếu quyền truy cập tài khoản bị hạn chế, Tailmance cung cấp lý do phù hợp và kênh khiếu nại hiện có trừ khi việc tiết lộ bị hạn chế theo pháp luật hoặc vì an toàn. Các kênh hỗ trợ và các kênh pháp lý/quyền riêng tư bắt buộc vẫn khả dụng khi chúng phải được tiếp cận."
+            }
+          ]
+        },
+        {
+          "heading": "5. Quyền bên ngoài",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quy trình khiếu nại nội bộ không loại bỏ bất kỳ quyền nào của bạn trong việc liên hệ cơ quan quản lý, tòa án, cơ quan giải quyết tranh chấp hoặc cơ quan có thẩm quyền khác theo pháp luật áp dụng."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Sở hữu Trí tuệ và Thông báo Vi phạm",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Chủ sở hữu quyền và đại diện được ủy quyền có thể báo cáo nội dung trên Tailmance mà họ tin là xâm phạm quyền sở hữu trí tuệ."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Gửi thông báo",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Cung cấp đủ thông tin để xác định tác phẩm hoặc quyền được bảo hộ, xác định vị trí nội dung bị báo cáo, liên hệ với bạn và chứng minh thẩm quyền hành động của bạn. Bao gồm tuyên bố thiện chí và chữ ký khi pháp luật áp dụng yêu cầu."
+            }
+          ]
+        },
+        {
+          "heading": "Xem xét và phản thông báo",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance xem xét thông báo theo pháp luật áp dụng và có biện pháp chống yêu cầu gian lận hoặc lạm dụng. Khi nội dung bị hạn chế, người dùng bị ảnh hưởng có thể nhận lý do và quy trình khiếu nại hoặc phản thông báo nếu phù hợp."
+            }
+          ]
+        },
+        {
+          "heading": "Vi phạm lặp lại",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Vi phạm lặp lại đã được xác minh có thể dẫn đến hạn chế tương xứng đối với nội dung hoặc tài khoản. Chỉ số lượng thông báo không tự chứng minh vi phạm; các thông báo nhầm lẫn hoặc lạm dụng cũng được xem xét."
+            }
+          ]
+        },
+        {
+          "heading": "Hoa Kỳ 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Khi thủ tục §512 áp dụng, phụ lục riêng cho Hoa Kỳ sẽ xác định đại diện được chỉ định và quy trình thông báo bắt buộc. Trang chung này không tuyên bố Tailmance đã hoàn tất bất kỳ đăng ký nào hoặc đủ điều kiện hưởng cơ chế miễn trừ trách nhiệm theo luật trừ khi phụ lục Hoa Kỳ xác nhận rõ ràng."
+            }
+          ]
+        },
+        {
+          "heading": "Nội dung khẩn cấp hoặc bất hợp pháp",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Thông báo sở hữu trí tuệ không thay thế báo cáo tình huống khẩn cấp hoặc nội dung bất hợp pháp. Hãy dùng chức năng báo cáo trong ứng dụng, Trung tâm An toàn hoặc Hỗ trợ cho những vấn đề đó."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Khả năng tiếp cận",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance coi khả năng sử dụng dễ tiếp cận là yêu cầu cốt lõi của sản phẩm và hướng tới hỗ trợ nhiều nhóm người dùng cùng công nghệ hỗ trợ."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Sử dụng dễ tiếp cận",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Giao diện được thiết kế với nhãn rõ ràng, chữ dễ đọc, độ tương phản, chữ có thể phóng to, vùng chạm phù hợp và khả năng tương thích với công nghệ hỗ trợ. Mọi quyền tiếp cận bắt buộc cao hơn theo pháp luật áp dụng vẫn không bị ảnh hưởng."
+            }
+          ]
+        },
+        {
+          "heading": "Công nghệ hỗ trợ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nếu bạn gặp vấn đề với VoiceOver, TalkBack, chữ lớn hơn, switch access, điều hướng bàn phím hoặc tính năng tiếp cận khác, hãy liên hệ với chúng tôi và, nếu hữu ích, cung cấp thông tin về thiết bị, hệ điều hành và công nghệ hỗ trợ."
+            }
+          ]
+        },
+        {
+          "heading": "Yêu cầu tiếp cận",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nếu bạn không thể sử dụng màn hình, điều khiển hoặc phần nội dung, hoặc cần điều chỉnh hợp lý, hãy liên hệ yektaozel@icloud.com. Không gửi thông tin cá nhân hoặc nhạy cảm không cần thiết để giải thích vấn đề."
+            }
+          ]
+        },
+        {
+          "heading": "Quyền địa phương và phạm vi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Trang này không phải chứng nhận độc lập về khả năng tiếp cận hoặc tuyên bố bao quát về việc tuân thủ mọi tiêu chuẩn kỹ thuật hoặc pháp lý. Trang này không giới hạn các quyền tiếp cận hoặc quyền người tiêu dùng không thể từ bỏ, và có thể áp dụng thêm quyền địa phương."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Xóa Tài khoản và Dữ liệu của Bạn",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Cách nhanh nhất để xóa tài khoản Tailmance là Cài đặt → Xóa tài khoản vĩnh viễn. Nếu không thể truy cập ứng dụng, bạn có thể gửi yêu cầu xóa trên web mà không cần cài đặt lại ứng dụng."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Yêu cầu xóa qua web",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Yêu cầu chỉ được xử lý sau khi xác minh chủ tài khoản thích hợp. Biểu mẫu web được thiết kế để không tiết lộ cho bên thứ ba liệu một địa chỉ email có liên kết với tài khoản Tailmance hay không."
+            }
+          ]
+        },
+        {
+          "heading": "Những gì bị xóa và những gì có thể được lưu giữ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Việc xóa bao gồm tài khoản, hồ sơ thú cưng, nội dung xã hội và ảnh thuộc sở hữu của bạn, hồ sơ nhắn tin/ghép nối liên kết với tài khoản, hồ sơ sức khỏe/tiêm chủng riêng tư, vị trí riêng tư và tùy chọn, tùy thuộc quy tắc lưu giữ áp dụng. Một số hồ sơ giới hạn về an ninh, ngăn chặn gian lận, tranh chấp, kế toán hoặc pháp lý có thể được giữ lại khi pháp luật yêu cầu hoặc cho phép, như giải thích trong Chính sách Quyền riêng tư và phụ lục địa phương."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Hỗ trợ và Liên hệ",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Đơn vị vận hành: Yekta Ozel. Để được trợ giúp về tài khoản, thanh toán, quyền riêng tư, an toàn hoặc kiểm duyệt, hãy dùng Trung tâm An toàn và Trung tâm Pháp lý & Quyền riêng tư trong ứng dụng hoặc email yektaozel@icloud.com."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Liên hệ an toàn trẻ em",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Đối với báo cáo liên quan đến lạm dụng hoặc bóc lột tình dục trẻ em, hãy liên hệ yektaozel@icloud.com và sử dụng công cụ báo cáo trong ứng dụng nếu có. Nếu có nguy hiểm trực tiếp và nghiêm trọng, hãy liên hệ dịch vụ khẩn cấp hoặc cơ quan địa phương phù hợp."
+            }
+          ]
+        },
+        {
+          "heading": "Quyết định kiểm duyệt",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sử dụng kênh Quyết định Kiểm duyệt và Khiếu nại cho các khiếu nại kiểm duyệt đủ điều kiện."
+            }
+          ]
+        },
+        {
+          "heading": "Sở hữu trí tuệ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sử dụng trang Sở hữu Trí tuệ cho thông báo xâm phạm bản quyền, nhãn hiệu hoặc các quyền khác."
+            }
+          ]
+        },
+        {
+          "heading": "Khả năng tiếp cận",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sử dụng trang Khả năng tiếp cận hoặc liên hệ chúng tôi về vấn đề tiếp cận và yêu cầu điều chỉnh."
+            }
+          ]
+        },
+        {
+          "heading": "Xóa tài khoản",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nếu bạn không thể truy cập ứng dụng, hãy sử dụng kênh yêu cầu xóa tài khoản trên web."
+            }
+          ]
+        },
+        {
+          "heading": "Sức khỏe động vật",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance không phải dịch vụ thú y hoặc y tế khẩn cấp. Đối với vấn đề sức khỏe động vật khẩn cấp, hãy liên hệ trực tiếp dịch vụ thú y phù hợp."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_privacy_supplement": {
+      "file": "jurisdiction-privacy.html",
+      "title": "Lớp quyền riêng tư theo quốc gia",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tài liệu này giải thích cách Tailmance áp dụng thông tin quyền riêng tư theo từng quốc gia. Đây không phải là biểu mẫu đồng ý và không thay thế phụ lục pháp lý chính xác theo quốc gia dành cho quốc gia pháp lý đã được xác minh của bạn."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Bối cảnh pháp lý chính xác",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance xác định nghĩa vụ theo quốc gia dựa trên quốc gia pháp lý đã được xác minh và, khi cần, bối cảnh cấp bang, tỉnh hoặc địa phương có liên quan. Việc đổi ngôn ngữ ứng dụng, đi du lịch hoặc đổi khu vực cửa hàng tự nó không làm thay đổi bối cảnh pháp lý này."
+            }
+          ]
+        },
+        {
+          "heading": "2. Dữ liệu và mục đích",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Các nhóm dữ liệu cá nhân và mục đích xử lý được nêu trong Thông báo quyền riêng tư tiếp tục được áp dụng. Các yêu cầu địa phương bổ sung hoặc nghiêm ngặt hơn được áp dụng thông qua phụ lục chính xác theo quốc gia và các biện pháp kiểm soát pháp lý khi hệ thống vận hành."
+            }
+          ]
+        },
+        {
+          "heading": "3. Quyền và yêu cầu",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Các quyền có thể thực hiện, thủ tục yêu cầu, thời hạn phản hồi và con đường tới cơ quan quản lý thay đổi theo pháp luật áp dụng. Phụ lục chính xác theo quốc gia mô tả lớp địa phương này. Khi áp dụng, ứng dụng vẫn cung cấp đường dẫn xuất dữ liệu và xóa tài khoản/dữ liệu."
+            }
+          ]
+        },
+        {
+          "heading": "4. Chuyển dữ liệu và lưu giữ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Biện pháp bảo vệ khi chuyển dữ liệu quốc tế, nghĩa vụ lưu trữ hoặc bản địa hóa dữ liệu và yêu cầu lưu giữ được áp dụng theo bối cảnh pháp lý đã xác minh. Tailmance không trình bày một thời hạn lưu giữ hoặc một cơ chế chuyển dữ liệu duy nhất là hợp lệ cho mọi quốc gia."
+            }
+          ]
+        },
+        {
+          "heading": "5. Tiếp thị và sự đồng ý",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Các lựa chọn tiếp thị không bắt buộc được quản lý tách biệt với thông báo này. Việc nhận hoặc xác nhận đã đọc tài liệu này không tạo thành sự đồng ý khi pháp luật áp dụng yêu cầu một lựa chọn khẳng định riêng."
+            }
+          ]
+        },
+        {
+          "heading": "6. Tài liệu theo quốc gia",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Trung tâm Pháp lý hiển thị phụ lục chính xác theo quốc gia dành cho quốc gia pháp lý của bạn. Nếu có bản dịch hỗ trợ khả năng tiếp cận, bản dịch đó không thay thế phiên bản ngôn ngữ bắt buộc hoặc có tính ràng buộc do Tailmance xác định."
+            }
+          ]
+        },
+        {
+          "heading": "7. Liên hệ",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Câu hỏi hoặc yêu cầu về quyền riêng tư có thể được gửi tới yektaozel@icloud.com."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

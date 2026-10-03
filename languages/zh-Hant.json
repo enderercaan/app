@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance 只會存取你為寵物檔案和社群貼文選擇的照片。",
+    "NSCameraUsageDescription": "Tailmance 使用相機拍攝寵物照片、發佈限時動態及進行寵物驗證。",
+    "NSLocationWhenInUseUsageDescription": "Tailmance 使用你的大概位置，依距離顯示附近的寵物。"
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

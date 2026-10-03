@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-01",
+  "product_policy": {
+    "minimum_account_age": 18,
+    "product_age_policy": "18+",
+    "note": "Tailmance product policy is 18+. Store age/content ratings are separate questionnaire-driven outputs and must not be guessed from this policy."
+  },
+  "apple_age_rating": {
+    "current_scale": [
+      "4+",
+      "9+",
+      "13+",
+      "16+",
+      "18+"
+    ],
+    "social_media_question_required": true,
+    "questionnaire_result": null,
+    "source_status": "ready_questionnaire_required",
+    "console_evidence_status": "not_verified",
+    "must_not_assume": [
+      "12+",
+      "17+"
+    ],
+    "official_source": "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+    "social_media_question_effective_requirement": "required_for_new_versions_updates_and_alternative_marketplace_notarization_from_2026-09",
+    "official_sources": [
+      "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+      "https://developer.apple.com/wwdc26/guides/app-store/",
+      "https://developer.apple.com/app-store/whats-new/",
+      "https://developer.apple.com/news/?id=tlur8uvi"
+    ],
+    "regional_rating_note": "Questionnaire responses can produce region-specific ratings; Australia, Brazil, Korea and Vietnam have current Apple-specific regional handling. Do not infer a single global storefront label from Tailmance product policy.",
+    "social_media_capability_console_answer_status": "not_verified",
+    "source_observed_social_media_capability": true,
+    "source_observed_social_media_evidence": [
+      "src/screens/FeedScreen.tsx",
+      "src/services/api.ts"
+    ],
+    "source_fact_note": "Tailmance source contains a social feed plus UGC interaction/amplification features. This source fact does not substitute for the required App Store Connect answer or final Apple age-rating output."
+  },
+  "google_iarc": {
+    "questionnaire_result": null,
+    "source_status": "ready_questionnaire_required",
+    "console_evidence_status": "not_verified",
+    "must_not_assume": [
+      "Teen",
+      "PEGI 12",
+      "PEGI 16"
+    ],
+    "official_source": "https://support.google.com/googleplay/android-developer/answer/9898843",
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/9898843",
+      "https://support.google.com/googleplay/android-developer/answer/17134731"
+    ],
+    "unrated_release_allowed": false
+  },
+  "apple_app_privacy": {
+    "location": {
+      "source_behavior": "coordinates rounded to three decimal places before upload",
+      "declaration_classification": "Precise Location",
+      "reason": "Apple can classify latitude/longitude at three or more decimal places as precise; Tailmance must not declare this source behavior as coarse location merely because it is rounded.",
+      "apple_definition": "Precise location is latitude/longitude at the same or greater resolution as three or more decimal places."
+    },
+    "tracking": false,
+    "console_declaration_status": "not_verified",
+    "source_status": "classified_fail_closed",
+    "official_source": "https://developer.apple.com/documentation/bundleresources/app-privacy-configuration/nsprivacycollecteddatatypes/nsprivacycollecteddatatype"
+  },
+  "google_data_safety": {
+    "location": {
+      "android_permission": "ACCESS_COARSE_LOCATION",
+      "blocked_permission": "ACCESS_FINE_LOCATION",
+      "declaration_classification": "Approximate location"
+    },
+    "console_declaration_status": "not_verified",
+    "source_status": "classified_fail_closed",
+    "official_source": "https://support.google.com/googleplay/android-developer/answer/10787469",
+    "policy_timing": {
+      "current_2026_rule": "request minimum location scope necessary; current source uses ACCESS_COARSE_LOCATION and blocks ACCESS_FINE_LOCATION",
+      "future_2027_rule": "new location-button/minimum-scope enforcement described by Google becomes mandatory 2027-01-27; do not mark it as a current September 2026 obligation"
+    },
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/10787469",
+      "https://support.google.com/googleplay/android-developer/answer/16558241",
+      "https://support.google.com/googleplay/android-developer/answer/16909972"
+    ]
+  },
+  "apple_ugc": {
+    "filtering": {
+      "source_status": "implemented",
+      "evidence": [
+        "supabase/functions/moderate-media/index.ts"
+      ]
+    },
+    "reporting": {
+      "source_status": "implemented",
+      "evidence": [
+        "src/services/api.ts",
+        "supabase/functions/reports-admin/index.ts"
+      ]
+    },
+    "timely_moderation": {
+      "source_status": "implemented_queue_and_admin_flow",
+      "production_sla_status": "not_verified",
+      "evidence": [
+        "supabase/functions/moderate-media/index.ts",
+        "supabase/functions/moderation-admin/index.ts"
+      ]
+    },
+    "blocking": {
+      "source_status": "implemented",
+      "evidence": [
+        "src/services/api.ts"
+      ]
+    },
+    "published_contact": {
+      "source_status": "present_in_web_source",
+      "live_publication_status": "not_verified",
+      "evidence": [
+        "web/support.html"
+      ]
+    },
+    "official_source": "https://developer.apple.com/app-store/review/guidelines/"
+  },
+  "google_ugc": {
+    "terms": {
+      "source_status": "implemented",
+      "evidence": [
+        "web/terms.html",
+        "web/community-guidelines.html"
+      ]
+    },
+    "reporting": {
+      "source_status": "implemented",
+      "evidence": [
+        "src/services/api.ts",
+        "supabase/functions/reports-admin/index.ts"
+      ]
+    },
+    "blocking": {
+      "source_status": "implemented",
+      "evidence": [
+        "src/services/api.ts"
+      ]
+    },
+    "ongoing_moderation": {
+      "source_status": "implemented_queue_and_admin_flow",
+      "production_operations_status": "not_verified",
+      "evidence": [
+        "supabase/functions/moderate-media/index.ts",
+        "supabase/functions/moderation-admin/index.ts"
+      ]
+    },
+    "child_safety": {
+      "source_status": "implemented_policy_and_enforcement_paths",
+      "production_operations_status": "not_verified",
+      "evidence": [
+        "web/community-guidelines.html",
+        "supabase/functions/moderate-media/index.ts",
+        "supabase/functions/reports-admin/index.ts"
+      ]
+    },
+    "official_source": "https://support.google.com/googleplay/android-developer/answer/9876937?hl=en"
+  },
+  "google_account_deletion": {
+    "external_web_request_source_status": "implemented",
+    "requires_app_reinstall": false,
+    "non_enumerating_request": true,
+    "identity_verification_before_deletion": true,
+    "production_endpoint_status": "not_verified",
+    "production_identity_verification_status": "not_verified",
+    "evidence": [
+      "web/delete-account.html",
+      "web/delete-account.js",
+      "supabase/functions/request-account-deletion/index.ts",
+      "supabase/functions/process-account-deletion-request/index.ts"
+    ],
+    "official_source": "https://support.google.com/googleplay/android-developer/answer/13327111",
+    "data_safety_deletion_url_console_status": "not_verified",
+    "data_safety_deletion_questions_console_status": "not_verified",
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/13327111?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en"
+    ]
+  },
+  "subscription": {
+    "live_store_price_source": "RevenueCat product.priceString",
+    "period": "monthly",
+    "auto_renewing": true,
+    "store_cancellation": true,
+    "premium_optional": true,
+    "standard_without_subscription": true,
+    "consumer_info_link_at_paywall": true,
+    "store_lifecycle_production_evidence_status": "not_verified",
+    "apple_multiseat_purchase_option": {
+      "current_platform_default_note": "Apple states multiseat purchases are on by default for auto-renewable subscriptions, with specified legacy exceptions for subscriptions created before 2026-09-14.",
+      "tailmance_entitlement_model_note": "Tailmance Premium is modeled as an individual account entitlement. Real App Store Connect multiseat configuration and entitlement behavior must therefore be explicitly reviewed; source code must not assume the store option is disabled.",
+      "console_configuration_status": "not_verified",
+      "official_source": "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+      "legacy_exception_cutoff_date": "2026-09-14",
+      "feature_availability_note": "Apple states multiseat purchases will become available to Business/Education organizations and App Store customers later in 2026; no exact rollout date is inferred from the 2026-09-14 legacy-exception cutoff. Real App Store Connect availability/configuration remains external evidence."
+    },
+    "apple_streamlined_purchasing": {
+      "current_platform_default_note": "Apple states Streamlined Purchasing is enabled by default and can let customers purchase eligible auto-renewable subscriptions directly from the App Store.",
+      "tailmance_precontract_risk_note": "Tailmance requires an exact in-app subscription/consumer document-set presentation immediately before purchase. Direct App Store purchase may bypass that app-owned presentation unless Streamlined Purchasing is disabled or counsel and real-store evidence establish an equivalent compliant disclosure path.",
+      "console_configuration_status": "not_verified",
+      "release_rule": "BLOCK unless Streamlined Purchasing is disabled for the relevant Tailmance subscription flow or an externally approved equivalent disclosure/store flow is evidenced.",
+      "official_source": "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/"
+    },
+    "intended_base_price": {
+      "currency": "USD",
+      "amount": "14.99",
+      "billing_period": "month",
+      "product_intent_only": true,
+      "app_store_connect_status": "not_verified",
+      "play_console_status": "not_verified",
+      "note": "This is the intended base product price. It is not a client-calculated customer charge and must be verified in each live store console before release."
+    },
+    "customer_price_authority": "native_storefront_localized_price_via_RevenueCat_product.priceString",
+    "client_side_tax_calculation": false,
+    "tax_and_regional_price_rule": "Display the store-provided localized customer price and native purchase sheet. Do not add VAT/KDV/sales tax in app code; store tax inclusion/addition depends on storefront and platform rules.",
+    "price_tax_console_parity_status": "not_verified",
+    "official_price_sources": [
+      "https://developer.apple.com/help/app-store-connect/manage-app-pricing/set-a-price/",
+      "https://developer.apple.com/help/app-store-connect/manage-subscriptions/set-up-auto-renewable-subscriptions/",
+      "https://support.google.com/googleplay/android-developer/answer/6334373",
+      "https://support.google.com/googleplay/android-developer/answer/138412"
+    ]
+  },
+  "apple_declared_age_range": {
+    "integration_status": "not_verified",
+    "applicability": "conditional_not_universal",
+    "condition": "Required at minimum if Tailmance relies on Apple's social-media-disabled-for-users-under-13 questionnaire path; separate country law may independently require stronger age assurance.",
+    "must_not_treat_as_production_age_assurance_by_itself": true,
+    "official_sources": [
+      "https://developer.apple.com/documentation/DeclaredAgeRange",
+      "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
+      "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions"
+    ]
+  },
+  "google_age_signals": {
+    "integration_status": "not_verified",
+    "applicability": "conditional_by_platform_rollout_jurisdiction_and_product_flow",
+    "data_use_rule_effective": "2026-01-01",
+    "permitted_use": "age-appropriate experiences / applicable compliance in the receiving app",
+    "prohibited_use_examples": [
+      "advertising",
+      "marketing",
+      "analytics",
+      "profiling",
+      "commercial targeting"
+    ],
+    "must_not_treat_as_universal_legal_age_assurance": true,
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+      "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+      "https://developer.android.com/google/play/age-signals/request-age-signals"
+    ],
+    "sdk_version_observed": "0.0.4",
+    "status_values_observed": [
+      "SHARED",
+      "NOT_SHARED",
+      "VERIFICATION_REQUIRED"
+    ]
+  },
+  "google_child_safety_standards": {
+    "applicability": "fail_closed_pending_real_play_console_category_scope_evidence",
+    "scope_note": "Google Play Child Safety Standards cover apps in Social or Dating categories and anonymous/random chat apps. Tailmance has social UGC and messaging, so 18+ product policy must not be treated as an exemption; actual Play Console classification/self-certification evidence is required.",
+    "published_standards": {
+      "source_status": "implemented",
+      "evidence": [
+        "web/community-guidelines.html"
+      ]
+    },
+    "in_app_feedback_reporting": {
+      "source_status": "implemented",
+      "evidence": [
+        "src/services/api.ts",
+        "supabase/functions/reports-admin/index.ts"
+      ]
+    },
+    "csam_action_path": {
+      "source_status": "implemented_source_controls_live_operations_not_verified",
+      "production_operations_status": "not_verified",
+      "evidence": [
+        "web/community-guidelines.html",
+        "supabase/functions/moderate-media/index.ts",
+        "supabase/functions/reports-admin/index.ts"
+      ]
+    },
+    "child_safety_law_reporting_runbook": {
+      "source_status": "policy_requires_country_specific_runbook",
+      "production_operations_status": "not_verified",
+      "evidence": [
+        "web/community-guidelines.html",
+        "release/external-legal-evidence.json"
+      ]
+    },
+    "designated_child_safety_point_of_contact": {
+      "source_status": "declared_in_source",
+      "live_contact_and_operational_authority_status": "not_verified",
+      "evidence": [
+        "web/support.html"
+      ]
+    },
+    "play_console_self_certification_status": "not_verified",
+    "internal_18_plus_is_not_a_policy_exemption": true,
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+      "https://support.google.com/googleplay/android-developer/table/12921780?hl=en"
+    ]
+  },
+  "google_age_restricted_content": {
+    "scope_status": "not_verified",
+    "product_facts": {
+      "human_dating_feature": false,
+      "anonymous_chat_core_functionality": false,
+      "random_stranger_chat_core_functionality": false,
+      "pet_profiles_only": true,
+      "messaging_requires_active_pet_match_in_source": true,
+      "mating_feature_release_status": "server_side_disabled_pending_country_review"
+    },
+    "policy_note": "Do not infer that pet matching is or is not Google Play dating/matchmaking for console policy purposes. If Play treats any Tailmance functionality as in scope, Restrict Minor Access / age-gating requirements must be evidenced in Play Console. Internal 18+ attestation is not treated as console evidence.",
+    "restrict_minor_access_console_status": "not_verified",
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/16838200?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en"
+    ]
+  },
+  "android_developer_verification": {
+    "effective_date": "2026-09-30",
+    "initial_markets": [
+      "BR",
+      "ID",
+      "SG",
+      "TH"
+    ],
+    "participating_store_scope": "Initial certified-device enforcement markets are BR/ID/SG/TH across participating stores; this field does not limit the separate global Google Play package-registration deadline.",
+    "developer_identity_verification_status": "not_verified",
+    "play_package_registration_status": "not_verified",
+    "must_not_mark_current_before_effective_date": true,
+    "release_rule": "BLOCK Google Play release on/after 2026-09-30 unless Tailmance package registration is verified globally in Play Console. Additionally BLOCK affected participating-store distribution in BR/ID/SG/TH unless required developer verification/app registration state is verified for certified-device enforcement.",
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+      "https://developer.android.com/developer-verification",
+      "https://developer.android.com/developer-verification/guides",
+      "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+      "https://support.google.com/android-developer-console/answer/16561738?hl=en"
+    ],
+    "play_package_registration_scope": "all_Google_Play_packages_global",
+    "play_package_registration_deadline": "2026-09-30",
+    "play_package_registration_noncompliance_consequence": "Apps not registered by 2026-09-30 are subject to removal from Google Play under Play Console requirements policy; real Play Console registration evidence is required.",
+    "regional_certified_device_enforcement_effective_date": "2026-09-30",
+    "regional_certified_device_enforcement_initial_markets": [
+      "BR",
+      "ID",
+      "SG",
+      "TH"
+    ],
+    "regional_certified_device_enforcement_scope": "Certified Android 7+ devices in BR/ID/SG/TH installing from participating stores; this regional enforcement rollout is distinct from the global Google Play package-registration deadline.",
+    "scope_separation_invariant": "Global Google Play package-name registration by 2026-09-30 must not be narrowed to BR/ID/SG/TH; BR/ID/SG/TH are the initial markets for certified-device installation enforcement across participating stores.",
+    "global_play_package_registration_evidence_status": "not_verified",
+    "regional_certified_device_enforcement_evidence_status": "not_verified",
+    "status_as_of_2026_09_30": "current_effective_external_verification_required",
+    "play_package_registration_status_as_of_2026_09_30": "current_effective_global_Play_external_console_verification_required",
+    "regional_certified_device_enforcement_status_as_of_2026_09_30": "current_effective_initial_markets_external_verification_required",
+    "current_effective_date_reached": true
+  },
+  "google_target_audience_and_minor_access": {
+    "product_policy_target_age": "18_and_over_only",
+    "source_product_age_policy": "18+",
+    "target_audience_console_status": "not_verified",
+    "restrict_minor_access_configuration_status": "not_verified",
+    "note": "Tailmance is an adult-only product by source policy. Google Play requires accurate Target audience and content answers; selecting only 18+ is the platform configuration matching this product policy. Restrict Minor Access may be optional for some adult-only apps but is mandatory for certain age-restricted categories, so its real applicability/configuration must be verified rather than inferred from source code.",
+    "must_not_treat_internal_18_plus_as_console_evidence": true,
+    "official_sources": [
+      "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+      "https://support.google.com/googleplay/android-developer/answer/16838200?hl=en"
+    ]
+  },
+  "us_state_app_store_age_assurance": {
+    "scope_status": "source_screened_fail_closed_pending_US_counsel_and_production_integration",
+    "current_states_as_of_2026_09_29": [
+      "TX"
+    ],
+    "future_watch_states": [
+      "CA",
+      "AL",
+      "UT",
+      "LA"
+    ],
+    "complete_50_state_matrix": false,
+    "texas": {
+      "status": "current",
+      "statutory_effective_date": "2026-01-01",
+      "apple_implementation_resumed": "2026-06-04",
+      "production_integration_status": "not_verified",
+      "official_sources": [
+        "https://tcss.legis.texas.gov/resources/BC/htm/BC.121.v3.htm",
+        "https://developer.apple.com/news/?id=sg176nne"
+      ]
+    },
+    "california": {
+      "status": "future_operative",
+      "operative_date": "2027-01-01",
+      "production_readiness_status": "not_verified",
+      "official_sources": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.9.&part=4.&chapter=&article=",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856"
+      ]
+    },
+    "alabama": {
+      "status": "future_effective",
+      "effective_date": "2027-01-01",
+      "production_readiness_status": "not_verified",
+      "official_sources": [
+        "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB161-enr.pdf"
+      ]
+    },
+    "utah": {
+      "status": "future_effective",
+      "effective_date": "2027-05-06",
+      "production_readiness_status": "not_verified",
+      "official_sources": [
+        "https://le.utah.gov/xcode/Title13/Chapter76/13-76-S202.html"
+      ]
+    },
+    "louisiana": {
+      "status": "future_effective",
+      "effective_date": "2027-07-01",
+      "production_readiness_status": "not_verified",
+      "official_sources": [
+        "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475238",
+        "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251085"
+      ]
+    },
+    "release_rule": "BLOCK U.S. distribution until exact intended-state applicability is counsel-approved and current state/platform age-signal/significant-change/consent lifecycle integration is evidenced where required."
+  },
+  "apple_regional_age_assurance_distribution_2026": {
+    "scope_status": "official_platform_behavior_screened_production_evidence_required",
+    "current_from": "2026-02-24",
+    "countries": [
+      "AU",
+      "BR",
+      "SG"
+    ],
+    "rule": "Apple states that users in AU/BR/SG cannot download App Store apps rated 18+ unless confirmed as adults through reasonable methods.",
+    "tailmance_actual_regional_app_store_rating_status": "not_verified",
+    "production_distribution_behavior_status": "not_verified",
+    "declared_age_range_production_integration_status": "not_verified",
+    "must_not_infer_apple_rating_from_internal_18_plus_policy": true,
+    "official_sources": [
+      "https://developer.apple.com/news/?id=f5zj08ey",
+      "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
+      "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions"
+    ],
+    "release_rule": "BLOCK AU/BR/SG App Store distribution until actual Tailmance regional rating and applicable production age-assurance/distribution behavior are evidenced."
+  },
+  "apple_regional_age_rating_updates_2026": {
+    "australia": {
+      "current_from": "2026-06-18",
+      "console_rating_evidence_status": "not_verified",
+      "official_sources": [
+        "https://developer.apple.com/news/?id=yrrb45pw",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions"
+      ]
+    },
+    "vietnam": {
+      "current_from": "2026-06-18",
+      "console_rating_evidence_status": "not_verified",
+      "official_sources": [
+        "https://developer.apple.com/news/?id=yrrb45pw",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions"
+      ]
+    },
+    "release_rule": "BLOCK affected regional App Store release until the real App Store Connect questionnaire output and regional age rating are verified."
+  },
+  "eu_consumer_modernisation_price_transparency": {
+    "source_status": "official_EU_baseline_screened_national_implementation_and_applicability_pending_counsel",
+    "directive": "Directive (EU) 2019/2161",
+    "common_name": "Modernisation Directive / Omnibus Directive",
+    "application_date": "2022-05-28",
+    "tailmance_source_rule": "Paywall uses the native storefront localized price and does not use personalized pricing, false discounts, hidden mandatory fees, or client-side tax arithmetic. Country-specific consumer-law implementation and remedies remain externally counsel-controlled.",
+    "national_implementation_approval_status": "not_verified",
+    "official_sources": [
+      "https://commission.europa.eu/law/law-topic/consumer-protection-law/modernisation-directive_en",
+      "https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-contract-law/consumer-rights-directive_en",
+      "https://commission.europa.eu/law/law-topic/consumer-protection-law/unfair-commercial-practices-and-price-indication/price-indication-directive_en",
+      "https://eur-lex.europa.eu/eli/dir/2019/2161/oj/eng"
+    ]
+  }
+}

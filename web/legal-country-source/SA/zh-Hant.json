@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "SA",
+  "country_display_name": "沙烏地阿拉伯",
+  "document_locale": "zh-Hant",
+  "document_language_display_names": "阿拉伯文",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "司法管轄區專屬法律補充說明",
+  "sections": [
+    {
+      "heading": "法律適用範圍",
+      "paragraphs": [
+        "當 Tailmance 確定 沙烏地阿拉伯 是其法律適用於您帳戶的國家時，本補充說明適用。它用於補充《使用條款》《隱私權通知》《社群準則》《訂閱通知》及其他法律文件，並不取代這些文件。",
+        "Tailmance 依據該已驗證國家以及必要時適用的地區或地方性法律架構履行法律義務。僅變更應用程式語言、旅行或變更商店地區，不會自行改變適用法律。"
+      ]
+    },
+    {
+      "heading": "文件語言",
+      "paragraphs": [
+        "本法律設定下具有約束力的文件以所需語言提供：阿拉伯文。如必須使用特定語言，Tailmance 不會在未告知您的情況下自動改用其他語言。",
+        "此版本作為無障礙翻譯提供。若適用法律或本法律設定要求特定的必要語言版本，本版本不會取代該版本。"
+      ]
+    },
+    {
+      "heading": "國家特定法律要求",
+      "paragraphs": [
+        "針對適用國家，Tailmance 依據來源明確的官方資料審查二十二類法律要求。現行法律及其生效日期與提案、諮詢及未來措施嚴格區分；提案絕不會被當作現行法律執行。",
+        "來源審查日期：2026年10月1日。未來措施、草案與諮詢事項會分開追蹤，不會被表述為現行法律。"
+      ]
+    },
+    {
+      "heading": "已審查的法律框架",
+      "paragraphs": [
+        "下方列出 Tailmance 針對適用國家在官方來源審查中記錄的主要法律框架。列入清單僅表示審查範圍；某項規則是目前生效、未來生效、仍屬提案，或受更窄的適用條件限制，由生效日期與精確適用範圍控制決定，絕不會僅憑此清單作出推斷。"
+      ],
+      "items": [
+        "Personal Data Protection Law and implementing/transfer regulations"
+      ]
+    },
+    {
+      "heading": "隱私、安全與使用者權利",
+      "paragraphs": [
+        "隱私權、資料請求、帳戶與資料刪除、國際傳輸、年齡驗證、電子行銷以及安全與資料外洩通知義務，均依精確法律環境執行。請使用應用程式內的「法律中心」查看通知、匯出與刪除途徑。"
+      ]
+    },
+    {
+      "heading": "訂閱與消費者資訊",
+      "paragraphs": [
+        "完成購買所使用的應用程式商店是顯示之訂閱價格、貨幣及適用稅費呈現方式的依據。續訂、取消及必要的締約前資訊會在購買前顯示。Tailmance 不銷售動物或實體商品，也不處理使用者之間的動物買賣付款。"
+      ]
+    },
+    {
+      "heading": "動物福利與非商業交易",
+      "paragraphs": [
+        "禁止商業性動物銷售及用於商業繁育的市場活動。只有在符合適用國家關於動物福利、繁育、健康、親緣關係及資格的要求時，才可使用由飼主自行安排的配對；否則功能維持關閉。"
+      ]
+    },
+    {
+      "heading": "聯絡方式與官方來源",
+      "paragraphs": [
+        "如對這些通知有疑問或提出隱私請求，可寄送至 yektaozel@icloud.com。下方列出本次法律審查使用的官方來源。"
+      ],
+      "official_sources": [
+        "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+        "https://mc.gov.sa/ar/ECC/pages/default.aspx",
+        "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2d3cb83a-0379-4cde-8e0b-a9a700f272bd/1",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Implementing%20Regulations%20of%20The%20Agriculture%20Law.pdf",
+        "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Pet%20import%20mechanism.pdf",
+        "https://www.mewa.gov.sa/ar/InformationCenter/DocsCenter/RulesLibrary/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%81%D9%82%20%D8%A8%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%20%D9%88%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A%D8%A9.pdf",
+        "https://laws.boe.gov.sa/BoeLaws/Laws/SearchDetails/?Id=93f81644-fbbc-49ca-b33c-a9a700f16701",
+        "https://www.cst.gov.sa/en/business/services/Social-Media-platforms-notification",
+        "https://mc.gov.sa/en/guides/Documents/MerchantGuide.pdf",
+        "https://sdaia.gov.sa/en/SDAIA/about/Documents/ExecutiveRegulations.pdf",
+        "https://dga.gov.sa/sites/default/files/2022-12/The%20Guideline%20for%20Web%20Accessibility%20of%20Government%20Websites%20%E2%80%93%20V1.0_1.pdf",
+        "https://mc.gov.sa/en/mediacenter/News/Pages/29-03-23-02.aspx",
+        "https://www.uqn.gov.sa/details?p=28845",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4000304",
+        "https://sdaia.gov.sa/en/SDAIA/about/Documents/ImplementingRegulation.pdf",
+        "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL2",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/Overview.aspx",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/Legalframework.aspx",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/List.aspx"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "7401a26decfd07d38be1384a15f08e38c7436087d47b43e5e4d03a4cbca4b375",
+  "official_source_count": 43,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Personal Data Protection Law and implementing/transfer regulations"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ar"
+  ],
+  "display_language_name": "繁體中文"
+}

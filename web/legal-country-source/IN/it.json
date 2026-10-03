@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "IN",
+  "country_display_name": "India",
+  "document_locale": "it",
+  "document_language_display_names": "inglese",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Supplemento giuridico specifico della giurisdizione",
+  "sections": [
+    {
+      "heading": "Ambito giuridico",
+      "paragraphs": [
+        "Questo supplemento si applica quando Tailmance determina che India è il Paese la cui legge si applica al tuo account. Integra i Termini d’uso, l’Informativa sulla privacy, le Regole della community, l’informativa sull’abbonamento e gli altri documenti legali, senza sostituirli.",
+        "Tailmance applica gli obblighi legali in base a tale Paese verificato e, quando necessario, al quadro giuridico regionale o locale pertinente. Cambiare la lingua dell’app, viaggiare o cambiare la regione dello store non modifica di per sé tale quadro giuridico."
+      ]
+    },
+    {
+      "heading": "Lingua dei documenti",
+      "paragraphs": [
+        "I documenti legali vincolanti per questa configurazione sono mantenuti nelle lingue richieste: inglese. Quando è richiesta una lingua specifica, Tailmance non la sostituisce automaticamente e senza avviso con un’altra lingua.",
+        "Questa versione è fornita come traduzione per l’accessibilità. Non sostituisce una versione in una lingua obbligatoria quando la legge applicabile o questa configurazione giuridica la richiedono."
+      ]
+    },
+    {
+      "heading": "Requisiti legali specifici del Paese",
+      "paragraphs": [
+        "Per il Paese applicabile vengono riesaminate ventidue aree di requisiti legali sulla base di fonti ufficiali identificabili. Il diritto vigente e le relative date di efficacia sono tenuti distinti da proposte, consultazioni e misure future; una proposta non viene mai trattata come diritto vigente.",
+        "Data della revisione delle fonti: 1 ottobre 2026. Le misure future, le bozze e le consultazioni sono monitorate separatamente e non sono presentate come diritto vigente."
+      ]
+    },
+    {
+      "heading": "Quadri giuridici esaminati",
+      "paragraphs": [
+        "Di seguito sono indicati i principali quadri giuridici registrati nella revisione delle fonti ufficiali di Tailmance per il Paese applicabile. L’inclusione indica soltanto l’ambito della revisione: l’effettiva vigenza, l’entrata in vigore futura, lo stato di proposta o una condizione di applicabilità più ristretta sono determinati dai controlli sulla data di efficacia e sull’ambito esatto e non vengono mai desunti dalla sola presenza in questo elenco."
+      ],
+      "items": [
+        "Digital Personal Data Protection Act 2023",
+        "Digital Personal Data Protection Rules 2025"
+      ]
+    },
+    {
+      "heading": "Privacy, sicurezza e diritti degli utenti",
+      "paragraphs": [
+        "I diritti in materia di privacy, le richieste sui dati, la cancellazione dell’account e dei dati, i trasferimenti internazionali, la verifica dell’età, il marketing elettronico e gli obblighi di sicurezza e notifica sono applicati nel contesto giuridico esatto. Utilizza il Centro legale dell’app per informative, esportazione e cancellazione."
+      ]
+    },
+    {
+      "heading": "Abbonamenti e informazioni ai consumatori",
+      "paragraphs": [
+        "Lo store tramite il quale viene effettuato l’acquisto è la fonte di riferimento per il prezzo dell’abbonamento visualizzato, la valuta e il trattamento fiscale applicabile. Rinnovo, cancellazione e informazioni precontrattuali richieste sono presentati prima dell’acquisto. Tailmance non vende animali o prodotti fisici e non elabora pagamenti tra utenti per la vendita di animali."
+      ]
+    },
+    {
+      "heading": "Benessere animale e assenza di commercio",
+      "paragraphs": [
+        "Sono vietate le vendite commerciali di animali e i marketplace destinati all’allevamento commerciale. Gli accoppiamenti organizzati dai proprietari sono disponibili solo quando sono soddisfatti i requisiti applicabili del Paese in materia di benessere animale, allevamento, salute, parentela e idoneità; altrimenti la funzione resta bloccata."
+      ]
+    },
+    {
+      "heading": "Contatti e fonti ufficiali",
+      "paragraphs": [
+        "Le domande su queste informative o le richieste relative alla privacy possono essere inviate a yektaozel@icloud.com. Le fonti ufficiali utilizzate per questa revisione giuridica sono elencate di seguito."
+      ],
+      "official_sources": [
+        "https://www.meity.gov.in/data-protection-framework",
+        "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+        "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf",
+        "https://www.meity.gov.in/documents/act-and-policies?page=1&persona=Business-owner",
+        "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection/consumer-protection",
+        "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://dahd.gov.in/related-links/acts-rules",
+        "https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf",
+        "https://www.meity.gov.in/",
+        "https://trai.gov.in/node/3199",
+        "https://trai.gov.in/telecom/consumer-initiatives/unsolicited-commercial-communication",
+        "https://divyangjan.depwd.gov.in/upload/uploadfiles/files/RPwD%20%28Amendment%29%20Rules%2C%202023%20-%20Accessibility%20standards%20on%20ICT%20products%20and%20Services_compressed.pdf",
+        "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf",
+        "https://cbic-gst.gov.in/gst-invoice-rules.html",
+        "https://copyright.gov.in/Exceptions.aspx",
+        "https://www.copyright.gov.in/Copyright_Rules_2013/chapter_xiv.html",
+        "https://www.cert-in.org.in/Directions70B.jsp",
+        "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+        "https://www.mea.gov.in/Implementation-of-UNSC-Sanctions.htm",
+        "https://www.mha.gov.in/en/divisionofmha/counter-terrorism-and-counter-radicalization-division"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "d6c7a937178935b30d060e5c7c6d4692ce420b4fde8b0b9085ce4e10fc496a06",
+  "official_source_count": 44,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Digital Personal Data Protection Act 2023",
+    "Digital Personal Data Protection Rules 2025"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "italiano"
+}

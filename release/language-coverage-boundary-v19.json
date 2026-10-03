@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-29",
+  "runtime_ui_locales": ["en", "es", "pt-BR", "fr", "de", "it", "ru", "tr", "ar", "hi", "id", "ja", "ko", "zh-Hans", "zh-Hant", "nl", "pl", "th", "vi"],
+  "legal_document_locales": ["en", "es", "pt-BR", "fr", "de", "it", "ru", "tr", "ar", "hi", "id", "ja", "ko", "zh-Hans", "zh-Hant", "nl", "pl", "th", "vi", "ca", "eu", "gl"],
+  "legal_document_only_locales": ["ca", "eu", "gl"],
+  "policy": {
+    "configured_runtime_locales_source_complete": true,
+    "configured_legal_document_locales_source_complete": true,
+    "configured_locales_are_not_all_world_languages": true,
+    "unsupported_ui_locale_must_not_be_promoted_to_release_ready": true,
+    "unsupported_or_unapproved_binding_document_language_must_fail_closed": true,
+    "source_translation_internal_qa_is_not_external_counsel_or_certified_translation": true
+  },
+  "summary": {
+    "runtime_ui_locale_count": 19,
+    "legal_document_locale_count": 22,
+    "worldwide_language_coverage_complete": false
+  }
+}

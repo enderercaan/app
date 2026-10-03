@@ -1,0 +1,929 @@
+{
+  "schema_version": 1,
+  "locale": "tr",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Kullanıcı Sözleşmesi",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Sürüm: 2026-09-29. Bu sözleşme Tailmance kullanımının temel koşullarını düzenler. Sana gösterilen ülke veya bölgeye özgü ek hükümler varsa onlar da sözleşmenin parçasıdır. Hesap sahibi en az 18 yaşında olmalıdır."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Hizmet ve hesap",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance, kedi ve köpek sahiplerinin evcil hayvan profilleri oluşturmasına, uygun özellikler üzerinden keşif ve sosyal etkileşim kurmasına yardımcı olan bir platformdur. Hesap bilgilerini doğru tutmalı, hesabının güvenliğini korumalı ve hesabını başkasına devretmemelisin. Tailmance veteriner, tıbbi, acil yardım, hayvan satış veya ödeme aracılık hizmeti değildir."
+            }
+          ]
+        },
+        {
+          "heading": "2. Yaş ve uygunluk",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hesap açmak için en az 18 yaşında olmalısın. Uygulanabilir hukuk veya mağaza kuralları ek yaş güvencesi gerektiriyorsa hizmete erişmeden önce ek doğrulama istenebilir. Yanlış yaş beyanı hesap erişiminin sınırlandırılmasına veya sonlandırılmasına yol açabilir."
+            }
+          ]
+        },
+        {
+          "heading": "3. Evcil hayvan profilleri ve kullanıcı sorumluluğu",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Yalnız kullanmaya ve paylaşmaya yetkili olduğun evcil hayvan, fotoğraf, sağlık ve profil bilgilerini yüklemelisin. Profildeki sağlık, aşı, ırk, yaş, cinsiyet ve sahiplik bilgilerini bilerek yanlış sunamazsın. Başka kişilerin gereksiz kişisel veya hassas verilerini yüklememelisin."
+            }
+          ]
+        },
+        {
+          "heading": "4. Kullanıcı içeriği ve lisans",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Yüklediğin içeriğin hakları sende kalır. Hizmetin çalışması, içeriğin saklanması, sana ve seçtiğin diğer kullanıcılara gösterilmesi, güvenlik ve moderasyonun sağlanması ve teknik olarak iletilmesi için Tailmance'a dünya çapında, münhasır olmayan ve bu amaçlarla sınırlı bir kullanım lisansı verirsin. Bu lisans içeriğin mülkiyetini Tailmance'a devretmez."
+            }
+          ]
+        },
+        {
+          "heading": "5. Yasaklı içerik ve davranış",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hayvana zarar veya istismar; taciz, tehdit veya nefret; çocukların cinsel istismarı materyali; dolandırıcılık; yasa dışı ürün veya hizmet; yetkisiz kişisel veri veya mahrem görüntü paylaşımı; sahte sağlık/doğrulama bilgisi; fikri mülkiyet ihlali; kimliğe bürünme; güvenlik veya moderasyon önlemlerini aşma ve yasa dışı faaliyeti kolaylaştırma yasaktır. Ayrıntılar Topluluk Kuralları sayfasındadır."
+            }
+          ]
+        },
+        {
+          "heading": "6. Hayvan satışı, ticari yetiştiricilik ve çiftleşme",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance bir evcil hayvan pazar yeri, hayvan satış platformu veya yetiştirici pazar yeri değildir. Hayvan için fiyat, ödeme, kapora, satış veya teslim; ticari yetiştirici müşteri edinimi; yasa dışı üretim veya hayvan ticareti amacıyla platform kullanılamaz. Çiftleşme özelliği güvenli varsayılan olarak kapalıdır; yalnız Tailmance tarafından açıkça etkinleştirildiği ve uygulanabilir hukuk ile hayvan refahı kuralları izin verdiği durumlarda kullanılabilir. Hizmet, bir evcil hayvanın sahiplendirilmesini, yeni bir yuvaya verilmesini veya sahipliğinin devrini teklif etmek, talep etmek, bunlara aracılık etmek ya da bunları organize etmek için de kullanılamaz."
+            }
+          ]
+        },
+        {
+          "heading": "7. Moderasyon, güvenlik ve itiraz",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance güvenlik, bu sözleşme, Topluluk Kuralları veya hukuki yükümlülükler nedeniyle içerik görünürlüğünü veya hesap erişimini kısıtlayabilir. Uygun kararlarda gerekçe ve kullanılabilir itiraz yolu sağlanır. Bir itirazın kabul edilmesi, aynı içerik veya hesap üzerinde başka bağımsız ve geçerli bir kısıtlama varsa o kısıtlamayı otomatik olarak kaldırmaz. Ayrıntılar Moderasyon Kararları ve İtirazlar sayfasındadır."
+            }
+          ]
+        },
+        {
+          "heading": "8. Hayvan sağlığı ve acil durumlar",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance veteriner hizmeti, tıbbi teşhis veya acil yardım hizmeti sunmaz. Uygulamadaki aşı, sağlık veya doğrulama kayıtları veteriner değerlendirmesinin yerini tutmaz. Acil sağlık ya da güvenlik durumunda uygun veteriner, acil hizmet veya yetkili makama başvurmalısın."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium ve mağaza faturalaması",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium isteğe bağlıdır; Standard kullanım abonelik olmadan devam eder. Premium, mağazada aksi belirtilmedikçe otomatik yenilenen bir aboneliktir. Bağlayıcı fiyat, para birimi, vergi, dönem ve varsa deneme veya promosyon koşulları App Store veya Google Play'in satın alma ekranında gösterilir. Abonelik ilgili mağaza hesabından yönetilir ve iptal edilir. Tailmance hesabını silmek mağaza aboneliğini otomatik olarak iptal etmez. Ayrıntılar Abonelik ve Tüketici Bilgilendirmesi sayfasındadır."
+            }
+          ]
+        },
+        {
+          "heading": "10. Gizlilik ve yaş güvencesi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gizlilik Politikası ve doğrulanmış hukuki ülken için sunulan ülkeye özgü gizlilik ve hukuki ekler veri işlemeyi açıklar. Pazarlama amaçlı mobil anlık bildirim rızası ayrı ve isteğe bağlıdır. Yaş doğrulaması için kimlik, yüz görüntüsü, biyometrik veya başka hassas veri işleyen bir hizmet kullanılması halinde ilgili ek gizlilik bilgileri ve haklar sana ayrıca sunulur."
+            }
+          ]
+        },
+        {
+          "heading": "11. Hesap kısıtlama, fesih ve silme",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hesabını kalıcı olarak silebilirsin; uygulamaya erişemiyorsan web üzerinden silme talebi oluşturabilirsin. Tailmance sözleşme, güvenlik veya hukuk ihlali halinde orantılı kısıtlama uygulayabilir ve uygulanabilir olduğunda gerekçe ile itiraz yolu sağlar. Hesap silme, kanunen tutulması gereken sınırlı güvenlik, uyuşmazlık, yasal talep veya muhasebe kayıtlarının derhal silineceği anlamına gelmez."
+            }
+          ]
+        },
+        {
+          "heading": "12. Fikri mülkiyet",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Yalnız paylaşmaya yetkili olduğun içeriği yüklemelisin. Hak sahipleri Fikri Mülkiyet Bildirimleri sayfasındaki kanalı kullanabilir. Ülkeye özgü bildirim ve karşı bildirim hakları saklıdır."
+            }
+          ]
+        },
+        {
+          "heading": "13. Hizmet değişiklikleri ve kullanılabilirlik",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Güvenlik, mevzuat, mağaza politikaları veya ürün geliştirmesi nedeniyle özellikler değişebilir, askıya alınabilir veya belirli bir ülkede sunulmayabilir. Tailmance kesintisiz veya tamamen hatasız erişim garantisi vermez; ancak uygulanabilir zorunlu tüketici hakları ve ücretli hizmetlere ilişkin emredici yükümlülükler saklıdır."
+            }
+          ]
+        },
+        {
+          "heading": "14. Sorumluluk ve vazgeçilemez haklar",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bu sözleşmedeki hiçbir hüküm uygulanabilir hukukun vazgeçmeye izin vermediği tüketici, veri koruma, erişilebilirlik veya başka bir hakkı ortadan kaldırmaz. Garanti reddi veya sorumluluk sınırlamaları yalnız uygulanabilir hukukun izin verdiği ölçüde geçerlidir."
+            }
+          ]
+        },
+        {
+          "heading": "15. Uygulanacak hukuk ve yerel hükümler",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Uygulanacak hukuk, zorunlu tüketici forumu, alternatif uyuşmazlık çözümü, mahkeme, düzenleyici başvuru ve başka yerel haklar yaşadığın veya hizmetin sana sunulduğu ülke ya da bölgeye göre değişebilir. Sana gösterilen ülke veya bölgeye özgü ek hükümler bu konuları tamamlar. Emredici yerel hakların saklıdır."
+            }
+          ]
+        },
+        {
+          "heading": "16. Sözleşme değişiklikleri ve yeniden kabul",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bağlayıcı sözleşme veya sana uygulanan yerel ekler önemli ölçüde değiştiğinde, uygulanabilir hukuk gerektiriyorsa bildirim yapılır veya yeniden kabul istenir. Eski bir ülke, bölge veya belge dili bağlamındaki kabul yeni bağlama otomatik olarak taşınmaz."
+            }
+          ]
+        },
+        {
+          "heading": "17. İletişim",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Destek, güvenlik, gizlilik ve diğer başvuru yolları için Destek ve İletişim sayfasını kullanabilirsin. Uygulanabilir hukuk ayrıca işletmeci, temsilci, düzenleyici kurum veya tüketici iletişim bilgisi verilmesini gerektiriyorsa bu bilgiler sana sunulan yerel ekte gösterilir."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Gizlilik Politikası",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Sürüm: 2026-09-29. Veri sorumlusu: Yekta Özel. Bu politika Tailmance kapsamında kişisel verilerin nasıl işlendiğini açıklar. Sana gösterilen ülke veya bölgeye özgü gizlilik ekleri varsa onlar da bu politika ile birlikte uygulanır. Bu politika pazarlama açık rızası değildir."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. İşlediğimiz veri kategorileri",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Hesap ve oturum verileri: kullanıcı kimliği, e-posta, e-posta doğrulama durumu, oturum ve hesap durumları.",
+                "Güvenlik ve teknik veriler: IP ve cihaz/ağ bağlamı, zaman damgaları, güvenlik olayları, istek sınırı ve kötüye kullanım önleme kayıtları, anlık bildirim belirteci ve uygulama/işletim sistemi bilgileri.",
+                "Evcil hayvan ve sosyal kullanım verileri: kedi/köpek profili, fotoğraflar, sosyal içerik, mesajlar, eşleşmeler, buluşma/etkinlik ve etkileşim verileri.",
+                "Konum: izin verdiğinde cihazından alınan konum keşif amacıyla kullanılabilir. Tailmance koordinatları sunucuya göndermeden önce üç ondalık basamağa yuvarlar, özel olarak saklar ve başka kullanıcılara koordinatların kendisini göstermez; yalnız yaklaşık mesafe gösterir.",
+                "Sağlık ve doğrulama verileri: seçerek yüklediğin aşı, sağlık ve veteriner doğrulama kayıtları. Bu belgelerde gereksiz üçüncü kişi verisi paylaşmamalısın.",
+                "Abonelik verileri: mağaza abonelik durumu ve işlem referansları. Ödeme kartı numarası Tailmance tarafından doğrudan toplanmaz.",
+                "Güvenlik ve moderasyon verileri: raporlar, engellemeler, moderasyon kararları, itirazlar ve ilgili inceleme bilgileri.",
+                "Bildirim ve pazarlama tercihleri: hizmet bildirim tercihleri ve yalnız ayrıca seçersen pazarlama amaçlı mobil anlık bildirim rıza kayıtları.",
+                "Hukuki bağlam kayıtları: sana hangi ülke, bölge ve belge dili bağlamında hangi hukuki belgelerin gösterildiğini ve hangi seçimleri yaptığını ispatlamaya yarayan kayıtlar."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "2. Verilerin kaynakları",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Verileri doğrudan senden, cihazından ve uygulama kullanımından, yüklediğin içeriklerden, güvenlik ve moderasyon süreçlerinden, App Store veya Google Play gibi mağazalardan ve hizmetin yürütülmesi için kullanılan yetkili hizmet sağlayıcılarından alabiliriz. Başka bir kullanıcının raporu veya içeriği nedeniyle de seninle ilgili sınırlı veri oluşabilir."
+            }
+          ]
+        },
+        {
+          "heading": "3. İşleme amaçları",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Veriler; hesabı ve sosyal özellikleri sunmak, keşif ve eşleşmeyi sağlamak, iletişim ve bildirimleri yürütmek, güvenliği sağlamak, dolandırıcılık ve kötüye kullanımı önlemek, içerik moderasyonu ve itirazları yönetmek, abonelik durumunu doğrulamak, kullanıcı taleplerini karşılamak, veri dışa aktarma ve hesap silme işlemlerini yürütmek, hizmet güvenilirliğini korumak ve uygulanabilir hukuki yükümlülükleri yerine getirmek amacıyla işlenebilir."
+            }
+          ]
+        },
+        {
+          "heading": "4. Hukuki dayanaklar ve yerel farklılıklar",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Veri işleme için sözleşmenin kurulması veya ifası, hukuki yükümlülük, meşru menfaat, açık rıza veya ilgili hukukta öngörülen başka bir dayanak kullanılabilir. Hangi dayanağın geçerli olduğu işleme amacı, veri kategorisi ve uygulanabilir ülke veya bölge hukukuna göre değişebilir. Sana gösterilen yerel gizlilik ekleri bu farklılıkları açıklar."
+            }
+          ]
+        },
+        {
+          "heading": "5. Gizlilik bildirimi ile pazarlama rızasının ayrımı",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bu politika ve benzeri aydınlatma metinleri bilgilendirme amaçlıdır; bütün veri işleme faaliyetleri için toplu açık rıza anlamına gelmez. Pazarlama amaçlı mobil anlık bildirim seçimi ayrı, isteğe bağlı ve geri çekilebilir bir işlemdir. Bu seçim e-posta, SMS, telefon veya başka bir pazarlama kanalına izin vermez."
+            }
+          ]
+        },
+        {
+          "heading": "6. Yaş güvencesi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Yaş güvencesinin gerekli olduğu bir ülkede yöntem, yerel hukuk ve kullanılabilir teknolojiye göre değişebilir. Tailmance kendi kayıtlarında mümkün olduğunca doğrulanan yaş eşiği, yöntem, sonuç ve sınırlı doğrulama referansı gibi asgari veriyi tutmayı amaçlar; ham kimlik belgesi veya yüz görüntüsünü Tailmance'ın yaş kanıt kayıtlarında saklamaz. Bir doğrulama sağlayıcısı kimlik belgesi, yüz görüntüsü, biyometrik veya başka hassas veri işliyorsa, kullanılacak yöntem için gerekli gizlilik ve risk değerlendirmeleri, gerektiğinde veri koruma etki değerlendirmesi (DPIA), saklama ve silme süreleri ile erişilebilir bir itiraz veya alternatif doğrulama yolu ayrıca değerlendirilir ve sana ilgili bilgilendirme sunulur. Otomatik yaş tahmininde hatalı ret oluşması halinde, uygulanabilir olduğu ölçüde yalnız aynı yöntemi tekrar etmeye zorlamayan makul bir alternatif doğrulama veya insan incelemesi yolu sağlanır."
+            }
+          ]
+        },
+        {
+          "heading": "7. Konumun azaltılması",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Konum yalnız yakınlık keşfi için gerekli olduğu ölçüde kullanılır. Cihaz konumu istemci tarafında üç ondalık basamağa yuvarlanır, sunucuda özel olarak saklanır; başka kullanıcılara koordinat açıklanmaz ve yalnız yaklaşık mesafe hesaplanır. Mağaza beyanlarındaki veri sınıfları kullanıcıya gösterilen ürün açıklamasından farklı teknik adlandırmalar kullanabilir: Apple tarafında bu işleme “Precise Location”, Android veri güvenliği beyanında ise kullanılan izin ve işleme biçimine göre yaklaşık konum (“coarse location”) sınıfı uygulanabilir. Bu mağaza sınıflandırmaları, başka kullanıcılara kesin koordinat gösterildiği anlamına gelmez. Konum izni vermediğin durumlarda, konuma zorunlu olarak bağlı olmayan özellikler mümkün olduğu ölçüde çalışmaya devam eder."
+            }
+          ]
+        },
+        {
+          "heading": "8. Otomatik araçlar ve moderasyon",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Güvenlik ve moderasyon süreçlerinde otomatik araçlar içerikleri veya sinyalleri değerlendirmeye yardımcı olabilir. Uygulanabilir olduğunda seni etkileyen kararın gerekçesi, kararın otomatik araç veya insan incelemesiyle bağlantısı ve kullanılabilir itiraz yolu hakkında bilgi sağlanır. Yerel hukuk ek açıklama, insan incelemesi veya itiraz hakkı öngörebilir."
+            }
+          ]
+        },
+        {
+          "heading": "9. Hizmet sağlayıcıları ve veri aktarımları",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hizmeti sunmak için barındırma, kimlik doğrulama, abonelik yönetimi, güvenlik, hata izleme ve benzeri alanlarda hizmet sağlayıcılar kullanılabilir. Bu sağlayıcılarla yalnız gerekli kapsamda veri paylaşılır. Kişisel verilerin başka bir ülkeye aktarılması halinde uygulanabilir veri koruma hukukunun gerektirdiği aktarım mekanizmaları ve ek güvenceler kullanılır; ilgili ayrıntılar sana sunulan yerel gizlilik metninde açıklanabilir."
+            }
+          ]
+        },
+        {
+          "heading": "10. Hukuki talepler ve güvenlik açıklamaları",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kişisel veriler; hukuken geçerli bir talebe yanıt vermek, hakları ve güvenliği korumak, yasa dışı içerik veya ciddi güvenlik riskiyle ilgilenmek ya da uygulanabilir bir hukuki yükümlülüğü yerine getirmek için gerekli olduğu ölçüde yetkili mercilerle paylaşılabilir. Hukukun izin vermediği durumlarda önceden bildirim veya gizlilik sözü veremeyiz."
+            }
+          ]
+        },
+        {
+          "heading": "11. Saklama ve silme",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Veriler yalnız işleme amacı için gerekli olduğu veya uygulanabilir hukuk gerektirdiği süre boyunca saklanır. Süre; veri kategorisine, hesap durumuna, güvenlik ihtiyacına, uyuşmazlık veya yasal talebe ve muhasebe ya da abonelik yükümlülüklerine göre değişebilir. Hesap silme aktif hesap ve ürün verilerinin silinmesi sürecini başlatır; kanunen tutulması gereken sınırlı kayıtlar ilgili zorunlu süre boyunca saklanabilir."
+            }
+          ]
+        },
+        {
+          "heading": "12. Hakların ve kontrollerin",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Uygulanabilir hukuka göre erişim, düzeltme, silme, kısıtlama, itiraz, veri taşınabilirliği, rızayı geri çekme, otomatik kararlara ilişkin korumalar ve yetkili veri koruma kurumuna şikâyet gibi hakların olabilir. Uygulamadaki Hukuk ve Gizlilik merkezinden veri dışa aktarma, bildirim ve pazarlama tercihleri, moderasyon itirazları ve hesap silme işlemlerine erişebilirsin. Uygulamaya erişemiyorsan web üzerinden hesap silme talebi oluşturabilirsin."
+            }
+          ]
+        },
+        {
+          "heading": "13. Çocuklar ve üçüncü kişilerin verileri",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance hesap sahipleri için 18+ ürün politikası uygular. Kullanıcılar çocukların veya diğer kişilerin gereksiz kişisel verilerini içerik, mesaj, konum veya belgelerde paylaşmamalıdır. Çocukların cinsel istismarı materyali ve çocuk güvenliğini tehdit eden kullanım yasaktır; uygulanabilir hukuk gerektiriyorsa ilgili kayıtlar korunabilir ve yetkili makamlara bildirim yapılabilir."
+            }
+          ]
+        },
+        {
+          "heading": "14. Güvenlik",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kişisel verileri yetkisiz erişim, kayıp, kötüye kullanım ve değiştirmeye karşı korumak için erişim kontrolleri, yetki ayrımı, kayıt ve izleme, istek sınırlama ve benzeri teknik ve organizasyonel önlemler kullanılır. Hiçbir sistem mutlak güvenlik garantisi veremez; bir güvenlik sorunu fark edersen Destek üzerinden bize bildirebilirsin."
+            }
+          ]
+        },
+        {
+          "heading": "15. İletişim ve yerel temsil",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Veri sorumlusu: Yekta Özel . Gizlilik talepleri için yektaozel@icloud.com adresini kullanabilirsin. Uygulanabilir olduğunda Avrupa Birliği dışındaki bir kuruluş için GDPR Madde 27 temsilcisi veya çevrimiçi aracılık hizmetleri bakımından DSA Madde 13 yasal temsilcisi gibi ülke/bölgeye özgü temsilcilik yükümlülükleri ayrıca değerlendirilir. Gerekli temsilci veya düzenleyici iletişim bilgisi sana sunulan ülkeye özgü ekte belirtilir."
+            }
+          ]
+        },
+        {
+          "heading": "16. Değişiklikler",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bu politika değiştirilebilir. Önemli değişikliklerde uygulanabilir hukuk gerektiriyorsa bildirim yapılır veya yeniden onay/tercih istenir. Eski bir ülke veya belge dili bağlamındaki seçimler, yeni bir hukuki bağlama otomatik olarak taşınmaz."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Topluluk Kuralları",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Bu kurallar Tailmance topluluğunda güvenli, saygılı ve hayvan refahını gözeten bir ortam için geçerlidir ve Kullanıcı Sözleşmesiyle birlikte uygulanır. Uygulanabilir yerel hukuk daha sıkı bir kural getiriyorsa yerel kural önceliklidir."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Evcil hayvan güvenliği ve hayvan refahı",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Hayvana zarar, ihmal, eziyet, hayvan dövüşü, tehlikeli meydan okuma veya zarar verici bakım ve yetiştirme uygulamalarını teşvik etme.",
+                "Veteriner değerlendirmesi gereken bir durumda uygulamadaki eşleşmeyi, kullanıcı beyanını veya sağlık rozetini profesyonel veteriner değerlendirmesinin yerine kullanma.",
+                "Buluşmaları güvenli ve evcil hayvanlara uygun ortamlarda planla; acil sağlık veya güvenlik durumunda uygun veteriner ya da yetkili hizmete başvur."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Hayvan satışı ve ticari yetiştiricilik yasaktır",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Tailmance bir evcil hayvan pazar yeri, hayvan satış platformu veya yetiştirici pazar yeri değildir.",
+                "Evcil hayvan için fiyat, ödeme, kapora, satış, teslim veya ticari satış ilanı sunma.",
+                "Platformu yasa dışı üretim, seri ve sağlıksız yavru üretimi, hayvan kaçakçılığı, düzenlenmiş yaban hayatı ticareti veya ticari yetiştirici müşteri edinimi için kullanma.",
+                "Çiftleşme özelliği sana açıkça sunulmadıkça ve bulunduğun bağlamda kullanımına izin verilmedikçe diğer özellikleri bu sınırı aşmak için kullanma.",
+                "Hizmet, bir evcil hayvanın sahiplendirilmesini, yeni bir yuvaya verilmesini veya sahipliğinin devrini teklif etmek, talep etmek, bunlara aracılık etmek ya da bunları organize etmek için de kullanılamaz."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Saygılı ve güvenli iletişim",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Taciz, tehdit, şantaj, nefret söylemi, cinsel taciz ve ısrarlı istenmeyen iletişim yasaktır.",
+                "Engel, kısıtlama veya moderasyon kararını aşmak için yeni hesap ya da evcil hayvan profili oluşturma.",
+                "Başka kişilerin özel adres, telefon, kimlik, finansal, konum veya mahrem görüntülerini yetkisiz paylaşma.",
+                "Dolandırıcılık, kimlik avı, sahte çekiliş veya yardım, kimliğe bürünme ya da hesap ele geçirme girişimi yapma."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Çocuk güvenliği ve ağır yasa dışı içerik",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Çocukların cinsel istismarı materyali, çocuğu cinsel amaçla kandırma veya ayartma ya da çocukların cinsel sömürüsünü teşvik eden içerik kesinlikle yasaktır.",
+                "Yaşam veya fiziksel güvenliğe yönelik ciddi ve yakın tehditleri paylaşma veya teşvik etme.",
+                "Bu tür içerikler raporlandığında içerik kaldırılabilir veya erişimi kısıtlanabilir; uygulanabilir hukuk gerektiriyorsa ilgili kayıtlar korunabilir ve yetkili makamlara bildirim yapılabilir.",
+                "Hukuken garanti edilemeyecek gizlilik veya önceden bildirim taahhüdü verilmez."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Gerçek ve güvenilir profil",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Evcil hayvanına ait olmayan fotoğraf veya yetkisiz sağlık/veteriner belgesi kullanma.",
+                "Irk, yaş, cinsiyet, sağlık, sahiplik veya doğrulama bilgisini bilerek yanlış sunma.",
+                "Başka kişilerin gereksiz kişisel verilerini profil, belge, mesaj veya içeriklere ekleme.",
+                "Yetkin olmadığın halde veteriner veya sağlık uzmanı gibi davranarak yanıltıcı teşhis ya da tedavi iddiasında bulunma."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "İçerik ve platform bütünlüğü",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Başkasının telif, marka veya diğer fikri mülkiyet hakkını ihlal eden içerik yayımlama.",
+                "Zararlı kod, istenmeyen toplu ileti, yetkisiz otomatik veri toplama, bot veya güvenlik ve moderasyon önlemlerini aşmaya yönelik araç kullanma.",
+                "Yasa dışı ürün veya hizmet, kontrollü madde, silah, insan ya da hayvan kaçakçılığı veya başka bir suç faaliyetini kolaylaştırma."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Raporlama, engelleme ve itiraz",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Şüpheli içerikleri uygulama içinden raporlayabilir, kullanıcı etkileşimlerini engelleyebilir ve eşleşmeyi kaldırabilirsin. Kullanıcıyı etkileyen uygun moderasyon kararlarında gerekçe ve itiraz yolu sağlanır."
+            }
+          ]
+        },
+        {
+          "heading": "Fikri mülkiyet bildirimleri",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hak sahipleri Fikri Mülkiyet Bildirimleri yolunu kullanabilir. Tekrarlayan ve doğrulanmış ihlaller orantılı içerik veya hesap kısıtlamasına yol açabilir."
+            }
+          ]
+        },
+        {
+          "heading": "İletişim",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Güvenlik ve destek için Destek sayfasındaki kanalları kullanabilirsin."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Pazarlama Amaçlı Anlık Bildirim Açık Rıza Metni",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Bu seçim yalnız mobil anlık bildirim yoluyla ürün ve özellik güncellemelerine ilişkin pazarlama mesajları içindir ve tamamen isteğe bağlıdır."
+        },
+        {
+          "kind": "p",
+          "text": "Tailmance’ın yeni özellikler, ürün güncellemeleri ve benzeri pazarlama içeriklerini cihazıma mobil anlık bildirim olarak göndermesine açık rıza verebilirim."
+        },
+        {
+          "kind": "list",
+          "items": [
+            "Bu rıza e-posta, SMS veya telefon araması için izin değildir.",
+            "Rıza vermemek hesap açmayı, Standard kullanımı veya hizmet için gerekli bildirimleri engellemez.",
+            "Rızamın hangi metne ve kapsama göre verildiği kaydedilir.",
+            "Rızamı Ayarlar’dan istediğim zaman geri çekebilirim.",
+            "Önceki genel pazarlama tercihleri yeni bir açık rıza verilmiş sayılmaz."
+          ]
+        },
+        {
+          "kind": "p",
+          "text": "Veri işleme hakkında Gizlilik Politikası ile doğrulanmış hukuki ülken için sunulan ülkeye özgü gizlilik ve hukuki ekler uygulanır."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ülke ve kanal kapsamı",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bu rıza yalnız Tailmance'ın mobil anlık bildirim kanalına ilişkindir. Hukuki ülken veya hizmetin sana sunulduğu ülkede ticari elektronik ileti, gönderen kimliği, kayıt, izin veya abonelikten çıkma konusunda ek kurallar uygulanabilir. Bu mobil bildirim rızası bu yerel yükümlülükleri tek başına karşılamaz; gerekli ülkeye özgü mekanizmalar doğrulanmış hukuki bağlam üzerinden ayrıca uygulanır. Hukuki ülke değiştiğinde veya rızanın dayandığı belge kapsamı değişirse önceki seçim yeni bağlama otomatik olarak taşınmaz."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Abonelik ve Tüketici Bilgilendirmesi",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Premium satın almadan önce fiyat, dönem, otomatik yenileme ve ilgili tüketici bilgilerini inceleyebilirsin. Sana gösterilen ülkeye özgü ek hükümler de bu bilgilendirmenin parçasıdır."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Premium isteğe bağlıdır",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance Standard, Premium abonelik olmadan kullanılabilir. Premium ek özellikler sunan isteğe bağlı bir aboneliktir."
+            }
+          ]
+        },
+        {
+          "heading": "Fiyat, vergi ve dönem",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bağlayıcı fiyat, para birimi, uygulanabilir vergiler, faturalama dönemi ve varsa deneme veya promosyon koşulları satın alma sırasında App Store veya Google Play tarafından gösterilir. Uygulama içindeki açıklama ile mağazanın ödeme ekranı arasında bir fiyat farkı varsa satın alma işlemini tamamlamadan önce mağazada gösterilen güncel tutarı esas al."
+            }
+          ]
+        },
+        {
+          "heading": "Otomatik yenileme",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium, satın alma ekranında aksi belirtilmedikçe otomatik yenilenen bir aboneliktir. Yenileme tarihi, tahsilat ve iptal için geçerli süreler mağaza hesabındaki güncel abonelik koşullarına tabidir."
+            }
+          ]
+        },
+        {
+          "heading": "İptal ve hesap silme farklı işlemlerdir",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Abonelik App Store veya Google Play hesabından yönetilir ve iptal edilir. Tailmance hesabını silmek mağaza aboneliğini otomatik olarak iptal etmez. Devam eden mağaza ücretlerini durdurmak istiyorsan aboneliğini mağaza hesabından ayrıca iptal etmelisin."
+            }
+          ]
+        },
+        {
+          "heading": "İade, cayma ve zorunlu tüketici hakları",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "İade talepleri ilgili mağazanın süreçleri üzerinden yürütülebilir. Bununla birlikte mağaza kuralları, uygulanabilir hukuktan doğan vazgeçilemez tüketici haklarını ortadan kaldırmaz. Cayma, dijital hizmetin ifasına başlama ve ilgili istisnalar ülkeye göre değişebilir; sana gösterilen yerel hükümler saklıdır."
+            }
+          ]
+        },
+        {
+          "heading": "Deneme, promosyon ve fiyat değişikliği",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ücretsiz deneme veya promosyon yalnız satın alma ekranında açıkça gösterildiğinde geçerlidir. Fiyat değişikliklerinde mağazanın ve uygulanabilir hukukun gerektirdiği bildirim veya onay süreçleri uygulanır."
+            }
+          ]
+        },
+        {
+          "heading": "Satın alımları geri yükleme",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Desteklenen mağaza satın alımları uygulamadaki “Satın alımları geri yükle” işleviyle hesabınla yeniden eşleştirilebilir. Geri yükleme yeni bir satın alma değildir."
+            }
+          ]
+        },
+        {
+          "heading": "Satın alma öncesi bilgiler",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Satın alma ekranında canlı fiyat, dönem, otomatik yenileme, abonelik yönetimi ve iptal yolu ile bu bilgilendirmeye erişim gösterilir. Uygulanabilir olduğunda işletmeci, adres, vergi/ticari kimlik, şikâyet, uyuşmazlık çözümü, cayma veya başka yerel bilgiler ayrıca sunulur."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Moderasyon Kararları ve İtirazlar",
+      "intro": [],
+      "sections": [
+        {
+          "heading": "Karar hakkında bilgi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Uygun moderasyon kararlarında sana kararın konusu, gerekçesi, zamanı ve durumu hakkında bilgi verilir. Uygulanabilir olduğunda kararın otomatik araçlarla mı yoksa insan incelemesiyle mi verildiği de belirtilir."
+            }
+          ]
+        },
+        {
+          "heading": "İtiraz",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "İtiraza açık bir kararın içerik veya hesap sahibiysen, sana gösterilen süre ve yöntem içinde itiraz gönderebilirsin. Tailmance'ın genel iç itiraz süresi uygun kararlar için karar tarihinden itibaren en az altı aydır; uygulanabilir hukuk daha uzun bir süre veya başka bir başvuru yolu öngörebilir."
+            }
+          ]
+        },
+        {
+          "heading": "İnsan incelemesi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "İnsan incelemesi gerektiren itirazlar yetkili bir inceleyici tarafından değerlendirilir. Bir itirazın kabul edilmesi, aynı içerik veya hesap üzerinde başka bağımsız ve geçerli bir kısıtlama varsa bu kısıtlamaları otomatik olarak kaldırmaz."
+            }
+          ]
+        },
+        {
+          "heading": "Hesap kısıtlaması",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hesabın kısıtlanırsa, güvenlik veya hukuk tarafından açıklanması yasaklanan durumlar dışında, uygun gerekçe ve kullanılabilir itiraz yolu sana gösterilir."
+            }
+          ]
+        },
+        {
+          "heading": "Yerel başvuru hakları",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bu iç itiraz süreci, uygulanabilir hukuk kapsamında düzenleyici kuruma, mahkemeye, uyuşmazlık çözüm organına veya başka yetkili bir makama başvurma hakkını ortadan kaldırmaz."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Fikri Mülkiyet ve Hak İhlali Bildirimleri",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Hak sahibi veya yetkili temsilcisiysen Tailmance üzerindeki bir içerikle ilgili fikri mülkiyet bildirimi gönderebilirsin."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Bildirimde bulunmak için",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "yektaozel@icloud.com adresine mümkün olduğunca şu bilgileri gönder: korunduğunu düşündüğün eser veya hakkın açıklaması; şikâyet edilen içeriği bulmamızı sağlayan profil, içerik veya başka bir tanımlayıcı; iletişim bilgilerin; hak sahibi veya yetkili temsilci olduğuna ilişkin açıklaman; bildirimin doğru olduğuna dair iyi niyetli beyanın ve uygulanabilir hukuk gerektiriyorsa imzan."
+            }
+          ]
+        },
+        {
+          "heading": "İnceleme ve karşı bildirim",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bildirimler sahte veya kötüye kullanılan başvurulara karşı ve uygulanabilir hukuk çerçevesinde incelenir. Bir içerik kısıtlandığında, uygun olduğu ölçüde içerik sahibine gerekçe ve varsa itiraz veya karşı bildirim yolu sunulur. Ülkeye özgü bildirim, karşı bildirim ve geri yükleme kuralları saklıdır."
+            }
+          ]
+        },
+        {
+          "heading": "Tekrarlayan ihlaller",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Geçerli ve doğrulanmış tekrarlayan fikri mülkiyet ihlalleri orantılı içerik veya hesap kısıtlamasına yol açabilir. Yalnızca bildirim sayısı tek başına ihlal kararı oluşturmaz; hatalı veya kötüye kullanılan bildirim ihtimali de değerlendirilir."
+            }
+          ]
+        },
+        {
+          "heading": "ABD 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "ABD hukukundaki §512 usulünün uygulanması gereken durumlarda, sana sunulan ABD'ye özgü ek bildirimde belirtilen temsilci ve bildirim usulleri geçerlidir. Bu sayfanın bulunması, Tailmance’ın kayıtlı veya yetkilendirilmiş temsilciye sahip olduğu ya da §512 güvenli liman şartlarını karşıladığı anlamına gelmez; bu bilgiler uygulanabildiği durumda ABD’ye özgü ek bildirimde açıkça belirtilir."
+            }
+          ]
+        },
+        {
+          "heading": "Acil veya yasa dışı içerik",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Fikri mülkiyet bildirimi acil güvenlik ya da yasa dışı içerik raporunun yerine geçmez. Böyle bir durumda uygulama içi raporlama veya Destek kanalını kullan."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Erişilebilirlik",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance, hizmetlerin mümkün olduğunca geniş bir kullanıcı kitlesi tarafından kullanılabilmesini ürün tasarımının temel bir parçası olarak ele alır."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Erişilebilir kullanım",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Arayüz; anlaşılır etiketler, okunabilir metin, yeterli kontrast, büyütülebilir yazı, erişilebilir dokunma alanları ve yardımcı teknolojilerle uyum gözetilerek tasarlanır. Uygulanabilir hukuk daha yüksek veya farklı bir erişilebilirlik standardı öngörüyorsa bu haklar saklıdır."
+            }
+          ]
+        },
+        {
+          "heading": "Yardımcı teknolojiler",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "VoiceOver, TalkBack, büyük yazı ve benzeri erişilebilirlik özellikleriyle karşılaştığın bir sorun varsa bize bildirebilirsin. Cihaz, işletim sistemi ve kullandığın yardımcı teknoloji bilgisi sorunu anlamamıza yardımcı olabilir."
+            }
+          ]
+        },
+        {
+          "heading": "Erişilebilirlik sorunu veya uyarlama talebi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bir ekranı, kontrolü veya içeriği kullanamıyorsan ya da makul bir uyarlamaya ihtiyaç duyuyorsan yektaozel@icloud.com adresine ulaşabilirsin. Sorunu anlatmak için gerekli olmayan kişisel veya hassas bilgileri göndermemeni öneririz."
+            }
+          ]
+        },
+        {
+          "heading": "Yerel haklar ve kapsam",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bu sayfa bağımsız bir erişilebilirlik uygunluk sertifikası değildir ve tek başına belirli bir teknik veya hukuki standarda tam uyum beyanı olarak yorumlanmamalıdır. Uygulanabilir tüketici veya erişilebilirlik mevzuatından doğan vazgeçilemez hakları sınırlandırmaz. Bulunduğun veya hizmetin sana sunulduğu ülke ya da bölgede ek haklar uygulanabilir."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Hesabını ve verilerini silme",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance hesabını en hızlı şekilde uygulamada Ayarlar → Hesabı kalıcı sil yolundan silebilirsin. Uygulamaya erişemiyorsan veya uygulamayı kaldırdıysan, uygulamayı yeniden yüklemeden bu sayfadan silme talebi oluşturabilirsin."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Web üzerinden silme talebi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Talebin, hesap sahibi olduğunun güvenli biçimde doğrulanabilmesi için işleme alınır. Bu form bir e-posta adresinin Tailmance hesabına bağlı olup olmadığını üçüncü kişilere açıklamaz."
+            },
+            {
+              "kind": "p",
+              "text": "Yalnız hesabınla ilişkili e-posta adresini gir. Bu form hesabın varlığını üçüncü kişilere açıklamaz."
+            }
+          ]
+        },
+        {
+          "heading": "Neler silinir?",
+          "blocks": [
+            {
+              "kind": "list",
+              "items": [
+                "Hesap ve evcil hayvan profilleri",
+                "Profil fotoğrafları ve sahip olduğun sosyal içerikler",
+                "Mesajlar ve eşleşme bağlantıları için hesapla ilişkilendirilen kayıtlar",
+                "Sağlık/aşı kayıtları ve özel sağlık belgeleri",
+                "Özel konum ve hesap tercihleri"
+              ]
+            },
+            {
+              "kind": "p",
+              "text": "Bazı güvenlik, dolandırıcılık önleme, uyuşmazlık veya yasal kayıtların uygulanabilir hukuk gereği belirli bir süre saklanması gerekebilir. Saklanabilecek veri kategorileri, dayanaklar ve süre ölçütleri Gizlilik Politikası ve sana sunulan yerel eklerde açıklanır."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Destek ve İletişim",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "İşletmeci: Yekta Ozel"
+        },
+        {
+          "kind": "p",
+          "text": "Hesap, ödeme, gizlilik, güvenlik veya moderasyonla ilgili yardım için uygulamadaki Güvenlik Merkezi ve Hukuk ve Gizlilik merkezini kullanabilir veya yektaozel@icloud.com adresine yazabilirsin."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Çocuk güvenliği irtibat kişisi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Çocukların cinsel istismarı veya sömürüsüyle ilgili bildirimler için yektaozel@icloud.com adresini kullanabilirsin. Yakın ve ciddi bir tehlike varsa bulunduğun yerdeki acil yardım veya yetkili makamlara da başvur."
+            }
+          ]
+        },
+        {
+          "heading": "Moderasyon kararı",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Uygun moderasyon kararları için Moderasyon Kararları ve İtirazlar sayfasındaki başvuru yolunu kullanabilirsin."
+            }
+          ]
+        },
+        {
+          "heading": "Fikri mülkiyet",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Telif, marka veya başka bir hak ihlali bildirimi için Fikri Mülkiyet Bildirimleri sayfasını kullan."
+            }
+          ]
+        },
+        {
+          "heading": "Erişilebilirlik",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erişilebilirlik sorunu veya uyarlama talebi için Erişilebilirlik sayfasına bakabilirsin."
+            }
+          ]
+        },
+        {
+          "heading": "Hesap silme",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Uygulamaya erişemiyorsan web üzerinden hesap silme talebi oluşturabilirsin."
+            }
+          ]
+        },
+        {
+          "heading": "Hayvan sağlığı",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance veteriner veya acil sağlık hizmeti değildir. Acil bir hayvan sağlığı sorununda doğrudan uygun veteriner hizmetine başvur."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_privacy_supplement": {
+      "file": "jurisdiction-privacy.html",
+      "title": "Ülkeye Özgü Gizlilik Katmanı",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Bu belge, Tailmance’in ülkeye özgü gizlilik bilgilerini nasıl uyguladığını açıklar. Açık rıza metni değildir ve doğrulanmış hukuki ülkeniz için sunulan Ülkeye Özgü Hukuki Ek’in yerine geçmez."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Kesin hukuki bağlam",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance, ülkeye özgü yükümlülükleri doğrulanmış hukuki ülkeye ve gerektiğinde uygulanabilir alt-bölgesel bağlama göre belirler. Uygulama dilini değiştirmek, seyahat etmek veya mağaza bölgesini değiştirmek tek başına bu hukuki bağlamı değiştirmez."
+            }
+          ]
+        },
+        {
+          "heading": "2. Veriler ve işleme amaçları",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gizlilik Bildirimi’nde açıklanan kişisel veri kategorileri ve işleme amaçları geçerliliğini korur. Ek veya daha sıkı yerel gereklilikler, kesin ülkeye özgü ek ve çalışma zamanı hukuki kontrolleri üzerinden uygulanır."
+            }
+          ]
+        },
+        {
+          "heading": "3. Haklar ve başvurular",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kullanılabilir haklar, başvuru usulleri, yanıt süreleri ve yetkili makam yolları uygulanabilir hukuka göre değişir. Kesin ülkeye özgü ek, yerel katmanı açıklar. Uygulanabildiği ölçüde uygulama içi veri dışa aktarma ve hesap/veri silme yolları kullanılabilir."
+            }
+          ]
+        },
+        {
+          "heading": "4. Aktarımlar ve saklama",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Yurt dışı aktarım güvenceleri, yerel saklama veya veri yerelleştirme yükümlülükleri ve saklama süreleri doğrulanmış hukuki bağlama göre uygulanır. Tailmance, tek bir saklama süresini veya aktarım mekanizmasını her ülke için geçerliymiş gibi sunmaz."
+            }
+          ]
+        },
+        {
+          "heading": "5. Pazarlama ve rıza",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "İsteğe bağlı pazarlama tercihleri bu bilgilendirmeden ayrı yönetilir. Bu belgeyi almak veya okuduğunu kabul etmek, uygulanabilir hukukun ayrı bir olumlu seçim gerektirdiği durumlarda rıza oluşturmaz."
+            }
+          ]
+        },
+        {
+          "heading": "6. Ülkeye özgü belge",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hukuk Merkezi, hukuki ülkeniz için kesin ülkeye özgü eki gösterir. Erişilebilirlik çevirisi sunuluyorsa, Tailmance tarafından belirtilen zorunlu veya bağlayıcı dil sürümünün yerine geçmez."
+            }
+          ]
+        },
+        {
+          "heading": "7. İletişim",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sorular ve gizlilik talepleri yektaozel@icloud.com adresine gönderilebilir."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

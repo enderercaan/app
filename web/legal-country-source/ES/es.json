@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "ES",
+  "country_display_name": "España",
+  "document_locale": "es",
+  "document_language_display_names": "español, catalán, euskera y gallego",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento jurídico específico de la jurisdicción",
+  "sections": [
+    {
+      "heading": "Ámbito jurídico",
+      "paragraphs": [
+        "Este suplemento se aplica cuando Tailmance determina que España es el país cuya legislación se aplica a tu cuenta. Complementa los Términos de uso, el Aviso de privacidad, las Normas de la comunidad, el aviso de suscripción y otros documentos jurídicos, sin sustituirlos.",
+        "Tailmance aplica las obligaciones jurídicas conforme a ese país verificado y, cuando corresponda, al marco jurídico regional o local aplicable. Cambiar el idioma de la aplicación, viajar o cambiar la región de la tienda no modifica por sí solo ese marco jurídico."
+      ]
+    },
+    {
+      "heading": "Idioma de los documentos",
+      "paragraphs": [
+        "Los documentos jurídicos vinculantes de esta configuración se mantienen en los idiomas exigidos: español, catalán, euskera y gallego. Cuando se exige un idioma determinado, Tailmance no lo sustituye automáticamente y sin aviso por otro idioma."
+      ]
+    },
+    {
+      "heading": "Requisitos jurídicos específicos del país",
+      "paragraphs": [
+        "Se revisan veintidós ámbitos de requisitos jurídicos para el país aplicable utilizando fuentes oficiales identificables. El derecho vigente y sus fechas de aplicación se separan de propuestas, consultas y medidas futuras; una propuesta nunca se trata como derecho vigente.",
+        "Fecha de revisión de las fuentes: 1 de octubre de 2026. Las medidas futuras, los proyectos y las consultas se siguen por separado y no se presentan como derecho vigente."
+      ]
+    },
+    {
+      "heading": "Marcos jurídicos revisados",
+      "paragraphs": [
+        "A continuación se indican los principales marcos jurídicos registrados en la revisión de fuentes oficiales de Tailmance para el país aplicable. Su inclusión solo delimita el alcance de la revisión: si una norma está vigente, entra en vigor en el futuro, es una propuesta o depende de una condición de aplicabilidad más limitada se determina mediante los controles de fecha de eficacia y ámbito exacto, y nunca se deduce únicamente de esta lista."
+      ],
+      "items": [
+        "EU GDPR",
+        "LOPDGDD",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Privacidad, seguridad y derechos de las personas usuarias",
+      "paragraphs": [
+        "Los derechos de privacidad, las solicitudes sobre datos, la eliminación de la cuenta y de datos, las transferencias internacionales, la verificación de edad, el marketing electrónico y las obligaciones de seguridad y notificación se aplican dentro del contexto jurídico exacto. Utiliza el Centro jurídico de la aplicación para avisos, exportación y eliminación."
+      ]
+    },
+    {
+      "heading": "Suscripciones e información al consumidor",
+      "paragraphs": [
+        "La tienda de aplicaciones a través de la cual se realiza la compra es la referencia para el precio de suscripción mostrado, la moneda y el tratamiento fiscal aplicable. La renovación, la cancelación y la información precontractual exigida se presentan antes de la compra. Tailmance no vende animales ni productos físicos y no procesa pagos entre usuarios por ventas de animales."
+      ]
+    },
+    {
+      "heading": "Bienestar animal y ausencia de comercio",
+      "paragraphs": [
+        "Se prohíben las ventas comerciales de animales y los mercados destinados a la cría comercial. Los apareamientos organizados por los propietarios solo están disponibles cuando se cumplen los requisitos aplicables del país en materia de bienestar animal, cría, salud, parentesco e idoneidad; de lo contrario, la función permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contacto y fuentes oficiales",
+      "paragraphs": [
+        "Las consultas sobre estos avisos o las solicitudes de privacidad pueden enviarse a yektaozel@icloud.com. A continuación se enumeran las fuentes oficiales utilizadas para esta revisión jurídica."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.boe.es/eli/es/l/2002/07/11/34",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2026/20260203-intervencion-pg-word-governments-summit.aspx",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7936",
+        "https://www.boe.es/eli/es-pv/l/2023/04/27/4",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3280",
+        "https://www.kontsumobide.euskadi.eus/hizkuntza-eskubideak-eta-enpresen-betebeharrak/webkon01-content/eu/",
+        "https://consum.gencat.cat/ca/el-consum/durant-la-compra/drets-linguistics-/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5595",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "0666b085dce395e78c77ba7fa21aa59f851c5cd5a935802a0b873ea43bccfccb",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "LOPDGDD",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "required_binding_document_locale",
+  "required_binding_document_locales": [
+    "es",
+    "ca",
+    "eu",
+    "gl"
+  ],
+  "display_language_name": "español"
+}

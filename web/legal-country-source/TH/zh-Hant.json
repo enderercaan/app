@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "TH",
+  "country_display_name": "泰國",
+  "document_locale": "zh-Hant",
+  "document_language_display_names": "泰文",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "司法管轄區專屬法律補充說明",
+  "sections": [
+    {
+      "heading": "法律適用範圍",
+      "paragraphs": [
+        "當 Tailmance 確定 泰國 是其法律適用於您帳戶的國家時，本補充說明適用。它用於補充《使用條款》《隱私權通知》《社群準則》《訂閱通知》及其他法律文件，並不取代這些文件。",
+        "Tailmance 依據該已驗證國家以及必要時適用的地區或地方性法律架構履行法律義務。僅變更應用程式語言、旅行或變更商店地區，不會自行改變適用法律。"
+      ]
+    },
+    {
+      "heading": "文件語言",
+      "paragraphs": [
+        "本法律設定下具有約束力的文件以所需語言提供：泰文。如必須使用特定語言，Tailmance 不會在未告知您的情況下自動改用其他語言。",
+        "此版本作為無障礙翻譯提供。若適用法律或本法律設定要求特定的必要語言版本，本版本不會取代該版本。"
+      ]
+    },
+    {
+      "heading": "國家特定法律要求",
+      "paragraphs": [
+        "針對適用國家，Tailmance 依據來源明確的官方資料審查二十二類法律要求。現行法律及其生效日期與提案、諮詢及未來措施嚴格區分；提案絕不會被當作現行法律執行。",
+        "來源審查日期：2026年10月1日。未來措施、草案與諮詢事項會分開追蹤，不會被表述為現行法律。"
+      ]
+    },
+    {
+      "heading": "已審查的法律框架",
+      "paragraphs": [
+        "下方列出 Tailmance 針對適用國家在官方來源審查中記錄的主要法律框架。列入清單僅表示審查範圍；某項規則是目前生效、未來生效、仍屬提案，或受更窄的適用條件限制，由生效日期與精確適用範圍控制決定，絕不會僅憑此清單作出推斷。"
+      ],
+      "items": [
+        "Personal Data Protection Act B.E. 2562 and PDPC notifications"
+      ]
+    },
+    {
+      "heading": "隱私、安全與使用者權利",
+      "paragraphs": [
+        "隱私權、資料請求、帳戶與資料刪除、國際傳輸、年齡驗證、電子行銷以及安全與資料外洩通知義務，均依精確法律環境執行。請使用應用程式內的「法律中心」查看通知、匯出與刪除途徑。"
+      ]
+    },
+    {
+      "heading": "訂閱與消費者資訊",
+      "paragraphs": [
+        "完成購買所使用的應用程式商店是顯示之訂閱價格、貨幣及適用稅費呈現方式的依據。續訂、取消及必要的締約前資訊會在購買前顯示。Tailmance 不銷售動物或實體商品，也不處理使用者之間的動物買賣付款。"
+      ]
+    },
+    {
+      "heading": "動物福利與非商業交易",
+      "paragraphs": [
+        "禁止商業性動物銷售及用於商業繁育的市場活動。只有在符合適用國家關於動物福利、繁育、健康、親緣關係及資格的要求時，才可使用由飼主自行安排的配對；否則功能維持關閉。"
+      ]
+    },
+    {
+      "heading": "聯絡方式與官方來源",
+      "paragraphs": [
+        "如對這些通知有疑問或提出隱私請求，可寄送至 yektaozel@icloud.com。下方列出本次法律審查使用的官方來源。"
+      ],
+      "official_sources": [
+        "https://www.pdpc.or.th/",
+        "https://www.ocpb.go.th/news_view.php?nid=17494",
+        "https://www.ocpb.go.th/index_en.php",
+        "https://mdes.go.th/news/detail/11499-%E0%B8%A3%E0%B8%A1%E0%B8%A7-%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B5-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1--MRRM--%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%99--M360-ASEAN-2026--%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%99",
+        "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
+        "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
+        "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+        "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf",
+        "https://www.dla.go.th/land/legalItemFon.do",
+        "https://ratchakitcha.soc.go.th/",
+        "https://www.ocpb.go.th/news_view.php?nid=13434",
+        "https://www.ocpb.go.th/images/article/article_20250715151212.pdf",
+        "https://ratchakitcha.soc.go.th/documents/1879724.pdf",
+        "https://www.rd.go.th/26218.html",
+        "https://www.rd.go.th/english/37741.html",
+        "https://www.rd.go.th/65244.html",
+        "https://www.ipthailand.go.th/images/26669/2566/laws/COPYRIGHT%20ACT%20%28NO.%205%29%2C2022.pdf",
+        "https://gppc.pdpc.or.th/portfolio/operational-training-installation-course-1-content-4/",
+        "https://register-gppc-plus.pdpc.or.th/",
+        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+        "https://aps.amlo.go.th/aps/public/thailandlist/",
+        "https://aps.amlo.go.th/aps/public/unlist/"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "6e152441b9f2a24a39c775d2928921e0b82a67b5697d0b73f70f56a1384b85f7",
+  "official_source_count": 51,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Personal Data Protection Act B.E. 2562 and PDPC notifications"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "th"
+  ],
+  "display_language_name": "繁體中文"
+}

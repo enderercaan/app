@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const read=(p)=>fs.readFileSync(p,'utf8');
+const m=read('supabase/migrations/198_regional_billing_programs_fail_closed.sql');
+const purchases=read('src/services/purchases.ts');
+const domain=read('src/types/domain.ts');
+
+assert.match(m,/create table if not exists public\.jurisdiction_billing_programs/);
+assert.match(m,/revoke all on table public\.jurisdiction_billing_programs from public,anon,authenticated/);
+assert.match(m,/grant select,insert,update,delete on table public\.jurisdiction_billing_programs to service_role/);
+assert.match(m,/perform public\.require_active_authenticated_session\(\)/);
+assert.match(m,/resolution_status<>'verified'/);
+assert.match(m,/legal_source_approval_current\(v_runtime\.legal_country_code\)/);
+assert.match(m,/review_status='approved'/);
+assert.match(m,/expires_at>now\(\)/);
+assert.match(m,/blocked_not_configured/);
+assert.match(m,/iosAlternativeBillingEnabled',false/);
+assert.match(m,/androidAlternativeBillingEnabled',false/);
+assert.match(m,/externalPurchaseLinksEnabled',false/);
+assert.match(m,/'regionalBilling',public\.current_regional_billing_policy\(\)/);
+assert.match(m,/'nativeStoreBillingDefault',true/);
+assert.match(m,/'revenueCatEntitlement','tailmance_premium'/);
+assert.match(m,/'revenueCatPackage','premium_access'/);
+assert.match(domain,/regionalBilling\?:\{/);
+assert.doesNotMatch(purchases,/externalPurchase|alternativeBilling|external[_ -]?billing/i,'Client purchase service must remain native-store/RevenueCat only until an approved regional program is deliberately implemented');
+console.log('regional-billing-policy-checks: PASS — service-only evidence-bound config; absent/stale approval is fail-closed; client remains native-store RevenueCat');

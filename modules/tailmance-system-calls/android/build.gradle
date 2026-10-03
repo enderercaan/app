@@ -1,0 +1,12 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+apply from: new File(project(":expo-modules-core").projectDir.absolutePath, "ExpoModulesCorePlugin.gradle")
+applyKotlinExpoModulesCorePlugin()
+useCoreDependencies()
+useDefaultAndroidSdkVersions()
+
+group = 'expo.modules.tailmancesystemcalls'
+version = '0.1.0'
+
+android { namespace 'expo.modules.tailmancesystemcalls' }

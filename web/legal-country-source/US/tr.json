@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "US",
+  "country_display_name": "Amerika Birleşik Devletleri",
+  "document_locale": "tr",
+  "document_language_display_names": "İngilizce",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Ülkeye Özgü Hukuki Ek",
+  "sections": [
+    {
+      "heading": "Hukuki kapsam",
+      "paragraphs": [
+        "Bu ek, Tailmance Amerika Birleşik Devletleri ülkesinin hesabınıza uygulanacak hukukun ülkesi olduğunu belirlediğinde uygulanır. Kullanım Koşulları, Gizlilik Bildirimi, Topluluk Kuralları, abonelik bildirimi ve diğer hukuki belgeleri tamamlar; bunların yerine geçmez.",
+        "Tailmance hukuki yükümlülükleri bu doğrulanmış ülkeye ve gerektiğinde uygulanabilir bölgesel veya yerel hukuk çerçevesine göre uygular. Uygulama dilini değiştirmek, seyahat etmek veya mağaza bölgesini değiştirmek tek başına uygulanacak hukuku değiştirmez."
+      ]
+    },
+    {
+      "heading": "Belge dili",
+      "paragraphs": [
+        "Bu hukuki yapılandırma için bağlayıcı belgeler gerekli dil veya dillerde sunulur: İngilizce. Belirli bir dil zorunluysa Tailmance başka bir dili bildirim yapmadan otomatik olarak onun yerine kullanmaz.",
+        "Bu sürüm erişilebilirlik amacıyla çeviri olarak sunulur. Uygulanabilir hukuk veya bu hukuki yapılandırma zorunlu bir dil sürümü gerektiriyorsa onun yerine geçmez."
+      ]
+    },
+    {
+      "heading": "Ülkeye özgü hukuki gereklilikler",
+      "paragraphs": [
+        "Uygulanacak ülke için yirmi iki hukuki gereklilik alanı, kaynağı belirli resmî kaynaklara göre incelenir. Yürürlükteki hukuk ve yürürlük tarihleri; teklifler, istişareler ve gelecekteki düzenlemelerden ayrı tutulur; bir teklif hiçbir zaman yürürlükteki hukuk olarak uygulanmaz.",
+        "Kaynak inceleme tarihi: 1 Ekim 2026. Gelecekteki düzenlemeler, taslaklar ve istişareler ayrı izlenir ve yürürlükteki hukuk olarak sunulmaz."
+      ]
+    },
+    {
+      "heading": "İncelenen hukuki çerçeveler",
+      "paragraphs": [
+        "Uygulanacak ülke için Tailmance’ın resmî kaynak incelemesinde kayıtlı başlıca hukuki çerçeveler aşağıda yer alır. Listede bulunması yalnız inceleme kapsamını gösterir: bir kuralın bugün yürürlükte, gelecekte yürürlüğe girecek, yalnızca teklif aşamasında veya daha dar bir uygulanabilirlik koşuluna bağlı olup olmadığı yürürlük tarihi ve kesin uygulanabilirlik kontrolleriyle belirlenir; yalnız bu listeden sonuç çıkarılmaz."
+      ],
+      "items": [
+        "Federal sectoral/privacy and consumer protection law",
+        "State privacy laws"
+      ]
+    },
+    {
+      "heading": "Gizlilik, güvenlik ve kullanıcı hakları",
+      "paragraphs": [
+        "Gizlilik hakları, veri talepleri, hesap ve veri silme, uluslararası aktarımlar, yaş doğrulaması, elektronik pazarlama ile güvenlik ve ihlal bildirim yükümlülükleri tam hukuki bağlam üzerinden uygulanır. Bildirimler, dışa aktarma ve silme işlemleri için uygulamadaki Hukuk Merkezi’ni kullanabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Abonelikler ve tüketici bilgileri",
+      "paragraphs": [
+        "Satın almanın yapıldığı uygulama mağazası, gösterilen abonelik fiyatı, para birimi ve uygulanabilir vergi gösterimi için esas kaynaktır. Yenileme, iptal ve gerekli sözleşme öncesi bilgiler satın alma öncesinde gösterilir. Tailmance hayvan veya fiziksel ürün satmaz ve kullanıcılar arası hayvan satışı ödemelerini işlemez."
+      ]
+    },
+    {
+      "heading": "Hayvan refahı ve ticari olmayan yapı",
+      "paragraphs": [
+        "Ticari hayvan satışı ve ticari yetiştiriciliğe yönelik pazaryeri faaliyeti yasaktır. Sahiplerin kendi aralarında düzenlediği çiftleştirme yalnızca ilgili ülkede geçerli hayvan refahı, yetiştiricilik, sağlık, akrabalık ve uygunluk şartları karşılandığında kullanılabilir; aksi halde özellik kapalı kalır."
+      ]
+    },
+    {
+      "heading": "İletişim ve resmî kaynaklar",
+      "paragraphs": [
+        "Bu bildirimlerle ilgili sorular veya gizlilik talepleri yektaozel@icloud.com adresine gönderilebilir. Bu hukuki incelemede kullanılan resmî kaynaklar aşağıda listelenmiştir."
+      ],
+      "official_sources": [
+        "https://oag.ca.gov/privacy/ccpa",
+        "https://www.ftc.gov/legal-library/browse/enforcement-policy-statement-promoting-adoption-age-verification-technology",
+        "https://cppa.ca.gov/regulations/ccpa_updates.html",
+        "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
+        "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+        "https://www.nysenate.gov/legislation/laws/GBS/349",
+        "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+        "https://tcss.legis.texas.gov/resources/BC/htm/BC.121.v3.htm",
+        "https://developer.apple.com/news/?id=sg176nne",
+        "https://le.utah.gov/xcode/Title13/Chapter76/13-76-S202.html",
+        "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475238",
+        "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB161-enr.pdf",
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.9.&part=4.&chapter=&article=",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856",
+        "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+        "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+        "https://oag.ca.gov/node/608083",
+        "https://www.nysenate.gov/legislation/laws/GBS/527-A",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.aphis.usda.gov/animal-welfare-act",
+        "https://www.nysenate.gov/legislation/laws/AGM/403",
+        "https://www.nysenate.gov/legislation/laws/GBS/753-F",
+        "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251085",
+        "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.ada.gov/resources/web-guidance/",
+        "https://www.irs.gov/businesses/business-taxes",
+        "https://www.copyright.gov/512/",
+        "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
+        "https://ofac.treasury.gov/sanctions-programs-and-country-information"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "484ef9c24db58a4811e1c38d6c637bbdd7df46c33f8432fc3131cf0f9ee19662",
+  "official_source_count": 55,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Federal sectoral/privacy and consumer protection law",
+    "State privacy laws"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "Türkçe"
+}

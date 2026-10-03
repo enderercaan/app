@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "US",
+  "country_display_name": "États-Unis",
+  "document_locale": "fr",
+  "document_language_display_names": "anglais",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Supplément juridique propre à la juridiction",
+  "sections": [
+    {
+      "heading": "Champ juridique",
+      "paragraphs": [
+        "Ce supplément s’applique lorsque Tailmance détermine que États-Unis est le pays dont le droit s’applique à votre compte. Il complète les Conditions d’utilisation, l’Avis de confidentialité, les Règles de la communauté, l’avis relatif à l’abonnement et les autres documents juridiques, sans les remplacer.",
+        "Tailmance applique les obligations juridiques en fonction de ce pays vérifié et, lorsque cela est requis, du cadre juridique régional ou local applicable. Changer la langue de l’application, voyager ou modifier la région de la boutique ne change pas, à lui seul, ce cadre juridique."
+      ]
+    },
+    {
+      "heading": "Langue des documents",
+      "paragraphs": [
+        "Les documents juridiques contraignants correspondant à cette configuration juridique sont tenus dans la ou les langues requises : anglais. Lorsqu’une langue déterminée est exigée, Tailmance ne la remplace pas automatiquement et sans avertissement par une autre langue.",
+        "Cette version est fournie comme traduction d’accessibilité. Elle ne remplace pas une version dans une langue obligatoire lorsque le droit applicable ou cette configuration juridique l’exige."
+      ]
+    },
+    {
+      "heading": "Exigences juridiques propres au pays",
+      "paragraphs": [
+        "Vingt-deux domaines d’exigences juridiques sont examinés pour le pays applicable à partir de sources officielles attribuables. Le droit en vigueur et ses dates d’effet sont distingués des projets, consultations et mesures futures ; une proposition n’est jamais présentée comme du droit en vigueur.",
+        "Date de revue des sources : 1er octobre 2026. Les mesures futures, les projets et les consultations sont suivis séparément et ne sont pas présentés comme du droit en vigueur."
+      ]
+    },
+    {
+      "heading": "Cadres juridiques examinés",
+      "paragraphs": [
+        "Les principaux cadres juridiques recensés dans l’examen des sources officielles de Tailmance pour le pays applicable sont indiqués ci-dessous. Leur présence délimite uniquement le champ de l’examen : le caractère en vigueur, à effet futur, proposé ou soumis à une condition d’applicabilité plus étroite est déterminé par les contrôles de date d’effet et de champ exact, et ne se déduit jamais de cette liste seule."
+      ],
+      "items": [
+        "Federal sectoral/privacy and consumer protection law",
+        "State privacy laws"
+      ]
+    },
+    {
+      "heading": "Vie privée, sécurité et droits des utilisateurs",
+      "paragraphs": [
+        "Les droits en matière de protection des données, les demandes d’accès et de suppression, les transferts internationaux, l’assurance de l’âge, le marketing électronique ainsi que les obligations de sécurité et de notification sont appliqués selon le contexte juridique exact. Le Centre juridique de l’application donne accès aux avis, à l’exportation et à la suppression."
+      ]
+    },
+    {
+      "heading": "Abonnements et information des consommateurs",
+      "paragraphs": [
+        "La boutique d’applications par laquelle l’achat est effectué fait foi pour le prix d’abonnement affiché, la devise et le traitement fiscal applicable. Les informations requises sur le renouvellement, l’annulation et la phase précontractuelle sont présentées avant l’achat. Tailmance ne vend ni animaux ni biens physiques et ne traite pas de paiements entre utilisateurs pour la vente d’animaux."
+      ]
+    },
+    {
+      "heading": "Bien-être animal et absence de commerce",
+      "paragraphs": [
+        "La vente commerciale d’animaux et les places de marché consacrées à l’élevage commercial sont interdites. Les accouplements organisés par les propriétaires ne sont disponibles que si les exigences applicables du pays en matière de bien-être animal, reproduction, santé, parenté et admissibilité sont remplies ; sinon la fonctionnalité reste indisponible."
+      ]
+    },
+    {
+      "heading": "Contact et sources officielles",
+      "paragraphs": [
+        "Les questions concernant ces avis ou les demandes relatives à la vie privée peuvent être envoyées à yektaozel@icloud.com. Les références officielles utilisées pour cette analyse juridique figurent ci-dessous."
+      ],
+      "official_sources": [
+        "https://oag.ca.gov/privacy/ccpa",
+        "https://www.ftc.gov/legal-library/browse/enforcement-policy-statement-promoting-adoption-age-verification-technology",
+        "https://cppa.ca.gov/regulations/ccpa_updates.html",
+        "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
+        "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+        "https://www.nysenate.gov/legislation/laws/GBS/349",
+        "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+        "https://tcss.legis.texas.gov/resources/BC/htm/BC.121.v3.htm",
+        "https://developer.apple.com/news/?id=sg176nne",
+        "https://le.utah.gov/xcode/Title13/Chapter76/13-76-S202.html",
+        "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475238",
+        "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB161-enr.pdf",
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.9.&part=4.&chapter=&article=",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856",
+        "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+        "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+        "https://oag.ca.gov/node/608083",
+        "https://www.nysenate.gov/legislation/laws/GBS/527-A",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.aphis.usda.gov/animal-welfare-act",
+        "https://www.nysenate.gov/legislation/laws/AGM/403",
+        "https://www.nysenate.gov/legislation/laws/GBS/753-F",
+        "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251085",
+        "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.ada.gov/resources/web-guidance/",
+        "https://www.irs.gov/businesses/business-taxes",
+        "https://www.copyright.gov/512/",
+        "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
+        "https://ofac.treasury.gov/sanctions-programs-and-country-information"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "484ef9c24db58a4811e1c38d6c637bbdd7df46c33f8432fc3131cf0f9ee19662",
+  "official_source_count": 55,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Federal sectoral/privacy and consumer protection law",
+    "State privacy laws"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "français"
+}

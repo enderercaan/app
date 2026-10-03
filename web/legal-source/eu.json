@@ -1,0 +1,841 @@
+{
+  "schema_version": 1,
+  "locale": "eu",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Erabilera-baldintzak",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "2026-09-29ko bertsioa. Baldintza hauek Tailmance erabiltzea arautzen dute. Erakusten zaizun herrialdeko edo eskualdeko baldintza espezifiko oro Baldintza hauen parte da. Kontuaren titularrak gutxienez 18 urte izan behar ditu."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Zerbitzua eta kontua",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmancek katuen eta txakurren arduradunei maskoten profilak sortzen eta aurkikuntza- eta gizarte-funtzioak erabiltzen laguntzen die. Mantendu kontuko informazioa zehatza, babestu kontuaren segurtasuna eta ez eskualdatu kontua. Tailmance ez da albaitaritza-, osasun-, larrialdi-, animalien salmenta- edo ordainketa-bitartekaritza zerbitzua."
+            }
+          ]
+        },
+        {
+          "heading": "2. Adina eta hautagarritasuna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kontu bat sortzeko gutxienez 18 urte izan behar dituzu. Aplikatu beharreko legeak edo dendaren arauek adin-berme gehigarria eskatzen dutenean, sarbideak egiaztapen osagarria eska dezake. Adinari buruzko adierazpen faltsuak sarbidea mugatzea edo amaitzea ekar dezake."
+            }
+          ]
+        },
+        {
+          "heading": "3. Maskoten profilak eta erabiltzailearen erantzukizuna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erabili eta partekatzeko baimena duzun maskotari, argazkiei, osasunari eta profilari buruzko informazioa bakarrik igo. Ez faltsutu jakinaren gainean txertaketa-, osasun-, arraza-, adin-, sexu-, jabetza- edo egiaztapen-daturik, eta ez igo beste pertsona batzuei buruzko beharrezkoak ez diren datu pertsonal edo sentikorrik."
+            }
+          ]
+        },
+        {
+          "heading": "4. Erabiltzailearen edukia eta lizentzia",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Igotzen duzun edukiaren gaineko eskubideak zureak izaten jarraitzen dute. Tailmanceri mundu osorako lizentzia ez-esklusiboa ematen diozu, zerbitzua emateko behar den neurrian edukia ustiatu, biltegiratu, erakutsi, transmititu, babestu eta moderatzera mugatua. Jabetza ez zaio Tailmanceri eskualdatzen."
+            }
+          ]
+        },
+        {
+          "heading": "5. Debekatutako edukia eta jokabidea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Debekatuta daude animalien tratu txarrak, jazarpena, mehatxuak, gorrotoa, haurren sexu-abusuko materiala, iruzurra, legez kanpoko ondasun edo zerbitzuak, baimenik gabeko datu pertsonal edo intimoak, osasunari edo egiaztapenari buruzko informazio faltsua, jabetza intelektualaren urraketa, nortasuna ordezkatzea, segurtasun- edo moderazio-neurriak saihestea eta legez kanpoko jarduerak erraztea. Komunitatearen Arauek xehetasun gehiago ematen dituzte."
+            }
+          ]
+        },
+        {
+          "heading": "6. Animalien salmenta, hazkuntza komertziala eta estalketa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance ez da animalien merkatua, animalien salmentarako plataforma edo hazleen merkatua. Ezin da erabili animalien prezioak, gordailuak, salmentak edo entregak adosteko, hazleentzako bezero komertzialak eskuratzeko, legez kanpoko hazkuntza egiteko edo animalien trafikoa egiteko. Estalketa lehenespenez desgaituta dago eta Tailmancek berariaz aktibatzen duenean eta aplikatu beharreko legeak eta animalien ongizateari buruzko arauek baimentzen dutenean bakarrik gaitu ahal izango da. Zerbitzua ezin da erabili maskota baten adopzioa, birkokapena edo jabetza-transferentzia eskaintzeko, eskatzeko, bitartekotzeko edo antolatzeko."
+            }
+          ]
+        },
+        {
+          "heading": "7. Moderazioa, segurtasuna eta errekurtsoak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmancek edukiaren ikusgarritasuna edo konturako sarbidea mugatu dezake segurtasunagatik, Baldintzak edo Komunitatearen Arauak urratzeagatik edo legezko arrazoiengatik. Dagokionean, erabiltzaileek arrazoiak eta eskuragarri dagoen errekurtso-bidea jasoko dituzte. Onartutako errekurtso batek ez du bertan behera uzten eduki edo kontu berari eragiten dion beste murrizketa baliozko bat."
+            }
+          ]
+        },
+        {
+          "heading": "8. Animalien osasuna eta larrialdiak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmancek ez du albaitaritza-arretarik, diagnostiko medikorik edo larrialdi-zerbitzurik ematen. Aplikazioko txertaketa-, osasun- edo egiaztapen-erregistroek ez dute albaitari profesional baten ebaluazioa ordezkatzen. Behar denean, jo ezazu dagokion albaitariarengana, larrialdi-zerbitzura edo agintaritzarengana."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium eta dendako fakturazioa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium aukerakoa da eta Standard erabilera harpidetzarik gabe ere eskuragarri dago. Dendak bestelakorik adierazi ezean, Premium automatikoki berritzen da. Prezio, moneta, zerga, aldi, probaldi eta sustapen-baldintza lotesleak App Storek edo Google Playk erakusten ditu. Kudeatu eta ezeztatu dagokion dendan. Tailmance kontua ezabatzeak ez du dendako harpidetza automatikoki ezeztatzen."
+            }
+          ]
+        },
+        {
+          "heading": "10. Pribatutasuna eta adin-bermea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pribatutasun-politikak eta aplikatu beharreko tokiko pribatutasun-gehigarriek datuen tratamendua azaltzen dute. Marketineko push jakinarazpenetarako adostasuna bereizia eta aukerakoa da. Adin-bermeak identitate-, aurpegi-, biometria- edo bestelako datu sentikorrak erabiltzen baditu, dagokion pribatutasun-informazio gehigarria eta eskubideak bereizita aurkeztu behar dira."
+            }
+          ]
+        },
+        {
+          "heading": "11. Murrizketa, amaiera eta ezabatzea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Zure kontua behin betiko ezabatu dezakezu, eta aplikaziora sartu ezin bazara web bidezko ezabatze-bidea erabil dezakezu. Tailmancek murrizketa proportzionatuak aplika ditzake Baldintzak, segurtasun-arauak edo legea urratzeagatik eta, dagokionean, arrazoiak eta errekurtso-eskubideak eman. Ezabatzeak ez du esan nahi segurtasunagatik, gatazkengatik, legezko eskaerengatik edo kontabilitateagatik legeak gordetzea eskatzen duen erregistro mugatu oro berehala ezabatu behar denik."
+            }
+          ]
+        },
+        {
+          "heading": "12. Jabetza intelektuala",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Partekatzeko eskubidea duzun edukia bakarrik igo. Eskubideen titularrek Jabetza Intelektualaren Jakinarazpenaren prozedura erabil dezakete. Herrialde bakoitzeko jakinarazpen-, aurka-jakinarazpen- eta leheneratze-eskubideak aplikatzen jarraituko dute beharrezkoa denean."
+            }
+          ]
+        },
+        {
+          "heading": "13. Zerbitzuaren aldaketak eta erabilgarritasuna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Funtzioak alda daitezke, eten daitezke edo herrialde batean erabilgarri ez egon segurtasun-, lege-, denda-politika- edo produktu-arrazoiengatik. Tailmancek ez du etenik edo akatsik gabeko sarbidea bermatzen, baina kontsumitzaileen nahitaezko eskubideek eta ordainpeko zerbitzuei lotutako betebeharrek indarrean jarraitzen dute."
+            }
+          ]
+        },
+        {
+          "heading": "14. Erantzukizuna eta uko egin ezin zaien eskubideak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Baldintza hauetako ezerk ez ditu ezabatzen aplikatu beharreko legearen arabera uko egin ezin zaien kontsumo-, datu-babes-, irisgarritasun- edo bestelako eskubideak. Erantzukizun-salbuespenak eta -mugak legeak baimentzen duen neurrian bakarrik aplikatuko dira."
+            }
+          ]
+        },
+        {
+          "heading": "15. Aplikatu beharreko legea eta tokiko baldintzak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aplikatu beharreko legea, kontsumitzaileentzako nahitaezko foroa, gatazkak ebazteko bide alternatiboak, auzitegiak, arautzaileetara jotzeko aukera eta bestelako tokiko eskubideak aldatu egin daitezke ohiko bizilekuaren edo zerbitzua eskaintzen den tokiaren arabera. Herrialdeko edo eskualdeko gehigarri espezifikoek Baldintza hauek osatzen dituzte, eta nahitaezko tokiko eskubideak gordetzen dira."
+            }
+          ]
+        },
+        {
+          "heading": "16. Aldaketak eta onarpena berritzea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Baldintza lotesleak edo aplikatu beharreko tokiko gehigarriak nabarmen aldatzen direnean, Tailmancek jakinarazpena emango du edo onarpena berriro eskatuko du beharrezkoa denean. Aurreko herrialde-, eskualde- edo dokumentu-hizkuntza testuinguru bateko onarpena ez da automatikoki testuinguru berri batera eramaten."
+            }
+          ]
+        },
+        {
+          "heading": "17. Harremana",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erabili Laguntza eta Harremanetarako orria laguntza-, segurtasun-, pribatutasun- eta bestelako eskaeretarako. Aplikatu beharreko legeak operadoreari, ordezkariari, arautzaileari edo kontsumo-harremanetarako kontaktuari buruzko informazioa eskatzen duenean, dagokion tokiko gehigarrian sartuko da."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Pribatutasun-politika",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "2026-09-29ko bertsioa. Datuen tratamenduaren arduraduna: Yekta Özel. Politika honek Tailmancek datu pertsonalak nola tratatzen dituen azaltzen du. Erakusten zaizkizun herrialdeko edo eskualdeko pribatutasun-gehigarriak politika honekin batera aplikatzen dira. Politika hau ez da marketinerako adostasuna."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Tratatu ditzakegun datu-kategoriak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kontu- eta saio-datuak; segurtasun-, gailu-, sare-, IP- eta push-token datuak; maskoten profilak, argazkiak eta gizarte-interakzioak; aurkikuntzarako gutxi gorabeherako kokapena; zuk igotzea erabakitzen dituzun osasun-, txertaketa- eta egiaztapen-erregistroak; harpidetzaren egoera eta dendako transakzioen erreferentziak; salaketak, blokeoak, moderazioa eta errekurtsoak; jakinarazpen- eta marketin-hobespenak; eta zein lege-testuinguru eta dokumentu erakutsi zitzaizkizun egiaztatzeko erregistroak trata ditzakegu."
+            }
+          ]
+        },
+        {
+          "heading": "2. Datuen iturriak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Datuak zuzenean zuregandik, zure gailutik eta aplikazioaren erabileratik, igotzen duzun edukitik, segurtasun- eta moderazio-prozesuetatik, App Store edo Google Playtik, baimendutako zerbitzu-hornitzaileetatik eta, kasu mugatuetan, beste erabiltzaileen salaketa edo edukietatik lortzen ditugu."
+            }
+          ]
+        },
+        {
+          "heading": "3. Helburuak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Datuak tratatzen ditugu kontuak eta gizarte-funtzioak emateko, aurkikuntza eta matching-a egiteko, mezularitza eta jakinarazpenak eskaintzeko, segurtasuna eta iruzurraren prebentzioa bermatzeko, moderazioa eta errekurtsoak kudeatzeko, harpidetzak egiaztatzeko, erabiltzaileen eskaerei erantzuteko, datuak esportatu eta ezabatzeko, zerbitzuaren fidagarritasuna bermatzeko eta aplikatu beharreko legea betetzeko."
+            }
+          ]
+        },
+        {
+          "heading": "4. Oinarri juridikoak eta tokiko aldeak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Helburuaren, datu-kategoriaren eta aplikatu beharreko legearen arabera, tratamendua kontratuan, lege-betebeharrean, interes legitimoetan, adostasunean edo beste oinarri juridiko baliozko batean oinarritu daiteke. Tokiko pribatutasun-gehigarriek jurisdikzio bakoitzeko aldeak azaltzen dituzte."
+            }
+          ]
+        },
+        {
+          "heading": "5. Informazioa eta marketin-adostasuna bereizita daude",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pribatutasun-ohar batek tratamenduari buruzko informazioa ematen dizu; ez da adostasun orokorra. Marketineko push jakinarazpenek aukera bereizi, aukerako eta ezeztagarri bat behar dute, eta ez dute posta elektronikoa, SMSa, telefonoa edo beste marketin-kanalik baimentzen, bereizita baimentzen ez badira."
+            }
+          ]
+        },
+        {
+          "heading": "6. Kokapena",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kokapenerako sarbidea baimentzen baduzu, Tailmancek gailuaren kokapena erabil dezake aurkikuntzarako. Koordenatuak hiru dezimaletara biribiltzen dira zerbitzarira bidali aurretik, modu pribatuan gordetzen dira eta ez zaizkie beste erabiltzaileei erakusten; gutxi gorabeherako distantzia baino ez da bistaratzen. Gailuaren edo dendaren kokapen-seinaleek ez dute, berez, jurisdikzio juridikoa zehazten."
+            }
+          ]
+        },
+        {
+          "heading": "7. Osasuna eta datu sentikorrak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Maskoten osasun- eta txertaketa-erregistroek informazio sentikorra eduki dezakete. Igo beharrezkoa dena bakarrik eta saihestu hirugarrenen datuak. Adin-bermerako identitate-, aurpegi-, biometria- edo bestelako informazio sentikorra erabiltzen denean, behar diren ohar gehigarriak, babes-neurriak, gordetze-epeak, hornitzaileari buruzko informazioa eta prozedura alternatiboak eman behar dira."
+            }
+          ]
+        },
+        {
+          "heading": "8. Datuen komunikazioa eta tratamendu-eragileak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Datuak baimendutako azpiegitura-, segurtasun-, moderazio-, mezularitza-, jakinarazpen-, analitika/akats-, harpidetza- eta bestelako zerbitzu-hornitzaileekin parteka daitezke, zerbitzurako beharrezkoa denean soilik, eta agintari publikoekin legeak eskatzen duenean. Tailmancek ez dizkie datu pertsonalak iragarleei saltzen."
+            }
+          ]
+        },
+        {
+          "heading": "9. Nazioarteko transferentziak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Datuak nazioartean transferitzen direnean, Tailmancek aplikatu beharreko jurisdikzioak eskatzen dituen mekanismo eta bermeak erabili behar ditu eta behar diren tokiko oharrak eman. Transferentzia-arauak herrialde edo eskualdearen arabera alda daitezke."
+            }
+          ]
+        },
+        {
+          "heading": "10. Gordetzea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Datuak helbururako beharrezkoa den edo legeak eskatzen duen denboran bakarrik gordetzen dira. Kategoria desberdinek epe desberdinak dituzte. Kontua ezabatzeak ez du esan nahi nahitaez gorde behar diren segurtasun-, iruzur-, gatazka-, kontabilitate- edo legezko eskaeren erregistro mugatuak berehala ezabatu behar direnik."
+            }
+          ]
+        },
+        {
+          "heading": "11. Segurtasuna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmancek datuak babesteko diseinatutako neurri tekniko eta antolakuntzakoak erabiltzen ditu, besteak beste sarbide-kontrolak, transmisioan zifratzea, biltegiratze pribatuaren kontrolak, auditoretza-erregistroak eta abusuen prebentzioa. Sistema batek ere ezin du erabateko segurtasuna bermatu."
+            }
+          ]
+        },
+        {
+          "heading": "12. Zure eskubideak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aplikatu beharreko legearen arabera, datuetara sartzeko, zuzentzeko, ezabatzeko, tratamendua mugatzeko edo haren aurka egiteko, eramangarritasunerako, adostasuna kentzeko, zenbait erabaki automatizatu aurkaratzeko, arautzaile bati kexa aurkezteko eta hartzaileei zein transferentziei buruzko informazioa jasotzeko eskubideak izan ditzakezu. Tokiko gehigarriek eskubide eta prozedura zehatzak azaltzen dituzte."
+            }
+          ]
+        },
+        {
+          "heading": "13. Adingabeak eta adina",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmanceko kontuak 18 urte edo gehiagoko pertsonentzat dira. Produktu-arau honek ez ditu ordezkatzen legeak edo dendaren politikek ezar ditzaketen adin-berme, haurren segurtasun, salaketa edo plataforma-betebeharrak. Tailmancek kontu bat sortu duen pertsona adingabe eta ez-hautagarri baten berri badu, murrizketa- eta ezabatze-neurri egokiak har ditzake."
+            }
+          ]
+        },
+        {
+          "heading": "14. Sistema automatizatuak eta moderazioa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sistema automatizatuek segurtasuna, iruzurraren detekzioa, sailkapena, gomendioak eta moderazioa lagun ditzakete. Aplikatu beharreko legeak ondorio garrantzitsuak dituzten erabakietarako azalpenak, giza berrikuspena, aurka egiteko aukera edo bestelako bermeak eskatzen dituenean, eskubide horiek emango dira."
+            }
+          ]
+        },
+        {
+          "heading": "15. Aldaketak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Politika honetan edo tokiko gehigarri batean egindako aldaketa esanguratsuak beharrezkoa denean jakinaraziko dira. Aldaketa batek adostasuna edo aitorpena berritzea eskatzen badu, Tailmancek berriro eskatuko du aurreko aukera batean oinarritu beharrean."
+            }
+          ]
+        },
+        {
+          "heading": "16. Harremana",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erabili Laguntza eta Harremanetarako orria pribatutasun-eskaeretarako. Tokiko ordezkari bat, pribatutasun-kontaktu bat, datuak babesteko agintaritza bat edo jurisdikzioari lotutako beste kontaktu bat legez beharrezkoa denean, dagokion tokiko gehigarriak emango du."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Komunitatearen Arauak",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Arau hauek Baldintzekin batera aplikatzen dira Tailmance errespetuzkoa, segurua eta animalien ongizatean zentratua izateko. Aplikatu beharreko tokiko lege zorrotzagoak lehentasuna du."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Errespetatu pertsonak eta animaliak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ez tratu txarrik eman edo arriskuan jarri animaliak, ez jazarri, mehatxatu, zelatatu, esplotatu edo diskriminatu beste pertsonak, eta ez zuzendu gorrotoa haien aurka. Ez sustatu animaliekin jokabide arriskutsurik eta ez ezkutatu haien ongizaterako arrisku esanguratsurik."
+            }
+          ]
+        },
+        {
+          "heading": "2. Sexu-esplotazioa eta haurren segurtasuna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Debekatuta daude haurren sexu-abusuko materiala, adingabeen sexu-esplotazioa, grooming-a, sexu-xederako hurbilketa edo jokabide horiek errazten dituen edukia. Tailmancek materiala gorde, mugatu eta salatu dezake legeak eskatzen duenean, eta haurren segurtasunerako harreman-bide bat eskaintzen du."
+            }
+          ]
+        },
+        {
+          "heading": "3. Benetako profilak eta osasun-adierazpenak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ez ordezkatu beste pertsona baten nortasuna, ez faltsutu maskotaren jabetza, arraza, adina, sexua, osasuna, txertaketa edo egiaztapen-egoera, eta ez aurkeztu iruzurrezko dokumenturik. Egiaztapen-bereizgarriak ez dira albaitaritza-bermeak."
+            }
+          ]
+        },
+        {
+          "heading": "4. Pribatutasuna eta eduki intimoa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ez partekatu beste pertsona baten datu pribatuak, kokapen zehatza, kredentzialak, osasun-informazioa edo irudi intimoak baimenik gabe. Saihestu hirugarrenen beharrezkoak ez diren datu pertsonalak maskoten erregistroetan edo mezuetan sartzea."
+            }
+          ]
+        },
+        {
+          "heading": "5. Legez kanpoko ondasunak, iruzurra eta jokabide arriskutsua",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ez erabili Tailmance iruzurrerako, legez kanpoko ondasun edo zerbitzuetarako, arma edo jarduera arriskutsuetarako, baimenik gabeko finantza-eskemetarako edo delitua edo legezko segurtasun-kontrolak saihestea errazten duen jokabiderako."
+            }
+          ]
+        },
+        {
+          "heading": "6. Animalien salmenta eta hazkuntza komertziala",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance ez da animalien salmentarako edo hazleentzako merkatua. Debekatuta daude prezioen negoziazioa, gordailuak, animalien salmenta edo entrega, hazleentzako bezero komertzialak erakartzea, legez kanpoko hazkuntza, trafikoa eta txakurkume-fabriken jarduera. Zerbitzua ezin da erabili maskota baten adopzioa, birkokapena edo jabetza-transferentzia eskaintzeko, eskatzeko, bitartekotzeko edo antolatzeko."
+            }
+          ]
+        },
+        {
+          "heading": "7. Estalketa eta animalien ongizatea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Estalketa-funtzioak lehenespenez desgaituta daude eta herrialde bakoitzeko legezkotasun-, ongizate-, adin-, osasun- eta ahaidetasun-kontrolak onartu ondoren bakarrik gaitu ahal izango dira. Erabiltzaileek ez dute zerbitzua erabili behar hazkuntza kaltegarria edo legez kanpokoa sustatzeko."
+            }
+          ]
+        },
+        {
+          "heading": "8. Salaketa, blokeoa eta moderazioa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erabili aplikazioko salaketa- eta blokeo-tresnak segurtasun-arazoetarako. Tailmancek edukia edo kontuak kendu edo mugatu ditzake eta, dagokionean eta legez beharrezkoa denean, arrazoiak eta errekurtso-bideak emango ditu."
+            }
+          ]
+        },
+        {
+          "heading": "9. Tokiko arauak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Herrialde edo eskualde bakoitzeko legez kanpoko edukiari, haurren segurtasunari, animalien ongizateari, salaketari, kontserbazioari eta legea betearazteko lankidetzari buruzko betebeharrak Arau hauei gehitu ahal zaizkie. Tailmancek aplikatu beharreko arau zorrotzena betetzen du beharrezkoa denean."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Marketineko push jakinarazpenetarako adostasuna",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Aukera hau Baldintzetatik eta Pribatutasun-politikatik bereizia da. Aukerakoa da eta ez da beharrezkoa Tailmanceren oinarrizko zerbitzua erabiltzeko."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Marketineko push jakinarazpenen aukera",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Marketineko push jakinarazpenak berariaz aktibatzen badituzu, Tailmancek produktuaren berriak, eskaintzak edo sustapen-eguneratzeak bidal ditzake zure gailu mugikorrera. Aukera hori edonoiz ken dezakezu Ezarpenetan, beharrezko zerbitzu-jakinarazpenei eragin gabe. Adostasun honek ez ditu posta elektronikoa, SMSa, telefonoa edo beste kanal batzuk hartzen. Türkiye-ko merkataritza-mezu elektronikoen arauek edo Kanadako spamaren aurkako arauek bezalako tokiko erregimenek eskakizun gehigarriak ezartzen dituztenean, eskakizun horiek bereizita bete behar dira."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Harpidetza eta kontsumitzaileentzako informazioa",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Orri honek Tailmance Premium eta erosketa aurretik zein ondoren aplikatzen den kontsumitzaileentzako informazioa azaltzen ditu. Tokiko nahitaezko kontsumitzaile-eskubideek indarrean jarraitzen dute beti."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium aukerakoa da. Standard erabilerak harpidetzarik gabe jarraitzen du. Premium funtzioak aplikazioan deskribatzen dira eta etorkizunerako alda daitezke, aplikatu beharreko kontsumo-legearen mende."
+            }
+          ]
+        },
+        {
+          "heading": "2. Prezioa eta fakturazioa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Prezioen, monetaren, zergen, fakturazio-aldiaren, probaldiaren eta sustapen-baldintzen balio lotesleak App Storek edo Google Playk erosketa egin aurretik erakusten dituenak dira. Tailmancek ez du zuzenean jasotzen zure ordainketa-txartelaren zenbakia."
+            }
+          ]
+        },
+        {
+          "heading": "3. Berritze automatikoa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Dendak argi eta garbi bestelakorik adierazi ezean, Premium automatikoki berritzen da ezeztatu arte. Berritze-unea eta kobrantzak dagokion dendaren baldintzen eta aplikatu beharreko legearen araberakoak dira."
+            }
+          ]
+        },
+        {
+          "heading": "4. Ezeztatzea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kudeatu edo ezeztatu harpidetza erosketa egiteko erabilitako dendako kontuaren bidez. Tailmance kontua ezabatzeak ez du dendako harpidetza automatikoki ezeztatzen. Ezeztatzeak, oro har, etorkizuneko berritzeak geldiarazten ditu eta ez du berez itzulketa-eskubiderik sortzen."
+            }
+          ]
+        },
+        {
+          "heading": "5. Itzulketak, atzera egiteko eskubidea eta nahitaezko eskubideak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Dirua itzultzeko, hausnarketa-eperako, atzera egiteko, legezko adostasunerako eta zerbitzu digitalen gaineko eskubideak dendaren eta aplikatu beharreko kontsumo-legearen araberakoak dira. Orri honetako ezerk ez ditu legez uko egin ezin zaizkien eskubideak mugatzen."
+            }
+          ]
+        },
+        {
+          "heading": "6. Kontua ezabatzea eta harpidetza-eskubidea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance kontua ezabatzen baduzu dendako harpidetza aktibo dagoen bitartean, dendaren fakturazioak jarrai dezake harpidetza bereizita ezeztatu arte. Eskubidea leheneratzea edo transferitzea dendako kontuaren eta Tailmanceren egiaztatutako harpidetza-erregistroen mende dago."
+            }
+          ]
+        },
+        {
+          "heading": "7. Erosketa aurreko aurkezpena",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aplikazio barruko erosketa baten aurretik, Tailmancek erakutsi zaizun kontsumitzaile-dokumentuen multzo zehatza erregistratzen du. Dendaren erosketa-orria ireki aurretik lege-paketea edo dokumentuen hash-a aldatzen bada, erosketa-fluxua gelditu egin behar da eta berrikuspen berria eskatu."
+            }
+          ]
+        },
+        {
+          "heading": "8. Tokiko informazioa",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Herrialde edo eskualde bakoitzeko operadorearen datuak, zerga-informazioa, atzera egiteko jarraibideak, gatazkak ebazteko bideak edo nahitaezko bestelako informazioak dagokion tokiko gehigarrian ematen dira beharrezkoa denean."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Moderazio-erabakiak eta errekurtsoak",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmancek moderazioa erabiltzen du erabiltzaileak, animaliak, zerbitzua eta lege-betetzea babesteko. Errekurritu daitezkeen erabakiek azalpena eta errekurtso-bidea izango dituzte dagokionean."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Erabakiak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmancek edukia, funtzioak edo kontuak kendu, mugatu, ikusgarritasun txikiagoa eman edo murriztu ditzake Komunitatearen Arauengatik, Baldintzengatik, segurtasunagatik, iruzurragatik, animalien ongizateagatik edo lege-arrazoiengatik. Erabakiak erabiltzaileak ikus dezakeen arrazoi batekin erregistratzen dira, informazioa ematea segurtasun- edo lege-arrazoiengatik debekatuta ez badago."
+            }
+          ]
+        },
+        {
+          "heading": "2. Errekurtsoak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Errekurtsoa erabilgarri dagoenean, aurkeztu aplikazioaren edo adierazitako bidearen bidez, dagokion epean. Errekurtsoak erabakiaren frogekin batera berrikusten dira eta giza berrikuspena izan dezakete. Onartutako errekurtso batek ez du beste murrizketa baliozko eta independente bat baliogabetzen."
+            }
+          ]
+        },
+        {
+          "heading": "3. Leheneratzea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Atzera botatako erabaki bat ez da osatutzat jotzen eragindako produktu-egoera benetan leheneratu arte, leheneratzea dagokionean. Kontrako erabaki aktiboek leheneratze automatiko ez-segurua eragozten dute."
+            }
+          ]
+        },
+        {
+          "heading": "4. Kontuaren murrizketak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Konturako sarbidea mugatuta badago, Tailmancek arrazoi egoki bat eta erabilgarri dagoen errekurtso-bidea emango ditu, informazioa ematea legez edo segurtasunagatik mugatuta ez badago. Beharrezko laguntza- eta lege/pribatutasun-bideek eskuragarri jarraituko dute hala izan behar dutenean."
+            }
+          ]
+        },
+        {
+          "heading": "5. Kanpoko eskubideak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Barne-errekurtso prozesuak ez du kentzen aplikatu beharreko legearen arabera arautzaile, auzitegi, gatazkak ebazteko erakunde edo beste agintaritza eskudun batera jotzeko izan dezakezun eskubiderik."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Jabetza intelektuala eta urraketa-jakinarazpenak",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Eskubideen titularrek eta baimendutako ordezkariek jabetza intelektualeko eskubideak urratzen dituela uste duten Tailmanceko edukia salatu dezakete."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Jakinarazpena aurkeztea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Eman babestutako lana edo eskubidea identifikatzeko, salatutako edukia aurkitzeko, zurekin harremanetan jartzeko eta jarduteko duzun ahalmena egiaztatzeko adina informazio. Aplikatu beharreko legeak eskatzen duenean, gehitu fede oneko adierazpena eta sinadura."
+            }
+          ]
+        },
+        {
+          "heading": "Berrikuspena eta aurka-jakinarazpena",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmancek jakinarazpenak aplikatu beharreko legearen arabera berrikusten ditu eta iruzurrezko edo abusuzko erreklamazioen aurkako babesak erabiltzen ditu. Edukia mugatzen denean, eragindako erabiltzaileak arrazoia eta, dagokionean, errekurtso- edo aurka-jakinarazpen prozedura jaso dezake."
+            }
+          ]
+        },
+        {
+          "heading": "Urraketa errepikatua",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Egiaztatutako urraketa errepikatuak edukiaren edo kontuaren gaineko murrizketa proportzionatuak ekar ditzake. Jakinarazpen kopuruak bakarrik ez du urraketa frogatzen; okerreko eta abusuzko jakinarazpenak ere kontuan hartzen dira."
+            }
+          ]
+        },
+        {
+          "heading": "Estatu Batuak: 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "§512 prozedura aplikatzen denean, Estatu Batuetako gehigarri espezifikoak izendatutako agentea eta beharrezko jakinarazpen-prozedura identifikatuko ditu. Orri orokor honek ez du baieztatzen Tailmancek erregistrorik osatu duenik edo legeko babes-erregimen baterako baldintzak betetzen dituenik, AEBetako gehigarriak berariaz baieztatzen ez badu."
+            }
+          ]
+        },
+        {
+          "heading": "Larrialdia edo legez kanpoko edukia",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jabetza intelektualeko jakinarazpen batek ez du larrialdi edo legez kanpoko eduki baten salaketa ordezkatzen. Horrelako kasuetarako, erabili aplikazioko salaketa, Segurtasun Zentroa edo Laguntza."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Irisgarritasuna",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmancek erabilera irisgarria produktuaren oinarrizko eskakizuntzat hartzen du eta erabiltzaile eta laguntza-teknologia askori eustea du helburu."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Erabilera irisgarria",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Interfazea etiketa argiekin, testu irakurgarriarekin, kontrastearekin, testu eskalagarriarekin, ukipen-helburu egokiekin eta laguntza-teknologiekin bateragarritasunarekin diseinatuta dago. Aplikatu beharreko legeak ezartzen duen nahitaezko irisgarritasun-eskubide zabalago oro bere horretan mantentzen da."
+            }
+          ]
+        },
+        {
+          "heading": "Laguntza-teknologiak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "VoiceOver, TalkBack, testu handiagoa, etengailu bidezko sarbidea, teklatu bidezko nabigazioa edo beste irisgarritasun-funtzio batekin arazoren bat baduzu, jarri gurekin harremanetan eta, erabilgarria bada, adierazi gailua, sistema eragilea eta laguntza-teknologia."
+            }
+          ]
+        },
+        {
+          "heading": "Irisgarritasun-eskaera",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pantaila, kontrol edo eduki-elementu bat erabili ezin baduzu edo arrazoizko egokitzapen bat behar baduzu, idatzi yektaozel@icloud.com helbidera. Ez bidali arazoa azaltzeko beharrezkoa ez den informazio pertsonal edo sentikorrik."
+            }
+          ]
+        },
+        {
+          "heading": "Tokiko eskubideak eta irismena",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Orri hau ez da irisgarritasun-ziurtagiri independente bat, ezta estandar tekniko edo juridiko guztien betetze-adierazpen orokor bat ere. Ez ditu mugatzen uko egin ezin zaien irisgarritasun- edo kontsumitzaile-eskubideak, eta tokiko eskubide gehigarriak aplika daitezke."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Ezabatu zure kontua eta datuak",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance kontu bat ezabatzeko modurik azkarrena Ezarpenak → Kontua behin betiko ezabatu da. Aplikaziora sartu ezin bazara, web bidez ezabatze-eskaera bat aurkez dezakezu aplikazioa berriro instalatu gabe."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Web bidezko ezabatze-eskaera",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Eskaerak kontuaren titularra behar bezala egiaztatu ondoren bakarrik izapidetzen dira. Web-inprimakia diseinatuta dago hirugarrenei ez jakinarazteko posta elektronikoko helbide bat Tailmance kontu bati lotuta dagoen ala ez."
+            }
+          ]
+        },
+        {
+          "heading": "Zer ezabatzen den eta zer gorde daitekeen",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ezabatzeak kontua, maskoten profilak, zure gizarte-edukia eta argazkiak, kontuari lotutako mezularitza/match erregistroak, osasun- eta txertaketa-erregistro pribatuak, kokapen pribatua eta hobespenak hartzen ditu, aplikatu beharreko gordetze-arauen mende. Segurtasun-, iruzur-prebentzio-, gatazka-, kontabilitate- edo lege-erregistro mugatuak gorde daitezke legeak eskatzen edo baimentzen duen tokian, Pribatutasun-politikan eta tokiko gehigarrietan azaltzen den bezala."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Laguntza eta harremana",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Operadorea: Yekta Ozel. Kontuari, fakturazioari, pribatutasunari, segurtasunari edo moderazioari buruzko laguntza behar baduzu, erabili aplikazioko Segurtasun Zentroa eta Lege eta Pribatutasun Zentroa edo idatzi yektaozel@icloud.com helbidera."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Haurren segurtasunerako kontaktua",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Haurren sexu-abusu edo esplotazioari buruzko salaketetarako, idatzi yektaozel@icloud.com helbidera eta erabili aplikazioko salaketa-tresnak erabilgarri daudenean. Berehalako arrisku larria badago, jarri harremanetan dagokion tokiko larrialdi-zerbitzuarekin edo agintaritzarekin."
+            }
+          ]
+        },
+        {
+          "heading": "Moderazio-erabakia",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erabili Moderazio-erabakiak eta errekurtsoak bidea errekurtsoa onartzen duten moderazio-erabakietarako."
+            }
+          ]
+        },
+        {
+          "heading": "Jabetza intelektuala",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erabili Jabetza Intelektuala orria egile-eskubideen, marken edo beste eskubide batzuen urraketa-jakinarazpenetarako."
+            }
+          ]
+        },
+        {
+          "heading": "Irisgarritasuna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Erabili Irisgarritasuna orria edo jarri gurekin harremanetan irisgarritasun-arazoetarako eta egokitzapen-eskaeretarako."
+            }
+          ]
+        },
+        {
+          "heading": "Kontua ezabatzea",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aplikaziora sartu ezin bazara, erabili web bidezko kontua ezabatzeko eskaera-bidea."
+            }
+          ]
+        },
+        {
+          "heading": "Animalien osasuna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance ez da albaitaritza- edo osasun-larrialdietako zerbitzua. Animalien osasun-arazo larrien aurrean, jarri zuzenean harremanetan albaitaritza-zerbitzu egoki batekin."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_consumer_supplement": {
+      "file": "consumer-language-supplement.html",
+      "title": "Euskadiko kontsumo-harremanetako hizkuntza-eskubideen gehigarria",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Gehigarri hau kontsumo-harremanak Euskadirekin lotura duenean eta aplikatu beharreko araudiak informazioa edo dokumentazioa euskaraz jasotzeko eskubidea aitortzen edo eskatzen duenean bakarrik aplikatzen da. Aplikazioaren hizkuntza hautatzeak ez du, berez, jurisdikzioa zehazten."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Lurralde- eta pertsona-eremua",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aplikagarritasuna kontsumo-harremanaren, zerbitzua eskaintzen edo kontratatzen den tokiaren eta nahitaez aplikatu beharreko arauen araberakoa da. Tailmancek ez du aurresuposatzen Euskadiko hizkuntza-betebehar bat bere lege-eremutik kanpo aplikatzen denik."
+            }
+          ]
+        },
+        {
+          "heading": "2. Informazioa eta dokumentazioa euskaraz",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Euskadiko kontsumo-araudiak ondasun edo zerbitzuei buruzko informazioa, atxikimendu-kontratuak, baldintza orokorrak edo nahitaezko bestelako komunikazioak euskaraz jasotzeko eskubidea aitortzen duenean, Tailmancek dagokion euskarazko bertsioa eman behar du, gaztelaniaz edo beste hizkuntza batean isilbidez ordezkatu gabe."
+            }
+          ]
+        },
+        {
+          "heading": "3. Beste hizkuntza eta eskubide batzuekiko harremana",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Euskarazko bertsioa eskuragarri egoteak ez ditu ezabatzen gaztelaniaz edo aplikatu beharreko legearen arabera beste hizkuntza batean izan daitezkeen eskubideak. Kontsumitzailearen nahitaezko eskubide guztiak mantentzen dira."
+            }
+          ]
+        },
+        {
+          "heading": "4. Testuinguru-aldaketak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ohiko bizilekua, azpinazional testuingurua edo nahitaezko dokumentu-hizkuntza aldatzen bada, Tailmancek lege-ibilbidea berriro ebatzi behar du eta ezin du automatikoki berrerabili beste testuinguru batean lortutako onarpena."
+            }
+          ]
+        },
+        {
+          "heading": "5. Iturriak eta erreklamazioak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gehigarri hau Euskadiko kontsumitzaileen eta erabiltzaileen hizkuntza-eskubideei buruzko arau aplikagarrietan oinarritzen da. Kontsumo-erakunde eskudunen aurrean erreklamatzeko eskubideak eta uko egin ezin zaien gainerako eskubideek indarrean jarraitzen dute."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

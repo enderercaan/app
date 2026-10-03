@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "PL",
+  "country_display_name": "โปแลนด์",
+  "document_locale": "th",
+  "document_language_display_names": "โปแลนด์",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "ภาคผนวกกฎหมายเฉพาะเขตอำนาจ",
+  "sections": [
+    {
+      "heading": "ขอบเขตทางกฎหมาย",
+      "paragraphs": [
+        "ภาคผนวกนี้ใช้เมื่อ Tailmance ระบุว่า โปแลนด์ เป็นประเทศที่กฎหมายใช้บังคับกับบัญชีของคุณ โดยเป็นเอกสารเสริมข้อกำหนดการใช้งาน ประกาศความเป็นส่วนตัว แนวทางชุมชน ประกาศการสมัครสมาชิก และเอกสารทางกฎหมายอื่น ๆ ไม่ใช่เอกสารที่ใช้แทนเอกสารเหล่านั้น",
+        "Tailmance ใช้หน้าที่ทางกฎหมายตามประเทศที่ได้รับการยืนยันดังกล่าว และเมื่อจำเป็นตามกรอบกฎหมายระดับภูมิภาคหรือท้องถิ่นที่เกี่ยวข้อง การเปลี่ยนภาษาของแอป การเดินทาง หรือการเปลี่ยนภูมิภาคของสโตร์ไม่ได้เปลี่ยนกฎหมายที่ใช้บังคับโดยอัตโนมัติ"
+      ]
+    },
+    {
+      "heading": "ภาษาของเอกสาร",
+      "paragraphs": [
+        "เอกสารทางกฎหมายที่มีผลผูกพันสำหรับการกำหนดทางกฎหมายนี้จัดทำในภาษาที่กำหนด: โปแลนด์ หากต้องใช้ภาษาใดเป็นการเฉพาะ Tailmance จะไม่เปลี่ยนไปใช้ภาษาอื่นโดยอัตโนมัติและไม่แจ้งให้ทราบ",
+        "ฉบับนี้จัดทำเป็นคำแปลเพื่อการเข้าถึง และไม่ใช้แทนฉบับภาษาที่กฎหมายที่ใช้บังคับหรือการกำหนดทางกฎหมายนี้กำหนดให้ต้องใช้"
+      ]
+    },
+    {
+      "heading": "ข้อกำหนดทางกฎหมายเฉพาะประเทศ",
+      "paragraphs": [
+        "มีการทบทวนข้อกำหนดทางกฎหมาย 22 หมวดสำหรับประเทศที่ใช้บังคับโดยอ้างอิงแหล่งข้อมูลทางการที่ระบุที่มาได้ กฎหมายที่มีผลใช้บังคับและวันที่มีผลจะถูกแยกออกจากข้อเสนอ การรับฟังความคิดเห็น และมาตรการในอนาคต โดยจะไม่ถือว่าข้อเสนอเป็นกฎหมายที่มีผลใช้บังคับ",
+        "วันที่ทบทวนแหล่งข้อมูล: 1 ตุลาคม 2026 มาตรการในอนาคต ร่าง และการรับฟังความคิดเห็นจะถูกติดตามแยกต่างหากและไม่นำเสนอว่าเป็นกฎหมายที่มีผลใช้บังคับ"
+      ]
+    },
+    {
+      "heading": "กรอบกฎหมายที่ผ่านการทบทวน",
+      "paragraphs": [
+        "ด้านล่างคือกรอบกฎหมายหลักที่บันทึกไว้ในการทบทวนแหล่งข้อมูลทางการของ Tailmance สำหรับประเทศที่ใช้บังคับ การระบุไว้ในรายการหมายถึงขอบเขตการทบทวนเท่านั้น ส่วนกฎใดมีผลใช้บังคับแล้ว จะมีผลในอนาคต ยังเป็นเพียงข้อเสนอ หรือมีเงื่อนไขการใช้บังคับที่แคบกว่านั้น จะพิจารณาจากการควบคุมวันที่มีผลและขอบเขตการใช้บังคับที่แน่นอน และจะไม่อนุมานจากรายการนี้เพียงอย่างเดียว"
+      ],
+      "items": [
+        "EU GDPR",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "ความเป็นส่วนตัว ความปลอดภัย และสิทธิของผู้ใช้",
+      "paragraphs": [
+        "สิทธิด้านความเป็นส่วนตัว คำขอเกี่ยวกับข้อมูล การลบบัญชีและข้อมูล การโอนข้อมูลระหว่างประเทศ การยืนยันอายุ การตลาดอิเล็กทรอนิกส์ และหน้าที่ด้านความปลอดภัยและการแจ้งเหตุ ถูกนำไปใช้ตามบริบททางกฎหมายที่ถูกต้อง ใช้ศูนย์กฎหมายในแอปเพื่อดูประกาศ การส่งออก และการลบข้อมูล"
+      ]
+    },
+    {
+      "heading": "การสมัครสมาชิกและข้อมูลผู้บริโภค",
+      "paragraphs": [
+        "ร้านค้าแอปที่ใช้ในการซื้อเป็นแหล่งอ้างอิงสำหรับราคาสมัครสมาชิกที่แสดง สกุลเงิน และการแสดงภาษีที่ใช้บังคับ ข้อมูลเกี่ยวกับการต่ออายุ การยกเลิก และข้อมูลก่อนทำสัญญาที่จำเป็นจะแสดงก่อนการซื้อ Tailmance ไม่ขายสัตว์หรือสินค้าที่จับต้องได้ และไม่ประมวลผลการชำระเงินระหว่างผู้ใช้สำหรับการขายสัตว์"
+      ]
+    },
+    {
+      "heading": "สวัสดิภาพสัตว์และการไม่ทำการค้า",
+      "paragraphs": [
+        "ห้ามการขายสัตว์เชิงพาณิชย์และตลาดที่มีไว้เพื่อการเพาะพันธุ์เชิงพาณิชย์ การผสมพันธุ์ที่เจ้าของจัดการกันเองจะใช้ได้เฉพาะเมื่อเป็นไปตามข้อกำหนดของประเทศที่เกี่ยวข้องด้านสวัสดิภาพสัตว์ การเพาะพันธุ์ สุขภาพ ความสัมพันธ์ทางสายเลือด และคุณสมบัติ มิฉะนั้นฟังก์ชันจะยังคงถูกปิดกั้น"
+      ]
+    },
+    {
+      "heading": "การติดต่อและแหล่งข้อมูลทางการ",
+      "paragraphs": [
+        "คำถามเกี่ยวกับประกาศเหล่านี้หรือคำขอด้านความเป็นส่วนตัวสามารถส่งไปที่ yektaozel@icloud.com แหล่งข้อมูลทางการที่ใช้ในการทบทวนกฎหมายนี้แสดงไว้ด้านล่าง"
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://eli.gov.pl/eli/DU/2024/1221/ogl",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://eli.gov.pl/api/acts/DU/2024/1796/text.html",
+        "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.gov.pl/web/premier/projekt-ustawy-o-ochronie-maloletnich-przed-dostepem-do-tresci-pornograficznych-w-internecie",
+        "https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=2697",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.wetgiw.gov.pl/handel-eksport-import/zasady-handlu---psy-koty-fretki",
+        "https://eli.gov.pl/api/acts/DU/2023/1580/text.html",
+        "https://eli.gov.pl/eli/DU/2026/1005/ogl",
+        "https://eli.gov.pl/eli/DU/2026/755/ogl",
+        "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000662",
+        "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000720",
+        "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=wdu19971110724",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://uodo.gov.pl/pl/525/2583",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "4ea8a3d29449219725001ddb95bf03b77d43a386e7767569edc1a64517d22573",
+  "official_source_count": 53,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "pl"
+  ],
+  "display_language_name": "ไทย"
+}

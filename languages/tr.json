@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance yalnızca pet profili ve sosyal paylaşımlar için seçtiğin fotoğraflara erişir.",
+    "NSCameraUsageDescription": "Tailmance pet fotoğrafı, hikâye ve pet doğrulama fotoğrafı çekebilmek için kamerayı kullanır.",
+    "NSLocationWhenInUseUsageDescription": "Tailmance yakındaki petleri yaklaşık mesafeye göre göstermek için yaklaşık konumunu kullanır."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

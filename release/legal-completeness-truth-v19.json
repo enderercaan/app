@@ -1,0 +1,47 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-10-01",
+  "scope": "Configured 27 Tailmance markets only. Legal/language source completion is based on attributable official sources, exact country×document-locale supplements, temporal review and internal legal-language QA. Live store/provider/operator/hosted evidence is a separate production boundary.",
+  "configured_27_source_legal_language": {
+    "configured_markets": 27,
+    "source_legal_approved_markets": 27,
+    "source_language_approved_markets": 27,
+    "canonical_country_topic_cells": "594/594",
+    "critical_subdimension_source_cells": "432/432",
+    "canonical_topic_source_presence_gaps": 0,
+    "exact_country_language_routes": "594/594",
+    "binding_country_document_locale_routes": "34/34",
+    "accessibility_translation_routes": "560/560",
+    "exact_country_supplement_routes": "594/594",
+    "generic_legal_document_locales": 22,
+    "operator_tax_registration_source_family_cells": "81/81",
+    "source_legal_language_blockers": 0,
+    "external_counsel_required_for_source_approval": false,
+    "sworn_or_certified_translation_claimed": false,
+    "source_legal_language_complete": true
+  },
+  "production_external_boundary": {
+    "external_evidence_verified": "20/80",
+    "external_evidence_pending": 59,
+    "apple_age_rating_console_result_verified": false,
+    "google_iarc_console_result_verified": false,
+    "operator_registration_tax_account_live_facts_are_source_approval": false,
+    "hosted_publication_and_store_provider_evidence_are_source_approval": false,
+    "production_external_evidence_complete": false
+  },
+  "invariants": {
+    "only_27_configured_markets_are_in_scope": true,
+    "ui_locale_is_not_legal_country": true,
+    "exact_country_and_document_locale_supplement_required": true,
+    "generic_locale_supplement_never_substitutes_for_country_supplement": true,
+    "official_source_review_distinguishes_current_from_future_or_proposed_rules": true,
+    "internal_source_approval_does_not_fabricate_live_operational_evidence": true,
+    "external_counsel_is_not_required_for_configured_source_legal_language_approval": true,
+    "certified_or_sworn_translation_is_not_claimed_without_actual_credential": true
+  },
+  "configured_27_source_legal_language_completion": true,
+  "full_production_legal_operational_completion": false,
+  "full_legal_completion": false,
+  "source_decision": "GO_CONFIGURED_27_SOURCE_LEGAL_LANGUAGE",
+  "production_decision": "NO_GO_EXTERNAL_OPERATIONAL_EVIDENCE_PENDING"
+}

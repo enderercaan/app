@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "JP",
+  "country_display_name": "日本",
+  "document_locale": "zh-Hant",
+  "document_language_display_names": "日文",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "司法管轄區專屬法律補充說明",
+  "sections": [
+    {
+      "heading": "法律適用範圍",
+      "paragraphs": [
+        "當 Tailmance 確定 日本 是其法律適用於您帳戶的國家時，本補充說明適用。它用於補充《使用條款》《隱私權通知》《社群準則》《訂閱通知》及其他法律文件，並不取代這些文件。",
+        "Tailmance 依據該已驗證國家以及必要時適用的地區或地方性法律架構履行法律義務。僅變更應用程式語言、旅行或變更商店地區，不會自行改變適用法律。"
+      ]
+    },
+    {
+      "heading": "文件語言",
+      "paragraphs": [
+        "本法律設定下具有約束力的文件以所需語言提供：日文。如必須使用特定語言，Tailmance 不會在未告知您的情況下自動改用其他語言。",
+        "此版本作為無障礙翻譯提供。若適用法律或本法律設定要求特定的必要語言版本，本版本不會取代該版本。"
+      ]
+    },
+    {
+      "heading": "國家特定法律要求",
+      "paragraphs": [
+        "針對適用國家，Tailmance 依據來源明確的官方資料審查二十二類法律要求。現行法律及其生效日期與提案、諮詢及未來措施嚴格區分；提案絕不會被當作現行法律執行。",
+        "來源審查日期：2026年10月1日。未來措施、草案與諮詢事項會分開追蹤，不會被表述為現行法律。"
+      ]
+    },
+    {
+      "heading": "已審查的法律框架",
+      "paragraphs": [
+        "下方列出 Tailmance 針對適用國家在官方來源審查中記錄的主要法律框架。列入清單僅表示審查範圍；某項規則是目前生效、未來生效、仍屬提案，或受更窄的適用條件限制，由生效日期與精確適用範圍控制決定，絕不會僅憑此清單作出推斷。"
+      ],
+      "items": [
+        "APPI, consolidated rules/guidelines"
+      ]
+    },
+    {
+      "heading": "隱私、安全與使用者權利",
+      "paragraphs": [
+        "隱私權、資料請求、帳戶與資料刪除、國際傳輸、年齡驗證、電子行銷以及安全與資料外洩通知義務，均依精確法律環境執行。請使用應用程式內的「法律中心」查看通知、匯出與刪除途徑。"
+      ]
+    },
+    {
+      "heading": "訂閱與消費者資訊",
+      "paragraphs": [
+        "完成購買所使用的應用程式商店是顯示之訂閱價格、貨幣及適用稅費呈現方式的依據。續訂、取消及必要的締約前資訊會在購買前顯示。Tailmance 不銷售動物或實體商品，也不處理使用者之間的動物買賣付款。"
+      ]
+    },
+    {
+      "heading": "動物福利與非商業交易",
+      "paragraphs": [
+        "禁止商業性動物銷售及用於商業繁育的市場活動。只有在符合適用國家關於動物福利、繁育、健康、親緣關係及資格的要求時，才可使用由飼主自行安排的配對；否則功能維持關閉。"
+      ]
+    },
+    {
+      "heading": "聯絡方式與官方來源",
+      "paragraphs": [
+        "如對這些通知有疑問或提出隱私請求，可寄送至 yektaozel@icloud.com。下方列出本次法律審查使用的官方來源。"
+      ],
+      "official_sources": [
+        "https://www.ppc.go.jp/en/legal/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+        "https://www.ppc.go.jp/news/press/2026/260717/",
+        "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+        "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+        "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+        "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+        "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+        "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+        "https://www.digital.go.jp/accessibility-statement",
+        "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "5c60be24566ec78070e2ed720356cf4a4c7f8a83dd1af56d1cd7f737be9766b0",
+  "official_source_count": 42,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "APPI, consolidated rules/guidelines"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ja"
+  ],
+  "display_language_name": "繁體中文"
+}

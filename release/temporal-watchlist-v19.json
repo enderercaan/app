@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "policy": {
+    "future_effective_items": "BLOCK as current law/policy until the effective date, but treat as a pre-launch blocker if the intended launch crosses that date.",
+    "draft_or_consultation_items": "Never auto-promote a draft to current law. Recheck the official source at or before the watch date and require a new final instrument/effective date before changing status.",
+    "refresh": "Any item whose trigger/watch date is reached must fail the temporal QA until official-source status is refreshed."
+  },
+  "items": [
+    {
+      "id": "google_play_package_registration_global_2026_09_30",
+      "scope": "global_google_play_distribution",
+      "event_kind": "effective_date",
+      "trigger_date": "2026-09-30",
+      "status_as_of": "current_effective_external_console_verification_required",
+      "official_source": "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+      "note": "Effective 2026-09-30: Google Play requires Play apps to be registered in Play Console; remaining unregistered apps must be registered to avoid global Play removal. Tailmance real Play Console registration remains external evidence and release-blocking."
+    },
+    {
+      "id": "android_developer_verification_initial_markets_2026_09_30",
+      "scope": [
+        "BR",
+        "ID",
+        "SG",
+        "TH"
+      ],
+      "event_kind": "effective_date",
+      "trigger_date": "2026-09-30",
+      "status_as_of": "current_effective_initial_market_external_verification_required",
+      "official_source": "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+      "note": "Effective 2026-09-30: developer-verification installation protections are live for certified Android devices in Brazil, Indonesia, Singapore and Thailand across participating stores. Tailmance real developer identity/app registration state remains external evidence and release-blocking."
+    },
+    {
+      "id": "cn_minors_safe_internet_consultation_2026_10_17",
+      "scope": "CN",
+      "event_kind": "consultation_deadline",
+      "trigger_date": "2026-10-17",
+      "status_as_of": "draft_not_current",
+      "official_source": "https://www.cac.gov.cn/2026-09/18/c_1791482017777471.htm",
+      "note": "The 2026-09-18 instrument is an explicit consultation draft. The comment deadline is 2026-10-17; reaching that date does not make the draft law, but it requires a fresh official-source check."
+    },
+    {
+      "id": "au_childrens_online_privacy_code_2026_12_10",
+      "scope": "AU",
+      "event_kind": "statutory_registration_deadline",
+      "trigger_date": "2026-12-10",
+      "status_as_of": "draft_pending_final_registration_not_current",
+      "official_source": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+      "note": "OAIC states the final Code must be finalised and registered by 2026-12-10. The exposure draft is not treated as the final current Code before registration."
+    },
+    {
+      "id": "google_play_location_permissions_policy_2027_01_27",
+      "scope": "google_play_global_if_precise_location_is_requested",
+      "event_kind": "effective_date",
+      "trigger_date": "2027-01-27",
+      "status_as_of": "future_effective_conditional_watch",
+      "official_source": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+      "note": "Google Play's updated Location Permissions policy becomes effective 2027-01-27. Tailmance source currently blocks fine-location permission, but this remains a future conditional store-policy watch."
+    },
+    {
+      "id": "us_ca_digital_age_assurance_operational_2027_01_01",
+      "scope": "US-CA",
+      "event_kind": "operative_date",
+      "trigger_date": "2027-01-01",
+      "status_as_of": "future_effective_prelaunch_blocker",
+      "official_source": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.9.&part=4.&chapter=&article=",
+      "note": "California Digital Age Assurance Act is effective in 2026 but expressly operative 2027-01-01; AB 1856 amended the framework in September 2026. Recheck final codified text/API implementation before launch."
+    },
+    {
+      "id": "us_al_app_store_accountability_2027_01_01",
+      "scope": "US-AL",
+      "event_kind": "effective_date",
+      "trigger_date": "2027-01-01",
+      "status_as_of": "future_effective_prelaunch_blocker",
+      "official_source": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB161-enr.pdf",
+      "note": "Alabama HB161 enrolled text states 2027-01-01. Keep future-only and recheck official act/code status plus implementing rules before launch."
+    },
+    {
+      "id": "us_ut_app_store_accountability_developer_2027_05_06",
+      "scope": "US-UT",
+      "event_kind": "effective_date",
+      "trigger_date": "2027-05-06",
+      "status_as_of": "future_effective_prelaunch_blocker",
+      "official_source": "https://le.utah.gov/xcode/Title13/Chapter76/13-76-S202.html",
+      "note": "Utah developer obligations under current 13-76-202 begin 2027-05-06 after 2026 amendments."
+    },
+    {
+      "id": "us_la_act185_app_store_developer_2027_07_01",
+      "scope": "US-LA",
+      "event_kind": "effective_date",
+      "trigger_date": "2027-07-01",
+      "status_as_of": "future_effective_prelaunch_blocker",
+      "official_source": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475238",
+      "note": "Louisiana Act 185 prevents 2025 Act 481 from becoming effective and places the replacement substantive regime on a 2027-07-01 effective date."
+    },
+    {
+      "id": "eu_kids_act_proposal_status_recheck_2026_10_31",
+      "scope": [
+        "AT",
+        "BE",
+        "DE",
+        "ES",
+        "FR",
+        "IE",
+        "IT",
+        "NL",
+        "PL"
+      ],
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "proposal_not_current_internal_recheck",
+      "official_source": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+      "note": "EU KIDS Act was proposed 2026-09-17 and is not current law. Trigger date is an internal status-recheck deadline, not a statutory effective date."
+    },
+    {
+      "id": "ca_bill_c34_safe_social_media_status_recheck_2026_10_31",
+      "scope": "CA",
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "proposal_not_current_internal_recheck",
+      "official_source": "https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html",
+      "note": "Bill C-34 remained proposed legislation as of 2026-09-29. Trigger date is an internal legislative-status recheck deadline."
+    },
+    {
+      "id": "gb_under16_social_media_policy_status_recheck_2026_10_31",
+      "scope": "GB",
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "announced_future_policy_not_current_internal_recheck",
+      "official_source": "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
+      "note": "Government announced future under-16 social-media rules. Current OSA duties remain separate; trigger date is an internal status recheck."
+    },
+    {
+      "id": "at_under14_avms_draft_status_recheck_2026_10_31",
+      "scope": "AT",
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "draft_not_current_internal_recheck",
+      "official_source": "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Begutachtungsentwurf/Audiovisuelle-Mediendienste-Gesetz-und-KommAustria-Gesetz",
+      "note": "Austria AVMS amendment is a consultation draft with planned 2027 commencement, not current law. Trigger date is an internal status recheck."
+    },
+    {
+      "id": "es_under16_social_network_policy_status_recheck_2026_10_31",
+      "scope": "ES",
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "announced_future_policy_not_current_internal_recheck",
+      "official_source": "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2026/20260203-intervencion-pg-word-governments-summit.aspx",
+      "note": "Spain announced an intended under-16 social-network restriction/age-verification measure; announcement is not enacted law. Trigger date is an internal status recheck."
+    },
+    {
+      "id": "nl_eu_social_media_minimum_age_proposal_recheck_2026_10_31",
+      "scope": "NL",
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "proposal_not_current_internal_recheck",
+      "official_source": "https://www.government.nl/latest/news/2026/09/11/dutch-government-advocates-for-eu-wide-minimum-age-for-social-media",
+      "note": "Dutch position advocates an EU-wide minimum age; it is policy/proposal evidence, not a current Dutch standalone age ban. Trigger date is an internal status recheck."
+    },
+    {
+      "id": "pl_online_porn_age_verification_bill_status_recheck_2026_10_31",
+      "scope": "PL",
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "proposal_not_current_internal_recheck",
+      "official_source": "https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=2697",
+      "note": "Polish minors/pornography age-verification bill remained in legislative process in September 2026; trigger date is an internal legislative-status recheck."
+    },
+    {
+      "id": "sg_social_media_age_assurance_amendments_status_recheck_2026_10_31",
+      "scope": "SG",
+      "event_kind": "policy_status_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "announced_future_policy_not_current_internal_recheck",
+      "official_source": "https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-requesting-meta-to-deploy-teenage-usage-restriction-in-singapore/",
+      "note": "MDDI stated on 2026-09-08 that necessary legislative amendments are planned by early 2027. Trigger date is an internal status recheck, not an effective date."
+    },
+    {
+      "id": "fr_accessibility_decree_2026_883_recent_effective_recheck_2026_10_31",
+      "scope": "FR",
+      "event_kind": "recently_effective_law_recheck",
+      "trigger_date": "2026-10-31",
+      "status_as_of": "current_recently_effective_internal_recheck",
+      "official_source": "https://www.legifrance.gouv.fr/eli/decret/2026/9/23/2026-883/jo/texte",
+      "note": "Décret n° 2026-883 was published 2026-09-24 and entered into force 2026-09-25. It is current, not future law. The trigger is an internal follow-up to confirm consolidated Code de la consommation implementation/enforcement details."
+    },
+    {
+      "id": "pl_animal_protection_amendment_2027_07_28",
+      "scope": "PL",
+      "event_kind": "effective_date",
+      "trigger_date": "2027-07-28",
+      "status_as_of": "future_effective_prelaunch_blocker",
+      "official_source": "https://eli.gov.pl/eli/DU/2026/1005/ogl",
+      "note": "Poland Dz.U. 2026 poz. 1005 amends the Animal Protection Act and enters into force 2027-07-28. It is enacted but not current as of 2026-09-29; recheck final consolidated companion-animal obligations before launch crossing the date."
+    },
+    {
+      "id": "pl_dog_cat_register_main_commencement_2028_06_11",
+      "scope": "PL",
+      "event_kind": "effective_date",
+      "trigger_date": "2028-06-11",
+      "status_as_of": "future_effective_conditional_watch",
+      "official_source": "https://eli.gov.pl/eli/DU/2026/755/ogl",
+      "note": "Poland Dz.U. 2026 poz. 755 establishes the National Register of Marked Dogs and Cats with staged commencement and main entry into force 2028-06-11. Recheck whether Tailmance ownership/animal-profile flows create any operational dependency before the applicable milestone."
+    },
+    {
+      "id": "br_paid_promotion_portaria_general_2026_10_23",
+      "scope": "BR",
+      "event_kind": "effective_date",
+      "trigger_date": "2026-10-23",
+      "status_as_of": "future_effective_not_current",
+      "official_source": "https://bibliotecadigital.mj.gov.br/handle/1/17694",
+      "note": "Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 was published 2026-09-23. Most paid-advertising/boosting duties become effective 30 days after publication. Tailmance contextual sponsored place/event promotion must remain fail-closed in Brazil until this effective date and the required retention/transparency controls are active."
+    },
+    {
+      "id": "br_paid_promotion_material_relationship_tools_2026_12_22",
+      "scope": "BR",
+      "event_kind": "effective_date",
+      "trigger_date": "2026-12-22",
+      "status_as_of": "future_effective_not_current",
+      "official_source": "https://bibliotecadigital.mj.gov.br/handle/1/17694",
+      "note": "Article 3 material-relationship disclosure tooling in Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 becomes effective 90 days after 2026-09-23 publication. Do not promote it to a current duty before 2026-12-22; source architecture should be ready before activation."
+    }
+  ]
+}

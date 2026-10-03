@@ -1,0 +1,6 @@
+import { StyleSheet, Text, View } from 'react-native';
+import { AppIcon } from './AppIcon';
+import { useThemedStyles, type AppTheme } from '../theme';
+import { PrimaryButton } from './PrimaryButton';
+export function EmptyState({title,body,icon='paw',actionLabel,onAction}:{title:string;body:string;icon?:Parameters<typeof AppIcon>[0]['name'];actionLabel?:string;onAction?:()=>void}){const {theme,styles}=useThemedStyles(createStyles);return <View style={styles.wrap}><View style={styles.icon}><AppIcon name={icon} size={28} color={theme.colors.primary}/></View><Text style={styles.title}>{title}</Text><Text style={styles.body}>{body}</Text>{actionLabel&&onAction?<View style={{marginTop:16}}><PrimaryButton label={actionLabel} onPress={onAction}/></View>:null}</View>}
+const createStyles=(theme:AppTheme)=>StyleSheet.create({wrap:{margin:16,padding:28,alignItems:'center',borderRadius:theme.radius.xl,backgroundColor:theme.colors.surface,borderWidth:1,borderColor:theme.colors.border},icon:{width:58,height:58,borderRadius:29,backgroundColor:theme.colors.primarySoft,alignItems:'center',justifyContent:'center',marginBottom:14},title:{...theme.type.h2,color:theme.colors.text,textAlign:'center'},body:{...theme.type.body,color:theme.colors.muted,textAlign:'center',marginTop:8,maxWidth:310}});

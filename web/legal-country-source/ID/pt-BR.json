@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "ID",
+  "country_display_name": "Indonésia",
+  "document_locale": "pt-BR",
+  "document_language_display_names": "indonésio",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento jurídico específico da jurisdição",
+  "sections": [
+    {
+      "heading": "Âmbito jurídico",
+      "paragraphs": [
+        "Este suplemento se aplica quando a Tailmance determina que Indonésia é o país cuja legislação se aplica à sua conta. Ele complementa os Termos de Uso, o Aviso de Privacidade, as Diretrizes da Comunidade, o aviso de assinatura e outros documentos jurídicos, sem substituí-los.",
+        "A Tailmance aplica as obrigações jurídicas conforme esse país verificado e, quando necessário, o marco jurídico regional ou local aplicável. Alterar o idioma do app, viajar ou mudar a região da loja não altera, por si só, esse contexto jurídico."
+      ]
+    },
+    {
+      "heading": "Idioma dos documentos",
+      "paragraphs": [
+        "Os documentos jurídicos vinculantes desta configuração são mantidos nos idiomas exigidos: indonésio. Quando um idioma específico é obrigatório, a Tailmance não o substitui automaticamente por outro idioma sem aviso.",
+        "Esta versão é fornecida como tradução para acessibilidade. Ela não substitui uma versão em idioma obrigatório quando a lei aplicável ou esta configuração jurídica assim exigir."
+      ]
+    },
+    {
+      "heading": "Requisitos jurídicos específicos do país",
+      "paragraphs": [
+        "Vinte e duas áreas de requisitos jurídicos são revisadas para o país aplicável com base em fontes oficiais identificáveis. A legislação vigente e suas datas de eficácia são separadas de propostas, consultas e medidas futuras; uma proposta nunca é tratada como lei vigente.",
+        "Data da revisão das fontes: 1º de outubro de 2026. Medidas futuras, projetos e consultas são acompanhados separadamente e não são apresentados como legislação vigente."
+      ]
+    },
+    {
+      "heading": "Marcos jurídicos revisados",
+      "paragraphs": [
+        "A seguir estão os principais marcos jurídicos registrados na revisão de fontes oficiais da Tailmance para o país aplicável. A inclusão indica apenas o escopo da revisão: se uma regra está vigente, terá vigência futura, é apenas proposta ou depende de uma condição de aplicabilidade mais restrita é determinado pelos controles de data de eficácia e de escopo exato, e nunca é inferido somente desta lista."
+      ],
+      "items": [
+        "Law No. 27 of 2022 on Personal Data Protection"
+      ]
+    },
+    {
+      "heading": "Privacidade, segurança e direitos do usuário",
+      "paragraphs": [
+        "Direitos de privacidade, solicitações de dados, exclusão de conta e dados, transferências internacionais, verificação de idade, marketing eletrônico e obrigações de segurança e incidentes são aplicados no contexto jurídico exato. Use a Central Jurídica do app para avisos, exportação e exclusão."
+      ]
+    },
+    {
+      "heading": "Assinaturas e informações ao consumidor",
+      "paragraphs": [
+        "A loja de aplicativos pela qual a compra é realizada é a referência para o preço de assinatura exibido, a moeda e o tratamento tributário aplicável. Renovação, cancelamento e informações pré-contratuais obrigatórias são apresentados antes da compra. A Tailmance não vende animais nem produtos físicos e não processa pagamentos entre usuários para venda de animais."
+      ]
+    },
+    {
+      "heading": "Bem-estar animal e ausência de comércio",
+      "paragraphs": [
+        "São proibidas vendas comerciais de animais e marketplaces destinados à reprodução comercial. Acasalamentos organizados pelos tutores só ficam disponíveis quando são atendidos os requisitos aplicáveis do país sobre bem-estar animal, reprodução, saúde, parentesco e elegibilidade; caso contrário, a funcionalidade permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contato e fontes oficiais",
+      "paragraphs": [
+        "Dúvidas sobre estes avisos ou solicitações de privacidade podem ser enviadas para yektaozel@icloud.com. As fontes oficiais usadas nesta revisão jurídica estão listadas abaixo."
+      ],
+      "official_sources": [
+        "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+        "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+        "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/965/t/peraturan%2Bpemerintah%2Bnomor%2B17%2Btahun%2B2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/1007/t/peraturan%2Bmenteri%2Bkomunikasi%2Bdan%2Bdigital%2Bnomor%2B9%2Btahun%2B2026",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10541",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10560",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://peraturan.bpk.go.id/Details/342589/permentan-no-32-tahun-2025",
+        "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014",
+        "https://jdih.komdigi.go.id/produk_hukum/abstrak/547",
+        "https://peraturan.bpk.go.id/Download/27970/UU%20Nomor%2024%20Tahun%202009.pdf",
+        "https://peraturan.bpk.go.id/Details/37251/uu-no-8-tahun-2016",
+        "https://peraturan.bpk.go.id/Download/133719/PP%20Nomor%2042%20Tahun%202020.pdf",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+        "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+        "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat",
+        "https://peraturan.bpk.go.id/Details/350898/permenkum-no-47-tahun-2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang%2Bnomor%2B27%2Btahun%2B",
+        "https://www.ppatk.go.id/dalam_negeri/read/1400/daftar-terduga-teroris-dan-organisasi-teroris-dttot.html"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "41c8f0ecc7b97623c5aa13dd82a927cc55a1a737745ece8f695c2e6ff9a11ed3",
+  "official_source_count": 48,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Law No. 27 of 2022 on Personal Data Protection"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "id"
+  ],
+  "display_language_name": "português (Brasil)"
+}

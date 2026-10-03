@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "IT",
+  "country_display_name": "Italia",
+  "document_locale": "it",
+  "document_language_display_names": "italiano",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Supplemento giuridico specifico della giurisdizione",
+  "sections": [
+    {
+      "heading": "Ambito giuridico",
+      "paragraphs": [
+        "Questo supplemento si applica quando Tailmance determina che Italia è il Paese la cui legge si applica al tuo account. Integra i Termini d’uso, l’Informativa sulla privacy, le Regole della community, l’informativa sull’abbonamento e gli altri documenti legali, senza sostituirli.",
+        "Tailmance applica gli obblighi legali in base a tale Paese verificato e, quando necessario, al quadro giuridico regionale o locale pertinente. Cambiare la lingua dell’app, viaggiare o cambiare la regione dello store non modifica di per sé tale quadro giuridico."
+      ]
+    },
+    {
+      "heading": "Lingua dei documenti",
+      "paragraphs": [
+        "I documenti legali vincolanti per questa configurazione sono mantenuti nelle lingue richieste: italiano. Quando è richiesta una lingua specifica, Tailmance non la sostituisce automaticamente e senza avviso con un’altra lingua."
+      ]
+    },
+    {
+      "heading": "Requisiti legali specifici del Paese",
+      "paragraphs": [
+        "Per il Paese applicabile vengono riesaminate ventidue aree di requisiti legali sulla base di fonti ufficiali identificabili. Il diritto vigente e le relative date di efficacia sono tenuti distinti da proposte, consultazioni e misure future; una proposta non viene mai trattata come diritto vigente.",
+        "Data della revisione delle fonti: 1 ottobre 2026. Le misure future, le bozze e le consultazioni sono monitorate separatamente e non sono presentate come diritto vigente."
+      ]
+    },
+    {
+      "heading": "Quadri giuridici esaminati",
+      "paragraphs": [
+        "Di seguito sono indicati i principali quadri giuridici registrati nella revisione delle fonti ufficiali di Tailmance per il Paese applicabile. L’inclusione indica soltanto l’ambito della revisione: l’effettiva vigenza, l’entrata in vigore futura, lo stato di proposta o una condizione di applicabilità più ristretta sono determinati dai controlli sulla data di efficacia e sull’ambito esatto e non vengono mai desunti dalla sola presenza in questo elenco."
+      ],
+      "items": [
+        "EU GDPR",
+        "Italian Privacy Code",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Privacy, sicurezza e diritti degli utenti",
+      "paragraphs": [
+        "I diritti in materia di privacy, le richieste sui dati, la cancellazione dell’account e dei dati, i trasferimenti internazionali, la verifica dell’età, il marketing elettronico e gli obblighi di sicurezza e notifica sono applicati nel contesto giuridico esatto. Utilizza il Centro legale dell’app per informative, esportazione e cancellazione."
+      ]
+    },
+    {
+      "heading": "Abbonamenti e informazioni ai consumatori",
+      "paragraphs": [
+        "Lo store tramite il quale viene effettuato l’acquisto è la fonte di riferimento per il prezzo dell’abbonamento visualizzato, la valuta e il trattamento fiscale applicabile. Rinnovo, cancellazione e informazioni precontrattuali richieste sono presentati prima dell’acquisto. Tailmance non vende animali o prodotti fisici e non elabora pagamenti tra utenti per la vendita di animali."
+      ]
+    },
+    {
+      "heading": "Benessere animale e assenza di commercio",
+      "paragraphs": [
+        "Sono vietate le vendite commerciali di animali e i marketplace destinati all’allevamento commerciale. Gli accoppiamenti organizzati dai proprietari sono disponibili solo quando sono soddisfatti i requisiti applicabili del Paese in materia di benessere animale, allevamento, salute, parentela e idoneità; altrimenti la funzione resta bloccata."
+      ]
+    },
+    {
+      "heading": "Contatti e fonti ufficiali",
+      "paragraphs": [
+        "Le domande su queste informative o le richieste relative alla privacy possono essere inviate a yektaozel@icloud.com. Le fonti ufficiali utilizzate per questa revisione giuridica sono elencate di seguito."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10225019",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://www.normattiva.it/eli/id/2026/03/09/26G00047/CONSOLIDATED",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6=",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig=",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig=",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2010%3B201",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-08-05%3B134",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1991;281=",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/possesso-responsabile/",
+        "https://www.regione.piemonte.it/web/temi/agricoltura/zootecnia-pascoli-apicoltura/normativa-materia-riproduzione-animale",
+        "https://www.regione.lombardia.it/agricoltura/zootecnia/regole-riproduzione-animale",
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/main.aspx?iddoc=lr002009123000033&view=showdoc",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=rr002017041300002ar0013a&view=showpart",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/viaggio-verso-litalia/",
+        "https://www.regione.piemonte.it/web/temi/sanita/veterinaria-salute-alimentare/normativa-relativa-agli-animali-daffezione",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=lr002009123000033ar0105a&view=showpart",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art9=",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://www.garanteprivacy.it/data-breach",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "140aad60332618de8eb2c51387e5080431f484b38920d630723e868c3da26aed",
+  "official_source_count": 59,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "Italian Privacy Code",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "required_binding_document_locale",
+  "required_binding_document_locales": [
+    "it"
+  ],
+  "display_language_name": "italiano"
+}

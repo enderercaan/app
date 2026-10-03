@@ -1,0 +1,28 @@
+import { useCallback, useEffect, useRef, useState } from 'react';
+import type { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { Image } from 'expo-image';
+import { Alert, FlatList, StyleSheet, Text, View } from 'react-native';
+import { EmptyState } from '../components/EmptyState';
+import { PrimaryButton } from '../components/PrimaryButton';
+import { RetryNotice } from '../components/RetryNotice';
+import { Screen } from '../components/Screen';
+import { TopBar } from '../components/TopBar';
+import { useAppData } from '../contexts/AppDataContext';
+import { useI18n } from '../i18n';
+import { useReduceMotion } from '../hooks/useReduceMotion';
+import { getBlockedPetsPage, unblockPet } from '../services/api';
+import { userMessage } from '../services/errors';
+import { useThemedStyles, type AppTheme } from '../theme';
+import type { Pet } from '../types/domain';
+import type { RootStackParamList } from '../navigation/types';
+
+export function BlockedPetsScreen({route}:NativeStackScreenProps<RootStackParamList,'BlockedPets'>){const {styles}=useThemedStyles(createStyles);
+  const reduceMotion=useReduceMotion();
+  const {myPets}=useAppData(); const petId=route.params.petId; const ownPet=myPets.find(p=>p.id===petId)??null; const {t}=useI18n(); const [items,setItems]=useState<Pet[]>([]); const [loading,setLoading]=useState(true); const [,setLoadingMore]=useState(false); const [hasMore,setHasMore]=useState(false); const [cursor,setCursor]=useState<{createdAt:string;blockedPetId:string}|null>(null); const [loadError,setLoadError]=useState<string|null>(null); const requestRef=useRef(0); const routeEpochRef=useRef(0); const paginationRef=useRef(false); const actionRef=useRef(false);
+  const load=useCallback(async()=>{if(!ownPet){requestRef.current+=1;paginationRef.current=false;setItems([]);setCursor(null);setHasMore(false);setLoadingMore(false);setLoading(false);return}const requestId=++requestRef.current;paginationRef.current=false;setLoadingMore(false);setLoading(true);setLoadError(null);try{const page=await getBlockedPetsPage(petId,undefined,40);if(requestId!==requestRef.current)return;setItems(page);const last=page[page.length-1];setCursor(last?.blockedAt?{createdAt:last.blockedAt,blockedPetId:last.id}:null);setHasMore(page.length===40)}catch(e){if(requestId===requestRef.current)setLoadError(userMessage(e,t('blocked.loadFailed')))}finally{if(requestId===requestRef.current)setLoading(false)}},[petId,ownPet?.id,t]);
+  const loadMore=useCallback(async()=>{if(!ownPet||!cursor||!hasMore||paginationRef.current)return;const requestId=requestRef.current;const cursorSnapshot={...cursor};paginationRef.current=true;try{setLoadingMore(true);const page=await getBlockedPetsPage(petId,cursorSnapshot,40);if(requestId!==requestRef.current)return;setItems(current=>{const seen=new Set(current.map(item=>item.id));return [...current,...page.filter(item=>!seen.has(item.id))]});const last=page[page.length-1];if(last?.blockedAt)setCursor({createdAt:last.blockedAt,blockedPetId:last.id});setHasMore(page.length===40)}catch(e){if(requestId===requestRef.current)setLoadError(userMessage(e,t('blocked.loadFailed')))}finally{if(requestId===requestRef.current){paginationRef.current=false;setLoadingMore(false)}}},[petId,ownPet?.id,cursor?.createdAt,cursor?.blockedPetId,hasMore,t]);
+  useEffect(()=>{routeEpochRef.current+=1;actionRef.current=false;void load();return()=>{routeEpochRef.current+=1;requestRef.current+=1;paginationRef.current=false;actionRef.current=false}},[load]);
+  const confirmUnblock=(item:Pet)=>Alert.alert(t('blocked.unblockTitle'),t('blocked.unblockBody',{name:item.name}),[{text:t('blocked.cancel')},{text:t('blocked.confirm'),onPress:()=>void (async()=>{if(!ownPet||actionRef.current)return;const epoch=routeEpochRef.current;actionRef.current=true;try{await unblockPet(petId,item.id);if(epoch===routeEpochRef.current)await load()}catch(e){if(epoch===routeEpochRef.current)Alert.alert(t('blocked.actionTitle'),userMessage(e,t('blocked.actionFallback')))}finally{if(epoch===routeEpochRef.current)actionRef.current=false}})()}]);
+  return <Screen><TopBar title={t('blocked.title')} subtitle={t('blocked.subtitle')}/><FlatList data={items} keyExtractor={item=>item.id} refreshing={loading} onRefresh={()=>void load()} onEndReachedThreshold={0.6} onEndReached={()=>void loadMore()} contentContainerStyle={styles.body} ListHeaderComponent={loadError&&items.length?<RetryNotice title={t('blocked.refreshFailed')} body={loadError} retrying={loading} onRetry={()=>void load()}/>:null} renderItem={({item})=><View style={styles.card}><Image source={{uri:item.photos[0]?.url}} style={styles.photo} cachePolicy="memory-disk" transition={reduceMotion?0:120}/><View style={{flex:1}}><Text style={styles.name}>{item.name}</Text><Text style={styles.meta}>{item.breed} · {item.district}</Text></View><View style={{width:112}}><PrimaryButton variant="secondary" label={t('blocked.unblock')} onPress={()=>confirmUnblock(item)}/></View></View>} ListEmptyComponent={!loading?(loadError?<RetryNotice title={t('blocked.loadFailed')} body={loadError} onRetry={()=>void load()}/>:<EmptyState icon="shield" title={t('blocked.emptyTitle')} body={t('blocked.emptyBody')}/>):null}/></Screen>;
+}
+const createStyles=(theme:AppTheme)=>StyleSheet.create({body:{padding:16,paddingBottom:80},card:{padding:11,borderRadius:theme.radius.lg,borderWidth:1,borderColor:theme.colors.border,backgroundColor:theme.colors.surface,flexDirection:'row',alignItems:'center',gap:11,marginBottom:9},photo:{width:58,height:66,borderRadius:14,backgroundColor:theme.colors.surfaceAlt},name:{fontWeight:'900',fontSize:16,color:theme.colors.text},meta:{marginTop:4,fontSize:11,fontWeight:'700',color:theme.colors.muted}});

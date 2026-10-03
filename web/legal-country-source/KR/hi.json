@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "KR",
+  "country_display_name": "दक्षिण कोरिया",
+  "document_locale": "hi",
+  "document_language_display_names": "कोरियाई",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "अधिकार-क्षेत्र विशिष्ट कानूनी परिशिष्ट",
+  "sections": [
+    {
+      "heading": "कानूनी दायरा",
+      "paragraphs": [
+        "यह परिशिष्ट तब लागू होता है जब Tailmance यह निर्धारित करता है कि दक्षिण कोरिया वह देश है जिसका कानून आपके खाते पर लागू होता है। यह उपयोग की शर्तों, गोपनीयता सूचना, समुदाय दिशानिर्देशों, सदस्यता सूचना और अन्य कानूनी दस्तावेज़ों का पूरक है; उनका स्थान नहीं लेता।",
+        "Tailmance कानूनी दायित्वों को उस सत्यापित देश और, जहाँ आवश्यक हो, लागू क्षेत्रीय या स्थानीय कानूनी ढाँचे के अनुसार लागू करता है। ऐप की भाषा बदलना, यात्रा करना या स्टोर क्षेत्र बदलना अपने-आप लागू कानून को नहीं बदलता।"
+      ]
+    },
+    {
+      "heading": "दस्तावेज़ की भाषा",
+      "paragraphs": [
+        "इस कानूनी व्यवस्था के बाध्यकारी दस्तावेज़ आवश्यक भाषा या भाषाओं में उपलब्ध कराए जाते हैं: कोरियाई। जहाँ किसी विशिष्ट भाषा की आवश्यकता हो, Tailmance बिना सूचना दिए उसे किसी दूसरी भाषा से स्वतः नहीं बदलता।",
+        "यह संस्करण सुगम्यता के लिए अनुवाद के रूप में उपलब्ध कराया गया है। जहाँ लागू कानून या यह कानूनी व्यवस्था किसी आवश्यक भाषा संस्करण की माँग करती है, यह उसका स्थान नहीं लेता।"
+      ]
+    },
+    {
+      "heading": "देश-विशिष्ट कानूनी आवश्यकताएँ",
+      "paragraphs": [
+        "लागू देश के लिए बाईस कानूनी आवश्यकता क्षेत्रों की समीक्षा स्पष्ट रूप से पहचाने जा सकने वाले आधिकारिक स्रोतों के आधार पर की जाती है। लागू कानून और उनकी प्रभावी तिथियाँ प्रस्तावों, परामर्शों और भविष्य की व्यवस्थाओं से अलग रखी जाती हैं; किसी प्रस्ताव को लागू कानून नहीं माना जाता।",
+        "स्रोत समीक्षा की तिथि: 1 अक्टूबर 2026। भविष्य की व्यवस्थाएँ, मसौदे और परामर्श अलग से ट्रैक किए जाते हैं और उन्हें लागू कानून के रूप में प्रस्तुत नहीं किया जाता।"
+      ]
+    },
+    {
+      "heading": "समीक्षित कानूनी ढाँचे",
+      "paragraphs": [
+        "लागू देश के लिए Tailmance की आधिकारिक-स्रोत समीक्षा में दर्ज प्रमुख कानूनी ढाँचे नीचे दिए गए हैं। सूची में शामिल होना केवल समीक्षा के दायरे को दर्शाता है: कोई नियम वर्तमान में प्रभावी है, भविष्य में प्रभावी होगा, केवल प्रस्तावित है या किसी सीमित लागू-क्षेत्र की शर्त पर निर्भर है, यह प्रभावी-तिथि और सटीक लागू-क्षेत्र नियंत्रण से तय होता है; केवल इस सूची से ऐसा निष्कर्ष नहीं निकाला जाता।"
+      ],
+      "items": [
+        "PIPA"
+      ]
+    },
+    {
+      "heading": "गोपनीयता, सुरक्षा और उपयोगकर्ता अधिकार",
+      "paragraphs": [
+        "गोपनीयता अधिकार, डेटा अनुरोध, खाता और डेटा हटाना, अंतरराष्ट्रीय अंतरण, आयु आश्वासन, इलेक्ट्रॉनिक विपणन तथा सुरक्षा और उल्लंघन-सूचना दायित्व सटीक कानूनी संदर्भ के अनुसार लागू किए जाते हैं। सूचनाओं, निर्यात और हटाने के मार्गों के लिए ऐप के कानूनी केंद्र का उपयोग करें।"
+      ]
+    },
+    {
+      "heading": "सदस्यता और उपभोक्ता जानकारी",
+      "paragraphs": [
+        "जिस ऐप स्टोर के माध्यम से खरीद की जाती है, वही दिखाई गई सदस्यता कीमत, मुद्रा और लागू कर प्रस्तुति का प्रामाणिक स्रोत है। नवीनीकरण, रद्दीकरण और आवश्यक पूर्व-संविदात्मक जानकारी खरीद से पहले दिखाई जाती है। Tailmance पशु या भौतिक वस्तुएँ नहीं बेचता और उपयोगकर्ताओं के बीच पशु बिक्री के भुगतान संसाधित नहीं करता।"
+      ]
+    },
+    {
+      "heading": "पशु कल्याण और गैर-वाणिज्यिक उपयोग",
+      "paragraphs": [
+        "व्यावसायिक पशु बिक्री और व्यावसायिक प्रजनन के लिए बाज़ार गतिविधि निषिद्ध है। मालिकों द्वारा आयोजित प्रजनन केवल तभी उपलब्ध होता है जब लागू देश की पशु कल्याण, प्रजनन, स्वास्थ्य, संबंध और पात्रता संबंधी आवश्यकताएँ पूरी हों; अन्यथा सुविधा अवरुद्ध रहती है।"
+      ]
+    },
+    {
+      "heading": "संपर्क और आधिकारिक स्रोत",
+      "paragraphs": [
+        "इन सूचनाओं से संबंधित प्रश्न या गोपनीयता अनुरोध yektaozel@icloud.com पर भेजे जा सकते हैं। इस कानूनी समीक्षा में उपयोग किए गए आधिकारिक स्रोत नीचे सूचीबद्ध हैं।"
+      ],
+      "official_sources": [
+        "https://www.pipc.go.kr/eng/user/ltn/new/noticeDetail.do",
+        "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=182211",
+        "https://www.law.go.kr/lsInfoP.do?lsId=009318",
+        "https://law.go.kr/LSW/lsInfoP.do?lsId=000815",
+        "https://law.go.kr/LSW/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=121025",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287795",
+        "https://www.law.go.kr/lsInfoP.do?lsId=001656",
+        "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029874175",
+        "https://law.go.kr/LSW/lsEfInfoP.do?lsiSeq=253655",
+        "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030434423",
+        "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031811027",
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=009318",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032213603",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029423293",
+        "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900605727",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1014944783",
+        "https://pipc.go.kr/eng/user/ltn/new/noticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=3005",
+        "https://law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000089686",
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=&chrClsCd=010202&efYd=20260122&lsiSeq=268619&urlMode=lsInfoP"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "e6ca4fd785232c0f3a7e19eab1c8115f2435afd139963dc5421f7031c90e43ae",
+  "official_source_count": 43,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "PIPA"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ko"
+  ],
+  "display_language_name": "हिन्दी"
+}

@@ -1,0 +1,794 @@
+{
+  "schema_version": 2,
+  "reviewed_at": "2026-10-01",
+  "policy": "Configured-27 source legal/language approval is satisfied by attributable official sources, temporal/subnational review, exact country×language coverage and internal legal-language QA. External counsel or certified translation is not a source prerequisite. Only real production/store/provider/operator evidence remains external; unconfigured countries are out of scope.",
+  "items": {
+    "legal_counsel_country_approval": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "real_web_delete_account_flow": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "real_support_business_identity_details": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
+    },
+    "consumer_operator_address_tax_details_by_market": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
+    },
+    "apple_age_rating_console_questionnaire": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "google_iarc_console_questionnaire": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "apple_app_privacy_console_declaration": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "google_data_safety_console_declaration": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "dsa_service_classification_and_required_regulatory_reporting": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true,
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it."
+    },
+    "uk_online_safety_scope_and_childrens_access_assessment": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "australia_social_media_minimum_age_scope_and_reasonable_steps_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true,
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it."
+    },
+    "international_transfer_mechanisms_and_required_local_notifications": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real production provider contracts/configuration and operational evidence for transfers, retention, deletion/erasure cooperation, subprocessors and data-location obligations; repository source alone cannot satisfy this item.",
+      "source_legal_review_complete": true,
+      "note": "Before release, verify the actual production provider topology including moderation, owner identity verification, age assurance, health verification, crash reporting/observability, billing and hosting. For each enabled provider, document processor/controller role, DPA/terms, subprocessors, transfer mechanism/localization or notification duties, retention limits, deletion/erasure cooperation and a usable provider-side deletion handle or equivalent erasure procedure. Tailmance source-side hashing/minimization does not replace provider-side erasure obligations."
+    },
+    "live_moderation_provider_and_human_review_sla": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "uae_social_platform_and_child_digital_safety_applicability_assessment": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "uae_effective_reliable_age_assurance_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true,
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it."
+    },
+    "subnational_counsel_matrix_for_applicable_markets": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "animal_welfare_breeding_mating_pet_commerce_27_market_counsel_review": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "immutable_legal_bundle_publication_counsel_and_localization_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true,
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it."
+    },
+    "production_legal_country_resolution_operational_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "marketing_push_consent_text_hash_version_publication_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true,
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it."
+    },
+    "storefront_operational_country_mismatch_runbook_and_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "subnational_jurisdiction_country_matrix_and_counsel_approval": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "production_age_assurance_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "uae_child_digital_safety_scope_assessment": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "uae_social_platform_applicability_assessment": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "uae_age_assurance_production_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "uae_operational_requirements_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "animal_welfare_breeding_mating_pet_commerce_country_matrix_and_counsel_approval": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "country_specific_electronic_marketing_push_scope_registry_and_withdrawal_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "digital_accessibility_country_applicability_and_manual_assistive_technology_audit": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "market_specific_operator_identity_address_tax_invoice_disclosures": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Real legal entity/operator, postal address, tax/VAT/invoice and consumer disclosure details must be verified for each released market.",
+      "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
+    },
+    "us_dmca_designated_agent_registration_if_section512_safe_harbor_relied_upon": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Do not claim US §512 safe-harbor completion without real Copyright Office designated-agent registration and operational evidence.",
+      "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
+    },
+    "copyright_notice_counter_notice_repeat_infringer_operations": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "country_specific_cybersecurity_breach_notification_runbooks_and_regulator_contacts": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Production incident classification, timelines, regulator/data-subject notice procedures and local contacts must be legally reviewed and exercised.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "regulatory_recordkeeping_and_law_enforcement_response_matrix": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "sanctions_export_payment_storefront_distribution_review": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Current sanctions/export/payment/storefront restrictions and vendor availability must be reviewed before each country release.",
+      "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
+    },
+    "country_and_subnational_statutory_language_requirements_counsel_approval": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa",
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed."
+    },
+    "professional_legal_localization_per_approved_country_document_locale": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "jurisdiction_specific_legal_language_scope_approval": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "age_assurance_vendor_privacy_biometric_dpia_retention_and_accessible_redress": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Before any real age-assurance provider is enabled, verify country-specific lawful basis/scope for ID, face/biometric or other sensitive processing; DPIA or equivalent where required; minimization, retention/deletion, transfers/subprocessors, security, false-reject/manual alternative, accessibility and redress. Tailmance source tables deliberately do not store raw ID or face images.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "country_specific_privacy_or_platform_representative_appointment_and_public_contact": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Where applicable, verify and evidence GDPR Article 27, DSA Article 13 and local-equivalent representative appointments, mandates, jurisdiction and public/regulator contact details; do not infer appointment from a privacy-policy contact address.",
+      "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
+    },
+    "market_specific_subscription_cancellation_refund_withdrawal_disclosures_and_support_runbook": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify per-market/store auto-renewal, cancellation, refund, withdrawal/digital-performance exception, price-change/paid-conversion consent, account-deletion versus store-subscription separation and support escalation. Source copy must not substitute for live store/counsel evidence.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "illegal_content_child_safety_emergency_reporting_preservation_and_law_enforcement_runbook": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify provider/service classification and country-specific mandatory reporting, preservation, emergency/life-safety and lawful authority-request duties, including child sexual exploitation obligations where applicable. Operations must be staffed, audited and legally reviewed before release.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "market_specific_digital_service_platform_app_registration_licensing_filing_notification_and_verification": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "For each released market, verify whether Tailmance or its operator must obtain or maintain a business/platform/app/social-network/e-commerce/telecom registration, licence, filing, notification or official verification; record identifiers, renewal/change duties, public display requirements and operational owner. Do not treat tax registration or a generic business entity record as a substitute.",
+      "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
+    },
+    "apple_social_media_capabilities_console_declaration": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "From September 2026 Apple requires the social-media-capabilities response for new versions/updates/notarization. Tailmance source screening cannot substitute for real App Store Connect submission evidence.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "apple_declared_age_range_api_integration_if_selected_or_legally_required": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify real entitlement/API integration and device behavior if the App Store questionnaire path or applicable law requires it. Do not treat self-declared 18+ or source configuration as age-assurance proof.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "google_play_age_signals_api_integration_if_applicable": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify actual Play Age Signals availability/integration where applicable and restrict returned age-signal data to age-appropriate/compliance use. Do not use it for ads, marketing, analytics or profiling.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "google_play_child_safety_standards_self_certification_and_designated_contact_operations": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "For an in-scope Google Play Social/Dating/anonymous/random-chat classification, verify the Play Console self-certification, published CSAE standards, in-app reporting, CSAM action/reporting operations and a live designated child-safety point of contact. Tailmance 18+ product policy does not waive this gate.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "google_play_age_restricted_content_scope_and_restrict_minor_access_console_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify Play Console classification for dating/matchmaking/anonymous/random-chat scope and, if applicable, Restrict Minor Access plus robust age-gating evidence. Do not infer exemption solely from pet-only positioning or an internal 18+ checkbox.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "google_play_target_audience_18_plus_and_minor_access_console_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify Play Console Target audience and content is configured consistently with Tailmance 18+ product policy and document whether Restrict Minor Access is enabled/required for the final Play classification. Internal age attestation is not console evidence.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "google_play_account_deletion_data_safety_url_and_form_console_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify the live external deletion resource is entered in the designated Play Console/Data safety field and the account/data deletion questions match real production behavior.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "apple_subscription_multiseat_purchase_option_and_entitlement_model_console_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify the App Store Connect multiseat purchase option after Apple's September 2026 subscription change and confirm it matches Tailmance's account-bound Premium entitlement model before production sale.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "legal_jurisdiction_residence_or_service_contract_resolution_provenance": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "exact_context_legal_document_manifest_publication_and_hash_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "subnational_language_route_matrix_and_alternate_document_evidence": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "quebec_french_adhesion_contract_digital_flow_counsel_and_production_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Before a Québec route is enabled, verify the deployed French-version/technology presentation flow, any express choice-of-language UX, and production contract delivery against the internally reviewed Québec official-source rules. This is production evidence, not an external-counsel source-approval prerequisite.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production UX evidence showing the internally reviewed Québec French-language contract rules are implemented; source code alone cannot prove deployed behavior."
+    },
+    "spain_autonomous_community_consumer_language_matrix_counsel_and_localization": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "belgium_territorial_language_matrix_and_german_community_document_evidence": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "eu_dsa_statement_of_reasons_transparency_database_and_reporting_operations": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "eu_dsa_internal_complaint_out_of_court_and_trusted_flagger_operations": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "eu_dsa_terms_restriction_and_advertising_transparency_review": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "significant_automated_moderation_decision_human_intervention_and_redress_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "production_multi_jurisdiction_applicability_resolution": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify production resolution of primary legal country plus every separately applicable jurisdiction overlay from attributable residence, service-contract, presence, storefront, establishment and feature-specific facts. UI language must remain a presentation dimension, not a jurisdiction shortcut.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "applicability_overlay_document_publication_integrity": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only the named live deployed/provider/hosted operational evidence; source approval is not blocked by it.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item now tracks only the named real deployed/provider/hosted operational evidence, which repository source cannot fabricate.",
+      "source_legal_review_complete": true
+    },
+    "applicability_overlay_user_action_and_acceptance_presentation_legal_review": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "production_legal_document_https_origin_allowlist_and_publication_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "For every production legal/support document origin, verify domain ownership/control, TLS/publication availability and the exact approved HTTPS origin in the service-only allowlist. HTTPS alone is insufficient; base and overlay legal routes fail closed when the origin is absent, revoked or stale.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "indonesia_pp_tunas_plf_self_assessment_verification_risk_profile_and_operational_reporting_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "If Tailmance is in scope under PP TUNAS, verify the actual PLF self-assessment, Komdigi verification/risk-profile determination, required child-protection controls and reporting operations. An internal 18+ product policy does not establish the PLF classification or discharge the regulator process.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "australia_esafety_september_2026_post_federal_court_service_category_reassessment": {
+      "status": "verified",
+      "evidence_reference": [
+        "release/configured-market-legal-language-source-approval-v20.json",
+        "release/official-source-review-v19.json",
+        "release/subnational-source-review-v19.json",
+        "release/country-legal-supplement-manifest-v20.json",
+        "release/critical-legal-subdimension-review-v19.json"
+      ],
+      "note": "Configured-27 source applicability, statutory-language scope and legal-language localization are internally complete from attributable official sources plus exact country×language QA. No external counsel, certified or sworn credential is required for this source approval and none is claimed.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Configured-27 official-source legal review, exact country×language coverage, subnational source review, temporal review and internal legal-language QA. External counsel/certified translation is not a source-approval prerequisite.",
+      "source_approval_basis": "internal_official_source_and_legal_language_qa"
+    },
+    "production_pre_registration_country_locale_legal_presentation_and_signup_binding_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "requirement": "Verify in production that account creation is blocked unless the exact current country + UI-locale pre-registration privacy/terms/community presentation was delivered, that the presentation hash is bound to signup, and that the declared country remains non-authoritative for final jurisdiction.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "production_subscription_precontract_presentation_and_store_handoff_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "requirement": "Verify on real iOS/Android store flows that the exact current subscription/consumer document set is presented and server-recorded immediately before the store purchase sheet, including stale-context rejection and correct product/store identifiers.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "production_marketing_consent_overlay_presentation_and_delivery_authority_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "requirement": "Verify in production that optional marketing grant uses only current counsel-classified overlay documents from approved HTTPS origins, that stale/revoked publication invalidates existing consent, and that delivery uses only the authoritative current consent projection.",
+      "evidence_boundary_class": "production_or_operational_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
+    },
+    "apple_streamlined_purchasing_precontract_bypass_configuration_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "requirement": "Verify the real App Store Connect Streamlined Purchasing state. Because Tailmance records exact in-app pre-contract disclosure immediately before purchase, direct App Store purchase must be disabled or externally approved as an equivalent compliant disclosure path.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "runtime_ui_19_locale_source_translation_and_linguistic_qa": {
+      "status": "verified",
+      "evidence_reference": [
+        "src/i18n/locales/*.ts — 19 dedicated runtime catalogs, 1653 keys each",
+        "release/i18n-critical-keys-v1.json — fixed 316 legal/payment/age/safety critical-key manifest",
+        "release/i18n-runtime-invariant-allowlist-v1.json — explicit locale invariant allowlists",
+        "scripts/runtime-language-quality-checks.mjs — full-catalog/key/placeholder/script/invariant QA",
+        "scripts/i18n-checks.mjs — 19/19 runtime/native metadata release readiness",
+        "scripts/generate-push-copy.mjs — 19/19 localized push-copy parity"
+      ],
+      "note": "Runtime UI translation is source-complete for all 19 configured locales (1653/1653 keys per locale) with fixed critical-key, placeholder, target-script and explicit-invariant QA. This verifies the application UI source catalogs only; it does not represent sworn/certified legal-document translation or the separate configured-market source legal-language approval artifact.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Repository source artifacts plus deterministic internal QA."
+    },
+    "final_22_legal_document_locale_source_localization_internal_qa": {
+      "status": "verified",
+      "evidence_reference": [
+        "web/legal-source/*.json — 22/22 legal-document locale source packs (19 runtime + ca/eu/gl legal-only)",
+        "web/legal/<locale>/*.html — 242 generated public legal documents across 22 legal-document locale directories",
+        "release/localized-legal-web-manifest-r8.json — 22-locale deterministic generated-document manifest",
+        "release/legal-web-localization-manifest-v1.json — source-hash-bound legal localization manifest",
+        "release/legal-document-locales-v1.json — 19 runtime + ca/eu/gl legal-only locale policy",
+        "scripts/localized-legal-language-checks.mjs",
+        "scripts/legal-web-localization-checks.mjs"
+      ],
+      "note": "All 22 configured legal-document locale source packs are present: the 19 runtime locales plus Catalan, Basque and Galician legal-document-only packs for Spanish subnational routing. They pass internal structural/script/document-set/source-hash QA. This is not a sworn/certified translation claim and does not itself decide country or subnational legal-language applicability.",
+      "evidence_boundary_class": "repository_source_internal_qa",
+      "repository_source_can_satisfy_alone": true,
+      "required_evidence_boundary": "Repository source artifacts plus deterministic internal QA."
+    },
+    "google_play_package_registration_global_2026_09_30": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "As of 2026-09-30, verify in the real Play Console that Tailmance package registration is complete for Google Play distribution. This is a current global Play requirement, not a BR/ID/SG/TH-only rule.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "android_developer_verification_regional_enforcement_2026_09_30_initial_markets": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Configured-27 source-law applicability is internally complete. This item tracks only real store/distribution/platform verification evidence.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Configured-27 source-law applicability is internally reviewed; this inventory item tracks only real distribution/store/platform verification evidence.",
+      "source_legal_review_complete": true
+    },
+    "us_state_app_store_age_assurance_counsel_and_production_integration": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Requires current U.S. state/DC/territory applicability matrix, Texas current-law/litigation assessment, future CA/AL/UT/LA prelaunch tracking, and real Apple/Google age-signal/significant-change/consent lifecycle evidence where applicable.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "apple_AU_BR_SG_18plus_distribution_and_declared_age_range_production_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify Tailmance actual AU/BR/SG App Store rating, adult-confirmation behavior and any required Declared Age Range/significant-change production integration; internal 18+ policy is not console/platform evidence.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "apple_AU_VN_regional_age_rating_console_evidence": {
+      "status": "not_verified",
+      "evidence_reference": [],
+      "note": "Verify actual App Store Connect questionnaire output and current regional rating for Australia and Vietnam before release.",
+      "evidence_boundary_class": "store_console_or_distribution_external",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Real App Store/Google Play console, distribution or platform-provider evidence from the production app/account."
+    },
+    "worldwide_unconfigured_country_legal_review_and_distribution_approval": {
+      "status": "not_applicable",
+      "evidence_reference": [
+        "release/worldwide-country-coverage-v19.json"
+      ],
+      "notes": "Tailmance has 27 configured country screening matrices. The remaining 222 ISO-3166-1 alpha-2 entries in release/worldwide-country-coverage-v19.json are explicitly BLOCK and require country-specific legal, subnational/territorial, language, consumer, privacy, age/safety, store/platform, tax/registration, animal-welfare and distribution review before any worldwide enablement claim.",
+      "evidence_boundary_class": "out_of_scope_unconfigured_country",
+      "repository_source_can_satisfy_alone": false,
+      "required_evidence_boundary": "Out of scope for this configured-27 release. The 222 unconfigured jurisdictions are intentionally not reviewed or approved by this source-completion checkpoint."
+    }
+  }
+}

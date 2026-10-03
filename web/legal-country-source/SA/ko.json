@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "SA",
+  "country_display_name": "사우디아라비아",
+  "document_locale": "ko",
+  "document_language_display_names": "아랍어",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "관할권별 법률 보충문서",
+  "sections": [
+    {
+      "heading": "법적 적용 범위",
+      "paragraphs": [
+        "이 보충문서는 Tailmance가 사우디아라비아를 귀하의 계정에 적용되는 법률의 국가로 판단한 경우 적용됩니다. 이용약관, 개인정보 처리 안내, 커뮤니티 가이드라인, 구독 안내 및 기타 법률 문서를 보완하며 이를 대체하지 않습니다.",
+        "Tailmance는 해당 확인된 국가와 필요한 경우 적용되는 지역 또는 지방의 법적 체계에 따라 법적 의무를 적용합니다. 앱 언어 변경, 여행 또는 스토어 지역 변경만으로 적용 법률이 자동으로 변경되지는 않습니다."
+      ]
+    },
+    {
+      "heading": "문서 언어",
+      "paragraphs": [
+        "이 법적 설정에 관한 구속력 있는 문서는 필요한 언어로 제공됩니다: 아랍어. 특정 언어가 필요한 경우 Tailmance가 별도 안내 없이 다른 언어로 자동 대체하지 않습니다.",
+        "이 버전은 접근성을 위한 번역으로 제공됩니다. 적용 법률이나 이 법적 설정에서 특정 필수 언어 버전을 요구하는 경우 그 버전을 대체하지 않습니다."
+      ]
+    },
+    {
+      "heading": "국가별 법적 요건",
+      "paragraphs": [
+        "적용 국가에 대해 22개 분야의 법적 요건을 출처가 확인 가능한 공식 자료에 따라 검토합니다. 현행 법률과 시행일은 제안, 의견수렴 및 미래 조치와 구분되며, 제안을 현행 법률로 취급하지 않습니다.",
+        "자료 검토일: 2026년 10월 1일. 미래 조치, 초안 및 의견수렴은 별도로 추적하며 현행 법률로 표시하지 않습니다."
+      ]
+    },
+    {
+      "heading": "검토된 법적 체계",
+      "paragraphs": [
+        "적용 국가에 대해 Tailmance의 공식 자료 검토에 기록된 주요 법적 체계를 아래에 표시합니다. 목록에 포함되었다는 사실은 검토 범위만 의미합니다. 특정 규정이 현재 시행 중인지, 향후 시행되는지, 제안 단계인지, 또는 더 제한된 적용 요건에 따르는지는 시행일 및 정확한 적용 범위 통제로 판단하며 이 목록만으로 추정하지 않습니다."
+      ],
+      "items": [
+        "Personal Data Protection Law and implementing/transfer regulations"
+      ]
+    },
+    {
+      "heading": "개인정보, 안전 및 이용자 권리",
+      "paragraphs": [
+        "개인정보 권리, 데이터 요청, 계정 및 데이터 삭제, 국제 이전, 연령 확인, 전자 마케팅, 보안 및 침해 통지 의무는 정확한 법적 맥락에 따라 적용됩니다. 안내, 내보내기 및 삭제는 앱 내 법률 센터를 이용하세요."
+      ]
+    },
+    {
+      "heading": "구독 및 소비자 정보",
+      "paragraphs": [
+        "구매에 사용되는 앱 스토어가 표시되는 구독 가격, 통화 및 적용 세금 표시의 기준입니다. 갱신, 취소 및 필요한 계약 전 정보는 구매 전에 제공됩니다. Tailmance는 동물이나 실물 상품을 판매하지 않으며 동물 판매에 대한 사용자 간 결제를 처리하지 않습니다."
+      ]
+    },
+    {
+      "heading": "동물복지 및 비상거래",
+      "paragraphs": [
+        "상업적 동물 판매와 상업적 번식을 위한 마켓플레이스는 금지됩니다. 보호자가 직접 조정하는 교배는 해당 국가에서 적용되는 동물복지, 번식, 건강, 혈연 및 적격성 요건을 충족한 경우에만 이용할 수 있으며, 그렇지 않으면 기능이 차단됩니다."
+      ]
+    },
+    {
+      "heading": "연락처 및 공식 자료",
+      "paragraphs": [
+        "이 안내 또는 개인정보 요청에 관한 문의는 yektaozel@icloud.com으로 보낼 수 있습니다. 이 법률 검토에 사용된 공식 자료는 아래에 기재되어 있습니다."
+      ],
+      "official_sources": [
+        "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+        "https://mc.gov.sa/ar/ECC/pages/default.aspx",
+        "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2d3cb83a-0379-4cde-8e0b-a9a700f272bd/1",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Implementing%20Regulations%20of%20The%20Agriculture%20Law.pdf",
+        "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Pet%20import%20mechanism.pdf",
+        "https://www.mewa.gov.sa/ar/InformationCenter/DocsCenter/RulesLibrary/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%81%D9%82%20%D8%A8%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%20%D9%88%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A%D8%A9.pdf",
+        "https://laws.boe.gov.sa/BoeLaws/Laws/SearchDetails/?Id=93f81644-fbbc-49ca-b33c-a9a700f16701",
+        "https://www.cst.gov.sa/en/business/services/Social-Media-platforms-notification",
+        "https://mc.gov.sa/en/guides/Documents/MerchantGuide.pdf",
+        "https://sdaia.gov.sa/en/SDAIA/about/Documents/ExecutiveRegulations.pdf",
+        "https://dga.gov.sa/sites/default/files/2022-12/The%20Guideline%20for%20Web%20Accessibility%20of%20Government%20Websites%20%E2%80%93%20V1.0_1.pdf",
+        "https://mc.gov.sa/en/mediacenter/News/Pages/29-03-23-02.aspx",
+        "https://www.uqn.gov.sa/details?p=28845",
+        "https://www.uqn.gov.sa/decisions-and-regulations/4000304",
+        "https://sdaia.gov.sa/en/SDAIA/about/Documents/ImplementingRegulation.pdf",
+        "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL2",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/Overview.aspx",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/Legalframework.aspx",
+        "https://securitycouncil.mofa.gov.sa/en/Pages/List.aspx"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "7401a26decfd07d38be1384a15f08e38c7436087d47b43e5e4d03a4cbca4b375",
+  "official_source_count": 43,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Personal Data Protection Law and implementing/transfer regulations"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ar"
+  ],
+  "display_language_name": "한국어"
+}

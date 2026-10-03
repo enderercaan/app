@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "CN",
+  "country_display_name": "Çin",
+  "document_locale": "tr",
+  "document_language_display_names": "Basitleştirilmiş Çince",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Ülkeye Özgü Hukuki Ek",
+  "sections": [
+    {
+      "heading": "Hukuki kapsam",
+      "paragraphs": [
+        "Bu ek, Tailmance Çin ülkesinin hesabınıza uygulanacak hukukun ülkesi olduğunu belirlediğinde uygulanır. Kullanım Koşulları, Gizlilik Bildirimi, Topluluk Kuralları, abonelik bildirimi ve diğer hukuki belgeleri tamamlar; bunların yerine geçmez.",
+        "Tailmance hukuki yükümlülükleri bu doğrulanmış ülkeye ve gerektiğinde uygulanabilir bölgesel veya yerel hukuk çerçevesine göre uygular. Uygulama dilini değiştirmek, seyahat etmek veya mağaza bölgesini değiştirmek tek başına uygulanacak hukuku değiştirmez."
+      ]
+    },
+    {
+      "heading": "Belge dili",
+      "paragraphs": [
+        "Bu hukuki yapılandırma için bağlayıcı belgeler gerekli dil veya dillerde sunulur: Basitleştirilmiş Çince. Belirli bir dil zorunluysa Tailmance başka bir dili bildirim yapmadan otomatik olarak onun yerine kullanmaz.",
+        "Bu sürüm erişilebilirlik amacıyla çeviri olarak sunulur. Uygulanabilir hukuk veya bu hukuki yapılandırma zorunlu bir dil sürümü gerektiriyorsa onun yerine geçmez."
+      ]
+    },
+    {
+      "heading": "Ülkeye özgü hukuki gereklilikler",
+      "paragraphs": [
+        "Uygulanacak ülke için yirmi iki hukuki gereklilik alanı, kaynağı belirli resmî kaynaklara göre incelenir. Yürürlükteki hukuk ve yürürlük tarihleri; teklifler, istişareler ve gelecekteki düzenlemelerden ayrı tutulur; bir teklif hiçbir zaman yürürlükteki hukuk olarak uygulanmaz.",
+        "Kaynak inceleme tarihi: 1 Ekim 2026. Gelecekteki düzenlemeler, taslaklar ve istişareler ayrı izlenir ve yürürlükteki hukuk olarak sunulmaz."
+      ]
+    },
+    {
+      "heading": "İncelenen hukuki çerçeveler",
+      "paragraphs": [
+        "Uygulanacak ülke için Tailmance’ın resmî kaynak incelemesinde kayıtlı başlıca hukuki çerçeveler aşağıda yer alır. Listede bulunması yalnız inceleme kapsamını gösterir: bir kuralın bugün yürürlükte, gelecekte yürürlüğe girecek, yalnızca teklif aşamasında veya daha dar bir uygulanabilirlik koşuluna bağlı olup olmadığı yürürlük tarihi ve kesin uygulanabilirlik kontrolleriyle belirlenir; yalnız bu listeden sonuç çıkarılmaz."
+      ],
+      "items": [
+        "PIPL",
+        "CAC cross-border data rules"
+      ]
+    },
+    {
+      "heading": "Gizlilik, güvenlik ve kullanıcı hakları",
+      "paragraphs": [
+        "Gizlilik hakları, veri talepleri, hesap ve veri silme, uluslararası aktarımlar, yaş doğrulaması, elektronik pazarlama ile güvenlik ve ihlal bildirim yükümlülükleri tam hukuki bağlam üzerinden uygulanır. Bildirimler, dışa aktarma ve silme işlemleri için uygulamadaki Hukuk Merkezi’ni kullanabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Abonelikler ve tüketici bilgileri",
+      "paragraphs": [
+        "Satın almanın yapıldığı uygulama mağazası, gösterilen abonelik fiyatı, para birimi ve uygulanabilir vergi gösterimi için esas kaynaktır. Yenileme, iptal ve gerekli sözleşme öncesi bilgiler satın alma öncesinde gösterilir. Tailmance hayvan veya fiziksel ürün satmaz ve kullanıcılar arası hayvan satışı ödemelerini işlemez."
+      ]
+    },
+    {
+      "heading": "Hayvan refahı ve ticari olmayan yapı",
+      "paragraphs": [
+        "Ticari hayvan satışı ve ticari yetiştiriciliğe yönelik pazaryeri faaliyeti yasaktır. Sahiplerin kendi aralarında düzenlediği çiftleştirme yalnızca ilgili ülkede geçerli hayvan refahı, yetiştiricilik, sağlık, akrabalık ve uygunluk şartları karşılandığında kullanılabilir; aksi halde özellik kapalı kalır."
+      ]
+    },
+    {
+      "heading": "İletişim ve resmî kaynaklar",
+      "paragraphs": [
+        "Bu bildirimlerle ilgili sorular veya gizlilik talepleri yektaozel@icloud.com adresine gönderilebilir. Bu hukuki incelemede kullanılan resmî kaynaklar aşağıda listelenmiştir."
+      ],
+      "official_sources": [
+        "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+        "https://www.cac.gov.cn/2023-02/24/c_1678884830036813.htm",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2024/art_0aea188276a44f0baf940ab95ee00e0a.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_eef66659c9624c5091bd3acd050b1710.html",
+        "https://www.cac.gov.cn/2023-10/24/c_1699806932316206.htm",
+        "https://www.cac.gov.cn/2026-02/28/c_1774010730056867.htm",
+        "https://www.cac.gov.cn/2026-09/18/c_1791482017777471.htm",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.npc.gov.cn/c2/c183/c198/201905/t20190522_27188.html",
+        "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202605/t20260505_534501.html",
+        "https://www.shanghai.gov.cn/gwk/search/content/GKXX-20260803152327433--1189",
+        "https://www.shanghai.gov.cn/nw26192/20200820/0001-26192_27724.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_85b474fc5a08494bb60ca6a280b98d7d.html",
+        "https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202606/t20260605_1438880.html",
+        "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_fa48eb1becd2411eabf4081c716b62f6.html",
+        "https://gxca.miit.gov.cn/zwgk/zcwj/flfg/art/2024/art_340a68cb6a8e45ae81c121630dd37346.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_4b47c79b8d994a42bba4835997688faa.html",
+        "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2023/art_dd783a581c9644a4aee10afa582811db.html",
+        "https://www.cac.gov.cn/2013-02/18/c_126468776.htm",
+        "https://www.cac.gov.cn/2025-09/15/c_1759583017563621.htm",
+        "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+        "https://www.cac.gov.cn/2025-02/14/c_1741233507681519.htm",
+        "https://www.moj.gov.cn/pub/sfbgw/gwxw/xwyw/202503/t20250324_516274.html",
+        "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=90351"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "24809639fff15b1c25ae3375cf71f291fee321bb38b30f011423785333aa4f4a",
+  "official_source_count": 47,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "PIPL",
+    "CAC cross-border data rules"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "zh-Hans"
+  ],
+  "display_language_name": "Türkçe"
+}

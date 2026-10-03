@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "US",
+  "country_display_name": "संयुक्त राज्य",
+  "document_locale": "hi",
+  "document_language_display_names": "अंग्रेज़ी",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "अधिकार-क्षेत्र विशिष्ट कानूनी परिशिष्ट",
+  "sections": [
+    {
+      "heading": "कानूनी दायरा",
+      "paragraphs": [
+        "यह परिशिष्ट तब लागू होता है जब Tailmance यह निर्धारित करता है कि संयुक्त राज्य वह देश है जिसका कानून आपके खाते पर लागू होता है। यह उपयोग की शर्तों, गोपनीयता सूचना, समुदाय दिशानिर्देशों, सदस्यता सूचना और अन्य कानूनी दस्तावेज़ों का पूरक है; उनका स्थान नहीं लेता।",
+        "Tailmance कानूनी दायित्वों को उस सत्यापित देश और, जहाँ आवश्यक हो, लागू क्षेत्रीय या स्थानीय कानूनी ढाँचे के अनुसार लागू करता है। ऐप की भाषा बदलना, यात्रा करना या स्टोर क्षेत्र बदलना अपने-आप लागू कानून को नहीं बदलता।"
+      ]
+    },
+    {
+      "heading": "दस्तावेज़ की भाषा",
+      "paragraphs": [
+        "इस कानूनी व्यवस्था के बाध्यकारी दस्तावेज़ आवश्यक भाषा या भाषाओं में उपलब्ध कराए जाते हैं: अंग्रेज़ी। जहाँ किसी विशिष्ट भाषा की आवश्यकता हो, Tailmance बिना सूचना दिए उसे किसी दूसरी भाषा से स्वतः नहीं बदलता।",
+        "यह संस्करण सुगम्यता के लिए अनुवाद के रूप में उपलब्ध कराया गया है। जहाँ लागू कानून या यह कानूनी व्यवस्था किसी आवश्यक भाषा संस्करण की माँग करती है, यह उसका स्थान नहीं लेता।"
+      ]
+    },
+    {
+      "heading": "देश-विशिष्ट कानूनी आवश्यकताएँ",
+      "paragraphs": [
+        "लागू देश के लिए बाईस कानूनी आवश्यकता क्षेत्रों की समीक्षा स्पष्ट रूप से पहचाने जा सकने वाले आधिकारिक स्रोतों के आधार पर की जाती है। लागू कानून और उनकी प्रभावी तिथियाँ प्रस्तावों, परामर्शों और भविष्य की व्यवस्थाओं से अलग रखी जाती हैं; किसी प्रस्ताव को लागू कानून नहीं माना जाता।",
+        "स्रोत समीक्षा की तिथि: 1 अक्टूबर 2026। भविष्य की व्यवस्थाएँ, मसौदे और परामर्श अलग से ट्रैक किए जाते हैं और उन्हें लागू कानून के रूप में प्रस्तुत नहीं किया जाता।"
+      ]
+    },
+    {
+      "heading": "समीक्षित कानूनी ढाँचे",
+      "paragraphs": [
+        "लागू देश के लिए Tailmance की आधिकारिक-स्रोत समीक्षा में दर्ज प्रमुख कानूनी ढाँचे नीचे दिए गए हैं। सूची में शामिल होना केवल समीक्षा के दायरे को दर्शाता है: कोई नियम वर्तमान में प्रभावी है, भविष्य में प्रभावी होगा, केवल प्रस्तावित है या किसी सीमित लागू-क्षेत्र की शर्त पर निर्भर है, यह प्रभावी-तिथि और सटीक लागू-क्षेत्र नियंत्रण से तय होता है; केवल इस सूची से ऐसा निष्कर्ष नहीं निकाला जाता।"
+      ],
+      "items": [
+        "Federal sectoral/privacy and consumer protection law",
+        "State privacy laws"
+      ]
+    },
+    {
+      "heading": "गोपनीयता, सुरक्षा और उपयोगकर्ता अधिकार",
+      "paragraphs": [
+        "गोपनीयता अधिकार, डेटा अनुरोध, खाता और डेटा हटाना, अंतरराष्ट्रीय अंतरण, आयु आश्वासन, इलेक्ट्रॉनिक विपणन तथा सुरक्षा और उल्लंघन-सूचना दायित्व सटीक कानूनी संदर्भ के अनुसार लागू किए जाते हैं। सूचनाओं, निर्यात और हटाने के मार्गों के लिए ऐप के कानूनी केंद्र का उपयोग करें।"
+      ]
+    },
+    {
+      "heading": "सदस्यता और उपभोक्ता जानकारी",
+      "paragraphs": [
+        "जिस ऐप स्टोर के माध्यम से खरीद की जाती है, वही दिखाई गई सदस्यता कीमत, मुद्रा और लागू कर प्रस्तुति का प्रामाणिक स्रोत है। नवीनीकरण, रद्दीकरण और आवश्यक पूर्व-संविदात्मक जानकारी खरीद से पहले दिखाई जाती है। Tailmance पशु या भौतिक वस्तुएँ नहीं बेचता और उपयोगकर्ताओं के बीच पशु बिक्री के भुगतान संसाधित नहीं करता।"
+      ]
+    },
+    {
+      "heading": "पशु कल्याण और गैर-वाणिज्यिक उपयोग",
+      "paragraphs": [
+        "व्यावसायिक पशु बिक्री और व्यावसायिक प्रजनन के लिए बाज़ार गतिविधि निषिद्ध है। मालिकों द्वारा आयोजित प्रजनन केवल तभी उपलब्ध होता है जब लागू देश की पशु कल्याण, प्रजनन, स्वास्थ्य, संबंध और पात्रता संबंधी आवश्यकताएँ पूरी हों; अन्यथा सुविधा अवरुद्ध रहती है।"
+      ]
+    },
+    {
+      "heading": "संपर्क और आधिकारिक स्रोत",
+      "paragraphs": [
+        "इन सूचनाओं से संबंधित प्रश्न या गोपनीयता अनुरोध yektaozel@icloud.com पर भेजे जा सकते हैं। इस कानूनी समीक्षा में उपयोग किए गए आधिकारिक स्रोत नीचे सूचीबद्ध हैं।"
+      ],
+      "official_sources": [
+        "https://oag.ca.gov/privacy/ccpa",
+        "https://www.ftc.gov/legal-library/browse/enforcement-policy-statement-promoting-adoption-age-verification-technology",
+        "https://cppa.ca.gov/regulations/ccpa_updates.html",
+        "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
+        "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+        "https://www.nysenate.gov/legislation/laws/GBS/349",
+        "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+        "https://tcss.legis.texas.gov/resources/BC/htm/BC.121.v3.htm",
+        "https://developer.apple.com/news/?id=sg176nne",
+        "https://le.utah.gov/xcode/Title13/Chapter76/13-76-S202.html",
+        "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475238",
+        "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB161-enr.pdf",
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.9.&part=4.&chapter=&article=",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856",
+        "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+        "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+        "https://oag.ca.gov/node/608083",
+        "https://www.nysenate.gov/legislation/laws/GBS/527-A",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.aphis.usda.gov/animal-welfare-act",
+        "https://www.nysenate.gov/legislation/laws/AGM/403",
+        "https://www.nysenate.gov/legislation/laws/GBS/753-F",
+        "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251085",
+        "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+        "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+        "https://www.ada.gov/resources/web-guidance/",
+        "https://www.irs.gov/businesses/business-taxes",
+        "https://www.copyright.gov/512/",
+        "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
+        "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
+        "https://ofac.treasury.gov/sanctions-programs-and-country-information"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "484ef9c24db58a4811e1c38d6c637bbdd7df46c33f8432fc3131cf0f9ee19662",
+  "official_source_count": 55,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Federal sectoral/privacy and consumer protection law",
+    "State privacy laws"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "हिन्दी"
+}

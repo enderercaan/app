@@ -1,0 +1,859 @@
+{
+  "schema_version": 1,
+  "locale": "id",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Ketentuan Penggunaan",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Versi 2026-09-29. Ketentuan ini mengatur penggunaan Tailmance oleh Anda. Ketentuan khusus negara atau wilayah yang ditampilkan kepada Anda menjadi bagian dari Ketentuan ini. Pemegang akun harus berusia sekurang-kurangnya 18 tahun."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Layanan dan akun",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance membantu pemilik kucing dan anjing membuat profil hewan peliharaan serta menggunakan fitur penemuan dan sosial. Pastikan informasi akun tetap akurat, lindungi keamanan akun, dan jangan memindahtangankan akun Anda. Tailmance bukan layanan veteriner, medis, darurat, penjualan hewan, atau perantara pembayaran."
+            }
+          ]
+        },
+        {
+          "heading": "2. Usia dan kelayakan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Anda harus berusia sekurang-kurangnya 18 tahun untuk membuat akun. Jika hukum yang berlaku atau aturan toko mewajibkan jaminan usia tambahan, akses dapat memerlukan verifikasi lebih lanjut. Pernyataan usia yang tidak benar dapat mengakibatkan akses dibatasi atau dihentikan."
+            }
+          ]
+        },
+        {
+          "heading": "3. Profil hewan dan tanggung jawab pengguna",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Unggah hanya informasi hewan, foto, kesehatan, dan profil yang berhak Anda gunakan dan bagikan. Jangan dengan sengaja memberikan informasi yang keliru mengenai vaksinasi, kesehatan, ras, usia, jenis kelamin, kepemilikan, atau status verifikasi, dan jangan mengunggah data pribadi atau sensitif milik orang lain yang tidak diperlukan."
+            }
+          ]
+        },
+        {
+          "heading": "4. Konten pengguna dan lisensi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Anda tetap memiliki hak atas konten yang Anda unggah. Anda memberikan kepada Tailmance lisensi non-eksklusif yang berlaku di seluruh dunia dan terbatas pada pengoperasian, penyimpanan, penayangan, pengiriman, pengamanan, dan moderasi konten tersebut sejauh diperlukan untuk menyediakan layanan. Kepemilikan konten tidak berpindah kepada Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "5. Konten dan perilaku yang dilarang",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Penyiksaan hewan, pelecehan, ancaman, kebencian, materi pelecehan seksual anak, penipuan, barang atau jasa ilegal, pembagian data pribadi atau intim tanpa izin, informasi kesehatan atau verifikasi palsu, pelanggaran kekayaan intelektual, penyamaran, upaya melewati keamanan atau moderasi, serta fasilitasi kegiatan melawan hukum dilarang. Pedoman Komunitas memberikan rincian lebih lanjut."
+            }
+          ]
+        },
+        {
+          "heading": "6. Penjualan hewan, pembiakan komersial, dan perkawinan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance bukan pasar hewan peliharaan, platform penjualan hewan, atau pasar peternak. Tailmance tidak boleh digunakan untuk mengatur harga hewan, uang muka, penjualan, pengiriman, perolehan pelanggan bagi peternak komersial, pembiakan melawan hukum, atau perdagangan hewan. Fitur perkawinan dinonaktifkan secara bawaan dan hanya dapat diaktifkan jika Tailmance secara tegas mengaktifkannya serta hukum dan aturan kesejahteraan hewan yang berlaku mengizinkannya. Layanan juga tidak boleh digunakan untuk menawarkan, meminta, menjadi perantara, atau mengatur adopsi, rehoming, atau pengalihan kepemilikan hewan peliharaan."
+            }
+          ]
+        },
+        {
+          "heading": "7. Moderasi, keselamatan, dan banding",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance dapat membatasi visibilitas konten atau akses akun demi keselamatan, Ketentuan, Pedoman Komunitas, atau alasan hukum. Jika sesuai, pengguna akan menerima alasan dan jalur banding yang tersedia. Banding yang berhasil tidak membatalkan pembatasan lain yang sah dan terpisah pada konten atau akun yang sama."
+            }
+          ]
+        },
+        {
+          "heading": "8. Kesehatan hewan dan keadaan darurat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance tidak menyediakan perawatan veteriner, diagnosis medis, atau layanan darurat. Catatan vaksinasi, kesehatan, atau verifikasi di aplikasi tidak menggantikan penilaian veteriner profesional. Hubungi dokter hewan, layanan darurat, atau otoritas yang sesuai bila diperlukan."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium dan penagihan toko",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium bersifat opsional dan penggunaan Standard tetap tersedia tanpa langganan. Kecuali toko menyatakan lain, Premium diperpanjang otomatis. Harga, mata uang, pajak, periode, uji coba, dan ketentuan promosi yang mengikat ditampilkan oleh App Store atau Google Play. Kelola dan batalkan melalui toko terkait. Menghapus akun Tailmance tidak otomatis membatalkan langganan toko."
+            }
+          ]
+        },
+        {
+          "heading": "10. Privasi dan jaminan usia",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kebijakan Privasi dan suplemen privasi lokal yang berlaku menjelaskan pemrosesan data. Persetujuan push pemasaran terpisah dan opsional. Jika jaminan usia menggunakan identitas, wajah, biometrik, atau data sensitif lainnya, informasi privasi tambahan dan hak terkait harus disampaikan secara terpisah."
+            }
+          ]
+        },
+        {
+          "heading": "11. Pembatasan, penghentian, dan penghapusan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Anda dapat menghapus akun secara permanen dan menggunakan jalur penghapusan web jika tidak dapat mengakses aplikasi. Tailmance dapat menerapkan pembatasan yang proporsional atas pelanggaran Ketentuan, keselamatan, atau hukum dan, jika berlaku, memberikan alasan serta hak banding. Penghapusan tidak mengharuskan pemusnahan segera atas catatan terbatas yang wajib kami simpan menurut hukum untuk keamanan, sengketa, permintaan yang sah, atau akuntansi."
+            }
+          ]
+        },
+        {
+          "heading": "12. Kekayaan intelektual",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Unggah hanya konten yang berhak Anda bagikan. Pemegang hak dapat menggunakan proses Pemberitahuan Kekayaan Intelektual. Hak pemberitahuan, pemberitahuan tandingan, dan pemulihan khusus negara tetap berlaku jika diwajibkan."
+            }
+          ]
+        },
+        {
+          "heading": "13. Perubahan dan ketersediaan layanan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Fitur dapat berubah, ditangguhkan, atau tidak tersedia di suatu negara karena alasan keamanan, hukum, kebijakan toko, atau produk. Tailmance tidak menjamin akses tanpa gangguan atau sepenuhnya bebas kesalahan, tetapi hak konsumen wajib dan kewajiban untuk layanan berbayar tetap tidak terpengaruh."
+            }
+          ]
+        },
+        {
+          "heading": "14. Tanggung jawab dan hak yang tidak dapat dikesampingkan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tidak ada dalam Ketentuan ini yang menghapus hak konsumen, perlindungan data, aksesibilitas, atau hak lain yang menurut hukum yang berlaku tidak dapat Anda lepaskan. Penyangkalan dan pembatasan tanggung jawab hanya berlaku sejauh diizinkan oleh hukum."
+            }
+          ]
+        },
+        {
+          "heading": "15. Hukum yang berlaku dan ketentuan lokal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hukum yang berlaku, forum konsumen wajib, penyelesaian sengketa alternatif, pengadilan, akses ke regulator, dan hak lokal lainnya dapat berbeda menurut tempat tinggal tetap Anda atau tempat layanan ditawarkan. Suplemen khusus negara atau wilayah melengkapi Ketentuan ini dan hak lokal wajib tetap dilindungi."
+            }
+          ]
+        },
+        {
+          "heading": "16. Perubahan dan penerimaan ulang",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika Ketentuan yang mengikat atau suplemen lokal yang berlaku berubah secara material, Tailmance akan memberikan pemberitahuan atau meminta penerimaan ulang jika diwajibkan. Penerimaan dari konteks negara, wilayah, atau bahasa dokumen sebelumnya tidak otomatis berlaku pada konteks baru."
+            }
+          ]
+        },
+        {
+          "heading": "17. Kontak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gunakan halaman Dukungan dan Kontak untuk dukungan, keselamatan, privasi, dan permintaan lain. Jika hukum yang berlaku mewajibkan informasi operator, perwakilan, regulator, atau kontak konsumen, informasi tersebut akan dicantumkan dalam suplemen lokal terkait."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Kebijakan Privasi",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Versi 2026-09-29. Pengendali data: Yekta Özel. Kebijakan ini menjelaskan cara Tailmance memproses data pribadi. Suplemen privasi khusus negara atau wilayah yang ditampilkan kepada Anda berlaku bersama Kebijakan ini. Kebijakan ini bukan persetujuan pemasaran."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Kategori data yang kami proses",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kami dapat memproses data akun dan sesi; data keamanan, perangkat, jaringan, IP, dan token push; profil hewan, foto, dan interaksi sosial; lokasi perkiraan untuk penemuan; catatan kesehatan, vaksinasi, dan verifikasi yang Anda pilih untuk unggah; status langganan dan referensi transaksi toko; laporan, blokir, moderasi, dan banding; preferensi notifikasi dan pemasaran; serta catatan yang membuktikan konteks hukum dan dokumen yang ditampilkan kepada Anda."
+            }
+          ]
+        },
+        {
+          "heading": "2. Sumber data",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kami memperoleh data langsung dari Anda, perangkat dan penggunaan aplikasi Anda, konten yang Anda unggah, proses keselamatan dan moderasi, App Store atau Google Play, penyedia layanan yang berwenang, dan dalam kasus terbatas dari laporan atau konten pengguna lain."
+            }
+          ]
+        },
+        {
+          "heading": "3. Tujuan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kami memproses data untuk menyediakan akun dan fitur sosial, penemuan dan pencocokan, pesan dan notifikasi, keamanan dan pencegahan penipuan, moderasi dan banding, verifikasi langganan, permintaan pengguna, ekspor dan penghapusan data, keandalan layanan, serta kepatuhan terhadap hukum yang berlaku."
+            }
+          ]
+        },
+        {
+          "heading": "4. Dasar hukum dan perbedaan lokal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bergantung pada tujuan, kategori data, dan hukum yang berlaku, pemrosesan dapat didasarkan pada kontrak, kewajiban hukum, kepentingan yang sah, persetujuan, atau dasar hukum lainnya. Suplemen privasi lokal menjelaskan perbedaan khusus yurisdiksi."
+            }
+          ]
+        },
+        {
+          "heading": "5. Pemberitahuan terpisah dari persetujuan pemasaran",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pemberitahuan privasi memberi tahu Anda tentang pemrosesan; pemberitahuan tersebut bukan persetujuan menyeluruh. Notifikasi push pemasaran memerlukan pilihan terpisah, opsional, dan dapat ditarik kembali, serta tidak mengizinkan pemasaran melalui email, SMS, telepon, atau kanal lain kecuali diizinkan secara terpisah."
+            }
+          ]
+        },
+        {
+          "heading": "6. Lokasi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika Anda mengizinkan akses lokasi, Tailmance dapat menggunakan lokasi perangkat untuk penemuan. Koordinat dibulatkan menjadi tiga angka desimal sebelum dikirim ke server, disimpan secara privat, dan tidak ditampilkan kepada pengguna lain; hanya jarak perkiraan yang ditampilkan. Sinyal lokasi perangkat dan toko tidak dengan sendirinya menentukan yurisdiksi hukum."
+            }
+          ]
+        },
+        {
+          "heading": "7. Data kesehatan dan data sensitif",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Catatan kesehatan dan vaksinasi hewan dapat berisi informasi sensitif. Unggah hanya yang diperlukan dan hindari data pihak ketiga. Jika identitas, wajah, biometrik, atau informasi sensitif lain digunakan untuk jaminan usia, pemberitahuan tambahan, langkah perlindungan, batas retensi, informasi penyedia, dan prosedur alternatif wajib disediakan sesuai kebutuhan."
+            }
+          ]
+        },
+        {
+          "heading": "8. Pembagian dan pemroses",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Data hanya dapat dibagikan dengan penyedia infrastruktur, keamanan, moderasi, pesan, notifikasi, analitik/crash, langganan, dan penyedia lain yang berwenang sejauh diperlukan untuk layanan, serta dengan otoritas publik jika diwajibkan secara sah. Tailmance tidak menjual data pribadi kepada pengiklan."
+            }
+          ]
+        },
+        {
+          "heading": "9. Transfer internasional",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika data ditransfer secara internasional, Tailmance harus menggunakan mekanisme dan perlindungan yang diwajibkan yurisdiksi yang berlaku serta memberikan pemberitahuan lokal yang diperlukan. Aturan transfer dapat berbeda menurut negara atau wilayah."
+            }
+          ]
+        },
+        {
+          "heading": "10. Retensi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Data disimpan hanya selama diperlukan untuk tujuan pemrosesan atau diwajibkan hukum. Kategori berbeda memiliki periode berbeda. Penghapusan akun tidak mengharuskan penghapusan segera atas catatan keamanan, penipuan, sengketa, akuntansi, atau permintaan sah yang terbatas dan wajib dipertahankan."
+            }
+          ]
+        },
+        {
+          "heading": "11. Keamanan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance menggunakan perlindungan teknis dan organisasional untuk melindungi data, termasuk kontrol akses, enkripsi saat transit, kontrol penyimpanan privat, catatan audit, dan pencegahan penyalahgunaan. Tidak ada sistem yang dapat menjamin keamanan mutlak."
+            }
+          ]
+        },
+        {
+          "heading": "12. Hak Anda",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bergantung pada hukum yang berlaku, Anda dapat memiliki hak untuk mengakses, memperbaiki, menghapus, membatasi atau menolak pemrosesan, portabilitas, menarik persetujuan, menentang keputusan otomatis tertentu, mengajukan keluhan kepada regulator, serta memperoleh informasi tentang penerima dan transfer. Suplemen lokal menjelaskan hak dan prosedur secara tepat."
+            }
+          ]
+        },
+        {
+          "heading": "13. Anak-anak dan usia",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Akun Tailmance ditujukan untuk orang dewasa berusia 18 tahun atau lebih. Aturan produk ini tidak menggantikan kewajiban jaminan usia, keselamatan anak, pelaporan, atau platform yang mungkin berlaku menurut hukum atau kebijakan toko. Jika Tailmance mengetahui anak di bawah umur yang tidak memenuhi syarat membuat akun, langkah pembatasan dan penghapusan yang sesuai dapat diambil."
+            }
+          ]
+        },
+        {
+          "heading": "14. Sistem otomatis dan moderasi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sistem otomatis dapat membantu keselamatan, deteksi penipuan, pemeringkatan, rekomendasi, dan moderasi. Jika hukum yang berlaku mewajibkan penjelasan, tinjauan manusia, keberatan, atau perlindungan lain untuk keputusan yang berdampak, hak tersebut akan diberikan."
+            }
+          ]
+        },
+        {
+          "heading": "15. Perubahan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Perubahan material pada Kebijakan ini atau suplemen lokal akan diberitahukan jika diwajibkan. Jika perubahan memerlukan persetujuan atau pengakuan ulang, Tailmance akan memintanya alih-alih mengandalkan pilihan lama."
+            }
+          ]
+        },
+        {
+          "heading": "16. Kontak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gunakan halaman Dukungan dan Kontak untuk permintaan privasi. Jika perwakilan lokal, kontak privasi, otoritas perlindungan data, atau kontak khusus yurisdiksi lainnya diwajibkan secara hukum, suplemen lokal terkait akan menyediakannya."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Pedoman Komunitas",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Aturan ini berlaku bersama Ketentuan untuk menjaga Tailmance tetap saling menghormati, aman, dan berfokus pada kesejahteraan hewan. Hukum lokal yang lebih ketat dan berlaku mendapat prioritas."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Hormati manusia dan hewan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jangan menyiksa atau membahayakan hewan, melecehkan, mengancam, menguntit, mengeksploitasi, mendiskriminasi, atau mengarahkan kebencian kepada orang lain. Jangan mendorong penanganan hewan yang tidak aman atau menyembunyikan risiko kesejahteraan yang material."
+            }
+          ]
+        },
+        {
+          "heading": "2. Eksploitasi seksual dan keselamatan anak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Materi pelecehan seksual anak, eksploitasi seksual anak di bawah umur, grooming, ajakan seksual, atau konten yang memfasilitasi perilaku tersebut dilarang. Tailmance dapat menyimpan, membatasi, dan melaporkan materi jika diwajibkan hukum dan menyediakan jalur kontak keselamatan anak."
+            }
+          ]
+        },
+        {
+          "heading": "3. Profil autentik dan klaim kesehatan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jangan menyamar sebagai orang lain, memberikan keterangan palsu tentang kepemilikan hewan, ras, usia, jenis kelamin, kesehatan, vaksinasi, atau status verifikasi, atau mengirim dokumen palsu. Lencana verifikasi bukan jaminan veteriner."
+            }
+          ]
+        },
+        {
+          "heading": "4. Privasi dan konten intim",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jangan membagikan data pribadi, lokasi presisi, kredensial, informasi medis, atau gambar intim milik orang lain tanpa izin. Hindari memasukkan data pribadi pihak ketiga yang tidak perlu dalam catatan hewan atau pesan."
+            }
+          ]
+        },
+        {
+          "heading": "5. Barang ilegal, penipuan, dan perilaku berbahaya",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jangan menggunakan Tailmance untuk penipuan, barang atau jasa ilegal, senjata atau aktivitas berbahaya, skema keuangan tanpa izin, atau perilaku yang memfasilitasi kejahatan atau pengelakan kontrol keselamatan yang sah."
+            }
+          ]
+        },
+        {
+          "heading": "6. Penjualan hewan dan pembiakan komersial",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance bukan pasar penjualan hewan atau pasar peternak. Negosiasi harga, uang muka, penjualan atau pengiriman hewan, perolehan prospek bagi peternak komersial, pembiakan ilegal, perdagangan hewan, atau kegiatan puppy mill dilarang. Layanan juga tidak boleh digunakan untuk menawarkan, meminta, menjadi perantara, atau mengatur adopsi, rehoming, atau pengalihan kepemilikan hewan peliharaan."
+            }
+          ]
+        },
+        {
+          "heading": "7. Perkawinan dan kesejahteraan hewan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Fitur perkawinan dinonaktifkan secara bawaan dan hanya dapat diaktifkan setelah kontrol hukum, kesejahteraan, usia, kesehatan, dan kekerabatan khusus negara disetujui. Pengguna tidak boleh menggunakan layanan untuk mempromosikan pembiakan yang berbahaya atau melawan hukum."
+            }
+          ]
+        },
+        {
+          "heading": "8. Pelaporan, pemblokiran, dan moderasi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gunakan pelaporan dan pemblokiran dalam aplikasi untuk masalah keselamatan. Tailmance dapat menghapus atau membatasi konten atau akun dan akan memberikan alasan serta jalur banding jika sesuai dan diwajibkan hukum."
+            }
+          ]
+        },
+        {
+          "heading": "9. Aturan lokal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kewajiban khusus negara atau wilayah terkait konten ilegal, keselamatan anak, kesejahteraan hewan, pelaporan, pelestarian, dan penegakan hukum dapat menambah Pedoman ini. Tailmance menerapkan aturan berlaku yang lebih ketat jika diwajibkan."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Persetujuan Notifikasi Push Pemasaran",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Pilihan ini terpisah dari Ketentuan dan Kebijakan Privasi. Pilihan ini opsional dan tidak diperlukan untuk menggunakan layanan inti Tailmance."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Pilihan push pemasaran",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika Anda secara aktif mengaktifkan notifikasi push pemasaran, Tailmance dapat mengirim berita produk, penawaran, atau pembaruan promosi ke perangkat seluler Anda. Anda dapat menarik pilihan ini kapan saja di Pengaturan tanpa memengaruhi notifikasi layanan yang diperlukan. Persetujuan ini tidak mencakup email, SMS, telepon, atau kanal lain. Jika rezim lokal seperti aturan pesan elektronik komersial Türkiye atau aturan anti-spam Kanada menetapkan persyaratan tambahan, persyaratan tersebut harus dipenuhi secara terpisah."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Informasi Langganan dan Konsumen",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Halaman ini menjelaskan Tailmance Premium dan informasi konsumen yang berlaku sebelum dan sesudah pembelian. Hak konsumen lokal yang bersifat wajib selalu tetap tersedia."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium bersifat opsional. Penggunaan Standard berlanjut tanpa langganan. Fitur Premium dijelaskan di aplikasi dan dapat berubah untuk masa mendatang dengan tunduk pada hukum konsumen yang berlaku."
+            }
+          ]
+        },
+        {
+          "heading": "2. Harga dan penagihan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Harga, mata uang, pajak, periode penagihan, uji coba, dan syarat promosi yang mengikat adalah nilai yang ditampilkan App Store atau Google Play tepat sebelum pembelian. Tailmance tidak mengumpulkan nomor kartu pembayaran Anda secara langsung."
+            }
+          ]
+        },
+        {
+          "heading": "3. Perpanjangan otomatis",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kecuali toko dengan jelas menyatakan lain, Premium diperpanjang otomatis sampai dibatalkan. Waktu perpanjangan dan biaya mengikuti ketentuan toko terkait dan hukum yang berlaku."
+            }
+          ]
+        },
+        {
+          "heading": "4. Pembatalan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kelola atau batalkan melalui akun toko yang digunakan untuk pembelian. Menghapus akun Tailmance tidak otomatis membatalkan langganan toko. Pembatalan umumnya menghentikan perpanjangan berikutnya dan tidak dengan sendirinya menciptakan hak pengembalian dana."
+            }
+          ]
+        },
+        {
+          "heading": "5. Pengembalian dana, pembatalan, dan hak wajib",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pengembalian dana, masa pendinginan, hak penarikan, kesesuaian menurut undang-undang, dan hak layanan digital bergantung pada toko dan hukum konsumen yang berlaku. Tidak ada di halaman ini yang membatasi hak yang secara hukum tidak dapat dikesampingkan."
+            }
+          ]
+        },
+        {
+          "heading": "6. Penghapusan akun dan hak langganan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika Anda menghapus akun Tailmance sementara langganan toko tetap aktif, penagihan toko dapat berlanjut hingga dibatalkan secara terpisah. Pemulihan atau transfer hak langganan tunduk pada akun toko dan catatan langganan Tailmance yang telah diverifikasi."
+            }
+          ]
+        },
+        {
+          "heading": "7. Penyajian pembelian",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sebelum pembelian dalam aplikasi, Tailmance mencatat set dokumen konsumen yang persis ditampilkan kepada Anda. Jika bundle hukum atau hash dokumen berubah sebelum lembar toko terbuka, alur pembelian harus berhenti dan meminta peninjauan ulang."
+            }
+          ]
+        },
+        {
+          "heading": "8. Informasi lokal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Rincian operator, informasi pajak, petunjuk penarikan, jalur penyelesaian sengketa, atau pengungkapan wajib lain yang khusus negara atau wilayah disediakan dalam suplemen lokal yang berlaku jika diwajibkan."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Keputusan Moderasi dan Banding",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance menggunakan moderasi untuk melindungi pengguna, hewan, layanan, dan kepatuhan hukum. Keputusan yang memenuhi syarat mencakup penjelasan dan jalur banding jika sesuai."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Keputusan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance dapat menghapus, membatasi, menurunkan peringkat, atau membatasi konten, fitur, atau akun karena Pedoman Komunitas, Ketentuan, keselamatan, penipuan, kesejahteraan hewan, atau alasan hukum. Keputusan dicatat dengan alasan yang dapat dilihat pengguna kecuali pengungkapan dilarang karena keselamatan atau hukum."
+            }
+          ]
+        },
+        {
+          "heading": "2. Banding",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika banding tersedia, ajukan melalui aplikasi atau jalur yang dinyatakan dalam jangka waktu yang berlaku. Banding ditinjau bersama bukti keputusan dan dapat melibatkan tinjauan manusia. Banding yang berhasil tidak mengesampingkan pembatasan lain yang sah dan terpisah."
+            }
+          ]
+        },
+        {
+          "heading": "3. Pemulihan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Keputusan yang dibatalkan tidak dianggap selesai sampai keadaan produk yang terdampak benar-benar dipulihkan jika pemulihan sesuai. Keputusan aktif yang bertentangan mencegah pemulihan otomatis yang tidak aman."
+            }
+          ]
+        },
+        {
+          "heading": "4. Pembatasan akun",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika akses akun dibatasi, Tailmance memberikan alasan yang sesuai dan jalur banding yang tersedia kecuali pengungkapan dibatasi secara hukum atau karena keselamatan. Dukungan dan jalur hukum/privasi yang diwajibkan tetap tersedia jika memang harus dapat diakses."
+            }
+          ]
+        },
+        {
+          "heading": "5. Hak eksternal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Proses banding internal tidak menghapus hak Anda untuk menghubungi regulator, pengadilan, badan penyelesaian sengketa, atau otoritas kompeten lain berdasarkan hukum yang berlaku."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Kekayaan Intelektual dan Pemberitahuan Pelanggaran",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Pemegang hak dan perwakilan resmi dapat melaporkan konten di Tailmance yang menurut mereka melanggar hak kekayaan intelektual."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Mengajukan pemberitahuan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Berikan informasi yang cukup untuk mengidentifikasi karya atau hak yang dilindungi, menemukan konten yang dilaporkan, menghubungi Anda, dan menunjukkan kewenangan Anda untuk bertindak. Sertakan pernyataan iktikad baik dan tanda tangan jika diwajibkan hukum yang berlaku."
+            }
+          ]
+        },
+        {
+          "heading": "Tinjauan dan pemberitahuan tandingan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance meninjau pemberitahuan berdasarkan hukum yang berlaku dan menerapkan perlindungan terhadap klaim curang atau menyalahgunakan proses. Jika konten dibatasi, pengguna terdampak dapat menerima alasan dan proses banding atau pemberitahuan tandingan yang tersedia jika sesuai."
+            }
+          ]
+        },
+        {
+          "heading": "Pelanggaran berulang",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pelanggaran berulang yang terverifikasi dapat mengakibatkan pembatasan konten atau akun yang proporsional. Jumlah pemberitahuan saja tidak membuktikan pelanggaran; pemberitahuan yang keliru dan menyalahgunakan proses juga dipertimbangkan."
+            }
+          ]
+        },
+        {
+          "heading": "Amerika Serikat 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika prosedur §512 berlaku, suplemen khusus Amerika Serikat akan mengidentifikasi agen yang ditunjuk dan proses pemberitahuan yang diperlukan. Halaman umum ini tidak menyatakan bahwa Tailmance telah menyelesaikan pendaftaran apa pun atau memenuhi syarat untuk safe harbor menurut undang-undang kecuali suplemen AS secara tegas mengonfirmasinya."
+            }
+          ]
+        },
+        {
+          "heading": "Konten darurat atau ilegal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pemberitahuan kekayaan intelektual bukan pengganti pelaporan keadaan darurat atau konten ilegal. Gunakan pelaporan dalam aplikasi, Pusat Keselamatan, atau Dukungan untuk masalah tersebut."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Aksesibilitas",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance memperlakukan penggunaan yang dapat diakses sebagai persyaratan inti produk dan berupaya mendukung beragam pengguna dan teknologi bantu."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Penggunaan yang dapat diakses",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Antarmuka dirancang dengan label yang jelas, teks yang mudah dibaca, kontras, teks yang dapat diperbesar, target sentuh yang sesuai, dan kompatibilitas teknologi bantu. Hak aksesibilitas wajib yang lebih tinggi berdasarkan hukum yang berlaku tetap tidak terpengaruh."
+            }
+          ]
+        },
+        {
+          "heading": "Teknologi bantu",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika Anda mengalami masalah dengan VoiceOver, TalkBack, teks lebih besar, switch access, navigasi keyboard, atau fitur aksesibilitas lain, hubungi kami dan, jika berguna, sertakan rincian perangkat, sistem operasi, dan teknologi bantu."
+            }
+          ]
+        },
+        {
+          "heading": "Permintaan aksesibilitas",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika Anda tidak dapat menggunakan layar, kontrol, atau bagian konten, atau memerlukan akomodasi yang wajar, hubungi yektaozel@icloud.com. Jangan kirim informasi pribadi atau sensitif yang tidak diperlukan untuk menjelaskan masalah."
+            }
+          ]
+        },
+        {
+          "heading": "Hak lokal dan ruang lingkup",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Halaman ini bukan sertifikasi aksesibilitas independen atau klaim menyeluruh tentang kepatuhan terhadap setiap standar teknis atau hukum. Halaman ini tidak membatasi hak aksesibilitas atau konsumen yang tidak dapat dikesampingkan, dan hak lokal tambahan dapat berlaku."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Hapus Akun dan Data Anda",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Cara tercepat menghapus akun Tailmance adalah Pengaturan → Hapus akun secara permanen. Jika Anda tidak dapat mengakses aplikasi, Anda dapat mengajukan permintaan penghapusan di web tanpa memasang ulang aplikasi."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Permintaan penghapusan web",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Permintaan diproses hanya setelah verifikasi pemilik akun yang sesuai. Formulir web dirancang agar tidak mengungkapkan kepada pihak ketiga apakah alamat email terkait dengan akun Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "Apa yang dihapus dan apa yang dapat dipertahankan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Penghapusan mencakup akun, profil hewan, konten sosial dan foto milik Anda, catatan pesan/pencocokan terkait akun, catatan kesehatan/vaksinasi pribadi, lokasi pribadi, dan preferensi, dengan tunduk pada aturan retensi yang berlaku. Catatan terbatas tentang keamanan, pencegahan penipuan, sengketa, akuntansi, atau hukum dapat dipertahankan jika diwajibkan atau diizinkan hukum, sebagaimana dijelaskan dalam Kebijakan Privasi dan suplemen lokal."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Dukungan dan Kontak",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Operator: Yekta Ozel. Untuk bantuan akun, penagihan, privasi, keselamatan, atau moderasi, gunakan Pusat Keselamatan dan Pusat Hukum & Privasi dalam aplikasi atau email yektaozel@icloud.com."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Kontak keselamatan anak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Untuk laporan terkait pelecehan atau eksploitasi seksual anak, hubungi yektaozel@icloud.com dan gunakan alat pelaporan dalam aplikasi jika tersedia. Jika terdapat bahaya langsung dan serius, hubungi layanan darurat atau otoritas setempat yang sesuai."
+            }
+          ]
+        },
+        {
+          "heading": "Keputusan moderasi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gunakan jalur Keputusan Moderasi dan Banding untuk banding moderasi yang memenuhi syarat."
+            }
+          ]
+        },
+        {
+          "heading": "Kekayaan intelektual",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gunakan halaman Kekayaan Intelektual untuk pemberitahuan pelanggaran hak cipta, merek dagang, atau hak lainnya."
+            }
+          ]
+        },
+        {
+          "heading": "Aksesibilitas",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gunakan halaman Aksesibilitas atau hubungi kami untuk masalah aksesibilitas dan permintaan akomodasi."
+            }
+          ]
+        },
+        {
+          "heading": "Penghapusan akun",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Jika Anda tidak dapat mengakses aplikasi, gunakan jalur permintaan penghapusan akun di web."
+            }
+          ]
+        },
+        {
+          "heading": "Kesehatan hewan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance bukan layanan veteriner atau kesehatan darurat. Untuk masalah kesehatan hewan yang mendesak, hubungi layanan veteriner yang sesuai secara langsung."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_privacy_supplement": {
+      "file": "jurisdiction-privacy.html",
+      "title": "Lapisan Privasi Khusus Negara",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Dokumen ini menjelaskan bagaimana Tailmance menerapkan informasi privasi khusus negara. Dokumen ini bukan formulir persetujuan dan tidak menggantikan Suplemen Hukum Khusus Negara yang tepat untuk negara hukum Anda yang telah diverifikasi."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Konteks hukum yang tepat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance menentukan kewajiban khusus negara berdasarkan negara hukum yang telah diverifikasi dan, bila diperlukan, konteks subnasional yang berlaku. Mengubah bahasa aplikasi, bepergian, atau mengubah wilayah toko tidak dengan sendirinya mengubah konteks hukum tersebut."
+            }
+          ]
+        },
+        {
+          "heading": "2. Data dan tujuan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kategori data pribadi dan tujuan pemrosesan yang dijelaskan dalam Pemberitahuan Privasi tetap berlaku. Persyaratan lokal tambahan atau yang lebih ketat diterapkan melalui suplemen negara yang tepat dan kontrol hukum saat aplikasi berjalan."
+            }
+          ]
+        },
+        {
+          "heading": "3. Hak dan permintaan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Hak yang tersedia, prosedur permintaan, tenggat tanggapan, dan jalur ke otoritas berbeda menurut hukum yang berlaku. Suplemen negara yang tepat menjelaskan lapisan lokal ini. Jika berlaku, ekspor data serta penghapusan akun dan data tetap tersedia di aplikasi."
+            }
+          ]
+        },
+        {
+          "heading": "4. Transfer dan retensi",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Perlindungan transfer internasional, kewajiban penyimpanan atau lokalisasi data setempat, dan persyaratan retensi diterapkan sesuai konteks hukum yang telah diverifikasi. Tailmance tidak menyatakan satu masa retensi atau satu mekanisme transfer berlaku untuk semua negara."
+            }
+          ]
+        },
+        {
+          "heading": "5. Pemasaran dan persetujuan",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pilihan pemasaran opsional dikelola terpisah dari pemberitahuan ini. Menerima atau mengakui dokumen ini tidak membentuk persetujuan apabila hukum yang berlaku mewajibkan pilihan afirmatif yang terpisah."
+            }
+          ]
+        },
+        {
+          "heading": "6. Dokumen khusus negara",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pusat Hukum menampilkan suplemen negara yang tepat untuk negara hukum Anda. Jika tersedia terjemahan aksesibilitas, terjemahan tersebut tidak menggantikan versi bahasa wajib atau mengikat yang ditetapkan Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "7. Kontak",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pertanyaan atau permintaan privasi dapat dikirim ke yektaozel@icloud.com."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "KR",
+  "country_display_name": "South Korea",
+  "document_locale": "en",
+  "document_language_display_names": "Korean",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Jurisdiction-Specific Legal Supplement",
+  "sections": [
+    {
+      "heading": "Legal scope",
+      "paragraphs": [
+        "This supplement applies when Tailmance determines that South Korea is the country whose law applies to your account. It supplements the Terms, Privacy Notice, Community Guidelines, subscription notice and other legal documents; it does not replace them.",
+        "Tailmance applies legal obligations according to that verified country and, where required, the applicable regional or local legal context. Changing the app language, travelling, or changing a store region does not by itself change that legal context."
+      ]
+    },
+    {
+      "heading": "Document language",
+      "paragraphs": [
+        "The binding legal documents for this legal configuration are maintained in the required language(s): Korean. When a specific legal-document language is required, Tailmance does not automatically substitute another language without notice.",
+        "This version is provided as an accessibility translation. It does not replace a required-language version where applicable law or this legal configuration requires one."
+      ]
+    },
+    {
+      "heading": "Country-specific legal requirements",
+      "paragraphs": [
+        "Twenty-two areas of legal requirements are reviewed against attributable official sources for the applicable country. Current law and effective dates are separated from proposals, consultations and future measures; a proposal is never treated as current law.",
+        "Source review date: 1 October 2026. Future, draft or consultation-stage measures are tracked separately and are not represented as current law."
+      ]
+    },
+    {
+      "heading": "Reviewed legal frameworks",
+      "paragraphs": [
+        "The principal framework identifiers recorded in Tailmance’s official-source review for the applicable country are listed below. Inclusion identifies review scope only: whether a rule is currently effective, future-effective, proposed, or subject to a narrower applicability condition is determined by the effective-date and exact-scope controls and is never inferred from this list alone."
+      ],
+      "items": [
+        "PIPA"
+      ]
+    },
+    {
+      "heading": "Privacy, safety and user rights",
+      "paragraphs": [
+        "Privacy rights, data requests, account and data deletion, international transfers, age assurance, electronic marketing, security and breach duties are applied through the exact legal context. Use the in-app Legal Center for notices, export and deletion routes."
+      ]
+    },
+    {
+      "heading": "Subscriptions and consumer information",
+      "paragraphs": [
+        "The app store through which the purchase is made is authoritative for the displayed subscription price, currency and applicable tax treatment. Renewal, cancellation and required pre-contract information are presented before purchase. Tailmance does not sell pets or physical products and does not process peer-to-peer payments for animal sales."
+      ]
+    },
+    {
+      "heading": "Animal welfare and non-commerce",
+      "paragraphs": [
+        "Commercial animal sales and commercial-breeding marketplace activity are prohibited. Owner-arranged mating is available only when the applicable country-specific animal-welfare, breeding, health, kinship and eligibility requirements are met; otherwise the feature remains unavailable."
+      ]
+    },
+    {
+      "heading": "Contact and official sources",
+      "paragraphs": [
+        "Questions about these notices or privacy requests may be sent to yektaozel@icloud.com. The official-source references used for this legal-country review are listed below."
+      ],
+      "official_sources": [
+        "https://www.pipc.go.kr/eng/user/ltn/new/noticeDetail.do",
+        "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=182211",
+        "https://www.law.go.kr/lsInfoP.do?lsId=009318",
+        "https://law.go.kr/LSW/lsInfoP.do?lsId=000815",
+        "https://law.go.kr/LSW/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=121025",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287795",
+        "https://www.law.go.kr/lsInfoP.do?lsId=001656",
+        "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029874175",
+        "https://law.go.kr/LSW/lsEfInfoP.do?lsiSeq=253655",
+        "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030434423",
+        "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031811027",
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=009318",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032213603",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029423293",
+        "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900605727",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1014944783",
+        "https://pipc.go.kr/eng/user/ltn/new/noticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=3005",
+        "https://law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000089686",
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=&chrClsCd=010202&efYd=20260122&lsiSeq=268619&urlMode=lsInfoP"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "e6ca4fd785232c0f3a7e19eab1c8115f2435afd139963dc5421f7031c90e43ae",
+  "official_source_count": 43,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "PIPA"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ko"
+  ],
+  "display_language_name": "English"
+}

@@ -1,0 +1,22 @@
+{
+  "locale": "en",
+  "appName": "Tailmance",
+  "apple": {
+    "subtitle": "Pet social & matching",
+    "promotionalText": "Pet-first discovery, mutual matches, safer chat, health signals, meetups and a social feed built around dogs and cats.",
+    "description": "Tailmance is a pet-first social discovery and matching app for adult pet owners. The visible social identity belongs to the pet, while owner account, safety, payment and private health information stay in the account layer.\n\nCreate a dog or cat profile with three photos, location area, traits and meeting goals. Discover compatible pets, like or pass, and chat only after a mutual match. Use the social feed, stories, events and meetup planning to keep your pet’s social world active.\n\nSafety is built into the experience with reporting, blocking, unmatching, content moderation, approximate-location privacy, separate verification signals for pets and owners, and review signals for health documents. Health records and uploaded documents remain private unless a feature explicitly says otherwise.\n\nPremium adds unlimited messaging and additional discovery controls. Subscription price, taxes, renewal and cancellation are handled by the App Store for your region.\n\nTailmance is for users aged 18 and over. Verification badges are trust signals, not guarantees. For health or breeding decisions, consult a qualified veterinarian and follow local law.",
+    "keywords": "pets,dogs,cats,playdate,matching,pet friends,walks,meetups,social"
+  },
+  "google": {
+    "shortDescription": "Pet-first discovery, mutual matching, safer chat, meetups and social sharing.",
+    "fullDescription": "Tailmance is a pet-first social discovery and matching app for adult pet owners. The visible profile belongs to your dog or cat, while owner account details, private health information and payment data stay separate.\n\nBuild a pet profile with three photos, traits, location area and meeting goals. Discover compatible pets, like or pass, and start chatting only after a mutual match. Keep in touch through the social feed, stories, events and meetup planning.\n\nTailmance includes reporting, blocking, unmatching, content moderation, approximate-location privacy and separate pet and owner verification signals plus health-document review signals. Health documents remain private unless a feature explicitly says otherwise.\n\nPremium adds unlimited messaging and extra discovery controls. Google Play shows the price and applicable taxes for your region and manages renewal and cancellation.\n\nTailmance is for users aged 18 and over. Verification badges are trust signals, not guarantees. For health or breeding decisions, consult a qualified veterinarian and follow local law."
+  },
+  "screenshotCaptions": [
+    "A social identity built around your pet",
+    "Discover compatible pets with detailed filters",
+    "Mutual matching before private chat",
+    "Safety, reporting and privacy controls close at hand",
+    "Private health records and verification signals",
+    "Feed, events and meetups for an active pet community"
+  ]
+}

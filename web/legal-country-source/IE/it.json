@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "IE",
+  "country_display_name": "Irlanda",
+  "document_locale": "it",
+  "document_language_display_names": "inglese",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Supplemento giuridico specifico della giurisdizione",
+  "sections": [
+    {
+      "heading": "Ambito giuridico",
+      "paragraphs": [
+        "Questo supplemento si applica quando Tailmance determina che Irlanda è il Paese la cui legge si applica al tuo account. Integra i Termini d’uso, l’Informativa sulla privacy, le Regole della community, l’informativa sull’abbonamento e gli altri documenti legali, senza sostituirli.",
+        "Tailmance applica gli obblighi legali in base a tale Paese verificato e, quando necessario, al quadro giuridico regionale o locale pertinente. Cambiare la lingua dell’app, viaggiare o cambiare la regione dello store non modifica di per sé tale quadro giuridico."
+      ]
+    },
+    {
+      "heading": "Lingua dei documenti",
+      "paragraphs": [
+        "I documenti legali vincolanti per questa configurazione sono mantenuti nelle lingue richieste: inglese. Quando è richiesta una lingua specifica, Tailmance non la sostituisce automaticamente e senza avviso con un’altra lingua.",
+        "Questa versione è fornita come traduzione per l’accessibilità. Non sostituisce una versione in una lingua obbligatoria quando la legge applicabile o questa configurazione giuridica la richiedono."
+      ]
+    },
+    {
+      "heading": "Requisiti legali specifici del Paese",
+      "paragraphs": [
+        "Per il Paese applicabile vengono riesaminate ventidue aree di requisiti legali sulla base di fonti ufficiali identificabili. Il diritto vigente e le relative date di efficacia sono tenuti distinti da proposte, consultazioni e misure future; una proposta non viene mai trattata come diritto vigente.",
+        "Data della revisione delle fonti: 1 ottobre 2026. Le misure future, le bozze e le consultazioni sono monitorate separatamente e non sono presentate come diritto vigente."
+      ]
+    },
+    {
+      "heading": "Quadri giuridici esaminati",
+      "paragraphs": [
+        "Di seguito sono indicati i principali quadri giuridici registrati nella revisione delle fonti ufficiali di Tailmance per il Paese applicabile. L’inclusione indica soltanto l’ambito della revisione: l’effettiva vigenza, l’entrata in vigore futura, lo stato di proposta o una condizione di applicabilità più ristretta sono determinati dai controlli sulla data di efficacia e sull’ambito esatto e non vengono mai desunti dalla sola presenza in questo elenco."
+      ],
+      "items": [
+        "EU GDPR",
+        "Data Protection Act 2018",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Privacy, sicurezza e diritti degli utenti",
+      "paragraphs": [
+        "I diritti in materia di privacy, le richieste sui dati, la cancellazione dell’account e dei dati, i trasferimenti internazionali, la verifica dell’età, il marketing elettronico e gli obblighi di sicurezza e notifica sono applicati nel contesto giuridico esatto. Utilizza il Centro legale dell’app per informative, esportazione e cancellazione."
+      ]
+    },
+    {
+      "heading": "Abbonamenti e informazioni ai consumatori",
+      "paragraphs": [
+        "Lo store tramite il quale viene effettuato l’acquisto è la fonte di riferimento per il prezzo dell’abbonamento visualizzato, la valuta e il trattamento fiscale applicabile. Rinnovo, cancellazione e informazioni precontrattuali richieste sono presentati prima dell’acquisto. Tailmance non vende animali o prodotti fisici e non elabora pagamenti tra utenti per la vendita di animali."
+      ]
+    },
+    {
+      "heading": "Benessere animale e assenza di commercio",
+      "paragraphs": [
+        "Sono vietate le vendite commerciali di animali e i marketplace destinati all’allevamento commerciale. Gli accoppiamenti organizzati dai proprietari sono disponibili solo quando sono soddisfatti i requisiti applicabili del Paese in materia di benessere animale, allevamento, salute, parentela e idoneità; altrimenti la funzione resta bloccata."
+      ]
+    },
+    {
+      "heading": "Contatti e fonti ufficiali",
+      "paragraphs": [
+        "Le domande su queste informative o le richieste relative alla privacy possono essere inviate a yektaozel@icloud.com. Le fonti ufficiali utilizzate per questa revisione giuridica sono elencate di seguito."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.dataprotection.ie/en/organisations/rules-electronic-and-direct-marketing",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.irishstatutebook.ie/eli/2022/act/37/section/107/enacted/en/html",
+        "https://www.irishstatutebook.ie/eli/2022/act/37/enacted/en/print.html",
+        "https://www.gov.ie/en/department-of-children-disability-and-equality/publications/european-accessibility-act/",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.gov.ie/en/department-of-the-taoiseach/publications/empower-online-safety/",
+        "https://www.cnam.ie/industry-and-professionals/online-safety-framework/online-safety-code/",
+        "https://www.cnam.ie/investigation-commenced-into-x-under-online-safety-code/",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/publications/rules-on-the-sale-supply-and-advertising-of-pet-animals/",
+        "https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/policy-information/dog-control/",
+        "https://www.irishstatutebook.ie/eli/isbc/2010_29.html",
+        "https://www.irishstatutebook.ie/eli/2010/act/29/enacted/en/html",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://www.dataprotection.ie/en/organisations/know-your-obligations/breach-notification",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "eb08e949f64cf9529c87cb74f9ab1ceb1dabd15327100ae3c4291de7e044ecad",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "Data Protection Act 2018",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "italiano"
+}

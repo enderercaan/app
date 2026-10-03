@@ -1,0 +1,8 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const world=JSON.parse(readFileSync('release/worldwide-country-coverage-v19.json','utf8'));
+const registry=JSON.parse(readFileSync('release/country-release-gates.json','utf8'));
+const codes=Object.keys(world.markets).sort(); const configured=Object.keys(registry.markets).sort();
+assert.equal(world.as_of,registry.reviewed_at); assert.equal(codes.length,249); assert.equal(world.summary.iso_alpha2_entries,249); assert.equal(world.summary.configured_markets,27); assert.equal(world.summary.unconfigured_blocked_markets,222); assert.equal(world.summary.worldwide_country_specific_legal_screening_complete,false); assert.equal(world.policy.unconfigured_country_release_status,'BLOCK'); assert.equal(world.policy.territories_and_special_areas_are_not_silently_inferred_from_parent_country,true);
+for(const code of codes){const m=world.markets[code]; if(configured.includes(code)){assert.equal(m.configured_market,true); assert.equal(m.coverage_status,'configured_source_legal_language_approved'); assert.equal(m.release_status,registry.markets[code].release_status); assert.equal(m.legal_review_status,'PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW');} else {assert.equal(m.configured_market,false);assert.equal(m.coverage_status,'unconfigured_not_country_screened');assert.equal(m.release_status,'BLOCK');assert.equal(m.legal_review_status,'not_started_for_country_release');}}
+console.log(`worldwide-country-coverage-checks: ${configured.length}/27 configured markets source legal/language approved; ${codes.length-configured.length} unconfigured countries remain out-of-scope/BLOCK`);

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "DE",
+  "country_display_name": "Almanya",
+  "document_locale": "tr",
+  "document_language_display_names": "Almanca",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Ülkeye Özgü Hukuki Ek",
+  "sections": [
+    {
+      "heading": "Hukuki kapsam",
+      "paragraphs": [
+        "Bu ek, Tailmance Almanya ülkesinin hesabınıza uygulanacak hukukun ülkesi olduğunu belirlediğinde uygulanır. Kullanım Koşulları, Gizlilik Bildirimi, Topluluk Kuralları, abonelik bildirimi ve diğer hukuki belgeleri tamamlar; bunların yerine geçmez.",
+        "Tailmance hukuki yükümlülükleri bu doğrulanmış ülkeye ve gerektiğinde uygulanabilir bölgesel veya yerel hukuk çerçevesine göre uygular. Uygulama dilini değiştirmek, seyahat etmek veya mağaza bölgesini değiştirmek tek başına uygulanacak hukuku değiştirmez."
+      ]
+    },
+    {
+      "heading": "Belge dili",
+      "paragraphs": [
+        "Bu hukuki yapılandırma için bağlayıcı belgeler gerekli dil veya dillerde sunulur: Almanca. Belirli bir dil zorunluysa Tailmance başka bir dili bildirim yapmadan otomatik olarak onun yerine kullanmaz.",
+        "Bu sürüm erişilebilirlik amacıyla çeviri olarak sunulur. Uygulanabilir hukuk veya bu hukuki yapılandırma zorunlu bir dil sürümü gerektiriyorsa onun yerine geçmez."
+      ]
+    },
+    {
+      "heading": "Ülkeye özgü hukuki gereklilikler",
+      "paragraphs": [
+        "Uygulanacak ülke için yirmi iki hukuki gereklilik alanı, kaynağı belirli resmî kaynaklara göre incelenir. Yürürlükteki hukuk ve yürürlük tarihleri; teklifler, istişareler ve gelecekteki düzenlemelerden ayrı tutulur; bir teklif hiçbir zaman yürürlükteki hukuk olarak uygulanmaz.",
+        "Kaynak inceleme tarihi: 1 Ekim 2026. Gelecekteki düzenlemeler, taslaklar ve istişareler ayrı izlenir ve yürürlükteki hukuk olarak sunulmaz."
+      ]
+    },
+    {
+      "heading": "İncelenen hukuki çerçeveler",
+      "paragraphs": [
+        "Uygulanacak ülke için Tailmance’ın resmî kaynak incelemesinde kayıtlı başlıca hukuki çerçeveler aşağıda yer alır. Listede bulunması yalnız inceleme kapsamını gösterir: bir kuralın bugün yürürlükte, gelecekte yürürlüğe girecek, yalnızca teklif aşamasında veya daha dar bir uygulanabilirlik koşuluna bağlı olup olmadığı yürürlük tarihi ve kesin uygulanabilirlik kontrolleriyle belirlenir; yalnız bu listeden sonuç çıkarılmaz."
+      ],
+      "items": [
+        "EU GDPR",
+        "BDSG",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Gizlilik, güvenlik ve kullanıcı hakları",
+      "paragraphs": [
+        "Gizlilik hakları, veri talepleri, hesap ve veri silme, uluslararası aktarımlar, yaş doğrulaması, elektronik pazarlama ile güvenlik ve ihlal bildirim yükümlülükleri tam hukuki bağlam üzerinden uygulanır. Bildirimler, dışa aktarma ve silme işlemleri için uygulamadaki Hukuk Merkezi’ni kullanabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Abonelikler ve tüketici bilgileri",
+      "paragraphs": [
+        "Satın almanın yapıldığı uygulama mağazası, gösterilen abonelik fiyatı, para birimi ve uygulanabilir vergi gösterimi için esas kaynaktır. Yenileme, iptal ve gerekli sözleşme öncesi bilgiler satın alma öncesinde gösterilir. Tailmance hayvan veya fiziksel ürün satmaz ve kullanıcılar arası hayvan satışı ödemelerini işlemez."
+      ]
+    },
+    {
+      "heading": "Hayvan refahı ve ticari olmayan yapı",
+      "paragraphs": [
+        "Ticari hayvan satışı ve ticari yetiştiriciliğe yönelik pazaryeri faaliyeti yasaktır. Sahiplerin kendi aralarında düzenlediği çiftleştirme yalnızca ilgili ülkede geçerli hayvan refahı, yetiştiricilik, sağlık, akrabalık ve uygunluk şartları karşılandığında kullanılabilir; aksi halde özellik kapalı kalır."
+      ]
+    },
+    {
+      "heading": "İletişim ve resmî kaynaklar",
+      "paragraphs": [
+        "Bu bildirimlerle ilgili sorular veya gizlilik talepleri yektaozel@icloud.com adresine gönderilebilir. Bu hukuki incelemede kullanılan resmî kaynaklar aşağıda listelenmiştir."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.gesetze-im-internet.de/uwg_2004/__7.html",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.gesetze-im-internet.de/bgb/__312.html",
+        "https://www.gesetze-im-internet.de/bgb/__327.html",
+        "https://www.gesetze-im-internet.de/uwg_2004/",
+        "https://www.gesetze-im-internet.de/bfsg/",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.die-medienanstalten.de/service/rechtsgrundlagen/jugendmedienschutz-staatsvertrag/",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.gesetze-im-internet.de/tierschhuv/",
+        "https://www.gesetze-im-internet.de/gg/art_70.html",
+        "https://www.gesetze-im-internet.de/gg/art_72.html",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "e9bc9e502a3e81f0dae86d98b7776903b1de4b770dc1743173aeab3d0689dcb8",
+  "official_source_count": 49,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "BDSG",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "de"
+  ],
+  "display_language_name": "Türkçe"
+}

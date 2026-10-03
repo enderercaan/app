@@ -1,0 +1,859 @@
+{
+  "schema_version": 1,
+  "locale": "fr",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Conditions d’utilisation",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Version 2026-09-29. Les présentes Conditions régissent l’utilisation de Tailmance. Les dispositions propres au pays ou à la région qui te sont présentées en font partie. Le titulaire du compte doit avoir au moins 18 ans."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Service et compte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance permet aux propriétaires de chats et de chiens de créer des profils d’animaux et d’utiliser des fonctions de découverte et d’interaction sociale. Maintiens tes informations exactes, protège ton compte et ne le transfère pas. Tailmance n’est pas un service vétérinaire, médical, d’urgence, de vente d’animaux ni d’intermédiation de paiement."
+            }
+          ]
+        },
+        {
+          "heading": "2. Âge et éligibilité",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tu dois avoir au moins 18 ans pour créer un compte. Si la loi applicable ou les règles de la boutique exigent une assurance d’âge supplémentaire, une vérification additionnelle peut être requise. Une fausse déclaration d’âge peut entraîner une restriction ou une fermeture du compte."
+            }
+          ]
+        },
+        {
+          "heading": "3. Profils d’animaux et responsabilité",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ne téléverse que des informations, photos et données de santé d’animaux que tu es autorisé à utiliser et partager. Ne falsifie pas sciemment la santé, vaccination, race, âge, sexe, propriété ou vérification et évite les données personnelles ou sensibles inutiles de tiers."
+            }
+          ]
+        },
+        {
+          "heading": "4. Contenu utilisateur et licence",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tu conserves tes droits sur le contenu téléversé. Tu accordes à Tailmance une licence mondiale, non exclusive et limitée à l’exploitation, au stockage, à l’affichage, à la transmission, à la sécurité et à la modération nécessaires au service. La propriété n’est pas transférée à Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "5. Contenus et comportements interdits",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sont interdits notamment la maltraitance animale, le harcèlement, les menaces, la haine, les contenus d’abus sexuels sur mineurs, la fraude, les biens ou services illicites, les données privées ou intimes non autorisées, les fausses informations de santé ou de vérification, les atteintes aux droits, l’usurpation et le contournement des mesures de sécurité ou de modération."
+            }
+          ]
+        },
+        {
+          "heading": "6. Vente d’animaux, élevage commercial et reproduction",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance n’est ni une place de marché d’animaux, ni une plateforme de vente, ni une place de marché d’éleveurs. Prix, acomptes, vente, livraison, acquisition commerciale de clients pour éleveurs, élevage illicite et trafic d’animaux sont interdits. La fonction de reproduction est désactivée par défaut et ne peut être activée que si Tailmance l’autorise expressément et si le droit applicable et le bien-être animal le permettent. Le service ne peut pas non plus être utilisé pour proposer, demander, négocier ou organiser l’adoption, le replacement ou le transfert de propriété d’un animal."
+            }
+          ]
+        },
+        {
+          "heading": "7. Modération, sécurité et recours",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance peut limiter la visibilité d’un contenu ou l’accès au compte pour des raisons de sécurité, de Conditions, de Règles de la communauté ou de droit applicable. Lorsque cela est approprié, les motifs et une voie de recours sont fournis. Un recours accueilli n’annule pas une autre restriction indépendante et valable."
+            }
+          ]
+        },
+        {
+          "heading": "8. Santé animale et urgences",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance ne fournit ni soins vétérinaires, ni diagnostic médical, ni service d’urgence. Les informations de vaccination, santé ou vérification ne remplacent pas une évaluation vétérinaire. En cas d’urgence, contacte un vétérinaire, un service d’urgence ou une autorité compétente."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium et facturation de la boutique",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium est facultatif et l’usage Standard reste disponible sans abonnement. Sauf indication contraire de la boutique, Premium se renouvelle automatiquement. Prix, devise, taxes, période, essai et promotion contraignants sont affichés par l’App Store ou Google Play. La gestion et la résiliation se font via la boutique; supprimer le compte Tailmance n’annule pas automatiquement l’abonnement."
+            }
+          ]
+        },
+        {
+          "heading": "10. Vie privée et assurance de l’âge",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La Politique de confidentialité et les suppléments locaux expliquent les traitements. Le consentement aux notifications push marketing est distinct et facultatif. Si l’assurance de l’âge implique identité, visage, biométrie ou autres données sensibles, les informations de confidentialité et droits complémentaires sont fournis séparément."
+            }
+          ]
+        },
+        {
+          "heading": "11. Restriction, résiliation et suppression",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tu peux supprimer définitivement ton compte et utiliser la voie web si tu n’as plus accès à l’application. Tailmance peut appliquer des restrictions proportionnées en cas de violation contractuelle, de sécurité ou légale. La suppression ne signifie pas l’effacement immédiat des enregistrements limités devant être conservés pour sécurité, litiges, demandes légales ou comptabilité."
+            }
+          ]
+        },
+        {
+          "heading": "12. Propriété intellectuelle",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ne téléverse que des contenus que tu as le droit de partager. Les titulaires de droits peuvent utiliser la procédure de signalement de propriété intellectuelle. Les droits locaux de notification, contre-notification et restauration restent applicables."
+            }
+          ]
+        },
+        {
+          "heading": "13. Modifications et disponibilité",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les fonctionnalités peuvent évoluer, être suspendues ou indisponibles dans un pays pour des raisons de sécurité, de droit, de politique de boutique ou de produit. Tailmance ne garantit pas un accès ininterrompu ou sans erreur; les droits impératifs des consommateurs restent préservés."
+            }
+          ]
+        },
+        {
+          "heading": "14. Responsabilité et droits impératifs",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aucune disposition ne supprime les droits de consommation, de protection des données, d’accessibilité ou autres auxquels la loi ne permet pas de renoncer. Les exclusions et limitations ne valent que dans la mesure autorisée par la loi."
+            }
+          ]
+        },
+        {
+          "heading": "15. Droit applicable et dispositions locales",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Le droit applicable, le for impératif du consommateur, le règlement alternatif des litiges, les tribunaux, régulateurs et autres droits peuvent dépendre de ta résidence habituelle ou du lieu d’offre du service. Les suppléments locaux complètent les présentes Conditions et préservent les droits impératifs."
+            }
+          ]
+        },
+        {
+          "heading": "16. Modifications et nouvelle acceptation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "En cas de modification substantielle des Conditions contraignantes ou des suppléments applicables, une information ou une nouvelle acceptation sera demandée lorsque nécessaire. Une acceptation dans un ancien contexte de pays, région ou langue documentaire ne se transpose pas automatiquement."
+            }
+          ]
+        },
+        {
+          "heading": "17. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilise la page Support et contact pour les demandes de support, sécurité ou confidentialité. Les coordonnées obligatoires de l’opérateur, représentant, régulateur ou service consommateur figurent dans le supplément local applicable."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Politique de confidentialité",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Version 2026-09-29. Responsable du traitement : Yekta Özel. Cette Politique explique comment Tailmance traite les données personnelles. Les suppléments de confidentialité du pays ou de la région présentés s’appliquent avec elle. Elle ne constitue pas un consentement marketing."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Catégories de données traitées",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nous pouvons traiter les données de compte et session; sécurité, appareil, réseau, IP et jetons push; profils d’animaux, photos et interactions sociales; localisation approximative de découverte; dossiers de santé, vaccination et vérification volontairement fournis; statut d’abonnement et références de boutique; signalements, blocages, modération et recours; préférences de notification/marketing; et preuves du contexte juridique et des documents présentés."
+            }
+          ]
+        },
+        {
+          "heading": "2. Sources des données",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les données proviennent de toi, de ton appareil et de l’utilisation de l’application, des contenus téléversés, des processus de sécurité et modération, de l’App Store ou Google Play, de prestataires autorisés et, de façon limitée, de signalements ou contenus d’autres utilisateurs."
+            }
+          ]
+        },
+        {
+          "heading": "3. Finalités",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les traitements servent à fournir comptes et fonctions sociales, découverte et matching, communications et notifications, sécurité et prévention de la fraude, modération et recours, vérification des abonnements, demandes des utilisateurs, export/suppression, fiabilité et obligations légales."
+            }
+          ]
+        },
+        {
+          "heading": "4. Bases juridiques et différences locales",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Selon la finalité, la donnée et le droit applicable, le traitement peut reposer sur le contrat, une obligation légale, l’intérêt légitime, le consentement ou une autre base admise. Les suppléments locaux précisent les différences."
+            }
+          ]
+        },
+        {
+          "heading": "5. Information et consentement marketing sont séparés",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Une notice de confidentialité informe; elle ne vaut pas consentement global. Les notifications push marketing nécessitent un choix distinct, volontaire et révocable et n’autorisent pas automatiquement e-mail, SMS, téléphone ou autres canaux."
+            }
+          ]
+        },
+        {
+          "heading": "6. Localisation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Avec ton autorisation, Tailmance peut utiliser la localisation de l’appareil pour la découverte. Les coordonnées sont arrondies à trois décimales avant envoi au serveur, conservées de façon privée et ne sont pas montrées aux autres utilisateurs; seule une distance approximative est affichée. Les signaux d’appareil ou de boutique ne déterminent pas à eux seuls la juridiction juridique."
+            }
+          ]
+        },
+        {
+          "heading": "7. Données de santé et sensibles",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les dossiers de santé et vaccination d’animaux peuvent contenir des informations sensibles. Fournis seulement le nécessaire et évite les données de tiers. Si l’assurance de l’âge utilise identité, visage, biométrie ou autre donnée sensible, des informations, garanties, limites de conservation, renseignements sur le prestataire et alternatives supplémentaires s’appliquent."
+            }
+          ]
+        },
+        {
+          "heading": "8. Destinataires et sous-traitants",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les données peuvent être partagées uniquement si nécessaire avec des prestataires autorisés d’infrastructure, sécurité, modération, messagerie, push, analyse d’incidents, abonnement ou autres services, et avec les autorités lorsqu’une obligation légale existe. Tailmance ne vend pas les données personnelles aux annonceurs."
+            }
+          ]
+        },
+        {
+          "heading": "9. Transferts internationaux",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pour les transferts internationaux, Tailmance utilise les mécanismes, garanties et informations exigés par la juridiction applicable."
+            }
+          ]
+        },
+        {
+          "heading": "10. Conservation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les données sont conservées uniquement le temps nécessaire à la finalité ou exigé par la loi. Les durées diffèrent selon la catégorie. Des preuves limitées de sécurité, fraude, litige, comptabilité ou demandes légales peuvent être conservées après suppression du compte."
+            }
+          ]
+        },
+        {
+          "heading": "11. Sécurité",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance met en œuvre des mesures techniques et organisationnelles telles que contrôle d’accès, chiffrement en transit, stockage privé, journaux d’audit et prévention des abus. Aucun système ne garantit une sécurité absolue."
+            }
+          ]
+        },
+        {
+          "heading": "12. Tes droits",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Selon le droit applicable, tu peux disposer de droits d’accès, rectification, effacement, limitation, opposition, portabilité, retrait du consentement, réexamen de certaines décisions automatisées, réclamation auprès d’une autorité et information sur destinataires et transferts. Les suppléments locaux les précisent."
+            }
+          ]
+        },
+        {
+          "heading": "13. Mineurs et âge",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les comptes Tailmance sont réservés aux personnes de 18 ans ou plus. Cette règle produit ne remplace pas les obligations légales ou de boutique relatives à l’assurance de l’âge, à la protection de l’enfance ou aux signalements. Une compte de mineur non éligible peut être restreint et supprimé."
+            }
+          ]
+        },
+        {
+          "heading": "14. Systèmes automatisés et modération",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Des systèmes automatisés peuvent aider à la sécurité, détection de fraude, classement, recommandations et modération. Lorsque la loi exige explication, intervention humaine, opposition ou autres garanties pour une décision significative, ces droits sont fournis."
+            }
+          ]
+        },
+        {
+          "heading": "15. Modifications",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les modifications importantes de cette Politique ou d’un supplément local sont communiquées lorsque requis. Si un nouveau consentement ou accusé de réception est nécessaire, il sera demandé à nouveau."
+            }
+          ]
+        },
+        {
+          "heading": "16. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilise Support et contact pour les demandes de confidentialité. Les représentants, contacts de protection des données ou autorités requis localement sont indiqués dans le supplément applicable."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Règles de la communauté",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Ces règles s’appliquent avec les Conditions afin de maintenir une communauté Tailmance respectueuse, sûre et attentive au bien-être animal. Une règle locale plus stricte prévaut."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Respect des personnes et des animaux",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Maltraiter ou mettre en danger un animal, harceler, menacer, traquer, exploiter, discriminer ou propager la haine est interdit. N’encourage pas des pratiques animales dangereuses et ne dissimule pas des risques importants pour le bien-être."
+            }
+          ]
+        },
+        {
+          "heading": "2. Exploitation sexuelle et protection de l’enfance",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les contenus d’abus sexuels sur mineurs, exploitation sexuelle, grooming, sollicitation ou facilitation de tels actes sont interdits. Tailmance peut conserver, restreindre et signaler des contenus lorsque la loi l’exige et met à disposition un contact de protection de l’enfance."
+            }
+          ]
+        },
+        {
+          "heading": "3. Profils authentiques et déclarations de santé",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "N’usurpe pas l’identité d’autrui et ne falsifie pas propriété, race, âge, sexe, santé, vaccination ou vérification. Les badges de vérification ne sont pas des garanties vétérinaires."
+            }
+          ]
+        },
+        {
+          "heading": "4. Vie privée et contenus intimes",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Ne partage pas les données privées, localisation précise, identifiants, informations médicales ou images intimes d’une autre personne sans autorisation. Évite les données de tiers inutiles dans les dossiers ou messages."
+            }
+          ]
+        },
+        {
+          "heading": "5. Biens illicites, fraude et conduite dangereuse",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "N’utilise pas Tailmance pour fraude, biens ou services illicites, activités dangereuses, schémas financiers non autorisés, facilitation d’infractions ou contournement de mesures de sécurité légitimes."
+            }
+          ]
+        },
+        {
+          "heading": "6. Vente d’animaux et élevage commercial",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance n’est pas une place de marché de vente d’animaux ou d’éleveurs. Sont interdits négociation de prix, acompte, vente, livraison, prospection commerciale d’éleveurs, élevage illicite, trafic et activités d’élevage abusif. Le service ne peut pas non plus être utilisé pour proposer, demander, négocier ou organiser l’adoption, le replacement ou le transfert de propriété d’un animal."
+            }
+          ]
+        },
+        {
+          "heading": "7. Reproduction et bien-être animal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La reproduction est désactivée par défaut et ne peut être activée qu’après examen propre au pays de la légalité, du bien-être, de l’âge, de la santé et de la parenté. Aucune reproduction nuisible ou illégale ne doit être promue."
+            }
+          ]
+        },
+        {
+          "heading": "8. Signalement, blocage et modération",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilise les outils de signalement et blocage. Tailmance peut restreindre contenus ou comptes et fournit, lorsque cela est approprié et requis, motifs et voies de recours."
+            }
+          ]
+        },
+        {
+          "heading": "9. Règles locales",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les obligations locales relatives aux contenus illicites, protection de l’enfance, bien-être animal, signalement, conservation et autorités peuvent ajouter des exigences. La règle applicable plus stricte est respectée lorsque requis."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Consentement aux notifications push marketing",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Ce choix est distinct des Conditions et de la Politique de confidentialité. Il est facultatif et n’est pas nécessaire pour utiliser le service principal."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Choix des notifications marketing",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si tu actives explicitement les notifications push marketing, Tailmance peut envoyer actualités produit, offres ou mises à jour promotionnelles sur ton appareil. Tu peux retirer ce choix à tout moment dans Réglages sans affecter les notifications nécessaires. E-mail, SMS, téléphone et autres canaux ne sont pas couverts; les règles locales supplémentaires doivent être respectées séparément."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Informations sur l’abonnement et le consommateur",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Cette page explique Tailmance Premium et les informations au consommateur avant et après l’achat. Les droits impératifs locaux restent toujours applicables."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium est facultatif; Standard reste disponible sans abonnement. Les fonctions Premium sont décrites dans l’application et peuvent évoluer pour l’avenir sous réserve du droit de la consommation applicable."
+            }
+          ]
+        },
+        {
+          "heading": "2. Prix et facturation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Le prix, la devise, les taxes, la période, l’essai et la promotion contraignants sont ceux affichés par l’App Store ou Google Play juste avant l’achat. Tailmance ne collecte pas directement le numéro de carte bancaire."
+            }
+          ]
+        },
+        {
+          "heading": "3. Renouvellement automatique",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Sauf indication claire contraire de la boutique, Premium se renouvelle automatiquement jusqu’à résiliation. Calendrier et débit suivent les conditions de la boutique et le droit applicable."
+            }
+          ]
+        },
+        {
+          "heading": "4. Résiliation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gère ou résilie via le compte de la boutique utilisé pour l’achat. Supprimer le compte Tailmance n’annule pas l’abonnement de boutique. La résiliation met généralement fin aux renouvellements futurs et ne crée pas à elle seule un droit au remboursement."
+            }
+          ]
+        },
+        {
+          "heading": "5. Remboursements, rétractation et droits impératifs",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Remboursement, délai de réflexion, rétractation, conformité et droits relatifs aux services numériques dépendent de la boutique et du droit applicable. Aucun droit irrenonçable n’est limité."
+            }
+          ]
+        },
+        {
+          "heading": "6. Suppression du compte et droit Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si tu supprimes le compte alors qu’un abonnement de boutique reste actif, la facturation peut continuer jusqu’à résiliation séparée. La restauration ou le transfert dépend du compte de boutique et des enregistrements vérifiés."
+            }
+          ]
+        },
+        {
+          "heading": "7. Présentation avant achat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Avant un achat intégré, Tailmance enregistre l’ensemble exact des documents consommateur présentés. Si le bundle ou le hash change avant ouverture de la feuille d’achat, le processus s’arrête et exige un nouvel examen."
+            }
+          ]
+        },
+        {
+          "heading": "8. Informations locales",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les informations obligatoires sur opérateur, fiscalité, rétractation, règlement des litiges ou autres divulgations figurent dans le supplément local lorsqu’elles sont requises."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Décisions de modération et recours",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance modère afin de protéger les utilisateurs, les animaux, le service et le respect du droit. Les décisions éligibles comportent une explication et une voie de recours lorsque cela est approprié."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Décisions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance peut retirer, limiter ou déclasser contenus, fonctions ou comptes pour des raisons de Règles, Conditions, sécurité, fraude, bien-être animal ou droit. Les décisions sont consignées avec un motif visible sauf restriction légale ou de sécurité."
+            }
+          ]
+        },
+        {
+          "heading": "2. Recours",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Lorsqu’un recours est disponible, dépose-le par la voie indiquée dans le délai applicable. Les preuves sont réexaminées et une intervention humaine peut avoir lieu. Un recours accueilli n’annule pas une autre restriction indépendante et valide."
+            }
+          ]
+        },
+        {
+          "heading": "3. Rétablissement",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Une décision annulée n’est pas considérée comme mise en œuvre tant que l’état concerné n’est pas effectivement rétabli lorsque cela est approprié. Des décisions actives incompatibles bloquent un rétablissement automatique dangereux."
+            }
+          ]
+        },
+        {
+          "heading": "4. Restrictions de compte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si l’accès au compte est restreint, un motif approprié et un recours disponible sont fournis sauf limites légales ou de sécurité. Les voies de support, juridiques et de confidentialité qui doivent rester disponibles le demeurent."
+            }
+          ]
+        },
+        {
+          "heading": "5. Droits externes",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Le recours interne ne supprime aucun droit de saisir un régulateur, tribunal, organisme de règlement des litiges ou autre autorité compétente."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Propriété intellectuelle et signalements d’atteinte",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Les titulaires de droits et représentants autorisés peuvent signaler un contenu Tailmance qu’ils estiment porter atteinte à leurs droits."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Envoyer un signalement",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Fournis des informations suffisantes pour identifier l’œuvre ou le droit protégé, localiser le contenu, te contacter et démontrer ton autorité. Ajoute une déclaration de bonne foi et une signature lorsque la loi l’exige."
+            }
+          ]
+        },
+        {
+          "heading": "Examen et contre-notification",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance examine les signalements selon le droit applicable et tient compte des demandes fausses ou abusives. Lorsqu’un contenu est restreint, la personne concernée peut recevoir un motif et une voie de recours ou contre-notification."
+            }
+          ]
+        },
+        {
+          "heading": "Atteintes répétées",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Des atteintes répétées vérifiées peuvent conduire à des restrictions proportionnées. Le nombre de signalements seul ne prouve pas une atteinte."
+            }
+          ]
+        },
+        {
+          "heading": "États-Unis 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Lorsque §512 s’applique, un supplément américain identifie l’agent désigné et la procédure. Cette page générale ne prétend ni à un enregistrement ni à un safe harbor sauf confirmation explicite du supplément américain."
+            }
+          ]
+        },
+        {
+          "heading": "Urgence ou contenu illicite",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Un signalement de propriété intellectuelle ne remplace pas un signalement d’urgence ou de contenu illicite. Utilise le signalement dans l’application, le Centre de sécurité ou Support."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Accessibilité",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance considère l’accessibilité comme une exigence essentielle du produit et vise à prendre en charge un large éventail d’utilisateurs et technologies d’assistance."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Utilisation accessible",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "L’interface est conçue avec libellés clairs, texte lisible, contraste, taille de texte adaptable, cibles tactiles appropriées et compatibilité avec les technologies d’assistance. Les exigences locales obligatoires plus élevées restent applicables."
+            }
+          ]
+        },
+        {
+          "heading": "Technologies d’assistance",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si tu rencontres un problème avec VoiceOver, TalkBack, grand texte, commande par contacteur, clavier ou autre fonction, contacte-nous; les informations sur l’appareil, le système et la technologie peuvent aider."
+            }
+          ]
+        },
+        {
+          "heading": "Demande d’accessibilité",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si tu ne peux pas utiliser un écran, un contrôle ou un contenu, ou si tu as besoin d’un aménagement raisonnable, écris à yektaozel@icloud.com. N’envoie pas de données sensibles inutiles."
+            }
+          ]
+        },
+        {
+          "heading": "Droits locaux et portée",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Cette page n’est pas une certification indépendante d’accessibilité ni une déclaration générale de conformité à tous les standards. Elle ne limite aucun droit impératif d’accessibilité ou de consommation."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Supprimer ton compte et tes données",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Le moyen le plus rapide de supprimer un compte Tailmance est Réglages → Supprimer définitivement le compte. Si tu n’as pas accès à l’application, tu peux envoyer une demande web sans la réinstaller."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Demande web de suppression",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les demandes sont traitées après vérification appropriée du titulaire. Le formulaire est conçu pour ne pas révéler à un tiers si une adresse e-mail est liée à un compte Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "Ce qui est supprimé et ce qui peut être conservé",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La suppression couvre compte, profils d’animaux, contenu social et photos possédés, enregistrements de messages/matches liés, données privées de santé/vaccination, localisation privée et préférences, sous réserve des obligations de conservation. Des preuves limitées de sécurité, fraude, litige, comptabilité ou loi peuvent être conservées."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Support et contact",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Opérateur : Yekta Ozel. Pour l’aide concernant compte, facturation, confidentialité, sécurité ou modération, utilise Centre de sécurité et Juridique & confidentialité dans l’application ou écris à yektaozel@icloud.com."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Contact protection de l’enfance",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pour les signalements d’abus ou d’exploitation sexuelle de mineurs, utilise yektaozel@icloud.com et les outils de signalement disponibles. En cas de danger immédiat et grave, contacte les services d’urgence ou autorités locales."
+            }
+          ]
+        },
+        {
+          "heading": "Décision de modération",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilise Décisions de modération et recours pour les recours éligibles."
+            }
+          ]
+        },
+        {
+          "heading": "Propriété intellectuelle",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilise la page Propriété intellectuelle pour les signalements de droit d’auteur, marque ou autre droit."
+            }
+          ]
+        },
+        {
+          "heading": "Accessibilité",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilise la page Accessibilité ou contacte-nous pour les problèmes et demandes d’aménagement."
+            }
+          ]
+        },
+        {
+          "heading": "Suppression du compte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si tu n’as pas accès à l’application, utilise la demande web de suppression."
+            }
+          ]
+        },
+        {
+          "heading": "Santé animale",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance n’est pas un service vétérinaire ni d’urgence médicale. Pour un problème urgent de santé animale, contacte directement un service vétérinaire adapté."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_privacy_supplement": {
+      "file": "jurisdiction-privacy.html",
+      "title": "Couche de confidentialité propre au pays",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Ce document explique comment Tailmance applique les informations de confidentialité propres à chaque pays. Il ne constitue pas un consentement et ne remplace pas le supplément juridique exact correspondant à votre pays juridique vérifié."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Contexte juridique exact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance détermine les obligations propres au pays à partir du pays juridique vérifié et, lorsque cela est requis, du contexte infranational applicable. Changer la langue de l’application, voyager ou modifier la région de la boutique ne change pas à lui seul ce contexte juridique."
+            }
+          ]
+        },
+        {
+          "heading": "2. Données et finalités",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les catégories de données personnelles et les finalités décrites dans l’Avis de confidentialité restent applicables. Les exigences locales supplémentaires ou plus strictes sont appliquées au moyen du supplément exact du pays et des contrôles juridiques d’exécution."
+            }
+          ]
+        },
+        {
+          "heading": "3. Droits et demandes",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les droits disponibles, les procédures de demande, les délais de réponse et les voies auprès des autorités varient selon le droit applicable. Le supplément exact du pays décrit cette couche locale. L’export des données et les parcours de suppression du compte et des données restent disponibles dans l’application lorsqu’ils sont applicables."
+            }
+          ]
+        },
+        {
+          "heading": "4. Transferts et conservation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les garanties de transfert international, les obligations locales de stockage ou de localisation et les exigences de conservation sont appliquées selon le contexte juridique vérifié. Tailmance ne présente pas une durée de conservation ou un mécanisme de transfert unique comme valable dans tous les pays."
+            }
+          ]
+        },
+        {
+          "heading": "5. Marketing et consentement",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les choix de marketing facultatifs sont gérés séparément du présent avis. Le fait de recevoir ou de prendre connaissance de ce document ne constitue pas un consentement lorsque le droit applicable exige un choix affirmatif distinct."
+            }
+          ]
+        },
+        {
+          "heading": "6. Document propre au pays",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Le Legal Center présente le supplément exact correspondant à votre pays juridique. Lorsqu’une traduction d’accessibilité est affichée, elle ne remplace pas la version dans la langue obligatoire ou faisant foi indiquée par Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "7. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les questions ou demandes relatives à la confidentialité peuvent être envoyées à yektaozel@icloud.com."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

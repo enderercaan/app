@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "GB",
+  "country_display_name": "Inggris Raya",
+  "document_locale": "id",
+  "document_language_display_names": "Inggris",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemen hukum khusus yurisdiksi",
+  "sections": [
+    {
+      "heading": "Ruang lingkup hukum",
+      "paragraphs": [
+        "Suplemen ini berlaku ketika Tailmance menetapkan bahwa Inggris Raya adalah negara yang hukumnya berlaku untuk akun Anda. Dokumen ini melengkapi Ketentuan Penggunaan, Pemberitahuan Privasi, Pedoman Komunitas, pemberitahuan langganan, dan dokumen hukum lainnya; dokumen ini tidak menggantikannya.",
+        "Tailmance menerapkan kewajiban hukum berdasarkan negara terverifikasi tersebut dan, jika diperlukan, kerangka hukum regional atau lokal yang berlaku. Mengubah bahasa aplikasi, bepergian, atau mengubah wilayah toko tidak dengan sendirinya mengubah kerangka hukum tersebut."
+      ]
+    },
+    {
+      "heading": "Bahasa dokumen",
+      "paragraphs": [
+        "Dokumen hukum yang mengikat untuk konfigurasi hukum ini tersedia dalam bahasa yang diwajibkan: Inggris. Jika bahasa tertentu diwajibkan, Tailmance tidak menggantinya secara otomatis dan tanpa pemberitahuan dengan bahasa lain.",
+        "Versi ini disediakan sebagai terjemahan untuk aksesibilitas. Versi ini tidak menggantikan versi dalam bahasa yang diwajibkan apabila hukum yang berlaku atau konfigurasi hukum ini mensyaratkannya."
+      ]
+    },
+    {
+      "heading": "Persyaratan hukum khusus negara",
+      "paragraphs": [
+        "Dua puluh dua bidang persyaratan hukum ditinjau untuk negara yang berlaku berdasarkan sumber resmi yang dapat diidentifikasi. Hukum yang berlaku dan tanggal berlakunya dipisahkan dari usulan, konsultasi, dan langkah masa depan; usulan tidak pernah diperlakukan sebagai hukum yang berlaku.",
+        "Tanggal tinjauan sumber: 1 Oktober 2026. Langkah masa depan, rancangan, dan konsultasi dipantau secara terpisah dan tidak ditampilkan sebagai hukum yang berlaku."
+      ]
+    },
+    {
+      "heading": "Kerangka hukum yang ditinjau",
+      "paragraphs": [
+        "Kerangka hukum utama yang dicatat dalam tinjauan sumber resmi Tailmance untuk negara yang berlaku tercantum di bawah. Pencantuman hanya menunjukkan cakupan tinjauan: apakah suatu aturan sudah berlaku, berlaku pada masa mendatang, masih berupa usulan, atau tunduk pada syarat penerapan yang lebih sempit ditentukan oleh kontrol tanggal berlaku dan cakupan penerapan yang tepat, dan tidak pernah disimpulkan hanya dari daftar ini."
+      ],
+      "items": [
+        "UK GDPR",
+        "Data Protection Act 2018",
+        "ICO International Transfers guidance",
+        "Online Safety Act 2023",
+        "Ofcom Online Safety guidance"
+      ]
+    },
+    {
+      "heading": "Privasi, keamanan, dan hak pengguna",
+      "paragraphs": [
+        "Hak privasi, permintaan data, penghapusan akun dan data, transfer internasional, verifikasi usia, pemasaran elektronik, serta kewajiban keamanan dan pelaporan diterapkan dalam konteks hukum yang tepat. Gunakan Pusat Hukum dalam aplikasi untuk pemberitahuan, ekspor, dan penghapusan."
+      ]
+    },
+    {
+      "heading": "Langganan dan informasi konsumen",
+      "paragraphs": [
+        "Toko aplikasi tempat pembelian dilakukan menjadi rujukan untuk harga langganan yang ditampilkan, mata uang, dan perlakuan pajak yang berlaku. Informasi mengenai perpanjangan, pembatalan, dan informasi prakontrak yang diwajibkan ditampilkan sebelum pembelian. Tailmance tidak menjual hewan atau barang fisik dan tidak memproses pembayaran antar pengguna untuk penjualan hewan."
+      ]
+    },
+    {
+      "heading": "Kesejahteraan hewan dan non-perdagangan",
+      "paragraphs": [
+        "Penjualan hewan secara komersial dan marketplace untuk pembiakan komersial dilarang. Perkawinan yang diatur oleh pemilik hanya tersedia apabila persyaratan negara yang berlaku terkait kesejahteraan hewan, pembiakan, kesehatan, kekerabatan, dan kelayakan terpenuhi; jika tidak, fitur tetap diblokir."
+      ]
+    },
+    {
+      "heading": "Kontak dan sumber resmi",
+      "paragraphs": [
+        "Pertanyaan tentang pemberitahuan ini atau permintaan privasi dapat dikirim ke yektaozel@icloud.com. Referensi sumber resmi yang digunakan untuk tinjauan hukum ini tercantum di bawah."
+      ],
+      "official_sources": [
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/",
+        "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+        "https://www.legislation.gov.uk/ukpga/2015/15/contents",
+        "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/childrens-access-assessment-duties-under-the-online-safety-act",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/protection-of-children-duties-under-the-online-safety-act",
+        "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
+        "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation/outcome/growing-up-in-the-online-world-progress-statement",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/selling-animals-as-pets-licensing-statutory-guidance-for-local-authorities--2",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/dog-breeding-licensing-statutory-guidance-for-local-authorities",
+        "https://www.gov.uk/government/collections/devolution-scotland-wales-and-northern-ireland",
+        "https://www.gov.uk/government/publications/action-plan-for-animal-welfare/action-plan-for-animal-welfare",
+        "https://www.legislation.gov.uk/asp/2006/11/contents",
+        "https://www.legislation.gov.uk/nia/2011/16/contents",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+        "https://www.legislation.gov.uk/uksi/2013/3134",
+        "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/",
+        "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+        "https://www.legislation.gov.uk/uksi/2002/2013/regulation/19",
+        "https://www.legislation.gov.uk/uksi/2003/2498/regulation/27",
+        "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/online-safety-regulatory-documents",
+        "https://www.gov.uk/government/publications/financial-sanctions-general-guidance/uk-financial-sanctions-general-guidance"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "1c10c4656d3ffcb9ab4cfe6ecb8ac8ad44f6a66b4d3929f7403a20e20f91531f",
+  "official_source_count": 49,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "UK GDPR",
+    "Data Protection Act 2018",
+    "ICO International Transfers guidance",
+    "Online Safety Act 2023",
+    "Ofcom Online Safety guidance"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "Indonesia"
+}

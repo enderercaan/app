@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "SG",
+  "country_display_name": "Singapour",
+  "document_locale": "fr",
+  "document_language_display_names": "anglais",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Supplément juridique propre à la juridiction",
+  "sections": [
+    {
+      "heading": "Champ juridique",
+      "paragraphs": [
+        "Ce supplément s’applique lorsque Tailmance détermine que Singapour est le pays dont le droit s’applique à votre compte. Il complète les Conditions d’utilisation, l’Avis de confidentialité, les Règles de la communauté, l’avis relatif à l’abonnement et les autres documents juridiques, sans les remplacer.",
+        "Tailmance applique les obligations juridiques en fonction de ce pays vérifié et, lorsque cela est requis, du cadre juridique régional ou local applicable. Changer la langue de l’application, voyager ou modifier la région de la boutique ne change pas, à lui seul, ce cadre juridique."
+      ]
+    },
+    {
+      "heading": "Langue des documents",
+      "paragraphs": [
+        "Les documents juridiques contraignants correspondant à cette configuration juridique sont tenus dans la ou les langues requises : anglais. Lorsqu’une langue déterminée est exigée, Tailmance ne la remplace pas automatiquement et sans avertissement par une autre langue.",
+        "Cette version est fournie comme traduction d’accessibilité. Elle ne remplace pas une version dans une langue obligatoire lorsque le droit applicable ou cette configuration juridique l’exige."
+      ]
+    },
+    {
+      "heading": "Exigences juridiques propres au pays",
+      "paragraphs": [
+        "Vingt-deux domaines d’exigences juridiques sont examinés pour le pays applicable à partir de sources officielles attribuables. Le droit en vigueur et ses dates d’effet sont distingués des projets, consultations et mesures futures ; une proposition n’est jamais présentée comme du droit en vigueur.",
+        "Date de revue des sources : 1er octobre 2026. Les mesures futures, les projets et les consultations sont suivis séparément et ne sont pas présentés comme du droit en vigueur."
+      ]
+    },
+    {
+      "heading": "Cadres juridiques examinés",
+      "paragraphs": [
+        "Les principaux cadres juridiques recensés dans l’examen des sources officielles de Tailmance pour le pays applicable sont indiqués ci-dessous. Leur présence délimite uniquement le champ de l’examen : le caractère en vigueur, à effet futur, proposé ou soumis à une condition d’applicabilité plus étroite est déterminé par les contrôles de date d’effet et de champ exact, et ne se déduit jamais de cette liste seule."
+      ],
+      "items": [
+        "Personal Data Protection Act"
+      ]
+    },
+    {
+      "heading": "Vie privée, sécurité et droits des utilisateurs",
+      "paragraphs": [
+        "Les droits en matière de protection des données, les demandes d’accès et de suppression, les transferts internationaux, l’assurance de l’âge, le marketing électronique ainsi que les obligations de sécurité et de notification sont appliqués selon le contexte juridique exact. Le Centre juridique de l’application donne accès aux avis, à l’exportation et à la suppression."
+      ]
+    },
+    {
+      "heading": "Abonnements et information des consommateurs",
+      "paragraphs": [
+        "La boutique d’applications par laquelle l’achat est effectué fait foi pour le prix d’abonnement affiché, la devise et le traitement fiscal applicable. Les informations requises sur le renouvellement, l’annulation et la phase précontractuelle sont présentées avant l’achat. Tailmance ne vend ni animaux ni biens physiques et ne traite pas de paiements entre utilisateurs pour la vente d’animaux."
+      ]
+    },
+    {
+      "heading": "Bien-être animal et absence de commerce",
+      "paragraphs": [
+        "La vente commerciale d’animaux et les places de marché consacrées à l’élevage commercial sont interdites. Les accouplements organisés par les propriétaires ne sont disponibles que si les exigences applicables du pays en matière de bien-être animal, reproduction, santé, parenté et admissibilité sont remplies ; sinon la fonctionnalité reste indisponible."
+      ]
+    },
+    {
+      "heading": "Contact et sources officielles",
+      "paragraphs": [
+        "Les questions concernant ces avis ou les demandes relatives à la vie privée peuvent être envoyées à yektaozel@icloud.com. Les références officielles utilisées pour cette analyse juridique figurent ci-dessous."
+      ],
+      "official_sources": [
+        "https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act/data-protection-obligations",
+        "https://www.cccs.gov.sg/consumer-protection/fair-trading-practices",
+        "https://www.cccs.gov.sg/media-and-events/newsroom/announcements-and-media-releases/e-commerce-retailer-fashion-interactive-ordered-to-cease-unfair-trade-practices-and-stop-using--subscription-traps--481",
+        "https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/internet/online-safety",
+        "https://www.imda.gov.sg/how-we-can-help/age-assurance",
+        "https://www.mddi.gov.sg/committee-of-supply/cos-2026/",
+        "https://developer.apple.com/news/?id=f5zj08ey",
+        "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
+        "https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-requesting-meta-to-deploy-teenage-usage-restriction-in-singapore/",
+        "https://sso.agc.gov.sg/Act/OSRAA2025",
+        "https://sso.agc.gov.sg/SL-Supp/S394-2026/Published/20260625?DocDate=20260625",
+        "https://sso.agc.gov.sg/SL/OSRAA2025-S397-2026",
+        "https://sso.agc.gov.sg/SL/OSRAA2025-S412-2026?DocDate=20260626",
+        "https://sso.agc.gov.sg/SL-Supp/S401-2026/Published?DocDate=20260625&ProvIds=pr5-",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+        "https://sso.agc.gov.sg/Act/CONS1963",
+        "https://sso.agc.gov.sg/SL/OSRAA2025-S400-2026?DocDate=20260625",
+        "https://sso.agc.gov.sg/Act/CPFTA2003",
+        "https://www.imda.gov.sg/infocomm-regulation-and-guides/unsolicited-communications/best-practices-for-organisations",
+        "https://www.mddi.gov.sg/newsroom/mddi-s-response-to-pq-on-strengthening-digital-accessibility-requirements-for-providers-of-essential-consumer-services-for-persons-with-visual-impairments/",
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
+        "https://www.ipos.gov.sg/about-ip/copyright/forms-and-fees/",
+        "https://www.pdpc.gov.sg/report-data-breach/before-you-report-a-data-breach-3/info",
+        "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/keeping-records",
+        "https://sso.agc.gov.sg/Act/UNA2001?ViewType=Sl"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "02cba30dbdc63da3e8212b2a0a0d5a444001cea478a14eaffd40dae2fd6b24f4",
+  "official_source_count": 54,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Personal Data Protection Act"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "français"
+}

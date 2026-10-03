@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "product": "Tailmance",
+  "owner": "Yekta Ozel",
+  "policy": {
+    "authentication": "ordinary_production_authentication_only",
+    "review_credentials_in_binary": false,
+    "review_credentials_in_source_control": false,
+    "reviewer_entitlement_bypass": false,
+    "billing_mode": "apple_sandbox_or_google_license_test_only",
+    "special_security_bypass": false,
+    "review_data": "ordinary server-side pet/content records governed by the same authorization, moderation, privacy and legal gates as other accounts"
+  },
+  "apple": {
+    "review_account_provisioned_status": "not_verified",
+    "review_account_full_feature_access_status": "not_verified",
+    "app_review_information_credentials_entered_status": "not_verified",
+    "sandbox_subscription_lifecycle_status": "not_verified"
+  },
+  "google": {
+    "review_access_account_provisioned_status": "not_verified",
+    "play_console_app_access_instructions_status": "not_verified",
+    "license_test_subscription_lifecycle_status": "not_verified"
+  },
+  "release_rule": "BLOCK until the external review account, console instructions, and store test-billing evidence are verified. Never satisfy this gate by adding a source-code credential or entitlement bypass."
+}

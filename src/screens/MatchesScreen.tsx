@@ -1,0 +1,28 @@
+import { useEffect, useRef } from 'react';
+import { Image } from 'expo-image';
+import { Alert, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
+import type { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { AppIcon } from '../components/AppIcon';
+import { EmptyState } from '../components/EmptyState';
+import { IconButton } from '../components/IconButton';
+import { Screen } from '../components/Screen';
+import { TopBar } from '../components/TopBar';
+import { useAppData } from '../contexts/AppDataContext';
+import { useI18n } from '../i18n';
+import { useReduceMotion } from '../hooks/useReduceMotion';
+import type { RootStackParamList } from '../navigation/types';
+import { unmatch } from '../services/api';
+import { userMessage } from '../services/errors';
+import { useThemedStyles, type AppTheme } from '../theme';
+
+export function MatchesScreen({navigation}:{navigation:NativeStackNavigationProp<RootStackParamList>}){const {theme,styles}=useThemedStyles(createStyles);
+  const reduceMotion=useReduceMotion();
+  const {matches,activePet,refreshAll,loadMoreMatches,matchesHasMore,loadingMoreMatches}=useAppData();
+  const {t}=useI18n();
+  const activePetIdRef=useRef(activePet?.id);activePetIdRef.current=activePet?.id;
+  const unmatchRef=useRef<string|null>(null);
+  useEffect(()=>{unmatchRef.current=null},[activePet?.id]);
+  const confirmUnmatch=(matchId:string,name:string)=>{const petId=activePet?.id;if(!petId)return;const actionKey=`${petId}:${matchId}`;Alert.alert(t('matches.dialogTitle',{name}),t('matches.dialogBody'),[{text:t('matches.cancel')},{text:t('matches.unmatch'),style:'destructive',onPress:()=>void (async()=>{if(activePetIdRef.current!==petId||unmatchRef.current)return;unmatchRef.current=actionKey;try{await unmatch(matchId,petId);if(activePetIdRef.current!==petId)return;await refreshAll()}catch(e){if(activePetIdRef.current===petId)Alert.alert(t('matches.failedTitle'),userMessage(e,t('matches.failedFallback')))}finally{if(activePetIdRef.current===petId&&unmatchRef.current===actionKey)unmatchRef.current=null}})()}])};
+  return <Screen><TopBar title={t('matches.title')} subtitle={t('matches.subtitle')}/><FlatList data={matches} keyExtractor={x=>x.id} onEndReached={()=>{if(matchesHasMore&&!loadingMoreMatches)void loadMoreMatches()}} onEndReachedThreshold={0.4} contentContainerStyle={styles.list} ListEmptyComponent={<EmptyState icon="heart" title={t('matches.emptyTitle')} body={t('matches.emptyBody')}/>} renderItem={({item:m})=><View style={styles.card}><Pressable accessibilityRole="button" accessibilityLabel={t('matches.openProfile',{name:m.otherPet.name})} onPress={()=>activePet&&navigation.navigate('PetProfile',{pet:m.otherPet,ownPetId:activePet.id})}><Image source={{uri:m.otherPet.photos[0]?.url}} style={styles.avatar} cachePolicy="memory-disk" transition={reduceMotion?0:120}/></Pressable><View style={{flex:1}}><Pressable accessibilityRole="button" onPress={()=>activePet&&navigation.navigate('PetProfile',{pet:m.otherPet,ownPetId:activePet.id})}><View style={styles.nameLine}><Text style={styles.name}>{m.otherPet.name}</Text>{m.otherPet.profileVerified?<AppIcon name="verified" size={15} color={theme.colors.primary}/>:null}</View><Text style={styles.meta}>{m.otherPet.breed} · {t('matches.commonPurposes',{count:m.commonPurposes.length})}</Text></Pressable>{m.lastMessage?<Text numberOfLines={1} style={styles.last}>{m.lastMessage}</Text>:<Text style={styles.lastMuted}>{t('matches.ready')}</Text>}<View style={styles.actions}><Pressable accessibilityRole="button" style={styles.action} onPress={()=>activePet&&navigation.navigate('Chat',{conversationId:m.conversationId,otherPet:m.otherPet,matchId:m.id,ownPetId:activePet.id})}><AppIcon name="chat" size={16} color={theme.colors.primary}/><Text style={styles.actionText}>{t('matches.message')}</Text></Pressable><Pressable accessibilityRole="button" style={styles.action} onPress={()=>activePet&&navigation.navigate('Meetups',{matchId:m.id,otherPet:m.otherPet,ownPetId:activePet.id})}><AppIcon name="calendar" size={16} color={theme.colors.primary}/><Text style={styles.actionText}>{t('matches.meetup')}</Text></Pressable></View></View><View style={styles.side}>{m.unreadCount?<View style={styles.badge}><Text style={styles.badgeText}>{Math.min(m.unreadCount,99)}</Text></View>:null}<IconButton icon="more" label={t('matches.options')} size={38} onPress={()=>confirmUnmatch(m.id,m.otherPet.name)}/></View></View>}/></Screen>;
+}
+const createStyles=(theme:AppTheme)=>StyleSheet.create({list:{padding:16,paddingBottom:100},card:{padding:12,backgroundColor:theme.colors.surface,borderRadius:theme.radius.xl,borderWidth:1,borderColor:theme.colors.border,flexDirection:'row',gap:12,alignItems:'center',marginBottom:10,...theme.shadow.card},avatar:{width:76,height:76,borderRadius:24,backgroundColor:theme.colors.surfaceAlt},nameLine:{flexDirection:'row',alignItems:'center',gap:5},name:{fontSize:17,fontWeight:'900',color:theme.colors.text},meta:{marginTop:3,color:theme.colors.muted,fontSize:11,fontWeight:'700'},last:{marginTop:7,color:theme.colors.textSoft,fontSize:11},lastMuted:{marginTop:7,color:theme.colors.muted,fontSize:11},actions:{flexDirection:'row',gap:8,marginTop:9},action:{minHeight:44,paddingHorizontal:10,borderRadius:theme.radius.pill,backgroundColor:theme.colors.primarySoft,flexDirection:'row',alignItems:'center',gap:5},actionText:{color:theme.colors.primary,fontWeight:'900',fontSize:11},side:{alignSelf:'stretch',justifyContent:'space-between',alignItems:'center'},badge:{minWidth:24,height:24,paddingHorizontal:6,borderRadius:12,backgroundColor:theme.colors.accent,alignItems:'center',justifyContent:'center'},badgeText:{color:theme.colors.onAccent,fontWeight:'900',fontSize:11}});

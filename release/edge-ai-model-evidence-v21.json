@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "policy": "fail_closed",
+  "reviewed_at": "2026-10-01",
+  "runtime_source_status": "IMPLEMENTED_HASH_VERIFIED_NATIVE_RUNTIME",
+  "items": {
+    "approved_model_manifest_artifact": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Provide the production HTTPS model-manifest artifact and its exact SHA-256. The manifest must identify model versions, platform artifacts, exact sizes/hashes, licenses, provenance and safety-policy thresholds. Do not substitute an example or unreviewed model."
+    },
+    "ios_coreml_breed_model": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Validate the exact Core ML breed model on representative physical iOS hardware, including model hash, license/provenance, label contract, latency, memory and representative breed-quality review."
+    },
+    "android_mediapipe_breed_model": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Validate the exact TFLite/MediaPipe breed model on representative physical Android hardware, including model hash, metadata/label contract, license/provenance, latency, memory and representative breed-quality review."
+    },
+    "ios_coreml_safety_model": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Validate the exact Core ML safety pre-filter on physical iOS devices against the approved label/threshold policy. Record false-positive/false-negative sampling and confirm that server moderation remains authoritative."
+    },
+    "android_mediapipe_safety_model": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Validate the exact TFLite/MediaPipe safety pre-filter on physical Android devices against the approved label/threshold policy. Record false-positive/false-negative sampling and confirm that server moderation remains authoritative."
+    },
+    "model_license_provenance_and_privacy_review": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Record model publisher/source, license compatibility, model-card/provenance review, dataset/privacy implications and any redistribution restrictions for all four production artifacts."
+    },
+    "representative_accuracy_bias_and_safety_evaluation": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Document representative breed coverage and safety-classifier evaluation across supported pet species, coat/color variation, image quality and relevant safety classes. The on-device model must remain advisory/defense-in-depth and cannot become the sole moderation authority."
+    },
+    "physical_device_latency_memory_and_offline_smoke": {
+      "status": "not_verified",
+      "required": true,
+      "evidence_ref": null,
+      "verified_at": null,
+      "notes": "Verify cold/warm model load, repeated inference memory behavior, cache eviction/re-download, airplane-mode cached inference and app background/foreground behavior on representative release-candidate iOS/Android devices. Warm inference p95 must be <=30 ms on each approved representative device class; record raw benchmark evidence rather than inferring performance from source.",
+      "required_p95_warm_inference_ms_lte": 30,
+      "measured_p95_warm_inference_ms": null
+    }
+  }
+}

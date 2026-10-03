@@ -1,0 +1,841 @@
+{
+  "schema_version": 1,
+  "locale": "ca",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Condicions d'ús",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Versió 2026-09-29. Aquestes Condicions regeixen l'ús de Tailmance. Qualsevol condició específica del país o de la regió que se't mostri forma part d'aquestes Condicions. La persona titular del compte ha de tenir com a mínim 18 anys."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Servei i compte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance ajuda les persones que tenen cura de gats i gossos a crear perfils de mascotes i a utilitzar funcions de descoberta i interacció social. Mantén exacta la informació del compte, protegeix-ne la seguretat i no el transfereixis. Tailmance no és un servei veterinari, mèdic, d'emergències, de venda d'animals ni d'intermediació de pagaments."
+            }
+          ]
+        },
+        {
+          "heading": "2. Edat i elegibilitat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Has de tenir com a mínim 18 anys per crear un compte. Quan la legislació aplicable o les normes de la botiga exigeixin garanties addicionals d'edat, l'accés pot requerir una verificació addicional. Una declaració falsa sobre l'edat pot comportar la restricció o finalització de l'accés."
+            }
+          ]
+        },
+        {
+          "heading": "3. Perfils de mascotes i responsabilitat de l'usuari",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Puja només informació, fotografies, dades de salut i de perfil de mascotes que estiguis autoritzat a utilitzar i compartir. No falsegis conscientment dades de vacunació, salut, raça, edat, sexe, propietat o verificació, i no pugis dades personals o sensibles innecessàries de terceres persones."
+            }
+          ]
+        },
+        {
+          "heading": "4. Contingut de l'usuari i llicència",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Conserves els drets sobre el contingut que puges. Atorgues a Tailmance una llicència mundial i no exclusiva, limitada a operar, emmagatzemar, mostrar, transmetre, protegir i moderar aquest contingut en la mesura necessària per prestar el servei. La propietat no es transfereix a Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "5. Contingut i conductes prohibits",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Es prohibeixen el maltractament animal, l'assetjament, les amenaces, l'odi, el material d'abús sexual infantil, el frau, els béns o serveis il·legals, les dades personals o íntimes no autoritzades, la informació falsa de salut o verificació, la infracció de propietat intel·lectual, la suplantació d'identitat, l'elusió de mesures de seguretat o moderació i facilitar activitats il·lícites. Les Normes de la comunitat en donen més detalls."
+            }
+          ]
+        },
+        {
+          "heading": "6. Venda d'animals, cria comercial i aparellament",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance no és un mercat d'animals, una plataforma de venda d'animals ni un mercat de criadors. No es pot utilitzar per acordar preus, dipòsits, vendes o lliuraments d'animals, captar clients comercialment per a criadors, fer cria il·legal ni traficar amb animals. L'aparellament està desactivat per defecte i només es pot habilitar quan Tailmance l'activi expressament i ho permetin la legislació aplicable i les normes de benestar animal. El servei tampoc no es pot utilitzar per oferir, sol·licitar, intermediar o organitzar l’adopció, la reubicació o la transferència de titularitat d’una mascota."
+            }
+          ]
+        },
+        {
+          "heading": "7. Moderació, seguretat i apel·lacions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance pot restringir la visibilitat del contingut o l'accés al compte per motius de seguretat, d'aquestes Condicions, de les Normes de la comunitat o legals. Quan correspongui, les persones usuàries rebran els motius i una via d'apel·lació disponible. Una apel·lació estimada no anul·la una altra restricció vàlida que afecti el mateix contingut o compte."
+            }
+          ]
+        },
+        {
+          "heading": "8. Salut animal i emergències",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance no presta atenció veterinària, diagnòstic mèdic ni serveis d'emergència. Els registres de vacunació, salut o verificació de l'aplicació no substitueixen l'avaluació veterinària professional. Quan calgui, adreça't a un veterinari, servei d'emergències o autoritat competent."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium i facturació de la botiga",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium és opcional i l'ús Standard continua disponible sense subscripció. Llevat que la botiga indiqui el contrari, Premium es renova automàticament. El preu, la moneda, els impostos, el període, la prova i les condicions promocionals vinculants els mostra l'App Store o Google Play. Gestiona i cancel·la la subscripció a través de la botiga corresponent. Eliminar el compte de Tailmance no cancel·la automàticament una subscripció de la botiga."
+            }
+          ]
+        },
+        {
+          "heading": "10. Privacitat i garantia d'edat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La Política de privacitat i els suplements locals aplicables expliquen el tractament de dades. El consentiment per a notificacions push de màrqueting és separat i opcional. Si la garantia d'edat utilitza dades d'identitat, facials, biomètriques o altres dades sensibles, s'han de presentar separadament la informació addicional de privacitat i els drets corresponents."
+            }
+          ]
+        },
+        {
+          "heading": "11. Restricció, finalització i eliminació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pots eliminar permanentment el compte i utilitzar la via web d'eliminació si no pots accedir a l'aplicació. Tailmance pot aplicar restriccions proporcionades per incompliments de les Condicions, de seguretat o legals i, quan correspongui, facilitar els motius i els drets d'apel·lació. L'eliminació no obliga a esborrar immediatament registres limitats que la llei ens exigeixi conservar per seguretat, litigis, sol·licituds legítimes o comptabilitat."
+            }
+          ]
+        },
+        {
+          "heading": "12. Propietat intel·lectual",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Puja només contingut que tinguis dret a compartir. Els titulars de drets poden utilitzar el procediment d'avís de propietat intel·lectual. Quan sigui exigible, continuen aplicant-se els drets específics del país d'avís, contraavís i restabliment."
+            }
+          ]
+        },
+        {
+          "heading": "13. Canvis i disponibilitat del servei",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les funcions poden canviar, suspendre's o no estar disponibles en un país per motius de seguretat, legals, de polítiques de la botiga o de producte. Tailmance no garanteix un accés ininterromput o lliure d'errors, però els drets obligatoris de les persones consumidores i les obligacions relatives als serveis de pagament no es veuen afectats."
+            }
+          ]
+        },
+        {
+          "heading": "14. Responsabilitat i drets irrenunciables",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Res d'aquestes Condicions elimina drets de consum, protecció de dades, accessibilitat o altres drets que la legislació aplicable no permeti renunciar. Les exempcions i limitacions de responsabilitat només s'apliquen en la mesura permesa per la llei."
+            }
+          ]
+        },
+        {
+          "heading": "15. Llei aplicable i condicions locals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La llei aplicable, el fur obligatori de consum, la resolució alternativa de litigis, els tribunals, l'accés als reguladors i altres drets locals poden variar segons el lloc de residència habitual o on s'ofereixi el servei. Els suplements específics del país o regió completen aquestes Condicions i es preserven els drets locals imperatius."
+            }
+          ]
+        },
+        {
+          "heading": "16. Canvis i renovació de l'acceptació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quan les Condicions vinculants o els suplements locals aplicables canviïn substancialment, Tailmance ho notificarà o demanarà una nova acceptació quan sigui necessari. L'acceptació d'un context anterior de país, regió o idioma documental no es trasllada automàticament a un context nou."
+            }
+          ]
+        },
+        {
+          "heading": "17. Contacte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilitza la pàgina de Suport i contacte per a sol·licituds de suport, seguretat, privacitat i altres qüestions. Quan la legislació aplicable exigeixi informació sobre l'operador, representant, regulador o contacte de consum, s'inclourà en el suplement local corresponent."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Política de privacitat",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Versió 2026-09-29. Responsable del tractament: Yekta Özel. Aquesta Política explica com Tailmance tracta les dades personals. Els suplements de privacitat específics del país o regió que se't mostrin s'apliquen conjuntament amb aquesta Política. Aquesta Política no constitueix consentiment de màrqueting."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Categories de dades que tractem",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Podem tractar dades del compte i de sessió; dades de seguretat, dispositiu, xarxa, IP i tokens push; perfils de mascotes, fotografies i interaccions socials; ubicació aproximada per a la descoberta; registres de salut, vacunació i verificació que decideixis pujar; estat de subscripció i referències de transaccions de la botiga; denúncies, bloquejos, moderació i apel·lacions; preferències de notificacions i màrqueting; i registres que acreditin quin context jurídic i quins documents se't van mostrar."
+            }
+          ]
+        },
+        {
+          "heading": "2. Fonts de les dades",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Obtenim dades directament de tu, del dispositiu i de l'ús de l'aplicació, del contingut que puges, dels processos de seguretat i moderació, de l'App Store o Google Play, de proveïdors de serveis autoritzats i, en casos limitats, de denúncies o contingut d'altres persones usuàries."
+            }
+          ]
+        },
+        {
+          "heading": "3. Finalitats",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tractem les dades per proporcionar comptes i funcions socials, descoberta i matching, missatgeria i notificacions, seguretat i prevenció del frau, moderació i apel·lacions, verificació de subscripcions, atenció de sol·licituds, exportació i eliminació de dades, fiabilitat del servei i compliment de la legislació aplicable."
+            }
+          ]
+        },
+        {
+          "heading": "4. Bases jurídiques i diferències locals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Segons la finalitat, la categoria de dades i la legislació aplicable, el tractament es pot basar en el contracte, una obligació legal, interessos legítims, consentiment o una altra base jurídica vàlida. Els suplements locals de privacitat expliquen les diferències jurisdiccionals."
+            }
+          ]
+        },
+        {
+          "heading": "5. L'avís és diferent del consentiment de màrqueting",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Un avís de privacitat t'informa sobre el tractament; no és un consentiment general. Les notificacions push de màrqueting requereixen una elecció separada, opcional i revocable, i no autoritzen correu electrònic, SMS, trucades telefòniques ni altres canals de màrqueting llevat que s'hagin autoritzat separadament."
+            }
+          ]
+        },
+        {
+          "heading": "6. Ubicació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si permets l'accés a la ubicació, Tailmance pot utilitzar la ubicació del dispositiu per a la descoberta. Les coordenades s'arrodoneixen a tres decimals abans d'enviar-se al servidor, s'emmagatzemen de manera privada i no es mostren a altres persones usuàries; només es mostra la distància aproximada. Els senyals d'ubicació del dispositiu i de la botiga no determinen per si sols la jurisdicció legal."
+            }
+          ]
+        },
+        {
+          "heading": "7. Dades de salut i sensibles",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Els registres de salut i vacunació de mascotes poden contenir informació sensible. Puja només el que sigui necessari i evita dades de terceres persones. Quan s'utilitzin dades d'identitat, facials, biomètriques o altra informació sensible per a la garantia d'edat, s'han de proporcionar els avisos addicionals, salvaguardes, límits de conservació, informació del proveïdor i procediments alternatius que siguin exigibles."
+            }
+          ]
+        },
+        {
+          "heading": "8. Comunicació i encarregats del tractament",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les dades es poden compartir amb proveïdors autoritzats d'infraestructura, seguretat, moderació, missatgeria, notificacions, analítica/incidències, subscripcions i altres serveis només quan sigui necessari per al servei, i amb autoritats públiques quan ho exigeixi legalment. Tailmance no ven dades personals a anunciants."
+            }
+          ]
+        },
+        {
+          "heading": "9. Transferències internacionals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quan les dades es transfereixin internacionalment, Tailmance ha d'utilitzar el mecanisme i les garanties exigits per la jurisdicció aplicable i proporcionar els avisos locals necessaris. Les regles de transferència poden variar segons el país o regió."
+            }
+          ]
+        },
+        {
+          "heading": "10. Conservació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les dades es conserven només durant el temps necessari per a la finalitat o exigit per la llei. Les diferents categories tenen terminis diferents. L'eliminació del compte no obliga a eliminar immediatament registres limitats de seguretat, frau, litigis, comptabilitat o sol·licituds legítimes que s'hagin de conservar."
+            }
+          ]
+        },
+        {
+          "heading": "11. Seguretat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance utilitza mesures tècniques i organitzatives destinades a protegir les dades, inclosos controls d'accés, xifratge en trànsit, controls d'emmagatzematge privat, registres d'auditoria i prevenció d'abusos. Cap sistema pot garantir una seguretat absoluta."
+            }
+          ]
+        },
+        {
+          "heading": "12. Els teus drets",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Segons la legislació aplicable, pots tenir drets d'accés, rectificació, supressió, limitació o oposició al tractament, portabilitat, retirada del consentiment, impugnació de determinades decisions automatitzades, reclamació davant un regulador i obtenció d'informació sobre destinataris i transferències. Els suplements locals expliquen els drets i procediments exactes."
+            }
+          ]
+        },
+        {
+          "heading": "13. Menors i edat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance és un servei només per a majors de 18 anys. Les eines de garantia d'edat, quan siguin exigibles, s'han de dissenyar per reduir al mínim les dades i protegir la privacitat. Una política de 18+ no elimina les obligacions aplicables de seguretat infantil, denúncia o plataforma."
+            }
+          ]
+        },
+        {
+          "heading": "14. Decisions automatitzades i recomanacions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La descoberta, classificació, seguretat i moderació poden utilitzar sistemes automatitzats. Quan la llei exigeixi explicació, opció o revisió humana, Tailmance proporcionarà el mecanisme corresponent. Les decisions d'alt impacte no es consideren exemptes de revisió només perquè utilitzin automatització."
+            }
+          ]
+        },
+        {
+          "heading": "15. Eliminació de compte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pots sol·licitar l'eliminació permanent des de l'aplicació. Si no hi pots accedir, utilitza la via web d'eliminació. La verificació de la titularitat es fa de manera proporcional i la resposta no revela a terceres persones si una adreça de correu està registrada."
+            }
+          ]
+        },
+        {
+          "heading": "16. Canvis i contacte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Podem actualitzar aquesta Política quan canviïn el servei, la llei o els proveïdors. Quan sigui necessari, es demanarà una nova informació o reconeixement. Per a qüestions de privacitat, utilitza els canals de Suport i contacte o escriu a yektaozel@icloud.com."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Normes de la comunitat",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Aquestes normes s'apliquen juntament amb les Condicions per mantenir Tailmance respectuós, segur i centrat en el benestar animal. La legislació local aplicable més estricta preval."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Respecte a les persones i als animals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "No maltractis ni posis en perill animals, no assetgis, amenacis, persegueixis, explotis o discriminis altres persones, ni hi dirigeixis odi. No fomentis pràctiques insegures amb animals ni ocultis riscos materials per al seu benestar."
+            }
+          ]
+        },
+        {
+          "heading": "2. Explotació sexual i seguretat infantil",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Es prohibeixen el material d'abús sexual infantil, l'explotació sexual de menors, el grooming, la captació o el contingut que faciliti aquestes conductes. Tailmance pot preservar, restringir i denunciar aquest material quan ho exigeixi la llei i disposa d'una via de contacte de seguretat infantil."
+            }
+          ]
+        },
+        {
+          "heading": "3. Perfils autèntics i afirmacions de salut",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "No suplantis persones, no falsegis la propietat, raça, edat, sexe, salut, vacunació o estat de verificació d'una mascota, ni presentis documents fraudulents. Les insígnies de verificació no són garanties veterinàries."
+            }
+          ]
+        },
+        {
+          "heading": "4. Privacitat i contingut íntim",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "No comparteixis dades privades, ubicació precisa, credencials, informació mèdica o imatges íntimes d'una altra persona sense autorització. Evita incloure dades personals innecessàries de terceres persones en registres de mascotes o missatges."
+            }
+          ]
+        },
+        {
+          "heading": "5. Béns il·legals, frau i conductes perilloses",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "No utilitzis Tailmance per a frau, béns o serveis il·legals, armes o activitats perilloses, esquemes financers no autoritzats, ni conductes que facilitin delictes o l'elusió de controls legals de seguretat."
+            }
+          ]
+        },
+        {
+          "heading": "6. Venda d'animals i cria comercial",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance no és un mercat de venda d'animals ni de criadors. Es prohibeixen la negociació de preus, els dipòsits, la venda o lliurament d'animals, la captació comercial de clients per a criadors, la cria il·legal, el tràfic d'animals o l'activitat de granges de cadells. El servei tampoc no es pot utilitzar per oferir, sol·licitar, intermediar o organitzar l’adopció, la reubicació o la transferència de titularitat d’una mascota."
+            }
+          ]
+        },
+        {
+          "heading": "7. Aparellament i benestar animal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les funcions d'aparellament estan desactivades per defecte i només es poden habilitar després que s'aprovin els controls específics del país sobre legalitat, benestar, edat, salut i parentiu. Les persones usuàries no han d'utilitzar el servei per promoure cria perjudicial o il·legal."
+            }
+          ]
+        },
+        {
+          "heading": "8. Denúncia, bloqueig i moderació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilitza les eines de denúncia i bloqueig de l'aplicació davant problemes de seguretat. Tailmance pot retirar o limitar contingut o comptes i facilitarà motius i vies d'apel·lació quan sigui procedent i legalment exigible."
+            }
+          ]
+        },
+        {
+          "heading": "9. Normes locals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les obligacions específiques del país o regió sobre contingut il·legal, seguretat infantil, benestar animal, denúncia, preservació i cooperació amb les autoritats poden afegir-se a aquestes Normes. Tailmance aplica la norma aplicable més estricta quan sigui exigible."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Consentiment per a notificacions push de màrqueting",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Aquesta elecció és independent de les Condicions i de la Política de privacitat. És opcional i no és necessària per utilitzar el servei bàsic de Tailmance."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Elecció de notificacions push de màrqueting",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si actives expressament les notificacions push de màrqueting, Tailmance pot enviar al teu dispositiu mòbil novetats del producte, ofertes o actualitzacions promocionals. Pots retirar aquesta elecció en qualsevol moment a Configuració sense afectar les notificacions necessàries del servei. Aquest consentiment no cobreix correu electrònic, SMS, telèfon ni altres canals. Quan règims locals, com les regles de Türkiye sobre missatges electrònics comercials o les normes antispam del Canadà, imposin requisits addicionals, aquests s'han de complir separadament."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Informació sobre subscripció i consum",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Aquesta pàgina explica Tailmance Premium i la informació de consum aplicable abans i després de la compra. Els drets obligatoris locals de les persones consumidores continuen sempre disponibles."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium és opcional. L'ús Standard continua sense subscripció. Les funcions Premium es descriuen a l'aplicació i poden canviar de manera prospectiva, subjectes a la legislació de consum aplicable."
+            }
+          ]
+        },
+        {
+          "heading": "2. Preu i facturació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "El preu, la moneda, els impostos, el període de facturació, la prova i les condicions promocionals vinculants són els valors que mostra l'App Store o Google Play immediatament abans de la compra. Tailmance no recull directament el número de la teva targeta de pagament."
+            }
+          ]
+        },
+        {
+          "heading": "3. Renovació automàtica",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Llevat que la botiga indiqui clarament el contrari, Premium es renova automàticament fins que es cancel·la. El moment de la renovació i els càrrecs segueixen les condicions de la botiga corresponent i la legislació aplicable."
+            }
+          ]
+        },
+        {
+          "heading": "4. Cancel·lació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gestiona o cancel·la la subscripció a través del compte de la botiga utilitzat per a la compra. Eliminar el compte de Tailmance no cancel·la automàticament la subscripció de la botiga. La cancel·lació generalment atura renovacions futures i no crea per si mateixa un dret a reemborsament."
+            }
+          ]
+        },
+        {
+          "heading": "5. Reemborsaments, desistiment i drets obligatoris",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Els drets de reemborsament, període de reflexió, desistiment, conformitat legal i serveis digitals depenen de la botiga i de la legislació de consum aplicable. Res d'aquesta pàgina limita drets que legalment no es puguin renunciar."
+            }
+          ]
+        },
+        {
+          "heading": "6. Eliminació del compte i dret a la subscripció",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si elimines el compte de Tailmance mentre una subscripció de la botiga continua activa, la facturació de la botiga pot continuar fins que es cancel·li separadament. La restauració o transferència del dret depèn del compte de la botiga i dels registres de subscripció verificats per Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "7. Presentació de compra",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Abans d'una compra in-app, Tailmance registra el conjunt exacte de documents de consum que se t'han presentat. Si el bundle legal o el hash dels documents canvia abans que s'obri la pantalla de compra de la botiga, el flux de compra s'ha d'aturar i requerir una nova revisió."
+            }
+          ]
+        },
+        {
+          "heading": "8. Informació local",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les dades de l'operador específiques del país o regió, informació fiscal, instruccions de desistiment, vies de resolució de litigis o altres divulgacions obligatòries es proporcionen al suplement local aplicable quan sigui necessari."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Decisions de moderació i apel·lacions",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance utilitza la moderació per protegir les persones usuàries, els animals, el servei i el compliment legal. Les decisions elegibles inclouen una explicació i una via d'apel·lació quan correspongui."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Decisions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance pot retirar, limitar, degradar o restringir contingut, funcions o comptes per motius relacionats amb les Normes de la comunitat, les Condicions, la seguretat, el frau, el benestar animal o la llei. Les decisions es registren amb un motiu visible per a la persona usuària, llevat que la divulgació estigui prohibida per motius de seguretat o legals."
+            }
+          ]
+        },
+        {
+          "heading": "2. Apel·lacions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quan hi hagi una apel·lació disponible, presenta-la a través de l'aplicació o de la via indicada dins del termini aplicable. Les apel·lacions es revisen amb les proves de la decisió i poden incloure revisió humana. Una apel·lació estimada no anul·la una restricció vàlida independent."
+            }
+          ]
+        },
+        {
+          "heading": "3. Restabliment",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Una decisió revocada no es considera completada fins que l'estat afectat del producte s'hagi restablert realment quan el restabliment sigui procedent. Les decisions actives incompatibles impedeixen un restabliment automàtic insegur."
+            }
+          ]
+        },
+        {
+          "heading": "4. Restriccions del compte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si es restringeix l'accés al compte, Tailmance proporciona un motiu adequat i la via d'apel·lació disponible, llevat que la divulgació estigui restringida per llei o seguretat. Les vies de suport i les vies legals/de privacitat obligatòries continuen disponibles quan ho hagin d'estar."
+            }
+          ]
+        },
+        {
+          "heading": "5. Drets externs",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "El procediment intern d'apel·lació no elimina cap dret que puguis tenir de contactar amb un regulador, tribunal, organisme de resolució de litigis o una altra autoritat competent segons la legislació aplicable."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Propietat intel·lectual i avisos d'infracció",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Els titulars de drets i els representants autoritzats poden denunciar contingut de Tailmance que considerin que infringeix drets de propietat intel·lectual."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Presentació d'un avís",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Envia prou informació per identificar l'obra o dret protegit, localitzar el contingut denunciat, contactar-te i demostrar la teva autoritat per actuar. Inclou una declaració de bona fe i una signatura quan la legislació aplicable ho exigeixi."
+            }
+          ]
+        },
+        {
+          "heading": "Revisió i contraavís",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance revisa els avisos segons la legislació aplicable i aplica salvaguardes davant reclamacions fraudulentes o abusives. Quan es restringeix contingut, la persona afectada pot rebre el motiu i una via disponible d'apel·lació o contraavís quan correspongui."
+            }
+          ]
+        },
+        {
+          "heading": "Infracció reiterada",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La infracció reiterada verificada pot comportar restriccions proporcionades de contingut o compte. El nombre d'avisos per si sol no acredita una infracció; també es tenen en compte els avisos erronis i abusius."
+            }
+          ]
+        },
+        {
+          "heading": "Estats Units 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quan sigui aplicable el procediment de l'article §512, el suplement específic dels Estats Units identificarà l'agent designat i el procediment d'avís exigit. Aquesta pàgina general no afirma que Tailmance hagi completat cap registre ni que compleixi els requisits d'un règim legal de limitació de responsabilitat, llevat que el suplement dels Estats Units ho confirmi expressament."
+            }
+          ]
+        },
+        {
+          "heading": "Emergència o contingut il·legal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Un avís de propietat intel·lectual no substitueix una denúncia d'emergència o de contingut il·legal. Utilitza la denúncia in-app, el Centre de seguretat o Suport per a aquests casos."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Accessibilitat",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance considera l'ús accessible un requisit essencial del producte i té com a objectiu donar suport a una àmplia varietat de persones usuàries i tecnologies d'assistència."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Ús accessible",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La interfície es dissenya amb etiquetes clares, text llegible, contrast, text escalable, objectius tàctils adequats i compatibilitat amb tecnologies d'assistència. Qualsevol dret obligatori d'accessibilitat més elevat segons la legislació aplicable continua intacte."
+            }
+          ]
+        },
+        {
+          "heading": "Tecnologies d'assistència",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si tens problemes amb VoiceOver, TalkBack, text més gran, control per commutador, navegació amb teclat o una altra funció d'accessibilitat, contacta amb nosaltres i, quan sigui útil, indica el dispositiu, sistema operatiu i tecnologia d'assistència."
+            }
+          ]
+        },
+        {
+          "heading": "Sol·licitud d'accessibilitat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si no pots utilitzar una pantalla, control o contingut, o necessites una adaptació raonable, contacta amb yektaozel@icloud.com. No enviïs informació personal o sensible que no sigui necessària per explicar el problema."
+            }
+          ]
+        },
+        {
+          "heading": "Drets locals i abast",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aquesta pàgina no és una certificació independent d'accessibilitat ni una afirmació general de compliment de totes les normes tècniques o legals. No limita drets irrenunciables d'accessibilitat o consum, i poden aplicar-se drets locals addicionals."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Elimina el compte i les dades",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "La manera més ràpida d'eliminar un compte de Tailmance és Configuració → Elimina el compte permanentment. Si no pots accedir a l'aplicació, pots enviar una sol·licitud d'eliminació al web sense reinstal·lar-la."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Sol·licitud web d'eliminació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Les sol·licituds només es processen després d'una verificació adequada de la titularitat del compte. El formulari web està dissenyat per no revelar a terceres persones si una adreça de correu està associada a un compte de Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "Què s'elimina i què es pot conservar",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "L'eliminació inclou el compte, perfils de mascotes, contingut social i fotografies propis, registres de missatges/matches vinculats al compte, registres privats de salut/vacunació, ubicació privada i preferències, subjecte a les normes de conservació aplicables. Es poden conservar registres limitats de seguretat, prevenció del frau, litigis, comptabilitat o legals quan la llei ho exigeixi o permeti, tal com s'explica a la Política de privacitat i als suplements locals."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Suport i contacte",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Operador: Yekta Ozel. Per a ajuda sobre el compte, facturació, privacitat, seguretat o moderació, utilitza el Centre de seguretat i el Centre legal i de privacitat de l'aplicació o escriu a yektaozel@icloud.com."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Contacte de seguretat infantil",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Per a denúncies relacionades amb abús o explotació sexual infantil, contacta amb yektaozel@icloud.com i utilitza les eines de denúncia in-app quan estiguin disponibles. Si hi ha un perill immediat i greu, contacta amb el servei d'emergències o autoritat local corresponent."
+            }
+          ]
+        },
+        {
+          "heading": "Decisió de moderació",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilitza la via de Decisions de moderació i apel·lacions per a les apel·lacions de moderació elegibles."
+            }
+          ]
+        },
+        {
+          "heading": "Propietat intel·lectual",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilitza la pàgina de Propietat intel·lectual per a avisos d'infracció de drets d'autor, marques o altres drets."
+            }
+          ]
+        },
+        {
+          "heading": "Accessibilitat",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Utilitza la pàgina d'Accessibilitat o contacta amb nosaltres per a problemes d'accessibilitat i sol·licituds d'adaptació."
+            }
+          ]
+        },
+        {
+          "heading": "Eliminació del compte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si no pots accedir a l'aplicació, utilitza la via web de sol·licitud d'eliminació del compte."
+            }
+          ]
+        },
+        {
+          "heading": "Salut animal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance no és un servei veterinari ni d'emergències sanitàries. Per a problemes urgents de salut animal, contacta directament amb un servei veterinari adequat."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_consumer_supplement": {
+      "file": "consumer-language-supplement.html",
+      "title": "Complement de drets lingüístics de consum a Catalunya",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Aquest complement s'aplica només quan la relació de consum està vinculada a Catalunya i la normativa aplicable exigeix informació o documentació en català. No converteix la selecció d'idioma de l'aplicació en una elecció de jurisdicció."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Àmbit territorial i personal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "L'aplicabilitat depèn de la relació de consum, el lloc on s'ofereix o es contracta el servei i les normes imperatives aplicables. Tailmance no presumeix que una obligació lingüística catalana s'apliqui fora del seu àmbit legal."
+            }
+          ]
+        },
+        {
+          "heading": "2. Informació i documentació en català",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Quan la normativa catalana de consum reconegui el dret a rebre en català informació, documents contractuals o altres comunicacions obligatòries, Tailmance ha de facilitar la versió catalana corresponent sense substituir-la silenciosament per castellà o per una altra llengua."
+            }
+          ]
+        },
+        {
+          "heading": "3. Relació amb altres idiomes i drets",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "La disponibilitat d'una versió catalana no elimina els drets que puguin correspondre en castellà o en una altra llengua d'acord amb la legislació aplicable. Si dues normes ofereixen proteccions diferents, es preserven els drets imperatius de la persona consumidora."
+            }
+          ]
+        },
+        {
+          "heading": "4. Canvis de context",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Si canvien la residència habitual, el context subnacional o l'idioma documental exigible, Tailmance ha de tornar a resoldre la ruta legal i no pot reutilitzar automàticament una acceptació obtinguda sota un context diferent."
+            }
+          ]
+        },
+        {
+          "heading": "5. Fonts i reclamacions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Aquest complement es basa en les normes de consum i drets lingüístics aplicables a Catalunya. Els drets de reclamació davant els organismes de consum competents i qualsevol altre dret imperatiu continuen disponibles."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

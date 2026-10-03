@@ -1,0 +1,20 @@
+appId: com.pawlink.app
+---
+- launchApp:
+    clearState: true
+- assertVisible:
+    id: "auth.screen"
+- tapOn:
+    id: "auth.email"
+- inputText: ${TAILMANCE_E2E_ONBOARDING_EMAIL}
+- tapOn:
+    id: "auth.password"
+- inputText: ${TAILMANCE_E2E_ONBOARDING_PASSWORD}
+- hideKeyboard
+- tapOn:
+    id: "auth.primary"
+- extendedWaitUntil:
+    visible:
+      id: "onboarding.screen"
+    timeout: 20000
+- takeScreenshot: onboarding-entry

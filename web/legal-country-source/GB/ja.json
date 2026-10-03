@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "GB",
+  "country_display_name": "イギリス",
+  "document_locale": "ja",
+  "document_language_display_names": "英語",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "法域別リーガル補足",
+  "sections": [
+    {
+      "heading": "法的適用範囲",
+      "paragraphs": [
+        "この補足文書は、Tailmance が イギリス をお客様のアカウントに適用される法令上の国として判定した場合に適用されます。利用規約、プライバシー通知、コミュニティガイドライン、サブスクリプション通知その他の法的文書を補完するものであり、これらに代わるものではありません。",
+        "Tailmance は、その確認済みの国と、必要な場合には該当する地域または地方の法的枠組みに基づいて法的義務を適用します。アプリの言語変更、旅行、ストア地域の変更だけで適用される法的枠組みが自動的に変わることはありません。"
+      ]
+    },
+    {
+      "heading": "文書の言語",
+      "paragraphs": [
+        "この法的設定に関する拘束力のある文書は、必要な言語で提供されます：英語。特定の言語が必要な場合、Tailmance が通知なく別の言語に自動的に置き換えることはありません。",
+        "この版はアクセシビリティのための翻訳として提供されます。適用法またはこの法的設定で所定の言語版が必要な場合、その版に代わるものではありません。"
+      ]
+    },
+    {
+      "heading": "国別の法的要件",
+      "paragraphs": [
+        "適用国について、22分野の法的要件を出所が確認できる公的資料に基づいて確認しています。現行法と施行日は、提案、意見募集、将来の措置と区別され、提案を現行法として扱うことはありません。",
+        "資料レビュー日: 2026年10月1日。将来の措置、草案、意見募集は別途追跡し、現行法として表示しません。"
+      ]
+    },
+    {
+      "heading": "確認済みの法的枠組み",
+      "paragraphs": [
+        "この法的国について、Tailmance の公的資料レビューで確認対象として記録された主要な法的枠組みを以下に示します。掲載はレビュー範囲を示すだけです。各規則が現在施行中か、将来施行か、提案段階か、またはより限定された適用条件に従うかは、施行日と正確な適用範囲のコントロールで判断され、この一覧だけから推定されることはありません。"
+      ],
+      "items": [
+        "UK GDPR",
+        "Data Protection Act 2018",
+        "ICO International Transfers guidance",
+        "Online Safety Act 2023",
+        "Ofcom Online Safety guidance"
+      ]
+    },
+    {
+      "heading": "プライバシー、安全性、利用者の権利",
+      "paragraphs": [
+        "プライバシー権、データ請求、アカウントおよびデータの削除、国際移転、年齢確認、電子マーケティング、セキュリティおよび侵害通知の義務は、正確な法的状況に基づいて適用されます。通知、エクスポート、削除にはアプリ内のリーガルセンターを利用してください。"
+      ]
+    },
+    {
+      "heading": "サブスクリプションと消費者情報",
+      "paragraphs": [
+        "購入に利用するアプリストアが、表示されるサブスクリプション価格、通貨および適用される税の表示に関する基準となります。更新、解約および必要な契約前情報は購入前に提示されます。Tailmance は動物や物理商品を販売せず、動物売買に関する利用者間の支払いを処理しません。"
+      ]
+    },
+    {
+      "heading": "動物福祉と非商取引",
+      "paragraphs": [
+        "商業的な動物販売および商業繁殖を目的とするマーケットプレイスは禁止されています。飼い主同士で手配する交配は、その国で適用される動物福祉、繁殖、健康、血縁および適格性の要件を満たす場合にのみ利用でき、それ以外は機能が利用できません。"
+      ]
+    },
+    {
+      "heading": "連絡先と公的資料",
+      "paragraphs": [
+        "本通知に関する質問やプライバシー請求は yektaozel@icloud.com まで送付できます。この法的レビューで使用した公的資料は以下に記載しています。"
+      ],
+      "official_sources": [
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/",
+        "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+        "https://www.legislation.gov.uk/ukpga/2015/15/contents",
+        "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/childrens-access-assessment-duties-under-the-online-safety-act",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/protection-of-children-duties-under-the-online-safety-act",
+        "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
+        "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation/outcome/growing-up-in-the-online-world-progress-statement",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/selling-animals-as-pets-licensing-statutory-guidance-for-local-authorities--2",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/dog-breeding-licensing-statutory-guidance-for-local-authorities",
+        "https://www.gov.uk/government/collections/devolution-scotland-wales-and-northern-ireland",
+        "https://www.gov.uk/government/publications/action-plan-for-animal-welfare/action-plan-for-animal-welfare",
+        "https://www.legislation.gov.uk/asp/2006/11/contents",
+        "https://www.legislation.gov.uk/nia/2011/16/contents",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+        "https://www.legislation.gov.uk/uksi/2013/3134",
+        "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/",
+        "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+        "https://www.legislation.gov.uk/uksi/2002/2013/regulation/19",
+        "https://www.legislation.gov.uk/uksi/2003/2498/regulation/27",
+        "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/online-safety-regulatory-documents",
+        "https://www.gov.uk/government/publications/financial-sanctions-general-guidance/uk-financial-sanctions-general-guidance"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "1c10c4656d3ffcb9ab4cfe6ecb8ac8ad44f6a66b4d3929f7403a20e20f91531f",
+  "official_source_count": 49,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "UK GDPR",
+    "Data Protection Act 2018",
+    "ICO International Transfers guidance",
+    "Online Safety Act 2023",
+    "Ofcom Online Safety guidance"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "日本語"
+}

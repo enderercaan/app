@@ -1,0 +1,41 @@
+appId: com.pawlink.app
+---
+- launchApp:
+    clearState: true
+- assertVisible:
+    id: "auth.screen"
+- tapOn:
+    id: "auth.email"
+- inputText: ${TAILMANCE_E2E_READY_EMAIL}
+- tapOn:
+    id: "auth.password"
+- inputText: ${TAILMANCE_E2E_READY_PASSWORD}
+- hideKeyboard
+- tapOn:
+    id: "auth.primary"
+- extendedWaitUntil:
+    visible:
+      id: "tab.profile"
+    timeout: 20000
+- tapOn:
+    id: "tab.profile"
+- assertVisible:
+    id: "profile.screen"
+- takeScreenshot: profile-ready
+- tapOn:
+    id: "profile.open-verification"
+- extendedWaitUntil:
+    visible:
+      id: "verification.screen"
+    timeout: 10000
+- takeScreenshot: verification-center
+- back
+- assertVisible:
+    id: "profile.screen"
+- tapOn:
+    id: "profile.open-premium"
+- extendedWaitUntil:
+    visible:
+      id: "premium.screen"
+    timeout: 10000
+- takeScreenshot: premium-paywall

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "ES",
+  "country_display_name": "西班牙",
+  "document_locale": "zh-Hans",
+  "document_language_display_names": "西班牙语、加泰罗尼亚语、巴斯克语和加利西亚语",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "司法辖区专属法律补充说明",
+  "sections": [
+    {
+      "heading": "法律适用范围",
+      "paragraphs": [
+        "当 Tailmance 确定 西班牙 是其法律适用于您账户的国家时，本补充说明适用。它用于补充《使用条款》《隐私通知》《社区准则》《订阅通知》及其他法律文件，并不取代这些文件。",
+        "Tailmance 根据该已核实国家以及必要时适用的地区或地方性法律框架履行法律义务。仅更改应用语言、旅行或更改商店地区，不会自行改变适用法律。"
+      ]
+    },
+    {
+      "heading": "文件语言",
+      "paragraphs": [
+        "本法律配置下具有约束力的文件以所需语言提供：西班牙语、加泰罗尼亚语、巴斯克语和加利西亚语。如必须使用特定语言，Tailmance 不会在未告知您的情况下自动改用其他语言。",
+        "此版本作为无障碍翻译提供。如果适用法律或本法律配置要求特定的必需语言版本，本版本不会取代该版本。"
+      ]
+    },
+    {
+      "heading": "国家特定法律要求",
+      "paragraphs": [
+        "针对适用国家，Tailmance 根据来源明确的官方资料审查二十二类法律要求。现行法律及其生效日期与提案、征求意见稿和未来措施严格区分；提案绝不会被当作现行法律执行。",
+        "来源审查日期：2026年10月1日。未来措施、草案和征求意见事项单独跟踪，不会被表述为现行法律。"
+      ]
+    },
+    {
+      "heading": "已审查的法律框架",
+      "paragraphs": [
+        "下方列出 Tailmance 针对适用国家在官方来源审查中记录的主要法律框架。列入清单仅表示审查范围；某项规则是当前生效、未来生效、仍属提案，还是受更窄的适用条件限制，由生效日期和精确适用范围控制决定，绝不会仅凭此清单作出推断。"
+      ],
+      "items": [
+        "EU GDPR",
+        "LOPDGDD",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "隐私、安全与用户权利",
+      "paragraphs": [
+        "隐私权、数据请求、账户与数据删除、国际传输、年龄核验、电子营销以及安全与数据泄露通知义务均按精确法律环境执行。请使用应用内“法律中心”查看通知、导出和删除路径。"
+      ]
+    },
+    {
+      "heading": "订阅与消费者信息",
+      "paragraphs": [
+        "完成购买所使用的应用商店是所显示订阅价格、货币及适用税费显示方式的依据。续订、取消及所需的合同前信息会在购买前展示。Tailmance 不销售动物或实体商品，也不处理用户之间的动物买卖付款。"
+      ]
+    },
+    {
+      "heading": "动物福利与非商业交易",
+      "paragraphs": [
+        "禁止商业性动物销售及用于商业繁育的市场活动。只有在满足适用国家关于动物福利、繁育、健康、亲缘关系和资格的要求时，才可使用由宠物主人自行安排的配对；否则该功能保持关闭。"
+      ]
+    },
+    {
+      "heading": "联系方式与官方来源",
+      "paragraphs": [
+        "有关这些通知的问题或隐私请求可发送至 yektaozel@icloud.com。下方列出了本次法律审查使用的官方来源。"
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.boe.es/eli/es/l/2002/07/11/34",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2026/20260203-intervencion-pg-word-governments-summit.aspx",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7936",
+        "https://www.boe.es/eli/es-pv/l/2023/04/27/4",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3280",
+        "https://www.kontsumobide.euskadi.eus/hizkuntza-eskubideak-eta-enpresen-betebeharrak/webkon01-content/eu/",
+        "https://consum.gencat.cat/ca/el-consum/durant-la-compra/drets-linguistics-/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5595",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "0666b085dce395e78c77ba7fa21aa59f851c5cd5a935802a0b873ea43bccfccb",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "LOPDGDD",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "es",
+    "ca",
+    "eu",
+    "gl"
+  ],
+  "display_language_name": "简体中文"
+}

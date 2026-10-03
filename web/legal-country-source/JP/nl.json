@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "JP",
+  "country_display_name": "Japan",
+  "document_locale": "nl",
+  "document_language_display_names": "Japans",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Jurisdictiespecifieke juridische aanvulling",
+  "sections": [
+    {
+      "heading": "Juridische reikwijdte",
+      "paragraphs": [
+        "Deze aanvulling geldt wanneer Tailmance vaststelt dat Japan het land is waarvan het recht op uw account van toepassing is. Zij vult de Gebruiksvoorwaarden, Privacyverklaring, Communityrichtlijnen, abonnementsinformatie en andere juridische documenten aan en vervangt die niet.",
+        "Tailmance past juridische verplichtingen toe op basis van dat geverifieerde land en, waar vereist, het toepasselijke regionale of lokale rechtskader. Een wijziging van de app-taal, reizen of een wijziging van de store-regio verandert dat rechtskader niet automatisch."
+      ]
+    },
+    {
+      "heading": "Documenttaal",
+      "paragraphs": [
+        "De bindende juridische documenten voor deze juridische configuratie worden beschikbaar gehouden in de vereiste taal of talen: Japans. Wanneer een bepaalde documenttaal verplicht is, wordt die niet zonder kennisgeving automatisch door een andere taal vervangen.",
+        "Deze versie wordt aangeboden als toegankelijkheidsvertaling. Zij vervangt geen verplichte taalversie wanneer het toepasselijke recht of deze juridische configuratie die vereist."
+      ]
+    },
+    {
+      "heading": "Landspecifieke juridische vereisten",
+      "paragraphs": [
+        "Voor het toepasselijke land worden tweeëntwintig gebieden van juridische vereisten getoetst aan herleidbare officiële bronnen. Geldend recht en ingangsdata worden gescheiden van voorstellen, consultaties en toekomstige maatregelen; een voorstel wordt nooit als geldend recht behandeld.",
+        "Datum bronbeoordeling: 1 oktober 2026. Toekomstige maatregelen, ontwerpen en consultaties worden afzonderlijk gevolgd en niet als geldend recht weergegeven."
+      ]
+    },
+    {
+      "heading": "Beoordeelde juridische kaders",
+      "paragraphs": [
+        "Hieronder staan de belangrijkste juridische kaders die in de officiële-bronnenbeoordeling van Tailmance voor dit rechtsland zijn opgenomen. Vermelding geeft alleen de reikwijdte van de beoordeling aan: of een regel nu geldt, later in werking treedt, slechts is voorgesteld of alleen onder een beperktere toepasselijkheidsvoorwaarde geldt, wordt bepaald door de controles op ingangsdatum en exacte toepasselijkheid en nooit uitsluitend uit deze lijst afgeleid."
+      ],
+      "items": [
+        "APPI, consolidated rules/guidelines"
+      ]
+    },
+    {
+      "heading": "Privacy, veiligheid en gebruikersrechten",
+      "paragraphs": [
+        "Privacyrechten, gegevensverzoeken, account- en gegevensverwijdering, internationale doorgiften, leeftijdscontrole, elektronische marketing en verplichtingen rond beveiliging en datalekken worden toegepast binnen de exacte juridische context. Gebruik het Juridisch Centrum in de app voor kennisgevingen, export en verwijdering."
+      ]
+    },
+    {
+      "heading": "Abonnementen en consumenteninformatie",
+      "paragraphs": [
+        "De appwinkel waarmee de aankoop wordt gedaan, is leidend voor de weergegeven abonnementsprijs, valuta en toepasselijke belastingweergave. Verlenging, opzegging en vereiste precontractuele informatie worden vóór aankoop getoond. Tailmance verkoopt geen dieren of fysieke producten en verwerkt geen betalingen tussen gebruikers voor de verkoop van dieren."
+      ]
+    },
+    {
+      "heading": "Dierenwelzijn en geen handelsplatform",
+      "paragraphs": [
+        "Commerciële dierenverkoop en marktplaatsen voor commerciële fokkerij zijn verboden. Door eigenaren georganiseerde paringen zijn alleen beschikbaar wanneer aan de toepasselijke landspecifieke eisen voor dierenwelzijn, fokkerij, gezondheid, verwantschap en geschiktheid is voldaan; anders blijft de functie geblokkeerd."
+      ]
+    },
+    {
+      "heading": "Contact en officiële bronnen",
+      "paragraphs": [
+        "Vragen over deze kennisgevingen of privacyverzoeken kunnen worden gestuurd naar yektaozel@icloud.com. De officiële bronnen die voor deze juridische beoordeling zijn gebruikt, staan hieronder."
+      ],
+      "official_sources": [
+        "https://www.ppc.go.jp/en/legal/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+        "https://www.ppc.go.jp/news/press/2026/260717/",
+        "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+        "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+        "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+        "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+        "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+        "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+        "https://www.digital.go.jp/accessibility-statement",
+        "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "5c60be24566ec78070e2ed720356cf4a4c7f8a83dd1af56d1cd7f737be9766b0",
+  "official_source_count": 42,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "APPI, consolidated rules/guidelines"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ja"
+  ],
+  "display_language_name": "Nederlands"
+}

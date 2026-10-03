@@ -1,0 +1,47 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {deriveSourceGapSummary, CANONICAL_CONTROL_FAMILIES} from './lib/legal-source-state.mjs';
+const read=p=>JSON.parse(readFileSync(p,'utf8'));
+const registry=read('release/country-release-gates.json');
+const source=read('release/official-source-review-v19.json');
+const language=read('release/legal-language-review-v19.json');
+const approval=read('release/configured-market-legal-language-source-approval-v20.json');
+const supplements=read('release/country-legal-supplement-manifest-v20.json');
+const subnational=read('release/subnational-source-review-v19.json');
+const expected=['AE','AT','AU','BE','BR','CA','CN','DE','ES','FR','GB','ID','IE','IN','IT','JP','KR','NL','PL','RU','SA','SG','TH','TR','TW','US','VN'];
+const topics=source.required_topic_families; const controls=CANONICAL_CONTROL_FAMILIES;
+assert.equal(registry.schema_version,5); assert.equal(source.schema_version,3); assert.equal(language.schema_version,1);
+assert.deepEqual(Object.keys(registry.markets).sort(),expected); assert.deepEqual(Object.keys(source.markets).sort(),expected); assert.deepEqual(Object.keys(language.markets).sort(),expected); assert.deepEqual(Object.keys(subnational.markets).sort(),expected);
+assert.equal(topics.length,22); assert.equal(controls.length,22); assert.deepEqual(registry.default_policy.required_controls,controls);
+assert.equal(approval.summary.source_legal_approved_markets,27); assert.equal(approval.summary.language_source_approved_markets,27); assert.equal(approval.summary.official_source_topic_cells,594); assert.equal(approval.summary.exact_country_language_routes,594); assert.equal(approval.summary.binding_country_language_routes,34); assert.equal(approval.summary.accessibility_translation_routes,560); assert.equal(approval.summary.source_legal_language_blockers,0);
+assert.equal(supplements.summary.markets,27); assert.equal(supplements.summary.routes,594); assert.equal(supplements.summary.binding_routes,34); assert.equal(supplements.summary.accessibility_translation_routes,560);
+assert.equal(registry.source_approval_model.external_counsel_required_for_source_approval,false); assert.equal(language.source_approval_model.external_counsel_required_for_source_approval,false); assert.equal(subnational.source_approval_model.external_counsel_required_for_source_approval,false);
+assert.equal(language.legal_approval,'approved_internal_legal_language_qa'); assert.equal(subnational.legal_approval,true);
+assert.equal(registry.default_policy.context_rules.ui_locale_is_not_legal_country,true); assert.equal(registry.default_policy.context_rules.previous_country_acceptance_never_carries_forward,true); assert.equal(registry.default_policy.language_release_policy.ui_locale_is_not_document_locale,true); assert.equal(registry.default_policy.language_release_policy.machine_translation_is_not_professional_legal_localization,true); assert.match(registry.default_policy.language_release_policy.fallback_to_another_legal_language,/BLOCK/);
+let topicCells=0, controlCells=0, allLanguageRoutes=0, bindingRoutes=0;
+for(const code of expected){
+  const m=registry.markets[code], s=source.markets[code], l=language.markets[code], sub=subnational.markets[code], a=approval.markets[code];
+  assert.equal(m.legal_review_status,'PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW',`${code}: registry legal review`); assert.equal(m.legal_approval,'approved_internal_official_source_review',`${code}: registry legal approval`); assert.match(m.release_status,/SOURCE_LEGAL_LANGUAGE_PASS/,`${code}: source legal/language release state`); assert.ok(m.reviewer&&m.reviewed_at&&m.review_valid_until,`${code}: internal review attribution`); assert.ok(m.evidence_reference.length>0,`${code}: registry evidence`);
+  assert.equal(m.subnational_review.status,'PASS_INTERNAL_SUBNATIONAL_SOURCE_REVIEW',`${code}: registry subnational`); assert.ok(m.subnational_review.evidence_reference.length>0,`${code}: registry subnational evidence`);
+  assert.deepEqual(m.legal_language_release_policy.required_document_locales_for_tailmance_release,m.required_release_locales,`${code}: binding locales parity`); assert.equal(m.legal_language_release_policy.status,'PASS_INTERNAL_LEGAL_LANGUAGE_QA'); assert.equal(m.legal_language_release_policy.machine_translation_accepted_as_final,false); assert.equal(m.legal_language_release_policy.silent_cross_language_acceptance_allowed,false);
+  for(const control of controls){const c=m.compliance[control]; assert.ok(c,`${code}/${control}: control missing`); controlCells++; assert.equal(c.status,'PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW',`${code}/${control}: source control status`); assert.ok(Array.isArray(c.evidence_reference),`${code}/${control}: evidence array`);}
+  assert.equal(s.screening_status,'PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW'); assert.equal(s.legal_approval,'approved_internal_official_source_review'); assert.ok(s.official_sources.length>0); assert.ok(s.timing_notes?.length>=0); assert.equal(s.last_official_source_recheck,'2026-10-01');
+  for(const topic of topics){const t=s.topics[topic]; topicCells++; assert.ok(t,`${code}/${topic}: topic missing`); assert.equal(t.status,'PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW',`${code}/${topic}: source status`); assert.equal(t.evidence_classification,'official_source_internal_legal_review_complete',`${code}/${topic}: evidence classification`); assert.ok(t.evidence_reference.length>0,`${code}/${topic}: official evidence missing`); for(const u of t.evidence_reference) assert.match(u,/^https:\/\//,`${code}/${topic}: non-HTTPS source`);}
+  assert.equal(l.statutory_language_review_status,'PASS_INTERNAL_STATUTORY_LANGUAGE_SCOPE_REVIEW',`${code}: statutory-language scope`); assert.equal(l.professional_legal_localization_status,'PASS_INTERNAL_LEGAL_LANGUAGE_QA_NO_CERTIFICATION_CLAIM'); assert.equal(l.source_legal_localization_status,'PASS_INTERNAL_LEGAL_LANGUAGE_QA'); assert.equal(l.release_status,'PASS_SOURCE_LEGAL_LANGUAGE'); assert.deepEqual(l.approved_document_locales,l.launch_document_locales); assert.deepEqual(l.launch_document_locales,m.required_release_locales); assert.equal(l.all_supported_accessibility_document_locales.length,22,`${code}: all supported legal locales`); assert.ok(l.localization_evidence_reference?.length>0); assert.ok(l.reviewer&&l.reviewed_at&&l.review_valid_until);
+  assert.equal(sub.screening_status,'PASS_INTERNAL_SUBNATIONAL_SOURCE_REVIEW'); assert.equal(sub.legal_approval,true); assert.equal(sub.source_matrix_status,'PASS_INTERNAL_SUBNATIONAL_SOURCE_REVIEW'); assert.equal(sub.release_status,'PASS_SOURCE_REVIEW__EXACT_RUNTIME_CONTEXT_FAIL_CLOSED'); assert.ok(sub.official_sources.length>0);
+  assert.equal(a.legal_source_status,'PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW'); assert.equal(a.language_source_status,'PASS_INTERNAL_LEGAL_LANGUAGE_QA'); assert.equal(a.external_counsel_required_for_source_approval,false); assert.equal(a.all_supported_country_document_locale_route_count,22,`${code}: 22 accessibility routes`); allLanguageRoutes+=a.all_supported_country_document_locale_route_count; bindingRoutes+=a.exact_country_document_locale_route_count;
+  assert.equal(m.applicability_effective_date_review.future_or_not_yet_effective_rules_are_not_current_obligations,true,`${code}: temporal invariant`);
+}
+assert.equal(topicCells,594); assert.equal(controlCells,594); assert.equal(allLanguageRoutes,594); assert.equal(bindingRoutes,34);
+const gap=deriveSourceGapSummary(source); assert.equal(gap.topic_cells_total,594); assert.equal(gap.empty_evidence_cells_total,0); assert.equal(gap.remaining_topic_source_presence_gaps,0);
+// High-volatility 2026 anchors: proposals/future law must not silently become current.
+const must=(cc,topic,url,needle)=>{assert.ok(source.markets[cc].topics[topic].evidence_reference.includes(url),`${cc}/${topic}: source missing`); assert.ok(source.markets[cc].timing_notes.some(x=>x.includes(needle)),`${cc}: timing anchor missing ${needle}`)};
+must('AE','age_age_assurance','https://uaelegislation.gov.ae/en/legislations/4506','Cabinet Resolution No. 106 of 2026');
+must('AU','age_age_assurance','https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions','Social Media Minimum Age');
+must('GB','privacy_data_protection','https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/','Data (Use and Access) Act 2025');
+must('JP','privacy_data_protection','https://www.ppc.go.jp/news/press/2026/260717/','17 July 2026 APPI amendment');
+must('KR','cybersecurity_breach_notification','https://law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000089686','11 September 2026');
+must('US','privacy_data_protection','https://cppa.ca.gov/regulations/ccpa_updates.html','California CPPA final CCPA');
+for(const code of ['BR','ID','SG','TH']) assert.ok(registry.markets[code].special_gates.includes('Android_developer_verification_certified_device_enforcement_effective_2026_09_30_initial_market_if_distributed_on_participating_stores'));
+for(const unlisted of ['NZ','MX','CH','SE','ZA']){assert.equal(registry.markets[unlisted],undefined); assert.equal(registry.default_policy.unknown_or_unlisted_iso_country,'BLOCK');}
+console.log(`country-registry-tests: PASS ${expected.length}/27 markets; ${topicCells}/594 official-source legal topic cells; ${controlCells}/594 runtime source controls; ${bindingRoutes}/34 binding + ${allLanguageRoutes}/594 all-language country routes; 27/27 legal/language/subnational source approval`);

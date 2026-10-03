@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "JP",
+  "country_display_name": "Japonya",
+  "document_locale": "tr",
+  "document_language_display_names": "Japonca",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Ülkeye Özgü Hukuki Ek",
+  "sections": [
+    {
+      "heading": "Hukuki kapsam",
+      "paragraphs": [
+        "Bu ek, Tailmance Japonya ülkesinin hesabınıza uygulanacak hukukun ülkesi olduğunu belirlediğinde uygulanır. Kullanım Koşulları, Gizlilik Bildirimi, Topluluk Kuralları, abonelik bildirimi ve diğer hukuki belgeleri tamamlar; bunların yerine geçmez.",
+        "Tailmance hukuki yükümlülükleri bu doğrulanmış ülkeye ve gerektiğinde uygulanabilir bölgesel veya yerel hukuk çerçevesine göre uygular. Uygulama dilini değiştirmek, seyahat etmek veya mağaza bölgesini değiştirmek tek başına uygulanacak hukuku değiştirmez."
+      ]
+    },
+    {
+      "heading": "Belge dili",
+      "paragraphs": [
+        "Bu hukuki yapılandırma için bağlayıcı belgeler gerekli dil veya dillerde sunulur: Japonca. Belirli bir dil zorunluysa Tailmance başka bir dili bildirim yapmadan otomatik olarak onun yerine kullanmaz.",
+        "Bu sürüm erişilebilirlik amacıyla çeviri olarak sunulur. Uygulanabilir hukuk veya bu hukuki yapılandırma zorunlu bir dil sürümü gerektiriyorsa onun yerine geçmez."
+      ]
+    },
+    {
+      "heading": "Ülkeye özgü hukuki gereklilikler",
+      "paragraphs": [
+        "Uygulanacak ülke için yirmi iki hukuki gereklilik alanı, kaynağı belirli resmî kaynaklara göre incelenir. Yürürlükteki hukuk ve yürürlük tarihleri; teklifler, istişareler ve gelecekteki düzenlemelerden ayrı tutulur; bir teklif hiçbir zaman yürürlükteki hukuk olarak uygulanmaz.",
+        "Kaynak inceleme tarihi: 1 Ekim 2026. Gelecekteki düzenlemeler, taslaklar ve istişareler ayrı izlenir ve yürürlükteki hukuk olarak sunulmaz."
+      ]
+    },
+    {
+      "heading": "İncelenen hukuki çerçeveler",
+      "paragraphs": [
+        "Uygulanacak ülke için Tailmance’ın resmî kaynak incelemesinde kayıtlı başlıca hukuki çerçeveler aşağıda yer alır. Listede bulunması yalnız inceleme kapsamını gösterir: bir kuralın bugün yürürlükte, gelecekte yürürlüğe girecek, yalnızca teklif aşamasında veya daha dar bir uygulanabilirlik koşuluna bağlı olup olmadığı yürürlük tarihi ve kesin uygulanabilirlik kontrolleriyle belirlenir; yalnız bu listeden sonuç çıkarılmaz."
+      ],
+      "items": [
+        "APPI, consolidated rules/guidelines"
+      ]
+    },
+    {
+      "heading": "Gizlilik, güvenlik ve kullanıcı hakları",
+      "paragraphs": [
+        "Gizlilik hakları, veri talepleri, hesap ve veri silme, uluslararası aktarımlar, yaş doğrulaması, elektronik pazarlama ile güvenlik ve ihlal bildirim yükümlülükleri tam hukuki bağlam üzerinden uygulanır. Bildirimler, dışa aktarma ve silme işlemleri için uygulamadaki Hukuk Merkezi’ni kullanabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Abonelikler ve tüketici bilgileri",
+      "paragraphs": [
+        "Satın almanın yapıldığı uygulama mağazası, gösterilen abonelik fiyatı, para birimi ve uygulanabilir vergi gösterimi için esas kaynaktır. Yenileme, iptal ve gerekli sözleşme öncesi bilgiler satın alma öncesinde gösterilir. Tailmance hayvan veya fiziksel ürün satmaz ve kullanıcılar arası hayvan satışı ödemelerini işlemez."
+      ]
+    },
+    {
+      "heading": "Hayvan refahı ve ticari olmayan yapı",
+      "paragraphs": [
+        "Ticari hayvan satışı ve ticari yetiştiriciliğe yönelik pazaryeri faaliyeti yasaktır. Sahiplerin kendi aralarında düzenlediği çiftleştirme yalnızca ilgili ülkede geçerli hayvan refahı, yetiştiricilik, sağlık, akrabalık ve uygunluk şartları karşılandığında kullanılabilir; aksi halde özellik kapalı kalır."
+      ]
+    },
+    {
+      "heading": "İletişim ve resmî kaynaklar",
+      "paragraphs": [
+        "Bu bildirimlerle ilgili sorular veya gizlilik talepleri yektaozel@icloud.com adresine gönderilebilir. Bu hukuki incelemede kullanılan resmî kaynaklar aşağıda listelenmiştir."
+      ],
+      "official_sources": [
+        "https://www.ppc.go.jp/en/legal/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+        "https://www.ppc.go.jp/news/press/2026/260717/",
+        "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+        "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+        "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+        "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+        "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+        "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+        "https://www.digital.go.jp/accessibility-statement",
+        "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "5c60be24566ec78070e2ed720356cf4a4c7f8a83dd1af56d1cd7f737be9766b0",
+  "official_source_count": 42,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "APPI, consolidated rules/guidelines"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ja"
+  ],
+  "display_language_name": "Türkçe"
+}

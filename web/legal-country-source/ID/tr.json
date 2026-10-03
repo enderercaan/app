@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "ID",
+  "country_display_name": "Endonezya",
+  "document_locale": "tr",
+  "document_language_display_names": "Endonezce",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Ülkeye Özgü Hukuki Ek",
+  "sections": [
+    {
+      "heading": "Hukuki kapsam",
+      "paragraphs": [
+        "Bu ek, Tailmance Endonezya ülkesinin hesabınıza uygulanacak hukukun ülkesi olduğunu belirlediğinde uygulanır. Kullanım Koşulları, Gizlilik Bildirimi, Topluluk Kuralları, abonelik bildirimi ve diğer hukuki belgeleri tamamlar; bunların yerine geçmez.",
+        "Tailmance hukuki yükümlülükleri bu doğrulanmış ülkeye ve gerektiğinde uygulanabilir bölgesel veya yerel hukuk çerçevesine göre uygular. Uygulama dilini değiştirmek, seyahat etmek veya mağaza bölgesini değiştirmek tek başına uygulanacak hukuku değiştirmez."
+      ]
+    },
+    {
+      "heading": "Belge dili",
+      "paragraphs": [
+        "Bu hukuki yapılandırma için bağlayıcı belgeler gerekli dil veya dillerde sunulur: Endonezce. Belirli bir dil zorunluysa Tailmance başka bir dili bildirim yapmadan otomatik olarak onun yerine kullanmaz.",
+        "Bu sürüm erişilebilirlik amacıyla çeviri olarak sunulur. Uygulanabilir hukuk veya bu hukuki yapılandırma zorunlu bir dil sürümü gerektiriyorsa onun yerine geçmez."
+      ]
+    },
+    {
+      "heading": "Ülkeye özgü hukuki gereklilikler",
+      "paragraphs": [
+        "Uygulanacak ülke için yirmi iki hukuki gereklilik alanı, kaynağı belirli resmî kaynaklara göre incelenir. Yürürlükteki hukuk ve yürürlük tarihleri; teklifler, istişareler ve gelecekteki düzenlemelerden ayrı tutulur; bir teklif hiçbir zaman yürürlükteki hukuk olarak uygulanmaz.",
+        "Kaynak inceleme tarihi: 1 Ekim 2026. Gelecekteki düzenlemeler, taslaklar ve istişareler ayrı izlenir ve yürürlükteki hukuk olarak sunulmaz."
+      ]
+    },
+    {
+      "heading": "İncelenen hukuki çerçeveler",
+      "paragraphs": [
+        "Uygulanacak ülke için Tailmance’ın resmî kaynak incelemesinde kayıtlı başlıca hukuki çerçeveler aşağıda yer alır. Listede bulunması yalnız inceleme kapsamını gösterir: bir kuralın bugün yürürlükte, gelecekte yürürlüğe girecek, yalnızca teklif aşamasında veya daha dar bir uygulanabilirlik koşuluna bağlı olup olmadığı yürürlük tarihi ve kesin uygulanabilirlik kontrolleriyle belirlenir; yalnız bu listeden sonuç çıkarılmaz."
+      ],
+      "items": [
+        "Law No. 27 of 2022 on Personal Data Protection"
+      ]
+    },
+    {
+      "heading": "Gizlilik, güvenlik ve kullanıcı hakları",
+      "paragraphs": [
+        "Gizlilik hakları, veri talepleri, hesap ve veri silme, uluslararası aktarımlar, yaş doğrulaması, elektronik pazarlama ile güvenlik ve ihlal bildirim yükümlülükleri tam hukuki bağlam üzerinden uygulanır. Bildirimler, dışa aktarma ve silme işlemleri için uygulamadaki Hukuk Merkezi’ni kullanabilirsiniz."
+      ]
+    },
+    {
+      "heading": "Abonelikler ve tüketici bilgileri",
+      "paragraphs": [
+        "Satın almanın yapıldığı uygulama mağazası, gösterilen abonelik fiyatı, para birimi ve uygulanabilir vergi gösterimi için esas kaynaktır. Yenileme, iptal ve gerekli sözleşme öncesi bilgiler satın alma öncesinde gösterilir. Tailmance hayvan veya fiziksel ürün satmaz ve kullanıcılar arası hayvan satışı ödemelerini işlemez."
+      ]
+    },
+    {
+      "heading": "Hayvan refahı ve ticari olmayan yapı",
+      "paragraphs": [
+        "Ticari hayvan satışı ve ticari yetiştiriciliğe yönelik pazaryeri faaliyeti yasaktır. Sahiplerin kendi aralarında düzenlediği çiftleştirme yalnızca ilgili ülkede geçerli hayvan refahı, yetiştiricilik, sağlık, akrabalık ve uygunluk şartları karşılandığında kullanılabilir; aksi halde özellik kapalı kalır."
+      ]
+    },
+    {
+      "heading": "İletişim ve resmî kaynaklar",
+      "paragraphs": [
+        "Bu bildirimlerle ilgili sorular veya gizlilik talepleri yektaozel@icloud.com adresine gönderilebilir. Bu hukuki incelemede kullanılan resmî kaynaklar aşağıda listelenmiştir."
+      ],
+      "official_sources": [
+        "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+        "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+        "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/965/t/peraturan%2Bpemerintah%2Bnomor%2B17%2Btahun%2B2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/1007/t/peraturan%2Bmenteri%2Bkomunikasi%2Bdan%2Bdigital%2Bnomor%2B9%2Btahun%2B2026",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10541",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10560",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://peraturan.bpk.go.id/Details/342589/permentan-no-32-tahun-2025",
+        "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014",
+        "https://jdih.komdigi.go.id/produk_hukum/abstrak/547",
+        "https://peraturan.bpk.go.id/Download/27970/UU%20Nomor%2024%20Tahun%202009.pdf",
+        "https://peraturan.bpk.go.id/Details/37251/uu-no-8-tahun-2016",
+        "https://peraturan.bpk.go.id/Download/133719/PP%20Nomor%2042%20Tahun%202020.pdf",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+        "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+        "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat",
+        "https://peraturan.bpk.go.id/Details/350898/permenkum-no-47-tahun-2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang%2Bnomor%2B27%2Btahun%2B",
+        "https://www.ppatk.go.id/dalam_negeri/read/1400/daftar-terduga-teroris-dan-organisasi-teroris-dttot.html"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "41c8f0ecc7b97623c5aa13dd82a927cc55a1a737745ece8f695c2e6ff9a11ed3",
+  "official_source_count": 48,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Law No. 27 of 2022 on Personal Data Protection"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "id"
+  ],
+  "display_language_name": "Türkçe"
+}

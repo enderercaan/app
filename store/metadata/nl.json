@@ -1,0 +1,22 @@
+{
+  "locale": "nl",
+  "appName": "Tailmance",
+  "apple": {
+    "subtitle": "Sociaal voor huisdieren",
+    "promotionalText": "Ontdek passende huisdieren, leg wederzijds contact, chat veiliger, bekijk gezondheidsinformatie en plan ontmoetingen voor honden en katten.",
+    "description": "Tailmance is een sociale app waarmee volwassen honden- en kattenbezitters huisdieren kunnen ontdekken en met elkaar in contact kunnen brengen. De zichtbare sociale identiteit hoort bij het dier; account-, veiligheids-, betaal- en privégezondheidsgegevens blijven daarvan gescheiden.\n\nMaak een profiel met drie foto’s, regio, kenmerken en ontmoetingsdoelen. Ontdek passende huisdieren, toon interesse of sla een profiel over en chat pas wanneer de interesse wederzijds is. Gebruik het overzicht, verhalen, evenementen en de planning van ontmoetingen.\n\nDe veiligheidsfuncties omvatten rapporteren, blokkeren, contact verbreken, contentmoderatie, locatieprivacy door alleen een benaderde locatie te gebruiken, afzonderlijke verificatiesignalen voor huisdier en eigenaar en beoordelingssignalen voor gezondheidsdocumenten. Premium voegt onbeperkte berichten en extra ontdekkingsinstellingen toe.\n\nTailmance is alleen voor gebruikers van 18 jaar en ouder. Verificatiebadges zijn vertrouwenssignalen, geen garanties. Raadpleeg voor gezondheids- of fokbeslissingen een gekwalificeerde dierenarts en volg de lokale wetgeving.",
+    "keywords": "huisdieren,honden,katten,vrienden,contact,wandelingen,ontmoetingen,sociaal"
+  },
+  "google": {
+    "shortDescription": "Ontdek passende huisdieren, leg contact, chat veiliger en plan ontmoetingen.",
+    "fullDescription": "Tailmance is een sociale app waarmee volwassen honden- en kattenbezitters huisdieren kunnen ontdekken en met elkaar in contact kunnen brengen. De zichtbare sociale identiteit hoort bij het dier; account-, veiligheids-, betaal- en privégezondheidsgegevens blijven daarvan gescheiden.\n\nMaak een profiel met drie foto’s, regio, kenmerken en ontmoetingsdoelen. Ontdek passende huisdieren, toon interesse of sla een profiel over en chat pas wanneer de interesse wederzijds is. Gebruik het overzicht, verhalen, evenementen en de planning van ontmoetingen.\n\nDe veiligheidsfuncties omvatten rapporteren, blokkeren, contact verbreken, contentmoderatie, locatieprivacy door alleen een benaderde locatie te gebruiken, afzonderlijke verificatiesignalen voor huisdier en eigenaar en beoordelingssignalen voor gezondheidsdocumenten. Premium voegt onbeperkte berichten en extra ontdekkingsinstellingen toe.\n\nTailmance is alleen voor gebruikers van 18 jaar en ouder. Verificatiebadges zijn vertrouwenssignalen, geen garanties. Raadpleeg voor gezondheids- of fokbeslissingen een gekwalificeerde dierenarts en volg de lokale wetgeving."
+  },
+  "screenshotCaptions": [
+    "Een sociale identiteit rond jouw huisdier",
+    "Ontdek passende huisdieren met uitgebreide filters",
+    "Wederzijdse interesse vóór een privégesprek",
+    "Veiligheid, rapportage en privacy binnen handbereik",
+    "Privégezondheid en verificatiesignalen",
+    "Overzicht, evenementen en ontmoetingen voor een actieve gemeenschap"
+  ]
+}

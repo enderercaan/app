@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "O Tailmance acessa somente as fotos que você escolher para perfis de pets e publicações sociais.",
+    "NSCameraUsageDescription": "O Tailmance usa a câmera para fotos de pets, stories e verificação de pets.",
+    "NSLocationWhenInUseUsageDescription": "O Tailmance usa sua localização aproximada para mostrar pets próximos com base na distância."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

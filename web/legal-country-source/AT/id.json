@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "AT",
+  "country_display_name": "Austria",
+  "document_locale": "id",
+  "document_language_display_names": "Jerman",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemen hukum khusus yurisdiksi",
+  "sections": [
+    {
+      "heading": "Ruang lingkup hukum",
+      "paragraphs": [
+        "Suplemen ini berlaku ketika Tailmance menetapkan bahwa Austria adalah negara yang hukumnya berlaku untuk akun Anda. Dokumen ini melengkapi Ketentuan Penggunaan, Pemberitahuan Privasi, Pedoman Komunitas, pemberitahuan langganan, dan dokumen hukum lainnya; dokumen ini tidak menggantikannya.",
+        "Tailmance menerapkan kewajiban hukum berdasarkan negara terverifikasi tersebut dan, jika diperlukan, kerangka hukum regional atau lokal yang berlaku. Mengubah bahasa aplikasi, bepergian, atau mengubah wilayah toko tidak dengan sendirinya mengubah kerangka hukum tersebut."
+      ]
+    },
+    {
+      "heading": "Bahasa dokumen",
+      "paragraphs": [
+        "Dokumen hukum yang mengikat untuk konfigurasi hukum ini tersedia dalam bahasa yang diwajibkan: Jerman. Jika bahasa tertentu diwajibkan, Tailmance tidak menggantinya secara otomatis dan tanpa pemberitahuan dengan bahasa lain.",
+        "Versi ini disediakan sebagai terjemahan untuk aksesibilitas. Versi ini tidak menggantikan versi dalam bahasa yang diwajibkan apabila hukum yang berlaku atau konfigurasi hukum ini mensyaratkannya."
+      ]
+    },
+    {
+      "heading": "Persyaratan hukum khusus negara",
+      "paragraphs": [
+        "Dua puluh dua bidang persyaratan hukum ditinjau untuk negara yang berlaku berdasarkan sumber resmi yang dapat diidentifikasi. Hukum yang berlaku dan tanggal berlakunya dipisahkan dari usulan, konsultasi, dan langkah masa depan; usulan tidak pernah diperlakukan sebagai hukum yang berlaku.",
+        "Tanggal tinjauan sumber: 1 Oktober 2026. Langkah masa depan, rancangan, dan konsultasi dipantau secara terpisah dan tidak ditampilkan sebagai hukum yang berlaku."
+      ]
+    },
+    {
+      "heading": "Kerangka hukum yang ditinjau",
+      "paragraphs": [
+        "Kerangka hukum utama yang dicatat dalam tinjauan sumber resmi Tailmance untuk negara yang berlaku tercantum di bawah. Pencantuman hanya menunjukkan cakupan tinjauan: apakah suatu aturan sudah berlaku, berlaku pada masa mendatang, masih berupa usulan, atau tunduk pada syarat penerapan yang lebih sempit ditentukan oleh kontrol tanggal berlaku dan cakupan penerapan yang tepat, dan tidak pernah disimpulkan hanya dari daftar ini."
+      ],
+      "items": [
+        "EU GDPR",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Privasi, keamanan, dan hak pengguna",
+      "paragraphs": [
+        "Hak privasi, permintaan data, penghapusan akun dan data, transfer internasional, verifikasi usia, pemasaran elektronik, serta kewajiban keamanan dan pelaporan diterapkan dalam konteks hukum yang tepat. Gunakan Pusat Hukum dalam aplikasi untuk pemberitahuan, ekspor, dan penghapusan."
+      ]
+    },
+    {
+      "heading": "Langganan dan informasi konsumen",
+      "paragraphs": [
+        "Toko aplikasi tempat pembelian dilakukan menjadi rujukan untuk harga langganan yang ditampilkan, mata uang, dan perlakuan pajak yang berlaku. Informasi mengenai perpanjangan, pembatalan, dan informasi prakontrak yang diwajibkan ditampilkan sebelum pembelian. Tailmance tidak menjual hewan atau barang fisik dan tidak memproses pembayaran antar pengguna untuk penjualan hewan."
+      ]
+    },
+    {
+      "heading": "Kesejahteraan hewan dan non-perdagangan",
+      "paragraphs": [
+        "Penjualan hewan secara komersial dan marketplace untuk pembiakan komersial dilarang. Perkawinan yang diatur oleh pemilik hanya tersedia apabila persyaratan negara yang berlaku terkait kesejahteraan hewan, pembiakan, kesehatan, kekerabatan, dan kelayakan terpenuhi; jika tidak, fitur tetap diblokir."
+      ]
+    },
+    {
+      "heading": "Kontak dan sumber resmi",
+      "paragraphs": [
+        "Pertanyaan tentang pemberitahuan ini atau permintaan privasi dapat dikirim ke yektaozel@icloud.com. Referensi sumber resmi yang digunakan untuk tinjauan hukum ini tercantum di bawah."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2026-04-06&Gesetzesnummer=20011678&Paragraf=174&Uebergangsrecht=",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40279254/NOR40279254.html",
+        "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011654",
+        "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=1&Gesetzesnummer=10002665&ShowPrintPreview=True",
+        "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=2025-06-28&Gesetzesnummer=20012316",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Begutachtungsentwurf/Audiovisuelle-Mediendienste-Gesetz-und-KommAustria-Gesetz",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.verbrauchergesundheit.gv.at/tiere/hund-und-katze.html",
+        "https://www.ris.bka.gv.at/Land/",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://dsb.gv.at/ueber-die-datenschutzbehoerde/data-breach-verfahren",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "acf1f36e5c6016a91afee16e2f4b1c1d2da2d4f5080f9031e93b9decb9b9f5b1",
+  "official_source_count": 49,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "de"
+  ],
+  "display_language_name": "Indonesia"
+}

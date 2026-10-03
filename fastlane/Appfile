@@ -1,0 +1,2 @@
+app_identifier('com.pawlink.app')
+package_name('com.pawlink.app')

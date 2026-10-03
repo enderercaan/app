@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "JP",
+  "country_display_name": "Japón",
+  "document_locale": "es",
+  "document_language_display_names": "japonés",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento jurídico específico de la jurisdicción",
+  "sections": [
+    {
+      "heading": "Ámbito jurídico",
+      "paragraphs": [
+        "Este suplemento se aplica cuando Tailmance determina que Japón es el país cuya legislación se aplica a tu cuenta. Complementa los Términos de uso, el Aviso de privacidad, las Normas de la comunidad, el aviso de suscripción y otros documentos jurídicos, sin sustituirlos.",
+        "Tailmance aplica las obligaciones jurídicas conforme a ese país verificado y, cuando corresponda, al marco jurídico regional o local aplicable. Cambiar el idioma de la aplicación, viajar o cambiar la región de la tienda no modifica por sí solo ese marco jurídico."
+      ]
+    },
+    {
+      "heading": "Idioma de los documentos",
+      "paragraphs": [
+        "Los documentos jurídicos vinculantes de esta configuración se mantienen en los idiomas exigidos: japonés. Cuando se exige un idioma determinado, Tailmance no lo sustituye automáticamente y sin aviso por otro idioma.",
+        "Esta versión se ofrece como traducción de accesibilidad. No sustituye una versión en un idioma obligatorio cuando la ley aplicable o esta configuración jurídica la exige."
+      ]
+    },
+    {
+      "heading": "Requisitos jurídicos específicos del país",
+      "paragraphs": [
+        "Se revisan veintidós ámbitos de requisitos jurídicos para el país aplicable utilizando fuentes oficiales identificables. El derecho vigente y sus fechas de aplicación se separan de propuestas, consultas y medidas futuras; una propuesta nunca se trata como derecho vigente.",
+        "Fecha de revisión de las fuentes: 1 de octubre de 2026. Las medidas futuras, los proyectos y las consultas se siguen por separado y no se presentan como derecho vigente."
+      ]
+    },
+    {
+      "heading": "Marcos jurídicos revisados",
+      "paragraphs": [
+        "A continuación se indican los principales marcos jurídicos registrados en la revisión de fuentes oficiales de Tailmance para el país aplicable. Su inclusión solo delimita el alcance de la revisión: si una norma está vigente, entra en vigor en el futuro, es una propuesta o depende de una condición de aplicabilidad más limitada se determina mediante los controles de fecha de eficacia y ámbito exacto, y nunca se deduce únicamente de esta lista."
+      ],
+      "items": [
+        "APPI, consolidated rules/guidelines"
+      ]
+    },
+    {
+      "heading": "Privacidad, seguridad y derechos de las personas usuarias",
+      "paragraphs": [
+        "Los derechos de privacidad, las solicitudes sobre datos, la eliminación de la cuenta y de datos, las transferencias internacionales, la verificación de edad, el marketing electrónico y las obligaciones de seguridad y notificación se aplican dentro del contexto jurídico exacto. Utiliza el Centro jurídico de la aplicación para avisos, exportación y eliminación."
+      ]
+    },
+    {
+      "heading": "Suscripciones e información al consumidor",
+      "paragraphs": [
+        "La tienda de aplicaciones a través de la cual se realiza la compra es la referencia para el precio de suscripción mostrado, la moneda y el tratamiento fiscal aplicable. La renovación, la cancelación y la información precontractual exigida se presentan antes de la compra. Tailmance no vende animales ni productos físicos y no procesa pagos entre usuarios por ventas de animales."
+      ]
+    },
+    {
+      "heading": "Bienestar animal y ausencia de comercio",
+      "paragraphs": [
+        "Se prohíben las ventas comerciales de animales y los mercados destinados a la cría comercial. Los apareamientos organizados por los propietarios solo están disponibles cuando se cumplen los requisitos aplicables del país en materia de bienestar animal, cría, salud, parentesco e idoneidad; de lo contrario, la función permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contacto y fuentes oficiales",
+      "paragraphs": [
+        "Las consultas sobre estos avisos o las solicitudes de privacidad pueden enviarse a yektaozel@icloud.com. A continuación se enumeran las fuentes oficiales utilizadas para esta revisión jurídica."
+      ],
+      "official_sources": [
+        "https://www.ppc.go.jp/en/legal/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+        "https://www.ppc.go.jp/news/press/2026/260717/",
+        "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+        "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+        "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+        "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+        "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+        "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+        "https://www.digital.go.jp/accessibility-statement",
+        "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "5c60be24566ec78070e2ed720356cf4a4c7f8a83dd1af56d1cd7f737be9766b0",
+  "official_source_count": 42,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "APPI, consolidated rules/guidelines"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ja"
+  ],
+  "display_language_name": "español"
+}

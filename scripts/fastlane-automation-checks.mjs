@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+
+const fastfile=readFileSync('fastlane/Fastfile','utf8');
+const appfile=readFileSync('fastlane/Appfile','utf8');
+const matchfile=readFileSync('fastlane/Matchfile','utf8');
+const gemfile=readFileSync('Gemfile','utf8');
+const ignore=readFileSync('.gitignore','utf8');
+
+assert.match(gemfile,/gem 'fastlane', '2\.240\.1'/);
+assert.match(appfile,/app_identifier\('com\.pawlink\.app'\)/);
+assert.match(appfile,/package_name\('com\.pawlink\.app'\)/);
+assert.match(fastfile,/lane :testflight/);
+assert.match(fastfile,/upload_to_testflight/);
+assert.match(fastfile,/lane :app_store_candidate/);
+assert.match(fastfile,/submit_for_review: false/);
+assert.match(fastfile,/automatic_release: false/);
+assert.match(fastfile,/lane :internal/);
+assert.match(fastfile,/track: 'internal'/);
+assert.match(fastfile,/release_status: 'draft'/);
+assert.match(fastfile,/lane :production_candidate/);
+assert.match(fastfile,/TAILMANCE_GOOGLE_PRODUCTION_ROLLOUT/);
+assert.match(fastfile,/release_status: 'inProgress'/);
+assert.match(fastfile,/GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64/);
+assert.match(fastfile,/APP_STORE_CONNECT_KEY_CONTENT_BASE64/);
+assert.match(fastfile,/Base64\.strict_decode64/);
+assert.match(matchfile,/readonly\(true\)/);
+assert.match(matchfile,/ENV\.fetch\('MATCH_GIT_URL', ''\)/);
+assert.doesNotMatch(fastfile,/BEGIN (?:RSA|EC|PRIVATE) KEY|AIza[0-9A-Za-z_-]{20,}|[A-F0-9]{32,}/);
+assert.match(ignore,/fastlane\/keys\//);
+assert.match(ignore,/\*\.ipa/);
+assert.match(ignore,/\*\.aab/);
+console.log('fastlane-automation-checks: pinned source automation + fail-closed credentials + non-automatic production release PASS');

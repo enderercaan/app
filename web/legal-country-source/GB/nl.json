@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "GB",
+  "country_display_name": "Verenigd Koninkrijk",
+  "document_locale": "nl",
+  "document_language_display_names": "Engels",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Jurisdictiespecifieke juridische aanvulling",
+  "sections": [
+    {
+      "heading": "Juridische reikwijdte",
+      "paragraphs": [
+        "Deze aanvulling geldt wanneer Tailmance vaststelt dat Verenigd Koninkrijk het land is waarvan het recht op uw account van toepassing is. Zij vult de Gebruiksvoorwaarden, Privacyverklaring, Communityrichtlijnen, abonnementsinformatie en andere juridische documenten aan en vervangt die niet.",
+        "Tailmance past juridische verplichtingen toe op basis van dat geverifieerde land en, waar vereist, het toepasselijke regionale of lokale rechtskader. Een wijziging van de app-taal, reizen of een wijziging van de store-regio verandert dat rechtskader niet automatisch."
+      ]
+    },
+    {
+      "heading": "Documenttaal",
+      "paragraphs": [
+        "De bindende juridische documenten voor deze juridische configuratie worden beschikbaar gehouden in de vereiste taal of talen: Engels. Wanneer een bepaalde documenttaal verplicht is, wordt die niet zonder kennisgeving automatisch door een andere taal vervangen.",
+        "Deze versie wordt aangeboden als toegankelijkheidsvertaling. Zij vervangt geen verplichte taalversie wanneer het toepasselijke recht of deze juridische configuratie die vereist."
+      ]
+    },
+    {
+      "heading": "Landspecifieke juridische vereisten",
+      "paragraphs": [
+        "Voor het toepasselijke land worden tweeëntwintig gebieden van juridische vereisten getoetst aan herleidbare officiële bronnen. Geldend recht en ingangsdata worden gescheiden van voorstellen, consultaties en toekomstige maatregelen; een voorstel wordt nooit als geldend recht behandeld.",
+        "Datum bronbeoordeling: 1 oktober 2026. Toekomstige maatregelen, ontwerpen en consultaties worden afzonderlijk gevolgd en niet als geldend recht weergegeven."
+      ]
+    },
+    {
+      "heading": "Beoordeelde juridische kaders",
+      "paragraphs": [
+        "Hieronder staan de belangrijkste juridische kaders die in de officiële-bronnenbeoordeling van Tailmance voor dit rechtsland zijn opgenomen. Vermelding geeft alleen de reikwijdte van de beoordeling aan: of een regel nu geldt, later in werking treedt, slechts is voorgesteld of alleen onder een beperktere toepasselijkheidsvoorwaarde geldt, wordt bepaald door de controles op ingangsdatum en exacte toepasselijkheid en nooit uitsluitend uit deze lijst afgeleid."
+      ],
+      "items": [
+        "UK GDPR",
+        "Data Protection Act 2018",
+        "ICO International Transfers guidance",
+        "Online Safety Act 2023",
+        "Ofcom Online Safety guidance"
+      ]
+    },
+    {
+      "heading": "Privacy, veiligheid en gebruikersrechten",
+      "paragraphs": [
+        "Privacyrechten, gegevensverzoeken, account- en gegevensverwijdering, internationale doorgiften, leeftijdscontrole, elektronische marketing en verplichtingen rond beveiliging en datalekken worden toegepast binnen de exacte juridische context. Gebruik het Juridisch Centrum in de app voor kennisgevingen, export en verwijdering."
+      ]
+    },
+    {
+      "heading": "Abonnementen en consumenteninformatie",
+      "paragraphs": [
+        "De appwinkel waarmee de aankoop wordt gedaan, is leidend voor de weergegeven abonnementsprijs, valuta en toepasselijke belastingweergave. Verlenging, opzegging en vereiste precontractuele informatie worden vóór aankoop getoond. Tailmance verkoopt geen dieren of fysieke producten en verwerkt geen betalingen tussen gebruikers voor de verkoop van dieren."
+      ]
+    },
+    {
+      "heading": "Dierenwelzijn en geen handelsplatform",
+      "paragraphs": [
+        "Commerciële dierenverkoop en marktplaatsen voor commerciële fokkerij zijn verboden. Door eigenaren georganiseerde paringen zijn alleen beschikbaar wanneer aan de toepasselijke landspecifieke eisen voor dierenwelzijn, fokkerij, gezondheid, verwantschap en geschiktheid is voldaan; anders blijft de functie geblokkeerd."
+      ]
+    },
+    {
+      "heading": "Contact en officiële bronnen",
+      "paragraphs": [
+        "Vragen over deze kennisgevingen of privacyverzoeken kunnen worden gestuurd naar yektaozel@icloud.com. De officiële bronnen die voor deze juridische beoordeling zijn gebruikt, staan hieronder."
+      ],
+      "official_sources": [
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/",
+        "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+        "https://www.legislation.gov.uk/ukpga/2015/15/contents",
+        "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/childrens-access-assessment-duties-under-the-online-safety-act",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/protection-of-children-duties-under-the-online-safety-act",
+        "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
+        "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation/outcome/growing-up-in-the-online-world-progress-statement",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/selling-animals-as-pets-licensing-statutory-guidance-for-local-authorities--2",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/dog-breeding-licensing-statutory-guidance-for-local-authorities",
+        "https://www.gov.uk/government/collections/devolution-scotland-wales-and-northern-ireland",
+        "https://www.gov.uk/government/publications/action-plan-for-animal-welfare/action-plan-for-animal-welfare",
+        "https://www.legislation.gov.uk/asp/2006/11/contents",
+        "https://www.legislation.gov.uk/nia/2011/16/contents",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+        "https://www.legislation.gov.uk/uksi/2013/3134",
+        "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/",
+        "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+        "https://www.legislation.gov.uk/uksi/2002/2013/regulation/19",
+        "https://www.legislation.gov.uk/uksi/2003/2498/regulation/27",
+        "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/online-safety-regulatory-documents",
+        "https://www.gov.uk/government/publications/financial-sanctions-general-guidance/uk-financial-sanctions-general-guidance"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "1c10c4656d3ffcb9ab4cfe6ecb8ac8ad44f6a66b4d3929f7403a20e20f91531f",
+  "official_source_count": 49,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "UK GDPR",
+    "Data Protection Act 2018",
+    "ICO International Transfers guidance",
+    "Online Safety Act 2023",
+    "Ofcom Online Safety guidance"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "Nederlands"
+}

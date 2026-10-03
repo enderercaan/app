@@ -1,0 +1,20 @@
+apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.android'
+
+apply from: new File(project(":expo-modules-core").projectDir.absolutePath, "ExpoModulesCorePlugin.gradle")
+applyKotlinExpoModulesCorePlugin()
+useCoreDependencies()
+useDefaultAndroidSdkVersions()
+
+group = 'expo.modules.tailmanceedgeai'
+version = '0.1.0'
+
+android {
+  namespace 'expo.modules.tailmanceedgeai'
+}
+
+dependencies {
+  // Pinned current Google MediaPipe Tasks Vision release. Model bytes are supplied at runtime
+  // only after Tailmance verifies their SHA-256 against the signed release configuration.
+  implementation 'com.google.mediapipe:tasks-vision:1.0.0'
+}

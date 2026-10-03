@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "AU",
+  "country_display_name": "Australia",
+  "document_locale": "en",
+  "document_language_display_names": "English",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Jurisdiction-Specific Legal Supplement",
+  "sections": [
+    {
+      "heading": "Legal scope",
+      "paragraphs": [
+        "This supplement applies when Tailmance determines that Australia is the country whose law applies to your account. It supplements the Terms, Privacy Notice, Community Guidelines, subscription notice and other legal documents; it does not replace them.",
+        "Tailmance applies legal obligations according to that verified country and, where required, the applicable regional or local legal context. Changing the app language, travelling, or changing a store region does not by itself change that legal context."
+      ]
+    },
+    {
+      "heading": "Document language",
+      "paragraphs": [
+        "The binding legal documents for this legal configuration are maintained in the required language(s): English. When a specific legal-document language is required, Tailmance does not automatically substitute another language without notice."
+      ]
+    },
+    {
+      "heading": "Country-specific legal requirements",
+      "paragraphs": [
+        "Twenty-two areas of legal requirements are reviewed against attributable official sources for the applicable country. Current law and effective dates are separated from proposals, consultations and future measures; a proposal is never treated as current law.",
+        "Source review date: 1 October 2026. Future, draft or consultation-stage measures are tracked separately and are not represented as current law."
+      ]
+    },
+    {
+      "heading": "Reviewed legal frameworks",
+      "paragraphs": [
+        "The principal framework identifiers recorded in Tailmance’s official-source review for the applicable country are listed below. Inclusion identifies review scope only: whether a rule is currently effective, future-effective, proposed, or subject to a narrower applicability condition is determined by the effective-date and exact-scope controls and is never inferred from this list alone."
+      ],
+      "items": [
+        "Privacy Act 1988",
+        "Australian Privacy Principles"
+      ]
+    },
+    {
+      "heading": "Privacy, safety and user rights",
+      "paragraphs": [
+        "Privacy rights, data requests, account and data deletion, international transfers, age assurance, electronic marketing, security and breach duties are applied through the exact legal context. Use the in-app Legal Center for notices, export and deletion routes."
+      ]
+    },
+    {
+      "heading": "Subscriptions and consumer information",
+      "paragraphs": [
+        "The app store through which the purchase is made is authoritative for the displayed subscription price, currency and applicable tax treatment. Renewal, cancellation and required pre-contract information are presented before purchase. Tailmance does not sell pets or physical products and does not process peer-to-peer payments for animal sales."
+      ]
+    },
+    {
+      "heading": "Animal welfare and non-commerce",
+      "paragraphs": [
+        "Commercial animal sales and commercial-breeding marketplace activity are prohibited. Owner-arranged mating is available only when the applicable country-specific animal-welfare, breeding, health, kinship and eligibility requirements are met; otherwise the feature remains unavailable."
+      ]
+    },
+    {
+      "heading": "Contact and official sources",
+      "paragraphs": [
+        "Questions about these notices or privacy requests may be sent to yektaozel@icloud.com. The official-source references used for this legal-country review are listed below."
+      ],
+      "official_sources": [
+        "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines",
+        "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-8-app-8-cross-border-disclosure-of-personal-information",
+        "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
+        "https://www.legislation.gov.au/C2004A00109/latest/text",
+        "https://www.legislation.gov.au/C2024A00127/latest/text",
+        "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+        "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
+        "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+        "https://www.esafety.gov.au/industry/regulatory-guidance",
+        "https://developer.apple.com/news/?id=f5zj08ey",
+        "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
+        "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.apple.com/news/?id=yrrb45pw",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.agriculture.gov.au/animal/welfare/state",
+        "https://legislation.nsw.gov.au/view/pdf/inforce/current/act-1998-087",
+        "https://www.legislation.vic.gov.au/in-force/acts/domestic-animals-act-1994/062",
+        "https://www.legislation.gov.au/C2021A00076/latest/text",
+        "https://www.acma.gov.au/avoid-sending-spam",
+        "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services",
+        "https://business.gov.au/finance/payments-and-invoicing/how-to-invoice",
+        "https://business.gov.au/finance/payments-and-invoicing/receipts-and-proof-of-purchase",
+        "https://www.legislation.gov.au/C1968A00063/latest/text",
+        "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme",
+        "https://www.oaic.gov.au/privacy/notifiable-data-breaches/quick-reference-guide-for-responding-to-data-breaches",
+        "https://business.gov.au/finance/payments-and-invoicing/record-keeping",
+        "https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list",
+        "https://www.dfat.gov.au/international-relations/security/sanctions/about-sanctions"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "d9090a4ea9ce0938a87b70250c39be72092e7681b69e12cc0783959f249e9ac9",
+  "official_source_count": 51,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Privacy Act 1988",
+    "Australian Privacy Principles"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "required_binding_document_locale",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "English"
+}

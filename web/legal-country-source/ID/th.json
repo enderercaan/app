@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "ID",
+  "country_display_name": "อินโดนีเซีย",
+  "document_locale": "th",
+  "document_language_display_names": "อินโดนีเซีย",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "ภาคผนวกกฎหมายเฉพาะเขตอำนาจ",
+  "sections": [
+    {
+      "heading": "ขอบเขตทางกฎหมาย",
+      "paragraphs": [
+        "ภาคผนวกนี้ใช้เมื่อ Tailmance ระบุว่า อินโดนีเซีย เป็นประเทศที่กฎหมายใช้บังคับกับบัญชีของคุณ โดยเป็นเอกสารเสริมข้อกำหนดการใช้งาน ประกาศความเป็นส่วนตัว แนวทางชุมชน ประกาศการสมัครสมาชิก และเอกสารทางกฎหมายอื่น ๆ ไม่ใช่เอกสารที่ใช้แทนเอกสารเหล่านั้น",
+        "Tailmance ใช้หน้าที่ทางกฎหมายตามประเทศที่ได้รับการยืนยันดังกล่าว และเมื่อจำเป็นตามกรอบกฎหมายระดับภูมิภาคหรือท้องถิ่นที่เกี่ยวข้อง การเปลี่ยนภาษาของแอป การเดินทาง หรือการเปลี่ยนภูมิภาคของสโตร์ไม่ได้เปลี่ยนกฎหมายที่ใช้บังคับโดยอัตโนมัติ"
+      ]
+    },
+    {
+      "heading": "ภาษาของเอกสาร",
+      "paragraphs": [
+        "เอกสารทางกฎหมายที่มีผลผูกพันสำหรับการกำหนดทางกฎหมายนี้จัดทำในภาษาที่กำหนด: อินโดนีเซีย หากต้องใช้ภาษาใดเป็นการเฉพาะ Tailmance จะไม่เปลี่ยนไปใช้ภาษาอื่นโดยอัตโนมัติและไม่แจ้งให้ทราบ",
+        "ฉบับนี้จัดทำเป็นคำแปลเพื่อการเข้าถึง และไม่ใช้แทนฉบับภาษาที่กฎหมายที่ใช้บังคับหรือการกำหนดทางกฎหมายนี้กำหนดให้ต้องใช้"
+      ]
+    },
+    {
+      "heading": "ข้อกำหนดทางกฎหมายเฉพาะประเทศ",
+      "paragraphs": [
+        "มีการทบทวนข้อกำหนดทางกฎหมาย 22 หมวดสำหรับประเทศที่ใช้บังคับโดยอ้างอิงแหล่งข้อมูลทางการที่ระบุที่มาได้ กฎหมายที่มีผลใช้บังคับและวันที่มีผลจะถูกแยกออกจากข้อเสนอ การรับฟังความคิดเห็น และมาตรการในอนาคต โดยจะไม่ถือว่าข้อเสนอเป็นกฎหมายที่มีผลใช้บังคับ",
+        "วันที่ทบทวนแหล่งข้อมูล: 1 ตุลาคม 2026 มาตรการในอนาคต ร่าง และการรับฟังความคิดเห็นจะถูกติดตามแยกต่างหากและไม่นำเสนอว่าเป็นกฎหมายที่มีผลใช้บังคับ"
+      ]
+    },
+    {
+      "heading": "กรอบกฎหมายที่ผ่านการทบทวน",
+      "paragraphs": [
+        "ด้านล่างคือกรอบกฎหมายหลักที่บันทึกไว้ในการทบทวนแหล่งข้อมูลทางการของ Tailmance สำหรับประเทศที่ใช้บังคับ การระบุไว้ในรายการหมายถึงขอบเขตการทบทวนเท่านั้น ส่วนกฎใดมีผลใช้บังคับแล้ว จะมีผลในอนาคต ยังเป็นเพียงข้อเสนอ หรือมีเงื่อนไขการใช้บังคับที่แคบกว่านั้น จะพิจารณาจากการควบคุมวันที่มีผลและขอบเขตการใช้บังคับที่แน่นอน และจะไม่อนุมานจากรายการนี้เพียงอย่างเดียว"
+      ],
+      "items": [
+        "Law No. 27 of 2022 on Personal Data Protection"
+      ]
+    },
+    {
+      "heading": "ความเป็นส่วนตัว ความปลอดภัย และสิทธิของผู้ใช้",
+      "paragraphs": [
+        "สิทธิด้านความเป็นส่วนตัว คำขอเกี่ยวกับข้อมูล การลบบัญชีและข้อมูล การโอนข้อมูลระหว่างประเทศ การยืนยันอายุ การตลาดอิเล็กทรอนิกส์ และหน้าที่ด้านความปลอดภัยและการแจ้งเหตุ ถูกนำไปใช้ตามบริบททางกฎหมายที่ถูกต้อง ใช้ศูนย์กฎหมายในแอปเพื่อดูประกาศ การส่งออก และการลบข้อมูล"
+      ]
+    },
+    {
+      "heading": "การสมัครสมาชิกและข้อมูลผู้บริโภค",
+      "paragraphs": [
+        "ร้านค้าแอปที่ใช้ในการซื้อเป็นแหล่งอ้างอิงสำหรับราคาสมัครสมาชิกที่แสดง สกุลเงิน และการแสดงภาษีที่ใช้บังคับ ข้อมูลเกี่ยวกับการต่ออายุ การยกเลิก และข้อมูลก่อนทำสัญญาที่จำเป็นจะแสดงก่อนการซื้อ Tailmance ไม่ขายสัตว์หรือสินค้าที่จับต้องได้ และไม่ประมวลผลการชำระเงินระหว่างผู้ใช้สำหรับการขายสัตว์"
+      ]
+    },
+    {
+      "heading": "สวัสดิภาพสัตว์และการไม่ทำการค้า",
+      "paragraphs": [
+        "ห้ามการขายสัตว์เชิงพาณิชย์และตลาดที่มีไว้เพื่อการเพาะพันธุ์เชิงพาณิชย์ การผสมพันธุ์ที่เจ้าของจัดการกันเองจะใช้ได้เฉพาะเมื่อเป็นไปตามข้อกำหนดของประเทศที่เกี่ยวข้องด้านสวัสดิภาพสัตว์ การเพาะพันธุ์ สุขภาพ ความสัมพันธ์ทางสายเลือด และคุณสมบัติ มิฉะนั้นฟังก์ชันจะยังคงถูกปิดกั้น"
+      ]
+    },
+    {
+      "heading": "การติดต่อและแหล่งข้อมูลทางการ",
+      "paragraphs": [
+        "คำถามเกี่ยวกับประกาศเหล่านี้หรือคำขอด้านความเป็นส่วนตัวสามารถส่งไปที่ yektaozel@icloud.com แหล่งข้อมูลทางการที่ใช้ในการทบทวนกฎหมายนี้แสดงไว้ด้านล่าง"
+      ],
+      "official_sources": [
+        "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+        "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+        "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/965/t/peraturan%2Bpemerintah%2Bnomor%2B17%2Btahun%2B2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/1007/t/peraturan%2Bmenteri%2Bkomunikasi%2Bdan%2Bdigital%2Bnomor%2B9%2Btahun%2B2026",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10541",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10560",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://peraturan.bpk.go.id/Details/342589/permentan-no-32-tahun-2025",
+        "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014",
+        "https://jdih.komdigi.go.id/produk_hukum/abstrak/547",
+        "https://peraturan.bpk.go.id/Download/27970/UU%20Nomor%2024%20Tahun%202009.pdf",
+        "https://peraturan.bpk.go.id/Details/37251/uu-no-8-tahun-2016",
+        "https://peraturan.bpk.go.id/Download/133719/PP%20Nomor%2042%20Tahun%202020.pdf",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+        "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+        "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat",
+        "https://peraturan.bpk.go.id/Details/350898/permenkum-no-47-tahun-2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang%2Bnomor%2B27%2Btahun%2B",
+        "https://www.ppatk.go.id/dalam_negeri/read/1400/daftar-terduga-teroris-dan-organisasi-teroris-dttot.html"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "41c8f0ecc7b97623c5aa13dd82a927cc55a1a737745ece8f695c2e6ff9a11ed3",
+  "official_source_count": 48,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Law No. 27 of 2022 on Personal Data Protection"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "id"
+  ],
+  "display_language_name": "ไทย"
+}
