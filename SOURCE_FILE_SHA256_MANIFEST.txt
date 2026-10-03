@@ -9,7 +9,7 @@ c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
 40aa3964248629a7b15447fc50ae505108defa38d45a19d698eb24cf712dd94a  ./NOTICE.md
 a9615384aab74a7a0c7635bf316d69c966fc22e8f291e4aa4556b4604a56ea0b  ./PRODUCT_STRATEGY_RETENTION_AND_MONETIZATION_BOUNDARY_2026-09-30.md
 e24920393900a3423dc708af5c5816785bb75f2885fd23c769511296fc053ac3  ./README.md
-8dbd3d732175fd5e0164ebe5cdf92511bfa14b922e7f8a7ba4d2aee6e9ae63ab  ./RELEASE_EVIDENCE.json
+b2c12717682456b08f0a9f0f6191a68af591ee2d4f6bf59f15e6170d797d9b8b  ./RELEASE_EVIDENCE.json
 109f4af31d41bff08586fe81f072534abbadfe134930ca18b3887bc9692abb5c  ./RELEASE_MANIFEST.json
 00d612bc7d4a59ccf19ccf172386fbc4320272f10f6a8d991b6b079d6b56c7a2  ./app.config.ts
 beda473907a881e07bb39055e760ff808f3735b616ff40e2dbfb65b56ee679c9  ./assets/adaptive-foreground.png
@@ -157,7 +157,7 @@ a683e79d9d55260f78400cac70d15568a70c037b3f65fbea572a0f002f0470b5  ./release/lega
 17fa37a2d27f175cf414572ae99d6f929c0e5b2eeafdcab03f1d510e7806ed7f  ./release/legal-language-applicability-r8.json
 2177968b99de307ac00cc12b0035153f8bef47c0ec57a437266dbb8e3bc6e323  ./release/legal-language-review-v19.json
 c09a7cbb7d87430d64296da0be8ed6e24597f4265c91203279840a33d0d3f02c  ./release/legal-web-localization-manifest-v1.json
-f33ca2f01cf6be2bc4c831aa9a58ceb48a6fbe5162c9b5e0fd9838e3de8f4548  ./release/local-typecheck-evidence.json
+22e7f1207cace3173bb735ec129c40800af90bb205432f1931f55f7cf76ca47b  ./release/local-typecheck-evidence.json
 33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1  ./release/local-validation/typecheck.txt
 cb30c51c4ac44a933300cbfa76324efa3114ca3e5ddb8bb30dee3f586765de5e  ./release/localized-legal-web-manifest-r8.json
 93ef877f86ecc01f23d67c09521e8d054ec6a763f4b2e21a4bdddb2808cb4472  ./release/official-source-review-v19.json
@@ -329,7 +329,7 @@ c1f31c85ed8f356066ac4580ae1b33b4fa5c14fd33258a2df7f2c94e0989f28a  ./src/hooks/us
 5810b8775b461fd7c8efff8b29661817ad3ece71deebb6fa2c5dcfbd5acfdc39  ./src/i18n/locales/de.ts
 03f1a492528fdb4373278343d7ea446dd6972b16c5ffb1f433351fb3c9f02693  ./src/i18n/locales/en.ts
 c51f794c1b2596caaae3a7cbd3fee566771a1cd0617e4161e189f90557c706d9  ./src/i18n/locales/es.ts
-0e365492adec2ade0c60e6baf073ed6da3248878e4212db17adb94c523a8d8ef  ./src/i18n/locales/fr.ts
+bf0eb0cb3e277811470d2e3760b963892e06ce5e81f6933ddbb0101f3007d27d  ./src/i18n/locales/fr.ts
 91f1c2d3befabc77aaff13421abcba9b3e09d57ca551d38e214f8a0da22cb4a4  ./src/i18n/locales/hi.ts
 fe560807822a0e012d84e03a2342594be7f0f1f623d628119f1cc35391a707b1  ./src/i18n/locales/id.ts
 f74cae7738c774251ba7852d4cf6afed55198ea8439a4a0832c36cd6b3703c0d  ./src/i18n/locales/it.ts
