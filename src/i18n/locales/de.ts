@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "Hund",
   "petEditor.cat": "Katze",
   "edgeAi.photoBlocked": "Diese Aufnahme wurde von der Sicherheitsprüfung auf dem Gerät gestoppt und nicht hochgeladen. Wähle ein anderes Foto deines Haustiers.",
-  "petEditor.breedSuggestionsTitle": "Rassevorschläge auf dem Gerät",
+  "petEditor.breedSuggestionsTitle": "KI-Rassevorschläge (auf dem Gerät)",
   "petEditor.breedSuggestionsBody": "Die Vorschläge sind optional und können ungenau sein. Wähle nur einen aus, wenn er zu deinem Tier passt.",
   "petEditor.useBreedSuggestion": "{breed} verwenden",
   "petEditor.breed": "Rasse *",

@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "Hond",
   "petEditor.cat": "Kat",
   "edgeAi.photoBlocked": "De veiligheidscontrole op het apparaat heeft deze foto tegengehouden; hij is niet geüpload. Kies een andere foto van je huisdier.",
-  "petEditor.breedSuggestionsTitle": "Rassuggesties op het apparaat",
+  "petEditor.breedSuggestionsTitle": "AI-rassuggesties (op het apparaat)",
   "petEditor.breedSuggestionsBody": "Suggesties zijn optioneel en kunnen onnauwkeurig zijn. Kies er alleen een als die bij je huisdier past.",
   "petEditor.useBreedSuggestion": "{breed} gebruiken",
   "petEditor.breed": "Ras *",

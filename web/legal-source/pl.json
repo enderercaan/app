@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "Systemy automatyczne mogą wspierać bezpieczeństwo, wykrywanie oszustw, ranking, rekomendacje i moderację. Gdy prawo wymaga wyjaśnienia, kontroli człowieka, sprzeciwu lub innych gwarancji, będą zapewnione."
+            },
+            {
+              "kind": "p",
+              "text": "Funkcje wspierane przez AI. Niektóre funkcje korzystają z narzędzi wspieranych przez AI. Na obsługiwanych urządzeniach model działający na urządzeniu może zasugerować rasę na podstawie zdjęcia zwierzęcia i sprawdzić bezpieczeństwo zdjęć przed ich przesłaniem; sugestie są opcjonalne i mogą być błędne. Dokumenty szczepień i weterynaryjne mogą być wstępnie sprawdzane przy użyciu rozpoznawania tekstu wspieranego przez AI, a niejasne wyniki trafiają do weryfikacji przez człowieka. Wynik AI jest tylko sygnałem: nie jest poradą weterynaryjną ani diagnozą i sam nie rozstrzyga o istotnym skutku dla danej osoby. Tailmance nie oferuje czatbota AI ani diagnozy weterynaryjnej AI. Osoba, której dotyczy wynik wspierany przez AI, może poprosić o weryfikację przez człowieka w ramach procesu odwołania w aplikacji lub przez Pomoc."
             }
           ]
         },

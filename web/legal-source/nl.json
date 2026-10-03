@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "Geautomatiseerde systemen kunnen veiligheid, fraude, ranking, aanbevelingen en moderatie ondersteunen. Waar recht uitleg, menselijke beoordeling, bezwaar of andere waarborgen vereist, worden die geboden."
+            },
+            {
+              "kind": "p",
+              "text": "AI-ondersteunde functies. Sommige functies gebruiken AI-ondersteunde hulpmiddelen. Op ondersteunde apparaten kan een model op het apparaat op basis van een dierenfoto een ras voorstellen en foto's vóór het uploaden op veiligheid controleren; suggesties zijn optioneel en kunnen onjuist zijn. Vaccinatie- en dierenartsdocumenten kunnen vooraf worden gecontroleerd met AI-ondersteunde tekstherkenning; onduidelijke resultaten gaan naar menselijke beoordeling. AI-uitvoer is slechts een signaal: het is geen diergeneeskundig advies of diagnose en bepaalt niet zelfstandig een ingrijpend resultaat voor een persoon. Tailmance biedt geen AI-chatbot of AI-diagnose voor dieren. Wie door een AI-ondersteund resultaat wordt geraakt, kan via het bezwaarproces in de app of de support om menselijke beoordeling vragen."
             }
           ]
         },

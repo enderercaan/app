@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "कुत्ता",
   "petEditor.cat": "बिल्ली",
   "edgeAi.photoBlocked": "डिवाइस पर सुरक्षा जाँच ने इस फ़ोटो को रोक दिया, इसलिए इसे अपलोड नहीं किया गया। अपने पालतू की दूसरी फ़ोटो चुनें।",
-  "petEditor.breedSuggestionsTitle": "डिवाइस पर नस्ल के सुझाव",
+  "petEditor.breedSuggestionsTitle": "एआई नस्ल सुझाव (डिवाइस पर)",
   "petEditor.breedSuggestionsBody": "ये सुझाव वैकल्पिक हैं और गलत हो सकते हैं। केवल वही चुनें जो आपके पालतू से मेल खाता हो।",
   "petEditor.useBreedSuggestion": "{breed} चुनें",
   "petEditor.breed": "नस्ल *",

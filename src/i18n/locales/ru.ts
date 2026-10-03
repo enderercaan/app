@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "Собака",
   "petEditor.cat": "Кошка",
   "edgeAi.photoBlocked": "Проверка безопасности на устройстве остановила это фото, поэтому оно не было загружено. Выберите другое фото питомца.",
-  "petEditor.breedSuggestionsTitle": "Подсказки породы на устройстве",
+  "petEditor.breedSuggestionsTitle": "Подсказки породы от ИИ (на устройстве)",
   "petEditor.breedSuggestionsBody": "Подсказки необязательны и могут быть неточными. Выбирайте только тот вариант, который подходит вашему питомцу.",
   "petEditor.useBreedSuggestion": "Выбрать {breed}",
   "petEditor.breed": "Порода *",

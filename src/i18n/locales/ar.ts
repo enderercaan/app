@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "كلب",
   "petEditor.cat": "قط",
   "edgeAi.photoBlocked": "أوقف فحص الأمان على الجهاز هذه الصورة ولم يتم رفعها. اختر صورة أخرى لحيوانك الأليف.",
-  "petEditor.breedSuggestionsTitle": "اقتراحات السلالة على الجهاز",
+  "petEditor.breedSuggestionsTitle": "اقتراحات السلالة بالذكاء الاصطناعي (على الجهاز)",
   "petEditor.breedSuggestionsBody": "هذه الاقتراحات اختيارية وقد لا تكون دقيقة. اختر اقتراحًا فقط إذا كان يطابق حيوانك الأليف.",
   "petEditor.useBreedSuggestion": "استخدام {breed}",
   "petEditor.breed": "السلالة *",

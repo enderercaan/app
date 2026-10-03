@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "개",
   "petEditor.cat": "고양이",
   "edgeAi.photoBlocked": "기기 내 안전 검사에서 이 사진이 차단되어 업로드되지 않았습니다. 다른 반려동물 사진을 선택해 주세요.",
-  "petEditor.breedSuggestionsTitle": "기기 내 품종 제안",
+  "petEditor.breedSuggestionsTitle": "AI 품종 제안(기기 내)",
   "petEditor.breedSuggestionsBody": "제안은 선택 사항이며 정확하지 않을 수 있습니다. 반려동물과 일치하는 경우에만 선택하세요.",
   "petEditor.useBreedSuggestion": "{breed} 사용",
   "petEditor.breed": "품종 *",

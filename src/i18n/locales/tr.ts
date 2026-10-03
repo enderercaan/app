@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "Köpek",
   "petEditor.cat": "Kedi",
   "edgeAi.photoBlocked": "Cihazdaki güvenlik kontrolü bu fotoğrafı durdurdu ve fotoğraf yüklenmedi. Başka bir evcil hayvan fotoğrafı seç.",
-  "petEditor.breedSuggestionsTitle": "Cihazdaki ırk önerileri",
+  "petEditor.breedSuggestionsTitle": "Yapay zekâ ırk önerileri (cihaz üzerinde)",
   "petEditor.breedSuggestionsBody": "Öneriler isteğe bağlıdır ve hatalı olabilir. Yalnızca evcil hayvanınla eşleşiyorsa seç.",
   "petEditor.useBreedSuggestion": "{breed} kullan",
   "petEditor.breed": "Irk *",

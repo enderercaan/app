@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "Sistemas automatizados podem apoiar segurança, fraude, ranking, recomendações e moderação. Onde a lei exigir explicação, revisão humana, oposição ou outras garantias, elas serão oferecidas."
+            },
+            {
+              "kind": "p",
+              "text": "Recursos assistidos por IA. Alguns recursos usam ferramentas assistidas por IA. Em dispositivos compatíveis, um modelo no dispositivo pode sugerir uma raça a partir da foto de um pet e verificar a segurança das fotos antes do envio; as sugestões são opcionais e podem estar erradas. Documentos de vacinação e veterinários podem passar por uma pré-verificação com reconhecimento de texto assistido por IA, e resultados pouco claros seguem para revisão humana. O resultado da IA é apenas um sinal: não é orientação veterinária nem diagnóstico e, por si só, não decide um resultado relevante para uma pessoa. O Tailmance não oferece chatbot de IA nem diagnóstico veterinário por IA. Quem for afetado por um resultado assistido por IA pode pedir revisão humana pelo processo de contestação no app ou pelo Suporte."
             }
           ]
         },

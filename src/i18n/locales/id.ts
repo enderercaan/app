@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "Anjing",
   "petEditor.cat": "Kucing",
   "edgeAi.photoBlocked": "Pemeriksaan keamanan di perangkat menghentikan foto ini sehingga tidak diunggah. Pilih foto hewan lain.",
-  "petEditor.breedSuggestionsTitle": "Saran ras di perangkat",
+  "petEditor.breedSuggestionsTitle": "Saran ras dari AI (di perangkat)",
   "petEditor.breedSuggestionsBody": "Saran bersifat opsional dan mungkin tidak akurat. Pilih hanya jika sesuai dengan hewan Anda.",
   "petEditor.useBreedSuggestion": "Gunakan {breed}",
   "petEditor.breed": "Ras *",

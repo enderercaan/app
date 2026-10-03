@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "La descoberta, classificació, seguretat i moderació poden utilitzar sistemes automatitzats. Quan la llei exigeixi explicació, opció o revisió humana, Tailmance proporcionarà el mecanisme corresponent. Les decisions d'alt impacte no es consideren exemptes de revisió només perquè utilitzin automatització."
+            },
+            {
+              "kind": "p",
+              "text": "Funcions assistides per IA. Algunes funcions utilitzen eines assistides per IA. En els dispositius compatibles, un model al dispositiu pot suggerir una raça a partir de la foto d'una mascota i revisar la seguretat de les fotos abans de pujar-les; els suggeriments són opcionals i poden ser incorrectes. Els documents de vacunació i veterinaris poden passar una revisió prèvia amb reconeixement de text assistit per IA, i els resultats poc clars passen a revisió humana. El resultat de la IA és només un senyal: no és assessorament veterinari ni un diagnòstic i, per si sol, no decideix un resultat rellevant per a una persona. Tailmance no ofereix cap xatbot d'IA ni diagnòstic veterinari per IA. Qui es vegi afectat per un resultat assistit per IA pot sol·licitar revisió humana mitjançant el procés d'apel·lació de l'aplicació o el Suport."
             }
           ]
         },

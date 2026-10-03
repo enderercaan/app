@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "Sistem otomatis dapat membantu keselamatan, deteksi penipuan, pemeringkatan, rekomendasi, dan moderasi. Jika hukum yang berlaku mewajibkan penjelasan, tinjauan manusia, keberatan, atau perlindungan lain untuk keputusan yang berdampak, hak tersebut akan diberikan."
+            },
+            {
+              "kind": "p",
+              "text": "Fitur berbantuan AI. Beberapa fitur menggunakan alat berbantuan AI. Di perangkat yang didukung, model di perangkat dapat menyarankan ras dari foto hewan peliharaan dan memeriksa keamanan foto sebelum diunggah; saran bersifat opsional dan bisa keliru. Dokumen vaksinasi dan dokumen dokter hewan dapat diperiksa awal dengan pengenalan teks berbantuan AI, dan hasil yang tidak jelas diteruskan ke tinjauan manusia. Keluaran AI hanyalah sinyal: bukan saran atau diagnosis dokter hewan dan tidak menentukan sendiri hasil yang berdampak bagi pengguna. Tailmance tidak menyediakan chatbot AI atau diagnosis dokter hewan oleh AI. Pengguna yang terdampak oleh hasil berbantuan AI dapat meminta tinjauan manusia melalui proses banding di aplikasi atau Dukungan."
             }
           ]
         },

@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "Chien",
   "petEditor.cat": "Chat",
   "edgeAi.photoBlocked": "Le contrôle de sécurité sur l’appareil a bloqué cette photo et elle n’a pas été envoyée. Choisissez une autre photo de votre animal.",
-  "petEditor.breedSuggestionsTitle": "Suggestions de race sur l’appareil",
+  "petEditor.breedSuggestionsTitle": "Suggestions de race par IA (sur l’appareil)",
   "petEditor.breedSuggestionsBody": "Ces suggestions sont facultatives et peuvent être inexactes. Choisissez-en une uniquement si elle correspond à votre animal.",
   "petEditor.useBreedSuggestion": "Utiliser {breed}",
   "petEditor.breed": "Race *",

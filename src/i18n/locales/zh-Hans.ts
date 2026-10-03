@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "狗",
   "petEditor.cat": "猫",
   "edgeAi.photoBlocked": "设备端安全检查阻止了这张照片，因此照片未上传。请选择另一张宠物照片。",
-  "petEditor.breedSuggestionsTitle": "设备端品种建议",
+  "petEditor.breedSuggestionsTitle": "AI 品种建议（设备端）",
   "petEditor.breedSuggestionsBody": "建议仅供参考，可能并不准确。只有确认符合你的宠物时再选择。",
   "petEditor.useBreedSuggestion": "使用 {breed}",
   "petEditor.breed": "品种 *",

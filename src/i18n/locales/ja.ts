@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "犬",
   "petEditor.cat": "猫",
   "edgeAi.photoBlocked": "端末上の安全チェックでこの写真が停止されたため、アップロードされませんでした。別のペット写真を選んでください。",
-  "petEditor.breedSuggestionsTitle": "端末上の品種候補",
+  "petEditor.breedSuggestionsTitle": "AIによる品種候補（端末上）",
   "petEditor.breedSuggestionsBody": "候補は任意で、正確でない場合があります。ペットに合っている場合のみ選択してください。",
   "petEditor.useBreedSuggestion": "{breed} を使用",
   "petEditor.breed": "品種",

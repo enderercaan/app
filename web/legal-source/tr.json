@@ -257,6 +257,10 @@
             {
               "kind": "p",
               "text": "Güvenlik ve moderasyon süreçlerinde otomatik araçlar içerikleri veya sinyalleri değerlendirmeye yardımcı olabilir. Uygulanabilir olduğunda seni etkileyen kararın gerekçesi, kararın otomatik araç veya insan incelemesiyle bağlantısı ve kullanılabilir itiraz yolu hakkında bilgi sağlanır. Yerel hukuk ek açıklama, insan incelemesi veya itiraz hakkı öngörebilir."
+            },
+            {
+              "kind": "p",
+              "text": "Yapay zekâ destekli özellikler. Bazı özellikler yapay zekâ destekli araçlar kullanır. Desteklenen cihazlarda cihaz üzerindeki bir model, evcil hayvan fotoğrafından ırk önerebilir ve fotoğrafları yüklenmeden önce güvenlik açısından ön elemeden geçirebilir; öneriler isteğe bağlıdır ve hatalı olabilir. Aşı ve veteriner belgeleri yapay zekâ destekli metin tanımayla ön kontrolden geçirilebilir; belirsiz sonuçlar insan incelemesine gönderilir. Yapay zekâ çıktısı yalnızca bir sinyaldir: veteriner tavsiyesi veya teşhisi değildir ve kullanıcı için sonuç doğuran bir kararı tek başına vermez. Tailmance yapay zekâ sohbet botu veya yapay zekâ ile veteriner teşhisi sunmaz. Yapay zekâ destekli bir sonuçtan etkilenen kullanıcı, uygulama içi itiraz süreci veya Destek üzerinden insan incelemesi isteyebilir."
             }
           ]
         },

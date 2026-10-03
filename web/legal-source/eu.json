@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "Sistema automatizatuek segurtasuna, iruzurraren detekzioa, sailkapena, gomendioak eta moderazioa lagun ditzakete. Aplikatu beharreko legeak ondorio garrantzitsuak dituzten erabakietarako azalpenak, giza berrikuspena, aurka egiteko aukera edo bestelako bermeak eskatzen dituenean, eskubide horiek emango dira."
+            },
+            {
+              "kind": "p",
+              "text": "IAk lagundutako eginbideak. Eginbide batzuek IAk lagundutako tresnak erabiltzen dituzte. Onartutako gailuetan, gailuko modelo batek maskotaren argazki batetik arraza iradoki dezake eta argazkien segurtasuna egiaztatu dezake kargatu aurretik; iradokizunak aukerakoak dira eta okerrak izan daitezke. Txertaketa-dokumentuak eta albaitaritza-dokumentuak IAk lagundutako testu-ezagutzarekin aurrez egiaztatu daitezke, eta emaitza argirik gabeak giza berrikuspenera bideratzen dira. IAren emaitza seinale bat besterik ez da: ez da albaitaritza-aholkua edo diagnostikoa, eta bere kabuz ez du pertsona batentzat ondorio garrantzitsua duen emaitzarik erabakitzen. Tailmance-k ez du IA txatbotik edo IAren bidezko albaitaritza-diagnostikorik eskaintzen. IAk lagundutako emaitzak eragindako erabiltzaileak giza berrikuspena eska dezake aplikazioko apelazio-prozesuaren edo Laguntzaren bidez."
             }
           ]
         },

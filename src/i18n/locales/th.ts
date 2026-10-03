@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "สุนัข",
   "petEditor.cat": "แมว",
   "edgeAi.photoBlocked": "การตรวจสอบความปลอดภัยบนอุปกรณ์หยุดรูปนี้ไว้ จึงไม่ได้อัปโหลด โปรดเลือกรูปสัตว์เลี้ยงรูปอื่น",
-  "petEditor.breedSuggestionsTitle": "คำแนะนำสายพันธุ์บนอุปกรณ์",
+  "petEditor.breedSuggestionsTitle": "คำแนะนำสายพันธุ์จาก AI (บนอุปกรณ์)",
   "petEditor.breedSuggestionsBody": "คำแนะนำเป็นเพียงตัวเลือกและอาจไม่แม่นยำ โปรดเลือกเฉพาะรายการที่ตรงกับสัตว์เลี้ยงของคุณ",
   "petEditor.useBreedSuggestion": "ใช้ {breed}",
   "petEditor.breed": "สายพันธุ์ *",

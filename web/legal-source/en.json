@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "Automated systems may assist safety, fraud detection, ranking, recommendations, and moderation. Where applicable law requires explanations, human review, objection, or other safeguards for consequential decisions, those rights will be provided."
+            },
+            {
+              "kind": "p",
+              "text": "AI-assisted features. Some features use AI-assisted tools. On supported devices, an on-device model can suggest a breed from a pet photo and screen photos for safety before upload; suggestions are optional and may be wrong. Vaccination and veterinary documents may be pre-checked with AI-assisted text recognition, and unclear results go to human review. AI output is only a signal: it is not veterinary advice or a diagnosis and does not by itself decide a consequential outcome for a user. Tailmance does not offer an AI chatbot or AI veterinary diagnosis. A user affected by an AI-assisted result can ask for human review through the in-app appeal process or Support."
             }
           ]
         },

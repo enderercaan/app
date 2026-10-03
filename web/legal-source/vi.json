@@ -301,6 +301,10 @@
             {
               "kind": "p",
               "text": "Hệ thống tự động có thể hỗ trợ an toàn, phát hiện gian lận, xếp hạng, khuyến nghị và kiểm duyệt. Khi pháp luật áp dụng yêu cầu giải thích, xem xét bởi con người, phản đối hoặc biện pháp bảo vệ khác đối với quyết định có hệ quả, các quyền đó sẽ được cung cấp."
+            },
+            {
+              "kind": "p",
+              "text": "Tính năng có hỗ trợ AI. Một số tính năng dùng công cụ có hỗ trợ AI. Trên thiết bị được hỗ trợ, mô hình chạy trên thiết bị có thể gợi ý giống từ ảnh thú cưng và kiểm tra an toàn cho ảnh trước khi tải lên; gợi ý là tùy chọn và có thể sai. Giấy tờ tiêm chủng và giấy tờ thú y có thể được kiểm tra sơ bộ bằng nhận dạng văn bản có hỗ trợ AI, và kết quả chưa rõ sẽ chuyển cho con người xem xét. Kết quả AI chỉ là một tín hiệu: không phải lời khuyên hay chẩn đoán thú y và tự nó không quyết định một kết quả có hệ quả đối với người dùng. Tailmance không cung cấp chatbot AI hay chẩn đoán thú y bằng AI. Người dùng bị ảnh hưởng bởi kết quả có hỗ trợ AI có thể yêu cầu con người xem xét qua quy trình khiếu nại trong ứng dụng hoặc bộ phận Hỗ trợ."
             }
           ]
         },

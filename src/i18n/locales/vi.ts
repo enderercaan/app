@@ -1004,7 +1004,7 @@ const messages: Messages = {
   "petEditor.dog": "Chó",
   "petEditor.cat": "Mèo",
   "edgeAi.photoBlocked": "Kiểm tra an toàn trên thiết bị đã chặn ảnh này nên ảnh không được tải lên. Hãy chọn ảnh thú cưng khác.",
-  "petEditor.breedSuggestionsTitle": "Gợi ý giống trên thiết bị",
+  "petEditor.breedSuggestionsTitle": "Gợi ý giống từ AI (trên thiết bị)",
   "petEditor.breedSuggestionsBody": "Các gợi ý là tùy chọn và có thể không chính xác. Chỉ chọn khi phù hợp với thú cưng của bạn.",
   "petEditor.useBreedSuggestion": "Dùng {breed}",
   "petEditor.breed": "Giống *",
