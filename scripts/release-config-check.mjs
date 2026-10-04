@@ -59,8 +59,8 @@ if(googleServicesPath){
   else try{
     const googleServices=JSON.parse(readFileSync(googleServicesPath,'utf8'));
     const androidClients=Array.isArray(googleServices?.client)?googleServices.client:[];
-    const matchingClient=androidClients.find(client=>client?.client_info?.android_client_info?.package_name==='com.pawlink.app');
-    if(!matchingClient) failures.push('GOOGLE_SERVICES_JSON: missing Android client for com.pawlink.app');
+    const matchingClient=androidClients.find(client=>client?.client_info?.android_client_info?.package_name==='com.tailmance.app');
+    if(!matchingClient) failures.push('GOOGLE_SERVICES_JSON: missing Android client for com.tailmance.app');
     const apiKeys=Array.isArray(matchingClient?.api_key)?matchingClient.api_key:[];
     if(!apiKeys.some(entry=>typeof entry?.current_key==='string'&&entry.current_key.trim().length>=20)) failures.push('GOOGLE_SERVICES_JSON: matching Android client has no plausible API key');
     if(typeof googleServices?.project_info?.project_id!=='string'||!googleServices.project_info.project_id.trim()) failures.push('GOOGLE_SERVICES_JSON: project_info.project_id missing');

@@ -1,4 +1,4 @@
-appId: com.pawlink.app
+appId: com.tailmance.app
 ---
 - launchApp:
     clearState: true

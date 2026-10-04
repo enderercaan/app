@@ -10,7 +10,7 @@
     "overall_project": "Yekta Ozel"
   },
   "version": "1.0.0",
-  "release_candidate_date": "2026-10-03",
+  "release_candidate_date": "2026-10-04",
   "platforms": [
     "iOS",
     "Android"
@@ -35,9 +35,9 @@
   "technical_identifiers": {
     "canonical_scheme": "tailmance",
     "legacy_callback_scheme": "pawlink",
-    "bundle_identifier": "com.pawlink.app",
-    "android_package": "com.pawlink.app",
-    "note": "Tailmance is the canonical user-facing scheme. Legacy pawlink:// remains callback-migration-only; bundle/package identifiers are preserved until store/provisioning ownership is migrated."
+    "bundle_identifier": "com.tailmance.app",
+    "android_package": "com.tailmance.app",
+    "note": "Tailmance is the canonical user-facing scheme. Legacy pawlink:// remains callback-migration-only; bundle/package identifiers are com.tailmance.app (renamed from the legacy PawLink id before the first store submission)."
   },
   "release_blockers": {
     "reproducible_dependency_lock": "PRESENT",

@@ -3370,7 +3370,7 @@ check('native universal/app-link configuration and association generation fail c
   assert.match(generator,/ANDROID_APP_LINK_CERT_SHA256/);
   assert.match(generator,/apple-app-site-association/);
   assert.match(generator,/assetlinks\.json/);
-  assert.match(generator,/com\.pawlink\.app/);
+  assert.match(generator,/com\.tailmance\.app/);
   for(const path of ['pet','reel','story'])assert.ok(generator.includes(`/${path}/*`),`AASA missing ${path} path`);
   assert.match(generator,/delegate_permission\/common\.handle_all_urls/);
   assert.match(generator,/--check/);

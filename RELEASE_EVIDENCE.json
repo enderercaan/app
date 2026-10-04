@@ -10,7 +10,7 @@
     "implementation": "Yekta Ozel",
     "overall_project": "Yekta Ozel"
   },
-  "generated_at": "2026-10-03T15:09:59.866Z",
+  "generated_at": "2026-10-04T03:31:45.487Z",
   "automated": {
     "domain": {
       "passed": 21,
@@ -161,7 +161,7 @@
     "legal_temporal": {
       "structured_future_effective_states": 5,
       "high_volatility_watch_items": 22,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-04",
       "status": "PASS_CURRENT_AS_OF_DATE"
     },
     "migration_release": {

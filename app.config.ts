@@ -36,7 +36,7 @@ const config: ExpoConfig = {
     privacyManifests: {
       NSPrivacyTracking: false
     },
-    bundleIdentifier: 'com.pawlink.app',
+    bundleIdentifier: 'com.tailmance.app',
     ...(googleServiceInfoPlist ? { googleServicesFile: googleServiceInfoPlist } : {}),
     ...(appLinkHost ? { associatedDomains: [`applinks:${appLinkHost}`] } : {}),
     usesAppleSignIn: true,
@@ -58,7 +58,7 @@ const config: ExpoConfig = {
     }
   },
   android: {
-    package: 'com.pawlink.app',
+    package: 'com.tailmance.app',
     ...(appLinkHost ? { intentFilters: [{ action: 'VIEW', autoVerify: true, data: [
       { scheme: 'https', host: appLinkHost, pathPrefix: '/pet/' },
       { scheme: 'https', host: appLinkHost, pathPrefix: '/reel/' },

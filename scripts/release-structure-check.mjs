@@ -24,7 +24,7 @@ for(const name of [...Object.keys(pkg.dependencies??{}),...Object.keys(pkg.devDe
   assert.match(String(entry?.integrity??''),/^sha512-[A-Za-z0-9+/=]+$/,`package-lock direct dependency ${name} is missing integrity`);
 }
 const appVersion=app.match(/version: '([^']+)'/)?.[1];assert.equal(appVersion,pkg.version,'app.config.ts version must match package.json version');
-assert.equal(JSON.parse(readFileSync('brand.json','utf8')).appName,'Tailmance');assert.match(app,/name:\s*TAILMANCE_BRAND\.appName/);assert.match(app,/bundleIdentifier: 'com\.pawlink\.app'/);assert.match(app,/package: 'com\.pawlink\.app'/);
+assert.equal(JSON.parse(readFileSync('brand.json','utf8')).appName,'Tailmance');assert.match(app,/name:\s*TAILMANCE_BRAND\.appName/);assert.match(app,/bundleIdentifier: 'com\.tailmance\.app'/);assert.match(app,/package: 'com\.tailmance\.app'/);
 assert.match(app,/blockedPermissions:[\s\S]*ACCESS_FINE_LOCATION/);assert.match(app,/ACCESS_COARSE_LOCATION/);
 assert.match(app,/privacyManifests:[\s\S]*NSPrivacyTracking:\s*false/,'iOS source privacy manifest must explicitly declare that Tailmance does not perform cross-app tracking');
 assert.doesNotMatch(app,/orientation:\s*'portrait'/,'Release source must not hard-lock portrait orientation');
