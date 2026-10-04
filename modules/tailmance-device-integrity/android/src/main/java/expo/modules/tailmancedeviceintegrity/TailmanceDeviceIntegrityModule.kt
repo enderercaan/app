@@ -7,6 +7,7 @@ import android.content.pm.ApplicationInfo
 import java.io.File
 import com.google.android.play.core.integrity.IntegrityManagerFactory
 import com.google.android.play.core.integrity.StandardIntegrityManager
+import expo.modules.kotlin.functions.Coroutine
 import expo.modules.kotlin.modules.Module
 import expo.modules.kotlin.modules.ModuleDefinition
 import java.security.MessageDigest
@@ -25,6 +26,11 @@ class TailmanceDeviceIntegrityModule : Module() {
   private var preparedProjectNumber: Long? = null
   @Volatile
   private var tokenProvider: StandardIntegrityManager.StandardIntegrityTokenProvider? = null
+
+  // App Attest exists only on iOS. Returning String (never Nothing) keeps the Expo reified return type concrete.
+  private fun appAttestIosOnly(): String {
+    throw IllegalStateException("app_attest_ios_only")
+  }
 
   private fun requestHash(value: String): String {
     val digest = MessageDigest.getInstance("SHA-256").digest(value.toByteArray(Charsets.UTF_8))
@@ -60,22 +66,22 @@ class TailmanceDeviceIntegrityModule : Module() {
 
     AsyncFunction("isAppAttestSupportedAsync") { false }
     AsyncFunction("generateAppAttestKeyAsync") {
-      throw IllegalStateException("app_attest_ios_only")
+      appAttestIosOnly()
     }
     AsyncFunction("attestAppAttestKeyAsync") { _: String, _: String ->
-      throw IllegalStateException("app_attest_ios_only")
+      appAttestIosOnly()
     }
     AsyncFunction("generateAppAttestAssertionAsync") { _: String, _: String ->
-      throw IllegalStateException("app_attest_ios_only")
+      appAttestIosOnly()
     }
 
-    AsyncFunction("preparePlayIntegrityAsync") { cloudProjectNumber: String ->
+    AsyncFunction("preparePlayIntegrityAsync") Coroutine { cloudProjectNumber: String ->
       val projectNumber = cloudProjectNumber.toLongOrNull()
         ?: throw IllegalStateException("play_integrity_project_number_invalid")
       if (projectNumber <= 0L) throw IllegalStateException("play_integrity_project_number_invalid")
 
       if (preparedProjectNumber == projectNumber && tokenProvider != null) {
-        return@AsyncFunction true
+        return@Coroutine true
       }
 
       val context = appContext.reactContext ?: throw IllegalStateException("play_integrity_context_unavailable")
@@ -89,7 +95,7 @@ class TailmanceDeviceIntegrityModule : Module() {
       true
     }
 
-    AsyncFunction("requestPlayIntegrityTokenAsync") { clientDataUtf8: String ->
+    AsyncFunction("requestPlayIntegrityTokenAsync") Coroutine { clientDataUtf8: String ->
       if (clientDataUtf8.length !in 32..4096) throw IllegalStateException("play_integrity_client_data_invalid")
       val provider = tokenProvider ?: throw IllegalStateException("play_integrity_not_prepared")
       val request = StandardIntegrityManager.StandardIntegrityTokenRequest.builder()
