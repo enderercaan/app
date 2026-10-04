@@ -1,0 +1,145 @@
+project_id = "tailmance"
+
+[auth]
+enabled = true
+jwt_expiry = 900
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+enable_anonymous_sign_ins = false
+minimum_password_length = 12
+password_requirements = "lower_upper_letters_digits_symbols"
+
+[auth.rate_limit]
+sign_in_sign_ups = 20
+email_sent = 6
+sms_sent = 6
+token_verifications = 30
+token_refresh = 150
+
+
+[auth.captcha]
+enabled = true
+provider = "turnstile"
+secret = "env(SUPABASE_AUTH_CAPTCHA_SECRET)"
+
+[auth.sessions]
+timebox = "30d"
+inactivity_timeout = "14d"
+
+[auth.email]
+enable_signup = true
+enable_confirmations = true
+double_confirm_changes = true
+secure_password_change = true
+max_frequency = "1m"
+otp_length = 6
+otp_expiry = 1800
+
+[auth.mfa]
+max_enrolled_factors = 3
+
+[auth.mfa.totp]
+enroll_enabled = true
+verify_enabled = true
+
+[auth.mfa.phone]
+enroll_enabled = true
+verify_enabled = true
+
+[auth.mfa.web_authn]
+enroll_enabled = false
+verify_enabled = false
+
+[auth.passkey]
+enabled = false
+
+
+[functions.revenuecat-webhook]
+verify_jwt = false
+
+[functions.delete-account]
+verify_jwt = true
+
+[functions.oauth-credential-capture]
+verify_jwt = true
+
+[functions.accept-legal]
+verify_jwt = true
+
+[functions.sync-subscription]
+verify_jwt = true
+
+[functions.export-data]
+verify_jwt = true
+
+[functions.push-dispatch]
+verify_jwt = false
+
+[functions.moderate-media]
+verify_jwt = false
+
+[functions.push-receipts]
+verify_jwt = false
+
+[functions.moderation-admin]
+verify_jwt = false
+
+[functions.request-account-deletion]
+verify_jwt = false
+
+[functions.storage-gc]
+verify_jwt = false
+
+[functions.external-deletion-worker]
+verify_jwt = false
+
+[functions.push-token-lifecycle]
+verify_jwt = true
+
+[functions.reports-admin]
+verify_jwt = false
+
+[functions.start-owner-verification]
+verify_jwt = true
+
+[functions.identity-verification-webhook]
+verify_jwt = false
+
+[functions.ops-health]
+verify_jwt = false
+
+[functions.vaccination-reminders]
+verify_jwt = false
+
+[functions.process-account-deletion-request]
+verify_jwt = false
+
+[functions.export-download]
+verify_jwt = false
+
+[functions.moderation-appeals-admin]
+verify_jwt = false
+
+[functions.verify-device-integrity]
+verify_jwt = true
+[functions.security-admin]
+verify_jwt = false
+
+
+[functions.start-age-assurance]
+verify_jwt = true
+
+[functions.health-verification-webhook]
+verify_jwt = false
+
+[functions.social-read-cache]
+verify_jwt = true
+
+[functions.livekit-call-token]
+verify_jwt = true
+
+[functions.livekit-room-reaper]
+verify_jwt = false
+
+[functions.health-ai-worker]
+verify_jwt = false

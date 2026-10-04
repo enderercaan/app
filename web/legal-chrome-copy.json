@@ -1,0 +1,112 @@
+{
+  "en": {
+    "skip_to_main": "Skip to main content",
+    "legal_navigation": "Legal navigation",
+    "ownership_notice": "© 2026 Yekta Özel. All rights reserved. Tailmance™ is a trademark of Yekta Özel."
+  },
+  "es": {
+    "skip_to_main": "Saltar al contenido principal",
+    "legal_navigation": "Navegación legal",
+    "ownership_notice": "© 2026 Yekta Özel. Todos los derechos reservados. Tailmance™ es una marca de Yekta Özel."
+  },
+  "pt-BR": {
+    "skip_to_main": "Ir para o conteúdo principal",
+    "legal_navigation": "Navegação jurídica",
+    "ownership_notice": "© 2026 Yekta Özel. Todos os direitos reservados. Tailmance™ é uma marca de Yekta Özel."
+  },
+  "fr": {
+    "skip_to_main": "Aller au contenu principal",
+    "legal_navigation": "Navigation juridique",
+    "ownership_notice": "© 2026 Yekta Özel. Tous droits réservés. Tailmance™ est une marque de Yekta Özel."
+  },
+  "de": {
+    "skip_to_main": "Zum Hauptinhalt springen",
+    "legal_navigation": "Rechtliche Navigation",
+    "ownership_notice": "© 2026 Yekta Özel. Alle Rechte vorbehalten. Tailmance™ ist eine Marke von Yekta Özel."
+  },
+  "it": {
+    "skip_to_main": "Vai al contenuto principale",
+    "legal_navigation": "Navigazione legale",
+    "ownership_notice": "© 2026 Yekta Özel. Tutti i diritti riservati. Tailmance™ è un marchio di Yekta Özel."
+  },
+  "ru": {
+    "skip_to_main": "Перейти к основному содержимому",
+    "legal_navigation": "Юридическая навигация",
+    "ownership_notice": "© 2026 Yekta Özel. Все права защищены. Tailmance™ — товарный знак Yekta Özel."
+  },
+  "tr": {
+    "skip_to_main": "Ana içeriğe geç",
+    "legal_navigation": "Yasal gezinme",
+    "ownership_notice": "© 2026 Yekta Özel. Tüm hakları saklıdır. Tailmance™, Yekta Özel adına kullanılan bir ticari markadır."
+  },
+  "ar": {
+    "skip_to_main": "الانتقال إلى المحتوى الرئيسي",
+    "legal_navigation": "التنقل القانوني",
+    "ownership_notice": "© 2026 Yekta Özel. جميع الحقوق محفوظة. Tailmance™ علامة تجارية مملوكة لـ Yekta Özel."
+  },
+  "hi": {
+    "skip_to_main": "मुख्य सामग्री पर जाएँ",
+    "legal_navigation": "कानूनी नेविगेशन",
+    "ownership_notice": "© 2026 Yekta Özel। सर्वाधिकार सुरक्षित। Tailmance™, Yekta Özel का ट्रेडमार्क है।"
+  },
+  "id": {
+    "skip_to_main": "Lewati ke konten utama",
+    "legal_navigation": "Navigasi hukum",
+    "ownership_notice": "© 2026 Yekta Özel. Hak cipta dilindungi undang-undang. Tailmance™ adalah merek dagang milik Yekta Özel."
+  },
+  "ja": {
+    "skip_to_main": "メインコンテンツへ移動",
+    "legal_navigation": "法的情報のナビゲーション",
+    "ownership_notice": "© 2026 Yekta Özel。すべての権利を留保します。Tailmance™はYekta Özelの商標です。"
+  },
+  "ko": {
+    "skip_to_main": "본문으로 건너뛰기",
+    "legal_navigation": "법률 정보 탐색",
+    "ownership_notice": "© 2026 Yekta Özel. 모든 권리 보유. Tailmance™는 Yekta Özel의 상표입니다."
+  },
+  "zh-Hans": {
+    "skip_to_main": "跳到主要内容",
+    "legal_navigation": "法律导航",
+    "ownership_notice": "© 2026 Yekta Özel。保留所有权利。Tailmance™ 是 Yekta Özel 的商标。"
+  },
+  "zh-Hant": {
+    "skip_to_main": "跳至主要內容",
+    "legal_navigation": "法律資訊導覽",
+    "ownership_notice": "© 2026 Yekta Özel。保留所有權利。Tailmance™ 是 Yekta Özel 的商標。"
+  },
+  "nl": {
+    "skip_to_main": "Naar hoofdinhoud",
+    "legal_navigation": "Juridische navigatie",
+    "ownership_notice": "© 2026 Yekta Özel. Alle rechten voorbehouden. Tailmance™ is een handelsmerk van Yekta Özel."
+  },
+  "pl": {
+    "skip_to_main": "Przejdź do treści głównej",
+    "legal_navigation": "Nawigacja prawna",
+    "ownership_notice": "© 2026 Yekta Özel. Wszelkie prawa zastrzeżone. Tailmance™ jest znakiem towarowym Yekta Özel."
+  },
+  "th": {
+    "skip_to_main": "ข้ามไปยังเนื้อหาหลัก",
+    "legal_navigation": "การนำทางข้อมูลทางกฎหมาย",
+    "ownership_notice": "© 2026 Yekta Özel สงวนลิขสิทธิ์ Tailmance™ เป็นเครื่องหมายการค้าของ Yekta Özel"
+  },
+  "vi": {
+    "skip_to_main": "Chuyển đến nội dung chính",
+    "legal_navigation": "Điều hướng pháp lý",
+    "ownership_notice": "© 2026 Yekta Özel. Bảo lưu mọi quyền. Tailmance™ là nhãn hiệu của Yekta Özel."
+  },
+  "ca": {
+    "skip_to_main": "Ves al contingut principal",
+    "legal_navigation": "Navegació legal",
+    "ownership_notice": "© 2026 Yekta Özel. Tots els drets reservats. Tailmance™ és una marca de Yekta Özel."
+  },
+  "eu": {
+    "skip_to_main": "Joan eduki nagusira",
+    "legal_navigation": "Lege-informazioaren nabigazioa",
+    "ownership_notice": "© 2026 Yekta Özel. Eskubide guztiak erreserbatuta. Tailmance™ Yekta Özelen marka da."
+  },
+  "gl": {
+    "skip_to_main": "Ir ao contido principal",
+    "legal_navigation": "Navegación legal",
+    "ownership_notice": "© 2026 Yekta Özel. Todos os dereitos reservados. Tailmance™ é unha marca de Yekta Özel."
+  }
+}

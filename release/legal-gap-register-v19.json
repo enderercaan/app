@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-10-01",
+  "scope": "Only the 27 configured Tailmance markets. Countries outside this set are out of scope for this legal/language source-completion decision.",
+  "generated_from": {
+    "official_source_review": "release/official-source-review-v19.json",
+    "configured_market_source_approval": "release/configured-market-legal-language-source-approval-v20.json",
+    "country_document_locale_routes": "release/country-document-locale-route-coverage-v19.json",
+    "country_supplements": "release/country-legal-supplement-manifest-v20.json",
+    "critical_subdimensions": "release/critical-legal-subdimension-review-v19.json"
+  },
+  "policy": {
+    "source_legal_approval_basis": "attributable official/regulator sources + temporal review + exact country×legal-language supplements + internal legal-language QA",
+    "external_counsel_required_for_source_approval": false,
+    "sworn_or_certified_translation_claimed": false,
+    "live_store_provider_operator_hosted_facts_are_separate_production_evidence": true,
+    "no_silent_country_or_language_fallback": true,
+    "countries_outside_configured_27": "OUT_OF_SCOPE"
+  },
+  "counts": {
+    "configured_markets": 27,
+    "topic_families": 22,
+    "total_topic_slots": 594,
+    "empty_topic_evidence_cells": 0,
+    "canonical_topic_source_presence_gaps": 0,
+    "source_legal_approved_markets": 27,
+    "source_legal_language_approved_markets": 27,
+    "exact_country_language_routes": 594,
+    "binding_country_language_routes": 34,
+    "accessibility_translation_routes": 560,
+    "country_language_supplement_routes": 594,
+    "critical_subdimension_source_cells_complete": 432,
+    "critical_subdimension_source_cells_total": 432,
+    "source_legal_language_blockers": 0,
+    "production_external_legal_evidence_pending": 59
+  },
+  "source_legal_language_decision": "GO_CONFIGURED_27_SOURCE_LEGAL_LANGUAGE",
+  "source_gaps": [],
+  "production_boundary_note": "Production/store/provider/operator/runtime evidence may remain fail-closed. Those items are not source legal-language gaps and are not fabricated by this register."
+}

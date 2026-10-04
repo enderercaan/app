@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "policy_version": "tailmance-ui-e2e-v23",
+  "source_contract": {
+    "status": "implemented",
+    "framework": "Maestro external runner",
+    "flows": [
+      "e2e/maestro/onboarding-entry.yaml",
+      "e2e/maestro/verification-paywall.yaml"
+    ],
+    "credentials_policy": "environment_injected_only_no_binary_or_repo_credentials"
+  },
+  "required_execution_evidence": [
+    {
+      "id": "ios_reviewer_critical_journey",
+      "platform": "ios",
+      "status": "not_verified",
+      "required": ["real_release_candidate_build", "real_review_account", "onboarding_entry_screenshot_sha256", "verification_center_screenshot_sha256", "premium_paywall_screenshot_sha256", "test_run_log_sha256"]
+    },
+    {
+      "id": "android_reviewer_critical_journey",
+      "platform": "android",
+      "status": "not_verified",
+      "required": ["real_release_candidate_build", "real_review_account", "onboarding_entry_screenshot_sha256", "verification_center_screenshot_sha256", "premium_paywall_screenshot_sha256", "test_run_log_sha256"]
+    },
+    {
+      "id": "core_ui_visual_golden_matrix",
+      "platform": "ios_android",
+      "status": "not_verified",
+      "required": ["approved_baseline_image_hashes", "current_candidate_image_hashes", "pixel_or_perceptual_diff_report", "dynamic_type_rtl_dark_mode_matrix"]
+    }
+  ],
+  "note": "Source-level deterministic selectors and flows are implemented. Device screenshots/golden comparisons and journey execution remain release evidence and must not be inferred from static source checks."
+}

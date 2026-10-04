@@ -1,0 +1,5 @@
+storage_mode('git')
+git_url(ENV.fetch('MATCH_GIT_URL', ''))
+app_identifier(['com.tailmance.app'])
+type('appstore')
+readonly(true)

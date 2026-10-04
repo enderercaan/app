@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance accesses only the photos you choose for pet profiles and social posts.",
+    "NSCameraUsageDescription": "Tailmance uses the camera for pet photos, stories, and pet verification.",
+    "NSLocationWhenInUseUsageDescription": "Tailmance uses approximate location to show nearby pets by distance."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

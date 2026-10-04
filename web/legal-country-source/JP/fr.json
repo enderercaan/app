@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "JP",
+  "country_display_name": "Japon",
+  "document_locale": "fr",
+  "document_language_display_names": "japonais",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Supplément juridique propre à la juridiction",
+  "sections": [
+    {
+      "heading": "Champ juridique",
+      "paragraphs": [
+        "Ce supplément s’applique lorsque Tailmance détermine que Japon est le pays dont le droit s’applique à votre compte. Il complète les Conditions d’utilisation, l’Avis de confidentialité, les Règles de la communauté, l’avis relatif à l’abonnement et les autres documents juridiques, sans les remplacer.",
+        "Tailmance applique les obligations juridiques en fonction de ce pays vérifié et, lorsque cela est requis, du cadre juridique régional ou local applicable. Changer la langue de l’application, voyager ou modifier la région de la boutique ne change pas, à lui seul, ce cadre juridique."
+      ]
+    },
+    {
+      "heading": "Langue des documents",
+      "paragraphs": [
+        "Les documents juridiques contraignants correspondant à cette configuration juridique sont tenus dans la ou les langues requises : japonais. Lorsqu’une langue déterminée est exigée, Tailmance ne la remplace pas automatiquement et sans avertissement par une autre langue.",
+        "Cette version est fournie comme traduction d’accessibilité. Elle ne remplace pas une version dans une langue obligatoire lorsque le droit applicable ou cette configuration juridique l’exige."
+      ]
+    },
+    {
+      "heading": "Exigences juridiques propres au pays",
+      "paragraphs": [
+        "Vingt-deux domaines d’exigences juridiques sont examinés pour le pays applicable à partir de sources officielles attribuables. Le droit en vigueur et ses dates d’effet sont distingués des projets, consultations et mesures futures ; une proposition n’est jamais présentée comme du droit en vigueur.",
+        "Date de revue des sources : 1er octobre 2026. Les mesures futures, les projets et les consultations sont suivis séparément et ne sont pas présentés comme du droit en vigueur."
+      ]
+    },
+    {
+      "heading": "Cadres juridiques examinés",
+      "paragraphs": [
+        "Les principaux cadres juridiques recensés dans l’examen des sources officielles de Tailmance pour le pays applicable sont indiqués ci-dessous. Leur présence délimite uniquement le champ de l’examen : le caractère en vigueur, à effet futur, proposé ou soumis à une condition d’applicabilité plus étroite est déterminé par les contrôles de date d’effet et de champ exact, et ne se déduit jamais de cette liste seule."
+      ],
+      "items": [
+        "APPI, consolidated rules/guidelines"
+      ]
+    },
+    {
+      "heading": "Vie privée, sécurité et droits des utilisateurs",
+      "paragraphs": [
+        "Les droits en matière de protection des données, les demandes d’accès et de suppression, les transferts internationaux, l’assurance de l’âge, le marketing électronique ainsi que les obligations de sécurité et de notification sont appliqués selon le contexte juridique exact. Le Centre juridique de l’application donne accès aux avis, à l’exportation et à la suppression.",
+        "Contrôles de santé assistés par IA. Tout contrôle assisté par IA de documents de vaccination ou vétérinaires n’est qu’une aide automatisée préliminaire. Il ne rend aucune décision définitive, contraignante ou juridiquement valable, et ne constitue ni un examen vétérinaire, ni un diagnostic, ni une certification, ni une garantie de l’état de santé ou vaccinal d’un animal. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document. Les résultats incertains ou contestés sont examinés par une personne, et l’indication « document examiné » signifie seulement que le document a été vérifié. Pour toute décision de santé, il convient de s’en remettre à un vétérinaire diplômé, sans retarder les soins en raison d’un résultat affiché dans l’application."
+      ]
+    },
+    {
+      "heading": "Abonnements et information des consommateurs",
+      "paragraphs": [
+        "La boutique d’applications par laquelle l’achat est effectué fait foi pour le prix d’abonnement affiché, la devise et le traitement fiscal applicable. Les informations requises sur le renouvellement, l’annulation et la phase précontractuelle sont présentées avant l’achat. Tailmance ne vend ni animaux ni biens physiques et ne traite pas de paiements entre utilisateurs pour la vente d’animaux."
+      ]
+    },
+    {
+      "heading": "Bien-être animal et absence de commerce",
+      "paragraphs": [
+        "La vente commerciale d’animaux et les places de marché consacrées à l’élevage commercial sont interdites. Les accouplements organisés par les propriétaires ne sont disponibles que si les exigences applicables du pays en matière de bien-être animal, reproduction, santé, parenté et admissibilité sont remplies ; sinon la fonctionnalité reste indisponible."
+      ]
+    },
+    {
+      "heading": "Contact et sources officielles",
+      "paragraphs": [
+        "Les questions concernant ces avis ou les demandes relatives à la vie privée peuvent être envoyées à yektaozel@icloud.com. Les références officielles utilisées pour cette analyse juridique figurent ci-dessous."
+      ],
+      "official_sources": [
+        "https://www.ppc.go.jp/en/legal/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+        "https://www.ppc.go.jp/news/press/2026/260717/",
+        "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+        "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+        "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+        "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+        "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+        "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+        "https://www.digital.go.jp/accessibility-statement",
+        "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "5c60be24566ec78070e2ed720356cf4a4c7f8a83dd1af56d1cd7f737be9766b0",
+  "official_source_count": 42,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "APPI, consolidated rules/guidelines"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ja"
+  ],
+  "display_language_name": "français"
+}

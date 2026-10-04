@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "scope": "Known high-risk U.S. state app-store / operating-system age-assurance overlays relevant to Tailmance. This file is not a complete U.S. subnational legal matrix and never grants release approval.",
+  "release_status": "BLOCK_pending_complete_US_state_DC_territory_local_counsel_matrix_and_production_platform_evidence",
+  "matrix_complete": false,
+  "instruments": [
+    {
+      "jurisdiction": "TX",
+      "instrument": "App Store Accountability Act / Business & Commerce Code Chapter 121",
+      "state": "current",
+      "effective_or_operative_date": "2026-01-01",
+      "developer_relevance": "age category signal, age rating, significant-change/consent lifecycle; exact obligations require counsel",
+      "litigation_or_platform_note": "Apple states Texas implementation resumed 2026-06-04 after injunction lifted; continue litigation recheck",
+      "official_sources": [
+        "https://tcss.legis.texas.gov/resources/BC/htm/BC.121.v3.htm",
+        "https://developer.apple.com/news/?id=sg176nne"
+      ]
+    },
+    {
+      "jurisdiction": "CA",
+      "instrument": "Digital Age Assurance Act (AB 1043), as amended by AB 1856",
+      "state": "future_effective_prelaunch_watch",
+      "effective_or_operative_date": "2027-01-01",
+      "developer_relevance": "request/use age-bracket signal under operative framework; exact amended duties require counsel",
+      "official_sources": [
+        "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.9.&part=4.&chapter=&article=",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
+        "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856"
+      ]
+    },
+    {
+      "jurisdiction": "AL",
+      "instrument": "HB161 App Store Accountability Act",
+      "state": "future_effective_prelaunch_watch",
+      "effective_or_operative_date": "2027-01-01",
+      "developer_relevance": "app-store age/parental-consent and developer significant-change framework; exact applicability requires counsel",
+      "official_sources": [
+        "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB161-enr.pdf"
+      ],
+      "evidence_note": "Official enrolled text pins substance/effective date; continue official act/code-status recheck before launch."
+    },
+    {
+      "jurisdiction": "UT",
+      "instrument": "Utah App Store Accountability Act, 2026 amendments",
+      "state": "future_effective_prelaunch_watch",
+      "effective_or_operative_date": "2027-05-06",
+      "developer_relevance": "developer age-category/parental-consent/significant-change duties begin on stated date",
+      "official_sources": [
+        "https://le.utah.gov/xcode/Title13/Chapter76/13-76-S202.html"
+      ]
+    },
+    {
+      "jurisdiction": "LA",
+      "instrument": "Act No. 185 of 2026 / HB977",
+      "state": "future_effective_prelaunch_watch",
+      "effective_or_operative_date": "2027-07-01",
+      "developer_relevance": "replacement app-store/developer framework; prior 2025 Act 481 shall not become effective",
+      "official_sources": [
+        "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475238",
+        "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251085"
+      ]
+    }
+  ],
+  "not_enacted_or_not_current_examples": [
+    {
+      "jurisdiction": "KS",
+      "instrument": "SB372 / conference substitute HB2422 App Store Accountability Act proposal",
+      "state": "not_enacted_do_not_treat_as_law",
+      "note": "Kansas Legislature bill pages show the 2026 measures died / did not complete enactment; proposed 2027 dates are not current law.",
+      "official_sources": [
+        "https://www.kslegislature.gov/b2025_26/bills/sb372/",
+        "https://www.kslegislature.gov/b2025_26/bills/hb2422/"
+      ]
+    },
+    {
+      "jurisdiction": "SC",
+      "instrument": "H3405 App Store Accountability Act proposal",
+      "state": "not_enacted_do_not_treat_as_law",
+      "note": "Official 2025–2026 bill history shows introduction/committee activity but no enactment; monitor only.",
+      "official_sources": [
+        "https://www.scstatehouse.gov/billsearch.php?billnumbers=3405"
+      ]
+    }
+  ],
+  "closure_requirements": [
+    "Complete a current 50-state + District of Columbia + relevant U.S. territory matrix for Tailmance privacy, consumer, automatic-renewal, children/age, UGC, breach, pet/animal, marketing and platform overlays.",
+    "Obtain attributable U.S. counsel applicability/effective-date review for intended launch footprint.",
+    "Verify actual Apple/Google age-signal, significant-change, consent-revocation and console/configuration behavior in production where a state overlay applies.",
+    "Recheck active litigation/injunctions before each U.S. release because enforceability can change independently of statutory text."
+  ]
+}

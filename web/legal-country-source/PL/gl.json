@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "PL",
+  "country_display_name": "Polonia",
+  "document_locale": "gl",
+  "document_language_display_names": "polaco",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento xurídico específico da xurisdición",
+  "sections": [
+    {
+      "heading": "Ámbito xurídico",
+      "paragraphs": [
+        "Este suplemento aplícase cando Tailmance determina que Polonia é o país cuxa lexislación se aplica á túa conta. Complementa as Condicións de uso, o Aviso de privacidade, as Normas da comunidade, o aviso de subscrición e outros documentos xurídicos, sen substituílos.",
+        "Tailmance aplica as obrigas xurídicas conforme a ese país verificado e, cando sexa necesario, ao marco xurídico rexional ou local aplicable. Cambiar o idioma da aplicación, viaxar ou cambiar a rexión da tenda non modifica por si só ese marco xurídico."
+      ]
+    },
+    {
+      "heading": "Lingua dos documentos",
+      "paragraphs": [
+        "Os documentos xurídicos vinculantes desta configuración mantéñense nas linguas esixidas: polaco. Cando se esixe unha lingua determinada, Tailmance non a substitúe automaticamente e sen aviso por outra lingua.",
+        "Esta versión ofrécese como tradución de accesibilidade. Non substitúe unha versión nunha lingua obrigatoria cando a normativa aplicable ou esta configuración xurídica a esixe."
+      ]
+    },
+    {
+      "heading": "Requisitos xurídicos específicos do país",
+      "paragraphs": [
+        "Revísanse vinte e dúas áreas de requisitos xurídicos para o país aplicable mediante fontes oficiais identificables. O dereito vixente e as súas datas de efecto sepáranse de propostas, consultas e medidas futuras; unha proposta nunca se trata como dereito vixente.",
+        "Data de revisión das fontes: 1 de outubro de 2026. As medidas futuras, os proxectos e as consultas contrólanse por separado e non se presentan como dereito vixente."
+      ]
+    },
+    {
+      "heading": "Marcos xurídicos revisados",
+      "paragraphs": [
+        "A continuación indícanse os principais marcos xurídicos rexistrados na revisión de fontes oficiais de Tailmance para o país aplicable. A inclusión só delimita o alcance da revisión: se unha norma está vixente, entra en vigor no futuro, é unha proposta ou depende dunha condición de aplicabilidade máis limitada determínase cos controis de data de efecto e ámbito exacto, e nunca se deduce unicamente desta lista."
+      ],
+      "items": [
+        "EU GDPR",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Privacidade, seguridade e dereitos das persoas usuarias",
+      "paragraphs": [
+        "Os dereitos de privacidade, as solicitudes sobre datos, a eliminación da conta e dos datos, as transferencias internacionais, a verificación de idade, o márketing electrónico e as obrigas de seguridade e notificación aplícanse dentro do contexto xurídico exacto. Usa o Centro xurídico da aplicación para avisos, exportación e eliminación.",
+        "Comprobacións de saúde asistidas por IA. Calquera comprobación asistida por IA de documentos de vacinación ou veterinarios é só unha axuda automatizada preliminar. Non toma ningunha decisión definitiva, vinculante nin xuridicamente válida, e non constitúe un exame veterinario, un diagnóstico, unha certificación nin unha garantía do estado de saúde ou de vacinación dun animal. A IA pode cometer erros, pasar por alto fallos ou ler un documento de forma incorrecta. Unha persoa revisa os resultados pouco claros ou discutidos, e o sinal «documento revisado» só indica que o documento foi comprobado. As decisións de saúde deben apoiarse nun veterinario colexiado, e non se debe atrasar a atención por un resultado mostrado na aplicación."
+      ]
+    },
+    {
+      "heading": "Subscricións e información ao consumidor",
+      "paragraphs": [
+        "A tenda de aplicacións a través da cal se realiza a compra é a referencia para o prezo de subscrición mostrado, a moeda e o tratamento fiscal aplicable. A renovación, a cancelación e a información precontractual esixida preséntanse antes da compra. Tailmance non vende animais nin produtos físicos e non procesa pagamentos entre usuarios por vendas de animais."
+      ]
+    },
+    {
+      "heading": "Benestar animal e ausencia de comercio",
+      "paragraphs": [
+        "Prohíbense as vendas comerciais de animais e os mercados destinados á cría comercial. Os apareamentos organizados polos propietarios só están dispoñibles cando se cumpren os requisitos aplicables do país sobre benestar animal, cría, saúde, parentesco e idoneidade; en caso contrario, a función permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contacto e fontes oficiais",
+      "paragraphs": [
+        "As consultas sobre estes avisos ou as solicitudes de privacidade poden enviarse a yektaozel@icloud.com. A continuación enuméranse as fontes oficiais utilizadas nesta revisión xurídica."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://eli.gov.pl/eli/DU/2024/1221/ogl",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://eli.gov.pl/api/acts/DU/2024/1796/text.html",
+        "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.gov.pl/web/premier/projekt-ustawy-o-ochronie-maloletnich-przed-dostepem-do-tresci-pornograficznych-w-internecie",
+        "https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=2697",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.wetgiw.gov.pl/handel-eksport-import/zasady-handlu---psy-koty-fretki",
+        "https://eli.gov.pl/api/acts/DU/2023/1580/text.html",
+        "https://eli.gov.pl/eli/DU/2026/1005/ogl",
+        "https://eli.gov.pl/eli/DU/2026/755/ogl",
+        "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000662",
+        "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000720",
+        "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=wdu19971110724",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://uodo.gov.pl/pl/525/2583",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "4ea8a3d29449219725001ddb95bf03b77d43a386e7767569edc1a64517d22573",
+  "official_source_count": 53,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "pl"
+  ],
+  "display_language_name": "galego"
+}

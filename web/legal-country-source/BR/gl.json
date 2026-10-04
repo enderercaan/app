@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "BR",
+  "country_display_name": "Brasil",
+  "document_locale": "gl",
+  "document_language_display_names": "portugués do Brasil",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento xurídico específico da xurisdición",
+  "sections": [
+    {
+      "heading": "Ámbito xurídico",
+      "paragraphs": [
+        "Este suplemento aplícase cando Tailmance determina que Brasil é o país cuxa lexislación se aplica á túa conta. Complementa as Condicións de uso, o Aviso de privacidade, as Normas da comunidade, o aviso de subscrición e outros documentos xurídicos, sen substituílos.",
+        "Tailmance aplica as obrigas xurídicas conforme a ese país verificado e, cando sexa necesario, ao marco xurídico rexional ou local aplicable. Cambiar o idioma da aplicación, viaxar ou cambiar a rexión da tenda non modifica por si só ese marco xurídico."
+      ]
+    },
+    {
+      "heading": "Lingua dos documentos",
+      "paragraphs": [
+        "Os documentos xurídicos vinculantes desta configuración mantéñense nas linguas esixidas: portugués do Brasil. Cando se esixe unha lingua determinada, Tailmance non a substitúe automaticamente e sen aviso por outra lingua.",
+        "Esta versión ofrécese como tradución de accesibilidade. Non substitúe unha versión nunha lingua obrigatoria cando a normativa aplicable ou esta configuración xurídica a esixe."
+      ]
+    },
+    {
+      "heading": "Requisitos xurídicos específicos do país",
+      "paragraphs": [
+        "Revísanse vinte e dúas áreas de requisitos xurídicos para o país aplicable mediante fontes oficiais identificables. O dereito vixente e as súas datas de efecto sepáranse de propostas, consultas e medidas futuras; unha proposta nunca se trata como dereito vixente.",
+        "Data de revisión das fontes: 1 de outubro de 2026. As medidas futuras, os proxectos e as consultas contrólanse por separado e non se presentan como dereito vixente."
+      ]
+    },
+    {
+      "heading": "Marcos xurídicos revisados",
+      "paragraphs": [
+        "A continuación indícanse os principais marcos xurídicos rexistrados na revisión de fontes oficiais de Tailmance para o país aplicable. A inclusión só delimita o alcance da revisión: se unha norma está vixente, entra en vigor no futuro, é unha proposta ou depende dunha condición de aplicabilidade máis limitada determínase cos controis de data de efecto e ámbito exacto, e nunca se deduce unicamente desta lista."
+      ],
+      "items": [
+        "LGPD",
+        "ANPD Resolution CD/ANPD No. 19/2024"
+      ]
+    },
+    {
+      "heading": "Privacidade, seguridade e dereitos das persoas usuarias",
+      "paragraphs": [
+        "Os dereitos de privacidade, as solicitudes sobre datos, a eliminación da conta e dos datos, as transferencias internacionais, a verificación de idade, o márketing electrónico e as obrigas de seguridade e notificación aplícanse dentro do contexto xurídico exacto. Usa o Centro xurídico da aplicación para avisos, exportación e eliminación.",
+        "Comprobacións de saúde asistidas por IA. Calquera comprobación asistida por IA de documentos de vacinación ou veterinarios é só unha axuda automatizada preliminar. Non toma ningunha decisión definitiva, vinculante nin xuridicamente válida, e non constitúe un exame veterinario, un diagnóstico, unha certificación nin unha garantía do estado de saúde ou de vacinación dun animal. A IA pode cometer erros, pasar por alto fallos ou ler un documento de forma incorrecta. Unha persoa revisa os resultados pouco claros ou discutidos, e o sinal «documento revisado» só indica que o documento foi comprobado. As decisións de saúde deben apoiarse nun veterinario colexiado, e non se debe atrasar a atención por un resultado mostrado na aplicación."
+      ]
+    },
+    {
+      "heading": "Subscricións e información ao consumidor",
+      "paragraphs": [
+        "A tenda de aplicacións a través da cal se realiza a compra é a referencia para o prezo de subscrición mostrado, a moeda e o tratamento fiscal aplicable. A renovación, a cancelación e a información precontractual esixida preséntanse antes da compra. Tailmance non vende animais nin produtos físicos e non procesa pagamentos entre usuarios por vendas de animais."
+      ]
+    },
+    {
+      "heading": "Benestar animal e ausencia de comercio",
+      "paragraphs": [
+        "Prohíbense as vendas comerciais de animais e os mercados destinados á cría comercial. Os apareamentos organizados polos propietarios só están dispoñibles cando se cumpren os requisitos aplicables do país sobre benestar animal, cría, saúde, parentesco e idoneidade; en caso contrario, a función permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contacto e fontes oficiais",
+      "paragraphs": [
+        "As consultas sobre estes avisos ou as solicitudes de privacidade poden enviarse a yektaozel@icloud.com. A continuación enuméranse as fontes oficiais utilizadas nesta revisión xurídica."
+      ],
+      "official_sources": [
+        "https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/transferencia-internacional-de-dados",
+        "https://www.gov.br/mj/pt-br/assuntos/sua-protecao/sedigi/eca-digital/eca-digital-1",
+        "https://www.gov.br/mj/pt-br/assuntos/arquivos-imprensa/sedigi/decretos-eca-digital.pdf",
+        "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/relatorio-de-impacto-a-protecao-de-dados-pessoais-ripd",
+        "https://planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "https://bibliotecadigital.mj.gov.br/handle/1/17694",
+        "https://www.gov.br/anpd/pt-br/assuntos/eca-digital/",
+        "https://developer.apple.com/news/?id=f5zj08ey",
+        "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
+        "https://www.gov.br/anpd/pt-br/assuntos/marco-civil-da-internet",
+        "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15487.htm",
+        "https://www.gov.br/mj/pt-br/assuntos/noticias-1/mjsp-regulamenta-notificacao-de-crimes-contra-criancas-em-plataformas-digitais/",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://www.gov.br/mma/pt-br/composicao/sbio/dpda/programas-e-Projetos/sinpatinhas/sinpatinhas",
+        "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+        "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados",
+        "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-lanca-guia-orientativo-sobre-legitimo-interesse",
+        "https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular-referente-lgpd",
+        "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+        "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+        "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis",
+        "https://www.gov.br/mj/pt-br/assuntos/sua-protecao/cooperacao-internacional/csnu"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "f511772279153a2af7d21ca4012a2a3ba07edf764c60724ab250e2282c2ee362",
+  "official_source_count": 51,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "LGPD",
+    "ANPD Resolution CD/ANPD No. 19/2024"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "pt-BR"
+  ],
+  "display_language_name": "galego"
+}

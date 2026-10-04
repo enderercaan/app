@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance chỉ truy cập những ảnh bạn chọn cho hồ sơ thú cưng và bài đăng mạng xã hội.",
+    "NSCameraUsageDescription": "Tailmance sử dụng camera để chụp ảnh thú cưng, đăng tin và xác minh thú cưng.",
+    "NSLocationWhenInUseUsageDescription": "Tailmance sử dụng vị trí gần đúng của bạn để hiển thị thú cưng ở gần theo khoảng cách."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

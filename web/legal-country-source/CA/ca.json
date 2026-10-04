@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "CA",
+  "country_display_name": "Canadà",
+  "document_locale": "ca",
+  "document_language_display_names": "anglès i francès",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplement jurídic específic de la jurisdicció",
+  "sections": [
+    {
+      "heading": "Àmbit jurídic",
+      "paragraphs": [
+        "Aquest suplement s’aplica quan Tailmance determina que Canadà és el país la legislació del qual s’aplica al teu compte. Complementa les Condicions d’ús, l’Avís de privacitat, les Normes de la comunitat, l’avís de subscripció i altres documents jurídics, sense substituir-los.",
+        "Tailmance aplica les obligacions jurídiques d’acord amb aquest país verificat i, quan cal, amb el marc jurídic regional o local aplicable. Canviar l’idioma de l’aplicació, viatjar o canviar la regió de la botiga no modifica per si sol aquest marc jurídic."
+      ]
+    },
+    {
+      "heading": "Llengua dels documents",
+      "paragraphs": [
+        "Els documents jurídics vinculants d’aquesta configuració es mantenen en les llengües exigides: anglès i francès. Quan s’exigeix una llengua determinada, Tailmance no la substitueix automàticament i sense avís per una altra llengua.",
+        "Aquesta versió s’ofereix com a traducció d’accessibilitat. No substitueix una versió en una llengua obligatòria quan la legislació aplicable o aquesta configuració jurídica l’exigeixen."
+      ]
+    },
+    {
+      "heading": "Requisits jurídics específics del país",
+      "paragraphs": [
+        "Es revisen vint-i-dues àrees de requisits jurídics per al país aplicable a partir de fonts oficials identificables. El dret vigent i les dates d’efecte se separen de propostes, consultes i mesures futures; una proposta mai no es tracta com a dret vigent.",
+        "Data de revisió de les fonts: 1 d’octubre de 2026. Les mesures futures, els projectes i les consultes es controlen per separat i no es presenten com a dret vigent."
+      ]
+    },
+    {
+      "heading": "Marcs jurídics revisats",
+      "paragraphs": [
+        "A continuació s’indiquen els principals marcs jurídics registrats en la revisió de fonts oficials de Tailmance per al país aplicable. La inclusió només delimita l’abast de la revisió: si una norma és vigent, entra en vigor en el futur, és una proposta o depèn d’una condició d’aplicabilitat més limitada es determina mitjançant els controls de data d’efecte i d’àmbit exacte, i mai no es dedueix únicament d’aquesta llista."
+      ],
+      "items": [
+        "PIPEDA and applicable provincial private-sector laws"
+      ]
+    },
+    {
+      "heading": "Privacitat, seguretat i drets de les persones usuàries",
+      "paragraphs": [
+        "Els drets de privacitat, les sol·licituds sobre dades, la supressió del compte i de les dades, les transferències internacionals, la verificació d’edat, el màrqueting electrònic i les obligacions de seguretat i notificació s’apliquen dins del context jurídic exacte. Fes servir el Centre jurídic de l’aplicació per als avisos, l’exportació i la supressió.",
+        "Comprovacions de salut assistides per IA. Qualsevol comprovació assistida per IA de documents de vacunació o veterinaris és només una ajuda automatitzada preliminar. No pren cap decisió definitiva, vinculant ni jurídicament vàlida, i no constitueix un examen veterinari, un diagnòstic, una certificació ni una garantia de l'estat de salut o de vacunació d'un animal. La IA pot cometre errors, passar per alt fallades o llegir un document de manera incorrecta. Una persona revisa els resultats poc clars o discutits, i el senyal «document revisat» només indica que el document s'ha comprovat. Les decisions de salut s'han de recolzar en un veterinari col·legiat, i no s'ha de retardar l'atenció per un resultat mostrat a l'aplicació."
+      ]
+    },
+    {
+      "heading": "Subscripcions i informació al consumidor",
+      "paragraphs": [
+        "La botiga d’aplicacions a través de la qual es fa la compra és la referència per al preu de subscripció mostrat, la moneda i el tractament fiscal aplicable. La renovació, la cancel·lació i la informació precontractual exigida es presenten abans de la compra. Tailmance no ven animals ni productes físics i no processa pagaments entre usuaris per vendes d’animals."
+      ]
+    },
+    {
+      "heading": "Benestar animal i absència de comerç",
+      "paragraphs": [
+        "Es prohibeixen les vendes comercials d’animals i els mercats destinats a la cria comercial. Els aparellaments organitzats pels propietaris només estan disponibles quan es compleixen els requisits aplicables del país sobre benestar animal, cria, salut, parentiu i idoneïtat; en cas contrari, la funció roman bloquejada."
+      ]
+    },
+    {
+      "heading": "Contacte i fonts oficials",
+      "paragraphs": [
+        "Les consultes sobre aquests avisos o les sol·licituds de privacitat es poden enviar a yektaozel@icloud.com. A continuació s’enumeren les fonts oficials utilitzades en aquesta revisió jurídica."
+      ],
+      "official_sources": [
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/",
+        "https://www.parl.ca/legisinfo/en/bill/45-1/c-36",
+        "https://ised-isde.canada.ca/site/office-consumer-affairs/en/modern-marketplace/contracts",
+        "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/general-impression-test",
+        "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/04002_00_multi",
+        "https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract",
+        "https://www.opc.gouv.qc.ca/consommateur/nouvelles-protections",
+        "https://www.opc.gouv.qc.ca/en/commercant/nouvelles-obligations",
+        "https://www.priv.gc.ca/en/privacy-topics/age-assurance/",
+        "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
+        "https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://inspection.canada.ca/en/importing-food-plants-animals/e-commerce/animals",
+        "https://inspection.canada.ca/en/importing-food-plants-animals/pets/dogs/commercial-imports-8-months",
+        "https://www.quebec.ca/agriculture-environnement-et-ressources-naturelles/sante-animale/animaux-compagnie/obligations-reproduction-animaux-domestiques",
+        "https://www.ontario.ca/laws/statute/19p13",
+        "https://www.ontario.ca/laws/statute/s24014",
+        "https://www.legisquebec.gouv.qc.ca/fr/version/lc/C-11?code=se%3A55",
+        "https://www.oqlf.gouv.qc.ca/francisation/entreprises/contrats-adhesion.html",
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/gd_third-party_202609/",
+        "https://crtc.gc.ca/eng/com500/faq500.htm",
+        "https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/category-digital-technologies.html",
+        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html",
+        "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/15-1/general-requirements-books-records.html",
+        "https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/copyright-policy/frequently-asked-questions-legislative-amendments-copyright-act-notice-and-notice",
+        "https://www.ised-isde.canada.ca/site/office-consumer-affairs/en/connected-consumer/notices-canadian-internet-subscribers",
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/privacy-breaches-at-your-business/gd_pb_201810/",
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/privacy-breaches-at-your-business/breach_101/breach_records/",
+        "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/current-actuelles.aspx?lang=eng"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "9cfb7068f053d58eed13fd6b5735672f780412b9ce912c369410e4de7f15beff",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "PIPEDA and applicable provincial private-sector laws"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en",
+    "fr"
+  ],
+  "display_language_name": "català"
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "IT",
+  "country_display_name": "Италия",
+  "document_locale": "ru",
+  "document_language_display_names": "итальянский",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Юридическое дополнение для конкретной юрисдикции",
+  "sections": [
+    {
+      "heading": "Юридическая сфера действия",
+      "paragraphs": [
+        "Это дополнение применяется, когда Tailmance определяет, что Италия является страной, право которой применяется к вашей учетной записи. Оно дополняет Условия использования, Уведомление о конфиденциальности, Правила сообщества, уведомление о подписке и другие юридические документы, но не заменяет их.",
+        "Tailmance применяет юридические обязанности в соответствии с этой подтвержденной страной и, при необходимости, с применимой региональной или местной правовой системой. Изменение языка приложения, поездка или изменение региона магазина сами по себе не меняют применимое право."
+      ]
+    },
+    {
+      "heading": "Язык документов",
+      "paragraphs": [
+        "Обязательные юридические документы для этой правовой конфигурации предоставляются на требуемом языке или языках: итальянский. Если требуется определенный язык, Tailmance не заменяет его автоматически и без уведомления другим языком.",
+        "Эта версия предоставляется как перевод для доступности. Она не заменяет версию на обязательном языке, если такая версия требуется применимым правом или этой правовой конфигурацией."
+      ]
+    },
+    {
+      "heading": "Юридические требования для страны",
+      "paragraphs": [
+        "Для применимой страны по идентифицируемым официальным источникам проверяются двадцать две области юридических требований. Действующее право и даты вступления в силу отделяются от проектов, консультаций и будущих мер; предложение никогда не рассматривается как действующее право.",
+        "Дата проверки источников: 1 октября 2026 г. Будущие меры, проекты и консультации отслеживаются отдельно и не представляются как действующее право."
+      ]
+    },
+    {
+      "heading": "Проверенные правовые рамки",
+      "paragraphs": [
+        "Ниже перечислены основные правовые рамки, зафиксированные в проверке официальных источников Tailmance для применимой страны. Включение в список обозначает только охват проверки: действует ли норма сейчас, вступит в силу позднее, является предложением или применяется лишь при более узких условиях, определяется контролем дат вступления в силу и точной применимости и никогда не выводится только из этого списка."
+      ],
+      "items": [
+        "EU GDPR",
+        "Italian Privacy Code",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Конфиденциальность, безопасность и права пользователей",
+      "paragraphs": [
+        "Права в области конфиденциальности, запросы о данных, удаление аккаунта и данных, международные передачи, подтверждение возраста, электронный маркетинг, а также обязанности по безопасности и уведомлению применяются в точном юридическом контексте. Для уведомлений, экспорта и удаления используйте Юридический центр в приложении.",
+        "Проверки здоровья с поддержкой ИИ. Любая проверка документов о прививках или ветеринарных документов с поддержкой ИИ — лишь предварительное автоматизированное средство. Она не принимает окончательного, обязательного или юридически действительного решения и не является ветеринарным осмотром, диагнозом, сертификацией или гарантией состояния здоровья либо вакцинации животного. ИИ может ошибаться, пропускать ошибки или неверно считывать документ. Неясные или оспариваемые результаты проверяет человек, а отметка «документ проверен» означает лишь, что документ был просмотрен. По вопросам здоровья следует обращаться к ветеринарному врачу с лицензией и не откладывать помощь из-за результата, показанного в приложении."
+      ]
+    },
+    {
+      "heading": "Подписки и информация для потребителей",
+      "paragraphs": [
+        "Магазин приложений, через который совершается покупка, является источником данных об отображаемой цене подписки, валюте и применимом налоговом представлении. Сведения о продлении, отмене и обязательная преддоговорная информация предоставляются до покупки. Tailmance не продает животных или физические товары и не обрабатывает платежи между пользователями за продажу животных."
+      ]
+    },
+    {
+      "heading": "Благополучие животных и отсутствие торговли",
+      "paragraphs": [
+        "Коммерческая продажа животных и площадки для коммерческого разведения запрещены. Организованная владельцами вязка доступна только при выполнении применимых в соответствующей стране требований к благополучию животных, разведению, здоровью, родству и допустимости; иначе функция остается заблокированной."
+      ]
+    },
+    {
+      "heading": "Контакты и официальные источники",
+      "paragraphs": [
+        "Вопросы по этим уведомлениям или запросы о конфиденциальности можно направлять на yektaozel@icloud.com. Официальные источники, использованные для этого юридического анализа, перечислены ниже."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10225019",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://www.normattiva.it/eli/id/2026/03/09/26G00047/CONSOLIDATED",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6=",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig=",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig=",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2010%3B201",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-08-05%3B134",
+        "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1991;281=",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/possesso-responsabile/",
+        "https://www.regione.piemonte.it/web/temi/agricoltura/zootecnia-pascoli-apicoltura/normativa-materia-riproduzione-animale",
+        "https://www.regione.lombardia.it/agricoltura/zootecnia/regole-riproduzione-animale",
+        "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/main.aspx?iddoc=lr002009123000033&view=showdoc",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=rr002017041300002ar0013a&view=showpart",
+        "https://www.salute.gov.it/new/it/tema/animali-daffezione/viaggio-verso-litalia/",
+        "https://www.regione.piemonte.it/web/temi/sanita/veterinaria-salute-alimentare/normativa-relativa-agli-animali-daffezione",
+        "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=lr002009123000033ar0105a&view=showpart",
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art9=",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://www.garanteprivacy.it/data-breach",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "140aad60332618de8eb2c51387e5080431f484b38920d630723e868c3da26aed",
+  "official_source_count": 59,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "Italian Privacy Code",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "it"
+  ],
+  "display_language_name": "русский"
+}

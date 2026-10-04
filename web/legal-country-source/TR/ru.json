@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "TR",
+  "country_display_name": "Турция",
+  "document_locale": "ru",
+  "document_language_display_names": "турецкий",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Юридическое дополнение для конкретной юрисдикции",
+  "sections": [
+    {
+      "heading": "Юридическая сфера действия",
+      "paragraphs": [
+        "Это дополнение применяется, когда Tailmance определяет, что Турция является страной, право которой применяется к вашей учетной записи. Оно дополняет Условия использования, Уведомление о конфиденциальности, Правила сообщества, уведомление о подписке и другие юридические документы, но не заменяет их.",
+        "Tailmance применяет юридические обязанности в соответствии с этой подтвержденной страной и, при необходимости, с применимой региональной или местной правовой системой. Изменение языка приложения, поездка или изменение региона магазина сами по себе не меняют применимое право."
+      ]
+    },
+    {
+      "heading": "Язык документов",
+      "paragraphs": [
+        "Обязательные юридические документы для этой правовой конфигурации предоставляются на требуемом языке или языках: турецкий. Если требуется определенный язык, Tailmance не заменяет его автоматически и без уведомления другим языком.",
+        "Эта версия предоставляется как перевод для доступности. Она не заменяет версию на обязательном языке, если такая версия требуется применимым правом или этой правовой конфигурацией."
+      ]
+    },
+    {
+      "heading": "Юридические требования для страны",
+      "paragraphs": [
+        "Для применимой страны по идентифицируемым официальным источникам проверяются двадцать две области юридических требований. Действующее право и даты вступления в силу отделяются от проектов, консультаций и будущих мер; предложение никогда не рассматривается как действующее право.",
+        "Дата проверки источников: 1 октября 2026 г. Будущие меры, проекты и консультации отслеживаются отдельно и не представляются как действующее право."
+      ]
+    },
+    {
+      "heading": "Проверенные правовые рамки",
+      "paragraphs": [
+        "Ниже перечислены основные правовые рамки, зафиксированные в проверке официальных источников Tailmance для применимой страны. Включение в список обозначает только охват проверки: действует ли норма сейчас, вступит в силу позднее, является предложением или применяется лишь при более узких условиях, определяется контролем дат вступления в силу и точной применимости и никогда не выводится только из этого списка."
+      ],
+      "items": [
+        "KVKK Law No. 6698",
+        "Cross-border transfer amendments and secondary rules effective from 2024"
+      ]
+    },
+    {
+      "heading": "Конфиденциальность, безопасность и права пользователей",
+      "paragraphs": [
+        "Права в области конфиденциальности, запросы о данных, удаление аккаунта и данных, международные передачи, подтверждение возраста, электронный маркетинг, а также обязанности по безопасности и уведомлению применяются в точном юридическом контексте. Для уведомлений, экспорта и удаления используйте Юридический центр в приложении.",
+        "Проверки здоровья с поддержкой ИИ. Любая проверка документов о прививках или ветеринарных документов с поддержкой ИИ — лишь предварительное автоматизированное средство. Она не принимает окончательного, обязательного или юридически действительного решения и не является ветеринарным осмотром, диагнозом, сертификацией или гарантией состояния здоровья либо вакцинации животного. ИИ может ошибаться, пропускать ошибки или неверно считывать документ. Неясные или оспариваемые результаты проверяет человек, а отметка «документ проверен» означает лишь, что документ был просмотрен. По вопросам здоровья следует обращаться к ветеринарному врачу с лицензией и не откладывать помощь из-за результата, показанного в приложении."
+      ]
+    },
+    {
+      "heading": "Подписки и информация для потребителей",
+      "paragraphs": [
+        "Магазин приложений, через который совершается покупка, является источником данных об отображаемой цене подписки, валюте и применимом налоговом представлении. Сведения о продлении, отмене и обязательная преддоговорная информация предоставляются до покупки. Tailmance не продает животных или физические товары и не обрабатывает платежи между пользователями за продажу животных."
+      ]
+    },
+    {
+      "heading": "Благополучие животных и отсутствие торговли",
+      "paragraphs": [
+        "Коммерческая продажа животных и площадки для коммерческого разведения запрещены. Организованная владельцами вязка доступна только при выполнении применимых в соответствующей стране требований к благополучию животных, разведению, здоровью, родству и допустимости; иначе функция остается заблокированной."
+      ]
+    },
+    {
+      "heading": "Контакты и официальные источники",
+      "paragraphs": [
+        "Вопросы по этим уведомлениям или запросы о конфиденциальности можно направлять на yektaozel@icloud.com. Официальные источники, использованные для этого юридического анализа, перечислены ниже."
+      ],
+      "official_sources": [
+        "https://www.kvkk.gov.tr/",
+        "https://www.kvkk.gov.tr/Icerik/7991/Standart-Sozlesmeler",
+        "https://www.ticaret.gov.tr/tuketici/mevzuat/6502-sayili-tuketicinin-korunmasi-mevzuati",
+        "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/abonelik-sozlesmeleri-hakkinda-bilgilendirme",
+        "https://ticaret.gov.tr/haberler/ticaret-bakanligindan-cocuklarin-dijital-guvenligini-guclendirecek-onemli-duzenleme",
+        "https://www.ticaret.gov.tr/haberler/aldaticici-reklam-ve-haksiz-ticari-uygulamalarla-mucadelede-yeni-donem-basliyor",
+        "https://www.kvkk.gov.tr/Icerik/8666/cocuklarin-sosyal-medya-kullaniminda-kisisel-verilerinin-korunmasina-iliskin-kamuoyu-duyurusu",
+        "https://www.btk.gov.tr/uploads/boarddecisions/sosyal-ag-saglayici-hakkinda-usul-ve-esaslar/119-06-sosyal-ag-saglayici-hakkinda-usul-ve-esaslar-28-03-2023-id.pdf",
+        "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/mesafeli-sozlesmeler-hakkinda-bilgilendirme",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.tarimorman.gov.tr/GKGM/Menu/81/Veteriner-Hizmetleri-Mevzuati",
+        "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?TermId=fb841593-eb13-4a7b-90e6-762d1dc46795&TermStoreId=368e785b-af33-487d-a98d-c11d5495130b&UrlSuffix=6470%2FHayvanlarin-Korunmasina-Dair-Uygulama-Yonetmeligi-Resmi-Gazetede-Yayimlandi",
+        "https://www.kvkk.gov.tr/Icerik/8043/Standart-Sozlesme-Bildirim-Modulu-Hakkinda-Kamuoyu-Duyurusu",
+        "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/tuketici-sozlesmelerindeki-temel-ilkeler-ve-haksiz-sartlar-hakkinda-bilgilendirme",
+        "https://tuketici.ticaret.gov.tr/data/5e819a8e13b876a1b04c7a4a/Mesafeli%20S%C3%B6zle%C5%9Fmeler%20Y%C3%B6netmeli%C4%9Fi.pdf",
+        "https://ticaret.gov.tr/ic-ticaret/ticari-elektronik-iletiler",
+        "https://ticaret.gov.tr/ic-ticaret/ticari-elektronik-iletiler/ileti-yonetim-sistemi-iys",
+        "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/elektronik-ticaret",
+        "https://www.aile.gov.tr/sss/engelli-ve-yasli-hizmetleri-genel-mudurlugu/erisilebilirlik/",
+        "https://www.aile.gov.tr/media/219872/web_siteleri_ve_mobil_uygulamalarin_erisilebilirligi_hakkinda_genelge.pdf",
+        "https://etbis.ticaret.gov.tr/tr/Home/ETicaretAkademisi/etbis-kay%C4%B1t",
+        "https://telifhaklari.ktb.gov.tr/TR-332372/telif-hakki-ihlali-halinde-ne-yapilabilir.html",
+        "https://www.kvkk.gov.tr/Icerik/5362/Veri-Ihlali-Bildirimi",
+        "https://masak.hmb.gov.tr/5-maddeye-iliskin-bakanlar-kurulu-kararlari",
+        "https://resmigazete.gov.tr/01.08.2026"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "20a84f46d8547a4c6591bbc011070ab4946ec7a820ff47861be4c1c3337453dc",
+  "official_source_count": 48,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "KVKK Law No. 6698",
+    "Cross-border transfer amendments and secondary rules effective from 2024"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "tr"
+  ],
+  "display_language_name": "русский"
+}

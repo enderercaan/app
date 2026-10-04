@@ -1,0 +1,1245 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-10-01",
+  "scope": "27 configured Tailmance markets. Source-level legal and legal-language completion is separated from live production/store/provider/operator evidence; countries outside the configured 27 are out of scope for this inventory.",
+  "policy": {
+    "fail_closed": true,
+    "no_external_evidence_fabrication": true,
+    "external_counsel_required_for_configured_source_legal_language_approval": false,
+    "production_operational_evidence_separate": true,
+    "unconfigured_countries": "OUT_OF_SCOPE"
+  },
+  "configured_scope_source_integrity_blockers": [],
+  "external_inventory_source_misclassifications": [],
+  "blocker_families": {
+    "configured_27_legal_language_source_approval": {
+      "status": "PASS",
+      "pending_markets": [],
+      "approved_count": 27,
+      "exact_country_language_routes": "594/594",
+      "binding_country_language_routes": "34/34",
+      "accessibility_translation_routes": "560/560",
+      "official_source_topic_cells": "594/594",
+      "source_gate": "release/configured-market-legal-language-source-approval-v20.json",
+      "repository_source_can_satisfy_alone": true
+    },
+    "client_production_configuration": {
+      "status": "BLOCK_UNTIL_RELEASE_ENV_SUPPLIED",
+      "requirements": [
+        {
+          "name": "EXPO_PUBLIC_SUPABASE_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_SUPABASE_ANON_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_REVENUECAT_IOS_API_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_REVENUECAT_ANDROID_API_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_REVENUECAT_ENTITLEMENT_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_REVENUECAT_PREMIUM_PACKAGE_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_REVENUECAT_BOOST_PRODUCT_IDS",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_REVENUECAT_SUPER_LIKE_PRODUCT_IDS",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_EAS_PROJECT_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_IOS_APP_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_ANDROID_APP_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_LEGAL_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_TERMS_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_COMMUNITY_GUIDELINES_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_PRIVACY_NOTICE_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_MARKETING_PUSH_CONSENT_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_SENTRY_DSN",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_AUTH_CHALLENGE_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_APP_LINK_HOST",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_SHA256",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "SENTRY_ORG",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "SENTRY_PROJECT",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "SENTRY_AUTH_TOKEN",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_PLAY_INTEGRITY_CLOUD_PROJECT_NUMBER",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "GOOGLE_MAPS_ANDROID_API_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "GOOGLE_SERVICES_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXPO_PUBLIC_APP_ENV",
+          "required_value": "production"
+        }
+      ],
+      "repository_source_can_satisfy_alone": false
+    },
+    "server_production_configuration": {
+      "status": "BLOCK_UNTIL_RELEASE_ENV_SUPPLIED",
+      "requirements": [
+        {
+          "name": "SUPABASE_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "SUPABASE_SERVICE_ROLE_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "SUPABASE_ANON_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "UPSTASH_REDIS_REST_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "UPSTASH_REDIS_REST_TOKEN",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "OAUTH_REVOCATION_CREDENTIAL_KEY_B64",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "OAUTH_REVOCATION_CREDENTIAL_KEY_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_SIGN_IN_TEAM_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_SIGN_IN_KEY_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_SIGN_IN_CLIENT_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_SIGN_IN_PRIVATE_KEY_P8",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_SIGN_IN_NATIVE_CLIENT_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "GOOGLE_OAUTH_SERVER_CLIENT_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "GOOGLE_OAUTH_SERVER_CLIENT_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "LIVEKIT_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "LIVEKIT_API_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "LIVEKIT_API_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APNS_TEAM_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APNS_KEY_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APNS_VOIP_PRIVATE_KEY_P8",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APNS_BUNDLE_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APNS_ENVIRONMENT",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REVENUECAT_REST_API_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REVENUECAT_WEBHOOK_AUTH",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REVENUECAT_WEBHOOK_SIGNING_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REVENUECAT_WEBHOOK_ENVIRONMENT",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REVENUECAT_ALLOWED_APP_IDS_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REVENUECAT_ENTITLEMENT_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REVENUECAT_CONSUMABLE_PRODUCTS_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "PUSH_WORKER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "LIVEKIT_ROOM_REAPER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "STORAGE_GC_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "EXTERNAL_DELETION_WORKER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "ACCOUNT_DELETION_ADMIN_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REMINDER_WORKER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "MODERATION_WORKER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "MODERATION_ADMIN_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "MODERATION_APPEALS_ADMIN_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "REPORTS_ADMIN_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "MODERATION_API_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "MODERATION_API_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "MODERATION_ALLOWED_HOSTS_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "HEALTH_AI_WORKER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "HEALTH_AI_API_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "HEALTH_AI_API_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "HEALTH_AI_ALLOWED_HOSTS_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "HEALTH_AI_PROVIDER_CODE",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "OPS_HEALTH_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "SECURITY_ADMIN_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "HEALTH_VERIFICATION_WEBHOOK_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "CORS_ALLOWED_ORIGIN",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "TURNSTILE_SECRET_KEY",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "TURNSTILE_EXPECTED_HOSTNAME",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "TURNSTILE_EXPECTED_ACTION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "GOOGLE_PLAY_INTEGRITY_SERVICE_ACCOUNT_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "PLAY_INTEGRITY_PACKAGE_NAME",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "PLAY_INTEGRITY_ALLOWED_CERT_SHA256",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "PLAY_INTEGRITY_ALLOWED_VERSION_CODES",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "PLAY_INTEGRITY_REQUIRE_LICENSED",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_APP_ATTEST_VERIFIER_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_APP_ATTEST_VERIFIER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_APP_ATTEST_APP_ID",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "APPLE_APP_ATTEST_VERIFIER_ALLOWED_HOSTS_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "IDENTITY_PROVIDER_SESSION_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "IDENTITY_PROVIDER_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "IDENTITY_PROVIDER_RETURN_URL",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "IDENTITY_PROVIDER_ALLOWED_HOSTS_JSON",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "IDENTITY_WEBHOOK_SECRET",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "TAILMANCE_LEGAL_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "TAILMANCE_TERMS_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "TAILMANCE_COMMUNITY_GUIDELINES_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
+          "name": "TAILMANCE_PRIVACY_NOTICE_VERSION",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        }
+      ],
+      "repository_source_can_satisfy_alone": false
+    },
+    "store_console_and_live_operations": {
+      "status": "BLOCK",
+      "pending_items": [
+        {
+          "id": "apple_age_rating",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_age_rating.console_evidence_status"
+        },
+        {
+          "id": "apple_AU_BR_SG_regional_18plus_distribution_review",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_regional_age_assurance_distribution_2026.production_distribution_behavior_status"
+        },
+        {
+          "id": "apple_AU_BR_SG_declared_age_range_integration",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_regional_age_assurance_distribution_2026.declared_age_range_production_integration_status"
+        },
+        {
+          "id": "apple_AU_regional_age_rating",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_regional_age_rating_updates_2026.australia.console_rating_evidence_status"
+        },
+        {
+          "id": "apple_VN_regional_age_rating",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_regional_age_rating_updates_2026.vietnam.console_rating_evidence_status"
+        },
+        {
+          "id": "google_iarc",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_iarc.console_evidence_status"
+        },
+        {
+          "id": "apple_app_privacy",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_app_privacy.console_declaration_status"
+        },
+        {
+          "id": "google_data_safety",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_data_safety.console_declaration_status"
+        },
+        {
+          "id": "google_delete_endpoint",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_account_deletion.production_endpoint_status"
+        },
+        {
+          "id": "google_delete_identity",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_account_deletion.production_identity_verification_status"
+        },
+        {
+          "id": "google_delete_data_safety_url",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_account_deletion.data_safety_deletion_url_console_status"
+        },
+        {
+          "id": "google_delete_data_safety_questions",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_account_deletion.data_safety_deletion_questions_console_status"
+        },
+        {
+          "id": "apple_ugc_human_sla",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_ugc.timely_moderation.production_sla_status"
+        },
+        {
+          "id": "apple_ugc_published_contact",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#apple_ugc.published_contact.live_publication_status"
+        },
+        {
+          "id": "google_ugc_operations",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_ugc.ongoing_moderation.production_operations_status"
+        },
+        {
+          "id": "google_ugc_child_safety_operations",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_ugc.child_safety.production_operations_status"
+        },
+        {
+          "id": "google_child_safety_console_self_certification",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_child_safety_standards.play_console_self_certification_status"
+        },
+        {
+          "id": "google_child_safety_live_point_of_contact",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_child_safety_standards.designated_child_safety_point_of_contact.live_contact_and_operational_authority_status"
+        },
+        {
+          "id": "google_child_safety_reporting_operations",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_child_safety_standards.child_safety_law_reporting_runbook.production_operations_status"
+        },
+        {
+          "id": "google_age_restricted_scope",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_age_restricted_content.scope_status"
+        },
+        {
+          "id": "google_restrict_minor_access",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_age_restricted_content.restrict_minor_access_console_status"
+        },
+        {
+          "id": "google_target_audience",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_target_audience_and_minor_access.target_audience_console_status"
+        },
+        {
+          "id": "google_target_minor_access_configuration",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#google_target_audience_and_minor_access.restrict_minor_access_configuration_status"
+        },
+        {
+          "id": "android_developer_identity_verification",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#android_developer_verification.developer_identity_verification_status"
+        },
+        {
+          "id": "google_play_global_package_registration",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#android_developer_verification.global_play_package_registration_evidence_status"
+        },
+        {
+          "id": "android_regional_certified_device_enforcement",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#android_developer_verification.regional_certified_device_enforcement_evidence_status"
+        },
+        {
+          "id": "us_state_age_assurance_current_texas_integration",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#us_state_app_store_age_assurance.texas.production_integration_status"
+        },
+        {
+          "id": "subscription_lifecycle",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#subscription.store_lifecycle_production_evidence_status"
+        },
+        {
+          "id": "subscription_base_price_apple",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#subscription.intended_base_price.app_store_connect_status"
+        },
+        {
+          "id": "subscription_base_price_google",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#subscription.intended_base_price.play_console_status"
+        },
+        {
+          "id": "subscription_price_tax_parity",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#subscription.price_tax_console_parity_status"
+        },
+        {
+          "id": "apple_subscription_multiseat",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#subscription.apple_multiseat_purchase_option.console_configuration_status"
+        },
+        {
+          "id": "apple_streamlined_purchasing",
+          "status": "not_verified",
+          "source_path": "release/store-compliance-v19.json#subscription.apple_streamlined_purchasing.console_configuration_status"
+        }
+      ],
+      "total_requirements": 33,
+      "repository_source_can_satisfy_alone": false
+    },
+    "critical_journey_and_visual_evidence": {
+      "status": "BLOCK",
+      "pending_items": [
+        {
+          "id": "ios_reviewer_critical_journey",
+          "status": "not_verified",
+          "platform": "ios",
+          "required": [
+            "real_release_candidate_build",
+            "real_review_account",
+            "onboarding_entry_screenshot_sha256",
+            "verification_center_screenshot_sha256",
+            "premium_paywall_screenshot_sha256",
+            "test_run_log_sha256"
+          ]
+        },
+        {
+          "id": "android_reviewer_critical_journey",
+          "status": "not_verified",
+          "platform": "android",
+          "required": [
+            "real_release_candidate_build",
+            "real_review_account",
+            "onboarding_entry_screenshot_sha256",
+            "verification_center_screenshot_sha256",
+            "premium_paywall_screenshot_sha256",
+            "test_run_log_sha256"
+          ]
+        },
+        {
+          "id": "core_ui_visual_golden_matrix",
+          "status": "not_verified",
+          "platform": "ios_android",
+          "required": [
+            "approved_baseline_image_hashes",
+            "current_candidate_image_hashes",
+            "pixel_or_perceptual_diff_report",
+            "dynamic_type_rtl_dark_mode_matrix"
+          ]
+        }
+      ],
+      "total_requirements": 3,
+      "source_contract_status": "implemented",
+      "repository_source_can_satisfy_alone": false,
+      "note": "Maestro selectors/flows are source-implemented; release-candidate device execution and visual golden evidence must be captured externally."
+    },
+    "external_security_runtime_evidence": {
+      "status": "BLOCK",
+      "pending_items": [
+        {
+          "id": "apple_app_attest_server_verification",
+          "status": "not_verified",
+          "notes": "Production App Attest entitlement, server challenge, attestation and assertion verification must be exercised on supported physical iOS hardware."
+        },
+        {
+          "id": "google_play_integrity_server_verification",
+          "status": "not_verified",
+          "notes": "Play Integrity Standard requests and server-side verdict verification must be exercised from a Play-distributed production-equivalent build."
+        },
+        {
+          "id": "sentry_native_crash_symbolication",
+          "status": "not_verified",
+          "notes": "A controlled native crash must arrive in the production Sentry project with source maps/native symbols and without prohibited PII."
+        },
+        {
+          "id": "revenuecat_apple_server_notifications",
+          "status": "not_verified",
+          "notes": "App Store Server Notifications V2 must be connected for sandbox and production through the chosen RevenueCat/store architecture, and a recent signed JWS notification delivery must be verified end-to-end."
+        },
+        {
+          "id": "revenuecat_google_rtdn",
+          "status": "not_verified",
+          "notes": "Google Play RTDN/PubSub must be connected to RevenueCat and confirmed with a test notification / recent delivery timestamp."
+        },
+        {
+          "id": "revenuecat_tailmance_webhook",
+          "status": "not_verified",
+          "notes": "RevenueCat webhook high-entropy Authorization plus HMAC-SHA256 signing over the exact raw body, five-minute signature timestamp tolerance, exact PRODUCTION/SANDBOX environment binding, app allowlist, retry behavior, idempotent ledger and RevenueCat REST reconciliation must be exercised against the deployed Edge Function."
+        },
+        {
+          "id": "iap_sandbox_lifecycle",
+          "status": "not_verified",
+          "notes": "Purchase, restore, renewal, cancellation, refund/revocation and account-transfer scenarios must be tested end-to-end on both stores."
+        },
+        {
+          "id": "native_auth_anti_bot_challenge",
+          "status": "not_verified",
+          "notes": "Source implements production native Turnstile challenge flow for email sign-in/sign-up, password reset and phone OTP using CSPRNG state, HTTPS challenge page, action/state-bound deep-link callback and Supabase captchaToken. Before release, verify the hosted Turnstile widget/site key, hosted Supabase Auth CAPTCHA setting/secret, physical-device return flow, expiry/cancel/error handling and rate-limit interaction in production."
+        },
+        {
+          "id": "physical_device_security_smoke",
+          "status": "not_verified",
+          "notes": "MFA, screen-capture protection, background/resume, push lifecycle, account switch/logout, deep links and permission prompts must pass on representative physical iOS/Android devices."
+        },
+        {
+          "id": "production_push_credentials_and_delivery",
+          "status": "not_verified",
+          "notes": "Verify production iOS APNs/PushKit VoIP and Android FCM V1 credentials are configured for the exact Tailmance bundle/package and EAS project; APNs VoIP uses the exact bundle .voip topic and production signing key, while ordinary Expo tokens remain a separate transport. On representative devices verify Expo push plus iOS killed/background incoming-call CallKit wakeup, Android Telecom incoming-call behavior, token rotation/account switch/logout cleanup, invalid/unregistered token retirement, recipient binding and deep-link/call routing without exposing payload secrets."
+        },
+        {
+          "id": "production_livekit_terminal_room_teardown",
+          "status": "not_verified",
+          "notes": "Verify LIVEKIT_ROOM_REAPER_SECRET is provisioned, the livekit-room-reaper Edge Function is scheduled with overlapping-run protection, worker health/alerts are monitored, and representative decline/end/hard-expiry/account-deletion scenarios physically delete the LiveKit room and disconnect all participants. Exercise provider outage/recovery to prove the transactional outbox retries until cleanup completes without retaining completed operational rows."
+        },
+        {
+          "id": "production_tls_endpoint_scan",
+          "status": "not_verified",
+          "notes": "Production Supabase/functions/web endpoints must pass an external TLS and response-header scan showing HTTPS-only service, modern protocol/cipher configuration, valid chain/hostname, no unintended cleartext listener/redirect downgrade, HSTS where appropriate, nosniff/referrer protections, and an HTTP-delivered CSP for sensitive web surfaces. The hosted auth challenge must enforce frame-ancestors via the HTTP CSP response header because meta CSP cannot provide authoritative frame-ancestor enforcement."
+        },
+        {
+          "id": "production_mobile_transport_pinning_decision",
+          "status": "not_verified",
+          "notes": "Inventory every production mobile endpoint and record the transport-identity decision per host. For first-party endpoints whose TLS keys and rotation are operationally controlled, either implement/test public-key (SPKI) pinning with at least one independent backup pin and a rotation/recovery plan, or document a reviewed risk decision. Do not hard-code brittle single-leaf pins for managed third-party endpoints such as Apple, Google, RevenueCat or managed Supabase certificates whose rotation Tailmance does not control. Verify the final store binaries against this inventory."
+        },
+        {
+          "id": "ios_merged_privacy_manifest_required_reason_audit",
+          "status": "not_verified",
+          "notes": "Dependency-resolved App Store archive must be inspected for merged PrivacyInfo.xcprivacy, third-party SDK manifests/signatures and Required Reason API declarations; reasons must match actual use and App Privacy answers."
+        },
+        {
+          "id": "release_binary_hardening_audit",
+          "status": "not_verified",
+          "notes": "Inspect the actual store-ready Android App Bundle and iOS archive: production signing only, no debuggable/test flags or secrets, Android R8/resource shrinking actually applied with mapping retained privately, iOS shipped symbols stripped as appropriate while dSYM/source maps are uploaded privately, entitlements/permissions match the approved allowlist, and release network/privacy settings are present in the generated artifacts."
+        },
+        {
+          "id": "moderation_provider_and_response_sla",
+          "status": "not_verified",
+          "notes": "Production moderation must be exercised against the configured provider on representative multilingual text/image abuse classes, with sampled false-positive/false-negative review, a working manual-review queue, staffed report handling/contact path, and a documented response/escalation SLA. Source wiring alone cannot prove live classifier quality or operational coverage."
+        },
+        {
+          "id": "production_moderation_provider_quality_and_sla",
+          "status": "not_verified",
+          "notes": "Exercise the exact production text/image moderation provider and policy configuration against representative multilingual abuse classes; record sampled false-positive/false-negative review, provider failure/manual-review fallback, staffed report-handling ownership, response/escalation SLA, and illegal-content/emergency escalation. Provider DPA/data-region and retention settings must match the approved privacy data map."
+        },
+        {
+          "id": "production_environment_and_secret_inventory",
+          "status": "not_verified",
+          "notes": "Production environment variables, secrets, key rotation/ownership and absence of dev/test credentials must be verified from the deployed projects. Source placeholders are not evidence."
+        },
+        {
+          "id": "google_maps_android_api_key_restrictions",
+          "status": "not_verified",
+          "notes": "Verify the production Google Maps Android API key is restricted in Google Cloud to the exact Android application package and release signing certificate fingerprint, and API-restricted to only the Maps Platform APIs/SDKs Tailmance actually uses. Record the production credential/configuration evidence without exposing the key itself."
+        },
+        {
+          "id": "production_data_at_rest_encryption_and_key_management",
+          "status": "not_verified",
+          "notes": "Verify deployed production database, object storage, backups/snapshots and provider-managed replicas are encrypted at rest with the approved cryptographic/KMS configuration; record key ownership/custody, access controls, rotation/revocation process, backup encryption and restore behavior, and provider evidence without exposing secret key material. SQLCipher/local app encryption and private buckets do not by themselves prove server-side AES-256/KMS encryption."
+        },
+        {
+          "id": "reproducible_dependency_lockfile_and_resolution",
+          "status": "not_verified",
+          "notes": "A real dependency resolution must produce a committed lockfile and reproducible clean install/build evidence. Do not fabricate a package-lock.json or infer dependency integrity from package.json alone."
+        },
+        {
+          "id": "real_store_release_binary_identity",
+          "status": "not_verified",
+          "notes": "The exact App Store / Play candidate binaries must be cryptographically identified and matched to the audited source, configuration, signing identities and release evidence."
+        },
+        {
+          "id": "production_legal_country_resolver_smoke",
+          "status": "not_verified",
+          "notes": "Exercise the deployed legal-country resolver and immutable-bundle routing with real production-equivalent data for supported, mismatched, expired, unknown and subnational cases; no source-only PASS."
+        },
+        {
+          "id": "production_age_assurance_integration",
+          "status": "not_verified",
+          "notes": "Where a jurisdiction requires age assurance beyond self-attestation, verify the selected production provider/process, evidence quality, minimization, retention, failure handling and jurisdiction-specific routing."
+        },
+        {
+          "id": "hosted_supabase_auth_effective_config",
+          "status": "not_verified",
+          "notes": "Verify deployed Supabase Auth settings match source intent: 15-minute JWT expiry, refresh-token rotation/reuse interval, email confirmation, secure password change, redirect allowlist, TOTP availability, auth rate limits and the chosen production anti-bot challenge path. Also verify Apple and Google OAuth providers are enabled with the exact production client/service IDs and secrets, callback/redirect URIs are allowlisted, and physical-device sign-in plus account-link flows complete without open redirect or identity-confusion behavior. Source config alone does not prove hosted dashboard state."
+        },
+        {
+          "id": "security_incident_response_tabletop_27_markets",
+          "status": "not_verified",
+          "notes": "Exercise the production incident runbook against all 27 configured-market obligation rows, including awareness/detection/determination clocks, evidence preservation, authority/data-subject routing, phased notices, subnational escalation, designated legal/privacy escalation contacts, and immutable incident records. A desk matrix alone is not operational proof."
+        },
+        {
+          "id": "google_play_account_deletion_web_url",
+          "status": "not_verified",
+          "notes": "Deploy the external account-deletion web path and enter that exact HTTPS URL in Play Console Data safety/account deletion. Verify the route initiates deletion without requiring app access and accurately describes legally required retention."
+        },
+        {
+          "id": "storefront_subscription_price_tax_parity",
+          "status": "not_verified",
+          "notes": "Verify the live monthly Premium product is configured at the intended USD 14.99 base price in the designated base storefront and that App Store / Google Play localized storefront pricing, renewal terms and applicable tax/VAT/KDV presentation match the native purchase sheet. The app must render the store-provided localized price string and must not calculate or append client-side tax."
+        },
+        {
+          "id": "production_health_verification_provider_ocr_signature",
+          "status": "not_verified",
+          "notes": "Exercise the production health-verification provider/OCR/clinic-signature path end-to-end with representative vaccination, neutering, microchip and genetic/pedigree evidence. Confirm signed webhook delivery, clinic public identifier accuracy, false-positive/false-negative review, expiry/revocation behavior, provider DPA/retention/data-region settings, and that no raw provider reference or health-document content is exposed on public pet surfaces."
+        }
+      ],
+      "total_requirements": 29,
+      "repository_source_can_satisfy_alone": false
+    },
+    "external_legal_operational_evidence": {
+      "status": "BLOCK",
+      "pending_items": [
+        {
+          "id": "real_web_delete_account_flow",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "real_support_business_identity_details",
+          "status": "not_verified",
+          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "consumer_operator_address_tax_details_by_market",
+          "status": "not_verified",
+          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_age_rating_console_questionnaire",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_iarc_console_questionnaire",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_app_privacy_console_declaration",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_data_safety_console_declaration",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "dsa_service_classification_and_required_regulatory_reporting",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "australia_social_media_minimum_age_scope_and_reasonable_steps_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "international_transfer_mechanisms_and_required_local_notifications",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "live_moderation_provider_and_human_review_sla",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "uae_effective_reliable_age_assurance_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "immutable_legal_bundle_publication_counsel_and_localization_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "production_legal_country_resolution_operational_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "marketing_push_consent_text_hash_version_publication_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "storefront_operational_country_mismatch_runbook_and_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "production_age_assurance_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "uae_age_assurance_production_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "uae_operational_requirements_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "country_specific_electronic_marketing_push_scope_registry_and_withdrawal_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "digital_accessibility_country_applicability_and_manual_assistive_technology_audit",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "market_specific_operator_identity_address_tax_invoice_disclosures",
+          "status": "not_verified",
+          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "us_dmca_designated_agent_registration_if_section512_safe_harbor_relied_upon",
+          "status": "not_verified",
+          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "copyright_notice_counter_notice_repeat_infringer_operations",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "country_specific_cybersecurity_breach_notification_runbooks_and_regulator_contacts",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "regulatory_recordkeeping_and_law_enforcement_response_matrix",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "sanctions_export_payment_storefront_distribution_review",
+          "status": "not_verified",
+          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "age_assurance_vendor_privacy_biometric_dpia_retention_and_accessible_redress",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "country_specific_privacy_or_platform_representative_appointment_and_public_contact",
+          "status": "not_verified",
+          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "market_specific_subscription_cancellation_refund_withdrawal_disclosures_and_support_runbook",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "illegal_content_child_safety_emergency_reporting_preservation_and_law_enforcement_runbook",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "market_specific_digital_service_platform_app_registration_licensing_filing_notification_and_verification",
+          "status": "not_verified",
+          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_social_media_capabilities_console_declaration",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_declared_age_range_api_integration_if_selected_or_legally_required",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_play_age_signals_api_integration_if_applicable",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_play_child_safety_standards_self_certification_and_designated_contact_operations",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_play_age_restricted_content_scope_and_restrict_minor_access_console_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_play_target_audience_18_plus_and_minor_access_console_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_play_account_deletion_data_safety_url_and_form_console_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_subscription_multiseat_purchase_option_and_entitlement_model_console_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "legal_jurisdiction_residence_or_service_contract_resolution_provenance",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "exact_context_legal_document_manifest_publication_and_hash_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "quebec_french_adhesion_contract_digital_flow_counsel_and_production_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "eu_dsa_statement_of_reasons_transparency_database_and_reporting_operations",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "eu_dsa_internal_complaint_out_of_court_and_trusted_flagger_operations",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "significant_automated_moderation_decision_human_intervention_and_redress_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "production_multi_jurisdiction_applicability_resolution",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "applicability_overlay_document_publication_integrity",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "production_legal_document_https_origin_allowlist_and_publication_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "indonesia_pp_tunas_plf_self_assessment_verification_risk_profile_and_operational_reporting_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "production_pre_registration_country_locale_legal_presentation_and_signup_binding_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "production_subscription_precontract_presentation_and_store_handoff_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "production_marketing_consent_overlay_presentation_and_delivery_authority_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "production_or_operational_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_streamlined_purchasing_precontract_bypass_configuration_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "google_play_package_registration_global_2026_09_30",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "android_developer_verification_regional_enforcement_2026_09_30_initial_markets",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "us_state_app_store_age_assurance_counsel_and_production_integration",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_AU_BR_SG_18plus_distribution_and_declared_age_range_production_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        },
+        {
+          "id": "apple_AU_VN_regional_age_rating_console_evidence",
+          "status": "not_verified",
+          "evidence_boundary_class": "store_console_or_distribution_external",
+          "repository_source_can_satisfy_alone": false
+        }
+      ],
+      "verified_items": [
+        "legal_counsel_country_approval",
+        "uk_online_safety_scope_and_childrens_access_assessment",
+        "uae_social_platform_and_child_digital_safety_applicability_assessment",
+        "subnational_counsel_matrix_for_applicable_markets",
+        "animal_welfare_breeding_mating_pet_commerce_27_market_counsel_review",
+        "subnational_jurisdiction_country_matrix_and_counsel_approval",
+        "uae_child_digital_safety_scope_assessment",
+        "uae_social_platform_applicability_assessment",
+        "animal_welfare_breeding_mating_pet_commerce_country_matrix_and_counsel_approval",
+        "country_and_subnational_statutory_language_requirements_counsel_approval",
+        "professional_legal_localization_per_approved_country_document_locale",
+        "jurisdiction_specific_legal_language_scope_approval",
+        "subnational_language_route_matrix_and_alternate_document_evidence",
+        "spain_autonomous_community_consumer_language_matrix_counsel_and_localization",
+        "belgium_territorial_language_matrix_and_german_community_document_evidence",
+        "eu_dsa_terms_restriction_and_advertising_transparency_review",
+        "applicability_overlay_user_action_and_acceptance_presentation_legal_review",
+        "australia_esafety_september_2026_post_federal_court_service_category_reassessment",
+        "runtime_ui_19_locale_source_translation_and_linguistic_qa",
+        "final_22_legal_document_locale_source_localization_internal_qa"
+      ],
+      "total_requirements": 80,
+      "note": "Only live/operational evidence belongs here. Source-remediable legal/language work is not an external blocker.",
+      "repository_source_can_satisfy_alone": false
+    },
+    "production_store_assets": {
+      "status": "BLOCK",
+      "missing_paths": [
+        "store/screenshots/ios",
+        "store/screenshots/android"
+      ],
+      "repository_source_can_satisfy_alone": false
+    },
+    "universal_app_link_association": {
+      "status": "BLOCK_UNTIL_VERIFIED_PRODUCTION_IDENTITY_SUPPLIED",
+      "missing_artifacts": [
+        "web/.well-known/apple-app-site-association",
+        "web/.well-known/assetlinks.json"
+      ],
+      "requirements": [
+        {
+          "name": "EXPO_PUBLIC_APP_LINK_HOST",
+          "requirement": "verified_public_https_domain"
+        },
+        {
+          "name": "APPLE_TEAM_ID",
+          "requirement": "verified_apple_developer_team_id"
+        },
+        {
+          "name": "ANDROID_APP_LINK_CERT_SHA256",
+          "requirement": "verified_play_or_release_signing_sha256_fingerprint"
+        }
+      ],
+      "note": "Association files are generated only from verified production identity values; live HTTPS hosting and platform verification remain external evidence.",
+      "repository_source_can_satisfy_alone": false
+    },
+    "reproducible_dependency_resolution": {
+      "status": "PASS",
+      "missing_artifact": null,
+      "repository_source_can_satisfy_alone": false,
+      "note": "Do not synthesize a lockfile."
+    }
+  },
+  "counts": {
+    "configured_markets": 27,
+    "configured_scope_source_integrity_blockers": 0,
+    "source_legal_language_markets_pending": 0,
+    "external_inventory_source_misclassifications": 0,
+    "store_compliance_pending": 33,
+    "external_security_pending": 29,
+    "external_legal_operational_pending": 59,
+    "production_store_asset_paths_missing": 2,
+    "critical_journey_visual_evidence_pending": 3,
+    "app_link_association_artifacts_missing": 2,
+    "reproducible_lockfile_missing": 0
+  },
+  "source_legal_language_decision": "GO_CONFIGURED_27_SOURCE_LEGAL_LANGUAGE",
+  "production_release_decision": "NO_GO_FAIL_CLOSED"
+}

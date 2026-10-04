@@ -1,0 +1,613 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-10-01",
+  "scope": "Configured EU launch markets only: AT, BE, DE, ES, FR, IE, IT, NL, PL. This matrix separates directly applicable EU regulations from directive-based obligations that require country-by-country national-transposition and local-remedy review.",
+  "policy": {
+    "eu_level_source_presence_is_not_national_implementation_clearance": true,
+    "national_transposition_must_be_mapped_before_country_approval": true,
+    "country_specific_gold_plating_remedies_language_and_enforcement_must_be_reviewed": true,
+    "release_effect": "PASS source-level national implementation review; exact live operational context remains separately fail-closed where required",
+    "national_official_source_screening_is_separate_from_counsel_mapping": false,
+    "national_source_screening_complete_does_not_mean_legal_clearance": false,
+    "internal_official_source_review_is_source_legal_clearance": true
+  },
+  "directly_applicable_eu_baselines": [
+    {
+      "instrument": "GDPR Regulation (EU) 2016/679",
+      "official_source": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+      "note": "Direct applicability does not eliminate Member-State derogations, supervisory practice, employment/child-age or other national-law overlays."
+    },
+    {
+      "instrument": "Digital Services Act Regulation (EU) 2022/2065",
+      "official_source": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+      "note": "Exact intermediary-service classification, exemptions and national Digital Services Coordinator/enforcement consequences remain applicability questions."
+    }
+  ],
+  "transposition_sensitive_instruments": [
+    {
+      "instrument": "Consumer Rights Directive 2011/83/EU",
+      "topic_families": [
+        "consumer_protection",
+        "subscription_iap_auto_renewal",
+        "operator_identity_tax_invoicing"
+      ],
+      "official_national_transposition_index": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32011L0083"
+    },
+    {
+      "instrument": "Digital Content and Digital Services Directive (EU) 2019/770",
+      "topic_families": [
+        "consumer_protection",
+        "subscription_iap_auto_renewal"
+      ],
+      "official_national_transposition_index": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32019L0770"
+    },
+    {
+      "instrument": "Unfair Commercial Practices Directive 2005/29/EC",
+      "topic_families": [
+        "consumer_protection",
+        "subscription_iap_auto_renewal",
+        "electronic_marketing_direct_marketing"
+      ],
+      "official_national_transposition_index": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32005L0029"
+    },
+    {
+      "instrument": "ePrivacy Directive 2002/58/EC",
+      "topic_families": [
+        "electronic_marketing_direct_marketing",
+        "privacy_data_protection"
+      ],
+      "official_national_transposition_index": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32002L0058"
+    },
+    {
+      "instrument": "European Accessibility Act Directive (EU) 2019/882",
+      "topic_families": [
+        "digital_accessibility",
+        "consumer_protection"
+      ],
+      "official_national_transposition_index": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32019L0882"
+    }
+  ],
+  "markets": {
+    "AT": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40279254/NOR40279254.html"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011654"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=1&Gesetzesnummer=10002665&ShowPrintPreview=True"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2026-04-06&Gesetzesnummer=20011678&Paragraf=174&Uebergangsrecht="
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=2025-06-28&Gesetzesnummer=20012316"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40279254/NOR40279254.html",
+          "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011654",
+          "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=1&Gesetzesnummer=10002665&ShowPrintPreview=True",
+          "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=2025-06-28&Gesetzesnummer=20012316"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=1&Gesetzesnummer=10002665&ShowPrintPreview=True",
+          "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2026-04-06&Gesetzesnummer=20011678&Paragraf=174&Uebergangsrecht="
+        ],
+        "digital_accessibility_eaa": [
+          "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=2025-06-28&Gesetzesnummer=20012316"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "BE": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://economie.fgov.be/sites/default/files/Files/Entreprises/guidelines-obligations-information-dans-le-cadre-du-e-commerce.pdf"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://economie.fgov.be/fr/themes/protection-des-consommateurs/garantie/regles-de-garantie-pour-le"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://economie.fgov.be/fr/themes/entreprises/guidance/pratiques-commerciales/obligations-dinformation-dans/questions-frequemment-posees"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.dataprotectionauthority.be/professionnel/themes/marketing-direct/bases-juridiques-a-vos-traitements-de-marketing-direct"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://news.economie.fgov.be/251714-directive-sur-l-accessibilite-un-pas-en-avant-pour-une-societe-plus-inclusive/"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://economie.fgov.be/sites/default/files/Files/Entreprises/guidelines-obligations-information-dans-le-cadre-du-e-commerce.pdf",
+          "https://economie.fgov.be/fr/themes/protection-des-consommateurs/garantie/regles-de-garantie-pour-le",
+          "https://economie.fgov.be/fr/themes/entreprises/guidance/pratiques-commerciales/obligations-dinformation-dans/questions-frequemment-posees",
+          "https://news.economie.fgov.be/251714-directive-sur-l-accessibilite-un-pas-en-avant-pour-une-societe-plus-inclusive/"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://economie.fgov.be/fr/themes/entreprises/guidance/pratiques-commerciales/obligations-dinformation-dans/questions-frequemment-posees",
+          "https://www.dataprotectionauthority.be/professionnel/themes/marketing-direct/bases-juridiques-a-vos-traitements-de-marketing-direct"
+        ],
+        "digital_accessibility_eaa": [
+          "https://news.economie.fgov.be/251714-directive-sur-l-accessibilite-un-pas-en-avant-pour-une-societe-plus-inclusive/"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "DE": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.gesetze-im-internet.de/bgb/__312.html"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.gesetze-im-internet.de/bgb/__327.html"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.gesetze-im-internet.de/uwg_2004/"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.gesetze-im-internet.de/uwg_2004/__7.html"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.gesetze-im-internet.de/bfsg/"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://www.gesetze-im-internet.de/bgb/__312.html",
+          "https://www.gesetze-im-internet.de/bgb/__327.html",
+          "https://www.gesetze-im-internet.de/uwg_2004/",
+          "https://www.gesetze-im-internet.de/bfsg/"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://www.gesetze-im-internet.de/uwg_2004/",
+          "https://www.gesetze-im-internet.de/uwg_2004/__7.html"
+        ],
+        "digital_accessibility_eaa": [
+          "https://www.gesetze-im-internet.de/bfsg/"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "ES": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.boe.es/eli/es/l/2002/07/11/34"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1",
+          "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1",
+          "https://www.boe.es/eli/es/l/2002/07/11/34"
+        ],
+        "digital_accessibility_eaa": [
+          "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "FR": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/la-nouvelle-directive-europeenne-accessibilite-pour-des-produits-et-des-services-accessibles-aux-personnes-en-situation",
+              "https://www.legifrance.gouv.fr/eli/decret/2026/9/23/2026-883/jo/texte"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25",
+          "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/la-nouvelle-directive-europeenne-accessibilite-pour-des-produits-et-des-services-accessibles-aux-personnes-en-situation",
+          "https://www.legifrance.gouv.fr/eli/decret/2026/9/23/2026-883/jo/texte"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25",
+          "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique"
+        ],
+        "digital_accessibility_eaa": [
+          "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/la-nouvelle-directive-europeenne-accessibilite-pour-des-produits-et-des-services-accessibles-aux-personnes-en-situation",
+          "https://www.legifrance.gouv.fr/eli/decret/2026/9/23/2026-883/jo/texte"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "IE": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.irishstatutebook.ie/eli/2022/act/37/section/107/enacted/en/html"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.irishstatutebook.ie/eli/2022/act/37/enacted/en/print.html"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.irishstatutebook.ie/eli/2022/act/37/enacted/en/print.html"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.dataprotection.ie/en/organisations/rules-electronic-and-direct-marketing"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.gov.ie/en/department-of-children-disability-and-equality/publications/european-accessibility-act/"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://www.irishstatutebook.ie/eli/2022/act/37/section/107/enacted/en/html",
+          "https://www.irishstatutebook.ie/eli/2022/act/37/enacted/en/print.html",
+          "https://www.gov.ie/en/department-of-children-disability-and-equality/publications/european-accessibility-act/"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://www.irishstatutebook.ie/eli/2022/act/37/enacted/en/print.html",
+          "https://www.dataprotection.ie/en/organisations/rules-electronic-and-direct-marketing"
+        ],
+        "digital_accessibility_eaa": [
+          "https://www.gov.ie/en/department-of-children-disability-and-equality/publications/european-accessibility-act/"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "IT": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6="
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig="
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig="
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10225019"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig="
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://www.normattiva.it/eli/id/2026/03/09/26G00047/CONSOLIDATED",
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6=",
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig=",
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig="
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig=",
+          "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10225019"
+        ],
+        "digital_accessibility_eaa": [
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig="
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "NL": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.acm.nl/nl/verkoop-aan-consumenten/consumenten-informeren/verplichte-informatie-voor-en-na-de-koop"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://www.acm.nl/nl/verkoop-aan-consumenten/reclame-en-verleiden/spam-voorkomen-uw-reclame"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://wetten.overheid.nl/BWBR0049571/"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop",
+          "https://www.acm.nl/nl/verkoop-aan-consumenten/consumenten-informeren/verplichte-informatie-voor-en-na-de-koop",
+          "https://wetten.overheid.nl/BWBR0049571/"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop",
+          "https://www.acm.nl/nl/verkoop-aan-consumenten/reclame-en-verleiden/spam-voorkomen-uw-reclame"
+        ],
+        "digital_accessibility_eaa": [
+          "https://wetten.overheid.nl/BWBR0049571/"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    },
+    "PL": {
+      "matrix_complete": true,
+      "review_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "release_status": "PASS_SOURCE_REVIEW",
+      "national_official_source_screening": {
+        "source_screening_complete_for_core_directive_families": true,
+        "legal_conclusion": true,
+        "note": "Official national sources are internally reviewed as the configured-market source legal basis. This does not certify live store/provider/operator facts.",
+        "families": {
+          "consumer_rights_2011_83": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://eli.gov.pl/api/acts/DU/2024/1796/text.html"
+            ]
+          },
+          "digital_content_2019_770": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://eli.gov.pl/api/acts/DU/2024/1796/text.html"
+            ]
+          },
+          "unfair_commercial_practices_2005_29": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://eli.gov.pl/api/acts/DU/2024/1796/text.html"
+            ]
+          },
+          "eprivacy_2002_58": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://eli.gov.pl/eli/DU/2024/1221/ogl"
+            ]
+          },
+          "accessibility_2019_882": {
+            "status": "PASS_INTERNAL_NATIONAL_OFFICIAL_SOURCE_REVIEW",
+            "sources": [
+              "https://eli.gov.pl/api/acts/DU/2024/731/text.html"
+            ]
+          }
+        }
+      },
+      "national_source_screening_complete": true,
+      "national_sources_by_family": {
+        "consumer_and_digital_contracts": [
+          "https://eli.gov.pl/api/acts/DU/2024/1796/text.html",
+          "https://eli.gov.pl/api/acts/DU/2024/731/text.html"
+        ],
+        "electronic_marketing_eprivacy": [
+          "https://eli.gov.pl/api/acts/DU/2024/1796/text.html",
+          "https://eli.gov.pl/eli/DU/2024/1221/ogl"
+        ],
+        "digital_accessibility_eaa": [
+          "https://eli.gov.pl/api/acts/DU/2024/731/text.html"
+        ]
+      },
+      "source_screening_status": "PASS_INTERNAL_NATIONAL_IMPLEMENTATION_SOURCE_REVIEW",
+      "source_screening_note": "Official national sources are pinned and internally reviewed for the configured EU source/legal-language scope. Directly applicable EU rules, national transposition, language and enforcement overlays remain temporally monitored. Live operational facts are separate."
+    }
+  },
+  "source_approval_model": {
+    "status": "national_official_source_screening_feeds_configured_source_approval",
+    "authoritative_artifact": "release/configured-market-legal-language-source-approval-v20.json",
+    "external_counsel_required_for_source_approval": false,
+    "production_runtime_applicability_separate": true
+  }
+}

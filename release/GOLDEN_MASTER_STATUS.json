@@ -1,0 +1,11 @@
+{
+  "app": "Tailmance",
+  "canonical_truth_regenerated_after_packager_metadata": true,
+  "external_live_release_gates_separate": true,
+  "owner_publisher": "Yekta Özel",
+  "package_manager": "npm@10.9.2",
+  "package_version": "1.0.0",
+  "schema_version": 2,
+  "slogan": "THE SOCIAL WORLD OF OUR FURRY FRIENDS",
+  "status": "HANDOFF_ONLY_NOT_PRODUCTION_READY"
+}

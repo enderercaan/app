@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "JP",
+  "country_display_name": "Jepang",
+  "document_locale": "id",
+  "document_language_display_names": "Jepang",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemen hukum khusus yurisdiksi",
+  "sections": [
+    {
+      "heading": "Ruang lingkup hukum",
+      "paragraphs": [
+        "Suplemen ini berlaku ketika Tailmance menetapkan bahwa Jepang adalah negara yang hukumnya berlaku untuk akun Anda. Dokumen ini melengkapi Ketentuan Penggunaan, Pemberitahuan Privasi, Pedoman Komunitas, pemberitahuan langganan, dan dokumen hukum lainnya; dokumen ini tidak menggantikannya.",
+        "Tailmance menerapkan kewajiban hukum berdasarkan negara terverifikasi tersebut dan, jika diperlukan, kerangka hukum regional atau lokal yang berlaku. Mengubah bahasa aplikasi, bepergian, atau mengubah wilayah toko tidak dengan sendirinya mengubah kerangka hukum tersebut."
+      ]
+    },
+    {
+      "heading": "Bahasa dokumen",
+      "paragraphs": [
+        "Dokumen hukum yang mengikat untuk konfigurasi hukum ini tersedia dalam bahasa yang diwajibkan: Jepang. Jika bahasa tertentu diwajibkan, Tailmance tidak menggantinya secara otomatis dan tanpa pemberitahuan dengan bahasa lain.",
+        "Versi ini disediakan sebagai terjemahan untuk aksesibilitas. Versi ini tidak menggantikan versi dalam bahasa yang diwajibkan apabila hukum yang berlaku atau konfigurasi hukum ini mensyaratkannya."
+      ]
+    },
+    {
+      "heading": "Persyaratan hukum khusus negara",
+      "paragraphs": [
+        "Dua puluh dua bidang persyaratan hukum ditinjau untuk negara yang berlaku berdasarkan sumber resmi yang dapat diidentifikasi. Hukum yang berlaku dan tanggal berlakunya dipisahkan dari usulan, konsultasi, dan langkah masa depan; usulan tidak pernah diperlakukan sebagai hukum yang berlaku.",
+        "Tanggal tinjauan sumber: 1 Oktober 2026. Langkah masa depan, rancangan, dan konsultasi dipantau secara terpisah dan tidak ditampilkan sebagai hukum yang berlaku."
+      ]
+    },
+    {
+      "heading": "Kerangka hukum yang ditinjau",
+      "paragraphs": [
+        "Kerangka hukum utama yang dicatat dalam tinjauan sumber resmi Tailmance untuk negara yang berlaku tercantum di bawah. Pencantuman hanya menunjukkan cakupan tinjauan: apakah suatu aturan sudah berlaku, berlaku pada masa mendatang, masih berupa usulan, atau tunduk pada syarat penerapan yang lebih sempit ditentukan oleh kontrol tanggal berlaku dan cakupan penerapan yang tepat, dan tidak pernah disimpulkan hanya dari daftar ini."
+      ],
+      "items": [
+        "APPI, consolidated rules/guidelines"
+      ]
+    },
+    {
+      "heading": "Privasi, keamanan, dan hak pengguna",
+      "paragraphs": [
+        "Hak privasi, permintaan data, penghapusan akun dan data, transfer internasional, verifikasi usia, pemasaran elektronik, serta kewajiban keamanan dan pelaporan diterapkan dalam konteks hukum yang tepat. Gunakan Pusat Hukum dalam aplikasi untuk pemberitahuan, ekspor, dan penghapusan.",
+        "Pemeriksaan kesehatan berbantuan AI. Setiap pemeriksaan berbantuan AI atas dokumen vaksinasi atau dokumen dokter hewan hanyalah alat bantu otomatis yang bersifat awal. Pemeriksaan ini tidak membuat keputusan akhir, mengikat, atau sah secara hukum, dan bukan pemeriksaan dokter hewan, diagnosis, sertifikasi, maupun jaminan status kesehatan atau vaksinasi hewan. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen. Hasil yang tidak jelas atau disengketakan ditinjau oleh seseorang, dan tanda “dokumen ditinjau” hanya berarti dokumen telah diperiksa. Keputusan kesehatan harus mengandalkan dokter hewan berlisensi, dan perawatan tidak boleh ditunda karena hasil yang tampil di aplikasi."
+      ]
+    },
+    {
+      "heading": "Langganan dan informasi konsumen",
+      "paragraphs": [
+        "Toko aplikasi tempat pembelian dilakukan menjadi rujukan untuk harga langganan yang ditampilkan, mata uang, dan perlakuan pajak yang berlaku. Informasi mengenai perpanjangan, pembatalan, dan informasi prakontrak yang diwajibkan ditampilkan sebelum pembelian. Tailmance tidak menjual hewan atau barang fisik dan tidak memproses pembayaran antar pengguna untuk penjualan hewan."
+      ]
+    },
+    {
+      "heading": "Kesejahteraan hewan dan non-perdagangan",
+      "paragraphs": [
+        "Penjualan hewan secara komersial dan marketplace untuk pembiakan komersial dilarang. Perkawinan yang diatur oleh pemilik hanya tersedia apabila persyaratan negara yang berlaku terkait kesejahteraan hewan, pembiakan, kesehatan, kekerabatan, dan kelayakan terpenuhi; jika tidak, fitur tetap diblokir."
+      ]
+    },
+    {
+      "heading": "Kontak dan sumber resmi",
+      "paragraphs": [
+        "Pertanyaan tentang pemberitahuan ini atau permintaan privasi dapat dikirim ke yektaozel@icloud.com. Referensi sumber resmi yang digunakan untuk tinjauan hukum ini tercantum di bawah."
+      ],
+      "official_sources": [
+        "https://www.ppc.go.jp/en/legal/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+        "https://www.ppc.go.jp/news/press/2026/260717/",
+        "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+        "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+        "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+        "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+        "https://laws.e-gov.go.jp/law/322AC0000000067",
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+        "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+        "https://www.digital.go.jp/accessibility-statement",
+        "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+        "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+        "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+        "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "5c60be24566ec78070e2ed720356cf4a4c7f8a83dd1af56d1cd7f737be9766b0",
+  "official_source_count": 42,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "APPI, consolidated rules/guidelines"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ja"
+  ],
+  "display_language_name": "Indonesia"
+}

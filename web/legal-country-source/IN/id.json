@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "IN",
+  "country_display_name": "India",
+  "document_locale": "id",
+  "document_language_display_names": "Inggris",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemen hukum khusus yurisdiksi",
+  "sections": [
+    {
+      "heading": "Ruang lingkup hukum",
+      "paragraphs": [
+        "Suplemen ini berlaku ketika Tailmance menetapkan bahwa India adalah negara yang hukumnya berlaku untuk akun Anda. Dokumen ini melengkapi Ketentuan Penggunaan, Pemberitahuan Privasi, Pedoman Komunitas, pemberitahuan langganan, dan dokumen hukum lainnya; dokumen ini tidak menggantikannya.",
+        "Tailmance menerapkan kewajiban hukum berdasarkan negara terverifikasi tersebut dan, jika diperlukan, kerangka hukum regional atau lokal yang berlaku. Mengubah bahasa aplikasi, bepergian, atau mengubah wilayah toko tidak dengan sendirinya mengubah kerangka hukum tersebut."
+      ]
+    },
+    {
+      "heading": "Bahasa dokumen",
+      "paragraphs": [
+        "Dokumen hukum yang mengikat untuk konfigurasi hukum ini tersedia dalam bahasa yang diwajibkan: Inggris. Jika bahasa tertentu diwajibkan, Tailmance tidak menggantinya secara otomatis dan tanpa pemberitahuan dengan bahasa lain.",
+        "Versi ini disediakan sebagai terjemahan untuk aksesibilitas. Versi ini tidak menggantikan versi dalam bahasa yang diwajibkan apabila hukum yang berlaku atau konfigurasi hukum ini mensyaratkannya."
+      ]
+    },
+    {
+      "heading": "Persyaratan hukum khusus negara",
+      "paragraphs": [
+        "Dua puluh dua bidang persyaratan hukum ditinjau untuk negara yang berlaku berdasarkan sumber resmi yang dapat diidentifikasi. Hukum yang berlaku dan tanggal berlakunya dipisahkan dari usulan, konsultasi, dan langkah masa depan; usulan tidak pernah diperlakukan sebagai hukum yang berlaku.",
+        "Tanggal tinjauan sumber: 1 Oktober 2026. Langkah masa depan, rancangan, dan konsultasi dipantau secara terpisah dan tidak ditampilkan sebagai hukum yang berlaku."
+      ]
+    },
+    {
+      "heading": "Kerangka hukum yang ditinjau",
+      "paragraphs": [
+        "Kerangka hukum utama yang dicatat dalam tinjauan sumber resmi Tailmance untuk negara yang berlaku tercantum di bawah. Pencantuman hanya menunjukkan cakupan tinjauan: apakah suatu aturan sudah berlaku, berlaku pada masa mendatang, masih berupa usulan, atau tunduk pada syarat penerapan yang lebih sempit ditentukan oleh kontrol tanggal berlaku dan cakupan penerapan yang tepat, dan tidak pernah disimpulkan hanya dari daftar ini."
+      ],
+      "items": [
+        "Digital Personal Data Protection Act 2023",
+        "Digital Personal Data Protection Rules 2025"
+      ]
+    },
+    {
+      "heading": "Privasi, keamanan, dan hak pengguna",
+      "paragraphs": [
+        "Hak privasi, permintaan data, penghapusan akun dan data, transfer internasional, verifikasi usia, pemasaran elektronik, serta kewajiban keamanan dan pelaporan diterapkan dalam konteks hukum yang tepat. Gunakan Pusat Hukum dalam aplikasi untuk pemberitahuan, ekspor, dan penghapusan.",
+        "Pemeriksaan kesehatan berbantuan AI. Setiap pemeriksaan berbantuan AI atas dokumen vaksinasi atau dokumen dokter hewan hanyalah alat bantu otomatis yang bersifat awal. Pemeriksaan ini tidak membuat keputusan akhir, mengikat, atau sah secara hukum, dan bukan pemeriksaan dokter hewan, diagnosis, sertifikasi, maupun jaminan status kesehatan atau vaksinasi hewan. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen. Hasil yang tidak jelas atau disengketakan ditinjau oleh seseorang, dan tanda “dokumen ditinjau” hanya berarti dokumen telah diperiksa. Keputusan kesehatan harus mengandalkan dokter hewan berlisensi, dan perawatan tidak boleh ditunda karena hasil yang tampil di aplikasi."
+      ]
+    },
+    {
+      "heading": "Langganan dan informasi konsumen",
+      "paragraphs": [
+        "Toko aplikasi tempat pembelian dilakukan menjadi rujukan untuk harga langganan yang ditampilkan, mata uang, dan perlakuan pajak yang berlaku. Informasi mengenai perpanjangan, pembatalan, dan informasi prakontrak yang diwajibkan ditampilkan sebelum pembelian. Tailmance tidak menjual hewan atau barang fisik dan tidak memproses pembayaran antar pengguna untuk penjualan hewan."
+      ]
+    },
+    {
+      "heading": "Kesejahteraan hewan dan non-perdagangan",
+      "paragraphs": [
+        "Penjualan hewan secara komersial dan marketplace untuk pembiakan komersial dilarang. Perkawinan yang diatur oleh pemilik hanya tersedia apabila persyaratan negara yang berlaku terkait kesejahteraan hewan, pembiakan, kesehatan, kekerabatan, dan kelayakan terpenuhi; jika tidak, fitur tetap diblokir."
+      ]
+    },
+    {
+      "heading": "Kontak dan sumber resmi",
+      "paragraphs": [
+        "Pertanyaan tentang pemberitahuan ini atau permintaan privasi dapat dikirim ke yektaozel@icloud.com. Referensi sumber resmi yang digunakan untuk tinjauan hukum ini tercantum di bawah."
+      ],
+      "official_sources": [
+        "https://www.meity.gov.in/data-protection-framework",
+        "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+        "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf",
+        "https://www.meity.gov.in/documents/act-and-policies?page=1&persona=Business-owner",
+        "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection/consumer-protection",
+        "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://dahd.gov.in/related-links/acts-rules",
+        "https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf",
+        "https://www.meity.gov.in/",
+        "https://trai.gov.in/node/3199",
+        "https://trai.gov.in/telecom/consumer-initiatives/unsolicited-commercial-communication",
+        "https://divyangjan.depwd.gov.in/upload/uploadfiles/files/RPwD%20%28Amendment%29%20Rules%2C%202023%20-%20Accessibility%20standards%20on%20ICT%20products%20and%20Services_compressed.pdf",
+        "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf",
+        "https://cbic-gst.gov.in/gst-invoice-rules.html",
+        "https://copyright.gov.in/Exceptions.aspx",
+        "https://www.copyright.gov.in/Copyright_Rules_2013/chapter_xiv.html",
+        "https://www.cert-in.org.in/Directions70B.jsp",
+        "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+        "https://www.mea.gov.in/Implementation-of-UNSC-Sanctions.htm",
+        "https://www.mha.gov.in/en/divisionofmha/counter-terrorism-and-counter-radicalization-division"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "d6c7a937178935b30d060e5c7c6d4692ce420b4fde8b0b9085ce4e10fc496a06",
+  "official_source_count": 44,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Digital Personal Data Protection Act 2023",
+    "Digital Personal Data Protection Rules 2025"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "Indonesia"
+}

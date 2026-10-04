@@ -1,0 +1,1041 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-01",
+  "purpose": "Source-level review matrix for operator identity / tax-invoicing / registration-licensing-filing-notification subdimensions across the configured 27 markets. Official-source families are internally approved for source/legal completeness; live registrations, tax accounts, invoice credentials and store/operator facts remain separate production evidence.",
+  "subdimensions": [
+    "operator_identity_disclosure",
+    "tax_invoicing",
+    "registration_licensing_filing_notification"
+  ],
+  "summary": {
+    "markets_total": 27,
+    "cells_total": 81,
+    "broad_source_family_pinned_cells": 81,
+    "internally_source_approved_cells": 81,
+    "exact_subdimension_source_blockers": 0,
+    "production_live_fact_evidence_separate": true,
+    "full_source_legal_coverage_claim_allowed": true
+  },
+  "markets": {
+    "AE": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://uaelegislation.gov.ae/en/legislations/1455",
+          "https://u.ae/en/information-and-services/business/ecommerce/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://uaelegislation.gov.ae/en/legislations/1455",
+          "https://u.ae/en/information-and-services/business/ecommerce/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://uaelegislation.gov.ae/en/legislations/1455",
+          "https://u.ae/en/information-and-services/business/ecommerce/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "AT": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40279254/NOR40279254.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40279254/NOR40279254.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40279254/NOR40279254.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "AU": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://business.gov.au/finance/payments-and-invoicing/how-to-invoice",
+          "https://business.gov.au/finance/payments-and-invoicing/receipts-and-proof-of-purchase"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://business.gov.au/finance/payments-and-invoicing/how-to-invoice",
+          "https://business.gov.au/finance/payments-and-invoicing/receipts-and-proof-of-purchase"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://business.gov.au/finance/payments-and-invoicing/how-to-invoice",
+          "https://business.gov.au/finance/payments-and-invoicing/receipts-and-proof-of-purchase"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "BE": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://economie.fgov.be/sites/default/files/Files/Entreprises/guidelines-obligations-information-dans-le-cadre-du-e-commerce.pdf"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://economie.fgov.be/sites/default/files/Files/Entreprises/guidelines-obligations-information-dans-le-cadre-du-e-commerce.pdf"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://economie.fgov.be/sites/default/files/Files/Entreprises/guidelines-obligations-information-dans-le-cadre-du-e-commerce.pdf"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "BR": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "CA": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html",
+          "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/15-1/general-requirements-books-records.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html",
+          "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/15-1/general-requirements-books-records.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html",
+          "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/15-1/general-requirements-books-records.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "CN": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_4b47c79b8d994a42bba4835997688faa.html",
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_85b474fc5a08494bb60ca6a280b98d7d.html",
+          "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_fa48eb1becd2411eabf4081c716b62f6.html",
+          "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2023/art_dd783a581c9644a4aee10afa582811db.html",
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_eef66659c9624c5091bd3acd050b1710.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_4b47c79b8d994a42bba4835997688faa.html",
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_85b474fc5a08494bb60ca6a280b98d7d.html",
+          "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_fa48eb1becd2411eabf4081c716b62f6.html",
+          "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2023/art_dd783a581c9644a4aee10afa582811db.html",
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_eef66659c9624c5091bd3acd050b1710.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_4b47c79b8d994a42bba4835997688faa.html",
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_85b474fc5a08494bb60ca6a280b98d7d.html",
+          "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_fa48eb1becd2411eabf4081c716b62f6.html",
+          "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2023/art_dd783a581c9644a4aee10afa582811db.html",
+          "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_eef66659c9624c5091bd3acd050b1710.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "DE": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.gesetze-im-internet.de/bgb/__312.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.gesetze-im-internet.de/bgb/__312.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.gesetze-im-internet.de/bgb/__312.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "ES": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "FR": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "GB": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.legislation.gov.uk/uksi/2013/3134"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.legislation.gov.uk/uksi/2013/3134"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.legislation.gov.uk/uksi/2013/3134"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "ID": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+          "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+          "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+          "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+          "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+          "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+          "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+          "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+          "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+          "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+          "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+          "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+          "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "IE": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.irishstatutebook.ie/eli/2022/act/37/section/107/enacted/en/html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.irishstatutebook.ie/eli/2022/act/37/section/107/enacted/en/html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.irishstatutebook.ie/eli/2022/act/37/section/107/enacted/en/html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "IN": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection/consumer-protection",
+          "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf",
+          "https://cbic-gst.gov.in/gst-invoice-rules.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection/consumer-protection",
+          "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf",
+          "https://cbic-gst.gov.in/gst-invoice-rules.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection/consumer-protection",
+          "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf",
+          "https://cbic-gst.gov.in/gst-invoice-rules.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "IT": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6="
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6="
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6="
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "JP": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "KR": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=009318",
+          "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032213603"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=009318",
+          "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032213603"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=009318",
+          "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032213603"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "NL": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "PL": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://eli.gov.pl/api/acts/DU/2024/1796/text.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://eli.gov.pl/api/acts/DU/2024/1796/text.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+          "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+          "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+          "https://eli.gov.pl/api/acts/DU/2024/1796/text.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "RU": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.nalog.gov.ru/rn77/taxation/submission_statements/el_count/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.nalog.gov.ru/rn77/taxation/submission_statements/el_count/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.nalog.gov.ru/rn77/taxation/submission_statements/el_count/"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "SA": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://mc.gov.sa/ar/ECC/pages/default.aspx",
+          "https://mc.gov.sa/en/mediacenter/News/Pages/29-03-23-02.aspx",
+          "https://www.cst.gov.sa/en/business/services/Social-Media-platforms-notification"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://mc.gov.sa/ar/ECC/pages/default.aspx",
+          "https://mc.gov.sa/en/mediacenter/News/Pages/29-03-23-02.aspx",
+          "https://www.cst.gov.sa/en/business/services/Social-Media-platforms-notification"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://mc.gov.sa/ar/ECC/pages/default.aspx",
+          "https://mc.gov.sa/en/mediacenter/News/Pages/29-03-23-02.aspx",
+          "https://www.cst.gov.sa/en/business/services/Social-Media-platforms-notification"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "SG": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+          "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "TH": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.rd.go.th/26218.html",
+          "https://www.rd.go.th/english/37741.html",
+          "https://www.rd.go.th/65244.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.rd.go.th/26218.html",
+          "https://www.rd.go.th/english/37741.html",
+          "https://www.rd.go.th/65244.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.rd.go.th/26218.html",
+          "https://www.rd.go.th/english/37741.html",
+          "https://www.rd.go.th/65244.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "TR": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/elektronik-ticaret",
+          "https://etbis.ticaret.gov.tr/tr/Home/ETicaretAkademisi/etbis-kay%C4%B1t"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/elektronik-ticaret",
+          "https://etbis.ticaret.gov.tr/tr/Home/ETicaretAkademisi/etbis-kay%C4%B1t"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/elektronik-ticaret",
+          "https://etbis.ticaret.gov.tr/tr/Home/ETicaretAkademisi/etbis-kay%C4%B1t"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "TW": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.etax.nat.gov.tw/etwmain/en/cbec-tax-area/business-tax",
+          "https://www.dot.gov.tw/Eng/multiplehtml/en_189",
+          "https://law-out.mof.gov.tw/EngLawContent.aspx?id=20733"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.etax.nat.gov.tw/etwmain/en/cbec-tax-area/business-tax",
+          "https://www.dot.gov.tw/Eng/multiplehtml/en_189",
+          "https://law-out.mof.gov.tw/EngLawContent.aspx?id=20733"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.etax.nat.gov.tw/etwmain/en/cbec-tax-area/business-tax",
+          "https://www.dot.gov.tw/Eng/multiplehtml/en_189",
+          "https://law-out.mof.gov.tw/EngLawContent.aspx?id=20733"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "US": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.irs.gov/businesses/business-taxes"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.irs.gov/businesses/business-taxes"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://www.irs.gov/businesses/business-taxes"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    },
+    "VN": {
+      "operator_identity_disclosure": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-nghi-di-nh-ve-thuong-ma-i-die-n-tu-.html",
+          "https://dichvucong.moit.gov.vn/VdxpTTHCOnlineDetail.aspx?DocId=443",
+          "https://chinhphu.vn/?classid=1&docid=216503&orggroupid=1&pageid=27160",
+          "https://moit.gov.vn/en/news/ministry-of-industry-and-trade-disseminates-the-law-on-e-commerce-and-government-decree-no.-248-2026-nd-cp.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "tax_invoicing": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-nghi-di-nh-ve-thuong-ma-i-die-n-tu-.html",
+          "https://dichvucong.moit.gov.vn/VdxpTTHCOnlineDetail.aspx?DocId=443",
+          "https://chinhphu.vn/?classid=1&docid=216503&orggroupid=1&pageid=27160",
+          "https://moit.gov.vn/en/news/ministry-of-industry-and-trade-disseminates-the-law-on-e-commerce-and-government-decree-no.-248-2026-nd-cp.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      },
+      "registration_licensing_filing_notification": {
+        "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "canonical_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+        "evidence_reference": [
+          "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-nghi-di-nh-ve-thuong-ma-i-die-n-tu-.html",
+          "https://dichvucong.moit.gov.vn/VdxpTTHCOnlineDetail.aspx?DocId=443",
+          "https://chinhphu.vn/?classid=1&docid=216503&orggroupid=1&pageid=27160",
+          "https://moit.gov.vn/en/news/ministry-of-industry-and-trade-disseminates-the-law-on-e-commerce-and-government-decree-no.-248-2026-nd-cp.html"
+        ],
+        "source_family_present": true,
+        "independent_subdimension_legal_approval": true,
+        "evidence_granularity": "canonical official-source family reviewed for source-level Tailmance applicability; live operator/tax/registration account facts remain separate production evidence"
+      }
+    }
+  }
+}

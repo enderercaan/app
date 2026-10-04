@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "IN",
+  "country_display_name": "India",
+  "document_locale": "nl",
+  "document_language_display_names": "Engels",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Jurisdictiespecifieke juridische aanvulling",
+  "sections": [
+    {
+      "heading": "Juridische reikwijdte",
+      "paragraphs": [
+        "Deze aanvulling geldt wanneer Tailmance vaststelt dat India het land is waarvan het recht op uw account van toepassing is. Zij vult de Gebruiksvoorwaarden, Privacyverklaring, Communityrichtlijnen, abonnementsinformatie en andere juridische documenten aan en vervangt die niet.",
+        "Tailmance past juridische verplichtingen toe op basis van dat geverifieerde land en, waar vereist, het toepasselijke regionale of lokale rechtskader. Een wijziging van de app-taal, reizen of een wijziging van de store-regio verandert dat rechtskader niet automatisch."
+      ]
+    },
+    {
+      "heading": "Documenttaal",
+      "paragraphs": [
+        "De bindende juridische documenten voor deze juridische configuratie worden beschikbaar gehouden in de vereiste taal of talen: Engels. Wanneer een bepaalde documenttaal verplicht is, wordt die niet zonder kennisgeving automatisch door een andere taal vervangen.",
+        "Deze versie wordt aangeboden als toegankelijkheidsvertaling. Zij vervangt geen verplichte taalversie wanneer het toepasselijke recht of deze juridische configuratie die vereist."
+      ]
+    },
+    {
+      "heading": "Landspecifieke juridische vereisten",
+      "paragraphs": [
+        "Voor het toepasselijke land worden tweeëntwintig gebieden van juridische vereisten getoetst aan herleidbare officiële bronnen. Geldend recht en ingangsdata worden gescheiden van voorstellen, consultaties en toekomstige maatregelen; een voorstel wordt nooit als geldend recht behandeld.",
+        "Datum bronbeoordeling: 1 oktober 2026. Toekomstige maatregelen, ontwerpen en consultaties worden afzonderlijk gevolgd en niet als geldend recht weergegeven."
+      ]
+    },
+    {
+      "heading": "Beoordeelde juridische kaders",
+      "paragraphs": [
+        "Hieronder staan de belangrijkste juridische kaders die in de officiële-bronnenbeoordeling van Tailmance voor dit rechtsland zijn opgenomen. Vermelding geeft alleen de reikwijdte van de beoordeling aan: of een regel nu geldt, later in werking treedt, slechts is voorgesteld of alleen onder een beperktere toepasselijkheidsvoorwaarde geldt, wordt bepaald door de controles op ingangsdatum en exacte toepasselijkheid en nooit uitsluitend uit deze lijst afgeleid."
+      ],
+      "items": [
+        "Digital Personal Data Protection Act 2023",
+        "Digital Personal Data Protection Rules 2025"
+      ]
+    },
+    {
+      "heading": "Privacy, veiligheid en gebruikersrechten",
+      "paragraphs": [
+        "Privacyrechten, gegevensverzoeken, account- en gegevensverwijdering, internationale doorgiften, leeftijdscontrole, elektronische marketing en verplichtingen rond beveiliging en datalekken worden toegepast binnen de exacte juridische context. Gebruik het Juridisch Centrum in de app voor kennisgevingen, export en verwijdering.",
+        "AI-ondersteunde gezondheidscontroles. Elke AI-ondersteunde controle van vaccinatie- of dierenartsdocumenten is slechts een voorlopig, geautomatiseerd hulpmiddel. Het neemt geen definitieve, bindende of rechtsgeldige beslissing en is geen diergeneeskundig onderzoek, diagnose, certificering of garantie voor de gezondheids- of vaccinatiestatus van een dier. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Onduidelijke of betwiste resultaten worden door een persoon beoordeeld, en het signaal ‘document beoordeeld’ betekent alleen dat het document is gecontroleerd. Voor gezondheidsbeslissingen moet een bevoegde dierenarts worden geraadpleegd, en zorg mag niet worden uitgesteld vanwege een resultaat in de app."
+      ]
+    },
+    {
+      "heading": "Abonnementen en consumenteninformatie",
+      "paragraphs": [
+        "De appwinkel waarmee de aankoop wordt gedaan, is leidend voor de weergegeven abonnementsprijs, valuta en toepasselijke belastingweergave. Verlenging, opzegging en vereiste precontractuele informatie worden vóór aankoop getoond. Tailmance verkoopt geen dieren of fysieke producten en verwerkt geen betalingen tussen gebruikers voor de verkoop van dieren."
+      ]
+    },
+    {
+      "heading": "Dierenwelzijn en geen handelsplatform",
+      "paragraphs": [
+        "Commerciële dierenverkoop en marktplaatsen voor commerciële fokkerij zijn verboden. Door eigenaren georganiseerde paringen zijn alleen beschikbaar wanneer aan de toepasselijke landspecifieke eisen voor dierenwelzijn, fokkerij, gezondheid, verwantschap en geschiktheid is voldaan; anders blijft de functie geblokkeerd."
+      ]
+    },
+    {
+      "heading": "Contact en officiële bronnen",
+      "paragraphs": [
+        "Vragen over deze kennisgevingen of privacyverzoeken kunnen worden gestuurd naar yektaozel@icloud.com. De officiële bronnen die voor deze juridische beoordeling zijn gebruikt, staan hieronder."
+      ],
+      "official_sources": [
+        "https://www.meity.gov.in/data-protection-framework",
+        "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+        "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf",
+        "https://www.meity.gov.in/documents/act-and-policies?page=1&persona=Business-owner",
+        "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection/consumer-protection",
+        "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://dahd.gov.in/related-links/acts-rules",
+        "https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf",
+        "https://www.meity.gov.in/",
+        "https://trai.gov.in/node/3199",
+        "https://trai.gov.in/telecom/consumer-initiatives/unsolicited-commercial-communication",
+        "https://divyangjan.depwd.gov.in/upload/uploadfiles/files/RPwD%20%28Amendment%29%20Rules%2C%202023%20-%20Accessibility%20standards%20on%20ICT%20products%20and%20Services_compressed.pdf",
+        "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf",
+        "https://cbic-gst.gov.in/gst-invoice-rules.html",
+        "https://copyright.gov.in/Exceptions.aspx",
+        "https://www.copyright.gov.in/Copyright_Rules_2013/chapter_xiv.html",
+        "https://www.cert-in.org.in/Directions70B.jsp",
+        "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+        "https://www.mea.gov.in/Implementation-of-UNSC-Sanctions.htm",
+        "https://www.mha.gov.in/en/divisionofmha/counter-terrorism-and-counter-radicalization-division"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "d6c7a937178935b30d060e5c7c6d4692ce420b4fde8b0b9085ce4e10fc496a06",
+  "official_source_count": 44,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Digital Personal Data Protection Act 2023",
+    "Digital Personal Data Protection Rules 2025"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "Nederlands"
+}

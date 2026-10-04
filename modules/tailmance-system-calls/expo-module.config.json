@@ -1,0 +1,5 @@
+{
+  "platforms": ["android", "ios"],
+  "ios": { "modules": ["TailmanceSystemCallsModule"] },
+  "android": { "modules": ["expo.modules.tailmancesystemcalls.TailmanceSystemCallsModule"] }
+}

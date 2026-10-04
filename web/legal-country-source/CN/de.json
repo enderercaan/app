@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "CN",
+  "country_display_name": "China",
+  "document_locale": "de",
+  "document_language_display_names": "Chinesisch (vereinfacht)",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Rechtsordnungsspezifische rechtliche Ergänzung",
+  "sections": [
+    {
+      "heading": "Rechtlicher Geltungsbereich",
+      "paragraphs": [
+        "Diese Ergänzung gilt, wenn Tailmance feststellt, dass China das für Ihr Konto maßgebliche Land ist. Sie ergänzt die Nutzungsbedingungen, Datenschutzhinweise, Community-Richtlinien, Abonnementhinweise und weitere rechtliche Dokumente; sie ersetzt diese nicht.",
+        "Tailmance richtet rechtliche Pflichten nach diesem verifizierten Land und, soweit erforderlich, nach dem einschlägigen regionalen oder lokalen Rechtsrahmen aus. Eine Änderung der App-Sprache, eine Reise oder ein Wechsel der Store-Region ändert diesen Rechtsrahmen nicht automatisch."
+      ]
+    },
+    {
+      "heading": "Dokumentsprache",
+      "paragraphs": [
+        "Die verbindlichen rechtlichen Dokumente für diese rechtliche Konfiguration werden in den erforderlichen Sprachen bereitgehalten: Chinesisch (vereinfacht). Ist eine bestimmte Dokumentensprache vorgeschrieben, wird nicht ohne Hinweis automatisch eine andere Sprache verwendet.",
+        "Diese Fassung wird als barrierearme Übersetzung bereitgestellt. Sie ersetzt keine vorgeschriebene Sprachfassung, wenn das anwendbare Recht oder diese rechtliche Konfiguration eine solche verlangt."
+      ]
+    },
+    {
+      "heading": "Länderspezifische rechtliche Anforderungen",
+      "paragraphs": [
+        "Für das maßgebliche Land werden zweiundzwanzig Bereiche rechtlicher Anforderungen anhand zuordenbarer amtlicher Quellen geprüft. Geltendes Recht und Wirksamkeitsdaten werden von Entwürfen, Konsultationen und künftigen Maßnahmen getrennt; ein Vorschlag wird nie als geltendes Recht behandelt.",
+        "Stand der Quellenprüfung: 1. Oktober 2026. Künftige, im Entwurf befindliche oder konsultierte Maßnahmen werden getrennt verfolgt und nicht als geltendes Recht dargestellt."
+      ]
+    },
+    {
+      "heading": "Geprüfte Rechtsrahmen",
+      "paragraphs": [
+        "Nachstehend sind die wesentlichen Rechtsrahmen aufgeführt, die in der amtlichen Quellenprüfung von Tailmance für das maßgebliche Land erfasst sind. Die Aufnahme kennzeichnet nur den Prüfungsumfang: Ob eine Regel bereits gilt, künftig wirksam wird, lediglich vorgeschlagen ist oder nur unter engeren Voraussetzungen Anwendung findet, bestimmen die Wirksamkeits- und Anwendbarkeitskontrollen; dies wird niemals allein aus dieser Liste abgeleitet."
+      ],
+      "items": [
+        "PIPL",
+        "CAC cross-border data rules"
+      ]
+    },
+    {
+      "heading": "Datenschutz, Sicherheit und Nutzerrechte",
+      "paragraphs": [
+        "Datenschutzrechte, Auskunfts- und Löschanträge, internationale Übermittlungen, Altersprüfung, elektronische Werbung sowie Sicherheits- und Meldepflichten werden im exakten Rechtskontext angewendet. Hinweise, Export- und Löschwege finden Sie im Legal Center der App.",
+        "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann sich irren, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
+      ]
+    },
+    {
+      "heading": "Abonnements und Verbraucherinformationen",
+      "paragraphs": [
+        "Der App-Store, über den der Kauf erfolgt, ist für den angezeigten Abonnementpreis, die Währung und die anwendbare steuerliche Darstellung maßgeblich. Verlängerung, Kündigung und erforderliche vorvertragliche Informationen werden vor dem Kauf angezeigt. Tailmance verkauft weder Tiere noch physische Waren und wickelt keine Zahlungen zwischen Nutzern für Tierverkäufe ab."
+      ]
+    },
+    {
+      "heading": "Tierwohl und Nicht-Kommerzialisierung",
+      "paragraphs": [
+        "Kommerzielle Tierverkäufe und Marktplätze für gewerbliche Zucht sind verboten. Von Haltern organisierte Verpaarungen sind nur verfügbar, wenn die einschlägigen länderspezifischen Anforderungen an Tierwohl, Zucht, Gesundheit, Verwandtschaft und Eignung erfüllt sind; andernfalls bleibt die Funktion gesperrt."
+      ]
+    },
+    {
+      "heading": "Kontakt und amtliche Quellen",
+      "paragraphs": [
+        "Fragen zu diesen Hinweisen oder Datenschutzanfragen können an yektaozel@icloud.com gesendet werden. Die für diese Rechtsprüfung verwendeten amtlichen Quellen sind nachstehend aufgeführt."
+      ],
+      "official_sources": [
+        "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+        "https://www.cac.gov.cn/2023-02/24/c_1678884830036813.htm",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2024/art_0aea188276a44f0baf940ab95ee00e0a.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_eef66659c9624c5091bd3acd050b1710.html",
+        "https://www.cac.gov.cn/2023-10/24/c_1699806932316206.htm",
+        "https://www.cac.gov.cn/2026-02/28/c_1774010730056867.htm",
+        "https://www.cac.gov.cn/2026-09/18/c_1791482017777471.htm",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.npc.gov.cn/c2/c183/c198/201905/t20190522_27188.html",
+        "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202605/t20260505_534501.html",
+        "https://www.shanghai.gov.cn/gwk/search/content/GKXX-20260803152327433--1189",
+        "https://www.shanghai.gov.cn/nw26192/20200820/0001-26192_27724.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_85b474fc5a08494bb60ca6a280b98d7d.html",
+        "https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202606/t20260605_1438880.html",
+        "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_fa48eb1becd2411eabf4081c716b62f6.html",
+        "https://gxca.miit.gov.cn/zwgk/zcwj/flfg/art/2024/art_340a68cb6a8e45ae81c121630dd37346.html",
+        "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_4b47c79b8d994a42bba4835997688faa.html",
+        "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2023/art_dd783a581c9644a4aee10afa582811db.html",
+        "https://www.cac.gov.cn/2013-02/18/c_126468776.htm",
+        "https://www.cac.gov.cn/2025-09/15/c_1759583017563621.htm",
+        "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+        "https://www.cac.gov.cn/2025-02/14/c_1741233507681519.htm",
+        "https://www.moj.gov.cn/pub/sfbgw/gwxw/xwyw/202503/t20250324_516274.html",
+        "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=90351"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "24809639fff15b1c25ae3375cf71f291fee321bb38b30f011423785333aa4f4a",
+  "official_source_count": 47,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "PIPL",
+    "CAC cross-border data rules"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "zh-Hans"
+  ],
+  "display_language_name": "Deutsch"
+}

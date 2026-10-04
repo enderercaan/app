@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-30",
+  "incident_owner": {
+    "name": "Yekta Özel",
+    "role": "Tailmance owner, developer and primary incident coordinator",
+    "response_start_target": "immediate_on_detection"
+  },
+  "operating_policy": {
+    "preserve_evidence_before_destructive_cleanup": true,
+    "containment_and_user_safety_take_priority": true,
+    "country_notification_deadlines_are_matrix_driven": true,
+    "never_assume_a_universal_72_hour_rule": true,
+    "counsel_or_approved_applicability_evidence_required_for_notification_decisions": true,
+    "source_registry": "release/security-incident-obligations-v19.json"
+  },
+  "minimum_incident_sequence": [
+    "detect_and_open_incident",
+    "contain_and_preserve_evidence",
+    "classify_affected_systems_data_and_users",
+    "resolve_country_and_subnational_scope",
+    "apply_approved_notification_matrix",
+    "prepare_and_send_required_regulator_or_user_notices",
+    "eradicate_root_cause_and_recover",
+    "document_post_incident_actions"
+  ]
+}

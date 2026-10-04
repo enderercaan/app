@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "VN",
+  "country_display_name": "Vietnã",
+  "document_locale": "pt-BR",
+  "document_language_display_names": "vietnamita",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento jurídico específico da jurisdição",
+  "sections": [
+    {
+      "heading": "Âmbito jurídico",
+      "paragraphs": [
+        "Este suplemento se aplica quando a Tailmance determina que Vietnã é o país cuja legislação se aplica à sua conta. Ele complementa os Termos de Uso, o Aviso de Privacidade, as Diretrizes da Comunidade, o aviso de assinatura e outros documentos jurídicos, sem substituí-los.",
+        "A Tailmance aplica as obrigações jurídicas conforme esse país verificado e, quando necessário, o marco jurídico regional ou local aplicável. Alterar o idioma do app, viajar ou mudar a região da loja não altera, por si só, esse contexto jurídico."
+      ]
+    },
+    {
+      "heading": "Idioma dos documentos",
+      "paragraphs": [
+        "Os documentos jurídicos vinculantes desta configuração são mantidos nos idiomas exigidos: vietnamita. Quando um idioma específico é obrigatório, a Tailmance não o substitui automaticamente por outro idioma sem aviso.",
+        "Esta versão é fornecida como tradução para acessibilidade. Ela não substitui uma versão em idioma obrigatório quando a lei aplicável ou esta configuração jurídica assim exigir."
+      ]
+    },
+    {
+      "heading": "Requisitos jurídicos específicos do país",
+      "paragraphs": [
+        "Vinte e duas áreas de requisitos jurídicos são revisadas para o país aplicável com base em fontes oficiais identificáveis. A legislação vigente e suas datas de eficácia são separadas de propostas, consultas e medidas futuras; uma proposta nunca é tratada como lei vigente.",
+        "Data da revisão das fontes: 1º de outubro de 2026. Medidas futuras, projetos e consultas são acompanhados separadamente e não são apresentados como legislação vigente."
+      ]
+    },
+    {
+      "heading": "Marcos jurídicos revisados",
+      "paragraphs": [
+        "A seguir estão os principais marcos jurídicos registrados na revisão de fontes oficiais da Tailmance para o país aplicável. A inclusão indica apenas o escopo da revisão: se uma regra está vigente, terá vigência futura, é apenas proposta ou depende de uma condição de aplicabilidade mais restrita é determinado pelos controles de data de eficácia e de escopo exato, e nunca é inferido somente desta lista."
+      ],
+      "items": [
+        "Law No. 91/2025/QH15 on Personal Data Protection",
+        "Decree No. 356/2025/ND-CP"
+      ]
+    },
+    {
+      "heading": "Privacidade, segurança e direitos do usuário",
+      "paragraphs": [
+        "Direitos de privacidade, solicitações de dados, exclusão de conta e dados, transferências internacionais, verificação de idade, marketing eletrônico e obrigações de segurança e incidentes são aplicados no contexto jurídico exato. Use a Central Jurídica do app para avisos, exportação e exclusão.",
+        "Verificações de saúde assistidas por IA. Qualquer verificação assistida por IA de documentos de vacinação ou veterinários é apenas um auxílio automatizado preliminar. Ela não toma decisão final, vinculante ou juridicamente válida e não é exame veterinário, diagnóstico, certificação nem garantia do estado de saúde ou de vacinação de um animal. A IA pode cometer erros, deixar passar falhas ou ler um documento de forma incorreta. Resultados pouco claros ou contestados são revisados por uma pessoa, e o sinal “documento revisado” significa apenas que o documento foi conferido. Decisões de saúde devem ser tomadas com um médico-veterinário habilitado, e o atendimento não deve ser adiado por causa de um resultado exibido no app."
+      ]
+    },
+    {
+      "heading": "Assinaturas e informações ao consumidor",
+      "paragraphs": [
+        "A loja de aplicativos pela qual a compra é realizada é a referência para o preço de assinatura exibido, a moeda e o tratamento tributário aplicável. Renovação, cancelamento e informações pré-contratuais obrigatórias são apresentados antes da compra. A Tailmance não vende animais nem produtos físicos e não processa pagamentos entre usuários para venda de animais."
+      ]
+    },
+    {
+      "heading": "Bem-estar animal e ausência de comércio",
+      "paragraphs": [
+        "São proibidas vendas comerciais de animais e marketplaces destinados à reprodução comercial. Acasalamentos organizados pelos tutores só ficam disponíveis quando são atendidos os requisitos aplicáveis do país sobre bem-estar animal, reprodução, saúde, parentesco e elegibilidade; caso contrário, a funcionalidade permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contato e fontes oficiais",
+      "paragraphs": [
+        "Dúvidas sobre estes avisos ou solicitações de privacidade podem ser enviadas para yektaozel@icloud.com. As fontes oficiais usadas nesta revisão jurídica estão listadas abaixo."
+      ],
+      "official_sources": [
+        "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
+        "https://moit.gov.vn/en/news/ministry-of-industry-and-trade-disseminates-the-law-on-e-commerce-and-government-decree-no.-248-2026-nd-cp.html",
+        "https://chinhphu.vn/?classid=1&docid=216503&orggroupid=1&pageid=27160",
+        "https://vanban.chinhphu.vn/?classid=1&docid=211654&pageid=27160",
+        "https://vbpl.vn/TW/Pages/ivbpq-toanvan.aspx?ItemID=187039",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.apple.com/news/?id=yrrb45pw",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://vanban.chinhphu.vn/?classid=0&docid=217303&pageid=27160",
+        "https://vanban.chinhphu.vn/?classid=2629&docid=217352&pageid=27160",
+        "https://vbpl.vn/TW/Pages/vbpq-luocdo.aspx?ItemID=137311",
+        "https://vbpl.vn/bonongnghiep/Pages/vbpq-toanvan.aspx?ItemID=186454&dvid=319",
+        "https://www.dms.gov.vn/web/guest/chi-tiet-vb/chi-tiet-van-ban/nghi-dinh-ve-viec-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-thu-y-12403",
+        "https://vbpl.vn/bothongtin/Pages/vbpq-thuoctinh.aspx?ItemID=178340",
+        "https://cov.gov.vn/van-ban-phap-luat.html?id=17",
+        "https://moit.gov.vn/tin-tuc/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp.html",
+        "https://vanban.chinhphu.vn/?classid=1&docid=216387&pageid=27160",
+        "https://vanban.chinhphu.vn/?classid=1&docid=217833&orggroupid=2&pageid=27160",
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=161263&Keyword=",
+        "https://vanban.chinhphu.vn/default.aspx?docid=200773&pageid=27160",
+        "https://vanban.chinhphu.vn/?docid=96045&pageid=27160",
+        "https://chinhphu.vn/default.aspx?docid=201221&pageid=27160",
+        "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-nghi-di-nh-ve-thuong-ma-i-die-n-tu-.html",
+        "https://dichvucong.moit.gov.vn/VdxpTTHCOnlineDetail.aspx?DocId=443",
+        "https://vbpl.moj.gov.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=160235",
+        "https://vbpl.vn/TW/Pages/vbpq-vanbanlienquan.aspx?ItemID=160235",
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=187276",
+        "https://vanban.chinhphu.vn/?classid=0&docid=216387&pageid=27160",
+        "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-moi-ve-cong-bo-thong-tin-to-chuc-ca-nhan-lien-quan-den-khung-bo-tai-tro-khung-bo-tren-cong-thong-tin-dien-tu-bo-cong-an-d1-t1455",
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=32494"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "de79bce9ddfc9bd534267aa0e40637bf254b2c33bbd39317007e69a58ac74641",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Law No. 91/2025/QH15 on Personal Data Protection",
+    "Decree No. 356/2025/ND-CP"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "vi"
+  ],
+  "display_language_name": "português (Brasil)"
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "TH",
+  "country_display_name": "Tailândia",
+  "document_locale": "pt-BR",
+  "document_language_display_names": "tailandês",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento jurídico específico da jurisdição",
+  "sections": [
+    {
+      "heading": "Âmbito jurídico",
+      "paragraphs": [
+        "Este suplemento se aplica quando a Tailmance determina que Tailândia é o país cuja legislação se aplica à sua conta. Ele complementa os Termos de Uso, o Aviso de Privacidade, as Diretrizes da Comunidade, o aviso de assinatura e outros documentos jurídicos, sem substituí-los.",
+        "A Tailmance aplica as obrigações jurídicas conforme esse país verificado e, quando necessário, o marco jurídico regional ou local aplicável. Alterar o idioma do app, viajar ou mudar a região da loja não altera, por si só, esse contexto jurídico."
+      ]
+    },
+    {
+      "heading": "Idioma dos documentos",
+      "paragraphs": [
+        "Os documentos jurídicos vinculantes desta configuração são mantidos nos idiomas exigidos: tailandês. Quando um idioma específico é obrigatório, a Tailmance não o substitui automaticamente por outro idioma sem aviso.",
+        "Esta versão é fornecida como tradução para acessibilidade. Ela não substitui uma versão em idioma obrigatório quando a lei aplicável ou esta configuração jurídica assim exigir."
+      ]
+    },
+    {
+      "heading": "Requisitos jurídicos específicos do país",
+      "paragraphs": [
+        "Vinte e duas áreas de requisitos jurídicos são revisadas para o país aplicável com base em fontes oficiais identificáveis. A legislação vigente e suas datas de eficácia são separadas de propostas, consultas e medidas futuras; uma proposta nunca é tratada como lei vigente.",
+        "Data da revisão das fontes: 1º de outubro de 2026. Medidas futuras, projetos e consultas são acompanhados separadamente e não são apresentados como legislação vigente."
+      ]
+    },
+    {
+      "heading": "Marcos jurídicos revisados",
+      "paragraphs": [
+        "A seguir estão os principais marcos jurídicos registrados na revisão de fontes oficiais da Tailmance para o país aplicável. A inclusão indica apenas o escopo da revisão: se uma regra está vigente, terá vigência futura, é apenas proposta ou depende de uma condição de aplicabilidade mais restrita é determinado pelos controles de data de eficácia e de escopo exato, e nunca é inferido somente desta lista."
+      ],
+      "items": [
+        "Personal Data Protection Act B.E. 2562 and PDPC notifications"
+      ]
+    },
+    {
+      "heading": "Privacidade, segurança e direitos do usuário",
+      "paragraphs": [
+        "Direitos de privacidade, solicitações de dados, exclusão de conta e dados, transferências internacionais, verificação de idade, marketing eletrônico e obrigações de segurança e incidentes são aplicados no contexto jurídico exato. Use a Central Jurídica do app para avisos, exportação e exclusão.",
+        "Verificações de saúde assistidas por IA. Qualquer verificação assistida por IA de documentos de vacinação ou veterinários é apenas um auxílio automatizado preliminar. Ela não toma decisão final, vinculante ou juridicamente válida e não é exame veterinário, diagnóstico, certificação nem garantia do estado de saúde ou de vacinação de um animal. A IA pode cometer erros, deixar passar falhas ou ler um documento de forma incorreta. Resultados pouco claros ou contestados são revisados por uma pessoa, e o sinal “documento revisado” significa apenas que o documento foi conferido. Decisões de saúde devem ser tomadas com um médico-veterinário habilitado, e o atendimento não deve ser adiado por causa de um resultado exibido no app."
+      ]
+    },
+    {
+      "heading": "Assinaturas e informações ao consumidor",
+      "paragraphs": [
+        "A loja de aplicativos pela qual a compra é realizada é a referência para o preço de assinatura exibido, a moeda e o tratamento tributário aplicável. Renovação, cancelamento e informações pré-contratuais obrigatórias são apresentados antes da compra. A Tailmance não vende animais nem produtos físicos e não processa pagamentos entre usuários para venda de animais."
+      ]
+    },
+    {
+      "heading": "Bem-estar animal e ausência de comércio",
+      "paragraphs": [
+        "São proibidas vendas comerciais de animais e marketplaces destinados à reprodução comercial. Acasalamentos organizados pelos tutores só ficam disponíveis quando são atendidos os requisitos aplicáveis do país sobre bem-estar animal, reprodução, saúde, parentesco e elegibilidade; caso contrário, a funcionalidade permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contato e fontes oficiais",
+      "paragraphs": [
+        "Dúvidas sobre estes avisos ou solicitações de privacidade podem ser enviadas para yektaozel@icloud.com. As fontes oficiais usadas nesta revisão jurídica estão listadas abaixo."
+      ],
+      "official_sources": [
+        "https://www.pdpc.or.th/",
+        "https://www.ocpb.go.th/news_view.php?nid=17494",
+        "https://www.ocpb.go.th/index_en.php",
+        "https://mdes.go.th/news/detail/11499-%E0%B8%A3%E0%B8%A1%E0%B8%A7-%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B5-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1--MRRM--%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%99--M360-ASEAN-2026--%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%99",
+        "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
+        "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
+        "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+        "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf",
+        "https://www.dla.go.th/land/legalItemFon.do",
+        "https://ratchakitcha.soc.go.th/",
+        "https://www.ocpb.go.th/news_view.php?nid=13434",
+        "https://www.ocpb.go.th/images/article/article_20250715151212.pdf",
+        "https://ratchakitcha.soc.go.th/documents/1879724.pdf",
+        "https://www.rd.go.th/26218.html",
+        "https://www.rd.go.th/english/37741.html",
+        "https://www.rd.go.th/65244.html",
+        "https://www.ipthailand.go.th/images/26669/2566/laws/COPYRIGHT%20ACT%20%28NO.%205%29%2C2022.pdf",
+        "https://gppc.pdpc.or.th/portfolio/operational-training-installation-course-1-content-4/",
+        "https://register-gppc-plus.pdpc.or.th/",
+        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+        "https://aps.amlo.go.th/aps/public/thailandlist/",
+        "https://aps.amlo.go.th/aps/public/unlist/"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "6e152441b9f2a24a39c775d2928921e0b82a67b5697d0b73f70f56a1384b85f7",
+  "official_source_count": 51,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Personal Data Protection Act B.E. 2562 and PDPC notifications"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "th"
+  ],
+  "display_language_name": "português (Brasil)"
+}

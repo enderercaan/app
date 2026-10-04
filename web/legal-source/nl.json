@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "locale": "nl",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Gebruiksvoorwaarden",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Versie 2026-09-29. Deze Voorwaarden regelen het gebruik van Tailmance. Aanvullende voorwaarden voor jouw land of regio die worden getoond maken er deel van uit. De accounthouder moet minstens 18 jaar zijn."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Dienst en account",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance helpt eigenaren van katten en honden om huisdierprofielen te maken en ontdek- en sociale functies te gebruiken. Houd accountgegevens correct, beveilig je account en draag het niet over. Tailmance is geen veterinaire, medische, nood-, dierenverkoop- of betalingsbemiddelingsdienst."
+            }
+          ]
+        },
+        {
+          "heading": "2. Leeftijd en geschiktheid",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Je moet minstens 18 jaar zijn. Waar wet of winkelregels extra leeftijdsgarantie vereisen, kan aanvullende verificatie nodig zijn. Een onjuiste leeftijdsverklaring kan leiden tot beperking of beëindiging."
+            }
+          ]
+        },
+        {
+          "heading": "3. Huisdierprofielen en verantwoordelijkheid",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Upload alleen informatie, foto’s en gezondheidsgegevens die je mag gebruiken en delen. Geef niet bewust onjuiste informatie over gezondheid, vaccinatie, ras, leeftijd, geslacht, eigendom of verificatie en plaats geen onnodige persoonsgegevens van derden."
+            }
+          ]
+        },
+        {
+          "heading": "4. Gebruikersinhoud en licentie",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Je behoudt je rechten op geüploade inhoud. Je verleent Tailmance een wereldwijde, niet-exclusieve licentie die beperkt is tot exploitatie, opslag, weergave, overdracht, beveiliging en moderatie die nodig zijn voor de dienst. Eigendom gaat niet over."
+            }
+          ]
+        },
+        {
+          "heading": "5. Verboden inhoud en gedrag",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Dierenmishandeling, intimidatie, bedreiging, haat, materiaal van seksueel kindermisbruik, fraude, illegale goederen/diensten, ongeoorloofde privé- of intieme gegevens, valse gezondheids- of verificatie-informatie, inbreuk op intellectuele eigendom, imitatie en omzeilen van beveiliging of moderatie zijn verboden."
+            }
+          ]
+        },
+        {
+          "heading": "6. Dierenverkoop, commerciële fokkerij en paring",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance is geen dierenmarktplaats, verkoopplatform of fokkersmarktplaats. Prijzen, aanbetalingen, verkoop, levering, commerciële klantenwerving voor fokkers, illegale fokkerij en dierenhandel zijn verboden. Paring is standaard uitgeschakeld en kan alleen worden geactiveerd na uitdrukkelijke vrijgave en wanneer recht en dierenwelzijn dit toestaan. De dienst mag ook niet worden gebruikt om adoptie, herplaatsing of overdracht van eigendom van een huisdier aan te bieden, te vragen, te bemiddelen of te organiseren."
+            }
+          ]
+        },
+        {
+          "heading": "7. Moderatie, veiligheid en bezwaar",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance kan inhoud of accounttoegang beperken wegens veiligheid, Voorwaarden, Communityregels of wet. Waar passend worden reden en bezwaarroute verstrekt. Een gegrond bezwaar heft een andere onafhankelijke geldige beperking niet automatisch op."
+            }
+          ]
+        },
+        {
+          "heading": "8. Diergezondheid en noodsituaties",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance biedt geen veterinaire zorg, diagnose of noodhulp. Vaccinatie-, gezondheids- of verificatiegegevens vervangen geen dierenarts. Neem bij nood contact op met een dierenarts, nooddienst of bevoegde autoriteit."
+            },
+            {
+              "kind": "p",
+              "text": "AI-ondersteunde gezondheidscontroles. Elke AI-ondersteunde controle van vaccinatie- of dierenartsdocumenten is slechts een voorlopig, geautomatiseerd hulpmiddel. Het neemt geen definitieve, bindende of rechtsgeldige beslissing en is geen diergeneeskundig onderzoek, diagnose, certificering of garantie voor de gezondheids- of vaccinatiestatus van een dier. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Onduidelijke of betwiste resultaten worden door een persoon beoordeeld, en het signaal ‘document beoordeeld’ betekent alleen dat het document is gecontroleerd. Voor gezondheidsbeslissingen moet een bevoegde dierenarts worden geraadpleegd, en zorg mag niet worden uitgesteld vanwege een resultaat in de app."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium en winkelbetaling",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium is optioneel; Standard blijft zonder abonnement beschikbaar. Tenzij de winkel anders aangeeft, wordt Premium automatisch verlengd. Bindende prijs, valuta, belasting, periode, proef en promotie staan in App Store of Google Play. Beheer en annuleer via de winkel; accountverwijdering annuleert het winkelabonnement niet automatisch."
+            }
+          ]
+        },
+        {
+          "heading": "10. Privacy en leeftijdsgarantie",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Privacybeleid en lokale aanvullingen leggen verwerking uit. Toestemming voor marketing-push is afzonderlijk en optioneel. Als leeftijdsgarantie identiteit, gezicht, biometrie of andere gevoelige gegevens gebruikt, worden aanvullende privacy-informatie en rechten apart verstrekt."
+            }
+          ]
+        },
+        {
+          "heading": "11. Beperking, beëindiging en verwijdering",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Je kunt het account permanent verwijderen en de webroute gebruiken als je geen app-toegang hebt. Tailmance kan proportionele beperkingen toepassen bij contract-, veiligheids- of rechtsschendingen. Verwijdering vereist niet dat beperkte gegevens die voor veiligheid, geschillen, wettelijke verzoeken of boekhouding moeten worden bewaard direct verdwijnen."
+            }
+          ]
+        },
+        {
+          "heading": "12. Intellectuele eigendom",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Upload alleen inhoud die je mag delen. Rechthebbenden kunnen de procedure voor IE-meldingen gebruiken. Lokale rechten op melding, tegenmelding en herstel blijven gelden."
+            }
+          ]
+        },
+        {
+          "heading": "13. Wijzigingen en beschikbaarheid",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Functies kunnen om veiligheids-, wettelijke, winkel- of productredenen wijzigen, worden opgeschort of in een land ontbreken. Ononderbroken of foutloze toegang wordt niet gegarandeerd; dwingende consumentenrechten blijven bestaan."
+            }
+          ]
+        },
+        {
+          "heading": "14. Aansprakelijkheid en niet-afstandbare rechten",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Niets verwijdert consumenten-, privacy-, toegankelijkheids- of andere rechten waarvan de wet geen afstand toestaat. Uitsluitingen en beperkingen gelden alleen voor zover wettelijk toegestaan."
+            }
+          ]
+        },
+        {
+          "heading": "15. Toepasselijk recht en lokale voorwaarden",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Toepasselijk recht, verplichte consumentenrechter, ADR, rechtbanken, toezichthouders en lokale rechten kunnen afhangen van gewone verblijfplaats of plaats van aanbod. Lokale aanvullingen vervolledigen de Voorwaarden en behouden dwingende rechten."
+            }
+          ]
+        },
+        {
+          "heading": "16. Wijzigingen en hernieuwde aanvaarding",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Belangrijke wijzigingen in bindende voorwaarden of lokale aanvullingen kunnen melding of nieuwe aanvaarding vereisen. Aanvaarding uit een eerdere land-, regio- of documenttaalcontext gaat niet automatisch over."
+            }
+          ]
+        },
+        {
+          "heading": "17. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gebruik Support en contact voor ondersteuning, veiligheid en privacy. Verplichte gegevens over exploitant, vertegenwoordiger, toezichthouder of consumentencontact staan in de toepasselijke lokale aanvulling."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Privacybeleid",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Versie 2026-09-29. Verwerkingsverantwoordelijke: Yekta Özel. Dit beleid legt uit hoe Tailmance persoonsgegevens verwerkt. Getoonde lokale privacy-aanvullingen gelden samen hiermee. Dit is geen marketingtoestemming."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Gegevenscategorieën",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "We kunnen account-/sessiegegevens; beveiliging, apparaat, netwerk, IP en push; huisdierprofielen, foto’s en interacties; geschatte locatie; vrijwillige gezondheids-, vaccinatie- en verificatiegegevens; abonnementsstatus en winkelreferenties; meldingen, blokkades, moderatie en bezwaar; voorkeuren; en bewijs van juridische context en getoonde documenten verwerken."
+            }
+          ]
+        },
+        {
+          "heading": "2. Bronnen",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gegevens komen van jou, apparaat en appgebruik, geüploade inhoud, veiligheids-/moderatieprocessen, App Store of Google Play, bevoegde dienstverleners en beperkt uit meldingen of inhoud van andere gebruikers."
+            }
+          ]
+        },
+        {
+          "heading": "3. Doeleinden",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Verwerking dient account en sociale functies, ontdekking/matching, communicatie, veiligheid en fraude, moderatie/bezwaar, abonnementsverificatie, gebruikersverzoeken, export/verwijdering, betrouwbaarheid en wettelijke verplichtingen."
+            }
+          ]
+        },
+        {
+          "heading": "4. Rechtsgrondslagen en lokale verschillen",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Afhankelijk van doel, gegevens en recht kan verwerking steunen op overeenkomst, wettelijke plicht, gerechtvaardigd belang, toestemming of andere grondslag. Lokale aanvullingen leggen verschillen uit."
+            }
+          ]
+        },
+        {
+          "heading": "5. Privacy-informatie en marketingtoestemming zijn gescheiden",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Een privacyverklaring informeert en is geen algemene toestemming. Marketing-push vereist een afzonderlijke, vrijwillige en intrekbare keuze en machtigt niet automatisch e-mail, sms, telefoon of andere kanalen."
+            }
+          ]
+        },
+        {
+          "heading": "6. Locatie",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Met toestemming kan Tailmance apparaatlocatie gebruiken voor ontdekking. Coördinaten worden vóór verzending afgerond op drie decimalen, privé opgeslagen en niet aan anderen getoond; alleen geschatte afstand is zichtbaar. Apparaat- of winkelsignalen bepalen niet zelfstandig de juridische jurisdictie."
+            }
+          ]
+        },
+        {
+          "heading": "7. Gezondheids- en gevoelige gegevens",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gezondheids- en vaccinatieregistraties kunnen gevoelige informatie bevatten. Upload alleen wat nodig is en vermijd gegevens van derden. Bij leeftijdsgarantie met identiteit, gezicht, biometrie of andere gevoelige gegevens gelden aanvullende informatie, waarborgen, bewaarlimieten, providerinformatie en alternatieven."
+            },
+            {
+              "kind": "p",
+              "text": "AI-ondersteunde gezondheidscontroles. Elke AI-ondersteunde controle van vaccinatie- of dierenartsdocumenten is slechts een voorlopig, geautomatiseerd hulpmiddel. Het neemt geen definitieve, bindende of rechtsgeldige beslissing en is geen diergeneeskundig onderzoek, diagnose, certificering of garantie voor de gezondheids- of vaccinatiestatus van een dier. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Onduidelijke of betwiste resultaten worden door een persoon beoordeeld, en het signaal ‘document beoordeeld’ betekent alleen dat het document is gecontroleerd. Voor gezondheidsbeslissingen moet een bevoegde dierenarts worden geraadpleegd, en zorg mag niet worden uitgesteld vanwege een resultaat in de app."
+            }
+          ]
+        },
+        {
+          "heading": "8. Ontvangers en verwerkers",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gegevens worden alleen waar nodig gedeeld met bevoegde infrastructuur-, veiligheids-, moderatie-, berichten-, push-, crash-, abonnements- en andere dienstverleners en met autoriteiten wanneer wettelijk vereist. Tailmance verkoopt persoonsgegevens niet aan adverteerders."
+            }
+          ]
+        },
+        {
+          "heading": "9. Internationale doorgiften",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Internationale doorgiften gebruiken de mechanismen, waarborgen en kennisgevingen die de toepasselijke jurisdictie vereist."
+            }
+          ]
+        },
+        {
+          "heading": "10. Bewaring",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gegevens worden alleen bewaard zolang doel of wet dit vereist. Termijnen verschillen. Beperkte veiligheids-, fraude-, geschil-, boekhoud- of wettelijke gegevens kunnen na accountverwijdering blijven."
+            }
+          ]
+        },
+        {
+          "heading": "11. Beveiliging",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance gebruikt technische en organisatorische maatregelen zoals toegangscontrole, versleuteling tijdens transport, privéopslag, auditlogboeken en misbruikpreventie. Absolute veiligheid kan niet worden gegarandeerd."
+            }
+          ]
+        },
+        {
+          "heading": "12. Jouw rechten",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Afhankelijk van het recht kun je rechten hebben op inzage, correctie, verwijdering, beperking, bezwaar, overdraagbaarheid, intrekking, beoordeling van bepaalde geautomatiseerde beslissingen, klacht bij een toezichthouder en informatie over ontvangers/doorgiften. Lokale aanvullingen specificeren dit."
+            }
+          ]
+        },
+        {
+          "heading": "13. Kinderen en leeftijd",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance-accounts zijn voor personen van 18 jaar en ouder. Deze productregel vervangt geen wettelijke of winkelverplichtingen inzake leeftijd, kindveiligheid en melding. Een niet-toelaatbaar account van een minderjarige kan worden beperkt en verwijderd."
+            }
+          ]
+        },
+        {
+          "heading": "14. Geautomatiseerde systemen en moderatie",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Geautomatiseerde systemen kunnen veiligheid, fraude, ranking, aanbevelingen en moderatie ondersteunen. Waar recht uitleg, menselijke beoordeling, bezwaar of andere waarborgen vereist, worden die geboden."
+            },
+            {
+              "kind": "p",
+              "text": "AI-ondersteunde functies. Sommige functies gebruiken AI-ondersteunde hulpmiddelen. Op ondersteunde apparaten kan een model op het apparaat op basis van een dierenfoto een ras voorstellen en foto's vóór het uploaden op veiligheid controleren; suggesties zijn optioneel en kunnen onjuist zijn. Vaccinatie- en dierenartsdocumenten kunnen vooraf worden gecontroleerd met AI-ondersteunde tekstherkenning; onduidelijke resultaten gaan naar menselijke beoordeling. AI-uitvoer is slechts een signaal: het is geen diergeneeskundig advies of diagnose en bepaalt niet zelfstandig een ingrijpend resultaat voor een persoon. Tailmance biedt geen AI-chatbot of AI-diagnose voor dieren. Wie door een AI-ondersteund resultaat wordt geraakt, kan via het bezwaarproces in de app of de support om menselijke beoordeling vragen."
+            }
+          ]
+        },
+        {
+          "heading": "15. Wijzigingen",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Belangrijke wijzigingen in dit beleid of lokale aanvullingen worden gemeld wanneer nodig. Als nieuwe toestemming of bevestiging nodig is, wordt die opnieuw gevraagd."
+            }
+          ]
+        },
+        {
+          "heading": "16. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gebruik Support en contact voor privacyverzoeken. Verplichte lokale vertegenwoordigers, privacycontacten of autoriteiten staan in de toepasselijke aanvulling."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Communityrichtlijnen",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Deze regels gelden met de Voorwaarden om Tailmance respectvol, veilig en gericht op dierenwelzijn te houden. Een strengere toepasselijke lokale regel gaat voor."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Respecteer mensen en dieren",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Dierenmishandeling of gevaar, intimidatie, bedreiging, stalking, uitbuiting, discriminatie en haat zijn verboden. Bevorder geen onveilige omgang met dieren en verberg geen materiële welzijnsrisico’s."
+            }
+          ]
+        },
+        {
+          "heading": "2. Seksuele uitbuiting en kindveiligheid",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Materiaal van seksueel kindermisbruik, seksuele uitbuiting, grooming, benadering of facilitering daarvan is verboden. Tailmance kan inhoud bewaren, beperken en melden wanneer vereist en biedt een kindveiligheidscontact."
+            }
+          ]
+        },
+        {
+          "heading": "3. Authentieke profielen en gezondheidsclaims",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Doe je niet voor als een ander en vervals geen eigendom, ras, leeftijd, geslacht, gezondheid, vaccinatie of verificatie. Verificatiebadges zijn geen veterinaire garantie."
+            },
+            {
+              "kind": "p",
+              "text": "AI kan fouten maken. AI-ondersteunde documentcontroles zijn slechts voorlopig: ze nemen nooit een definitieve of rechtsgeldige beslissing over de gezondheid van een dier, zijn geen diergeneeskundig advies en garanderen geen gezondheids- of vaccinatiestatus. Raadpleeg altijd een bevoegde dierenarts."
+            }
+          ]
+        },
+        {
+          "heading": "4. Privacy en intieme inhoud",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Deel geen privégegevens, precieze locatie, inloggegevens, medische informatie of intieme beelden van anderen zonder toestemming. Vermijd onnodige gegevens van derden in registraties of berichten."
+            }
+          ]
+        },
+        {
+          "heading": "5. Illegale goederen, fraude en gevaarlijk gedrag",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gebruik Tailmance niet voor fraude, illegale goederen/diensten, gevaarlijke activiteiten, ongeoorloofde financiële schema’s, facilitering van misdrijven of omzeilen van rechtmatige veiligheidscontroles."
+            }
+          ]
+        },
+        {
+          "heading": "6. Dierenverkoop en commerciële fokkerij",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance is geen verkoop- of fokkersmarktplaats. Prijsonderhandeling, aanbetaling, verkoop, levering, commerciële acquisitie, illegale fokkerij, handel en puppy-millactiviteiten zijn verboden. De dienst mag ook niet worden gebruikt om adoptie, herplaatsing of overdracht van eigendom van een huisdier aan te bieden, te vragen, te bemiddelen of te organiseren."
+            }
+          ]
+        },
+        {
+          "heading": "7. Paring en dierenwelzijn",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Paring is standaard uitgeschakeld en kan alleen na landspecifieke beoordeling van recht, welzijn, leeftijd, gezondheid en verwantschap worden geactiveerd. Schadelijke of illegale fokkerij mag niet worden bevorderd."
+            }
+          ]
+        },
+        {
+          "heading": "8. Melden, blokkeren en moderatie",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gebruik in-app melden en blokkeren. Tailmance kan inhoud/accounts beperken en biedt waar passend en vereist redenen en bezwaar."
+            }
+          ]
+        },
+        {
+          "heading": "9. Lokale regels",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Lokale verplichtingen rond illegale inhoud, kindveiligheid, dierenwelzijn, melding, bewaring en autoriteiten kunnen extra eisen stellen. Waar vereist geldt de strengere regel."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Toestemming voor marketing-pushmeldingen",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Deze keuze staat los van de Voorwaarden en het Privacybeleid. Ze is vrijwillig en niet nodig voor de kerndienst."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Keuze voor marketing-push",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Als je marketing-push uitdrukkelijk inschakelt, mag Tailmance productnieuws, aanbiedingen of promoties sturen. Je kunt dit in Instellingen intrekken zonder noodzakelijke meldingen te beïnvloeden. E-mail, sms, telefoon en andere kanalen vallen er niet onder; aanvullende lokale regels gelden afzonderlijk."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Abonnements- en consumenteninformatie",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Deze pagina legt Tailmance Premium en consumenteninfo vóór en na aankoop uit. Dwingende lokale rechten blijven altijd gelden."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium is optioneel; Standard blijft zonder abonnement beschikbaar. Premiumfuncties staan in de app en kunnen voor de toekomst wijzigen met inachtneming van consumentenrecht."
+            }
+          ]
+        },
+        {
+          "heading": "2. Prijs en facturering",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bindende prijs, valuta, belastingen, periode, proef en promotie zijn wat App Store of Google Play direct voor aankoop toont. Tailmance verzamelt kaartnummers niet rechtstreeks."
+            }
+          ]
+        },
+        {
+          "heading": "3. Automatische verlenging",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tenzij de winkel duidelijk anders meldt, wordt Premium automatisch verlengd tot annulering. Timing en kosten volgen winkelvoorwaarden en toepasselijk recht."
+            }
+          ]
+        },
+        {
+          "heading": "4. Annulering",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Beheer of annuleer via het winkelaccount waarmee je kocht. Tailmance-accountverwijdering annuleert het winkelabonnement niet. Annulering stopt doorgaans toekomstige verlengingen en creëert niet automatisch recht op terugbetaling."
+            }
+          ]
+        },
+        {
+          "heading": "5. Terugbetalingen, bedenktijd en verplichte rechten",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Terugbetaling, bedenktijd, herroeping, conformiteit en digitale rechten hangen af van winkel en recht. Niet-afstandbare rechten worden niet beperkt."
+            }
+          ]
+        },
+        {
+          "heading": "6. Accountverwijdering en Premium-recht",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bij accountverwijdering met actief winkelabonnement kan facturering doorgaan tot aparte annulering. Herstel of overdracht hangt af van winkelaccount en geverifieerde registraties."
+            }
+          ]
+        },
+        {
+          "heading": "7. Presentatie vóór aankoop",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Vóór in-app aankoop registreert Tailmance exact welke consumentendocumenten zijn getoond. Wijzigt bundle of hash vóór het winkelscherm, dan stopt de aankoop en is nieuwe beoordeling nodig."
+            }
+          ]
+        },
+        {
+          "heading": "8. Lokale informatie",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Verplichte gegevens over exploitant, belasting, herroeping, geschillenbeslechting of andere informatie staan in de lokale aanvulling wanneer vereist."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Moderatiebesluiten en bezwaar",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance modereert om gebruikers, dieren, dienst en wettelijke naleving te beschermen. Geschikte besluiten bevatten uitleg en bezwaarroute."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Besluiten",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance kan inhoud, functies of accounts verwijderen, beperken of lager rangschikken wegens Richtlijnen, Voorwaarden, veiligheid, fraude, dierenwelzijn of wet. Besluiten worden met zichtbare reden vastgelegd tenzij wettelijke of veiligheidsbeperkingen gelden."
+            }
+          ]
+        },
+        {
+          "heading": "2. Bezwaar",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Dien beschikbaar bezwaar via de aangegeven route en termijn in. Bewijs wordt opnieuw beoordeeld en menselijke beoordeling kan plaatsvinden. Gegrond bezwaar heft andere geldige beperkingen niet op."
+            }
+          ]
+        },
+        {
+          "heading": "3. Herstel",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Een teruggedraaid besluit is pas uitgevoerd wanneer de betrokken toestand werkelijk is hersteld, indien passend. Conflicterende actieve besluiten verhinderen onveilig automatisch herstel."
+            }
+          ]
+        },
+        {
+          "heading": "4. Accountbeperkingen",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bij beperking worden passende reden en bezwaarroute verstrekt tenzij wet of veiligheid dit verhindert. Vereiste support-, juridische en privacyroutes blijven bereikbaar."
+            }
+          ]
+        },
+        {
+          "heading": "5. Externe rechten",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Intern bezwaar verwijdert geen rechten bij toezichthouders, rechtbanken, geschillenorganen of andere bevoegde instanties."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Intellectuele eigendom en inbreukmeldingen",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Rechthebbenden en bevoegde vertegenwoordigers kunnen Tailmance-inhoud melden die volgens hen rechten schendt."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Een melding indienen",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Geef voldoende informatie om werk/recht te identificeren, inhoud te vinden, contact op te nemen en bevoegdheid aan te tonen. Voeg waar vereist een verklaring te goeder trouw en handtekening toe."
+            }
+          ]
+        },
+        {
+          "heading": "Beoordeling en tegenmelding",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance beoordeelt meldingen volgens het recht en houdt rekening met valse of misbruikmeldingen. Bij beperking kan de betrokkene reden en bezwaar- of tegenmeldingsroute krijgen."
+            }
+          ]
+        },
+        {
+          "heading": "Herhaalde inbreuk",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Geverifieerde herhaalde inbreuk kan proportionele beperkingen opleveren. Het aantal meldingen alleen bewijst geen inbreuk."
+            }
+          ]
+        },
+        {
+          "heading": "Verenigde Staten 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Waar §512 geldt, vermeldt een VS-specifieke aanvulling de aangewezen agent en procedure. Deze algemene pagina claimt geen registratie of safe harbor zonder uitdrukkelijke bevestiging."
+            }
+          ]
+        },
+        {
+          "heading": "Noodgeval of illegale inhoud",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Een IE-melding vervangt geen nood- of illegaliteitsmelding. Gebruik in-app melden, Veiligheidscentrum of Support."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Toegankelijkheid",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance beschouwt toegankelijk gebruik als kernvereiste en wil veel gebruikers en hulptechnologieën ondersteunen."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Toegankelijk gebruik",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "De interface houdt rekening met duidelijke labels, leesbare tekst, contrast, schaalbare tekst, geschikte aanraakdoelen en hulptechnologie. Hogere verplichte lokale eisen blijven gelden."
+            }
+          ]
+        },
+        {
+          "heading": "Hulptechnologieën",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Bij problemen met VoiceOver, TalkBack, grote tekst, schakelbediening, toetsenbord of andere functies kun je contact opnemen; apparaat-, systeem- en technologiegegevens kunnen helpen."
+            }
+          ]
+        },
+        {
+          "heading": "Toegankelijkheidsverzoek",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kun je een scherm, bediening of inhoud niet gebruiken of heb je een redelijke aanpassing nodig, mail yektaozel@icloud.com. Stuur geen onnodige gevoelige gegevens."
+            }
+          ]
+        },
+        {
+          "heading": "Lokale rechten en reikwijdte",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Deze pagina is geen onafhankelijke toegankelijkheidscertificering of algemene verklaring van naleving van alle standaarden. Niet-afstandbare toegankelijkheids- en consumentenrechten blijven bestaan."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Je account en gegevens verwijderen",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "De snelste route is Instellingen → Account permanent verwijderen. Als je de app niet kunt openen, kun je online een verwijderingsverzoek indienen zonder herinstallatie."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Webverzoek tot verwijdering",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Verzoeken worden verwerkt na passende verificatie van de accounthouder. Het formulier is ontworpen om derden niet te vertellen of een e-mailadres aan een Tailmance-account is gekoppeld."
+            }
+          ]
+        },
+        {
+          "heading": "Wat wordt verwijderd en wat kan blijven",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Verwijdering omvat account, huisdierprofielen, eigen sociale inhoud/foto’s, gekoppelde berichten/matchregistraties, privégezondheid/vaccinatie, privélocatie en voorkeuren, onder voorbehoud van bewaarplichten. Beperkte veiligheids-, fraude-, geschil-, boekhoud- of wettelijke registraties kunnen blijven."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Support en contact",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Exploitant: Yekta Ozel. Voor account, betaling, privacy, veiligheid of moderatie gebruik je Veiligheidscentrum en Juridisch & Privacy in de app of mail je yektaozel@icloud.com."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Contact kindveiligheid",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Voor meldingen over seksueel misbruik of uitbuiting van kinderen gebruik je yektaozel@icloud.com en beschikbare in-app tools. Bij onmiddellijk ernstig gevaar neem je contact op met lokale noodhulp of autoriteiten."
+            }
+          ]
+        },
+        {
+          "heading": "Moderatiebesluit",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gebruik Moderatiebesluiten en bezwaar voor geschikte bezwaren."
+            }
+          ]
+        },
+        {
+          "heading": "Intellectuele eigendom",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gebruik de IE-pagina voor auteursrecht-, merk- of andere rechtenmeldingen."
+            }
+          ]
+        },
+        {
+          "heading": "Toegankelijkheid",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Gebruik de Toegankelijkheidspagina of neem contact op voor problemen en aanpassingen."
+            }
+          ]
+        },
+        {
+          "heading": "Accountverwijdering",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Kun je de app niet openen, gebruik dan het webverzoek."
+            }
+          ]
+        },
+        {
+          "heading": "Diergezondheid",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance is geen veterinaire of medische nooddienst. Neem bij urgente diergezondheid rechtstreeks contact op met passende veterinaire hulp."
+            },
+            {
+              "kind": "p",
+              "text": "AI kan fouten maken. AI-ondersteunde documentcontroles zijn slechts voorlopig: ze nemen nooit een definitieve of rechtsgeldige beslissing over de gezondheid van een dier, zijn geen diergeneeskundig advies en garanderen geen gezondheids- of vaccinatiestatus. Raadpleeg altijd een bevoegde dierenarts."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_privacy_supplement": {
+      "file": "jurisdiction-privacy.html",
+      "title": "Landspecifieke privacylaag",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Dit document legt uit hoe Tailmance landspecifieke privacy-informatie toepast. Het is geen toestemmingsformulier en vervangt niet de exacte landspecifieke juridische aanvulling voor uw geverifieerde juridische land."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Exacte juridische context",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance bepaalt landspecifieke verplichtingen op basis van het geverifieerde juridische land en, waar nodig, de toepasselijke subnationale context. Het wijzigen van de app-taal, reizen of het wijzigen van de winkelregio verandert die juridische context niet op zichzelf."
+            }
+          ]
+        },
+        {
+          "heading": "2. Gegevens en doeleinden",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "De categorieën persoonsgegevens en verwerkingsdoeleinden in de Privacyverklaring blijven van toepassing. Aanvullende of strengere lokale vereisten worden toegepast via de exacte landaanvulling en juridische runtimecontroles."
+            }
+          ]
+        },
+        {
+          "heading": "3. Rechten en verzoeken",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Beschikbare rechten, verzoekprocedures, reactietermijnen en routes naar toezichthouders verschillen per toepasselijk recht. De exacte landaanvulling beschrijft deze lokale laag. Waar van toepassing blijven gegevensexport en routes voor verwijdering van account en gegevens in de app beschikbaar."
+            }
+          ]
+        },
+        {
+          "heading": "4. Doorgifte en bewaring",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Waarborgen voor internationale doorgifte, lokale opslag- of lokalisatieverplichtingen en bewaareisen worden toegepast volgens de geverifieerde juridische context. Tailmance presenteert geen enkele bewaartermijn of doorgiftemethode als geldig voor alle landen."
+            }
+          ]
+        },
+        {
+          "heading": "5. Marketing en toestemming",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Optionele marketingkeuzes worden los van deze kennisgeving beheerd. Het ontvangen of bevestigen van dit document vormt geen toestemming wanneer het toepasselijke recht een afzonderlijke actieve keuze vereist."
+            }
+          ]
+        },
+        {
+          "heading": "6. Landspecifiek document",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Het Juridisch Centrum toont de exacte landaanvulling voor uw juridische land. Als een toegankelijkheidsvertaling wordt getoond, vervangt die niet de door Tailmance aangeduide verplichte of bindende taalversie."
+            }
+          ]
+        },
+        {
+          "heading": "7. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Vragen of privacyverzoeken kunnen worden gestuurd naar yektaozel@icloud.com."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

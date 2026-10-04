@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "KR",
+  "country_display_name": "Corea del Sur",
+  "document_locale": "es",
+  "document_language_display_names": "coreano",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento jurídico específico de la jurisdicción",
+  "sections": [
+    {
+      "heading": "Ámbito jurídico",
+      "paragraphs": [
+        "Este suplemento se aplica cuando Tailmance determina que Corea del Sur es el país cuya legislación se aplica a tu cuenta. Complementa los Términos de uso, el Aviso de privacidad, las Normas de la comunidad, el aviso de suscripción y otros documentos jurídicos, sin sustituirlos.",
+        "Tailmance aplica las obligaciones jurídicas conforme a ese país verificado y, cuando corresponda, al marco jurídico regional o local aplicable. Cambiar el idioma de la aplicación, viajar o cambiar la región de la tienda no modifica por sí solo ese marco jurídico."
+      ]
+    },
+    {
+      "heading": "Idioma de los documentos",
+      "paragraphs": [
+        "Los documentos jurídicos vinculantes de esta configuración se mantienen en los idiomas exigidos: coreano. Cuando se exige un idioma determinado, Tailmance no lo sustituye automáticamente y sin aviso por otro idioma.",
+        "Esta versión se ofrece como traducción de accesibilidad. No sustituye una versión en un idioma obligatorio cuando la ley aplicable o esta configuración jurídica la exige."
+      ]
+    },
+    {
+      "heading": "Requisitos jurídicos específicos del país",
+      "paragraphs": [
+        "Se revisan veintidós ámbitos de requisitos jurídicos para el país aplicable utilizando fuentes oficiales identificables. El derecho vigente y sus fechas de aplicación se separan de propuestas, consultas y medidas futuras; una propuesta nunca se trata como derecho vigente.",
+        "Fecha de revisión de las fuentes: 1 de octubre de 2026. Las medidas futuras, los proyectos y las consultas se siguen por separado y no se presentan como derecho vigente."
+      ]
+    },
+    {
+      "heading": "Marcos jurídicos revisados",
+      "paragraphs": [
+        "A continuación se indican los principales marcos jurídicos registrados en la revisión de fuentes oficiales de Tailmance para el país aplicable. Su inclusión solo delimita el alcance de la revisión: si una norma está vigente, entra en vigor en el futuro, es una propuesta o depende de una condición de aplicabilidad más limitada se determina mediante los controles de fecha de eficacia y ámbito exacto, y nunca se deduce únicamente de esta lista."
+      ],
+      "items": [
+        "PIPA"
+      ]
+    },
+    {
+      "heading": "Privacidad, seguridad y derechos de las personas usuarias",
+      "paragraphs": [
+        "Los derechos de privacidad, las solicitudes sobre datos, la eliminación de la cuenta y de datos, las transferencias internacionales, la verificación de edad, el marketing electrónico y las obligaciones de seguridad y notificación se aplican dentro del contexto jurídico exacto. Utiliza el Centro jurídico de la aplicación para avisos, exportación y eliminación.",
+        "Comprobaciones de salud asistidas por IA. Cualquier comprobación asistida por IA de documentos de vacunación o veterinarios es solo una ayuda automatizada preliminar. No toma una decisión definitiva, vinculante ni jurídicamente válida, y no constituye un examen veterinario, un diagnóstico, una certificación ni una garantía del estado de salud o de vacunación de un animal. La IA puede cometer errores, pasar por alto fallos o leer un documento de forma incorrecta. Una persona revisa los resultados poco claros o discutidos, y la señal «documento revisado» solo indica que el documento ha sido comprobado. Las decisiones de salud deben basarse en un veterinario colegiado, y no debe retrasarse la atención por un resultado mostrado en la app."
+      ]
+    },
+    {
+      "heading": "Suscripciones e información al consumidor",
+      "paragraphs": [
+        "La tienda de aplicaciones a través de la cual se realiza la compra es la referencia para el precio de suscripción mostrado, la moneda y el tratamiento fiscal aplicable. La renovación, la cancelación y la información precontractual exigida se presentan antes de la compra. Tailmance no vende animales ni productos físicos y no procesa pagos entre usuarios por ventas de animales."
+      ]
+    },
+    {
+      "heading": "Bienestar animal y ausencia de comercio",
+      "paragraphs": [
+        "Se prohíben las ventas comerciales de animales y los mercados destinados a la cría comercial. Los apareamientos organizados por los propietarios solo están disponibles cuando se cumplen los requisitos aplicables del país en materia de bienestar animal, cría, salud, parentesco e idoneidad; de lo contrario, la función permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contacto y fuentes oficiales",
+      "paragraphs": [
+        "Las consultas sobre estos avisos o las solicitudes de privacidad pueden enviarse a yektaozel@icloud.com. A continuación se enumeran las fuentes oficiales utilizadas para esta revisión jurídica."
+      ],
+      "official_sources": [
+        "https://www.pipc.go.kr/eng/user/ltn/new/noticeDetail.do",
+        "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=182211",
+        "https://www.law.go.kr/lsInfoP.do?lsId=009318",
+        "https://law.go.kr/LSW/lsInfoP.do?lsId=000815",
+        "https://law.go.kr/LSW/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=121025",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287795",
+        "https://www.law.go.kr/lsInfoP.do?lsId=001656",
+        "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029874175",
+        "https://law.go.kr/LSW/lsEfInfoP.do?lsiSeq=253655",
+        "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030434423",
+        "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031811027",
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=009318",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032213603",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029423293",
+        "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900605727",
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1014944783",
+        "https://pipc.go.kr/eng/user/ltn/new/noticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=3005",
+        "https://law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000089686",
+        "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=&chrClsCd=010202&efYd=20260122&lsiSeq=268619&urlMode=lsInfoP"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "e6ca4fd785232c0f3a7e19eab1c8115f2435afd139963dc5421f7031c90e43ae",
+  "official_source_count": 43,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "PIPA"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "ko"
+  ],
+  "display_language_name": "español"
+}

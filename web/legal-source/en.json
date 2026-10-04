@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "locale": "en",
+  "source_version": "2026-10-01-r8.2",
+  "documents": {
+    "terms": {
+      "file": "terms.html",
+      "title": "Terms of Use",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Version 2026-09-29. These Terms govern your use of Tailmance. Any country- or region-specific terms shown to you form part of these Terms. Account holders must be at least 18 years old."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Service and account",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance helps cat and dog owners create pet profiles and use discovery and social features. Keep account information accurate, protect account security, and do not transfer your account. Tailmance is not a veterinary, medical, emergency, pet-sale, or payment-intermediation service."
+            }
+          ]
+        },
+        {
+          "heading": "2. Age and eligibility",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "You must be at least 18 to create an account. Where applicable law or store rules require additional age assurance, access may require further verification. A false age statement may result in restricted or terminated access."
+            }
+          ]
+        },
+        {
+          "heading": "3. Pet profiles and user responsibility",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Upload only pet, photo, health, and profile information you are authorized to use and share. Do not knowingly misrepresent vaccination, health, breed, age, sex, ownership, or verification information, and do not upload unnecessary personal or sensitive data about others."
+            }
+          ]
+        },
+        {
+          "heading": "4. User content and license",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "You retain your rights in content you upload. You grant Tailmance a worldwide, non-exclusive license limited to operating, storing, displaying, transmitting, securing, and moderating that content as needed to provide the service. Ownership does not transfer to Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "5. Prohibited content and conduct",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Animal abuse, harassment, threats, hate, child sexual abuse material, fraud, illegal goods or services, unauthorized personal or intimate data, false health or verification information, intellectual-property infringement, impersonation, bypassing security or moderation, and facilitating unlawful activity are prohibited. The Community Guidelines provide further detail."
+            }
+          ]
+        },
+        {
+          "heading": "6. Pet sales, commercial breeding and mating",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance is not a pet marketplace, pet-sales platform, or breeder marketplace. It may not be used to arrange animal prices, deposits, sales, delivery, commercial breeder customer acquisition, unlawful breeding, or animal trafficking. Mating is disabled by default and may be enabled only where Tailmance expressly activates it and applicable law and animal-welfare rules permit it. The service also may not be used to offer, request, broker, or arrange adoption, rehoming, or transfer of ownership of a pet."
+            }
+          ]
+        },
+        {
+          "heading": "7. Moderation, safety and appeals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance may restrict content visibility or account access for safety, Terms, Community Guidelines, or legal reasons. Where appropriate, users receive reasons and an available appeal route. A successful appeal does not cancel a separate valid restriction affecting the same content or account."
+            }
+          ]
+        },
+        {
+          "heading": "8. Animal health and emergencies",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance does not provide veterinary care, medical diagnosis, or emergency services. Vaccination, health, or verification records in the app do not replace professional veterinary assessment. Seek an appropriate veterinarian, emergency service, or authority when needed."
+            },
+            {
+              "kind": "p",
+              "text": "AI-assisted health checks. Any AI-assisted check of vaccination or veterinary documents is only a preliminary, automated aid. It does not make a final, binding or legally valid decision, and it is not a veterinary examination, diagnosis, certification or guarantee of an animal’s health or vaccination status. AI can make mistakes and may miss errors or read a document incorrectly. Unclear or disputed results are reviewed by a person, and a ‘document reviewed’ signal only means that the document was checked. Rely on a licensed veterinarian for health decisions and do not delay care because of a result shown in the app."
+            }
+          ]
+        },
+        {
+          "heading": "9. Premium and store billing",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium is optional and Standard use remains available without a subscription. Unless the store states otherwise, Premium renews automatically. The binding price, currency, tax, period, trial, and promotion terms are shown by the App Store or Google Play. Manage and cancel through the relevant store. Deleting your Tailmance account does not automatically cancel a store subscription."
+            }
+          ]
+        },
+        {
+          "heading": "10. Privacy and age assurance",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "The Privacy Policy and applicable local privacy supplements explain data processing. Marketing push consent is separate and optional. If age assurance uses identity, facial, biometric, or other sensitive data, the relevant additional privacy information and rights must be presented separately."
+            }
+          ]
+        },
+        {
+          "heading": "11. Restriction, termination and deletion",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "You may permanently delete your account and may use the web deletion route if you cannot access the app. Tailmance may apply proportionate restrictions for Terms, safety, or legal violations and, where applicable, provide reasons and appeal rights. Deletion does not require immediate erasure of limited records that law requires us to retain for security, disputes, lawful requests, or accounting."
+            }
+          ]
+        },
+        {
+          "heading": "12. Intellectual property",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Upload only content you are entitled to share. Rights holders may use the Intellectual Property Notice process. Country-specific notice, counter-notice, and restoration rights remain applicable where required."
+            }
+          ]
+        },
+        {
+          "heading": "13. Service changes and availability",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Features may change, be suspended, or be unavailable in a country for security, law, store-policy, or product reasons. Tailmance does not guarantee uninterrupted or error-free access, but mandatory consumer rights and obligations for paid services remain unaffected."
+            }
+          ]
+        },
+        {
+          "heading": "14. Liability and non-waivable rights",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Nothing in these Terms removes consumer, data-protection, accessibility, or other rights that applicable law does not allow you to waive. Disclaimers and liability limitations apply only to the extent permitted by law."
+            }
+          ]
+        },
+        {
+          "heading": "15. Governing law and local terms",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Applicable law, mandatory consumer forum, alternative dispute resolution, courts, regulator access, and other local rights may vary according to where you habitually reside or where the service is offered. Country- or region-specific supplements complete these Terms, and mandatory local rights are preserved."
+            }
+          ]
+        },
+        {
+          "heading": "16. Changes and renewed acceptance",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "When binding Terms or applicable local supplements materially change, Tailmance will provide notice or request renewed acceptance where required. Acceptance from an old country, region, or document-language context does not automatically carry over to a new context."
+            }
+          ]
+        },
+        {
+          "heading": "17. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Use the Support and Contact page for support, safety, privacy, and other requests. Where applicable law requires operator, representative, regulator, or consumer-contact information, it will be included in the relevant local supplement."
+            }
+          ]
+        }
+      ]
+    },
+    "privacy_notice": {
+      "file": "privacy.html",
+      "title": "Privacy Policy",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Version 2026-09-29. Data controller: Yekta Özel. This Policy explains how Tailmance processes personal data. Country- or region-specific privacy supplements shown to you apply together with it. This Policy is not marketing consent."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Categories of data we process",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "We may process account and session data; security, device, network, IP and push-token data; pet profiles, photos and social interactions; approximate discovery location; health, vaccination and verification records you choose to upload; subscription status and store transaction references; reports, blocks, moderation and appeals; notification and marketing preferences; and records proving which legal context and documents were shown to you."
+            }
+          ]
+        },
+        {
+          "heading": "2. Sources of data",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "We obtain data directly from you, your device and app use, content you upload, safety and moderation processes, the App Store or Google Play, authorized service providers, and in limited cases other users' reports or content."
+            }
+          ]
+        },
+        {
+          "heading": "3. Purposes",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "We process data to provide accounts and social features, discovery and matching, messaging and notifications, security and fraud prevention, moderation and appeals, subscription verification, user requests, data export and deletion, service reliability, and compliance with applicable law."
+            }
+          ]
+        },
+        {
+          "heading": "4. Legal bases and local differences",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Depending on the purpose, data category, and applicable law, processing may rely on contract, legal obligation, legitimate interests, consent, or another lawful basis. Local privacy supplements explain jurisdiction-specific differences."
+            }
+          ]
+        },
+        {
+          "heading": "5. Notice is separate from marketing consent",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "A privacy notice informs you about processing; it is not blanket consent. Marketing push notifications require a separate, optional, withdrawable choice and do not authorize email, SMS, phone, or other marketing channels unless separately permitted."
+            }
+          ]
+        },
+        {
+          "heading": "6. Location",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "If you allow location access, Tailmance may use device location for discovery. Coordinates are rounded to three decimal places before being sent to the server, stored privately, and are not shown to other users; only approximate distance is displayed. Device and store location signals do not by themselves determine legal jurisdiction."
+            }
+          ]
+        },
+        {
+          "heading": "7. Health and sensitive data",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Pet health and vaccination records may contain sensitive information. Upload only what is necessary and avoid third-party data. Where identity, facial, biometric, or other sensitive information is used for age assurance, additional notice, safeguards, retention limits, provider information, and alternative procedures must be supplied as required."
+            },
+            {
+              "kind": "p",
+              "text": "AI-assisted health checks. Any AI-assisted check of vaccination or veterinary documents is only a preliminary, automated aid. It does not make a final, binding or legally valid decision, and it is not a veterinary examination, diagnosis, certification or guarantee of an animal’s health or vaccination status. AI can make mistakes and may miss errors or read a document incorrectly. Unclear or disputed results are reviewed by a person, and a ‘document reviewed’ signal only means that the document was checked. Rely on a licensed veterinarian for health decisions and do not delay care because of a result shown in the app."
+            }
+          ]
+        },
+        {
+          "heading": "8. Sharing and processors",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Data may be shared with authorized infrastructure, security, moderation, messaging, notification, analytics/crash, subscription, and other providers only as needed for the service, and with public authorities where lawfully required. Tailmance does not sell personal data to advertisers."
+            }
+          ]
+        },
+        {
+          "heading": "9. International transfers",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Where data is transferred internationally, Tailmance must use the mechanism and safeguards required by the applicable jurisdiction and provide any required local notice. Transfer rules may differ by country or region."
+            }
+          ]
+        },
+        {
+          "heading": "10. Retention",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Data is retained only for as long as necessary for the purpose or required by law. Different categories have different periods. Account deletion does not require immediate deletion of limited security, fraud, dispute, accounting, or lawful-request records that must be retained."
+            }
+          ]
+        },
+        {
+          "heading": "11. Security",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance uses technical and organizational safeguards designed to protect data, including access control, encryption in transit, private storage controls, audit records, and abuse prevention. No system can guarantee absolute security."
+            }
+          ]
+        },
+        {
+          "heading": "12. Your rights",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Depending on applicable law, you may have rights to access, correct, delete, restrict or object to processing, portability, withdraw consent, challenge certain automated decisions, complain to a regulator, and obtain information about recipients and transfers. Local supplements explain the exact rights and procedures."
+            }
+          ]
+        },
+        {
+          "heading": "13. Children and age",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance accounts are for adults aged 18 or older. This product rule does not replace age-assurance, child-safety, reporting, or platform duties that may apply under law or store policies. If Tailmance learns that an ineligible minor created an account, appropriate restriction and deletion steps may be taken."
+            }
+          ]
+        },
+        {
+          "heading": "14. Automated systems and moderation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Automated systems may assist safety, fraud detection, ranking, recommendations, and moderation. Where applicable law requires explanations, human review, objection, or other safeguards for consequential decisions, those rights will be provided."
+            },
+            {
+              "kind": "p",
+              "text": "AI-assisted features. Some features use AI-assisted tools. On supported devices, an on-device model can suggest a breed from a pet photo and screen photos for safety before upload; suggestions are optional and may be wrong. Vaccination and veterinary documents may be pre-checked with AI-assisted text recognition, and unclear results go to human review. AI output is only a signal: it is not veterinary advice or a diagnosis and does not by itself decide a consequential outcome for a user. Tailmance does not offer an AI chatbot or AI veterinary diagnosis. A user affected by an AI-assisted result can ask for human review through the in-app appeal process or Support."
+            }
+          ]
+        },
+        {
+          "heading": "15. Changes",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Material changes to this Policy or a local supplement will be communicated where required. If a change requires renewed consent or acknowledgement, Tailmance will request it rather than relying on an old choice."
+            }
+          ]
+        },
+        {
+          "heading": "16. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Use the Support and Contact page for privacy requests. Where a local representative, privacy contact, data-protection authority, or other jurisdiction-specific contact is legally required, the relevant local supplement will provide it."
+            }
+          ]
+        }
+      ]
+    },
+    "community_guidelines": {
+      "file": "community-guidelines.html",
+      "title": "Community Guidelines",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "These rules apply together with the Terms to keep Tailmance respectful, safe, and focused on animal welfare. Stricter applicable local law takes priority."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Respect people and animals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Do not abuse or endanger animals, harass, threaten, stalk, exploit, discriminate against, or direct hate at others. Do not encourage unsafe animal handling or conceal material welfare risks."
+            }
+          ]
+        },
+        {
+          "heading": "2. Sexual exploitation and child safety",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Child sexual abuse material, sexual exploitation of minors, grooming, solicitation, or content that facilitates such conduct is prohibited. Tailmance may preserve, restrict, and report material where required by law and provides a child-safety contact route."
+            }
+          ]
+        },
+        {
+          "heading": "3. Authentic profiles and health claims",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Do not impersonate people, misrepresent pet ownership, breed, age, sex, health, vaccination, or verification status, or submit fraudulent documents. Verification badges are not veterinary guarantees."
+            },
+            {
+              "kind": "p",
+              "text": "AI can make mistakes. AI-assisted document checks are preliminary only: they never make a final or legally valid decision about an animal’s health, are not veterinary advice, and do not guarantee health or vaccination status. Always consult a licensed veterinarian."
+            }
+          ]
+        },
+        {
+          "heading": "4. Privacy and intimate content",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Do not share another person's private data, precise location, credentials, medical information, or intimate imagery without authorization. Avoid placing unnecessary third-party personal data in pet records or messages."
+            }
+          ]
+        },
+        {
+          "heading": "5. Illegal goods, fraud and dangerous conduct",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Do not use Tailmance for fraud, unlawful goods or services, weapons or dangerous activity, unauthorized financial schemes, or conduct that facilitates crime or evasion of lawful safety controls."
+            }
+          ]
+        },
+        {
+          "heading": "6. Pet sales and commercial breeding",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance is not a pet-sales or breeder marketplace. Price negotiation, deposits, sale or delivery of animals, commercial breeder lead generation, unlawful breeding, trafficking, or puppy-mill activity are prohibited. The service also may not be used to offer, request, broker, or arrange adoption, rehoming, or transfer of ownership of a pet."
+            }
+          ]
+        },
+        {
+          "heading": "7. Mating and animal welfare",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Mating features are disabled by default and may be enabled only after country-specific legal, welfare, age, health, and kinship controls are approved. Users must not use the service to promote harmful or unlawful breeding."
+            }
+          ]
+        },
+        {
+          "heading": "8. Reporting, blocking and moderation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Use in-app reporting and blocking for safety concerns. Tailmance may remove or limit content or accounts and will provide reasons and appeal routes where appropriate and legally required."
+            }
+          ]
+        },
+        {
+          "heading": "9. Local rules",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Country- and region-specific illegal-content, child-safety, animal-welfare, reporting, preservation, and law-enforcement duties may add to these Guidelines. Tailmance applies the stricter applicable rule where required."
+            }
+          ]
+        }
+      ]
+    },
+    "marketing_push_consent": {
+      "file": "marketing-push-consent.html",
+      "title": "Marketing Push Notification Consent",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "This choice is separate from the Terms and Privacy Policy. It is optional and is not required to use the core Tailmance service."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Marketing push choice",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "If you actively enable marketing push notifications, Tailmance may send product news, offers, or promotional updates to your mobile device. You may withdraw this choice at any time in Settings without affecting necessary service notifications. This consent does not cover email, SMS, telephone, or other channels. Where local regimes such as Türkiye's commercial electronic-message rules or Canada's anti-spam rules impose additional requirements, those requirements must be satisfied separately."
+            }
+          ]
+        }
+      ]
+    },
+    "subscription_consumer": {
+      "file": "subscription-consumer.html",
+      "title": "Subscription and Consumer Information",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "This page explains Tailmance Premium and consumer information that applies before and after purchase. Mandatory local consumer rights always remain available."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Premium",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Premium is optional. Standard use continues without a subscription. Premium features are described in the app and may change prospectively subject to applicable consumer law."
+            }
+          ]
+        },
+        {
+          "heading": "2. Price and billing",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "The binding price, currency, taxes, billing period, trial, and promotion terms are the values shown by the App Store or Google Play immediately before purchase. Tailmance does not directly collect your payment-card number."
+            }
+          ]
+        },
+        {
+          "heading": "3. Automatic renewal",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Unless the store clearly states otherwise, Premium renews automatically until cancelled. Renewal timing and charges follow the relevant store terms and applicable law."
+            }
+          ]
+        },
+        {
+          "heading": "4. Cancellation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Manage or cancel through the store account used for purchase. Deleting your Tailmance account does not automatically cancel the store subscription. Cancellation generally stops future renewals and does not itself create a refund right."
+            }
+          ]
+        },
+        {
+          "heading": "5. Refunds, withdrawal and mandatory rights",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Refund, cooling-off, withdrawal, statutory conformity, and digital-service rights depend on the store and applicable consumer law. Nothing on this page limits rights that cannot lawfully be waived."
+            }
+          ]
+        },
+        {
+          "heading": "6. Account deletion and entitlement",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "If you delete the Tailmance account while a store subscription remains active, store billing may continue until separately cancelled. Restoring or transferring entitlement is subject to the store account and Tailmance's verified subscription records."
+            }
+          ]
+        },
+        {
+          "heading": "7. Purchase presentation",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Before an in-app purchase, Tailmance records the exact consumer document set presented to you. If the legal bundle or document hash changes before the store sheet opens, the purchase flow must stop and require a fresh review."
+            }
+          ]
+        },
+        {
+          "heading": "8. Local information",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Country- or region-specific operator details, tax information, withdrawal instructions, dispute-resolution routes, or other mandatory disclosures are provided in the applicable local supplement when required."
+            }
+          ]
+        }
+      ]
+    },
+    "moderation_appeals": {
+      "file": "moderation-appeals.html",
+      "title": "Moderation Decisions and Appeals",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance uses moderation to protect users, animals, the service, and legal compliance. Eligible decisions include an explanation and an appeal route where appropriate."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Decisions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance may remove, limit, demote, or restrict content, features, or accounts for Community Guidelines, Terms, safety, fraud, animal-welfare, or legal reasons. Decisions are recorded with a user-visible reason unless disclosure is prohibited for safety or legal reasons."
+            }
+          ]
+        },
+        {
+          "heading": "2. Appeals",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Where an appeal is available, submit it through the app or stated route within the applicable period. Appeals are reviewed with the decision evidence and may involve human review. A successful appeal does not override a separate valid restriction."
+            }
+          ]
+        },
+        {
+          "heading": "3. Restoration",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "A reversed decision is not treated as complete until the affected product state is actually restored where restoration is appropriate. Conflicting active decisions prevent unsafe automatic restoration."
+            }
+          ]
+        },
+        {
+          "heading": "4. Account restrictions",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "If account access is restricted, Tailmance provides an appropriate reason and available appeal route unless disclosure is legally or safety restricted. Support and required legal/privacy routes remain available where they must remain accessible."
+            }
+          ]
+        },
+        {
+          "heading": "5. External rights",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "The internal appeal process does not remove any right you may have to contact a regulator, court, dispute-resolution body, or other competent authority under applicable law."
+            }
+          ]
+        }
+      ]
+    },
+    "intellectual_property": {
+      "file": "intellectual-property.html",
+      "title": "Intellectual Property and Infringement Notices",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Rights holders and authorized representatives may report content on Tailmance that they believe infringes intellectual-property rights."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Submitting a notice",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Send enough information to identify the protected work or right, locate the reported content, contact you, and show your authority to act. Include a good-faith statement and signature where applicable law requires it."
+            }
+          ]
+        },
+        {
+          "heading": "Review and counter-notice",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance reviews notices under applicable law and safeguards against fraudulent or abusive claims. When content is restricted, the affected user may receive a reason and an available appeal or counter-notice process where appropriate."
+            }
+          ]
+        },
+        {
+          "heading": "Repeat infringement",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Verified repeated infringement may lead to proportionate content or account restrictions. The number of notices alone does not establish infringement; mistaken and abusive notices are also considered."
+            }
+          ]
+        },
+        {
+          "heading": "United States 17 U.S.C. §512",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Where the §512 procedure applies, the U.S.-specific supplement will identify the designated agent and required notice process. This general page does not claim that Tailmance has completed any registration or qualifies for a statutory safe harbor unless the U.S. supplement expressly confirms it."
+            }
+          ]
+        },
+        {
+          "heading": "Emergency or illegal content",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "An intellectual-property notice is not a substitute for emergency or illegal-content reporting. Use in-app reporting, the Safety Center, or Support for those concerns."
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility": {
+      "file": "accessibility.html",
+      "title": "Accessibility",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Tailmance treats accessible use as a core product requirement and aims to support a broad range of users and assistive technologies."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Accessible use",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "The interface is designed with clear labels, readable text, contrast, scalable text, suitable touch targets, and assistive-technology compatibility. Any higher mandatory accessibility right under applicable law remains unaffected."
+            }
+          ]
+        },
+        {
+          "heading": "Assistive technologies",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "If you experience an issue with VoiceOver, TalkBack, larger text, switch access, keyboard navigation, or another accessibility feature, contact us and, where useful, include device, operating-system, and assistive-technology details."
+            }
+          ]
+        },
+        {
+          "heading": "Accessibility request",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "If you cannot use a screen, control, or item of content, or need a reasonable accommodation, contact yektaozel@icloud.com. Do not send personal or sensitive information that is unnecessary to explain the issue."
+            }
+          ]
+        },
+        {
+          "heading": "Local rights and scope",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "This page is not an independent accessibility certification or a blanket claim of compliance with every technical or legal standard. It does not limit non-waivable accessibility or consumer rights, and additional local rights may apply."
+            }
+          ]
+        }
+      ]
+    },
+    "account_deletion": {
+      "file": "delete-account.html",
+      "title": "Delete Your Account and Data",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "The fastest way to delete a Tailmance account is Settings → Permanently delete account. If you cannot access the app, you may submit a deletion request on the web without reinstalling it."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Web deletion request",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Requests are processed only after appropriate account-owner verification. The web form is designed not to disclose to third parties whether an email address is associated with a Tailmance account."
+            }
+          ]
+        },
+        {
+          "heading": "What is deleted and what may be retained",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Deletion covers the account, pet profiles, owned social content and photos, account-linked messaging/match records, private health/vaccination records, private location, and preferences, subject to applicable retention rules. Limited security, fraud-prevention, dispute, accounting, or legal records may be retained where law requires or permits it, as explained in the Privacy Policy and local supplements."
+            }
+          ]
+        }
+      ]
+    },
+    "support": {
+      "file": "support.html",
+      "title": "Support and Contact",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "Operator: Yekta Ozel. For account, billing, privacy, safety, or moderation help, use the in-app Safety Center and Legal & Privacy Center or email yektaozel@icloud.com."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Child-safety contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "For reports concerning child sexual abuse or exploitation, contact yektaozel@icloud.com and use the in-app reporting tools where available. If there is an immediate and serious danger, contact the appropriate local emergency service or authority."
+            }
+          ]
+        },
+        {
+          "heading": "Moderation decision",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Use the Moderation Decisions and Appeals route for eligible moderation appeals."
+            }
+          ]
+        },
+        {
+          "heading": "Intellectual property",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Use the Intellectual Property page for copyright, trademark, or other rights-infringement notices."
+            }
+          ]
+        },
+        {
+          "heading": "Accessibility",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Use the Accessibility page or contact us for accessibility issues and accommodation requests."
+            }
+          ]
+        },
+        {
+          "heading": "Account deletion",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "If you cannot access the app, use the web account-deletion request route."
+            }
+          ]
+        },
+        {
+          "heading": "Animal health",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance is not a veterinary or emergency health service. For urgent animal-health concerns, contact an appropriate veterinary service directly."
+            },
+            {
+              "kind": "p",
+              "text": "AI can make mistakes. AI-assisted document checks are preliminary only: they never make a final or legally valid decision about an animal’s health, are not veterinary advice, and do not guarantee health or vaccination status. Always consult a licensed veterinarian."
+            }
+          ]
+        }
+      ]
+    },
+    "jurisdiction_privacy_supplement": {
+      "file": "jurisdiction-privacy.html",
+      "title": "Jurisdiction-Specific Privacy Layer",
+      "intro": [
+        {
+          "kind": "p",
+          "text": "This document explains how Tailmance applies country-specific privacy information. It is not a consent form and does not replace the exact Country-Specific Legal Supplement for your verified legal country."
+        }
+      ],
+      "sections": [
+        {
+          "heading": "1. Exact legal context",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Tailmance determines country-specific obligations from the verified legal country and, where required, the applicable subnational context. Changing the app language, travelling, or changing a store region does not by itself change that legal context."
+            }
+          ]
+        },
+        {
+          "heading": "2. Data and purposes",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "The categories of personal data and processing purposes described in the Privacy Notice remain applicable. Additional or stricter local requirements are applied through the exact country-specific supplement and runtime legal controls."
+            }
+          ]
+        },
+        {
+          "heading": "3. Rights and requests",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Available rights, request procedures, response periods and regulator routes vary by applicable law. The exact country-specific supplement describes the local layer. In-app data export and account/data deletion routes remain available where applicable."
+            }
+          ]
+        },
+        {
+          "heading": "4. Transfers and retention",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "International-transfer safeguards, local storage or localization duties, and retention requirements are applied according to the verified legal context. Tailmance does not represent one universal retention period or transfer mechanism as valid for every country."
+            }
+          ]
+        },
+        {
+          "heading": "5. Marketing and consent",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Optional marketing choices are handled separately from this notice. Receiving or acknowledging this document does not create consent where applicable law requires a separate affirmative choice."
+            }
+          ]
+        },
+        {
+          "heading": "6. Country-specific document",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "The Legal Center presents the exact country-specific supplement for your legal country. If an accessibility translation is shown, it does not replace the required or binding-language version identified by Tailmance."
+            }
+          ]
+        },
+        {
+          "heading": "7. Contact",
+          "blocks": [
+            {
+              "kind": "p",
+              "text": "Questions or privacy requests may be sent to yektaozel@icloud.com."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

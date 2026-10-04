@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-29",
+  "runtime_ui_locales": ["en","es","pt-BR","fr","de","it","ru","tr","ar","hi","id","ja","ko","zh-Hans","zh-Hant","nl","pl","th","vi"],
+  "legal_document_only_locales": [
+    {"locale":"ca","jurisdiction":"ES","subnational_codes":["ES-CT"],"basis":["https://consum.gencat.cat/ca/el-consum/durant-la-compra/drets-linguistics-/","https://www.boe.es/buscar/act.php?id=BOE-A-2010-13115"],"status":"source_localization_required_fail_closed"},
+    {"locale":"eu","jurisdiction":"ES","subnational_codes":["ES-PV"],"basis":["https://www.kontsumobide.euskadi.eus/hizkuntza-eskubideak-eta-enpresen-betebeharrak/webkon01-content/eu/","https://www.boe.es/eli/es-pv/l/2023/04/27/4"],"status":"source_localization_required_fail_closed"},
+    {"locale":"gl","jurisdiction":"ES","subnational_codes":["ES-GA"],"basis":["https://www.xunta.gal/dog/Publicados/2012/20120411/AnuncioC3B0-040412-14487_gl.html","https://www.boe.es/buscar/act.php?id=BOE-A-2012-5595"],"status":"source_localization_required_fail_closed"}
+  ],
+  "policy": {
+    "legal_document_locale_is_independent_from_ui_locale": true,
+    "legal_only_locale_must_not_be_exposed_as_runtime_ui_locale_without_full_runtime_catalog": true,
+    "subnational_language_requirement_never_applies_countrywide_without_applicability_evidence": true,
+    "silent_fallback_to_spanish_for_required_subnational_document_locale": "BLOCK"
+  }
+}

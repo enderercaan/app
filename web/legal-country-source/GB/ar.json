@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "GB",
+  "country_display_name": "المملكة المتحدة",
+  "document_locale": "ar",
+  "document_language_display_names": "الإنجليزية",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "ملحق قانوني خاص بالولاية القضائية",
+  "sections": [
+    {
+      "heading": "النطاق القانوني",
+      "paragraphs": [
+        "ينطبق هذا الملحق عندما تحدد Tailmance أن المملكة المتحدة هي الدولة التي يسري قانونها على حسابك. وهو يكمل شروط الاستخدام وإشعار الخصوصية وإرشادات المجتمع وإشعار الاشتراك وسائر المستندات القانونية ولا يحل محلها.",
+        "تطبق Tailmance الالتزامات القانونية وفقًا لتلك الدولة المتحقق منها، وعند الاقتضاء وفقًا للإطار القانوني الإقليمي أو المحلي المعمول به. لا يؤدي تغيير لغة التطبيق أو السفر أو تغيير منطقة المتجر بمفرده إلى تغيير القانون المطبق."
+      ]
+    },
+    {
+      "heading": "لغة المستندات",
+      "paragraphs": [
+        "تُتاح المستندات القانونية الملزمة لهذه التهيئة القانونية باللغة أو اللغات المطلوبة: الإنجليزية. وإذا كانت لغة معينة إلزامية، فلا تستبدلها Tailmance تلقائيًا وبدون إشعار بلغة أخرى.",
+        "تُقدَّم هذه النسخة كترجمة لأغراض إتاحة الوصول. وهي لا تحل محل النسخة باللغة الإلزامية عندما يقتضي القانون المعمول به أو هذه التهيئة القانونية تلك النسخة."
+      ]
+    },
+    {
+      "heading": "المتطلبات القانونية الخاصة بالدولة",
+      "paragraphs": [
+        "تتم مراجعة اثنتين وعشرين فئة من المتطلبات القانونية للدولة المطبقة استنادًا إلى مصادر رسمية محددة المصدر. ويجري الفصل بين القانون النافذ وتواريخ سريانه وبين المقترحات والمشاورات والتدابير المستقبلية؛ ولا يُعامل أي مقترح على أنه قانون نافذ.",
+        "تاريخ مراجعة المصادر: 1 أكتوبر 2026. تتم متابعة التدابير المستقبلية والمسودات والمشاورات بصورة منفصلة ولا تُعرض باعتبارها قانونًا نافذًا."
+      ]
+    },
+    {
+      "heading": "الأطر القانونية التي تمت مراجعتها",
+      "paragraphs": [
+        "ترد أدناه الأطر القانونية الرئيسية المسجلة في مراجعة Tailmance للمصادر الرسمية الخاصة بالدولة المطبقة. ويعني إدراجها نطاق المراجعة فقط؛ أما كون القاعدة نافذة حاليًا أو نافذة مستقبلًا أو مجرد مقترح أو خاضعة لشرط تطبيق أضيق فيُحسم من خلال ضوابط تاريخ النفاذ ونطاق التطبيق الدقيق، ولا يُستنتج مطلقًا من هذه القائمة وحدها."
+      ],
+      "items": [
+        "UK GDPR",
+        "Data Protection Act 2018",
+        "ICO International Transfers guidance",
+        "Online Safety Act 2023",
+        "Ofcom Online Safety guidance"
+      ]
+    },
+    {
+      "heading": "الخصوصية والسلامة وحقوق المستخدم",
+      "paragraphs": [
+        "تُطبق حقوق الخصوصية وطلبات البيانات وحذف الحساب والبيانات وعمليات النقل الدولي والتحقق من العمر والتسويق الإلكتروني والتزامات الأمن والإخطار ضمن السياق القانوني الدقيق. استخدم المركز القانوني داخل التطبيق للاطلاع على الإشعارات والتصدير والحذف.",
+        "فحوص الصحة المدعومة بالذكاء الاصطناعي. أي فحص مدعوم بالذكاء الاصطناعي لوثائق التطعيم أو الوثائق البيطرية ليس إلا أداة مساعدة آلية أولية. فهو لا يتخذ قرارًا نهائيًا أو ملزمًا أو نافذًا قانونًا، وليس فحصًا بيطريًا ولا تشخيصًا ولا شهادة ولا ضمانًا للحالة الصحية أو حالة التطعيم لأي حيوان. وقد يخطئ الذكاء الاصطناعي، وقد يغفل أخطاء أو يقرأ الوثيقة قراءة غير صحيحة. وتخضع النتائج غير الواضحة أو المتنازع عليها لمراجعة شخص، ولا تعني إشارة «تمت مراجعة الوثيقة» سوى أن الوثيقة قد جرى فحصها. ويجب الاعتماد على طبيب بيطري مرخّص في القرارات الصحية، وعدم تأخير الرعاية بسبب نتيجة تظهر في التطبيق."
+      ]
+    },
+    {
+      "heading": "الاشتراكات ومعلومات المستهلك",
+      "paragraphs": [
+        "يُعد متجر التطبيقات الذي تتم من خلاله عملية الشراء المرجع للسعر المعروض للاشتراك والعملة وطريقة عرض الضرائب المطبقة. وتُعرض معلومات التجديد والإلغاء والمعلومات السابقة للتعاقد المطلوبة قبل الشراء. لا تبيع Tailmance الحيوانات أو المنتجات المادية ولا تعالج مدفوعات بين المستخدمين لبيع الحيوانات."
+      ]
+    },
+    {
+      "heading": "رفاه الحيوان وعدم التجارة",
+      "paragraphs": [
+        "يُحظر البيع التجاري للحيوانات والأسواق المخصصة للتربية التجارية. ولا تتاح عمليات التزاوج التي يرتبها المالكون إلا عند استيفاء المتطلبات المطبقة في الدولة بشأن رفاه الحيوان والتربية والصحة والقرابة والأهلية؛ وإلا تظل الخاصية محجوبة."
+      ]
+    },
+    {
+      "heading": "الاتصال والمصادر الرسمية",
+      "paragraphs": [
+        "يمكن إرسال الأسئلة المتعلقة بهذه الإشعارات أو طلبات الخصوصية إلى yektaozel@icloud.com. وترد أدناه المصادر الرسمية المستخدمة في هذه المراجعة القانونية."
+      ],
+      "official_sources": [
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/",
+        "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+        "https://www.legislation.gov.uk/ukpga/2015/15/contents",
+        "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/childrens-access-assessment-duties-under-the-online-safety-act",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/protection-of-children-duties-under-the-online-safety-act",
+        "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
+        "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation/outcome/growing-up-in-the-online-world-progress-statement",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/selling-animals-as-pets-licensing-statutory-guidance-for-local-authorities--2",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/dog-breeding-licensing-statutory-guidance-for-local-authorities",
+        "https://www.gov.uk/government/collections/devolution-scotland-wales-and-northern-ireland",
+        "https://www.gov.uk/government/publications/action-plan-for-animal-welfare/action-plan-for-animal-welfare",
+        "https://www.legislation.gov.uk/asp/2006/11/contents",
+        "https://www.legislation.gov.uk/nia/2011/16/contents",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+        "https://www.legislation.gov.uk/uksi/2013/3134",
+        "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/",
+        "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+        "https://www.legislation.gov.uk/uksi/2002/2013/regulation/19",
+        "https://www.legislation.gov.uk/uksi/2003/2498/regulation/27",
+        "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/online-safety-regulatory-documents",
+        "https://www.gov.uk/government/publications/financial-sanctions-general-guidance/uk-financial-sanctions-general-guidance"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "1c10c4656d3ffcb9ab4cfe6ecb8ac8ad44f6a66b4d3929f7403a20e20f91531f",
+  "official_source_count": 49,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "UK GDPR",
+    "Data Protection Act 2018",
+    "ICO International Transfers guidance",
+    "Online Safety Act 2023",
+    "Ofcom Online Safety guidance"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "العربية"
+}

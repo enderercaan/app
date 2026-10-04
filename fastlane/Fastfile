@@ -1,0 +1,115 @@
+def required_env(name)
+  value = ENV[name]&.strip
+  UI.user_error!("Missing required environment variable: #{name}") if value.nil? || value.empty?
+  value
+end
+
+def required_file_env(name, extension)
+  path = File.expand_path(required_env(name))
+  UI.user_error!("#{name} must point to an existing #{extension} file") unless File.file?(path) && File.extname(path).downcase == extension
+  path
+end
+
+def apple_api_key
+  app_store_connect_api_key(
+    key_id: required_env('APP_STORE_CONNECT_KEY_ID'),
+    issuer_id: required_env('APP_STORE_CONNECT_ISSUER_ID'),
+    key_content: required_env('APP_STORE_CONNECT_KEY_CONTENT_BASE64'),
+    is_key_content_base64: true,
+    duration: 500,
+    in_house: false
+  )
+end
+
+def google_service_account_json
+  raw = required_env('GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64')
+  begin
+    decoded = Base64.strict_decode64(raw)
+    parsed = JSON.parse(decoded)
+  rescue ArgumentError, JSON::ParserError
+    UI.user_error!('GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64 must be valid base64-encoded Google credentials JSON')
+  end
+  UI.user_error!('Google credentials JSON must contain client_email') if parsed['client_email'].to_s.empty?
+  UI.user_error!('Google credentials JSON must contain private_key') if parsed['private_key'].to_s.empty?
+  decoded
+end
+
+before_all do
+  require 'base64'
+  require 'json'
+end
+
+platform :ios do
+  desc 'Read-only sync of existing App Store signing identities. EAS remains the default signing authority.'
+  lane :sync_signing do
+    required_env('MATCH_GIT_URL')
+    required_env('MATCH_PASSWORD')
+    match(
+      type: 'appstore',
+      app_identifier: ['com.tailmance.app'],
+      readonly: true,
+      git_url: ENV['MATCH_GIT_URL']
+    )
+  end
+
+  desc 'Upload an already signed EAS IPA to TestFlight without auto-distributing externally.'
+  lane :testflight do
+    ipa = required_file_env('TAILMANCE_IOS_IPA_PATH', '.ipa')
+    upload_to_testflight(
+      api_key: apple_api_key,
+      ipa: ipa,
+      distribute_external: false,
+      skip_waiting_for_build_processing: true
+    )
+  end
+
+  desc 'Upload an already signed EAS IPA to App Store Connect without automatically submitting for review.'
+  lane :app_store_candidate do
+    ipa = required_file_env('TAILMANCE_IOS_IPA_PATH', '.ipa')
+    upload_to_app_store(
+      api_key: apple_api_key,
+      ipa: ipa,
+      app_identifier: 'com.tailmance.app',
+      skip_metadata: true,
+      skip_screenshots: true,
+      submit_for_review: false,
+      automatic_release: false,
+      force: true
+    )
+  end
+end
+
+platform :android do
+  desc 'Upload an already signed EAS AAB to Google Play Internal track as a draft.'
+  lane :internal do
+    aab = required_file_env('TAILMANCE_ANDROID_AAB_PATH', '.aab')
+    upload_to_play_store(
+      package_name: 'com.tailmance.app',
+      json_key_data: google_service_account_json,
+      aab: aab,
+      track: 'internal',
+      release_status: 'draft',
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+
+  desc 'Upload an already signed EAS AAB to Google Play production as an explicit staged rollout.'
+  lane :production_candidate do
+    aab = required_file_env('TAILMANCE_ANDROID_AAB_PATH', '.aab')
+    rollout = Float(required_env('TAILMANCE_GOOGLE_PRODUCTION_ROLLOUT')) rescue nil
+    UI.user_error!('TAILMANCE_GOOGLE_PRODUCTION_ROLLOUT must be > 0 and <= 1') unless rollout && rollout > 0.0 && rollout <= 1.0
+    upload_to_play_store(
+      package_name: 'com.tailmance.app',
+      json_key_data: google_service_account_json,
+      aab: aab,
+      track: 'production',
+      release_status: 'inProgress',
+      rollout: rollout,
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+end

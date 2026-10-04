@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "VN",
+  "country_display_name": "เวียดนาม",
+  "document_locale": "th",
+  "document_language_display_names": "เวียดนาม",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "ภาคผนวกกฎหมายเฉพาะเขตอำนาจ",
+  "sections": [
+    {
+      "heading": "ขอบเขตทางกฎหมาย",
+      "paragraphs": [
+        "ภาคผนวกนี้ใช้เมื่อ Tailmance ระบุว่า เวียดนาม เป็นประเทศที่กฎหมายใช้บังคับกับบัญชีของคุณ โดยเป็นเอกสารเสริมข้อกำหนดการใช้งาน ประกาศความเป็นส่วนตัว แนวทางชุมชน ประกาศการสมัครสมาชิก และเอกสารทางกฎหมายอื่น ๆ ไม่ใช่เอกสารที่ใช้แทนเอกสารเหล่านั้น",
+        "Tailmance ใช้หน้าที่ทางกฎหมายตามประเทศที่ได้รับการยืนยันดังกล่าว และเมื่อจำเป็นตามกรอบกฎหมายระดับภูมิภาคหรือท้องถิ่นที่เกี่ยวข้อง การเปลี่ยนภาษาของแอป การเดินทาง หรือการเปลี่ยนภูมิภาคของสโตร์ไม่ได้เปลี่ยนกฎหมายที่ใช้บังคับโดยอัตโนมัติ"
+      ]
+    },
+    {
+      "heading": "ภาษาของเอกสาร",
+      "paragraphs": [
+        "เอกสารทางกฎหมายที่มีผลผูกพันสำหรับการกำหนดทางกฎหมายนี้จัดทำในภาษาที่กำหนด: เวียดนาม หากต้องใช้ภาษาใดเป็นการเฉพาะ Tailmance จะไม่เปลี่ยนไปใช้ภาษาอื่นโดยอัตโนมัติและไม่แจ้งให้ทราบ",
+        "ฉบับนี้จัดทำเป็นคำแปลเพื่อการเข้าถึง และไม่ใช้แทนฉบับภาษาที่กฎหมายที่ใช้บังคับหรือการกำหนดทางกฎหมายนี้กำหนดให้ต้องใช้"
+      ]
+    },
+    {
+      "heading": "ข้อกำหนดทางกฎหมายเฉพาะประเทศ",
+      "paragraphs": [
+        "มีการทบทวนข้อกำหนดทางกฎหมาย 22 หมวดสำหรับประเทศที่ใช้บังคับโดยอ้างอิงแหล่งข้อมูลทางการที่ระบุที่มาได้ กฎหมายที่มีผลใช้บังคับและวันที่มีผลจะถูกแยกออกจากข้อเสนอ การรับฟังความคิดเห็น และมาตรการในอนาคต โดยจะไม่ถือว่าข้อเสนอเป็นกฎหมายที่มีผลใช้บังคับ",
+        "วันที่ทบทวนแหล่งข้อมูล: 1 ตุลาคม 2026 มาตรการในอนาคต ร่าง และการรับฟังความคิดเห็นจะถูกติดตามแยกต่างหากและไม่นำเสนอว่าเป็นกฎหมายที่มีผลใช้บังคับ"
+      ]
+    },
+    {
+      "heading": "กรอบกฎหมายที่ผ่านการทบทวน",
+      "paragraphs": [
+        "ด้านล่างคือกรอบกฎหมายหลักที่บันทึกไว้ในการทบทวนแหล่งข้อมูลทางการของ Tailmance สำหรับประเทศที่ใช้บังคับ การระบุไว้ในรายการหมายถึงขอบเขตการทบทวนเท่านั้น ส่วนกฎใดมีผลใช้บังคับแล้ว จะมีผลในอนาคต ยังเป็นเพียงข้อเสนอ หรือมีเงื่อนไขการใช้บังคับที่แคบกว่านั้น จะพิจารณาจากการควบคุมวันที่มีผลและขอบเขตการใช้บังคับที่แน่นอน และจะไม่อนุมานจากรายการนี้เพียงอย่างเดียว"
+      ],
+      "items": [
+        "Law No. 91/2025/QH15 on Personal Data Protection",
+        "Decree No. 356/2025/ND-CP"
+      ]
+    },
+    {
+      "heading": "ความเป็นส่วนตัว ความปลอดภัย และสิทธิของผู้ใช้",
+      "paragraphs": [
+        "สิทธิด้านความเป็นส่วนตัว คำขอเกี่ยวกับข้อมูล การลบบัญชีและข้อมูล การโอนข้อมูลระหว่างประเทศ การยืนยันอายุ การตลาดอิเล็กทรอนิกส์ และหน้าที่ด้านความปลอดภัยและการแจ้งเหตุ ถูกนำไปใช้ตามบริบททางกฎหมายที่ถูกต้อง ใช้ศูนย์กฎหมายในแอปเพื่อดูประกาศ การส่งออก และการลบข้อมูล",
+        "การตรวจสุขภาพที่ใช้ AI ช่วย การตรวจเอกสารการฉีดวัคซีนหรือเอกสารสัตวแพทย์ด้วย AI ช่วยทุกกรณีเป็นเพียงเครื่องมือช่วยอัตโนมัติเบื้องต้นเท่านั้น ไม่ใช่การตัดสินขั้นสุดท้าย ไม่มีผลผูกพัน และไม่มีผลทางกฎหมาย และไม่ใช่การตรวจวินิจฉัย การรับรอง หรือการรับประกันสถานะสุขภาพหรือการฉีดวัคซีนของสัตว์ AI อาจผิดพลาด อาจมองข้ามข้อผิดพลาดหรืออ่านเอกสารผิด ผลลัพธ์ที่ไม่ชัดเจนหรือมีข้อโต้แย้งจะได้รับการตรวจสอบโดยบุคคล และสัญลักษณ์ “ตรวจสอบเอกสารแล้ว” หมายความเพียงว่าเอกสารได้รับการตรวจแล้วเท่านั้น การตัดสินใจด้านสุขภาพควรอาศัยสัตวแพทย์ผู้ได้รับใบอนุญาต และไม่ควรเลื่อนการดูแลเพราะผลที่แสดงในแอป"
+      ]
+    },
+    {
+      "heading": "การสมัครสมาชิกและข้อมูลผู้บริโภค",
+      "paragraphs": [
+        "ร้านค้าแอปที่ใช้ในการซื้อเป็นแหล่งอ้างอิงสำหรับราคาสมัครสมาชิกที่แสดง สกุลเงิน และการแสดงภาษีที่ใช้บังคับ ข้อมูลเกี่ยวกับการต่ออายุ การยกเลิก และข้อมูลก่อนทำสัญญาที่จำเป็นจะแสดงก่อนการซื้อ Tailmance ไม่ขายสัตว์หรือสินค้าที่จับต้องได้ และไม่ประมวลผลการชำระเงินระหว่างผู้ใช้สำหรับการขายสัตว์"
+      ]
+    },
+    {
+      "heading": "สวัสดิภาพสัตว์และการไม่ทำการค้า",
+      "paragraphs": [
+        "ห้ามการขายสัตว์เชิงพาณิชย์และตลาดที่มีไว้เพื่อการเพาะพันธุ์เชิงพาณิชย์ การผสมพันธุ์ที่เจ้าของจัดการกันเองจะใช้ได้เฉพาะเมื่อเป็นไปตามข้อกำหนดของประเทศที่เกี่ยวข้องด้านสวัสดิภาพสัตว์ การเพาะพันธุ์ สุขภาพ ความสัมพันธ์ทางสายเลือด และคุณสมบัติ มิฉะนั้นฟังก์ชันจะยังคงถูกปิดกั้น"
+      ]
+    },
+    {
+      "heading": "การติดต่อและแหล่งข้อมูลทางการ",
+      "paragraphs": [
+        "คำถามเกี่ยวกับประกาศเหล่านี้หรือคำขอด้านความเป็นส่วนตัวสามารถส่งไปที่ yektaozel@icloud.com แหล่งข้อมูลทางการที่ใช้ในการทบทวนกฎหมายนี้แสดงไว้ด้านล่าง"
+      ],
+      "official_sources": [
+        "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
+        "https://moit.gov.vn/en/news/ministry-of-industry-and-trade-disseminates-the-law-on-e-commerce-and-government-decree-no.-248-2026-nd-cp.html",
+        "https://chinhphu.vn/?classid=1&docid=216503&orggroupid=1&pageid=27160",
+        "https://vanban.chinhphu.vn/?classid=1&docid=211654&pageid=27160",
+        "https://vbpl.vn/TW/Pages/ivbpq-toanvan.aspx?ItemID=187039",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.apple.com/news/?id=yrrb45pw",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://vanban.chinhphu.vn/?classid=0&docid=217303&pageid=27160",
+        "https://vanban.chinhphu.vn/?classid=2629&docid=217352&pageid=27160",
+        "https://vbpl.vn/TW/Pages/vbpq-luocdo.aspx?ItemID=137311",
+        "https://vbpl.vn/bonongnghiep/Pages/vbpq-toanvan.aspx?ItemID=186454&dvid=319",
+        "https://www.dms.gov.vn/web/guest/chi-tiet-vb/chi-tiet-van-ban/nghi-dinh-ve-viec-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-thu-y-12403",
+        "https://vbpl.vn/bothongtin/Pages/vbpq-thuoctinh.aspx?ItemID=178340",
+        "https://cov.gov.vn/van-ban-phap-luat.html?id=17",
+        "https://moit.gov.vn/tin-tuc/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp.html",
+        "https://vanban.chinhphu.vn/?classid=1&docid=216387&pageid=27160",
+        "https://vanban.chinhphu.vn/?classid=1&docid=217833&orggroupid=2&pageid=27160",
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=161263&Keyword=",
+        "https://vanban.chinhphu.vn/default.aspx?docid=200773&pageid=27160",
+        "https://vanban.chinhphu.vn/?docid=96045&pageid=27160",
+        "https://chinhphu.vn/default.aspx?docid=201221&pageid=27160",
+        "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-nghi-di-nh-ve-thuong-ma-i-die-n-tu-.html",
+        "https://dichvucong.moit.gov.vn/VdxpTTHCOnlineDetail.aspx?DocId=443",
+        "https://vbpl.moj.gov.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=160235",
+        "https://vbpl.vn/TW/Pages/vbpq-vanbanlienquan.aspx?ItemID=160235",
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=187276",
+        "https://vanban.chinhphu.vn/?classid=0&docid=216387&pageid=27160",
+        "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-moi-ve-cong-bo-thong-tin-to-chuc-ca-nhan-lien-quan-den-khung-bo-tai-tro-khung-bo-tren-cong-thong-tin-dien-tu-bo-cong-an-d1-t1455",
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=32494"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "de79bce9ddfc9bd534267aa0e40637bf254b2c33bbd39317007e69a58ac74641",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Law No. 91/2025/QH15 on Personal Data Protection",
+    "Decree No. 356/2025/ND-CP"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "vi"
+  ],
+  "display_language_name": "ไทย"
+}

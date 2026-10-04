@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "ES",
+  "country_display_name": "Espanya",
+  "document_locale": "ca",
+  "document_language_display_names": "castellà, català, euskera i gallec",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplement jurídic específic de la jurisdicció",
+  "sections": [
+    {
+      "heading": "Àmbit jurídic",
+      "paragraphs": [
+        "Aquest suplement s’aplica quan Tailmance determina que Espanya és el país la legislació del qual s’aplica al teu compte. Complementa les Condicions d’ús, l’Avís de privacitat, les Normes de la comunitat, l’avís de subscripció i altres documents jurídics, sense substituir-los.",
+        "Tailmance aplica les obligacions jurídiques d’acord amb aquest país verificat i, quan cal, amb el marc jurídic regional o local aplicable. Canviar l’idioma de l’aplicació, viatjar o canviar la regió de la botiga no modifica per si sol aquest marc jurídic."
+      ]
+    },
+    {
+      "heading": "Llengua dels documents",
+      "paragraphs": [
+        "Els documents jurídics vinculants d’aquesta configuració es mantenen en les llengües exigides: castellà, català, euskera i gallec. Quan s’exigeix una llengua determinada, Tailmance no la substitueix automàticament i sense avís per una altra llengua."
+      ]
+    },
+    {
+      "heading": "Requisits jurídics específics del país",
+      "paragraphs": [
+        "Es revisen vint-i-dues àrees de requisits jurídics per al país aplicable a partir de fonts oficials identificables. El dret vigent i les dates d’efecte se separen de propostes, consultes i mesures futures; una proposta mai no es tracta com a dret vigent.",
+        "Data de revisió de les fonts: 1 d’octubre de 2026. Les mesures futures, els projectes i les consultes es controlen per separat i no es presenten com a dret vigent."
+      ]
+    },
+    {
+      "heading": "Marcs jurídics revisats",
+      "paragraphs": [
+        "A continuació s’indiquen els principals marcs jurídics registrats en la revisió de fonts oficials de Tailmance per al país aplicable. La inclusió només delimita l’abast de la revisió: si una norma és vigent, entra en vigor en el futur, és una proposta o depèn d’una condició d’aplicabilitat més limitada es determina mitjançant els controls de data d’efecte i d’àmbit exacte, i mai no es dedueix únicament d’aquesta llista."
+      ],
+      "items": [
+        "EU GDPR",
+        "LOPDGDD",
+        "EU Digital Services Act (Regulation (EU) 2022/2065)"
+      ]
+    },
+    {
+      "heading": "Privacitat, seguretat i drets de les persones usuàries",
+      "paragraphs": [
+        "Els drets de privacitat, les sol·licituds sobre dades, la supressió del compte i de les dades, les transferències internacionals, la verificació d’edat, el màrqueting electrònic i les obligacions de seguretat i notificació s’apliquen dins del context jurídic exacte. Fes servir el Centre jurídic de l’aplicació per als avisos, l’exportació i la supressió.",
+        "Comprovacions de salut assistides per IA. Qualsevol comprovació assistida per IA de documents de vacunació o veterinaris és només una ajuda automatitzada preliminar. No pren cap decisió definitiva, vinculant ni jurídicament vàlida, i no constitueix un examen veterinari, un diagnòstic, una certificació ni una garantia de l'estat de salut o de vacunació d'un animal. La IA pot cometre errors, passar per alt fallades o llegir un document de manera incorrecta. Una persona revisa els resultats poc clars o discutits, i el senyal «document revisat» només indica que el document s'ha comprovat. Les decisions de salut s'han de recolzar en un veterinari col·legiat, i no s'ha de retardar l'atenció per un resultat mostrat a l'aplicació."
+      ]
+    },
+    {
+      "heading": "Subscripcions i informació al consumidor",
+      "paragraphs": [
+        "La botiga d’aplicacions a través de la qual es fa la compra és la referència per al preu de subscripció mostrat, la moneda i el tractament fiscal aplicable. La renovació, la cancel·lació i la informació precontractual exigida es presenten abans de la compra. Tailmance no ven animals ni productes físics i no processa pagaments entre usuaris per vendes d’animals."
+      ]
+    },
+    {
+      "heading": "Benestar animal i absència de comerç",
+      "paragraphs": [
+        "Es prohibeixen les vendes comercials d’animals i els mercats destinats a la cria comercial. Els aparellaments organitzats pels propietaris només estan disponibles quan es compleixen els requisits aplicables del país sobre benestar animal, cria, salut, parentiu i idoneïtat; en cas contrari, la funció roman bloquejada."
+      ]
+    },
+    {
+      "heading": "Contacte i fonts oficials",
+      "paragraphs": [
+        "Les consultes sobre aquests avisos o les sol·licituds de privacitat es poden enviar a yektaozel@icloud.com. A continuació s’enumeren les fonts oficials utilitzades en aquesta revisió jurídica."
+      ],
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.boe.es/eli/es/l/2002/07/11/34",
+        "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+        "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+        "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022",
+        "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+        "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2026/20260203-intervencion-pg-word-governments-summit.aspx",
+        "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+        "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+        "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+        "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7936",
+        "https://www.boe.es/eli/es-pv/l/2023/04/27/4",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3280",
+        "https://www.kontsumobide.euskadi.eus/hizkuntza-eskubideak-eta-enpresen-betebeharrak/webkon01-content/eu/",
+        "https://consum.gencat.cat/ca/el-consum/durant-la-compra/drets-linguistics-/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5595",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+        "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+        "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+        "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion",
+        "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "0666b085dce395e78c77ba7fa21aa59f851c5cd5a935802a0b873ea43bccfccb",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "EU GDPR",
+    "LOPDGDD",
+    "EU Digital Services Act (Regulation (EU) 2022/2065)"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "required_binding_document_locale",
+  "required_binding_document_locales": [
+    "es",
+    "ca",
+    "eu",
+    "gl"
+  ],
+  "display_language_name": "català"
+}

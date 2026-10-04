@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "policy": "fail_closed",
+  "items": {
+    "production_provider_contract_and_allowlist": {
+      "required": true,
+      "status": "not_verified",
+      "evidence_ref": null,
+      "notes": "Verify the exact production HEALTH_AI_API_URL/provider identity, HTTPS allowlist, secret rotation, signed provider agreement/DPA, data residency/retention and incident contacts."
+    },
+    "veterinary_registry_credential_coverage": {
+      "required": true,
+      "status": "not_verified",
+      "evidence_ref": null,
+      "notes": "Document which configured markets and veterinary credential/registry sources are actually supported. Unsupported jurisdiction/document combinations must route to manual review, never auto-verify."
+    },
+    "confidence_calibration_and_false_decision_evaluation": {
+      "required": true,
+      "status": "not_verified",
+      "evidence_ref": null,
+      "notes": "Validate the >0.85 auto / 0.65-0.85 manual / <0.65 reject policy on representative labelled documents and record false-accept/false-reject rates before production enablement."
+    },
+    "manual_review_staffing_under_24h": {
+      "required": true,
+      "status": "not_verified",
+      "evidence_ref": null,
+      "notes": "Verify staffed operational coverage, queue alerts, escalation and measured review SLA under 24 hours."
+    },
+    "production_privacy_and_deletion_exercise": {
+      "required": true,
+      "status": "not_verified",
+      "evidence_ref": null,
+      "notes": "Exercise provider-side deletion/retention and Tailmance account deletion/export using synthetic health documents; confirm raw OCR/provider content is not written to Tailmance telemetry."
+    }
+  }
+}

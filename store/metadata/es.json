@@ -1,0 +1,22 @@
+{
+  "locale": "es",
+  "appName": "Tailmance",
+  "apple": {
+    "subtitle": "Red social para mascotas",
+    "promotionalText": "Descubre mascotas, crea conexiones mutuas, conversa con más seguridad, consulta indicadores de salud y organiza encuentros para perros y gatos.",
+    "description": "Tailmance es una aplicación social para descubrir y conectar mascotas, dirigida a personas adultas responsables de perros y gatos. La identidad social visible pertenece a la mascota; los datos de la cuenta, la seguridad, los pagos y la información sanitaria privada permanecen separados.\n\nCrea un perfil con tres fotos, zona de ubicación, rasgos y objetivos. Descubre mascotas compatibles, muestra interés o pasa de perfil y conversa solo cuando el interés sea mutuo. Participa en publicaciones, historias, eventos y la planificación de encuentros.\n\nLas funciones de seguridad incluyen reportes, bloqueo, desconexión, moderación de contenido, privacidad de la ubicación aproximada, señales de verificación independientes para la mascota y la persona responsable, y señales de revisión de documentos sanitarios. Premium añade mensajería ilimitada y controles de descubrimiento adicionales.\n\nTailmance es solo para personas de 18 años o más. Las insignias de verificación son señales de confianza, no garantías. Para decisiones de salud o cría, consulta a un veterinario cualificado y cumple la normativa local.",
+    "keywords": "mascotas,perros,gatos,amigos,conexiones,paseos,encuentros,comunidad"
+  },
+  "google": {
+    "shortDescription": "Descubre mascotas, conecta si hay interés mutuo y organiza encuentros seguros.",
+    "fullDescription": "Tailmance es una aplicación social para descubrir y conectar mascotas, dirigida a personas adultas responsables de perros y gatos. La identidad social visible pertenece a la mascota; los datos de la cuenta, la seguridad, los pagos y la información sanitaria privada permanecen separados.\n\nCrea un perfil con tres fotos, zona de ubicación, rasgos y objetivos. Descubre mascotas compatibles, muestra interés o pasa de perfil y conversa solo cuando el interés sea mutuo. Participa en publicaciones, historias, eventos y la planificación de encuentros.\n\nLas funciones de seguridad incluyen reportes, bloqueo, desconexión, moderación de contenido, privacidad de la ubicación aproximada, señales de verificación independientes para la mascota y la persona responsable, y señales de revisión de documentos sanitarios. Premium añade mensajería ilimitada y controles de descubrimiento adicionales.\n\nTailmance es solo para personas de 18 años o más. Las insignias de verificación son señales de confianza, no garantías. Para decisiones de salud o cría, consulta a un veterinario cualificado y cumple la normativa local."
+  },
+  "screenshotCaptions": [
+    "Una identidad social centrada en tu mascota",
+    "Descubre mascotas compatibles con filtros detallados",
+    "Interés mutuo antes de la conversación privada",
+    "Controles de seguridad, reportes y privacidad",
+    "Salud privada y señales de verificación",
+    "Publicaciones, eventos y encuentros para una comunidad activa"
+  ]
+}

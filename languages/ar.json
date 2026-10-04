@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "لا يصل Tailmance إلا إلى الصور التي تختارها لملفات الحيوانات الأليفة والمنشورات الاجتماعية.",
+    "NSCameraUsageDescription": "يستخدم Tailmance الكاميرا لصور الحيوانات الأليفة والقصص والتحقق من الحيوانات الأليفة.",
+    "NSLocationWhenInUseUsageDescription": "يستخدم Tailmance موقعك التقريبي لعرض الحيوانات الأليفة القريبة بحسب المسافة."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

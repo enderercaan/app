@@ -1,0 +1,764 @@
+{
+  "schema_version": 2,
+  "as_of": "2026-10-01",
+  "scope": "27 configured launch markets only. Verifies generic language-localized legal documents plus exact country×document-locale jurisdiction supplements. Internal official-source legal/language approval is distinct from live store/provider/operator/hosted production evidence.",
+  "policy": {
+    "external_counsel_required_for_source_approval": false,
+    "exact_country_supplement_required": true,
+    "generic_kvkk_or_other_locale_supplement_never_counts_as_another_country_supplement": true,
+    "unsupported_or_unlisted_document_locale": "BLOCK",
+    "silent_fallback": "BLOCK",
+    "runtime_ui_locales": 19,
+    "legal_document_locales": 22,
+    "production_operational_evidence_is_separate": true
+  },
+  "summary": {
+    "markets": 27,
+    "markets_with_complete_generic_language_routes": 27,
+    "markets_with_exact_country_language_supplements": 27,
+    "markets_with_source_legal_approval": 27,
+    "markets_with_statutory_language_source_approval": 27,
+    "exact_country_language_routes": 594,
+    "binding_country_language_routes": 34,
+    "accessibility_translation_routes": 560,
+    "all_supported_country_language_routes": 594,
+    "legal_document_locales": 22,
+    "required_base_document_families": 10
+  },
+  "markets": {
+    "AE": {
+      "configured_document_locales": [
+        "ar",
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ar"
+      ],
+      "required_route_locales": [
+        "ar",
+        "en"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "ar",
+        "en"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "ar",
+        "en"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "AT": {
+      "configured_document_locales": [
+        "de"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "de"
+      ],
+      "required_route_locales": [
+        "de"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "de"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "de"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "AU": {
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "required_route_locales": [
+        "en"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "en"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "en"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "BE": {
+      "configured_document_locales": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "required_route_locales": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "BR": {
+      "configured_document_locales": [
+        "pt-BR"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "pt-BR"
+      ],
+      "required_route_locales": [
+        "pt-BR"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "pt-BR"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "pt-BR"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "CA": {
+      "configured_document_locales": [
+        "en",
+        "fr"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en",
+        "fr"
+      ],
+      "required_route_locales": [
+        "en",
+        "fr"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "en",
+        "fr"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "en",
+        "fr"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "CN": {
+      "configured_document_locales": [
+        "zh-Hans"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "zh-Hans"
+      ],
+      "required_route_locales": [
+        "zh-Hans"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "zh-Hans"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "zh-Hans"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "DE": {
+      "configured_document_locales": [
+        "de"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "de"
+      ],
+      "required_route_locales": [
+        "de"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "de"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "de"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "ES": {
+      "configured_document_locales": [
+        "es"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "es",
+        "ca",
+        "eu",
+        "gl"
+      ],
+      "required_route_locales": [
+        "es",
+        "ca",
+        "eu",
+        "gl"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "es"
+      ],
+      "legal_document_only_source_localization_locales": [
+        "ca",
+        "eu",
+        "gl"
+      ],
+      "all_source_localized_route_locales": [
+        "es",
+        "ca",
+        "eu",
+        "gl"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "FR": {
+      "configured_document_locales": [
+        "fr"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "fr"
+      ],
+      "required_route_locales": [
+        "fr"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "fr"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "fr"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "GB": {
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "required_route_locales": [
+        "en"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "en"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "en"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "ID": {
+      "configured_document_locales": [
+        "id"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "id"
+      ],
+      "required_route_locales": [
+        "id"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "id"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "id"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "IE": {
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "required_route_locales": [
+        "en"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "en"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "en"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "IN": {
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "required_route_locales": [
+        "en"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "en"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "en"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "IT": {
+      "configured_document_locales": [
+        "it"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "it"
+      ],
+      "required_route_locales": [
+        "it"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "it"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "it"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "JP": {
+      "configured_document_locales": [
+        "ja"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ja"
+      ],
+      "required_route_locales": [
+        "ja"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "ja"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "ja"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "KR": {
+      "configured_document_locales": [
+        "ko"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ko"
+      ],
+      "required_route_locales": [
+        "ko"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "ko"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "ko"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "NL": {
+      "configured_document_locales": [
+        "nl"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "nl"
+      ],
+      "required_route_locales": [
+        "nl"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "nl"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "nl"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "PL": {
+      "configured_document_locales": [
+        "pl"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "pl"
+      ],
+      "required_route_locales": [
+        "pl"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "pl"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "pl"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "RU": {
+      "configured_document_locales": [
+        "ru"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ru"
+      ],
+      "required_route_locales": [
+        "ru"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "ru"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "ru"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "SA": {
+      "configured_document_locales": [
+        "ar"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ar"
+      ],
+      "required_route_locales": [
+        "ar"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "ar"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "ar"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "SG": {
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "required_route_locales": [
+        "en"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "en"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "en"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "TH": {
+      "configured_document_locales": [
+        "th"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "th"
+      ],
+      "required_route_locales": [
+        "th"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "th"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "th"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "TR": {
+      "configured_document_locales": [
+        "tr"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "tr"
+      ],
+      "required_route_locales": [
+        "tr"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "tr"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "tr"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "TW": {
+      "configured_document_locales": [
+        "zh-Hant"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "zh-Hant"
+      ],
+      "required_route_locales": [
+        "zh-Hant"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "zh-Hant"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "zh-Hant"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "US": {
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "required_route_locales": [
+        "en"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "en"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "en"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    },
+    "VN": {
+      "configured_document_locales": [
+        "vi"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "vi"
+      ],
+      "required_route_locales": [
+        "vi"
+      ],
+      "configured_or_runtime_source_localization_locales": [
+        "vi"
+      ],
+      "legal_document_only_source_localization_locales": [],
+      "all_source_localized_route_locales": [
+        "vi"
+      ],
+      "generic_language_document_route_coverage_complete": true,
+      "exact_country_language_supplement_coverage_complete": true,
+      "all_supported_language_country_supplement_coverage_complete": true,
+      "no_silent_fallback": true,
+      "source_legal_scope_approved": true,
+      "statutory_language_source_scope_approved": true,
+      "source_approval_status": "PASS_INTERNAL_OFFICIAL_SOURCE_AND_LEGAL_LANGUAGE_REVIEW",
+      "production_operational_evidence_separate": true
+    }
+  }
+}

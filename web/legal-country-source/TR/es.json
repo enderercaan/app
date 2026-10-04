@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "TR",
+  "country_display_name": "Turquía",
+  "document_locale": "es",
+  "document_language_display_names": "turco",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemento jurídico específico de la jurisdicción",
+  "sections": [
+    {
+      "heading": "Ámbito jurídico",
+      "paragraphs": [
+        "Este suplemento se aplica cuando Tailmance determina que Turquía es el país cuya legislación se aplica a tu cuenta. Complementa los Términos de uso, el Aviso de privacidad, las Normas de la comunidad, el aviso de suscripción y otros documentos jurídicos, sin sustituirlos.",
+        "Tailmance aplica las obligaciones jurídicas conforme a ese país verificado y, cuando corresponda, al marco jurídico regional o local aplicable. Cambiar el idioma de la aplicación, viajar o cambiar la región de la tienda no modifica por sí solo ese marco jurídico."
+      ]
+    },
+    {
+      "heading": "Idioma de los documentos",
+      "paragraphs": [
+        "Los documentos jurídicos vinculantes de esta configuración se mantienen en los idiomas exigidos: turco. Cuando se exige un idioma determinado, Tailmance no lo sustituye automáticamente y sin aviso por otro idioma.",
+        "Esta versión se ofrece como traducción de accesibilidad. No sustituye una versión en un idioma obligatorio cuando la ley aplicable o esta configuración jurídica la exige."
+      ]
+    },
+    {
+      "heading": "Requisitos jurídicos específicos del país",
+      "paragraphs": [
+        "Se revisan veintidós ámbitos de requisitos jurídicos para el país aplicable utilizando fuentes oficiales identificables. El derecho vigente y sus fechas de aplicación se separan de propuestas, consultas y medidas futuras; una propuesta nunca se trata como derecho vigente.",
+        "Fecha de revisión de las fuentes: 1 de octubre de 2026. Las medidas futuras, los proyectos y las consultas se siguen por separado y no se presentan como derecho vigente."
+      ]
+    },
+    {
+      "heading": "Marcos jurídicos revisados",
+      "paragraphs": [
+        "A continuación se indican los principales marcos jurídicos registrados en la revisión de fuentes oficiales de Tailmance para el país aplicable. Su inclusión solo delimita el alcance de la revisión: si una norma está vigente, entra en vigor en el futuro, es una propuesta o depende de una condición de aplicabilidad más limitada se determina mediante los controles de fecha de eficacia y ámbito exacto, y nunca se deduce únicamente de esta lista."
+      ],
+      "items": [
+        "KVKK Law No. 6698",
+        "Cross-border transfer amendments and secondary rules effective from 2024"
+      ]
+    },
+    {
+      "heading": "Privacidad, seguridad y derechos de las personas usuarias",
+      "paragraphs": [
+        "Los derechos de privacidad, las solicitudes sobre datos, la eliminación de la cuenta y de datos, las transferencias internacionales, la verificación de edad, el marketing electrónico y las obligaciones de seguridad y notificación se aplican dentro del contexto jurídico exacto. Utiliza el Centro jurídico de la aplicación para avisos, exportación y eliminación.",
+        "Comprobaciones de salud asistidas por IA. Cualquier comprobación asistida por IA de documentos de vacunación o veterinarios es solo una ayuda automatizada preliminar. No toma una decisión definitiva, vinculante ni jurídicamente válida, y no constituye un examen veterinario, un diagnóstico, una certificación ni una garantía del estado de salud o de vacunación de un animal. La IA puede cometer errores, pasar por alto fallos o leer un documento de forma incorrecta. Una persona revisa los resultados poco claros o discutidos, y la señal «documento revisado» solo indica que el documento ha sido comprobado. Las decisiones de salud deben basarse en un veterinario colegiado, y no debe retrasarse la atención por un resultado mostrado en la app."
+      ]
+    },
+    {
+      "heading": "Suscripciones e información al consumidor",
+      "paragraphs": [
+        "La tienda de aplicaciones a través de la cual se realiza la compra es la referencia para el precio de suscripción mostrado, la moneda y el tratamiento fiscal aplicable. La renovación, la cancelación y la información precontractual exigida se presentan antes de la compra. Tailmance no vende animales ni productos físicos y no procesa pagos entre usuarios por ventas de animales."
+      ]
+    },
+    {
+      "heading": "Bienestar animal y ausencia de comercio",
+      "paragraphs": [
+        "Se prohíben las ventas comerciales de animales y los mercados destinados a la cría comercial. Los apareamientos organizados por los propietarios solo están disponibles cuando se cumplen los requisitos aplicables del país en materia de bienestar animal, cría, salud, parentesco e idoneidad; de lo contrario, la función permanece bloqueada."
+      ]
+    },
+    {
+      "heading": "Contacto y fuentes oficiales",
+      "paragraphs": [
+        "Las consultas sobre estos avisos o las solicitudes de privacidad pueden enviarse a yektaozel@icloud.com. A continuación se enumeran las fuentes oficiales utilizadas para esta revisión jurídica."
+      ],
+      "official_sources": [
+        "https://www.kvkk.gov.tr/",
+        "https://www.kvkk.gov.tr/Icerik/7991/Standart-Sozlesmeler",
+        "https://www.ticaret.gov.tr/tuketici/mevzuat/6502-sayili-tuketicinin-korunmasi-mevzuati",
+        "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/abonelik-sozlesmeleri-hakkinda-bilgilendirme",
+        "https://ticaret.gov.tr/haberler/ticaret-bakanligindan-cocuklarin-dijital-guvenligini-guclendirecek-onemli-duzenleme",
+        "https://www.ticaret.gov.tr/haberler/aldaticici-reklam-ve-haksiz-ticari-uygulamalarla-mucadelede-yeni-donem-basliyor",
+        "https://www.kvkk.gov.tr/Icerik/8666/cocuklarin-sosyal-medya-kullaniminda-kisisel-verilerinin-korunmasina-iliskin-kamuoyu-duyurusu",
+        "https://www.btk.gov.tr/uploads/boarddecisions/sosyal-ag-saglayici-hakkinda-usul-ve-esaslar/119-06-sosyal-ag-saglayici-hakkinda-usul-ve-esaslar-28-03-2023-id.pdf",
+        "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/mesafeli-sozlesmeler-hakkinda-bilgilendirme",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.tarimorman.gov.tr/GKGM/Menu/81/Veteriner-Hizmetleri-Mevzuati",
+        "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?TermId=fb841593-eb13-4a7b-90e6-762d1dc46795&TermStoreId=368e785b-af33-487d-a98d-c11d5495130b&UrlSuffix=6470%2FHayvanlarin-Korunmasina-Dair-Uygulama-Yonetmeligi-Resmi-Gazetede-Yayimlandi",
+        "https://www.kvkk.gov.tr/Icerik/8043/Standart-Sozlesme-Bildirim-Modulu-Hakkinda-Kamuoyu-Duyurusu",
+        "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/tuketici-sozlesmelerindeki-temel-ilkeler-ve-haksiz-sartlar-hakkinda-bilgilendirme",
+        "https://tuketici.ticaret.gov.tr/data/5e819a8e13b876a1b04c7a4a/Mesafeli%20S%C3%B6zle%C5%9Fmeler%20Y%C3%B6netmeli%C4%9Fi.pdf",
+        "https://ticaret.gov.tr/ic-ticaret/ticari-elektronik-iletiler",
+        "https://ticaret.gov.tr/ic-ticaret/ticari-elektronik-iletiler/ileti-yonetim-sistemi-iys",
+        "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/elektronik-ticaret",
+        "https://www.aile.gov.tr/sss/engelli-ve-yasli-hizmetleri-genel-mudurlugu/erisilebilirlik/",
+        "https://www.aile.gov.tr/media/219872/web_siteleri_ve_mobil_uygulamalarin_erisilebilirligi_hakkinda_genelge.pdf",
+        "https://etbis.ticaret.gov.tr/tr/Home/ETicaretAkademisi/etbis-kay%C4%B1t",
+        "https://telifhaklari.ktb.gov.tr/TR-332372/telif-hakki-ihlali-halinde-ne-yapilabilir.html",
+        "https://www.kvkk.gov.tr/Icerik/5362/Veri-Ihlali-Bildirimi",
+        "https://masak.hmb.gov.tr/5-maddeye-iliskin-bakanlar-kurulu-kararlari",
+        "https://resmigazete.gov.tr/01.08.2026"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "20a84f46d8547a4c6591bbc011070ab4946ec7a820ff47861be4c1c3337453dc",
+  "official_source_count": 48,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "KVKK Law No. 6698",
+    "Cross-border transfer amendments and secondary rules effective from 2024"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "tr"
+  ],
+  "display_language_name": "español"
+}

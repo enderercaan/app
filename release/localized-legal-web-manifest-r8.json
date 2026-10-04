@@ -1,0 +1,1791 @@
+{
+  "schema_version": 2,
+  "generated_at": "SOURCE_DETERMINISTIC",
+  "source_version": "2026-10-01-r8.2",
+  "source": "web/legal-source",
+  "chrome_source": "web/legal-chrome-copy.json",
+  "locales": {
+    "en": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "3cb02fc53ce6bb36b39f0506d6026e68a9d996eb69727a84aba9a34aa9dafd5b",
+          "source_sha256": "b27ebc1bd97302c3cc12b363cc8b7c07b9cd33418032c078d8d2274333cce158",
+          "bytes": 9193,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "8c9058dda9945d753ea040e12e2c1f457975a7105f2d6bb3d057042112bc5732",
+          "source_sha256": "3e74cd94a65ba792bcb66d4df4c91467ef63d3e3da4678f5d44a8e262d299248",
+          "bytes": 9067,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "bfa8abfbfd30d639278a54c67b4a9f9a610a4f96e68b295e3ac73edf0332c9ba",
+          "source_sha256": "2076e9b2466fa9508fa1829ed28661459cba39ba06285f2931fb49cb1a4394c4",
+          "bytes": 5006,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "df8ed5e1fb8085dbed1426af04d22added6e5aa1c4996b4923dd257c81540cfc",
+          "source_sha256": "621fad87af225a96043964a54424fdb90191a5855f1829db8fbf85969a49958a",
+          "bytes": 2405,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "269839fa6966c1c7fc890e062dc27e467c8da37db8687ea0a0110c584cbb818a",
+          "source_sha256": "17c1069fdf09e89c6c61dc9d77f1109dc93c5c358e24ea1214529ffe6d007aa4",
+          "bytes": 4241,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "139fe05ca227cbb0b62f76b6db1374c4cf3b8a007536ef03cb0614120cbd2749",
+          "source_sha256": "735f88165e4a7b195aeef526f7f37cfdedc7c91d24ef423da387384d277ae1d3",
+          "bytes": 3396,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "1e9efbdc691e01d82187457c4d3c42ad02799da12592fc7977b0be1fcd6314f4",
+          "source_sha256": "8492afe2000d9d51dcf058c4f35bcb59a529f42734485e6b4d97ca433d2cd14a",
+          "bytes": 3412,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "d19717d4cbfd876688a3450facd654d9358727800880161c5a49cf8f9a515050",
+          "source_sha256": "09f9558a688f6e5c116e724eefc5df7dca43c7442a71d0ff078326f885b85c38",
+          "bytes": 3030,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "59ae56fd0910aee51a4dd2c7ec822b28207867e5855bd732befd94698c774964",
+          "source_sha256": "62a3d62c0f3e6c52c1a344fbdd1aa9051072e3b7f506bc8af4abaf6fbc79e91f",
+          "bytes": 3713,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "1d9a22a635fb5c1780f0dd65cfa6db95aa78f605292cff24bea44c913a61ab30",
+          "source_sha256": "b787a7b29bab84351b3b56ccc7790a3181b887656c80a5216f631f2cf5d3c0fa",
+          "bytes": 3334,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "cc3c45c13fc4e4286fdac979916a779e7758c65574e86efe9011e9f9cc2a60f4",
+          "source_sha256": "b51b0703b076359c0a97bc3d6a9b69e58a1b6c0233103c10d736d52f24ac92a1",
+          "bytes": 3977,
+          "sections": 7
+        }
+      }
+    },
+    "es": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "bfad9076a21376f99b5fea4a284d8da3340d227e05de34936c91d7fe44e87417",
+          "source_sha256": "edb291053600a66a247b8fcecb8b604a48d019afddf7b20b624c52b0e1de6ad3",
+          "bytes": 9513,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "00eda75c7f62d51a3f5be5e4fabc5c477df7a2d9e0d47f9421f3f88e4f46f8a3",
+          "source_sha256": "2c99f2aec792debe35184f699a44d5a64bbb389bcd7b5b434b616aaeba644beb",
+          "bytes": 9390,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "e4a91849a1ae8983213bd8c1484b73988fc0bcda982ad3be8212892a91125289",
+          "source_sha256": "84177dea190e05bfd9f19b1d533267ddbf36e6472a9be5732971bc32d960bc5b",
+          "bytes": 5110,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "1e31189dab741763bbff04bc493e91fb930bc5d96e1e26074629dbb8b268bc9c",
+          "source_sha256": "82932f498d7f690173908d47fbbc39bf42d3a897eb3e54df4ac1031e0bcc814d",
+          "bytes": 2373,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "4c0ba4c112d416385db36a319a8525e23434316b73acd3d2d1c8264776cc6efa",
+          "source_sha256": "c89d9cad9bc60866b61f82987a423868d72ca28c81fcc399906a9e76291ba995",
+          "bytes": 4294,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "ba42dbd682d0b57a391e5e00203797c7887de6e832883fb087331137504c87cf",
+          "source_sha256": "dc41cd23fab8e498494e7441057db996fc3b33fdc95314faecf7bfb6514b25ce",
+          "bytes": 3364,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "1ecf6e49593e028180fc06c21b88d5cdd245361ca3bccd8b5c1b6827d2bf0a27",
+          "source_sha256": "02a16e535d481c1ca00f1dbe21da1a83c9b08e0d2f0d3394ba46f0b102ff56e8",
+          "bytes": 3328,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "40ac920ef05b98cd6a9fefcf582deb6800a2fba6abb00a8085056e31a5879741",
+          "source_sha256": "5bad0eb009c40b7b384e372fa7026bcef2b0b46a06a33ec03a3949562d30a179",
+          "bytes": 3034,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "4c4129fc6fc2e097067cca1c9855115ca461c7e04ae599814554f1a1b9123719",
+          "source_sha256": "8c451d165bd81a736c69dcbcf913bc7193da0a63f39b5ca92ed1f7b436bc261c",
+          "bytes": 3811,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "dfaf238c85d5c196d5e6dd791f92021767d425ec11daec1999f466d4f8e0a08f",
+          "source_sha256": "bb3a2a39a08189b99f1780b96726c6485c50e58b2854886a4306477d889cb73d",
+          "bytes": 3459,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "188d06459b15e2fdc1683dbd16da2b79c42179bc76c407e173b128b4d15cb44c",
+          "source_sha256": "27ecebc8b524089fe4c17ff9a1c30f38e0ac92c526d42314fcb83513b052ddcc",
+          "bytes": 4352,
+          "sections": 7
+        }
+      }
+    },
+    "pt-BR": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "e75dff5dc6ecafe58ef6fd27a4a8e5e244e3e378051d845efe77d14153da5c36",
+          "source_sha256": "a15072287e086781f9fa522697844ff74d27b19cb5256cf45891788a5d656f12",
+          "bytes": 8920,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "45707bc5fb54e54d7d6b3a2d8fad177e1657c067b7e591567c3f2f149fcde010",
+          "source_sha256": "9a180d893922435e104620073a677a80f0ca397b1a84f25a926e38d3ab31b3f5",
+          "bytes": 8728,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "916ed693fdb874514932c815281792e45971b8aeda3b4aa586f9916fd69cda31",
+          "source_sha256": "1ecbcc7455d3f8f628b7240573fae7a0e79737550292cd44cff67754c980a29c",
+          "bytes": 4990,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "9d4ae28034d7f3b8bc823ff82cf873f938f5f892077e8121dded19f630153bd4",
+          "source_sha256": "50fb70e1b135483dada9835563c2061f03e1856469a51167fc047a48977c7046",
+          "bytes": 2350,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "28e2b3b1ddf29414d0fd13056bbbb3bbee146b86f7da1cc355eebdaa4ba639f5",
+          "source_sha256": "8b3a63a784f43f29d11928bf4667bb6af4fb2406965249b085f13eead29c57b6",
+          "bytes": 4055,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "1a75f719952e143cf1a6fceb8df3b049a234f126e3cf9908620469ad6d59bb3e",
+          "source_sha256": "80034a2c5bdc0a5a834b64f68b9ca909373fd4dee3e7eeba605f42291f4257e9",
+          "bytes": 3294,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "4031f133660cf424aebd38500f77f0bc05c73cbb4a641f260912d90c35001258",
+          "source_sha256": "d633c7d2b11523a1ace107f44bdaa846aee64225e12ab19e04346424a1544fac",
+          "bytes": 3244,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "c330818ac4ef41bc4fdbb0e4b566c13000323e7818c06450b39113f6b887d116",
+          "source_sha256": "7aafa22792649b3937e07641b6e15475008bbef6736a3019912275006742219e",
+          "bytes": 2956,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "694de9f3d27c9399548b5ef47dd82066d15636a9638bed024e74b483283c4e7b",
+          "source_sha256": "3b306eed5d3fe7aa5cf59a743830e6d8c917ca32b981d0aa62c2049fa38ea348",
+          "bytes": 3703,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "c668f83266ee69d62014f0e49a44ed6e7b7b3f2abc3fc8358a44281bdb1fc43e",
+          "source_sha256": "8a8a6529627dab4a7438cb11cd4532b09bc79540fd0e097f1d64c484b248a987",
+          "bytes": 3410,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "ed7529f268a0c6a93bd2c74254719ac6a3b90c8b0dab80ab123dc2714ba784ea",
+          "source_sha256": "4b510f6c83145bdf64876665ff13f620b1c115c05128b255473eb24b6d104a61",
+          "bytes": 4354,
+          "sections": 7
+        }
+      }
+    },
+    "fr": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "ea3181274542df7bfc8f6a8178d16ee6e4a24d52b1375ad7cb11b1737e695c15",
+          "source_sha256": "5f8ad20590e73d7e14367d89d187b9a1097853daacfe5fba31a33e865a80be39",
+          "bytes": 10277,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "b52d7a92331c33f00aa48f617db6dd36fa64f9634fcc3e8573ff11c76389a437",
+          "source_sha256": "c34c6be9dc9272b3dd9a1965c750ad251be019b2d745136bc769b8e27ee5817d",
+          "bytes": 10016,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "813c9683d09fe8b410257c70f306c98200ddeb1e80640df94ec77e6298d69b95",
+          "source_sha256": "02843a88d3c2e78d01760e704d350547a3fc31d0093f261cd4c5103058ebf9fb",
+          "bytes": 5493,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "83d309275006a2ccc3e87ae6149f51e5a0e8a6f5c927126e8746af9467b3c262",
+          "source_sha256": "974f9cc16f9d8eb62e1a159af4a5e288f5674765c2d031112d8f6bc0f15ca21d",
+          "bytes": 2468,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "aef9e0f225f65d04eb6304a6ca4f97e8745a9c752a9fd6edb89ff938f0755078",
+          "source_sha256": "b86b16cec716098ad71c9d22231f845adbd9e8cb123385173a4263955135797b",
+          "bytes": 4471,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "a366a6aa4d1da7762c217382da43fac717290deeb874ac51cec769d25b48dd44",
+          "source_sha256": "3cac28e2710eeec6163fbf21d2138bb68e69355967f101be555cce5b38bed231",
+          "bytes": 3553,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "72da6015164620312579efb2a0c6c911dbeb24090f01ea4e817fd1249f24311d",
+          "source_sha256": "13eae37ac03717ee107a129d0f1e85677072b83e883e0baf16d6f7a3ce8e5ae1",
+          "bytes": 3466,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "d2659c1f6c65e763d5e0dc3a25c3cced4aa44b3ec31728a5b24db757922068ed",
+          "source_sha256": "429b7c1b6bb455bdc179d636bb58d6f06b495f492f48ebdd0b9ce0df5767f517",
+          "bytes": 3170,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "96077dab0c5145bd6073a7cc9cade807c1fa6b41857e28de64ffb95eab72749a",
+          "source_sha256": "5d3b69a9cbfd8b7197113e436548e2d03117816e3af99386cb18eaa8412fd7a5",
+          "bytes": 3943,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "da2956d96d5cf7ed32c72397b0cd99b4609f3088af3e91432fb4a51b13892900",
+          "source_sha256": "5592ee54b332eafaecd28b68b752890ab0b29e59b12a01d2b2cc3b40abcf0915",
+          "bytes": 3639,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "6ce128b926e2990accb9ed0803fa46d11f2b71c1459a7055f36fed5e011724c7",
+          "source_sha256": "305be133cc773bce1e38d4bd04be32935ace28bdd765ffe30b0c75ce724f4030",
+          "bytes": 4486,
+          "sections": 7
+        }
+      }
+    },
+    "de": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "4d6b29794b3afbb6ffc77dac11d494656d93c0042741793233d7be7316e6d99d",
+          "source_sha256": "e1e590d9cd4bbe07ae33105b206b288b0c7b89b4f48596555343a99e7f716756",
+          "bytes": 9407,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "f81fbc135ffbfeafbd2a2c3b8377f8a42a4c8fafac6ddd2c7f46c192a3d0203d",
+          "source_sha256": "60815996d086c49370ccf9f9c8e54b4a10350d22d01d56061467878ebf0159bf",
+          "bytes": 9172,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "38fe0176c069dcbd861860da225019be9333c46f3590f729365e945367987c7b",
+          "source_sha256": "0b1340faf83d42f682bcdeafac831651ede92b47a55e462783d2456c93bda9cd",
+          "bytes": 5261,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "c36c7ac85d063fd75ebf599e24885d8f78bb41427dcc748219b803535b466d3d",
+          "source_sha256": "1388d6933e0e7140fb894de48917c1ce23beeba3d2bb7246ca0ec962aca0e690",
+          "bytes": 2373,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "2e5fda4a02899a4fdf208f51fbf9bfff9dc0361f0cc4d9f36c564e76b7c5b508",
+          "source_sha256": "ebc42b989c60e8c18299daf5f0066dad2b71c77155e2471fa79463467ce45762",
+          "bytes": 4178,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "004ba31ab20e82913a6884da407fe0ff63e3cd82d3e2759de54840b1457f0cad",
+          "source_sha256": "c46d2f20ee007a2ba60be370a870a72801d31e1002214ad9976dcc87f9fe0bd9",
+          "bytes": 3485,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "55d2a8e58205eaa5a39a880f25833ca6aba408ff29472316421e8fbbae6ae115",
+          "source_sha256": "dfffbb8f52166ef358247fb06f5657bd91b562cf637a47a2d7cf7cf63a37fa84",
+          "bytes": 3305,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "d41abc45e361b6cd590035eaa261a8a51319dfc223d90bd62ed17115101f39ef",
+          "source_sha256": "326c0f9cc84d4dc6b29604cde0e0e7dc3e084edca18dce6bae9cecea49c470c4",
+          "bytes": 3010,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "5c88b91b88cab156f11ee926a6978ff6ca65846261d48bf9a03bbbd21793e2d0",
+          "source_sha256": "a11d32a19dd560a7120079aa54dca7d3d0f1a829dd92f50e15a57d559d63625f",
+          "bytes": 3782,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "192f1e4224b3e41ff4d75efdcb9364db430acad9fa557fabc69ab7758216593f",
+          "source_sha256": "0e69d3a447cc66c8ef531725c12a80d927e836cde0918b0576f1d9e9d550595a",
+          "bytes": 3455,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "39c8a99b102533708cc4414d3d3ea735964541f9e4bbf9f2a0698439bade5a68",
+          "source_sha256": "75393e4983a15c93f1eea815f06df87f709a24aa49d5a98cd7d47a95eeb12c20",
+          "bytes": 4269,
+          "sections": 7
+        }
+      }
+    },
+    "it": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "bb21c8573fba848a24db16337c8c37dfb8a08869a9bcd1d5fe95684f11d097a9",
+          "source_sha256": "0943745bddf23c8c5a273985953665fd28a7c0842e7bbbec184ac28f964f82a5",
+          "bytes": 8948,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "7a44dc0a56d5b6df22003d068bab4ff2e176918c6751d6dccb7679a2884bc2f4",
+          "source_sha256": "ce2af80818bc6a307b3977001586ebc4207a0c979a230fcfd76e0e28e43ed500",
+          "bytes": 8704,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "d206a9958b0a4ba90236d407fe2419dedf03ae280590157aa25a312f9d69aa0d",
+          "source_sha256": "d74f497f02f942f53a49f5857ada0f23e9659106d68fd03eed47f7135cd9214f",
+          "bytes": 4981,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "92f4ca5b8376e9491a1e6154dfaf9a2a347faec6262eb7478759b6e92436d195",
+          "source_sha256": "d40226f0dea8d39ded65e98398b68fcb1f689de36d7cd765d5c1c266bc7ac4a0",
+          "bytes": 2279,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "fd55e19e472e85927e77008a7401c05e2dcb7d4ec5028f25a67d4d3cafefd865",
+          "source_sha256": "2a47dec7dda3b0cd20c2b5c73997c50402c9ab1fcf4abe94006a016c85911b50",
+          "bytes": 4105,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "f7193b286a6dad51e3f9401bd47fda38a5cf767ddaeb72543942433ae77ff751",
+          "source_sha256": "67011fed45d06e55332d5659777973545b4d53e1dae21da634527c4b0fed5b65",
+          "bytes": 3210,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "247ca3eca0036ad81d305aa14a2a314cadfd87c484ee7c6ecf845c7099e02b6f",
+          "source_sha256": "29c81bbcd703ac2a9236a3f7083cab37b94de7aa2685dde8a9bca7753b2e2c8f",
+          "bytes": 3168,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "9f99d13bb5c577c59a566bfd7898eafbeddcce1e6aebc01899e9cf25bca7bce3",
+          "source_sha256": "5b0ebf42aabba4b33613b3f3c2f840cf0f8ba4f07dbdbdc66999f50e93e4c4f5",
+          "bytes": 2870,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "e1513f18503a06426146d82f1a669ec7a4dfa2745f30cb8c5ff1b1f73aeeba56",
+          "source_sha256": "85ff411fce45281db5eb4dd13e94c47e7237aa969953453ef85d7de83f446093",
+          "bytes": 3677,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "676c7d033f614c15b7d9f9a9b0c62f7deb3d7dcf8817856a897233f803bf11e0",
+          "source_sha256": "c901216fa8162f16b76ba1c34be880db6c7230f3a36e43c5371d5cb0b9b195b1",
+          "bytes": 3363,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "a1625f0af1187ea222e7d772c354d22578f44fdfc7dfeaa4a9c39c521a4cbdd2",
+          "source_sha256": "662ec5b3adc09a61d5a6b33ed6dd2dc5a5ead6ef9442eabb044b53fb5c4b8c83",
+          "bytes": 4315,
+          "sections": 7
+        }
+      }
+    },
+    "ru": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "8d83c461d572901516345f8ce33f89a95a99fccf46ae204d17f964e9d445a275",
+          "source_sha256": "8a0ec1050f60de6a81a05b87e5e3571b92cec2ff66cce27c8a8a0061f7a0d614",
+          "bytes": 17628,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "9ac34b38defd740ee13ca1383f6fc0a28d5d66ccfae64150e6ba299ed32a0527",
+          "source_sha256": "1fd410b2df13c5570b8d02b1b1dba8d0f3255df40751a6c8c40de0ef8fb9f221",
+          "bytes": 16975,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "854845ade2afa0478288fbf4080aa79e8cbd04d383c07c70ba7445cb832c268e",
+          "source_sha256": "9925c7694acd75e1df98f5e231c6f67544096ff3a20b6af5067b37204e7144af",
+          "bytes": 9119,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "9a2d1edb1c5aec5da2464c4127818012f897c4f8671a70c16f46643e8354a1a0",
+          "source_sha256": "19f20c4a8accc6711ca3ea2acf0753a19b1e77e73ad3ad3ec5cd4b50baef2953",
+          "bytes": 3621,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "f7cb386e6ca0a31f8ea7e837fcd974b438b834384ffea7679a1dc8712784e494",
+          "source_sha256": "30f4736b565d35f726be76c87019a18e94529df47972ceff03e81b7c9f4aa77b",
+          "bytes": 6895,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "30d7feafaf460f199f50181e94b4eead131ea0cc8e9475703bcbd46f7514a56b",
+          "source_sha256": "28d9c45c7ee86dbcde843e8ea2abb9a923665eadb6f85508603a11fbf3e0ebc8",
+          "bytes": 5510,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "da43f78c8f5b82733ca1388d7aa2229d81ac9af2d95e8821ce28accd5e2ca77c",
+          "source_sha256": "6b7f30d4084eec0f6f78ace39300d20f8a13fc361b61b29f6bfdedc25564af0d",
+          "bytes": 5548,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "01fdec6273a43964a114efe96f55738fce099a3f8ca63afea12b1a1a4dc2649c",
+          "source_sha256": "a408ad69be71de19d5a412afd1852c8d99766273ab8425d23bfe263111eb459e",
+          "bytes": 4867,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "34584c8112e4fc2da07cebc390cb8c803cae5727cf4b2575e0b58d8a2636dad9",
+          "source_sha256": "40e09161ea94187fd67c0b5bc2ea4c47bc309d9fb40d965d073529df94874037",
+          "bytes": 5724,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "0c6b46543fb38d059eb8c636acfdf3b892ca3b81c046a05ca24a7e4eb4087e35",
+          "source_sha256": "a4445d19843d3973cc1edcd143f432251e09308132ae440b55ddae877eb24d66",
+          "bytes": 5462,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "af756e76f48701a24ba4ec4fc97496439e6dfb51cb76973ec0662a54b591e1c9",
+          "source_sha256": "c68882760df141b636162ce28823062ed818a9f77d413dc72d19c28a0f3c8619",
+          "bytes": 6248,
+          "sections": 7
+        }
+      }
+    },
+    "tr": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "68e8497b8e2960766311ea38b5c248f49bdf1b168bf2f1161565584f7d165c15",
+          "source_sha256": "7e87e7d8ed40b872b8de70391d9ffd93df9a00e644a97507770ca41e9da3803a",
+          "bytes": 10789,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "aa18d307345a053a36f1a12b946b076150ab3abaa3dcc262eb6c1e68a8edc523",
+          "source_sha256": "f7eec007beccb27e248010e8a472be45278d6bd3b4a2bcec2b26bca8a46f3572",
+          "bytes": 13874,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "afffe91e0b9546a7da3d2088618f089626565a9b4e1c6d10e332a1039c152b68",
+          "source_sha256": "c6ee8228f2bbf54c51abf6ff9d9f3165a316466ac7c88eac088f3a5c26d3e05d",
+          "bytes": 6857,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "1937a298cd36dc9694352eb8b4f44f791b1779d8da18f957fb43725526b741d3",
+          "source_sha256": "82b76e41553a3adb04f8946fc3a3e5ee94beb8027e9af4ffeb3deaeefd997d75",
+          "bytes": 3319,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "c69ef165bbe9ad2b386c460d61dc3700d11291aab88939ba00b93b50386e1579",
+          "source_sha256": "088cdcc9e64bf830076055d8de1d362be9d02877ddd6fa237a280f2b74e8fcd8",
+          "bytes": 4700,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "ca348fc14a39f43a5c44b639438a71dfc47ad2ae30413b9b91b0d9328322248c",
+          "source_sha256": "fc884a06042a87dc4e6330d50927a37d3e3f64d25f2abb238c0d685e37839136",
+          "bytes": 3285,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "19130fdbccf95e73e89396616a2b0b3dbab23783dd572037850718c86eb92261",
+          "source_sha256": "78d4233eb297c1d6f041d5805a0ee8dee0280f8d26fb4e4485981f9bd80ab5cb",
+          "bytes": 3923,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "2a412fbc1e093f43a814df637fe03a40a343d96fbfa472aafaf836d5afdef9fb",
+          "source_sha256": "73a7a00ccc2db0b9debdcc1dd1651c830109240b463b54de4903b274ecd59bec",
+          "bytes": 3385,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "abe243c1cf809fb16d182d1663e1fad01f44391734fdeaeec762ddc1a6df4093",
+          "source_sha256": "eba4993864c2f7bb82417fe6ad8d05e238bd6105cefb53e6eccd8709bf768578",
+          "bytes": 4092,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "e109877d1259cba3c1e34f73fbd2848f460079bf8803b6dc378cc0c8c720315b",
+          "source_sha256": "e048ede599e0ce9aed0b957e930ed683f35d8220d25253707a6582b7dfa6843a",
+          "bytes": 3511,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "7d68580844f85a3e9d3f3ea63fd5fe082922c4d2deb72c64fc08945fe9c918c0",
+          "source_sha256": "1bdfe2f38e6a9f135aa4ba5a8bbcc29e48de07daa5618c8cb3f6d9c2c6c2560e",
+          "bytes": 4113,
+          "sections": 7
+        }
+      }
+    },
+    "ar": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "47d4efc85238a8ec83c4033a74ccea77782fa1022a8636b72f15e1de9ccc4d06",
+          "source_sha256": "93c4d072221ccfdb7b68619d0ad6224700ae362f346bf0d5b036d0ffe0374b18",
+          "bytes": 13321,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "33b26a0bc8d0f20d692af08ef5fd89a3d409dfb4734496b9f76fbdc9d697d84f",
+          "source_sha256": "f994beccc51faaf60f7548910a48e0a3a012a8c10595615ae35761110259fc6b",
+          "bytes": 13284,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "c3fd7b46c357e632657fb271eb864510283c7138b4032cd125a6d4a86be1bf4e",
+          "source_sha256": "832b98fc401406e608211343687483e542e6ffafc479170e931a33f9802ed0f0",
+          "bytes": 7134,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "766d42ba28615a70644408f9b224e16b95eaefeaaeb55a1124a84d09b0b1d7d9",
+          "source_sha256": "c74680ee2e1cbb898513029311aeac47a82f4bb5facefbc3e1d4287b9d238249",
+          "bytes": 3101,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "d06d1d5fe559f2934a0f872beb102e3633a8f3b6f8aed8b1947b48421148fdfd",
+          "source_sha256": "a0d590d7e7c875a09b31ae5d2460cd415decb5697ffef3eb0eb607afc6e0893a",
+          "bytes": 5459,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "f89603ed78a0726456a10202a4366f7259f66d495ac385642c2bc89d19054081",
+          "source_sha256": "fabc0f612a033aa84196885b44ff349afd563d023e5f6e916127fe199418125f",
+          "bytes": 4369,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "f7c4de803abaaa9fe96700cf6d820c4c3886739e7908723e45fcd130a18e7b09",
+          "source_sha256": "bc5c36ea1dc9977ccc55bcd101556ff485e2590ccd79eb2415a96f999fb6e5de",
+          "bytes": 4343,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "1bc115bc370b215cc30d0fcf6e3d13b1110286c71ec437a5339972223a065fc8",
+          "source_sha256": "77204e5f841649f76cf53ad91766cf96895d2c47473e3ade6d74b84e16a34e9d",
+          "bytes": 3842,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "e1303b0f1c5d5a7e5e5f29df953a9244d0b209c4a66c67c98bfdbe203a18eb11",
+          "source_sha256": "3f55c340cbec2ca51f49e5d1938f09ba27f4f017e8829064748dde537b5018f9",
+          "bytes": 4604,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "6422897a6ec877c73e4ed9bb57043684cff99ce5bf364961999bccf336bed617",
+          "source_sha256": "cce5451976e9e835f785453eac56dfed0ef92d03edd7c2588661224f058e3134",
+          "bytes": 4391,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "3127930cb86ed0b21e650730012f803038a40b219bbfa348286c9affe515d5fc",
+          "source_sha256": "644198ffbec31350d20e84f63a18d68baf4cd2213cb59e788365aad5f4d8b8e3",
+          "bytes": 5215,
+          "sections": 7
+        }
+      }
+    },
+    "hi": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "810d4573daaf28f866cefb16cac90d91e6cfc57803ce1f260847111b5de174a0",
+          "source_sha256": "26976ab8b65f17d67a3228f4614ad33e3fcecd65b92b14ec1c6bfadd032be36e",
+          "bytes": 19511,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "c6cb60c8e3c171b99b6988d11f776a2324ae67eec41841d062c5ba63074ec04e",
+          "source_sha256": "87b855edfd81219e3fc5f81186dda483d8a3c3274f4d13331bce505da2b05b3e",
+          "bytes": 19394,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "6fca6a50a99bf83d1266b30a8cb0838da95d728caea7099084e27fcbb29ec35b",
+          "source_sha256": "9906df83cc3c72062c7ce19aca4c89657c97c29b7865043d0953055f395c1a1f",
+          "bytes": 9753,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "8ab766ad8706371410612303bc706ed2dd30478b22fadf4e2d176e6351ace4e2",
+          "source_sha256": "43fdd494f54a3ec9e1157aad9fdd984513b2d53360cc9506f99bc14172d87e3e",
+          "bytes": 3710,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "f86091526f7e7e7b3f1aa4ea6f7d23d4d903040078806001113fcfc1d022b1b1",
+          "source_sha256": "27427aec1f0e09597c7d6a062f42e654a5a0a8b3c94cf75637576ed8fb0e89c0",
+          "bytes": 7368,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "def9cd2fb14682e40010c7f93c77091bd6aacb806b840a21ff5a0e7a6d68d98e",
+          "source_sha256": "455a9c685160500a38a2130177b34f205604eb8cabf5ef63c58e14c7ef22a9bf",
+          "bytes": 5736,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "07be6febbbf3857a37a64d9e880e1ea6bf8939a4f963ddc35fb12f28cc9923d2",
+          "source_sha256": "e1d6ce413147a04b2432d4e3111da19525f935e1de90c626c1257637d6ade7b9",
+          "bytes": 5897,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "08bf74b5a93f03ce4808393473ae14b825c76e8129c26a1a0fdd5666488489a3",
+          "source_sha256": "86ae6a4ca3ec1a7695eb2eb7c2b751cda9488337953d2723d1169b33be2fadb7",
+          "bytes": 4997,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "b0111b592641703d0cad48645cb33a6eddd61d3cd80c77433877d8d5ce9483a5",
+          "source_sha256": "bdf723993d8732979814a7fbac48c24dcc2b8630a2a429a4b09129d9a30708c5",
+          "bytes": 6182,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "46fdca54aa1a52892165e7f070f2da517b60871044f8fd40a38a2a56372384a3",
+          "source_sha256": "cecf0c1a1779e41f8aaa188d1c66c44abf4cd7595cf128e14030ec6544bd9313",
+          "bytes": 5655,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "6cfeaf7c1634a73e85a117f3c65a08641a45111a447a90ac7b49ff91b3b08824",
+          "source_sha256": "e59ea43bc85b2e726ed89e74d4b42f0d0f72c267d1f74fb669bbacf0e29b0d0e",
+          "bytes": 6960,
+          "sections": 7
+        }
+      }
+    },
+    "id": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "77d1c4bf73efecded1243aaa8959a93349ff01d318862312182ad005e1a371dd",
+          "source_sha256": "c221d308bc503b4d94ab924fe7237265bbd2a29fb98d8fa88bcb95155700602e",
+          "bytes": 9950,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "519fd77edd2eabe8e306b9b0e141abf455858268cc622227910dc713562dfd7a",
+          "source_sha256": "5d2ab383fd0d8f69d44dc72d737cca0aa3464ca1503eb0139e2b393dd67e9530",
+          "bytes": 9670,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "ae3df5e6f9bec3133d422c23176d096b2e6a320bc4447517e8d253986e21a759",
+          "source_sha256": "d2a1a5c5bb4cd65b5f27ff45e79d2deae974ea1e8c7b399c817c8bdde092004d",
+          "bytes": 5391,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "9a1b418eefebce0fcf117e8c25b877db98210b83fd5c2f85bd555c5e89c70741",
+          "source_sha256": "6144ebe427010e5eab6a5650d7ff09bf0ac659b02b4cbe475d2c421fb7221c40",
+          "bytes": 2449,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "a76a7ed30baef1680785deee1596721f69824e129c26223f96161fea327e1447",
+          "source_sha256": "03e4a162ac63141615775c512ae0c6797590b93a0167e782954380c801ff76e8",
+          "bytes": 4398,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "396b73b2192b281b6c18222d20fc61b0ac00d9690977007cb84714f3e04b1973",
+          "source_sha256": "6c54babe41cb9d73e35c41f12fcbb47bf180109c660384e6cb9c133f7601d88a",
+          "bytes": 3489,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "e1f1ac1371158d9a10cb685d9da1adb1bf1153e92f0b30042e9e7ea02d002a67",
+          "source_sha256": "a3839989fd5e502667ef517ac914884cbfb34afeb73ae11322ac43eae14f0e4d",
+          "bytes": 3629,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "6af54974806a18e14766ab1866258c7f2f3aecbb8693bf5601c8c3a3c46f09c5",
+          "source_sha256": "ba2969df48d7e494b600a0c70d0a6d0f45018583405b2765ee0b71e0eee9cd77",
+          "bytes": 3148,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "c0b83955b820e1e11ef2df3f035e1fa59dcd595c48685c5421c4378afa0fa1d0",
+          "source_sha256": "dfc9325f92b539368a11bd66fcbcb02cd2594de73be82e6be0b00b1e139afc7e",
+          "bytes": 3777,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "f68995ce6c10a3ebbd936ed6f861ed059530bec5e59a5c3b83c746be81c86fe5",
+          "source_sha256": "70d4a459780f844b19d65d22a7593afa389bc0e71b0a72007d055bcd316dbae1",
+          "bytes": 3451,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "aae6e7fe628e9b5c81edb3a4aad8f10cc03d1118420d186816c827790cd79de3",
+          "source_sha256": "bedf53f6201c520d1cefcabb26fe9197eeca3323a0275f766637213f5945478d",
+          "bytes": 4052,
+          "sections": 7
+        }
+      }
+    },
+    "ja": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "7489604604450c792ef7bd7113d74e07c2f3f2a7e5754ddae386b4a8998f3d1c",
+          "source_sha256": "dbb20f6bfbeea8b3d2858a8af6e24dbae32243a0c6e666b9b75ccf3bc5f15f66",
+          "bytes": 11175,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "7c5b203111ecbd2e26c854bb9ce2ea7f82f61fa79aca843323d08c868526b019",
+          "source_sha256": "b757128b801b4656a829a6c246f2db6aaf67b104eb4f5ecc6d584b06eeffc0c8",
+          "bytes": 11060,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "99d250e658916adccdc5bc0d74729f1fd867ea796030acd7dae0714b22b0a8b4",
+          "source_sha256": "e65074ac5f88a01237defe272f111993957a07623feadc6de6dfd2b5fa2374f6",
+          "bytes": 5870,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "14f4f99620d7dc80490803578b863277b6a6629904d7c2153f1d7daffde92f8e",
+          "source_sha256": "afa33093867131f8e2d8906dda1dcedc19547162bc995269d10b70d51171b51a",
+          "bytes": 2705,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "b20cce362f640df6355c17e3c3f8afd1ad6ec19e1086f8d5930e308de830299a",
+          "source_sha256": "6309cb8ee3e37bf830dc1ca7996a68a8a22e78e932c71b4865d267efb67e7622",
+          "bytes": 4731,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "7b521bbcd6e1173db0df458cf7054bc3c0a9d9402eae2e12430f3e06c184f164",
+          "source_sha256": "daada022df86e8ff1188da6447616797da77bac76289142fac7a23da5e529c0a",
+          "bytes": 3929,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "cae28cf479a3dfc288a8a6809b6f192f4400aab089fe46e07476d231ea625220",
+          "source_sha256": "0903a83ebbf2331c477c141eca29d15b05533583d104698c25e34afad1d59874",
+          "bytes": 3776,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "e507ed7c9edcff5fcf95ad9c1792738cb3da89ebc8b7abb17d26c4bf86fe585a",
+          "source_sha256": "76c5ab5c46b17f3ecb6a664c33e68ad33536be30c5989d8c2804471e30f8d198",
+          "bytes": 3465,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "c53fb3ffb31c82c6f4f2a8e8ac88c33037934227a2206522b5e3456b44e10e9e",
+          "source_sha256": "5a73807a1caf79ca4fec9a2991a0c950e4fe104a49fc2bbedf603552d8de9de1",
+          "bytes": 4361,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "783e415af42c15822374d835535f712ca8189c6a4811baf4f3860cce03de67d6",
+          "source_sha256": "8823a4b6fedd8f233770b5e2a64bc30048b940c2f737533951029868a46dac18",
+          "bytes": 3986,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "87bfa9851d17dab6ce81027c6fcb918a436015a8e66cded67db36b81b54500a4",
+          "source_sha256": "7c7e9f431355ad587fde91f8380c9c9331935852109ce2d82aab3f06844a07af",
+          "bytes": 4468,
+          "sections": 7
+        }
+      }
+    },
+    "ko": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "b705e38a5796703b5d49fb812ba7e3973d7dc691882cb22e214cd8dcb72d9981",
+          "source_sha256": "53be1ebd47f815dc3a8dd19cee51217d2fa792eb4298cc04ca43a4055cbf9e24",
+          "bytes": 10369,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "fa28a98d5ed1132db5500595489b1b82344037464db9ddfd493dbbc91154480d",
+          "source_sha256": "19beda7943bc459bec756a4cce2c92f9769daa813d7ba43ab7aaf71381bde95d",
+          "bytes": 10192,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "85e19007961a4f088320a2ea44e1fdeb83d28c0d6274990159bcc31577c63fba",
+          "source_sha256": "6332b7f2420b02983e31ab34cb07d02b740675cd0b0bbb77373e975e282d1486",
+          "bytes": 5580,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "56637731de1dfd751bfd7ffed268e18927fd056d8f3f16b1b280f9d5ebee85fb",
+          "source_sha256": "2614374e7525962f570910fc64e4142f75f389a1f258934fef1390a213674a20",
+          "bytes": 2498,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "c7687406b065dca013b4066ea90d525071fb8ce6b4f4205a69cdf68ef883c3af",
+          "source_sha256": "4326d9f1913586dd0f73249423ab9ebd1e8d914431d56963d978c73073af202c",
+          "bytes": 4466,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "69c3fa99edbd39c021bca5900649cffa3ac754cb784562430d582c9215cc55c5",
+          "source_sha256": "0140af43a00a2e25157e949c5779e9814ae28ce2a871b76a2724b54bdf1ce10c",
+          "bytes": 3672,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "84cbb55ee8a46a1637e822ad65454fc81863f6f846f0fe22f51bf0cb955093b5",
+          "source_sha256": "a696771a7fbe95f58cf840dcb7b7a091ed55e4d47887fec746306552508726b7",
+          "bytes": 3608,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "33a702f64c13e466edd5102ef8cc5aaa266e8f4e8b1bc184c05705a8bcfe8e5d",
+          "source_sha256": "d212d8fee348a4100be77c220c94d98c49e6495bbb06271f80b98a9a3255ef1d",
+          "bytes": 3182,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "41a58fff43fbc7b1d092c2caf97c44d78d18c3350d5ae17ced18fc0bff5f8195",
+          "source_sha256": "a773a3bfd90bb26ca3edcc0fe8243b814a389e430459ca56eab52bcef455aad2",
+          "bytes": 3874,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "16aec38df9cd4d75dc040a68bbdd1f2a9f8ba9eba2601aa800b4b822d7232aa8",
+          "source_sha256": "872d34f6c3021ed59c37518e0c5f9db3f2824be5298bd076b17de69212436bb9",
+          "bytes": 3560,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "9b48a70b1f46aba2e269ccdda7b3d1d9ef3fbb1bac0d8194de5e87e6113f6b79",
+          "source_sha256": "97acf24f1749c303d05d10432bce92cf41db62a13b5793e119caf5502db23af6",
+          "bytes": 4230,
+          "sections": 7
+        }
+      }
+    },
+    "zh-Hans": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "3eb7b9a2b0ca621ac28db8bb1fdf9dcb56e09fbfed76f220e1f3d8d0c4dee55b",
+          "source_sha256": "9b176f076472b9ffabf9caef5548b5ce15c1c78b251548ec55d96b8f0186bc74",
+          "bytes": 8296,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "1392dfde33f1489b2a115172b834f5c6a7fd1f00c44e60f0a3cb6dcb2edf0ed0",
+          "source_sha256": "e93486dc009ca1f2de6fb88de60d9d6edd61ce1bb814ec6601bf4bb7a1fd02d8",
+          "bytes": 8188,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "260da1b9e8556de67a9061a3df9c362e6db9917be202440a4f6241893a9f6619",
+          "source_sha256": "0f676b51d586b2fe2084727db91e04ab5017e2b1008c96978492acb46f43c827",
+          "bytes": 4577,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "76a2b47bda6bc40cc768ca34bb85c2228c86f68ca630e26fd207995dc3b62228",
+          "source_sha256": "e97d07e746a604ff2f98bbb65497fe7e2d88ddc93087063a5c9b5c219014960a",
+          "bytes": 2181,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "280ce68900f047175ea0973bb567bbb433542d83dcd6af382d27ec8c3ae60761",
+          "source_sha256": "c0f7373bd9d96e1755145347ec6fb2c6007bc742f55d9b395dd7a897cf89643a",
+          "bytes": 3815,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "447f647c5088af3f3ace52d4d2fb4dcc6d3b71db09e000e069d6b1b05114048c",
+          "source_sha256": "92dd6280d566c9279eed2ad891ba9bf217d9d60ab4adfbd9c69fdfecc45044cc",
+          "bytes": 3038,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "e0949a3cfa0ec43777032e82a06cb7e08a86da5f6d55e1d8c647d86a68619bcf",
+          "source_sha256": "4b7ee97915fbab88f78e307673d580ef723d90f7af5f3fbcc9f3bc9ab1550d88",
+          "bytes": 2996,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "7701b56764d23d3bf9baf56022cd9c79644da90a71a7eca85326ef04e3a95b5d",
+          "source_sha256": "f83169ff7892f7d4f1b1bae82c5eab75e5fb88d9034408374625d290b3cd79d6",
+          "bytes": 2772,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "8aae4416df7d5dc9a6fc638e125f28aab278ef244235ae5c7727ef5d0f3cce5e",
+          "source_sha256": "c13bc606a537ef6f9cdae5bafb5041b29d7a69a9ba77d00ccebb08a5f6b6d5e8",
+          "bytes": 3395,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "3adf228f03977515f72a21d1616465ec6829599f81f5c7dbe913ae54104813f6",
+          "source_sha256": "1d2c1365ddadefc39c771f355fed0a427d8d52efa0a7c8f2447f627e787b60a7",
+          "bytes": 3085,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "7f59084d6428a3360a387a767f03a3ced10ce7662b073604d3dd9939c28c5d37",
+          "source_sha256": "8f1ba981bf5a357ed58e406841106a5e2cb05cb268a1d1329042a073bfac1d21",
+          "bytes": 3599,
+          "sections": 7
+        }
+      }
+    },
+    "zh-Hant": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "3a1195ba63e26a7a8b4330746d9cceca2fd832d87be70211c531f0540b7d68ce",
+          "source_sha256": "327e1c3a812a7b61be768ab9142baeb2af96fa71e718b7a7493fbad17ded4dbd",
+          "bytes": 8323,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "7ac7f51c801367b26008a5b7a759b883f855640ac9c993e73e847de43ee4cadd",
+          "source_sha256": "ef11c76afd8d5b23c4d05cc4ce89353ce981b8651d0a86d51fd38d70ade434a5",
+          "bytes": 8221,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "314cab77f0958f3442c57a7f890b041fd4df2a5086dcec6cbeed14f86b61aff5",
+          "source_sha256": "0dbe99c54b1d1c2e7527b1761160537d6c4a8b1de9d047360d1b973a534fc067",
+          "bytes": 4586,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "7e7e82a72af7ac2461133b309e803cff7c36707abb00751be10066c63e6c5d01",
+          "source_sha256": "8f970ea602408cc17284695316fef959a9e8b8387f63057f6cfe117fd3e4c3c1",
+          "bytes": 2190,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "48676dad11cb6bc29c4805c51a72b12cd2bddd57ad3983c7afc3281885627088",
+          "source_sha256": "a7e2d49f8a8987f1f54cd3ea05bf96992def83469316fea15325310249e01602",
+          "bytes": 3824,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "20b476c5186b797f231121d76077122b49b6d39a778f9270e7aac69375dad64a",
+          "source_sha256": "8573020cb60b25ec01c1df6d8fc4412bb0327b423dc16954e943535b68140a98",
+          "bytes": 3053,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "53b08b6e3d00088025c041fe3c57f28d73df069fba226859669b4a5a0a6e5efd",
+          "source_sha256": "b0db45ce3d14e51596bd534e285fdd65648bd7c4c95eb653af06945856d21dbc",
+          "bytes": 3020,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "7743a2af8125a93afafe598a4bc11787c20919037d6e67be474f8db2ca88b254",
+          "source_sha256": "0efdc8446231981b3e375abce17947d98f424641c10607bc6b5735a82102f695",
+          "bytes": 2784,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "46b451a067211550699e6829ed39dfbd6fb5ba14bbd69b8c30fbc147302296c1",
+          "source_sha256": "70173fec3eb0fbc2ee17c76484f2bd954a141c00c2b2d282f31e5258457a36d3",
+          "bytes": 3431,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "56e3c1363a7fcea6e745ecc0356b9c564a3ecd765f9b73e06ead0306db463359",
+          "source_sha256": "ed9d0dfd7125372b4952f29362cb2138ce08df2338baf562b9e7a906193099ca",
+          "bytes": 3097,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "3b33c3933bb8af89f9c1875ff52537e6a34d3bb447ff1c8794a80454ea0c3097",
+          "source_sha256": "4a54679e9c7788052caaf18529b32a5d3220c19f6291567d5e19dfa2d7f7ca81",
+          "bytes": 3629,
+          "sections": 7
+        }
+      }
+    },
+    "nl": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "459310ca5543a88b8aab986e177cf7d1abe458e998d6bc6bcaa7d790657dc9e5",
+          "source_sha256": "4284bfae013baa1d7dad4fa5a779b5ce4c96860fdba1654127f3159112e49136",
+          "bytes": 8839,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "0010979a8d7dfbbf0539bd9c58be09f7b83971b0a664145aab34193fa00249b3",
+          "source_sha256": "3df1b5390d032f80ab683b6699ea1cbe3f782980274e0e92b0bcdb769b9ce373",
+          "bytes": 8607,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "7835cb1db38333f12cb43c2fa1b00c18d7616080d5fb0bf2cb77327f47df18a4",
+          "source_sha256": "ba24e39b76d11718dbb879115fac5c545f638a82aa0ee2a237aa375da0088404",
+          "bytes": 4896,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "e79635a115f84f85b7fe3c975f8987b474f91d24e04d09f278a9b90db15e4ad9",
+          "source_sha256": "e4ee07f893317fe267414a59740587c83f85d9551c23f53422c93ddc67761008",
+          "bytes": 2214,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "6917151800ca31de8d4ef16bb38994d470053150dba32f53189bdc6eace403d2",
+          "source_sha256": "013387bdb32ee0155fa2e5e7f3add92dc3568a5f42d6fbe98f439e3c846753ae",
+          "bytes": 3965,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "8f72b21a13bf4b5a730a73cae34d52054e9ec5fd139d2d19fad1c1efff177eec",
+          "source_sha256": "8c4b65cc443e29a0742b513f03e996428677deb9b268970509de630d78a301dd",
+          "bytes": 3155,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "4f1596e191d085d1ffe44ef872461805a995f4eef9cd65bb2bfebc4b700a42a9",
+          "source_sha256": "f0ab79e3340a99739cbf681a0760c169d8562f407efedfc3698093596fb3d5b6",
+          "bytes": 3061,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "6e24706484562b5a26be9b6afa222c1efb15dee0a873db27fe7e3000e704e486",
+          "source_sha256": "f73f0ba6c5c281ec4885f4535e53c5a77ba6a9efa605a0ccef3e22b1bf997ef1",
+          "bytes": 2852,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "01f45c5864e6cd0aed03a43d316325d7551980126ae02d8003b7d22944638ae8",
+          "source_sha256": "d9119c906631f765b204d66e3afd75807c80a6b2dd7adeda86a3d5903c8bae0e",
+          "bytes": 3659,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "b65f206bdcbb3d24f0fa43a9e596fa99554f4cf1390c10cb7a59ebc1b2b68387",
+          "source_sha256": "b1bcd41bd4b262915123d368a03e215c1772adf76f10b39eb42da0ffc04ccaa8",
+          "bytes": 3277,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "20036e140ebbca0dc270f1fdb84925c787b3abb56290774aa34a2df34691ada5",
+          "source_sha256": "6ebb981c81746f7710f4c9c31ba61025f80022ba501cdaba0a899b854e4f819f",
+          "bytes": 4055,
+          "sections": 7
+        }
+      }
+    },
+    "pl": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "86b1acf0e8b32cf3f31d95ade3ffe4dca83f988df91934bcce0ff79bbbfdec08",
+          "source_sha256": "191c12989f843479586fdd44dce818d8a7798204777055f00948a6c83fa3ab0e",
+          "bytes": 9264,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "6a181e5899f96bdb28085b1f68cd646f8d4c2d643e4153baeae84e5af02a46e4",
+          "source_sha256": "6d0f28a026be276d98a1e6e2d840471763fbbf4f61a72b6246c1c7541037d7f5",
+          "bytes": 8742,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "d5d8b0c29916387a3aaa5bd535b36324efde87f19a3ef76e8d0713a6c5450ff2",
+          "source_sha256": "3e62f28592944d38dbbd188505e98ec464d9349933a78b7e66206b652f29e891",
+          "bytes": 5172,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "dc2d27ebde4a312498a46cd6207bf41638aa3db5474b6eed7b467ea31c34096f",
+          "source_sha256": "58a72175a15b78eba6c45fd2e65484397373a204d795d49cbb0d0b266aaf554d",
+          "bytes": 2257,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "a65b449988a1054c8f5db8fb8f987c4edda7730a7399a4d711c96dca1c6faa97",
+          "source_sha256": "46548bea22b684ced4f95cca3c70c0cb27c38c77d002f456533777b08abb5e42",
+          "bytes": 3987,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "45cefbf2121eef95fa39a98c0badbe6a8917b37739d0c3ad5104ceaa7821515d",
+          "source_sha256": "2016a9bb8cfdba6d1c6a9b3d452dcd17a0723fe76581bf0f4a1e49990f58fb66",
+          "bytes": 3240,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "1276bdfa7677eb92f2eaa034c652bad41b71d2941712155eeedbd909a90bef9b",
+          "source_sha256": "e2746ebdc9582d612d952bde66b10c063b8b0f96b1a763ea733d45a175ae2853",
+          "bytes": 3191,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "44e5d9fd2c41ab2bb0ff4395157eb7724603f5d922539d0e411958bfa2d0cd5d",
+          "source_sha256": "3be5e2ded721aeab0494c6d9ed97788c489e5bcd5549104bca766f907f3b4275",
+          "bytes": 2906,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "e03036cd50b6bea33109760230182530314539030bfeb7c4729fbed17f293ce1",
+          "source_sha256": "7db4bb978189117372410e545c6e7ad3f730022f14a65f2be1c1a00666fd4c6b",
+          "bytes": 3544,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "437a9344e23914d6990164fc053819485ab6a95eae29f297c3d44b65f3a52985",
+          "source_sha256": "503a64d8ea755a586b4d390bac9d120615ef4e75080a9181a98f3575254d4d3f",
+          "bytes": 3449,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "2827b056fba8449beaa2ef455b4f9f195aa3ba32813cf486c82a5f08106d4e25",
+          "source_sha256": "19bf5b906f012a95099886c24a4770962a9bab8d696d371ec2a246a39028a2b0",
+          "bytes": 4258,
+          "sections": 7
+        }
+      }
+    },
+    "th": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "65c9dd9da7b1bc30ee3b264a171bac7fb7d262d9d52dec23bdb25ed57db28162",
+          "source_sha256": "c99427ae707872802206d5c4ae08ab4633dd3753b63fca90288dd88c762fcd3e",
+          "bytes": 20755,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "22c2de73cf078e59e3f687b5cedce6334479dc480ac8b3e96abc02085f108170",
+          "source_sha256": "77d14462b2c8a132c8676b6f74c560a2396530d4434bf2cee1c288af192667d1",
+          "bytes": 20320,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "65e02adf74f3ce21b59f555b4c0d585d594b3f087b3709704343ad35ae25bb97",
+          "source_sha256": "da4d8953d09ec7395c0cf55f1841acfa34a6086eb63a66e3ecd0a651caa28de0",
+          "bytes": 10573,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "569f9265c37aab37e530b6fd1c9a092ffee1689859d1bcc32f816e762e549d63",
+          "source_sha256": "85a2249d50786e33efb6807264d28347da5f9d6546f3b6d48e146e0d107b3bf8",
+          "bytes": 4262,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "225bf39abfc42cf421f71503298a6cbda527817e7783f1bf0189cb3310b40a20",
+          "source_sha256": "e07c76dad3b9f620a4de541a6d5228b293ebf77a7dd2c525cc4cd6d2548a1018",
+          "bytes": 7897,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "8e59ad47266ebc61b0fcaeeca8f273776198db43946e85f9e47ae723cd5c482e",
+          "source_sha256": "4cb47eaf8fb7e0d5e7c4d933562e0ac7f976adbbf30c24de42076d0a1855e6fd",
+          "bytes": 6353,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "7d644f0407bb516932f9e3936e016cc82c419df1d344643db74574b4f850aada",
+          "source_sha256": "1bd67d3a90747a9a9b21d1d9b8108077bc924499dc7df263bfdd60c35761dda1",
+          "bytes": 6317,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "2539c72a631cad8fb715ccb829694c41a59b9c9bc34bcc47794883732549eb18",
+          "source_sha256": "de184789a568be6da44c251ab4fc881cd602d75192e975e146048b628a518176",
+          "bytes": 5639,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "179923447c0368e3a8b76b80f4c11973a6dca1ef6f363f17e179f08136e7a67e",
+          "source_sha256": "93ec1159ee7e920d2834a9a5112abf8123e5295e52ae66961af70f1a2c5ff249",
+          "bytes": 6414,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "b5e56637f84a491b9392fbb2dd7e47f64b458874872d29de35b91dc587ef4b92",
+          "source_sha256": "4ca5192acf5df1f50952125abe25b6143766e17a511c775b308bb00e8e0a31d7",
+          "bytes": 6299,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "592fad7e75c02b1f19ede93b6e7b67b9a3d4b459e32c73bea305d44d7aa6c5f5",
+          "source_sha256": "b7cb90755abbb664bf974e305f0fdc52c07b110ab74c9052d80bf32fd0a9c285",
+          "bytes": 7645,
+          "sections": 7
+        }
+      }
+    },
+    "vi": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "ea737161f13f08a95fe4407ef332198d3add52674822dcb760f1c0a8a50892e5",
+          "source_sha256": "eb5df718c6978c41813864890f88d9ba50536afc3a4376fa113fb90cee72719b",
+          "bytes": 12202,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "1d70ce10ba5618d02141819582aff86c86d3b9f1419b23add3f0c008c2b1defb",
+          "source_sha256": "7f34fa8073afac4c624811415e52164077983f0afd0245786380e52377debf8f",
+          "bytes": 11943,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "29b3e265da5651427a65727720bf71c8bdb3de319123a6318695714924a6b692",
+          "source_sha256": "a7247b50fc46b8d0f4d2625cf540e8a8b9832cd082b3ee1288530b892d28293f",
+          "bytes": 6485,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "8b21fc35131c150b80053d929c5ccf4569132ad48eee10a93dc44ff255a199ca",
+          "source_sha256": "77103ed3d16a62ddde37c7d75cd1e42d9ad931323fd6b8fc43c3bc0aab5c209a",
+          "bytes": 2839,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "520c0acfbe29dfb088ddd9a74170caa33dd43c200d2822f9379d5bc63823c7f0",
+          "source_sha256": "dac3c5cfa4cd52a6813482f30ef2902a8e27bc0c84e3129ee039bbcbae6684f3",
+          "bytes": 5128,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "b140de4d0d5c1b1e96836264a2f928d47d32dfb5d79bc85a714953d412a140bf",
+          "source_sha256": "c99e91e9f26ed209c2b2c7050b499d5c4582c44f21507243cc43329fbd02e36c",
+          "bytes": 4207,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "d2ae8e7875d0027f83fa021ea37a572e09efd89ac2e7d72db542629a511538ef",
+          "source_sha256": "4c13f637e3a95435f95f2e9f1f471aa5688ab2d151c1320b1355174ece484dee",
+          "bytes": 4031,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "e441ed66b6d2e1b60b3628e0fa6e64cbbfddb3a1ea1d6dbd29f285e6175619a8",
+          "source_sha256": "b695cb7be81f66137bce52b5a62e53b2a878dc353064c363b1b475ee324b15c2",
+          "bytes": 3636,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "48fe4f09c1ba837b5c3af63c5f80439cd09d5ca01441e54b8ac2b42e14cdb91f",
+          "source_sha256": "d704fd35ac04b2720f46233e8fd59c68f2b0a02411538213bfc7d50536109517",
+          "bytes": 4372,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "0f0518cae4d11664fcdf29b78f9d305433f8723dea2d1ba9913fcb4fa2fe0a0a",
+          "source_sha256": "8503b081f2e2701c0827933e52353c995d62caddb434f4758fce85396e2d410c",
+          "bytes": 4058,
+          "sections": 6
+        },
+        "jurisdiction_privacy_supplement": {
+          "file": "jurisdiction-privacy.html",
+          "sha256": "ac7292a0eefa7cbdbf2d51867655f3836c1bbe3f6bf91dea611a78b34c089969",
+          "source_sha256": "f4eea4a794e8ae5e22db291f07cad9ed6687bbacf2b385f8b110cac75a97dae3",
+          "bytes": 4942,
+          "sections": 7
+        }
+      }
+    },
+    "ca": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "73967a71575fdf05b7b1cd3735d656df8e2596399bc43bc3c805b7e6689289d9",
+          "source_sha256": "746c4aa344a2e8205bc8a6ee4d67520099cc5f615cce6e10dc0306a5d03f1f8c",
+          "bytes": 10467,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "8f56cb1de6ec4800dc57b9cd01e922ce14de3e095cf7dcf169fd1ee42586592a",
+          "source_sha256": "028bc8f5956d708e68feff9cf386db7728c6c72934a9eba1a4e4a53e4281b4cd",
+          "bytes": 10447,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "da12b16a42c80cefb082adca968155190968278aafa236b4e04010554ecb23e6",
+          "source_sha256": "aad019ae185f7da931322ff8b1cd2fc37694da05b268f07abaa30d822e42c71a",
+          "bytes": 5616,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "2353f37790f26e7453a029960f74fa1d7ce916a50e8716e4110dbd1c91f69f3e",
+          "source_sha256": "475cb25da82d2a526140e68dd752eb3432b87e72e1baedd1eb2438fcba41da69",
+          "bytes": 2645,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "d92eb3982907b7c7a7968bf80237c2cfcf94eaeabf8e1a1be863841a5a570385",
+          "source_sha256": "aa18726ed14e2d3050ad18bcea5fc720ab84e03d4b62f70eec4cb9ce63718c07",
+          "bytes": 4761,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "c3ddaa685e24c0354724f4dc183662b20476b532473e6d9ec26ec8db5ed169e0",
+          "source_sha256": "5c00538c32e6699f6bc62d9642b7ed05f5931c705f540b89bea293d5f13349a4",
+          "bytes": 3789,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "51c2db21cee8db0902cd4a26b6401328ad1f6ddf6ae06cc20801bacacc568136",
+          "source_sha256": "0f3e72294136c2822b892d51526875d953c32ea9e3a295434c1ba72b1ee10ca2",
+          "bytes": 3698,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "c54c67a6c23ab5b88772919664fdf7fad74fb2727d32d6396c487af32bba7519",
+          "source_sha256": "f3143f05298aa0d2dd531b36039e635ab5ba00902b1f69d0ffbce604e5c2f7a9",
+          "bytes": 3256,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "24163b067490010fcad018593b45ab8206d35d56e20c514e5fd642fb2f53b89b",
+          "source_sha256": "eaf074cbcecf63d2662805e291e2e3d81ad5d0907b66bfdb7d02b5b5f67b0977",
+          "bytes": 4082,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "aa3a08b69861ff306eab354fdb76e92031263a6810e1af4da8ef5527a875a27d",
+          "source_sha256": "dce60d36d2da2119b6998fc27af96b27c0aaeb6296301bb40afb6bf33f82c0be",
+          "bytes": 3671,
+          "sections": 6
+        },
+        "jurisdiction_consumer_supplement": {
+          "file": "consumer-language-supplement.html",
+          "sha256": "81973cbb406734dad53f4b9f329f404ccf343821f663d181dc25180a38c797b7",
+          "source_sha256": "a1c865bace2363c246a5a81fa80d4f6d29fb20935738b59603a0523a48965c5c",
+          "bytes": 3761,
+          "sections": 5
+        }
+      }
+    },
+    "eu": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "e0b90077fc16f9477244ec50dfc263d78eeb09bbd8ac8d834184237c77abc821",
+          "source_sha256": "91dd9b13cb04fdd430c21dde834deb7b660dafe2ef76e596c8dd9f49eeb0f9e1",
+          "bytes": 10639,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "5feb648c8328f6355db0db102e5d75e3d61932e82f5e5a098f1904084c1ce2b8",
+          "source_sha256": "8a4f96b121cd11fc7b21caafecf194adfce9a0b7754c212b08361d24d7885f85",
+          "bytes": 10590,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "77c88d4b0be5a5ead804402a80576d425ecd697e321b92a1f75cef4f0127acd4",
+          "source_sha256": "3dd3a4dfa3e10f7f2bc8dceec6c3281e5920461ba6fbb8f88d46e2c3b2e775d2",
+          "bytes": 5728,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "7ac736e117d2e05377db7f3aff9151e216708de1294ae6bac1443d31a3e93f81",
+          "source_sha256": "54d8047e06582b08006126b8b8801ff8e34e40481e15e273cf80314fcf050e0c",
+          "bytes": 2631,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "cf602da34c7ee9332b33a41912181cbd7a996f2ca11e670c3f985b86aa6585fd",
+          "source_sha256": "aaae5011e0b63a83afad2b9d34be4b28dab424d74bf7209737a915d1d9e09cf9",
+          "bytes": 4765,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "305a74d6e82c3f2277c5fcf9726f6c7fddb11b4fbcac7fa3ff19fa12213ab117",
+          "source_sha256": "9cf9cf6e3695bcb53e6b9bc2bb4e1da5201586a6cb930290aa487f266f893707",
+          "bytes": 3775,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "66183b05070fed9fb9f95b3f3c992ce0738acff493b4ad62eef271668370b0bc",
+          "source_sha256": "620141284283e72b96c491d81cd939c34c39dc59a58ed0d27526f8e423b6875f",
+          "bytes": 3758,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "2233741354154975200af68db08bf7a74a3c4d7e035b3de179a904f71ebb29c8",
+          "source_sha256": "39b2939d99884e1c7eb86f94707e0d20e6d5f70e4d5a97e89906ca5eb13a1125",
+          "bytes": 3321,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "a0c6cdca3868ef5144f2263efc88916a0b0b8b542987a1ace8b6f584bc8519cb",
+          "source_sha256": "c40b27bd3eed95e38a0892725fe4397b8a0aee38d85c3d81f7007401c26b46bd",
+          "bytes": 3960,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "a1b3b8a0d3e1b79b68f05adae599af6dbac63e9749e91b57b37157ecee0734da",
+          "source_sha256": "64e27b2b0992e97998ecb1c8a942dda3b6fc65483d456f9a9f40dde337919dc4",
+          "bytes": 3735,
+          "sections": 6
+        },
+        "jurisdiction_consumer_supplement": {
+          "file": "consumer-language-supplement.html",
+          "sha256": "4e153e7b192545ca5c44adfdff95f2a7d40b2272d5dd24d1e8ad899b57b141d6",
+          "source_sha256": "1c53fd54a4657caa04f0e36c4da64ab939a80f5693bf30fd1ca4a8241179880f",
+          "bytes": 3921,
+          "sections": 5
+        }
+      }
+    },
+    "gl": {
+      "documents": {
+        "terms": {
+          "file": "terms.html",
+          "sha256": "c32be9dd7d199f10f36e71731cab95822e43510f7286718d700690622e2ced44",
+          "source_sha256": "e04f33aa298d0667055d25a592b4f8b0f181c9dd5efe190a118083593211011b",
+          "bytes": 10586,
+          "sections": 17
+        },
+        "privacy_notice": {
+          "file": "privacy.html",
+          "sha256": "9ad6b2711a518bf69fbc8510b3b25e82d96f7dea787795c9d388e71ea140718a",
+          "source_sha256": "afb4ae0f89e49fb763236758358fcbbba5bd4c58e5f4ebb9c0c2df40e61403c8",
+          "bytes": 10514,
+          "sections": 16
+        },
+        "community_guidelines": {
+          "file": "community-guidelines.html",
+          "sha256": "8a5d62a76afd122a73b806ff9680625b6dfac414c247a18a31d0c1b4d11aca74",
+          "source_sha256": "a202697840a4325643168e7155119ecac8e2d6a67124520ea6215d8a2f646662",
+          "bytes": 5585,
+          "sections": 9
+        },
+        "marketing_push_consent": {
+          "file": "marketing-push-consent.html",
+          "sha256": "638e186897327c00122829ca38a5f78bde787d76e25a5bbf2f8b54afd622a8e6",
+          "source_sha256": "a2a9b62adf4cabc87459316c176c9b3960bc0a158c97c1720346eead9153c728",
+          "bytes": 2665,
+          "sections": 1
+        },
+        "subscription_consumer": {
+          "file": "subscription-consumer.html",
+          "sha256": "01fd94dc66672d6c24123c700c131dc49630b15053062f02fe47141ebe6d3f04",
+          "source_sha256": "eb57bb6d2fed1d46440c6604eea961fd352183cd6b09371477dff24e609ebfb3",
+          "bytes": 4728,
+          "sections": 8
+        },
+        "moderation_appeals": {
+          "file": "moderation-appeals.html",
+          "sha256": "ca130813f944d4418f6af89f4a21f0cb46ad728513a82f9cf714d3784b7b47b2",
+          "source_sha256": "0bbb28c36bb9efd9f00b9aff6e96e4675d8a1a3e272041a8ecb68d97fb393f9c",
+          "bytes": 3793,
+          "sections": 5
+        },
+        "intellectual_property": {
+          "file": "intellectual-property.html",
+          "sha256": "e1813e57d57275c440877bcc632c6d48717742ce30f1988678e8b7ef8d2af491",
+          "source_sha256": "2e9f1f8436ce0119fe422fddc95d346bf3c195b9d8df5e5ad474af381e90a97f",
+          "bytes": 3736,
+          "sections": 5
+        },
+        "accessibility": {
+          "file": "accessibility.html",
+          "sha256": "668193c2da88b209b85f5f424573210082ec2ae935ff57af16a8df734a1b3782",
+          "source_sha256": "caa8cd4191670e1d88623193793f12f5064d2644859d4eb42d02fbd33e6031c4",
+          "bytes": 3327,
+          "sections": 4
+        },
+        "account_deletion": {
+          "file": "delete-account.html",
+          "sha256": "f37d70bd16e700dbbecc545043317951afe449e9bd3770e094c048d1be94fb39",
+          "source_sha256": "b62b070a647d4edb4c011eb28762dff55ae3dc32c37623eebff531ee9b81d5ea",
+          "bytes": 4131,
+          "sections": 2
+        },
+        "support": {
+          "file": "support.html",
+          "sha256": "24e997abe6cab32cfcb4876a5c4398fa1037e4d2d24a5daf0161a7a219c3cd6c",
+          "source_sha256": "276244a006a57971e1907848bbd5ae71346af8756c8eb54732da650878405f61",
+          "bytes": 3707,
+          "sections": 6
+        },
+        "jurisdiction_consumer_supplement": {
+          "file": "consumer-language-supplement.html",
+          "sha256": "efc850bbcbe7a1550838e801c093589708a5a9475554d132f2992d4413b3227e",
+          "source_sha256": "cfda417fa2ad805633ea657d35c95cc806e071a9888ff0b0984cdeced0cb7186",
+          "bytes": 3768,
+          "sections": 5
+        }
+      }
+    }
+  }
+}

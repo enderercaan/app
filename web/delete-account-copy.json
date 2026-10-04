@@ -1,0 +1,222 @@
+{
+  "en": {
+    "label": "Email used for your Tailmance account",
+    "hint": "Enter only the email address associated with your account. This form does not reveal the existence of an account to third parties.",
+    "button": "Submit deletion request",
+    "unconfigured": "The deletion-request service is not yet connected to the production web endpoint. Please use the in-app account-deletion route.",
+    "verification": "Please complete the security verification.",
+    "sending": "Sending…",
+    "success": "Your request has been received. It will be processed after account ownership is verified.",
+    "failure": "The request could not be sent right now. Please try again later or use the in-app deletion route."
+  },
+  "es": {
+    "label": "Correo electrónico usado en tu cuenta de Tailmance",
+    "hint": "Introduce únicamente el correo asociado a tu cuenta. Este formulario no revela a terceros la existencia de una cuenta.",
+    "button": "Enviar solicitud de eliminación",
+    "unconfigured": "El servicio de solicitudes de eliminación aún no está conectado al endpoint web de producción. Usa la opción de eliminación de cuenta dentro de la aplicación.",
+    "verification": "Completa la verificación de seguridad.",
+    "sending": "Enviando…",
+    "success": "Hemos recibido tu solicitud. Se tramitará después de verificar la titularidad de la cuenta.",
+    "failure": "No se pudo enviar la solicitud en este momento. Inténtalo de nuevo más tarde o usa la opción de eliminación dentro de la aplicación."
+  },
+  "pt-BR": {
+    "label": "E-mail usado na sua conta Tailmance",
+    "hint": "Digite apenas o endereço de e-mail associado à sua conta. Este formulário não revela a terceiros a existência de uma conta.",
+    "button": "Enviar solicitação de exclusão",
+    "unconfigured": "O serviço de solicitação de exclusão ainda não está conectado ao endpoint web de produção. Use a opção de exclusão de conta no aplicativo.",
+    "verification": "Conclua a verificação de segurança.",
+    "sending": "Enviando…",
+    "success": "Sua solicitação foi recebida. Ela será processada após a verificação da titularidade da conta.",
+    "failure": "Não foi possível enviar a solicitação agora. Tente novamente mais tarde ou use a opção de exclusão no aplicativo."
+  },
+  "fr": {
+    "label": "Adresse e-mail utilisée pour votre compte Tailmance",
+    "hint": "Saisissez uniquement l’adresse e-mail associée à votre compte. Ce formulaire ne révèle pas à des tiers l’existence d’un compte.",
+    "button": "Envoyer la demande de suppression",
+    "unconfigured": "Le service de demande de suppression n’est pas encore connecté au point de terminaison web de production. Utilisez la procédure de suppression de compte dans l’application.",
+    "verification": "Veuillez terminer la vérification de sécurité.",
+    "sending": "Envoi…",
+    "success": "Votre demande a été reçue. Elle sera traitée après vérification de la propriété du compte.",
+    "failure": "La demande n’a pas pu être envoyée pour le moment. Réessayez plus tard ou utilisez la procédure de suppression dans l’application."
+  },
+  "de": {
+    "label": "Für dein Tailmance-Konto verwendete E-Mail-Adresse",
+    "hint": "Gib ausschließlich die mit deinem Konto verknüpfte E-Mail-Adresse ein. Dieses Formular legt Dritten das Bestehen eines Kontos nicht offen.",
+    "button": "Löschantrag absenden",
+    "unconfigured": "Der Dienst für Löschanträge ist noch nicht mit dem produktiven Web-Endpunkt verbunden. Nutze bitte den Weg zur Kontolöschung in der App.",
+    "verification": "Bitte schließe die Sicherheitsprüfung ab.",
+    "sending": "Wird gesendet…",
+    "success": "Dein Antrag wurde empfangen. Er wird bearbeitet, nachdem die Kontoinhaberschaft verifiziert wurde.",
+    "failure": "Der Antrag konnte derzeit nicht gesendet werden. Versuche es später erneut oder nutze die Kontolöschung in der App."
+  },
+  "it": {
+    "label": "E-mail usata per il tuo account Tailmance",
+    "hint": "Inserisci soltanto l’indirizzo e-mail associato al tuo account. Questo modulo non rivela a terzi l’esistenza di un account.",
+    "button": "Invia richiesta di eliminazione",
+    "unconfigured": "Il servizio per le richieste di eliminazione non è ancora collegato all’endpoint web di produzione. Usa la procedura di eliminazione dell’account nell’app.",
+    "verification": "Completa la verifica di sicurezza.",
+    "sending": "Invio in corso…",
+    "success": "La richiesta è stata ricevuta. Sarà elaborata dopo la verifica della titolarità dell’account.",
+    "failure": "Al momento non è stato possibile inviare la richiesta. Riprova più tardi o usa la procedura di eliminazione nell’app."
+  },
+  "ru": {
+    "label": "Адрес электронной почты учетной записи Tailmance",
+    "hint": "Введите только адрес электронной почты, связанный с вашей учетной записью. Эта форма не раскрывает третьим лицам наличие учетной записи.",
+    "button": "Отправить запрос на удаление",
+    "unconfigured": "Сервис запросов на удаление еще не подключен к рабочему веб-адресу. Используйте удаление учетной записи в приложении.",
+    "verification": "Завершите проверку безопасности.",
+    "sending": "Отправка…",
+    "success": "Запрос получен. Он будет обработан после подтверждения владения учетной записью.",
+    "failure": "Сейчас запрос отправить не удалось. Повторите попытку позже или используйте удаление учетной записи в приложении."
+  },
+  "tr": {
+    "label": "Tailmance hesabında kullandığın e-posta",
+    "hint": "Yalnız hesabınla ilişkili e-posta adresini gir. Bu form hesabın varlığını üçüncü kişilere açıklamaz.",
+    "button": "Silme talebi gönder",
+    "unconfigured": "Silme talebi hizmeti henüz üretim web uç noktasına bağlanmamış. Lütfen uygulama içindeki hesap silme yolunu kullan.",
+    "verification": "Lütfen güvenlik doğrulamasını tamamla.",
+    "sending": "Gönderiliyor…",
+    "success": "Talebin alındı. Hesap sahipliği doğrulandıktan sonra işlem yürütülecek.",
+    "failure": "Talep şu anda gönderilemedi. Lütfen daha sonra tekrar dene veya uygulama içindeki silme yolunu kullan."
+  },
+  "ar": {
+    "label": "البريد الإلكتروني المستخدم لحساب Tailmance",
+    "hint": "أدخل فقط عنوان البريد الإلكتروني المرتبط بحسابك. لا يكشف هذا النموذج للغير ما إذا كان الحساب موجودًا.",
+    "button": "إرسال طلب الحذف",
+    "unconfigured": "خدمة طلبات الحذف غير مرتبطة بعد بنقطة الويب الإنتاجية. استخدم مسار حذف الحساب داخل التطبيق.",
+    "verification": "يرجى إكمال التحقق الأمني.",
+    "sending": "جارٍ الإرسال…",
+    "success": "تم استلام طلبك. ستتم معالجته بعد التحقق من ملكية الحساب.",
+    "failure": "تعذر إرسال الطلب الآن. حاول لاحقًا أو استخدم مسار الحذف داخل التطبيق."
+  },
+  "hi": {
+    "label": "आपके Tailmance खाते में उपयोग किया गया ईमेल",
+    "hint": "केवल अपने खाते से जुड़ा ईमेल पता दर्ज करें। यह फ़ॉर्म किसी तीसरे पक्ष को खाते के अस्तित्व की जानकारी नहीं देता।",
+    "button": "हटाने का अनुरोध भेजें",
+    "unconfigured": "हटाने-अनुरोध सेवा अभी उत्पादन वेब एंडपॉइंट से जुड़ी नहीं है। कृपया ऐप के भीतर खाता हटाने का मार्ग उपयोग करें।",
+    "verification": "कृपया सुरक्षा सत्यापन पूरा करें।",
+    "sending": "भेजा जा रहा है…",
+    "success": "आपका अनुरोध प्राप्त हो गया है। खाता स्वामित्व सत्यापित होने के बाद इसे संसाधित किया जाएगा।",
+    "failure": "अभी अनुरोध भेजा नहीं जा सका। बाद में फिर कोशिश करें या ऐप के भीतर हटाने का मार्ग उपयोग करें।"
+  },
+  "id": {
+    "label": "Email yang digunakan untuk akun Tailmance Anda",
+    "hint": "Masukkan hanya alamat email yang terkait dengan akun Anda. Formulir ini tidak mengungkapkan kepada pihak ketiga apakah suatu akun ada.",
+    "button": "Kirim permintaan penghapusan",
+    "unconfigured": "Layanan permintaan penghapusan belum terhubung ke endpoint web produksi. Gunakan jalur penghapusan akun di aplikasi.",
+    "verification": "Selesaikan verifikasi keamanan.",
+    "sending": "Mengirim…",
+    "success": "Permintaan Anda telah diterima. Permintaan akan diproses setelah kepemilikan akun diverifikasi.",
+    "failure": "Permintaan tidak dapat dikirim saat ini. Coba lagi nanti atau gunakan jalur penghapusan di aplikasi."
+  },
+  "ja": {
+    "label": "Tailmance アカウントで使用しているメールアドレス",
+    "hint": "アカウントに関連付けられたメールアドレスのみを入力してください。このフォームは、アカウントの存在を第三者に開示しません。",
+    "button": "削除リクエストを送信",
+    "unconfigured": "削除リクエストサービスは、まだ本番のウェブエンドポイントに接続されていません。アプリ内のアカウント削除手続を利用してください。",
+    "verification": "セキュリティ確認を完了してください。",
+    "sending": "送信中…",
+    "success": "リクエストを受け付けました。アカウント所有者の確認後に処理します。",
+    "failure": "現在リクエストを送信できません。後でもう一度試すか、アプリ内の削除手続を利用してください。"
+  },
+  "ko": {
+    "label": "Tailmance 계정에 사용한 이메일",
+    "hint": "계정과 연결된 이메일 주소만 입력하십시오. 이 양식은 제3자에게 계정 존재 여부를 공개하지 않습니다.",
+    "button": "삭제 요청 보내기",
+    "unconfigured": "삭제 요청 서비스가 아직 운영 웹 엔드포인트에 연결되지 않았습니다. 앱 내 계정 삭제 경로를 이용하십시오.",
+    "verification": "보안 확인을 완료하십시오.",
+    "sending": "전송 중…",
+    "success": "요청이 접수되었습니다. 계정 소유권 확인 후 처리됩니다.",
+    "failure": "현재 요청을 전송할 수 없습니다. 나중에 다시 시도하거나 앱 내 삭제 경로를 이용하십시오."
+  },
+  "zh-Hans": {
+    "label": "Tailmance 账户使用的电子邮件",
+    "hint": "仅输入与您的账户关联的电子邮件地址。此表单不会向第三方披露账户是否存在。",
+    "button": "提交删除请求",
+    "unconfigured": "删除请求服务尚未连接到生产网页端点。请使用应用内的账户删除途径。",
+    "verification": "请完成安全验证。",
+    "sending": "正在发送…",
+    "success": "已收到您的请求。账户所有权验证后将进行处理。",
+    "failure": "目前无法发送请求。请稍后重试或使用应用内删除途径。"
+  },
+  "zh-Hant": {
+    "label": "Tailmance 帳戶使用的電子郵件",
+    "hint": "僅輸入與您的帳戶相關聯的電子郵件地址。此表單不會向第三方揭露帳戶是否存在。",
+    "button": "送出刪除要求",
+    "unconfigured": "刪除要求服務尚未連接至正式環境的網頁端點。請使用應用程式內的帳戶刪除途徑。",
+    "verification": "請完成安全驗證。",
+    "sending": "傳送中…",
+    "success": "已收到您的要求。確認帳戶所有權後將進行處理。",
+    "failure": "目前無法傳送要求。請稍後再試，或使用應用程式內的刪除途徑。"
+  },
+  "nl": {
+    "label": "E-mailadres dat je voor je Tailmance-account gebruikt",
+    "hint": "Vul alleen het e-mailadres in dat aan je account is gekoppeld. Dit formulier maakt aan derden niet bekend of een account bestaat.",
+    "button": "Verwijderingsverzoek indienen",
+    "unconfigured": "De dienst voor verwijderingsverzoeken is nog niet gekoppeld aan het productie-webendpoint. Gebruik de route voor accountverwijdering in de app.",
+    "verification": "Voltooi de beveiligingscontrole.",
+    "sending": "Wordt verzonden…",
+    "success": "Je verzoek is ontvangen. Het wordt verwerkt nadat het eigendom van het account is geverifieerd.",
+    "failure": "Het verzoek kon nu niet worden verzonden. Probeer het later opnieuw of gebruik de verwijderingsroute in de app."
+  },
+  "pl": {
+    "label": "Adres e-mail używany w Twoim koncie Tailmance",
+    "hint": "Wpisz wyłącznie adres e-mail powiązany z Twoim kontem. Formularz nie ujawnia osobom trzecim istnienia konta.",
+    "button": "Wyślij wniosek o usunięcie",
+    "unconfigured": "Usługa wniosków o usunięcie nie jest jeszcze połączona z produkcyjnym punktem końcowym WWW. Skorzystaj z usuwania konta w aplikacji.",
+    "verification": "Dokończ weryfikację bezpieczeństwa.",
+    "sending": "Wysyłanie…",
+    "success": "Wniosek został odebrany. Zostanie przetworzony po zweryfikowaniu własności konta.",
+    "failure": "Nie udało się teraz wysłać wniosku. Spróbuj ponownie później albo skorzystaj z usuwania konta w aplikacji."
+  },
+  "th": {
+    "label": "อีเมลที่ใช้กับบัญชี Tailmance ของคุณ",
+    "hint": "กรอกเฉพาะอีเมลที่เชื่อมกับบัญชีของคุณ แบบฟอร์มนี้ไม่เปิดเผยต่อบุคคลที่สามว่ามีบัญชีอยู่หรือไม่",
+    "button": "ส่งคำขอลบ",
+    "unconfigured": "บริการคำขอลบยังไม่ได้เชื่อมต่อกับปลายทางเว็บของระบบจริง โปรดใช้ช่องทางลบบัญชีในแอป",
+    "verification": "โปรดดำเนินการตรวจสอบความปลอดภัยให้เสร็จ",
+    "sending": "กำลังส่ง…",
+    "success": "ได้รับคำขอของคุณแล้ว และจะดำเนินการหลังจากยืนยันความเป็นเจ้าของบัญชี",
+    "failure": "ไม่สามารถส่งคำขอได้ในขณะนี้ โปรดลองอีกครั้งภายหลังหรือใช้ช่องทางลบในแอป"
+  },
+  "vi": {
+    "label": "Email dùng cho tài khoản Tailmance của bạn",
+    "hint": "Chỉ nhập địa chỉ email gắn với tài khoản của bạn. Biểu mẫu này không tiết lộ cho bên thứ ba việc một tài khoản có tồn tại hay không.",
+    "button": "Gửi yêu cầu xóa",
+    "unconfigured": "Dịch vụ yêu cầu xóa chưa được kết nối với điểm cuối web sản xuất. Vui lòng dùng luồng xóa tài khoản trong ứng dụng.",
+    "verification": "Vui lòng hoàn tất xác minh bảo mật.",
+    "sending": "Đang gửi…",
+    "success": "Yêu cầu của bạn đã được tiếp nhận. Yêu cầu sẽ được xử lý sau khi xác minh quyền sở hữu tài khoản.",
+    "failure": "Hiện không thể gửi yêu cầu. Hãy thử lại sau hoặc dùng luồng xóa trong ứng dụng."
+  },
+  "ca": {
+    "label": "Adreça electrònica utilitzada al teu compte de Tailmance",
+    "hint": "Introdueix únicament l’adreça electrònica associada al teu compte. Aquest formulari no revela a terceres persones l’existència d’un compte.",
+    "button": "Envia la sol·licitud de supressió",
+    "unconfigured": "El servei de sol·licituds de supressió encara no està connectat al punt final web de producció. Utilitza la via de supressió del compte dins de l’aplicació.",
+    "verification": "Completa la verificació de seguretat.",
+    "sending": "S’està enviant…",
+    "success": "Hem rebut la teva sol·licitud. Es tramitarà després de verificar la titularitat del compte.",
+    "failure": "La sol·licitud no s’ha pogut enviar ara mateix. Torna-ho a provar més tard o utilitza la via de supressió dins de l’aplicació."
+  },
+  "gl": {
+    "label": "Correo electrónico utilizado na túa conta de Tailmance",
+    "hint": "Introduce unicamente o enderezo de correo electrónico asociado á túa conta. Este formulario non revela a terceiros a existencia dunha conta.",
+    "button": "Enviar solicitude de eliminación",
+    "unconfigured": "O servizo de solicitudes de eliminación aínda non está conectado ao punto final web de produción. Utiliza a vía de eliminación da conta dentro da aplicación.",
+    "verification": "Completa a verificación de seguridade.",
+    "sending": "Enviando…",
+    "success": "Recibimos a túa solicitude. Tramitarase despois de verificar a titularidade da conta.",
+    "failure": "A solicitude non se puido enviar neste momento. Téntao de novo máis tarde ou utiliza a vía de eliminación dentro da aplicación."
+  },
+  "eu": {
+    "label": "Tailmance kontuan erabilitako helbide elektronikoa",
+    "hint": "Sartu zure kontuari lotutako helbide elektronikoa bakarrik. Inprimaki honek ez die hirugarrenei kontu bat dagoen ala ez jakinarazten.",
+    "button": "Bidali ezabatze-eskaera",
+    "unconfigured": "Ezabatze-eskaeren zerbitzua ez dago oraindik ekoizpeneko web amaierako puntura konektatuta. Erabili aplikazio barruko kontua ezabatzeko bidea.",
+    "verification": "Osatu segurtasun-egiaztapena.",
+    "sending": "Bidaltzen…",
+    "success": "Zure eskaera jaso dugu. Kontuaren titulartasuna egiaztatu ondoren izapidetuko da.",
+    "failure": "Eskaera ezin izan da une honetan bidali. Saiatu berriro geroago edo erabili aplikazio barruko ezabatze-bidea."
+  }
+}

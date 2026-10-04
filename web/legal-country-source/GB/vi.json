@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "GB",
+  "country_display_name": "Vương quốc Anh",
+  "document_locale": "vi",
+  "document_language_display_names": "Tiếng Anh",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Phụ lục pháp lý riêng theo khu vực tài phán",
+  "sections": [
+    {
+      "heading": "Phạm vi pháp lý",
+      "paragraphs": [
+        "Phụ lục này áp dụng khi Tailmance xác định Vương quốc Anh là quốc gia có pháp luật áp dụng cho tài khoản của bạn. Tài liệu này bổ sung cho Điều khoản sử dụng, Thông báo quyền riêng tư, Nguyên tắc cộng đồng, thông báo đăng ký và các tài liệu pháp lý khác, chứ không thay thế các tài liệu đó.",
+        "Tailmance áp dụng các nghĩa vụ pháp lý theo quốc gia đã được xác minh đó và, khi cần, theo khuôn khổ pháp lý cấp vùng hoặc địa phương có liên quan. Việc đổi ngôn ngữ ứng dụng, đi du lịch hoặc đổi khu vực cửa hàng không tự động thay đổi pháp luật áp dụng."
+      ]
+    },
+    {
+      "heading": "Ngôn ngữ tài liệu",
+      "paragraphs": [
+        "Các tài liệu pháp lý có tính ràng buộc cho cấu hình pháp lý này được cung cấp bằng các ngôn ngữ bắt buộc: Tiếng Anh. Khi phải sử dụng một ngôn ngữ cụ thể, Tailmance không tự động thay thế bằng ngôn ngữ khác mà không thông báo.",
+        "Phiên bản này được cung cấp dưới dạng bản dịch hỗ trợ khả năng tiếp cận. Phiên bản này không thay thế bản bằng ngôn ngữ bắt buộc khi pháp luật áp dụng hoặc cấu hình pháp lý này yêu cầu."
+      ]
+    },
+    {
+      "heading": "Yêu cầu pháp lý riêng theo quốc gia",
+      "paragraphs": [
+        "Hai mươi hai lĩnh vực yêu cầu pháp lý được rà soát cho quốc gia áp dụng dựa trên các nguồn chính thức có thể xác định rõ. Pháp luật hiện hành và ngày có hiệu lực được tách biệt với đề xuất, dự thảo tham vấn và biện pháp trong tương lai; đề xuất không bao giờ được coi là pháp luật hiện hành.",
+        "Ngày rà soát nguồn: 1 tháng 10 năm 2026. Các biện pháp tương lai, dự thảo và tham vấn được theo dõi riêng và không được trình bày như pháp luật hiện hành."
+      ]
+    },
+    {
+      "heading": "Khung pháp lý đã được rà soát",
+      "paragraphs": [
+        "Dưới đây là các khung pháp lý chính được ghi nhận trong quá trình Tailmance rà soát nguồn chính thức cho quốc gia áp dụng. Việc được liệt kê chỉ thể hiện phạm vi rà soát: một quy tắc hiện đang có hiệu lực, sẽ có hiệu lực trong tương lai, mới ở giai đoạn đề xuất hay chỉ áp dụng khi có điều kiện hẹp hơn được xác định bằng các kiểm soát về ngày hiệu lực và phạm vi áp dụng chính xác, không bao giờ chỉ suy ra từ danh sách này."
+      ],
+      "items": [
+        "UK GDPR",
+        "Data Protection Act 2018",
+        "ICO International Transfers guidance",
+        "Online Safety Act 2023",
+        "Ofcom Online Safety guidance"
+      ]
+    },
+    {
+      "heading": "Quyền riêng tư, an toàn và quyền của người dùng",
+      "paragraphs": [
+        "Quyền riêng tư, yêu cầu dữ liệu, xóa tài khoản và dữ liệu, chuyển dữ liệu quốc tế, xác minh độ tuổi, tiếp thị điện tử cùng nghĩa vụ bảo mật và thông báo vi phạm được áp dụng theo đúng bối cảnh pháp lý. Hãy sử dụng Trung tâm pháp lý trong ứng dụng để xem thông báo, xuất và xóa dữ liệu.",
+        "Kiểm tra sức khỏe có hỗ trợ AI. Mọi hoạt động kiểm tra giấy tờ tiêm chủng hoặc giấy tờ thú y có hỗ trợ AI chỉ là công cụ hỗ trợ tự động mang tính sơ bộ. Nó không đưa ra quyết định cuối cùng, ràng buộc hay có giá trị pháp lý, và không phải là khám thú y, chẩn đoán, chứng nhận hay bảo đảm về tình trạng sức khỏe hoặc tiêm chủng của vật nuôi. AI có thể mắc lỗi, bỏ sót sai sót hoặc đọc sai giấy tờ. Kết quả chưa rõ hoặc bị tranh chấp sẽ do con người xem xét, và dấu hiệu “đã xem xét giấy tờ” chỉ có nghĩa là giấy tờ đã được kiểm tra. Các quyết định về sức khỏe cần dựa vào bác sĩ thú y có giấy phép hành nghề, và không nên trì hoãn chăm sóc vì một kết quả hiển thị trong ứng dụng."
+      ]
+    },
+    {
+      "heading": "Đăng ký và thông tin người tiêu dùng",
+      "paragraphs": [
+        "Cửa hàng ứng dụng được dùng để mua là nguồn tham chiếu cho giá đăng ký hiển thị, đơn vị tiền tệ và cách hiển thị thuế áp dụng. Thông tin bắt buộc về gia hạn, hủy và trước giao kết được hiển thị trước khi mua. Tailmance không bán động vật hoặc hàng hóa vật lý và không xử lý thanh toán giữa người dùng cho việc bán động vật."
+      ]
+    },
+    {
+      "heading": "Phúc lợi động vật và không thương mại",
+      "paragraphs": [
+        "Cấm bán động vật thương mại và các chợ dành cho hoạt động nhân giống thương mại. Việc phối giống do chủ nuôi tự sắp xếp chỉ khả dụng khi đáp ứng các yêu cầu áp dụng của quốc gia về phúc lợi động vật, nhân giống, sức khỏe, quan hệ huyết thống và điều kiện; nếu không, tính năng vẫn bị chặn."
+      ]
+    },
+    {
+      "heading": "Liên hệ và nguồn chính thức",
+      "paragraphs": [
+        "Câu hỏi về các thông báo này hoặc yêu cầu quyền riêng tư có thể gửi tới yektaozel@icloud.com. Các nguồn chính thức được sử dụng cho lần rà soát pháp lý này được liệt kê bên dưới."
+      ],
+      "official_sources": [
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/",
+        "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+        "https://www.legislation.gov.uk/ukpga/2015/15/contents",
+        "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/childrens-access-assessment-duties-under-the-online-safety-act",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance",
+        "https://www.ofcom.org.uk/online-safety/protecting-children/protection-of-children-duties-under-the-online-safety-act",
+        "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
+        "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation/outcome/growing-up-in-the-online-world-progress-statement",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/selling-animals-as-pets-licensing-statutory-guidance-for-local-authorities--2",
+        "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/dog-breeding-licensing-statutory-guidance-for-local-authorities",
+        "https://www.gov.uk/government/collections/devolution-scotland-wales-and-northern-ireland",
+        "https://www.gov.uk/government/publications/action-plan-for-animal-welfare/action-plan-for-animal-welfare",
+        "https://www.legislation.gov.uk/asp/2006/11/contents",
+        "https://www.legislation.gov.uk/nia/2011/16/contents",
+        "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+        "https://www.legislation.gov.uk/uksi/2013/3134",
+        "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/",
+        "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+        "https://www.legislation.gov.uk/uksi/2002/2013/regulation/19",
+        "https://www.legislation.gov.uk/uksi/2003/2498/regulation/27",
+        "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/",
+        "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/online-safety-regulatory-documents",
+        "https://www.gov.uk/government/publications/financial-sanctions-general-guidance/uk-financial-sanctions-general-guidance"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "1c10c4656d3ffcb9ab4cfe6ecb8ac8ad44f6a66b4d3929f7403a20e20f91531f",
+  "official_source_count": 49,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "UK GDPR",
+    "Data Protection Act 2018",
+    "ICO International Transfers guidance",
+    "Online Safety Act 2023",
+    "Ofcom Online Safety guidance"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en"
+  ],
+  "display_language_name": "Tiếng Việt"
+}

@@ -1,0 +1,3 @@
+-- Tailmance canonical security hardening history marker.
+-- The executable SQL formerly staged here was rebased byte-for-byte into canonical migrations 011-024.
+-- Keep this file comment-only. release:migrations fails closed if executable SQL is reintroduced.

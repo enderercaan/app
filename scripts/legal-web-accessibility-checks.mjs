@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import {readFileSync,readdirSync,existsSync} from 'node:fs';
+import path from 'node:path';
+const root='web'; const css=readFileSync('web/styles.css','utf8');
+function walk(dir){let out=[];for(const x of readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,x.name);if(x.isDirectory()){if(x.name==='legal-locales'||x.name==='legal-source')continue;out.push(...walk(p));}else if(x.name.endsWith('.html'))out.push(p);}return out;}
+const htmlFiles=walk(root).sort(); const read=p=>readFileSync(p,'utf8'); const count=(s,re)=>(s.match(re)||[]).length;
+assert.ok(htmlFiles.length>=490,'expected complete root + public legal + localized legal/support web set');
+for(const file of htmlFiles){const html=read(file);assert.match(html,/<!doctype html>/i,`${file}: doctype`);assert.match(html,/<html\s+lang="[a-z]{2}(?:-[A-Za-z0-9]+)?"/i,`${file}: lang`);assert.match(html,/<meta\s+name="viewport"[^>]*width=device-width/i,`${file}: viewport`);assert.match(html,/<title>[^<]+<\/title>/i,`${file}: title`);assert.equal(count(html,/<h1(?:\s|>)/gi),1,`${file}: one h1`);assert.match(html,/<main(?:\s|>)/i,`${file}: main`);assert.match(html,/Content-Security-Policy/i,`${file}: CSP`);assert.match(html,/object-src 'none'/i,`${file}: object-src`);assert.match(html,/base-uri 'none'/i,`${file}: base-uri`);assert.doesNotMatch(html,/href\s*=\s*["']\s*(?:javascript|data):/i,`${file}: unsafe href`);assert.doesNotMatch(html,/target\s*=\s*["']_blank["']/i,`${file}: no target blank`);for(const m of html.matchAll(/<input\b[^>]*\bid="([^"]+)"[^>]*>/gi)){const id=m[1];assert.match(html,new RegExp(`<label\\b[^>]*for=["']${id}["']`,'i'),`${file}: input ${id} label`);}}
+for(const token of [/a:focus-visible/,/button:focus-visible/,/input:focus-visible/,/outline:\s*3px/,/text-decoration:\s*underline/,/min-height:\s*44px/,/prefers-reduced-motion/,/@media\(max-width:/])assert.match(css,token,`styles missing ${token}`);
+console.log(`legal-web-accessibility-checks: ${htmlFiles.length} public/localized HTML pages + shared keyboard/touch/semantic safeguards PASS`);

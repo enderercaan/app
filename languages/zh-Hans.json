@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance 只会访问你为宠物资料和社交帖子选择的照片。",
+    "NSCameraUsageDescription": "Tailmance 使用相机拍摄宠物照片、发布动态故事以及进行宠物验证。",
+    "NSLocationWhenInUseUsageDescription": "Tailmance 使用你的大致位置，按距离显示附近的宠物。"
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

@@ -1,0 +1,435 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-01",
+  "baseline": "OWASP MASVS/MASTG + MASWE v1.0.0; Apple/Google platform integrity, privacy and store-security guidance; Tailmance source/runtime scope",
+  "policy": "implement applicable controls; explicitly document controls that are absent by architecture instead of adding unused attack surface",
+  "controls": {
+    "mfa_totp_and_phone": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "supabase/config.toml",
+        "src/screens/MfaSettingsScreen.tsx",
+        "src/screens/MfaChallengeScreen.tsx"
+      ]
+    },
+    "oauth_oidc_apple_google": {
+      "status": "IMPLEMENTED_LINKED_IDENTITY_FAIL_CLOSED",
+      "evidence": [
+        "src/services/auth.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "short_access_jwt": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_DEPLOYMENT_VERIFY",
+      "detail": "Supabase source config jwt_expiry=900; hosted config remains release evidence.",
+      "evidence": [
+        "supabase/config.toml",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "refresh_token_rotation": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_DEPLOYMENT_VERIFY",
+      "evidence": [
+        "supabase/config.toml",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "secure_mobile_token_storage": {
+      "status": "IMPLEMENTED",
+      "detail": "Native auth storage uses Expo SecureStore/Keychain/Keystore semantics; web storage is not used as a mobile-token substitute.",
+      "evidence": [
+        "src/services/secureStorage.ts",
+        "src/services/supabase.ts"
+      ]
+    },
+    "immediate_session_revocation": {
+      "status": "IMPLEMENTED",
+      "detail": "Global logout/password reset/operator revocation close the already-issued-JWT grace window through server-side session-id and per-user revocation state.",
+      "evidence": [
+        "supabase/migrations/101_session_revocation_and_auth_security.sql",
+        "supabase/migrations/103_active_auth_session_and_revocation_second_hardening.sql",
+        "supabase/migrations/105_security_risk_evidence_and_operator_session_revocation.sql",
+        "scripts/auth-session-boundary-checks.mjs",
+        "supabase/functions/security-admin/index.ts"
+      ]
+    },
+    "auth_rate_limits_and_bot_challenge": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_DEPLOYMENT_VERIFY",
+      "evidence": [
+        "supabase/config.toml",
+        "src/services/authChallenge.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "tls_cleartext_block": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "app.config.ts",
+        "plugins/withNetworkSecurity.cjs"
+      ]
+    },
+    "certificate_or_spki_pinning": {
+      "status": "CONDITIONAL_RELEASE_DECISION",
+      "detail": "Do not ship brittle single-leaf pins for managed Apple/Google/RevenueCat/Supabase certificates. Production host inventory must document SPKI+backup-pin/rotation feasibility for any first-party endpoint Tailmance actually controls, otherwise a reviewed risk decision is required.",
+      "evidence": [
+        "release/external-security-evidence.json"
+      ]
+    },
+    "websocket_tls": {
+      "status": "IMPLEMENTED_BY_HTTPS_BACKEND_CONFIGURATION",
+      "detail": "Supabase Realtime derives secure transport from the configured HTTPS project origin; cleartext mobile transport is blocked.",
+      "evidence": [
+        "src/services/config.ts",
+        "plugins/withNetworkSecurity.cjs"
+      ]
+    },
+    "private_realtime_chat_authorization": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_REALTIME_SETTING_VERIFY",
+      "detail": "Conversation typing uses a private Supabase Realtime Broadcast channel. realtime.messages SELECT/INSERT policies authorize only authenticated owners of pets in the active match; typing payload carries no client-asserted pet identity and expires client-side. Production must verify the Supabase Realtime Allow public access setting and private-channel behavior on the deployed project.",
+      "evidence": [
+        "supabase/migrations/163_private_realtime_chat_typing_authorization.sql",
+        "src/services/realtime.ts",
+        "scripts/realtime-private-chat-checks.mjs",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "webrtc_srtp_turn": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_PROVIDER_NATIVE_QA_VERIFY",
+      "detail": "Matched-pet audio/video calls use LiveKit/WebRTC with server-authoritative active-session, current legal/product-access, active-match and block-state checks, room-scoped short-lived participant JWTs, native iOS CallKit + PushKit and Android self-managed Telecom/ConnectionService bridges. Terminal call states and account-deletion cascades transactionally enqueue a service-only teardown outbox; a secret-protected worker uses LiveKit Room Service to forcibly delete rooms with retry/backoff. System actions are re-authorized in JS/server state; Expo and APNs VoIP token transports are isolated. Production LiveKit/TURN, scheduled teardown-worker operation/monitoring, real APNs VoIP credentials/delivery, and representative physical-device background/killed-state media/system-call QA remain external release gates. Tailmance does not claim application-layer E2EE.",
+      "evidence": [
+        "modules/tailmance-system-calls/expo-module.config.json",
+        "supabase/migrations/173_push_transport_and_voip_call_delivery.sql",
+        "supabase/functions/_shared/apnsVoip.ts",
+        "scripts/system-call-integration-checks.mjs",
+        "supabase/migrations/176_pet_call_current_access_gate_parity.sql",
+        "supabase/migrations/177_livekit_room_teardown_outbox.sql",
+        "supabase/migrations/178_livekit_teardown_survives_account_deletion.sql",
+        "supabase/functions/livekit-room-reaper/index.ts"
+      ]
+    },
+    "iap_server_authoritative_validation": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_STORE_VERIFY",
+      "detail": "RevenueCat server webhook + subscriber reconciliation are authoritative; client purchase state alone cannot grant server product access.",
+      "evidence": [
+        "supabase/functions/revenuecat-webhook/index.ts",
+        "supabase/functions/sync-subscription/index.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "iap_webhook_hmac_replay_protection": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_DEPLOYMENT_VERIFY",
+      "evidence": [
+        "supabase/functions/revenuecat-webhook/index.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "android_obfuscation_and_shrinking": {
+      "status": "IMPLEMENTED_BUILD_CONFIG_EXTERNAL_BINARY_VERIFY",
+      "evidence": [
+        "app.config.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "ios_release_symbol_hardening": {
+      "status": "IMPLEMENTED_BUILD_CONFIG_EXTERNAL_BINARY_VERIFY",
+      "evidence": [
+        "plugins/withIosReleaseHardening.cjs",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "root_jailbreak_debugger_emulator_detection": {
+      "status": "IMPLEMENTED_AS_UNTRUSTED_RISK_SIGNAL",
+      "detail": "Native heuristics feed server risk evidence but never revoke/ban by themselves; platform attestation remains authoritative for sensitive actions.",
+      "evidence": [
+        "modules/tailmance-device-integrity/android/src/main/java/expo/modules/tailmancedeviceintegrity/TailmanceDeviceIntegrityModule.kt",
+        "modules/tailmance-device-integrity/ios/TailmanceDeviceIntegrityModule.swift",
+        "supabase/migrations/105_security_risk_evidence_and_operator_session_revocation.sql"
+      ]
+    },
+    "apple_app_attest": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_SERVER_VERIFY",
+      "evidence": [
+        "src/services/deviceIntegrity.ts",
+        "supabase/functions/verify-device-integrity/index.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "google_play_integrity": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_SERVER_VERIFY",
+      "evidence": [
+        "src/services/deviceIntegrity.ts",
+        "supabase/functions/verify-device-integrity/index.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "sensitive_screen_capture_protection": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "src/screens/MfaSettingsScreen.tsx",
+        "src/screens/MfaChallengeScreen.tsx",
+        "src/screens/ResetPasswordScreen.tsx",
+        "src/screens/VerificationCenterScreen.tsx",
+        "src/screens/HealthScreen.tsx",
+        "src/screens/ChatScreen.tsx"
+      ]
+    },
+    "clipboard_sensitive_data": {
+      "status": "IMPLEMENTED_BY_NON_USE",
+      "detail": "No auth token/password/private health-document secret is copied to the system clipboard by application code."
+    },
+    "local_database_encryption": {
+      "status": "IMPLEMENTED_SOURCE_NATIVE_BUILD_VERIFY",
+      "detail": "Replay-safe offline social mutations use a native-only SQLCipher SQLite queue. The SQLCipher key is generated with the native OS CSPRNG, stored in SecureStore/Keychain with this-device-only accessibility, bound to the authenticated account, capacity-bounded, and never used for payments, legal consent, account deletion, health verification, boosts, or super-likes. Native release binaries must still verify SQLCipher linkage and background execution on physical iOS/Android devices.",
+      "evidence": [
+        "src/services/offlineMutationQueue.ts",
+        "src/services/offlineSyncTask.ts",
+        "app.config.ts",
+        "scripts/offline-sync-checks.mjs"
+      ]
+    },
+    "production_log_pii_scrubbing": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_SENTRY_VERIFY",
+      "evidence": [
+        "src/services/crashReporting.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "least_privilege_permissions": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "app.config.ts"
+      ]
+    },
+    "account_delete_export_erasure": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_PROVIDER_VERIFY",
+      "evidence": [
+        "supabase/functions/delete-account/index.ts",
+        "supabase/functions/export-data/index.ts",
+        "supabase/functions/export-download/index.ts"
+      ]
+    },
+    "ugc_moderation_block_report": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "supabase/functions/moderate-media/index.ts",
+        "src/services/moderation.ts",
+        "scripts/security-checks.mjs"
+      ]
+    },
+    "message_e2ee": {
+      "status": "DEFERRED_BY_TRUST_SAFETY_ARCHITECTURE",
+      "detail": "Tailmance private messages remain server-readable for report/block/moderation and legal safety workflows. No claim of E2EE is made. A future E2EE design requires a separate abuse-report evidence mechanism and cryptographic review before release."
+    },
+    "crash_anr_monitoring": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_SYMBOLICATION_VERIFY",
+      "evidence": [
+        "src/services/crashReporting.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "image_memory_and_metadata_hardening": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "src/services/uploads.ts",
+        "app.config.ts"
+      ]
+    },
+    "network_timeout_and_idempotent_backoff": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "src/services/supabase.ts",
+        "supabase/functions/_shared/http.ts"
+      ]
+    },
+    "server_input_validation_rate_limits_rls": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "scripts/security-checks.mjs",
+        "scripts/auth-session-boundary-checks.mjs",
+        "supabase/migrations"
+      ]
+    },
+    "web_csp_cors": {
+      "status": "IMPLEMENTED",
+      "evidence": [
+        "web",
+        "supabase/functions/_shared/cors.ts"
+      ]
+    },
+    "security_incident_country_matrix": {
+      "status": "IMPLEMENTED_SOURCE_COUNSEL_TABLETOP_REMAIN_EXTERNAL",
+      "evidence": [
+        "release/security-incident-obligations-v19.json",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "outbound_provider_ssrf_allowlist": {
+      "status": "IMPLEMENTED",
+      "detail": "Moderation, identity-verification and App Attest verifier server calls require credential-free HTTPS, exact DNS-host allowlists, default TLS port and reject localhost/literal-IP targets; identity provider return links use the same allowlist.",
+      "evidence": [
+        "supabase/functions/_shared/outboundUrl.ts",
+        "supabase/functions/moderate-media/index.ts",
+        "supabase/functions/start-owner-verification/index.ts",
+        "supabase/functions/verify-device-integrity/index.ts",
+        "scripts/server-release-config-check.mjs"
+      ]
+    },
+    "operator_external_link_safety": {
+      "status": "IMPLEMENTED",
+      "detail": "Pet-friendly place, partner and commercial-offer URLs are constrained server-side and revalidated on mobile before opening; credential-bearing, localhost, literal-IP and explicit-port links are rejected.",
+      "evidence": [
+        "supabase/migrations/106_safe_external_url_and_outbound_host_hardening.sql",
+        "src/services/externalLinks.ts",
+        "src/screens/PlacesScreen.tsx",
+        "src/screens/EventsScreen.tsx"
+      ]
+    },
+    "web_transport_response_headers": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_HOST_VERIFY",
+      "detail": "Source requests CSP, HSTS, no-referrer, nosniff, frame denial, Permissions-Policy and legacy plugin isolation; deployed header/TLS scan remains external evidence.",
+      "evidence": [
+        "web/_headers",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "edge_log_pii_hygiene": {
+      "status": "IMPLEMENTED",
+      "detail": "Edge production logs are restricted by regression test to fixed non-PII event codes and never serialize request/auth/user/provider payloads.",
+      "evidence": [
+        "scripts/security-checks.mjs",
+        "supabase/functions"
+      ]
+    },
+    "tls_protocol_policy": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_ENDPOINT_VERIFY",
+      "detail": "Tailmance blocks cleartext transport. Production endpoints must support TLS 1.2 or later and should negotiate TLS 1.3 where available; no false TLS-1.3-only claim is made because managed providers and store server notification endpoints require interoperable TLS 1.2+.",
+      "evidence": [
+        "app.config.ts",
+        "plugins/withNetworkSecurity.cjs",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "store_server_notifications_and_billing_lifecycle": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_STORE_VERIFY",
+      "detail": "RevenueCat is the server-side purchase authority. App Store Server Notifications V2/JWS and Google RTDN/PubSub delivery plus purchase/restore/renewal/cancel/refund/revocation/transfer lifecycle remain mandatory deployed evidence.",
+      "evidence": [
+        "supabase/functions/revenuecat-webhook/index.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "android_target_api_36": {
+      "status": "IMPLEMENTED_BUILD_CONFIG_EXTERNAL_BINARY_VERIFY",
+      "detail": "Android production source targets API 36 for the 2026 Google Play requirement; the actual AAB manifest remains release-binary evidence.",
+      "evidence": [
+        "app.config.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "ios_privacy_manifest_and_required_reason": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_MERGED_ARCHIVE_VERIFY",
+      "detail": "Source declares no tracking in the Expo privacy manifest. Dependency-resolved archive must still be inspected for merged PrivacyInfo.xcprivacy, SDK manifests/signatures and Required Reason API declarations before App Store release.",
+      "evidence": [
+        "app.config.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "account_deletion_in_app_and_web": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_STORE_CONSOLE_VERIFY",
+      "detail": "Tailmance has in-app hard deletion and an external web deletion path. Google Play console must point to the deployed deletion URL; Apple review must verify the in-app path and Sign in with Apple token revocation where applicable.",
+      "evidence": [
+        "supabase/functions/delete-account/index.ts",
+        "web/delete-account.html",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "moderation_text_image_manual_fallback": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_PROVIDER_SLA_VERIFY",
+      "detail": "Tailmance moderates applicable text/image/video UGC with provider wiring, deterministic pet-sale/rehoming policy enforcement, report/block and manual-review fallback. Reels require a sanitized MP4 derivative before approval; production classifier quality and operational SLA remain external evidence.",
+      "evidence": [
+        "supabase/functions/moderate-media/index.ts",
+        "src/services/moderation.ts",
+        "src/screens/ReelsScreen.tsx",
+        "supabase/migrations/172_reel_sanitized_media_atomic_finalize.sql",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "development_memory_leak_detection": {
+      "status": "IMPLEMENTED_DEBUG_ONLY",
+      "detail": "LeakCanary is injected only into Android debug builds and is explicitly excluded from release. Image uploads are bounded, re-encoded and metadata-stripped; iOS memory behavior remains physical-device/release profiling evidence.",
+      "evidence": [
+        "plugins/withLeakCanary.cjs",
+        "src/services/uploads.ts"
+      ]
+    },
+    "async_heavy_work_nonblocking": {
+      "status": "IMPLEMENTED_BY_ASYNC_NATIVE_AND_SERVER_BOUNDARIES",
+      "detail": "Network, storage, media manipulation and cryptographic/integrity work use async/native/server paths rather than synchronous UI-thread loops. Physical-device performance/ANR proof remains external observability evidence.",
+      "evidence": [
+        "src/services/supabase.ts",
+        "src/services/uploads.ts",
+        "src/services/deviceIntegrity.ts",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "private_postgis_spatial_indexing": {
+      "status": "IMPLEMENTED",
+      "detail": "Exact pet coordinates remain private. Discovery, Pati Radar and pet-friendly-place radius filtering use WGS-84 geography(Point,4326), GiST indexes and ST_DWithin; client-visible distance remains approximate.",
+      "evidence": [
+        "supabase/migrations/157_postgis_private_spatial_index_and_proximity_queries.sql",
+        "scripts/security-checks.mjs"
+      ]
+    },
+    "verified_universal_and_app_links": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_DOMAIN_AND_SIGNING_IDENTITY_VERIFY",
+      "detail": "Shared pet-profile links are strict-parsed, cannot bypass bootstrap/legal/profile gates, and require server-authorized target visibility before navigation. AASA/assetlinks generation fails closed until real production domain, Apple Team ID and Android signing SHA-256 values are supplied and deployed.",
+      "evidence": [
+        "src/services/deepLinks.ts",
+        "src/navigation/AppNavigator.tsx",
+        "supabase/migrations/158_shareable_pet_profile_deep_link_authorization.sql",
+        "scripts/generate-app-link-associations.mjs",
+        "release/external-security-evidence.json"
+      ]
+    },
+    "pet_sale_and_rehoming_zero_tolerance": {
+      "status": "IMPLEMENTED",
+      "detail": "Pet sales, commercial-breeding marketplace activity, adoption/rehoming offers and pet-ownership transfer solicitation are blocked by client preflight, database triggers and moderation-provider policy across protected UGC/profile surfaces.",
+      "evidence": [
+        "src/domain/contentSafety.ts",
+        "supabase/migrations/091_pet_first_no_human_dating_enforcement.sql",
+        "supabase/migrations/159_pet_rehoming_zero_tolerance_enforcement.sql",
+        "supabase/functions/moderate-media/index.ts",
+        "web/legal-source"
+      ]
+    },
+    "on_device_edge_ai_prefilter": {
+      "status": "IMPLEMENTED_SOURCE_EXTERNAL_MODEL_AND_DEVICE_VERIFY",
+      "detail": "Tailmance has native iOS Core ML/Vision and Android MediaPipe Tasks Vision classifier bridges integrated into pet-photo flows. Runtime-downloaded model artifacts are HTTPS same-origin constrained, size bounded and exact SHA-256 verified before native execution. A high-confidence local safety block can prevent upload; all other outcomes still require authoritative server moderation. Breed output is advisory and changes profile data only after explicit user selection. Model provenance/license/quality thresholds and physical-device performance remain mandatory external release evidence.",
+      "evidence": [
+        "modules/tailmance-edge-ai/expo-module.config.json",
+        "src/services/edgeAi.ts",
+        "scripts/edge-ai-runtime-checks.mjs",
+        "release/edge-ai-model-evidence-v21.json",
+        "src/services/uploads.ts",
+        "src/screens/PetEditorScreen.tsx"
+      ]
+    }
+  },
+  "authoritative_external_references": [
+    "https://mas.owasp.org/MASVS/",
+    "https://developer.apple.com/documentation/DeviceCheck/establishing-your-app-s-integrity",
+    "https://developer.android.com/google/play/integrity/setup",
+    "https://www.revenuecat.com/docs/integrations/webhooks",
+    "https://mas.owasp.org/MASWE/",
+    "https://developer.apple.com/documentation/security/preventing-insecure-network-connections",
+    "https://developer.apple.com/documentation/appstoreservernotifications",
+    "https://developer.apple.com/support/offering-account-deletion-in-your-app",
+    "https://developer.apple.com/documentation/bundleresources/privacy-manifest-files",
+    "https://support.google.com/googleplay/android-developer/answer/13327111",
+    "https://support.google.com/googleplay/android-developer/answer/11926878",
+    "https://supabase.com/docs/guides/database/extensions/postgis",
+    "https://postgis.net/docs/ST_DWithin.html",
+    "https://docs.expo.dev/linking/ios-universal-links/",
+    "https://docs.expo.dev/linking/android-app-links/",
+    "https://developer.android.com/training/app-links/verify-android-applinks"
+  ]
+}

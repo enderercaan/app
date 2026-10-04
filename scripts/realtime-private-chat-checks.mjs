@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+
+const read=(path)=>readFileSync(path,'utf8');
+const migration=read('supabase/migrations/163_private_realtime_chat_typing_authorization.sql');
+const sessionBoundary=read('supabase/migrations/166_private_realtime_session_revocation_boundary.sql');
+const realtime=read('src/services/realtime.ts');
+const chat=read('src/screens/ChatScreen.tsx');
+
+assert.doesNotMatch(migration,/alter\s+table\s+realtime\.messages\s+enable\s+row\s+level\s+security/i,'Supabase owns realtime.messages; migrations must not ALTER its RLS state');
+assert.match(migration,/security definer[\s\S]*set search_path=''/i);
+assert.match(sessionBoundary,/perform public\.require_active_authenticated_session\(\)/i);
+assert.match(sessionBoundary,/not public\.is_blocked\(m\.pet_low_id,m\.pet_high_id\)/i);
+assert.match(sessionBoundary,/security definer[\s\S]*set search_path=''/i);
+assert.match(migration,/m\.unmatched_at is null/i);
+assert.match(migration,/p\.owner_id=v_user_id/i);
+assert.match(migration,/revoke all on function public\.can_access_tailmance_realtime_topic\(text\) from public,anon/i);
+assert.match(migration,/grant execute on function public\.can_access_tailmance_realtime_topic\(text\) to authenticated/i);
+assert.match(migration,/on realtime\.messages[\s\S]*for select[\s\S]*extension='broadcast'[\s\S]*realtime\.topic\(\)/i);
+assert.match(migration,/on realtime\.messages[\s\S]*for insert[\s\S]*extension='broadcast'[\s\S]*realtime\.topic\(\)/i);
+assert.match(realtime,/conversation:\$\{conversationId\}[\s\S]*private:true[\s\S]*broadcast:\{self:false,ack:false\}/);
+assert.match(realtime,/\.on\('broadcast',\{event:TYPING_EVENT\}/);
+assert.match(realtime,/age < -5_000 \|\| age > TYPING_CLOCK_SKEW_MS/);
+assert.match(realtime,/payload:\{isTyping,sentAt:Date\.now\(\)\}/);
+assert.doesNotMatch(realtime,/payload:\{[^}]*petId/,'Typing broadcast must not trust a client-asserted pet identity');
+assert.match(chat,/REMOTE_TYPING_EXPIRY_MS=3_500/);
+assert.match(chat,/TYPING_HEARTBEAT_MS=1_800/);
+assert.match(chat,/LOCAL_TYPING_IDLE_MS=1_200/);
+assert.match(chat,/sendConversationTyping\(channel,true\)/);
+assert.match(chat,/sendConversationTyping\(channel,false\)/);
+assert.match(chat,/otherTyping\?t\('chat\.typing'\):t\('chat\.activeMatch'\)/);
+assert.match(chat,/onChangeText=\{onComposerTextChange\}/);
+console.log('realtime-private-chat-checks: active-conversation private typing broadcast + expiry + heartbeat PASS');

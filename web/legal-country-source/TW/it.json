@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "TW",
+  "country_display_name": "Taiwan",
+  "document_locale": "it",
+  "document_language_display_names": "cinese tradizionale",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Supplemento giuridico specifico della giurisdizione",
+  "sections": [
+    {
+      "heading": "Ambito giuridico",
+      "paragraphs": [
+        "Questo supplemento si applica quando Tailmance determina che Taiwan è il Paese la cui legge si applica al tuo account. Integra i Termini d’uso, l’Informativa sulla privacy, le Regole della community, l’informativa sull’abbonamento e gli altri documenti legali, senza sostituirli.",
+        "Tailmance applica gli obblighi legali in base a tale Paese verificato e, quando necessario, al quadro giuridico regionale o locale pertinente. Cambiare la lingua dell’app, viaggiare o cambiare la regione dello store non modifica di per sé tale quadro giuridico."
+      ]
+    },
+    {
+      "heading": "Lingua dei documenti",
+      "paragraphs": [
+        "I documenti legali vincolanti per questa configurazione sono mantenuti nelle lingue richieste: cinese tradizionale. Quando è richiesta una lingua specifica, Tailmance non la sostituisce automaticamente e senza avviso con un’altra lingua.",
+        "Questa versione è fornita come traduzione per l’accessibilità. Non sostituisce una versione in una lingua obbligatoria quando la legge applicabile o questa configurazione giuridica la richiedono."
+      ]
+    },
+    {
+      "heading": "Requisiti legali specifici del Paese",
+      "paragraphs": [
+        "Per il Paese applicabile vengono riesaminate ventidue aree di requisiti legali sulla base di fonti ufficiali identificabili. Il diritto vigente e le relative date di efficacia sono tenuti distinti da proposte, consultazioni e misure future; una proposta non viene mai trattata come diritto vigente.",
+        "Data della revisione delle fonti: 1 ottobre 2026. Le misure future, le bozze e le consultazioni sono monitorate separatamente e non sono presentate come diritto vigente."
+      ]
+    },
+    {
+      "heading": "Quadri giuridici esaminati",
+      "paragraphs": [
+        "Di seguito sono indicati i principali quadri giuridici registrati nella revisione delle fonti ufficiali di Tailmance per il Paese applicabile. L’inclusione indica soltanto l’ambito della revisione: l’effettiva vigenza, l’entrata in vigore futura, lo stato di proposta o una condizione di applicabilità più ristretta sono determinati dai controlli sulla data di efficacia e sull’ambito esatto e non vengono mai desunti dalla sola presenza in questo elenco."
+      ],
+      "items": [
+        "Personal Data Protection Act"
+      ]
+    },
+    {
+      "heading": "Privacy, sicurezza e diritti degli utenti",
+      "paragraphs": [
+        "I diritti in materia di privacy, le richieste sui dati, la cancellazione dell’account e dei dati, i trasferimenti internazionali, la verifica dell’età, il marketing elettronico e gli obblighi di sicurezza e notifica sono applicati nel contesto giuridico esatto. Utilizza il Centro legale dell’app per informative, esportazione e cancellazione.",
+        "Controlli sanitari assistiti dall’IA. Qualsiasi controllo assistito dall’IA di documenti vaccinali o veterinari è solo un ausilio automatico preliminare. Non adotta alcuna decisione definitiva, vincolante o giuridicamente valida e non costituisce una visita veterinaria, una diagnosi, una certificazione né una garanzia dello stato di salute o vaccinale di un animale. L’IA può commettere errori, non rilevare difetti o leggere in modo errato un documento. I risultati poco chiari o contestati sono esaminati da una persona e l’indicazione «documento esaminato» significa soltanto che il documento è stato controllato. Per le decisioni sulla salute ci si deve affidare a un medico veterinario abilitato e non si deve ritardare l’assistenza per un risultato mostrato nell’app."
+      ]
+    },
+    {
+      "heading": "Abbonamenti e informazioni ai consumatori",
+      "paragraphs": [
+        "Lo store tramite il quale viene effettuato l’acquisto è la fonte di riferimento per il prezzo dell’abbonamento visualizzato, la valuta e il trattamento fiscale applicabile. Rinnovo, cancellazione e informazioni precontrattuali richieste sono presentati prima dell’acquisto. Tailmance non vende animali o prodotti fisici e non elabora pagamenti tra utenti per la vendita di animali."
+      ]
+    },
+    {
+      "heading": "Benessere animale e assenza di commercio",
+      "paragraphs": [
+        "Sono vietate le vendite commerciali di animali e i marketplace destinati all’allevamento commerciale. Gli accoppiamenti organizzati dai proprietari sono disponibili solo quando sono soddisfatti i requisiti applicabili del Paese in materia di benessere animale, allevamento, salute, parentela e idoneità; altrimenti la funzione resta bloccata."
+      ]
+    },
+    {
+      "heading": "Contatti e fonti ufficiali",
+      "paragraphs": [
+        "Le domande su queste informative o le richieste relative alla privacy possono essere inviate a yektaozel@icloud.com. Le fonti ufficiali utilizzate per questa revisione giuridica sono elencate di seguito."
+      ],
+      "official_sources": [
+        "https://theme.ndc.gov.tw/lawout/EngLawContent.aspx?id=89",
+        "https://cpc.ey.gov.tw/en/",
+        "https://cpc.ey.gov.tw/File/99162D02EC293DE0",
+        "https://ncclaw.ncc.gov.tw/FLAW/FLAWDAT0202.aspx?id=FL029860&keyword=R-SERVICE",
+        "https://cpc.ey.gov.tw/Page/960E744883E6A75D",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://animal.moa.gov.tw/Frontend/Know/Detail/LT00000010",
+        "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003",
+        "https://cpc.ey.gov.tw/Page/4432D6D5FA6677B9/326bfcfd-5f72-4ad5-9737-13a6e6813b50",
+        "https://www.nusc.gov.tw/%E8%B3%87%E8%A8%8A%E5%85%AC%E9%96%8B/%E5%BB%89%E6%94%BF%E5%9C%92%E5%9C%B0/%E5%BB%89%E6%94%BF%E6%B3%95%E4%BB%A4%E5%B0%88%E5%8D%80/%E5%80%8B%E4%BA%BA%E8%B3%87%E6%96%99%E4%BF%9D%E8%AD%B7%E6%B3%95--219_203_206_1892.html",
+        "https://accessibility.moda.gov.tw/Download/Detail/1425?Category=51",
+        "https://accessibility.moda.gov.tw/AppCases/AppDetectItems.aspx",
+        "https://www.etax.nat.gov.tw/etwmain/en/cbec-tax-area/business-tax",
+        "https://www.dot.gov.tw/Eng/multiplehtml/en_189",
+        "https://law-out.mof.gov.tw/EngLawContent.aspx?id=20733",
+        "https://www.tipo.gov.tw/tw/copyright/768-4914.html",
+        "https://www.tipo.gov.tw/tw/copyright/768-4911.html",
+        "https://law.moda.gov.tw/EngLawContent.aspx?id=93&lan=E",
+        "https://law.moda.gov.tw/EngLawContent.aspx?id=98&lan=E",
+        "https://theme.ndc.gov.tw/lawout/EngLawContent.aspx?id=67&lan=E",
+        "https://mojlaw.moj.gov.tw/ENG/LawContentE.aspx?LSID=FL081466"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "350f93d41cdfa922518eeff5aff1a914ae5d0f0b43e948e88a775e82d3642de0",
+  "official_source_count": 44,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Personal Data Protection Act"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "zh-Hant"
+  ],
+  "display_language_name": "italiano"
+}

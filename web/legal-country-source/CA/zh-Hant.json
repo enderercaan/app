@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "CA",
+  "country_display_name": "加拿大",
+  "document_locale": "zh-Hant",
+  "document_language_display_names": "英文和法文",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "司法管轄區專屬法律補充說明",
+  "sections": [
+    {
+      "heading": "法律適用範圍",
+      "paragraphs": [
+        "當 Tailmance 確定 加拿大 是其法律適用於您帳戶的國家時，本補充說明適用。它用於補充《使用條款》《隱私權通知》《社群準則》《訂閱通知》及其他法律文件，並不取代這些文件。",
+        "Tailmance 依據該已驗證國家以及必要時適用的地區或地方性法律架構履行法律義務。僅變更應用程式語言、旅行或變更商店地區，不會自行改變適用法律。"
+      ]
+    },
+    {
+      "heading": "文件語言",
+      "paragraphs": [
+        "本法律設定下具有約束力的文件以所需語言提供：英文和法文。如必須使用特定語言，Tailmance 不會在未告知您的情況下自動改用其他語言。",
+        "此版本作為無障礙翻譯提供。若適用法律或本法律設定要求特定的必要語言版本，本版本不會取代該版本。"
+      ]
+    },
+    {
+      "heading": "國家特定法律要求",
+      "paragraphs": [
+        "針對適用國家，Tailmance 依據來源明確的官方資料審查二十二類法律要求。現行法律及其生效日期與提案、諮詢及未來措施嚴格區分；提案絕不會被當作現行法律執行。",
+        "來源審查日期：2026年10月1日。未來措施、草案與諮詢事項會分開追蹤，不會被表述為現行法律。"
+      ]
+    },
+    {
+      "heading": "已審查的法律框架",
+      "paragraphs": [
+        "下方列出 Tailmance 針對適用國家在官方來源審查中記錄的主要法律框架。列入清單僅表示審查範圍；某項規則是目前生效、未來生效、仍屬提案，或受更窄的適用條件限制，由生效日期與精確適用範圍控制決定，絕不會僅憑此清單作出推斷。"
+      ],
+      "items": [
+        "PIPEDA and applicable provincial private-sector laws"
+      ]
+    },
+    {
+      "heading": "隱私、安全與使用者權利",
+      "paragraphs": [
+        "隱私權、資料請求、帳戶與資料刪除、國際傳輸、年齡驗證、電子行銷以及安全與資料外洩通知義務，均依精確法律環境執行。請使用應用程式內的「法律中心」查看通知、匯出與刪除途徑。",
+        "AI 輔助健康檢查。對疫苗或獸醫文件進行的任何 AI 輔助檢查都只是初步的自動化輔助工具。它不會作出最終的、具約束力的或具法律效力的決定，也不是獸醫檢查、診斷、認證，或對動物健康或疫苗接種狀態的保證。AI 可能出錯，可能遺漏錯誤或誤讀文件。不清楚或有爭議的結果由人工覆核，「文件已審核」標示僅表示該文件已被檢查。健康方面的決定應依靠合格獸醫，請勿因應用程式中顯示的結果而延誤診治。"
+      ]
+    },
+    {
+      "heading": "訂閱與消費者資訊",
+      "paragraphs": [
+        "完成購買所使用的應用程式商店是顯示之訂閱價格、貨幣及適用稅費呈現方式的依據。續訂、取消及必要的締約前資訊會在購買前顯示。Tailmance 不銷售動物或實體商品，也不處理使用者之間的動物買賣付款。"
+      ]
+    },
+    {
+      "heading": "動物福利與非商業交易",
+      "paragraphs": [
+        "禁止商業性動物銷售及用於商業繁育的市場活動。只有在符合適用國家關於動物福利、繁育、健康、親緣關係及資格的要求時，才可使用由飼主自行安排的配對；否則功能維持關閉。"
+      ]
+    },
+    {
+      "heading": "聯絡方式與官方來源",
+      "paragraphs": [
+        "如對這些通知有疑問或提出隱私請求，可寄送至 yektaozel@icloud.com。下方列出本次法律審查使用的官方來源。"
+      ],
+      "official_sources": [
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/",
+        "https://www.parl.ca/legisinfo/en/bill/45-1/c-36",
+        "https://ised-isde.canada.ca/site/office-consumer-affairs/en/modern-marketplace/contracts",
+        "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/general-impression-test",
+        "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/04002_00_multi",
+        "https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract",
+        "https://www.opc.gouv.qc.ca/consommateur/nouvelles-protections",
+        "https://www.opc.gouv.qc.ca/en/commercant/nouvelles-obligations",
+        "https://www.priv.gc.ca/en/privacy-topics/age-assurance/",
+        "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
+        "https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://inspection.canada.ca/en/importing-food-plants-animals/e-commerce/animals",
+        "https://inspection.canada.ca/en/importing-food-plants-animals/pets/dogs/commercial-imports-8-months",
+        "https://www.quebec.ca/agriculture-environnement-et-ressources-naturelles/sante-animale/animaux-compagnie/obligations-reproduction-animaux-domestiques",
+        "https://www.ontario.ca/laws/statute/19p13",
+        "https://www.ontario.ca/laws/statute/s24014",
+        "https://www.legisquebec.gouv.qc.ca/fr/version/lc/C-11?code=se%3A55",
+        "https://www.oqlf.gouv.qc.ca/francisation/entreprises/contrats-adhesion.html",
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/gd_third-party_202609/",
+        "https://crtc.gc.ca/eng/com500/faq500.htm",
+        "https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/category-digital-technologies.html",
+        "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html",
+        "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/15-1/general-requirements-books-records.html",
+        "https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/copyright-policy/frequently-asked-questions-legislative-amendments-copyright-act-notice-and-notice",
+        "https://www.ised-isde.canada.ca/site/office-consumer-affairs/en/connected-consumer/notices-canadian-internet-subscribers",
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/privacy-breaches-at-your-business/gd_pb_201810/",
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/privacy-breaches-at-your-business/breach_101/breach_records/",
+        "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/current-actuelles.aspx?lang=eng"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "9cfb7068f053d58eed13fd6b5735672f780412b9ce912c369410e4de7f15beff",
+  "official_source_count": 52,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "PIPEDA and applicable provincial private-sector laws"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "accessibility_translation_non_controlling",
+  "required_binding_document_locales": [
+    "en",
+    "fr"
+  ],
+  "display_language_name": "繁體中文"
+}

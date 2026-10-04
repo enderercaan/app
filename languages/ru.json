@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance получает доступ только к тем фотографиям, которые вы выбираете для профилей питомцев и публикаций.",
+    "NSCameraUsageDescription": "Tailmance использует камеру для фотографий питомцев, историй и подтверждения профиля питомца.",
+    "NSLocationWhenInUseUsageDescription": "Tailmance использует ваше приблизительное местоположение, чтобы показывать питомцев поблизости с учётом расстояния."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

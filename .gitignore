@@ -1,0 +1,20 @@
+node_modules/
+.expo/
+dist/
+coverage/
+.env
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+.DS_Store
+.env.sentry-build-plugin
+sentry.properties
+# Fastlane release credentials and local artifacts
+fastlane/keys/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+*.ipa
+*.aab

@@ -1,0 +1,1070 @@
+{
+  "schema_version": 2,
+  "reviewed_at": "2026-09-30",
+  "policy": "fail_closed",
+  "purpose": "Operational security/privacy incident-routing matrix for the 27 configured Tailmance markets, derived from the internally approved official-source legal matrix. It does not claim regulator certification and keeps live incident facts conditional.",
+  "source_of_truth": "release/official-source-review-v19.json",
+  "default_release_effect": "Source-level incident legal review PASS. At incident time, exact country/subnational context and legal clock are resolved from the current official-source matrix; unknown live facts fail closed.",
+  "configured_market_count": 27,
+  "internal_response_targets": {
+    "incident_owner": "Yekta Özel",
+    "containment": "immediate_on_detection",
+    "evidence_preservation": "immediate_and_before_destructive_remediation_where_safe",
+    "privacy_legal_escalation": "within_60_minutes_of_security_incident_classification",
+    "clock_rule": "Legal clocks vary by jurisdiction and may start on awareness, detection, determination, discovery, or a sector-specific event; never assume a universal 72-hour clock.",
+    "decision_rule": "Use the shortest applicable clock supported by the current internal official-source incident matrix while incident classification/applicability review runs in parallel; uncertainty never means no notification duty."
+  },
+  "canonical_projection_sha256": "6ccff38eb908dd2aa41aeb3fe7fe1f6b6e2c93d696cc5038221157ea2cb983b0",
+  "markets": {
+    "AE": {
+      "country_name": "United Arab Emirates",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.uaelegislation.gov.ae/en/legislations/1972/download"
+      ],
+      "canonical_screening_note": "Official Federal Decree-Law No. 45/2021 Article 9 requires a controller, when aware of a breach prejudicing privacy, confidentiality or security, to notify the Bureau and affected data subjects as prescribed; the Decree-Law leaves the specific period/measures to Executive Regulations. No unsupported fixed-hour deadline is asserted. DIFC/ADGM/free-zone applicability remains separate.",
+      "authority_or_route": "UAE Data Office/Bureau under Federal Decree-Law No. 45/2021 Article 9 for onshore federal PDPL scope; separately resolve DIFC and ADGM.",
+      "authority_notification": {
+        "deadline": "article_9_period_and_measures_follow_current_executive_regulations_and_incident_context",
+        "trigger": "Controller becomes aware of a personal-data breach/violation that would prejudice privacy, confidentiality or security; do not invent a fixed 72-hour federal deadline."
+      },
+      "data_subject_notification": {
+        "deadline": "article_9_period_and_measures_follow_current_executive_regulations_and_incident_context",
+        "trigger": "Article 9 requires affected data-subject notice where the breach would prejudice privacy/confidentiality/security, subject to the applicable measures and timing."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve breach nature/cause, approximate records/subjects, DPO details, expected effects, corrective actions, investigation and notice evidence.",
+        "retention_period": "approved_AE_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Federal PDPL, DIFC, ADGM and any cybersecurity/sector reporting must be scoped separately.",
+      "conditional_scope": "Federal UAE screening is not a substitute for DIFC/ADGM/free-zone applicability review.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "AT": {
+      "country_name": "Austria",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://dsb.gv.at/ueber-die-datenschutzbehoerde/data-breach-verfahren"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in AT remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "AU": {
+      "country_name": "Australia",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme"
+      ],
+      "canonical_screening_note": "OAIC Notifiable Data Breaches scheme source is pinned. Privacy Act coverage and eligible-breach assessment remain fact- and legal-applicability review-dependent.",
+      "authority_or_route": "Office of the Australian Information Commissioner (OAIC) under the Notifiable Data Breaches scheme, subject to Privacy Act coverage and any state/sector overlay.",
+      "authority_notification": {
+        "deadline": "as_soon_as_practicable_after_eligible_breach_is_confirmed",
+        "trigger": "A suspected eligible data breach must be assessed reasonably and expeditiously, with all reasonable steps taken to complete the assessment within 30 calendar days."
+      },
+      "data_subject_notification": {
+        "deadline": "as_soon_as_practicable_after_eligible_breach_is_confirmed",
+        "trigger": "Notify individuals at risk of serious harm where the eligible-breach threshold is met and no exception/remedial-action exclusion applies."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve assessment, eligibility, remedial-action and notification evidence under the approved incident runbook.",
+        "retention_period": "approved_AU_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Assess Security of Critical Infrastructure and sector-specific cyber reporting separately if Tailmance or a provider becomes in scope.",
+      "conditional_scope": "Tailmance production use in AU remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "BE": {
+      "country_name": "Belgium",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://dataprotectionauthority.be/professionnel/actions/violation-de-donnees-personnelles"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in BE remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "BR": {
+      "country_name": "Brazil",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis"
+      ],
+      "canonical_screening_note": "ANPD current incident-communication route under Resolution CD/ANPD 15/2024 was rechecked on 30 Sep 2026: qualifying incidents are communicated to ANPD and affected data subjects within three business days, subject to specific-law exceptions, and incident records are retained for at least five years. Tailmance scope/applicability remains controlled by internal exact-scope applicability review.",
+      "authority_or_route": "Autoridade Nacional de Proteção de Dados (ANPD) security-incident communication route under Resolution CD/ANPD 15/2024.",
+      "authority_notification": {
+        "deadline": "3_business_days_for_qualifying_incidents",
+        "trigger": "Security incident that may cause relevant risk or damage to data subjects, subject to the regulation and any specific-law exception."
+      },
+      "data_subject_notification": {
+        "deadline": "3_business_days_for_qualifying_incidents",
+        "trigger": "Same qualifying relevant-risk/damage threshold, with required clear communication to affected data subjects."
+      },
+      "recordkeeping": {
+        "minimum": "Keep a record of every personal-data security incident, including incidents not notified.",
+        "retention_period": "at_least_5_years"
+      },
+      "special_cyber_reporting": "Evaluate sector-specific or cybersecurity duties separately from the ANPD incident communication regime.",
+      "conditional_scope": "Tailmance production use in BR remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "CA": {
+      "country_name": "Canada",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/privacy-breaches-at-your-business/gd_pb_201810/"
+      ],
+      "canonical_screening_note": "OPC breach guidance is pinned for the federal PIPEDA layer; provincial privacy-law overlays and Tailmance applicability remain controlled by internal exact-scope applicability review.",
+      "authority_or_route": "Office of the Privacy Commissioner of Canada for the federal PIPEDA layer; separately resolve Alberta, British Columbia, Quebec and other provincial/private-sector overlays.",
+      "authority_notification": {
+        "deadline": "as_soon_as_feasible_for_PIPEDA_reportable_breach",
+        "trigger": "Federal PIPEDA real-risk-of-significant-harm threshold, if PIPEDA applies; provincial rules may differ."
+      },
+      "data_subject_notification": {
+        "deadline": "as_soon_as_feasible_for_PIPEDA_reportable_breach",
+        "trigger": "Notify affected individuals under the federal significant-harm threshold, subject to applicable provincial law."
+      },
+      "recordkeeping": {
+        "minimum": "Keep a record of every breach of security safeguards, including non-reportable breaches.",
+        "retention_period": "24_months_from_determination"
+      },
+      "special_cyber_reporting": "Resolve federal/provincial privacy and any sector cybersecurity duties independently; do not treat PIPEDA as a complete Canada matrix.",
+      "conditional_scope": "Federal PIPEDA/OPC screening is not a substitute for Alberta, British Columbia, Quebec or other provincial applicability/notification analysis.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "CN": {
+      "country_name": "China",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+        "https://www.cac.gov.cn/2025-09/15/c_1759583017563621.htm",
+        "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm"
+      ],
+      "canonical_screening_note": "CAC National Cybersecurity Incident Reporting Measures, effective 1 Nov 2025, were rechecked on 30 Sep 2026. Reporting clocks are differentiated by operator/incident class (including one-hour critical-infrastructure and up-to-four-hour other-network-operator routes); exact Tailmance operator classification and PIPL interaction remain legal-applicability review/security-operations review. The full Measures text, not only the publication notice, is pinned in the evidence chain.",
+      "authority_or_route": "Personal-information protection authorities under PIPL plus the competent provincial cyberspace administration route under the National Cybersecurity Incident Reporting Measures where applicable.",
+      "authority_notification": {
+        "deadline": "4_hours_for_qualifying_incidents_of_other_network_operators_under_CAC_measures; PIPL_requires_immediate_remedial_action_and_notification_when_personal_information_breach_may_occur_or_occurs",
+        "trigger": "The 4-hour clock is conditional on Tailmance being an in-scope network operator and the incident meeting the Measures reporting classification; critical infrastructure and central-state routes can be shorter."
+      },
+      "data_subject_notification": {
+        "deadline": "PIPL_immediate_notification_unless_effective_measures_avoid_harm_or_authority_requires_notice",
+        "trigger": "PIPL Article 57 breach/tampering/loss rules and harm exception; apply the internally reviewed current-law incident matrix to resolve interaction with cyber-incident reporting."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve incident classification, PIPL remedial actions/notices, CAC reports and evidence; PIPL impact-assessment records have separate minimum retention requirements.",
+        "retention_period": "approved_CN_incident_retention_schedule_required"
+      },
+      "special_cyber_reporting": "CAC 2025 Measures use differentiated 1h/2h/4h routes; Tailmance must not default to 4h without incident-classification and operator-scope confirmation.",
+      "conditional_scope": "The four-hour CAC route is incident/operator-class dependent and coexists with PIPL personal-information duties.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "DE": {
+      "country_name": "Germany",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj"
+      ],
+      "canonical_screening_note": "Germany has federal and Länder supervisory-authority competence depending on controller/processing context; a single BfDI or state portal is not treated as universally competent. Exact establishment/lead-authority routing remains part of the subnational/legal-applicability review matrix.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Competent German federal/Länder supervisory-authority routing depends on controller/establishment context.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "ES": {
+      "country_name": "Spain",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in ES remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "FR": {
+      "country_name": "France",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.cnil.fr/fr/services-en-ligne/notifier-une-violation-de-donnees-personnelles"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in FR remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "GB": {
+      "country_name": "United Kingdom",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/"
+      ],
+      "canonical_screening_note": "ICO personal-data-breach guidance is pinned; incident classification and any sector-specific duties remain controlled by internal exact-scope applicability review.",
+      "authority_or_route": "UK Information Commissioner’s Office (ICO), subject to UK GDPR applicability and any sector overlays.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "UK GDPR reportable personal-data breach threshold."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "UK GDPR high-risk threshold, subject to exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document all personal-data breaches, including facts, effects and remedial action.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate UK cybersecurity/sector incident-reporting duties separately where applicable.",
+      "conditional_scope": "Tailmance production use in GB remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "ID": {
+      "country_name": "Indonesia",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/"
+      ],
+      "canonical_screening_note": "Official Komdigi JDIH text of UU No. 27/2022 Article 46 requires written notification no later than 3 x 24 hours after a personal-data protection failure to the data subject and the institution, with prescribed minimum content. Exact institutional route, incident facts, sector overlays and Tailmance applicability remain applicability/operational approval items.",
+      "authority_or_route": "The institution/competent personal-data protection authority route under UU No. 27/2022 Article 46, with the production filing channel confirmed before launch.",
+      "authority_notification": {
+        "deadline": "3_x_24_hours_after_personal_data_protection_failure",
+        "trigger": "UU No. 27/2022 Article 46 written notification after a personal-data protection failure; Tailmance must confirm the competent institutional route and any sector overlay for the incident."
+      },
+      "data_subject_notification": {
+        "deadline": "3_x_24_hours_after_personal_data_protection_failure",
+        "trigger": "Article 46 requires written notice to the affected Personal Data Subject and institution, with the minimum statutory content."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve exposed-data scope, chronology, handling/recovery actions, notices, delivery evidence and incident decision record.",
+        "retention_period": "approved_ID_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Assess Komdigi/BSSN/sector cyber-incident reporting separately; Article 46 privacy notification does not automatically satisfy other cyber duties.",
+      "conditional_scope": "Tailmance production use in ID remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "IE": {
+      "country_name": "Ireland",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.dataprotection.ie/en/organisations/know-your-obligations/breach-notification"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in IE remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "IN": {
+      "country_name": "India",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.cert-in.org.in/Directions70B.jsp",
+        "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+        "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf"
+      ],
+      "canonical_screening_note": "CERT-In Directions 70B remain the current six-hour cyber-incident reporting/log-retention source. The 13 Nov 2025 DPDP Act commencement notification places sections 3–17, including the Act security/breach duties, on an eighteen-month commencement track; DPDP Rules 3 and 5–16 are likewise future-effective after eighteen months. As of 30 Sep 2026, do not treat the future DPDP breach regime as already in force; keep CERT-In and any other current applicable law/sector duties operationally separate and controlled by internal exact-scope applicability review.",
+      "authority_or_route": "CERT-In reporting route under directions issued under section 70B of the IT Act, plus any applicable privacy/data-protection authority route.",
+      "authority_notification": {
+        "deadline": "6_hours_for_CERT_In_enumerated_cyber_incidents",
+        "trigger": "Service providers, intermediaries, data centres, body corporate and government organisations must report Annexure-I cyber incidents within six hours of noticing or being brought to notice of them."
+      },
+      "data_subject_notification": {
+        "deadline": "current_personal_data_notice_duty_from_current_law; future_DPDP_breach_rules_not_yet_in_force_on_2026_10_01",
+        "trigger": "CERT-In reporting is not a substitute for any currently applicable data-subject/privacy duty. Do not prematurely apply future DPDP Act/Rules breach duties before their eighteen-month commencement."
+      },
+      "recordkeeping": {
+        "minimum": "Maintain ICT logs securely for the rolling 180-day CERT-In period where the Directions apply, within India as required by the Directions, and preserve incident/privacy decision evidence under the approved schedule.",
+        "retention_period": "CERT_In_180_day_ICT_log_minimum_where_applicable_plus_approved_IN_incident_retention_schedule"
+      },
+      "special_cyber_reporting": "CERT-In six-hour cyber reporting is the current separate operational clock. DPDP Act sections 3–17 and DPDP Rules 3,5–16 are future-effective eighteen months after the 13 Nov 2025 Gazette publications and are tracked as a future-law watch item, not asserted as current on 30 Sep 2026.",
+      "temporal_watch": {
+        "status": "future_effective_not_current_on_2026_09_30",
+        "rule": "DPDP Act sections 3–17 and DPDP Rules 3,5–16",
+        "commencement": "eighteen_months_after_13_November_2025_Gazette_publication"
+      },
+      "conditional_scope": "Tailmance production use in IN remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "IT": {
+      "country_name": "Italy",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://www.garanteprivacy.it/data-breach"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in IT remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "JP": {
+      "country_name": "Japan",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.ppc.go.jp/personalinfo/legal/leakAction/"
+      ],
+      "canonical_screening_note": "This risk family is independently release-blocking until topic-specific official-source scope and internal exact-scope applicability review are evidenced.",
+      "authority_or_route": "Personal Information Protection Commission (PPC) leak-reporting route, subject to the APPI reportability categories and sector overlays.",
+      "authority_notification": {
+        "deadline": "preliminary_3_to_5_days_then_final_30_days_or_60_days_for_suspected_malicious_purpose",
+        "trigger": "Qualifying leakage etc.; preliminary report promptly, with 3–5 days as the general guideline from discovery."
+      },
+      "data_subject_notification": {
+        "deadline": "promptly_according_to_incident_circumstances",
+        "trigger": "Notify the affected individual where the statutory notification duty applies; permitted alternatives/sector rules require incident-specific review."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve preliminary/final report content, discovery date, investigation, notices and remediation evidence.",
+        "retention_period": "approved_JP_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Assess sector-specific regulator reporting separately from PPC/APPI duties.",
+      "conditional_scope": "Tailmance production use in JP remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "KR": {
+      "country_name": "South Korea",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1014944783",
+        "https://pipc.go.kr/eng/user/ltn/new/noticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=3005",
+        "https://law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000089686"
+      ],
+      "canonical_screening_note": "Current PIPA/Enforcement Decree breach sources remain pinned. PIPC confirmed the 2026 PIPA amendment took effect on 11 Sep 2026; the incident matrix therefore uses the current 72-hour breach-notification/reporting rules and keeps scope/exceptions controlled by internal exact-scope applicability review.",
+      "authority_or_route": "Personal Information Protection Commission / designated reporting institution under the Personal Information Protection Act and current Enforcement Decree.",
+      "authority_notification": {
+        "deadline": "72_hours_for_qualifying_breach_reports",
+        "trigger": "Current Enforcement Decree Article 40 qualifying categories, including threshold/sensitive-or-unique-ID/external-illegal-access cases, subject to exceptions."
+      },
+      "data_subject_notification": {
+        "deadline": "72_hours_after_becoming_aware_subject_to_current_exceptions",
+        "trigger": "Current Enforcement Decree Article 39 notification rule; urgent containment or unavoidable circumstances can affect timing as prescribed."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve breach determination, containment, notifications/reports and supporting evidence under the approved Korean incident procedure.",
+        "retention_period": "approved_KR_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Evaluate sector/network cybersecurity reporting separately from PIPA breach reporting.",
+      "conditional_scope": "Tailmance production use in KR remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "NL": {
+      "country_name": "Netherlands",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://autoriteitpersoonsgegevens.nl/datalek-melden"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in NL remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "PL": {
+      "country_name": "Poland",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+        "https://uodo.gov.pl/pl/525/2583"
+      ],
+      "canonical_screening_note": "National supervisory-authority breach-notification route is pinned in addition to the GDPR baseline; exact lead/competent-authority analysis for cross-border processing remains applicability/operational review.",
+      "authority_or_route": "Route to the competent GDPR supervisory authority determined by establishment/lead-authority analysis.",
+      "authority_notification": {
+        "deadline": "72_hours_where_feasible_after_awareness",
+        "trigger": "GDPR Article 33 personal-data breach likely to result in a risk to natural persons; if later than 72 hours, reasons for delay accompany the notification."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_high_risk",
+        "trigger": "GDPR Article 34 high-risk threshold, subject to statutory exceptions."
+      },
+      "recordkeeping": {
+        "minimum": "Document every personal-data breach, its facts, effects and remedial action so the supervisory authority can verify compliance.",
+        "retention_period": "controller_accountability_period_pending_approved_retention_schedule"
+      },
+      "special_cyber_reporting": "Evaluate NIS2/national cybersecurity/sector reporting separately where Tailmance or a provider falls within scope.",
+      "conditional_scope": "Tailmance production use in PL remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "RU": {
+      "country_name": "Russia",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://publication.pravo.gov.ru/Document/View/0001202207140080"
+      ],
+      "canonical_screening_note": "The Official Publication of Legal Acts records Federal Law No. 266-FZ of 14 July 2022 amending Federal Law No. 152-FZ on Personal Data. Article 21(3.1), introduced by that amendment, establishes a 24-hour initial notice to the authorized authority after discovery of a qualifying unlawful or accidental personal-data transfer/provision/distribution/access incident, followed within 72 hours by internal-investigation results. The current consolidated Article 21 was rechecked on 2026-09-30. Exact Tailmance controller/operator scope, direct data-subject duties, sector/cyber overlays, filing mechanics and retention remain controlled by internal exact-scope applicability review before release.",
+      "authority_or_route": "Roskomnadzor / the authorized personal-data protection authority under Federal Law No. 152-FZ, subject to controller/operator applicability and any parallel cybersecurity duties.",
+      "authority_notification": {
+        "deadline": "24_hours_initial_then_72_hours_internal_investigation_results",
+        "trigger": "Federal Law No. 152-FZ Article 21(3.1), introduced by Federal Law No. 266-FZ, requires an initial authority notice within 24 hours after discovering an unlawful or accidental transfer/provision/distribution/access incident that violates data-subject rights, followed within 72 hours by the internal-investigation results and available responsible-person information."
+      },
+      "data_subject_notification": {
+        "deadline": "separate_data_subject_duty_and_route_from_current_official_source_incident_matrix",
+        "trigger": "Do not infer a universal affected-person notice clock from Article 21(3.1); resolve any direct data-subject, sector or cybersecurity notice duty for the incident."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve discovery chronology, initial 24-hour authority notice, 72-hour internal investigation, containment/remediation, responsible-person findings where available and all internal legal/applicability decisions.",
+        "retention_period": "approved_RU_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Assess personal-data incident notification separately from Russian information-security, critical-information-infrastructure, telecom/platform or other sector reporting duties; the shortest confirmed applicable clock governs operational escalation.",
+      "conditional_scope": "Tailmance production use in RU remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "SA": {
+      "country_name": "Saudi Arabia",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://sdaia.gov.sa/en/SDAIA/about/Documents/ImplementingRegulation.pdf",
+        "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL2"
+      ],
+      "canonical_screening_note": "SDAIA PDPL Implementing Regulation Article 24 was rechecked on 30 Sep 2026: qualifying personal-data breaches are notified to the competent authority within 72 hours of awareness, with delayed information supplemented as soon as possible; separate NCA/sector reporting remains independently applicable where in scope. The SDAIA/NDMO Article 24 official knowledge-center source is also pinned.",
+      "authority_or_route": "Saudi Data & AI Authority / National Data Management Office personal-data breach notification service, subject to PDPL applicability.",
+      "authority_notification": {
+        "deadline": "72_hours_after_becoming_aware_for_qualifying_breach",
+        "trigger": "Article 24 Implementing Regulation threshold: breach potentially harms personal data/data subject or conflicts with rights or interests."
+      },
+      "data_subject_notification": {
+        "deadline": "without_undue_delay_when_required_by_PDPL_implementing_regulation",
+        "trigger": "Apply the current data-subject notification threshold and content requirements after incident-specific assessment."
+      },
+      "recordkeeping": {
+        "minimum": "Keep regulator reports, corrective measures and relevant supporting documents/evidence.",
+        "retention_period": "approved_SA_retention_schedule_required"
+      },
+      "special_cyber_reporting": "National Cybersecurity Authority and sector duties may create additional reporting obligations; Article 24 expressly preserves them.",
+      "conditional_scope": "Tailmance production use in SA remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "SG": {
+      "country_name": "Singapore",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.pdpc.gov.sg/report-data-breach/before-you-report-a-data-breach-3/info"
+      ],
+      "canonical_screening_note": "PDPC states a notifiable breach must be notified as soon as practicable and no later than three calendar days. Qualifying-threshold and affected-individual duties remain incident-specific.",
+      "authority_or_route": "Personal Data Protection Commission (PDPC) mandatory data-breach notification route.",
+      "authority_notification": {
+        "deadline": "3_calendar_days_after_determining_breach_is_notifiable",
+        "trigger": "Notifiable breach under the PDPA; notify as soon as practicable and no later than three calendar days after determination."
+      },
+      "data_subject_notification": {
+        "deadline": "as_soon_as_practicable_at_same_time_or_after_PDPC_when_required",
+        "trigger": "Affected-individual notification applies where the statutory criteria are met."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve assessment, determination, PDPC/individual notifications, containment and remediation evidence.",
+        "retention_period": "approved_SG_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Assess Cyber Security Act/sector reporting separately where Tailmance or a provider is designated/in scope.",
+      "conditional_scope": "Tailmance production use in SG remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "TH": {
+      "country_name": "Thailand",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://gppc.pdpc.or.th/portfolio/operational-training-installation-course-1-content-4/",
+        "https://register-gppc-plus.pdpc.or.th/"
+      ],
+      "canonical_screening_note": "Official PDPC GPPC breach-notification materials and GPPC Plus service state that Section 37 breach notification is to be made to the PDPC Office within 72 hours. Exact statutory risk threshold, data-subject notification, exemptions and Tailmance applicability remain Thai legal-applicability review/DPO approval items.",
+      "authority_or_route": "Thailand Personal Data Protection Committee / Office of the PDPC breach-notification route.",
+      "authority_notification": {
+        "deadline": "72_hours_for_section_37_breach_notification_to_PDPC_office",
+        "trigger": "Official PDPC GPPC materials describe Section 37 breach notification to the Office within 72 hours; exact statutory risk threshold/exemptions remain incident-context dependent under the internally reviewed source matrix."
+      },
+      "data_subject_notification": {
+        "deadline": "risk_threshold_and_timing_resolved_from_current_official_source_incident_matrix",
+        "trigger": "Resolve the applicable affected-data-subject notice threshold and timing under the current PDPA/subordinate rules; do not equate the regulator 72-hour route with a universal data-subject deadline."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve breach assessment, risk determination, PDPC filing, data-subject decision, containment and remediation evidence.",
+        "retention_period": "approved_TH_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Assess Thai cybersecurity/sector reporting independently from PDPA breach notification.",
+      "conditional_scope": "Tailmance production use in TH remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "TR": {
+      "country_name": "Türkiye",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.kvkk.gov.tr/Icerik/5362/Veri-Ihlali-Bildirimi"
+      ],
+      "canonical_screening_note": "KVKK Board Decision 2019/10 was rechecked on 30 Sep 2026 and continues to interpret “en kısa sürede” as notification to the Authority without delay and no later than 72 hours after learning of the breach; affected persons are notified as soon as reasonably possible after identification. Incident applicability and execution remain operational/legal review items.",
+      "authority_or_route": "Kişisel Verileri Koruma Kurumu / Kişisel Verileri Koruma Kurulu breach-notification route under Board Decision 2019/10.",
+      "authority_notification": {
+        "deadline": "72_hours_after_learning_of_breach",
+        "trigger": "Where processed personal data is obtained by others through unlawful means; notify without delay and no later than 72 hours after learning of the breach."
+      },
+      "data_subject_notification": {
+        "deadline": "as_soon_as_reasonably_possible_after_affected_people_are_identified",
+        "trigger": "Notify affected data subjects directly where contactable, otherwise by an appropriate method such as website publication."
+      },
+      "recordkeeping": {
+        "minimum": "Record breach facts, effects, measures, reporting decisions and evidence and keep them ready for Authority review.",
+        "retention_period": "approved_KVKK_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Assess sector/cybersecurity reporting independently from KVKK Board Decision 2019/10.",
+      "conditional_scope": "Tailmance production use in TR remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "TW": {
+      "country_name": "Taiwan",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://law.moda.gov.tw/EngLawContent.aspx?id=93&lan=E",
+        "https://law.moda.gov.tw/EngLawContent.aspx?id=98&lan=E"
+      ],
+      "canonical_screening_note": "MODA current Cyber Security Management Act and the 5 Jan 2026 incident-reporting regulations were rechecked on 30 Sep 2026. The one-hour incident-reporting clock applies to government agencies and designated specific non-government agencies; Tailmance designation/scope and separate personal-data duties remain controlled by internal exact-scope applicability review.",
+      "authority_or_route": "Ministry of Digital Affairs / central competent authority route under the Cyber Security Management Act incident rules where Tailmance is designated as a specific non-government agency; separately assess personal-data law duties.",
+      "authority_notification": {
+        "deadline": "1_hour_for_in_scope_specific_non_government_agency_cybersecurity_incident",
+        "trigger": "The one-hour clock is conditional on Tailmance being an in-scope/designated specific non-government agency and becoming aware of a cyber security incident."
+      },
+      "data_subject_notification": {
+        "deadline": "personal_data_rule_from_current_official_source_incident_matrix",
+        "trigger": "The cybersecurity one-hour report is not a universal personal-data-subject notification deadline."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve incident reports, classification/review, containment/recovery and personal-data notification decisions.",
+        "retention_period": "approved_TW_retention_schedule_required"
+      },
+      "special_cyber_reporting": "Do not apply the one-hour designated-entity cybersecurity clock unless scope/designation is confirmed.",
+      "conditional_scope": "The one-hour cybersecurity route is designation/scope dependent and is not asserted as a universal Tailmance privacy-breach deadline.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "US": {
+      "country_name": "United States",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business"
+      ],
+      "canonical_screening_note": "FTC guidance expressly notes breach-notification laws across states/territories. This topic therefore remains operationally subnational: a state/territory breach matrix and internal exact-scope applicability review review are required before US release.",
+      "authority_or_route": "Use the applicable state/territory attorney general/regulator and affected-individual route; FTC guidance is not a nationwide substitute for state law.",
+      "authority_notification": {
+        "deadline": "state_and_territory_specific",
+        "trigger": "Resolve state/territory residence, controller/business role, data type, trigger, regulator/consumer/credit-bureau duties and sector overlays."
+      },
+      "data_subject_notification": {
+        "deadline": "state_and_territory_specific",
+        "trigger": "State/territory and sector rules vary materially; use the approved US subnational breach matrix."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve state-by-state applicability decisions, notices, regulator/credit-bureau filings and incident evidence.",
+        "retention_period": "state_and_territory_specific"
+      },
+      "special_cyber_reporting": "Evaluate FTC, state, sector and cyber-reporting duties independently; no single federal Tailmance deadline is asserted.",
+      "conditional_scope": "A current state/territory breach matrix is mandatory before US production approval.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    },
+    "VN": {
+      "country_name": "Vietnam",
+      "external_counsel_confirmation_required": false,
+      "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
+      "official_source_topic_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "source_screened_at": "2026-10-01",
+      "last_official_source_recheck": "2026-10-01",
+      "source_review_valid_until": "2026-12-30",
+      "official_sources": [
+        "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=187276",
+        "https://vanban.chinhphu.vn/?classid=0&docid=216387&pageid=27160"
+      ],
+      "canonical_screening_note": "Vietnam Law 91/2025/QH15 and Decree 356/2025/ND-CP are current from 2026-01-01. Decree 13/2023 is superseded for current personal-data-protection screening. Decree 356 contains current breach-notice mechanics, including a 72-hour affected-data-subject notice and at least five-year incident-record retention for personal-location/biometric breaches; exact general authority-notice route and Tailmance applicability remain legal-applicability review/operations controlled. The current official Government Decree 356 page is pinned directly in the evidence chain.",
+      "authority_or_route": "Use the current Vietnam personal-data protection/cybersecurity route under Law 91/2025/QH15 and Decree 356/2025/ND-CP, with competent-authority route confirmed for the incident.",
+      "authority_notification": {
+        "deadline": "current_authority_route_and_trigger_from_current_official_source_incident_matrix",
+        "trigger": "Do not reuse superseded Decree 13/2023 mechanics; apply the current 2026 law/decree and any parallel cybersecurity/consumer reporting duty."
+      },
+      "data_subject_notification": {
+        "deadline": "72_hours_for_location_or_biometric_breach_and_other_current_qualifying_cases_as_applicable",
+        "trigger": "Current rules include a 72-hour affected-data-subject notice for specified personal-location/biometric and other applicable breach contexts; incident scope must be confirmed."
+      },
+      "recordkeeping": {
+        "minimum": "Preserve incident files, notices, remediation and authority-facing evidence under the current 2026 regime.",
+        "retention_period": "at_least_5_years_after_incident_remediation_for_location_or_biometric_breach"
+      },
+      "special_cyber_reporting": "Vietnam also has cybersecurity/consumer reporting clocks; evaluate them independently and preserve the shortest applicable clock.",
+      "conditional_scope": "Tailmance production use in VN remains fail-closed until controller/processor, establishment, data-subject, sector and any subnational/special-jurisdiction applicability are approved.",
+      "operational_controls": [
+        "contain_and_preserve_evidence_immediately",
+        "classify_data_subjects_data_types_and_incident_severity",
+        "identify_controller_processor_operator_sector_and_jurisdiction_scope",
+        "start_the_shortest_confirmed_legal_clock_without_waiting_for_full_forensics",
+        "escalate_to_privacy_legal_within_internal_target",
+        "use_only_the_approved_country_and_subnational_notification_matrix",
+        "record_notification_or_non_notification_decision_and_supporting_evidence",
+        "complete_post_incident_remediation_and_retention_actions"
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance heeft alleen toegang tot de foto’s die je kiest voor huisdierprofielen en sociale berichten.",
+    "NSCameraUsageDescription": "Tailmance gebruikt de camera voor foto’s van huisdieren, stories en verificatie van huisdieren.",
+    "NSLocationWhenInUseUsageDescription": "Tailmance gebruikt je geschatte locatie om huisdieren in de buurt op basis van afstand te tonen."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

@@ -1,0 +1,44 @@
+import assert from 'node:assert/strict';
+import { existsSync, readFileSync } from 'node:fs';
+
+const data=JSON.parse(readFileSync('release/roadmap-implementation-v21.json','utf8'));
+assert.equal(data.schema_version,1);
+assert.equal(data.product,'Tailmance');
+assert.equal(data.owner,'Yekta Ozel');
+const phases=Object.entries(data.phases??{});
+assert.equal(phases.length,21,'all 21 roadmap phases must be explicitly classified');
+const allowed=/^(IMPLEMENTED|PARTIAL|GAP|EXTERNAL_)/;
+for(const [name,phase] of phases){
+  assert.match(String(phase.status??''),allowed,`${name}: invalid/implicit status`);
+  assert.ok(Array.isArray(phase.evidence)&&phase.evidence.length>0,`${name}: evidence list required`);
+  for(const path of phase.evidence)assert.ok(existsSync(path),`${name}: missing evidence path ${path}`);
+}
+const offline=data.phases['1_clean_architecture_offline_sync'];
+assert.match(offline.status,/^IMPLEMENTED/);
+const spatial=data.phases['2_postgres_postgis_spatial'];
+assert.match(spatial.status,/^(IMPLEMENTED|PARTIAL)_/);
+assert.match(spatial.status,/^IMPLEMENTED_/,'phase 2 must be source-implemented once PostGIS and Redis cache acceleration exist');
+assert.ok(spatial.evidence.includes('supabase/functions/social-read-cache/index.ts'),'phase 2 requires Redis social-read cache evidence');
+assert.ok(spatial.evidence.includes('supabase/migrations/169_redis_social_read_cache_rehydration.sql'),'phase 2 requires Postgres rehydration safety evidence');
+const social=data.phases['4_social_matching_chat_ugc'];
+assert.match(social.status,/^IMPLEMENTED_/,'phase 4 must be source-implemented once the production Reels pipeline exists');
+assert.ok(social.evidence.includes('src/screens/ReelsScreen.tsx'),'phase 4 requires Reels UI evidence');
+assert.ok(social.evidence.includes('supabase/migrations/167_pet_first_reels_video_pipeline.sql'),'phase 4 requires Reels database evidence');
+assert.ok(social.evidence.includes('supabase/functions/moderate-media/index.ts'),'phase 4 requires fail-closed video moderation evidence');
+assert.match(String(social.note??''),/sanitized MP4 derivative|moderation provider/i);
+const rtc=data.phases['11_webrtc_calls'];
+assert.match(rtc.status,/^PARTIAL_NATIVE_SYSTEM_CALL_SOURCE_IMPLEMENTED_EXTERNAL_VOIP_PROVIDER_VERIFY$/,'WebRTC phase must remain partial until production provider/device evidence is verified');
+for(const evidence of ['src/screens/CallScreen.native.tsx','supabase/functions/livekit-call-token/index.ts','supabase/migrations/171_matched_pet_livekit_call_sessions.sql','modules/tailmance-system-calls/expo-module.config.json','supabase/migrations/173_push_transport_and_voip_call_delivery.sql'])assert.ok(rtc.evidence.includes(evidence),`phase 11 requires ${evidence}`);
+assert.match(String(rtc.note??''),/APNs VoIP|physical-device|production/,'phase 11 must explicitly retain real provider/device verification boundary');
+const ai=data.phases['13_on_device_ai'];
+assert.match(ai.status,/^PARTIAL_/,'on-device AI must remain partial until real production model artifacts and device evidence are verified');
+for(const evidence of ['modules/tailmance-edge-ai/expo-module.config.json','src/services/edgeAi.ts','scripts/edge-ai-runtime-checks.mjs','release/edge-ai-model-evidence-v21.json'])assert.ok(ai.evidence.includes(evidence),`phase 13 requires ${evidence}`);
+assert.match(String(ai.note??''),/server moderation|never replaces/i,'phase 13 must preserve server moderation authority');
+const fastlane=data.phases['16_store_automation_fastlane'];
+assert.match(fastlane.status,/^(IMPLEMENTED|PARTIAL)_/,'Fastlane must remain explicit and evidence-backed');
+assert.ok(fastlane.evidence.includes('fastlane/Fastfile'),'Fastlane source automation evidence is required once the phase leaves GAP state');
+const text=JSON.stringify(data);
+assert.doesNotMatch(text,/TODO|PLACEHOLDER|STUB/i,'roadmap artifact cannot hide unfinished work behind TODO/placeholder/stub language');
+const sourceGaps=phases.filter(([,p])=>/^GAP_/.test(String(p.status))).map(([name,p])=>`${name}:${p.status}`);
+const partialExternalGates=phases.filter(([,p])=>/^PARTIAL_/.test(String(p.status))).map(([name,p])=>`${name}:${p.status}`);
+console.log(`roadmap-implementation-checks: ${phases.length}/21 phases explicitly classified; source gaps=${sourceGaps.length}; partial/external verification gates=${partialExternalGates.length}; ${[...sourceGaps,...partialExternalGates].join(', ')}`);

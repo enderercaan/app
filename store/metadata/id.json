@@ -1,0 +1,22 @@
+{
+  "locale": "id",
+  "appName": "Tailmance",
+  "apple": {
+    "subtitle": "Sosial & pertemanan hewan",
+    "promotionalText": "Temukan hewan yang cocok, terhubung saat minat saling cocok, berbincang lebih aman, lihat informasi kesehatan, dan rencanakan pertemuan anjing serta kucing.",
+    "description": "Tailmance adalah aplikasi sosial untuk menemukan dan menghubungkan hewan peliharaan, ditujukan bagi pemilik anjing dan kucing yang sudah dewasa. Identitas sosial yang terlihat adalah milik hewan; data akun, keamanan, pembayaran, dan informasi kesehatan privat tetap dipisahkan.\n\nBuat profil dengan tiga foto, area lokasi, karakteristik, dan tujuan berkenalan. Temukan hewan yang cocok, tunjukkan minat atau lewati profil, lalu mulai mengobrol hanya setelah ada kecocokan dua arah. Gunakan linimasa, cerita singkat, acara, dan perencanaan pertemuan.\n\nFitur keamanan mencakup pelaporan, pemblokiran, pembatalan kecocokan, moderasi konten, privasi lokasi perkiraan, sinyal verifikasi terpisah untuk hewan dan pemilik, serta sinyal peninjauan dokumen kesehatan. Premium menambahkan pesan tanpa batas dan pengaturan penemuan tambahan.\n\nTailmance hanya untuk pengguna berusia 18 tahun ke atas. Lencana verifikasi adalah sinyal kepercayaan, bukan jaminan. Untuk keputusan kesehatan atau pembiakan, konsultasikan dengan dokter hewan yang berkualifikasi dan patuhi hukum setempat.",
+    "keywords": "hewan,anjing,kucing,teman,kecocokan,jalan,pertemuan,sosial"
+  },
+  "google": {
+    "shortDescription": "Temukan hewan cocok, terhubung saat saling tertarik, dan rencanakan pertemuan.",
+    "fullDescription": "Tailmance adalah aplikasi sosial untuk menemukan dan menghubungkan hewan peliharaan, ditujukan bagi pemilik anjing dan kucing yang sudah dewasa. Identitas sosial yang terlihat adalah milik hewan; data akun, keamanan, pembayaran, dan informasi kesehatan privat tetap dipisahkan.\n\nBuat profil dengan tiga foto, area lokasi, karakteristik, dan tujuan berkenalan. Temukan hewan yang cocok, tunjukkan minat atau lewati profil, lalu mulai mengobrol hanya setelah ada kecocokan dua arah. Gunakan linimasa, cerita singkat, acara, dan perencanaan pertemuan.\n\nFitur keamanan mencakup pelaporan, pemblokiran, pembatalan kecocokan, moderasi konten, privasi lokasi perkiraan, sinyal verifikasi terpisah untuk hewan dan pemilik, serta sinyal peninjauan dokumen kesehatan. Premium menambahkan pesan tanpa batas dan pengaturan penemuan tambahan.\n\nTailmance hanya untuk pengguna berusia 18 tahun ke atas. Lencana verifikasi adalah sinyal kepercayaan, bukan jaminan. Untuk keputusan kesehatan atau pembiakan, konsultasikan dengan dokter hewan yang berkualifikasi dan patuhi hukum setempat."
+  },
+  "screenshotCaptions": [
+    "Identitas sosial yang berpusat pada hewanmu",
+    "Temukan hewan yang cocok dengan filter rinci",
+    "Kecocokan dua arah sebelum percakapan privat",
+    "Kontrol keamanan, laporan, dan privasi",
+    "Data kesehatan privat dan sinyal verifikasi",
+    "Linimasa, acara, dan pertemuan untuk komunitas aktif"
+  ]
+}

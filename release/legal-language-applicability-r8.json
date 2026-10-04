@@ -1,0 +1,583 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-09-29",
+  "policy": {
+    "ui_locale_is_not_legal_country": true,
+    "ui_locale_is_not_document_locale": true,
+    "legal_country_does_not_change_on_travel": true,
+    "statutory_or_required_document_language_overrides_ui_language": true,
+    "subnational_language_rule_requires_exact_subnational_route": true,
+    "silent_cross_language_fallback_for_binding_documents": "BLOCK",
+    "source_localization_complete_for_all_configured_document_locales": true,
+    "sworn_or_certified_translation_status_claimed": false
+  },
+  "markets": {
+    "AE": {
+      "name": "United Arab Emirates",
+      "classification": "mandatory_local_language_general_consumer_ecommerce",
+      "scope_dimension": "countrywide_consumer_rule",
+      "configured_document_locales": [
+        "ar",
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ar"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "ar",
+        "en"
+      ],
+      "rule_summary": "Federal consumer law requires Arabic for consumer-related data, advertising and contracts; other languages may accompany Arabic.",
+      "official_sources": [
+        "https://uaelegislation.gov.ae/en/legislations/1455"
+      ],
+      "no_silent_fallback": true
+    },
+    "AT": {
+      "name": "Austria",
+      "classification": "clear_comprehensible_eu_baseline_no_universal_language_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "de"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "de"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "de"
+      ],
+      "rule_summary": "EU consumer-law comprehensibility baseline is pinned; no separate universal Austrian statutory document-language rule is asserted by the screened source. German remains the configured market document language.",
+      "official_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083"
+      ],
+      "no_silent_fallback": true
+    },
+    "AU": {
+      "name": "Australia",
+      "classification": "plain_language_transparency_no_universal_language_mandate",
+      "scope_dimension": "countrywide_comprehensibility",
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "en"
+      ],
+      "rule_summary": "Australian Consumer Law requires reasonably plain, legible, clearly presented and readily available standard-form terms; the screened source does not impose a universal named language.",
+      "official_sources": [
+        "https://www.legislation.gov.au/C2004A00109/latest/text"
+      ],
+      "no_silent_fallback": true
+    },
+    "BE": {
+      "name": "Belgium",
+      "classification": "territorial_multilingual_conditional",
+      "scope_dimension": "subnational_or_territorial",
+      "configured_document_locales": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "fr",
+        "nl",
+        "de"
+      ],
+      "rule_summary": "Belgian language treatment is territorial/community-sensitive. French, Dutch and German packs are maintained; the exact required pack depends on the applicable territorial/community context and must not silently fall back.",
+      "official_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://www.belgium.be/en/about_belgium/government/federale_staat"
+      ],
+      "no_silent_fallback": true
+    },
+    "BR": {
+      "name": "Brazil",
+      "classification": "local_market_language_conservative_no_universal_rule_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "pt-BR"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "pt-BR"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "pt-BR"
+      ],
+      "rule_summary": "Portuguese is the configured consumer/legal language. The screened consumer-law source is retained, but this matrix does not overstate a universal named-language rule beyond the pinned source.",
+      "official_sources": [
+        "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm"
+      ],
+      "no_silent_fallback": true
+    },
+    "CA": {
+      "name": "Canada",
+      "classification": "subnational_mandatory_french_quebec",
+      "scope_dimension": "subnational_province",
+      "configured_document_locales": [
+        "en",
+        "fr"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en",
+        "fr"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "en",
+        "fr"
+      ],
+      "rule_summary": "Québec adhesion-contract rules require a French version to be remitted/made available before an express choice of another language. English/French routing therefore depends on province and user choice.",
+      "official_sources": [
+        "https://www.legisquebec.gouv.qc.ca/fr/version/lc/C-11?code=se%3A55",
+        "https://www.oqlf.gouv.qc.ca/francisation/entreprises/contrats-adhesion.html"
+      ],
+      "no_silent_fallback": true
+    },
+    "CN": {
+      "name": "China",
+      "classification": "local_market_language_conservative_no_universal_rule_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "zh-Hans"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "zh-Hans"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "zh-Hans"
+      ],
+      "rule_summary": "Simplified Chinese is the configured mainland-China document locale. The screened source set does not self-assert one universal language rule for every Tailmance document.",
+      "official_sources": [
+        "https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202606/t20260605_1438880.html"
+      ],
+      "no_silent_fallback": true
+    },
+    "DE": {
+      "name": "Germany",
+      "classification": "clear_comprehensible_eu_baseline_no_universal_language_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "de"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "de"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "de"
+      ],
+      "rule_summary": "EU consumer-law comprehensibility baseline is pinned; German is the configured document language without claiming a separate universal statutory language rule from the screened source.",
+      "official_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083"
+      ],
+      "no_silent_fallback": true
+    },
+    "ES": {
+      "name": "Spain",
+      "classification": "subnational_coofficial_language_conditional",
+      "scope_dimension": "subnational_autonomous_community",
+      "configured_document_locales": [
+        "es"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "es",
+        "ca",
+        "eu",
+        "gl"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "es"
+      ],
+      "rule_summary": "Spanish national rules do not exhaust autonomous-community language rights. Catalan, Basque and Galician legal-only packs are maintained and must be selected where the applicable subnational rule requires them.",
+      "official_sources": [
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+        "https://www.boe.es/eli/es-pv/l/2023/04/27/4",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3280",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+        "https://www.kontsumobide.euskadi.eus/hizkuntza-eskubideak-eta-enpresen-betebeharrak/webkon01-content/eu/",
+        "https://consum.gencat.cat/ca/el-consum/durant-la-compra/drets-linguistics-/",
+        "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5595"
+      ],
+      "no_silent_fallback": true
+    },
+    "FR": {
+      "name": "France",
+      "classification": "mandatory_local_language_goods_services_information",
+      "scope_dimension": "countrywide_consumer_rule",
+      "configured_document_locales": [
+        "fr"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "fr"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "fr"
+      ],
+      "rule_summary": "Article 2 of Law 94-665 requires French for designation, offer, presentation and specified information concerning goods/services and advertising.",
+      "official_sources": [
+        "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006421210",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083"
+      ],
+      "no_silent_fallback": true
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "classification": "clear_comprehensible_no_universal_language_mandate",
+      "scope_dimension": "countrywide_comprehensibility",
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "en"
+      ],
+      "rule_summary": "Consumer Contracts rules require clear and comprehensible information; the screened source does not impose a universal named language. English is the configured release document language.",
+      "official_sources": [
+        "https://www.legislation.gov.uk/uksi/2013/3134"
+      ],
+      "no_silent_fallback": true
+    },
+    "ID": {
+      "name": "Indonesia",
+      "classification": "mandatory_bahasa_indonesia_for_agreements_involving_indonesian_party",
+      "scope_dimension": "party_status_and_country",
+      "configured_document_locales": [
+        "id"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "id"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "id"
+      ],
+      "rule_summary": "Law 24/2009 Article 31 requires Bahasa Indonesia in agreements involving Indonesian state bodies, private Indonesian institutions or Indonesian citizens; foreign-party agreements may also use the foreign national language and/or English.",
+      "official_sources": [
+        "https://peraturan.bpk.go.id/Download/27970/UU%20Nomor%2024%20Tahun%202009.pdf"
+      ],
+      "no_silent_fallback": true
+    },
+    "IE": {
+      "name": "Ireland",
+      "classification": "plain_intelligible_no_universal_language_mandate",
+      "scope_dimension": "countrywide_comprehensibility",
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "en"
+      ],
+      "rule_summary": "Consumer Rights Act 2022 requires concise, plain and intelligible contract terms and reasonable pre-contract availability; no universal named language is inferred from that source.",
+      "official_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083"
+      ],
+      "no_silent_fallback": true
+    },
+    "IN": {
+      "name": "India",
+      "classification": "intermediary_user_choice_language_rule_conditional",
+      "scope_dimension": "platform_status_and_user_choice",
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "en"
+      ],
+      "rule_summary": "If Tailmance is within the intermediary-rule provision, rules/privacy/user agreement must be communicated in English or an Eighth Schedule language in the user's choice. Current runtime coverage does not claim all Eighth Schedule languages, so route eligibility must remain capability-aware.",
+      "official_sources": [
+        "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf"
+      ],
+      "no_silent_fallback": true
+    },
+    "IT": {
+      "name": "Italy",
+      "classification": "mandatory_italian_consumer_information",
+      "scope_dimension": "countrywide_consumer_rule",
+      "configured_document_locales": [
+        "it"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "it"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "it"
+      ],
+      "rule_summary": "Consumer Code Article 9 requires all information intended for consumers/users to be provided at least in Italian.",
+      "official_sources": [
+        "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art9=",
+        "https://www.normattiva.it/eli/id/2026/03/09/26G00047/CONSOLIDATED",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083"
+      ],
+      "no_silent_fallback": true
+    },
+    "JP": {
+      "name": "Japan",
+      "classification": "local_market_language_conservative_no_universal_rule_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "ja"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ja"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "ja"
+      ],
+      "rule_summary": "Japanese is the configured release document language and preserves consumer-contract comprehensibility. The screened source does not establish a universal named-language mandate for every Tailmance document.",
+      "official_sources": [
+        "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html"
+      ],
+      "no_silent_fallback": true
+    },
+    "KR": {
+      "name": "South Korea",
+      "classification": "mandatory_hangul_standard_terms_if_applicable",
+      "scope_dimension": "contract_type_conditional",
+      "configured_document_locales": [
+        "ko"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ko"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "ko"
+      ],
+      "rule_summary": "The Terms and Conditions Regulation Act requires applicable standard terms to be written in Hangul so customers can easily understand them, with standardized/systematic terminology and clear presentation.",
+      "official_sources": [
+        "https://law.go.kr/LSW/lsEfInfoP.do?lsiSeq=253655"
+      ],
+      "no_silent_fallback": true
+    },
+    "NL": {
+      "name": "Netherlands",
+      "classification": "clear_comprehensible_eu_baseline_no_universal_language_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "nl"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "nl"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "nl"
+      ],
+      "rule_summary": "EU consumer-law comprehensibility baseline is pinned; Dutch is the configured document language without asserting a separate universal named-language mandate from the screened source.",
+      "official_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083"
+      ],
+      "no_silent_fallback": true
+    },
+    "PL": {
+      "name": "Poland",
+      "classification": "clear_comprehensible_eu_baseline_no_universal_language_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "pl"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "pl"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "pl"
+      ],
+      "rule_summary": "EU consumer-law comprehensibility baseline is pinned; Polish is the configured document language without asserting a separate universal named-language mandate from the screened source.",
+      "official_sources": [
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083"
+      ],
+      "no_silent_fallback": true
+    },
+    "RU": {
+      "name": "Russia",
+      "classification": "mandatory_russian_consumer_information",
+      "scope_dimension": "countrywide_consumer_rule",
+      "configured_document_locales": [
+        "ru"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ru"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "ru"
+      ],
+      "rule_summary": "Consumer information at contract formation must be presented in Russian; additional languages may be used at the provider's discretion.",
+      "official_sources": [
+        "https://zpp.rospotrebnadzor.ru/npa/federal/192115",
+        "https://zpp.rospotrebnadzor.ru/news/federal/572093"
+      ],
+      "no_silent_fallback": true
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "classification": "arabic_consumer_facing_ecommerce_conservative",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "ar"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "ar"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "ar"
+      ],
+      "rule_summary": "Arabic is the configured consumer/legal language and official Ministry e-commerce guidance is pinned. The matrix does not overstate a universal statutory document-language rule beyond the screened material.",
+      "official_sources": [
+        "https://mc.gov.sa/en/guides/Documents/MerchantGuide.pdf"
+      ],
+      "no_silent_fallback": true
+    },
+    "SG": {
+      "name": "Singapore",
+      "classification": "comprehensibility_transaction_language_no_universal_mandate",
+      "scope_dimension": "countrywide_comprehensibility",
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "en"
+      ],
+      "rule_summary": "Consumer law treats exploitation of a consumer unable reasonably to understand the character, nature, language or effect of a transaction as unfair; no universal English-only mandate is inferred.",
+      "official_sources": [
+        "https://sso.agc.gov.sg/Act/CPFTA2003"
+      ],
+      "no_silent_fallback": true
+    },
+    "TH": {
+      "name": "Thailand",
+      "classification": "mandatory_thai_if_direct_sales_or_direct_marketing_regime_applies",
+      "scope_dimension": "business_model_conditional",
+      "configured_document_locales": [
+        "th"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "th"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "th"
+      ],
+      "rule_summary": "OCPB states that sales documents under the Direct Sales and Direct Marketing regime must be in Thai. Applicability of that regime to a specific Tailmance flow is a separate scope condition.",
+      "official_sources": [
+        "https://www.ocpb.go.th/news_view.php?nid=13434"
+      ],
+      "no_silent_fallback": true
+    },
+    "TR": {
+      "name": "Türkiye",
+      "classification": "clear_plain_understandable_consumer_information",
+      "scope_dimension": "countrywide_comprehensibility",
+      "configured_document_locales": [
+        "tr"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "tr"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "tr"
+      ],
+      "rule_summary": "Current Ministry guidance requires distance-contract pre-information before payment and repeatedly emphasizes understandable, clear, plain and readable consumer-contract drafting. Turkish is the configured release document language; this matrix does not invent a broader named-language rule than the pinned materials.",
+      "official_sources": [
+        "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/tuketici-sozlesmelerindeki-temel-ilkeler-ve-haksiz-sartlar-hakkinda-bilgilendirme",
+        "https://tuketici.ticaret.gov.tr/data/5e819a8e13b876a1b04c7a4a/Mesafeli%20S%C3%B6zle%C5%9Fmeler%20Y%C3%B6netmeli%C4%9Fi.pdf"
+      ],
+      "no_silent_fallback": true
+    },
+    "TW": {
+      "name": "Taiwan",
+      "classification": "disclosure_and_assent_no_universal_language_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "zh-Hant"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "zh-Hant"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "zh-Hant"
+      ],
+      "rule_summary": "Official consumer guidance requires standard-form terms to be disclosed/announced with consumer assent; Traditional Chinese is the configured release language without inferring a universal named-language rule from that source.",
+      "official_sources": [
+        "https://cpc.ey.gov.tw/Page/4432D6D5FA6677B9/326bfcfd-5f72-4ad5-9737-13a6e6813b50"
+      ],
+      "no_silent_fallback": true
+    },
+    "US": {
+      "name": "United States",
+      "classification": "same_language_disclosure_scope_specific_plus_state_overlays",
+      "scope_dimension": "federal_scope_specific_plus_state",
+      "configured_document_locales": [
+        "en"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "en"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "en"
+      ],
+      "rule_summary": "FTC fee-rule guidance requires covered disclosures to be clear/conspicuous, plain-language and in the same language as the offer/display/advertisement. This is scope-specific; state and surface overlays remain separate.",
+      "official_sources": [
+        "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions"
+      ],
+      "no_silent_fallback": true
+    },
+    "VN": {
+      "name": "Vietnam",
+      "classification": "local_market_language_conservative_no_universal_rule_pinned",
+      "scope_dimension": "countrywide_product_policy",
+      "configured_document_locales": [
+        "vi"
+      ],
+      "minimum_document_locales_for_current_product_configuration": [
+        "vi"
+      ],
+      "source_localization_status": "complete_internal_qa",
+      "source_localization_locales": [
+        "vi"
+      ],
+      "rule_summary": "Vietnamese is the configured release document language. The screened official source set is retained without asserting a universal named-language rule beyond the pinned evidence.",
+      "official_sources": [
+        "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=161263&Keyword="
+      ],
+      "no_silent_fallback": true
+    }
+  }
+}

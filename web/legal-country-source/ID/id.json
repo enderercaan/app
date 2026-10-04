@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "legal_country_code": "ID",
+  "country_display_name": "Indonesia",
+  "document_locale": "id",
+  "document_language_display_names": "Bahasa Indonesia",
+  "document_type": "jurisdiction_country_supplement",
+  "title": "Suplemen hukum khusus yurisdiksi",
+  "sections": [
+    {
+      "heading": "Ruang lingkup hukum",
+      "paragraphs": [
+        "Suplemen ini berlaku ketika Tailmance menetapkan bahwa Indonesia adalah negara yang hukumnya berlaku untuk akun Anda. Dokumen ini melengkapi Ketentuan Penggunaan, Pemberitahuan Privasi, Pedoman Komunitas, pemberitahuan langganan, dan dokumen hukum lainnya; dokumen ini tidak menggantikannya.",
+        "Tailmance menerapkan kewajiban hukum berdasarkan negara terverifikasi tersebut dan, jika diperlukan, kerangka hukum regional atau lokal yang berlaku. Mengubah bahasa aplikasi, bepergian, atau mengubah wilayah toko tidak dengan sendirinya mengubah kerangka hukum tersebut."
+      ]
+    },
+    {
+      "heading": "Bahasa dokumen",
+      "paragraphs": [
+        "Dokumen hukum yang mengikat untuk konfigurasi hukum ini tersedia dalam bahasa yang diwajibkan: Bahasa Indonesia. Jika bahasa tertentu diwajibkan, Tailmance tidak menggantinya secara otomatis dan tanpa pemberitahuan dengan bahasa lain."
+      ]
+    },
+    {
+      "heading": "Persyaratan hukum khusus negara",
+      "paragraphs": [
+        "Dua puluh dua bidang persyaratan hukum ditinjau untuk negara yang berlaku berdasarkan sumber resmi yang dapat diidentifikasi. Hukum yang berlaku dan tanggal berlakunya dipisahkan dari usulan, konsultasi, dan langkah masa depan; usulan tidak pernah diperlakukan sebagai hukum yang berlaku.",
+        "Tanggal tinjauan sumber: 1 Oktober 2026. Langkah masa depan, rancangan, dan konsultasi dipantau secara terpisah dan tidak ditampilkan sebagai hukum yang berlaku."
+      ]
+    },
+    {
+      "heading": "Kerangka hukum yang ditinjau",
+      "paragraphs": [
+        "Kerangka hukum utama yang dicatat dalam tinjauan sumber resmi Tailmance untuk negara yang berlaku tercantum di bawah. Pencantuman hanya menunjukkan cakupan tinjauan: apakah suatu aturan sudah berlaku, berlaku pada masa mendatang, masih berupa usulan, atau tunduk pada syarat penerapan yang lebih sempit ditentukan oleh kontrol tanggal berlaku dan cakupan penerapan yang tepat, dan tidak pernah disimpulkan hanya dari daftar ini."
+      ],
+      "items": [
+        "Law No. 27 of 2022 on Personal Data Protection"
+      ]
+    },
+    {
+      "heading": "Privasi, keamanan, dan hak pengguna",
+      "paragraphs": [
+        "Hak privasi, permintaan data, penghapusan akun dan data, transfer internasional, verifikasi usia, pemasaran elektronik, serta kewajiban keamanan dan pelaporan diterapkan dalam konteks hukum yang tepat. Gunakan Pusat Hukum dalam aplikasi untuk pemberitahuan, ekspor, dan penghapusan.",
+        "Pemeriksaan kesehatan berbantuan AI. Setiap pemeriksaan berbantuan AI atas dokumen vaksinasi atau dokumen dokter hewan hanyalah alat bantu otomatis yang bersifat awal. Pemeriksaan ini tidak membuat keputusan akhir, mengikat, atau sah secara hukum, dan bukan pemeriksaan dokter hewan, diagnosis, sertifikasi, maupun jaminan status kesehatan atau vaksinasi hewan. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen. Hasil yang tidak jelas atau disengketakan ditinjau oleh seseorang, dan tanda “dokumen ditinjau” hanya berarti dokumen telah diperiksa. Keputusan kesehatan harus mengandalkan dokter hewan berlisensi, dan perawatan tidak boleh ditunda karena hasil yang tampil di aplikasi."
+      ]
+    },
+    {
+      "heading": "Langganan dan informasi konsumen",
+      "paragraphs": [
+        "Toko aplikasi tempat pembelian dilakukan menjadi rujukan untuk harga langganan yang ditampilkan, mata uang, dan perlakuan pajak yang berlaku. Informasi mengenai perpanjangan, pembatalan, dan informasi prakontrak yang diwajibkan ditampilkan sebelum pembelian. Tailmance tidak menjual hewan atau barang fisik dan tidak memproses pembayaran antar pengguna untuk penjualan hewan."
+      ]
+    },
+    {
+      "heading": "Kesejahteraan hewan dan non-perdagangan",
+      "paragraphs": [
+        "Penjualan hewan secara komersial dan marketplace untuk pembiakan komersial dilarang. Perkawinan yang diatur oleh pemilik hanya tersedia apabila persyaratan negara yang berlaku terkait kesejahteraan hewan, pembiakan, kesehatan, kekerabatan, dan kelayakan terpenuhi; jika tidak, fitur tetap diblokir."
+      ]
+    },
+    {
+      "heading": "Kontak dan sumber resmi",
+      "paragraphs": [
+        "Pertanyaan tentang pemberitahuan ini atau permintaan privasi dapat dikirim ke yektaozel@icloud.com. Referensi sumber resmi yang digunakan untuk tinjauan hukum ini tercantum di bawah."
+      ],
+      "official_sources": [
+        "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+        "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+        "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/965/t/peraturan%2Bpemerintah%2Bnomor%2B17%2Btahun%2B2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/1007/t/peraturan%2Bmenteri%2Bkomunikasi%2Bdan%2Bdigital%2Bnomor%2B9%2Btahun%2B2026",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10541",
+        "https://portal.komdigi.go.id/kanal-publik/berita-kini/10560",
+        "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+        "https://developer.apple.com/wwdc26/guides/app-store/",
+        "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+        "https://developer.apple.com/app-store/review/guidelines/",
+        "https://support.google.com/googleplay/android-developer/answer/9898843",
+        "https://support.google.com/googleplay/android-developer/answer/10787469",
+        "https://support.google.com/googleplay/android-developer/answer/13327111",
+        "https://developer.apple.com/app-store/whats-new/",
+        "https://developer.apple.com/documentation/DeclaredAgeRange",
+        "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+        "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+        "https://developer.android.com/google/play/age-signals/request-age-signals",
+        "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+        "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+        "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+        "https://developer.android.com/developer-verification",
+        "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+        "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+        "https://developer.android.com/developer-verification/guides",
+        "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+        "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+        "https://peraturan.bpk.go.id/Details/342589/permentan-no-32-tahun-2025",
+        "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014",
+        "https://jdih.komdigi.go.id/produk_hukum/abstrak/547",
+        "https://peraturan.bpk.go.id/Download/27970/UU%20Nomor%2024%20Tahun%202009.pdf",
+        "https://peraturan.bpk.go.id/Details/37251/uu-no-8-tahun-2016",
+        "https://peraturan.bpk.go.id/Download/133719/PP%20Nomor%2042%20Tahun%202020.pdf",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+        "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+        "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat",
+        "https://peraturan.bpk.go.id/Details/350898/permenkum-no-47-tahun-2025",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/",
+        "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang%2Bnomor%2B27%2Btahun%2B",
+        "https://www.ppatk.go.id/dalam_negeri/read/1400/daftar-terduga-teroris-dan-organisasi-teroris-dttot.html"
+      ]
+    }
+  ],
+  "official_source_review_sha256": "41c8f0ecc7b97623c5aa13dd82a927cc55a1a737745ece8f695c2e6ff9a11ed3",
+  "official_source_count": 48,
+  "official_topic_families": 22,
+  "reviewed_legal_frameworks": [
+    "Law No. 27 of 2022 on Personal Data Protection"
+  ],
+  "no_silent_fallback": true,
+  "route_role": "required_binding_document_locale",
+  "required_binding_document_locales": [
+    "id"
+  ],
+  "display_language_name": "Indonesia"
+}

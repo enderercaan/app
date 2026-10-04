@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance केवल उन्हीं फ़ोटो तक पहुँचता है जिन्हें आप पालतू प्रोफ़ाइल और सोशल पोस्ट के लिए चुनते हैं।",
+    "NSCameraUsageDescription": "Tailmance पालतू जानवरों की फ़ोटो, स्टोरी और पालतू सत्यापन के लिए कैमरे का उपयोग करता है।",
+    "NSLocationWhenInUseUsageDescription": "Tailmance दूरी के आधार पर आसपास के पालतू जानवर दिखाने के लिए आपके अनुमानित स्थान का उपयोग करता है।"
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

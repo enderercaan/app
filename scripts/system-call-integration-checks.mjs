@@ -1,0 +1,73 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const read=p=>fs.readFileSync(p,'utf8');
+const migration=read('supabase/migrations/173_push_transport_and_voip_call_delivery.sql');
+const notifications=read('src/services/notifications.ts');
+const lifecycle=read('supabase/functions/push-token-lifecycle/index.ts');
+const dispatch=read('supabase/functions/push-dispatch/index.ts');
+const apns=read('supabase/functions/_shared/apnsVoip.ts');
+const nav=read('src/navigation/AppNavigator.tsx');
+const call=read('src/screens/CallScreen.native.tsx');
+const system=read('src/services/systemCalls.ts');
+const plugin=read('plugins/withSystemCalls.cjs');
+const ios=read('modules/tailmance-system-calls/ios/TailmanceSystemCallsModule.swift');
+const androidModule=read('modules/tailmance-system-calls/android/src/main/java/expo/modules/tailmancesystemcalls/TailmanceSystemCallsModule.kt');
+const androidService=read('modules/tailmance-system-calls/android/src/main/java/expo/modules/tailmancesystemcalls/TailmanceConnectionService.kt');
+const exportEdge=read('supabase/functions/export-download/index.ts');
+const serverRelease=read('scripts/server-release-config-check.mjs');
+
+assert.match(migration,/add column if not exists transport text not null default 'expo'/);
+assert.match(migration,/transport in \('expo','apns_voip'\)/);
+assert.match(migration,/transport <> 'apns_voip' or platform = 'ios'/);
+assert.match(migration,/drop function if exists public\.register_push_token\(text,text,uuid\)/,'legacy RPC overload must be removed');
+assert.match(migration,/register_push_token\([\s\S]*p_transport text default 'expo'[\s\S]*require_active_authenticated_session\(\)/);
+assert.match(migration,/transport=v_transport[\s\S]*limit case when v_transport='apns_voip' then 4 else 10 end/,'transport families must be capped independently');
+
+assert.match(notifications,/p_transport: 'expo'/);
+assert.match(notifications,/p_transport:'apns_voip'/);
+assert.match(notifications,/registerVoipPushToken/);
+assert.match(notifications,/unregisterVoipPushToken/);
+assert.match(lifecycle,/\['expo','apns_voip'\]/);
+assert.match(lifecycle,/query=query\.eq\('transport',transport\)/);
+
+assert.match(dispatch,/select\('id,token,transport,platform'\)/);
+assert.match(dispatch,/token\.transport==='expo'\|\|\(n\.type==='call'&&token\.transport==='apns_voip'/,'VoIP tokens must be call-only');
+assert.match(dispatch,/sendApnsVoipPush/);
+assert.match(dispatch,/eq\('transport','expo'\)/);
+assert.match(dispatch,/eq\('transport','apns_voip'\)/);
+assert.match(apns,/'apns-topic':`\$\{cfg\.bundleId\}\.voip`/);
+assert.match(apns,/'apns-push-type':'voip'/);
+assert.match(apns,/crypto\.subtle\.sign\(\{name:'ECDSA',hash:'SHA-256'\}/);
+for(const env of ['APNS_TEAM_ID','APNS_KEY_ID','APNS_VOIP_PRIVATE_KEY_P8','APNS_BUNDLE_ID','APNS_ENVIRONMENT'])assert.match(serverRelease,new RegExp(env),`server release gate missing ${env}`);
+
+assert.match(plugin,/MANAGE_OWN_CALLS/);
+assert.match(plugin,/BIND_TELECOM_CONNECTION_SERVICE/);
+assert.match(plugin,/'voip'/);
+assert.match(ios,/CXProvider/);
+assert.match(ios,/PKPushRegistry/);
+assert.match(ios,/reportNewIncomingCall/);
+assert.match(ios,/didReceiveIncomingPushWith/);
+assert.match(ios,/UUID\(uuidString: recipientPetId\)/,'native PushKit payload must validate recipient pet UUID');
+assert.match(androidModule,/PhoneAccount\.CAPABILITY_SELF_MANAGED/);
+assert.match(androidModule,/isIncomingCallPermitted/);
+assert.match(androidService,/class TailmanceConnectionService : ConnectionService/);
+assert.match(androidService,/override fun onAnswer/);
+assert.match(androidService,/override fun onReject/);
+
+assert.match(system,/drainSystemCallActions/);
+assert.match(nav,/function useSystemCallBridge/);
+assert.match(nav,/action\.userId!==current\.userId/,'system answer must bind to authenticated user');
+assert.match(nav,/current\.myPets\.find\(pet=>pet\.id===action\.recipientPetId\)/,'system answer must bind to an owned pet');
+assert.match(nav,/getIncomingPetCall\(recipient\.id\)[\s\S]*call\.id!==action\.callId[\s\S]*respondPetCall/,'system answer must re-read server call authority');
+assert.match(nav,/getPetCallState\(action\.callId,candidate\.id\)/,'system end must re-read server call authority');
+assert.match(call,/reportOutgoingSystemCall/);
+assert.match(call,/reportSystemCallConnected/);
+assert.match(call,/reportSystemCallEnded/);
+assert.match(call,/role==='callee'&&status==='active'&&!token/,'CallKit-answer path must acquire a LiveKit token after server acceptance');
+assert.match(exportEdge,/id,platform,transport,active_pet_id/,'privacy export must expose transport metadata without exporting token contents');
+
+const roadmap=JSON.parse(read('release/roadmap-implementation-v21.json')).phases['11_webrtc_calls'];
+assert.match(roadmap.status,/^PARTIAL_NATIVE_SYSTEM_CALL_SOURCE_IMPLEMENTED_EXTERNAL_VOIP_PROVIDER_VERIFY$/);
+for(const evidence of ['modules/tailmance-system-calls/expo-module.config.json','plugins/withSystemCalls.cjs','src/services/systemCalls.ts','supabase/migrations/173_push_transport_and_voip_call_delivery.sql','supabase/functions/_shared/apnsVoip.ts'])assert.ok(roadmap.evidence.includes(evidence),`phase 11 missing ${evidence}`);
+assert.match(String(roadmap.note??''),/physical-device|APNs VoIP|production/i);
+console.log('system-call-integration-checks: CallKit + PushKit + Android Telecom source boundary PASS');

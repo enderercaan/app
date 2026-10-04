@@ -1,0 +1,2 @@
+app_identifier('com.tailmance.app')
+package_name('com.tailmance.app')

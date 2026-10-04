@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const r=JSON.parse(readFileSync('release/legal-gap-register-v19.json','utf8'));
+assert.equal(r.counts?.configured_markets,27);
+assert.equal(r.counts?.empty_topic_evidence_cells,0,'official-source topic cells must be complete');
+assert.equal(r.counts?.canonical_topic_source_presence_gaps,0,'canonical source-presence gaps must be zero');
+assert.equal(r.counts?.source_legal_approved_markets,27,'configured market source legal approval must be 27/27');
+assert.equal(r.counts?.source_legal_language_approved_markets,27,'configured market legal-language source approval must be 27/27');
+assert.equal(r.counts?.exact_country_language_routes,594,'exact country×language route coverage must be 594/594');
+assert.equal(r.counts?.source_legal_language_blockers,0,'source legal/language blockers must be zero');
+assert.equal(r.source_legal_language_decision,'GO_CONFIGURED_27_SOURCE_LEGAL_LANGUAGE');
+console.log('legal-gap-release-check: PASS — configured 27 source legal + legal-language approval complete; production external facts remain separate');

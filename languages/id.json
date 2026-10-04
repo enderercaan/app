@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmance hanya mengakses foto yang Anda pilih untuk profil hewan peliharaan dan postingan sosial.",
+    "NSCameraUsageDescription": "Tailmance menggunakan kamera untuk foto hewan peliharaan, story, dan verifikasi hewan peliharaan.",
+    "NSLocationWhenInUseUsageDescription": "Tailmance menggunakan lokasi perkiraan Anda untuk menampilkan hewan peliharaan terdekat berdasarkan jarak."
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

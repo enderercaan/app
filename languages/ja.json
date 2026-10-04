@@ -1,0 +1,11 @@
+{
+  "ios": {
+    "CFBundleDisplayName": "Tailmance",
+    "NSPhotoLibraryUsageDescription": "Tailmanceは、ペットのプロフィールやソーシャル投稿用にあなたが選択した写真のみにアクセスします。",
+    "NSCameraUsageDescription": "Tailmanceは、ペットの写真、ストーリー、ペット認証のためにカメラを使用します。",
+    "NSLocationWhenInUseUsageDescription": "Tailmanceは、おおよその位置情報を使用して、距離に基づき近くのペットを表示します。"
+  },
+  "android": {
+    "app_name": "Tailmance"
+  }
+}

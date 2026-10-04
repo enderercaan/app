@@ -1,0 +1,22 @@
+{
+  "locale": "it",
+  "appName": "Tailmance",
+  "apple": {
+    "subtitle": "Social e incontri per animali",
+    "promotionalText": "Scopri animali compatibili, crea abbinamenti reciproci, conversa con più sicurezza, consulta indicatori di salute e organizza incontri per cani e gatti.",
+    "description": "Tailmance è un’app sociale per scoprire e mettere in contatto animali, pensata per proprietari maggiorenni di cani e gatti. L’identità sociale visibile appartiene all’animale; i dati dell’account, della sicurezza, dei pagamenti e le informazioni sanitarie private restano separati.\n\nCrea un profilo con tre foto, area geografica, caratteristiche e obiettivi. Scopri animali compatibili, mostra interesse oppure passa oltre e conversa solo quando l’interesse è reciproco. Usa il feed, le storie, gli eventi e la pianificazione degli incontri.\n\nLe funzioni di sicurezza includono segnalazione, blocco, annullamento dell’abbinamento, moderazione dei contenuti, privacy della posizione approssimativa, segnali di verifica distinti per animale e proprietario e segnali di revisione dei documenti sanitari. Premium aggiunge messaggi illimitati e ulteriori controlli di scoperta.\n\nTailmance è riservato agli utenti di almeno 18 anni. I badge di verifica sono segnali di fiducia, non garanzie. Per decisioni sanitarie o riproduttive, consulta un veterinario qualificato e rispetta la normativa locale.",
+    "keywords": "animali,cani,gatti,amici,abbinamenti,passeggiate,incontri,comunità"
+  },
+  "google": {
+    "shortDescription": "Scopri animali, abbinali, conversa in sicurezza e organizza incontri.",
+    "fullDescription": "Tailmance è un’app sociale per scoprire e mettere in contatto animali, pensata per proprietari maggiorenni di cani e gatti. L’identità sociale visibile appartiene all’animale; i dati dell’account, della sicurezza, dei pagamenti e le informazioni sanitarie private restano separati.\n\nCrea un profilo con tre foto, area geografica, caratteristiche e obiettivi. Scopri animali compatibili, mostra interesse oppure passa oltre e conversa solo quando l’interesse è reciproco. Usa il feed, le storie, gli eventi e la pianificazione degli incontri.\n\nLe funzioni di sicurezza includono segnalazione, blocco, annullamento dell’abbinamento, moderazione dei contenuti, privacy della posizione approssimativa, segnali di verifica distinti per animale e proprietario e segnali di revisione dei documenti sanitari. Premium aggiunge messaggi illimitati e ulteriori controlli di scoperta.\n\nTailmance è riservato agli utenti di almeno 18 anni. I badge di verifica sono segnali di fiducia, non garanzie. Per decisioni sanitarie o riproduttive, consulta un veterinario qualificato e rispetta la normativa locale."
+  },
+  "screenshotCaptions": [
+    "Un’identità sociale costruita intorno al tuo animale",
+    "Scopri animali compatibili con filtri dettagliati",
+    "Interesse reciproco prima della conversazione privata",
+    "Sicurezza, segnalazioni e privacy sempre accessibili",
+    "Salute privata e segnali di verifica",
+    "Feed, eventi e incontri per una comunità attiva"
+  ]
+}

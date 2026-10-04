@@ -1,0 +1,2013 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-01",
+  "standard": "ISO 3166-1 alpha-2 universe as provided by the pinned project-generation environment",
+  "policy": {
+    "configured_market_is_not_legal_approval": false,
+    "unconfigured_country_release_status": "BLOCK",
+    "worldwide_distribution_requires_country_specific_review_before_enablement": true,
+    "territories_and_special_areas_are_not_silently_inferred_from_parent_country": true,
+    "language_availability_never_enables_a_country": true,
+    "configured_market_source_approval_basis": "release/configured-market-legal-language-source-approval-v20.json"
+  },
+  "summary": {
+    "iso_alpha2_entries": 249,
+    "configured_markets": 27,
+    "unconfigured_blocked_markets": 222,
+    "worldwide_country_specific_legal_screening_complete": false
+  },
+  "markets": {
+    "AD": {
+      "name": "Andorra",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AE": {
+      "name": "United Arab Emirates",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "AF": {
+      "name": "Afghanistan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AG": {
+      "name": "Antigua and Barbuda",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AI": {
+      "name": "Anguilla",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AL": {
+      "name": "Albania",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AM": {
+      "name": "Armenia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AO": {
+      "name": "Angola",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AQ": {
+      "name": "Antarctica",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AR": {
+      "name": "Argentina",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AS": {
+      "name": "American Samoa",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AT": {
+      "name": "Austria",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "AU": {
+      "name": "Australia",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "AW": {
+      "name": "Aruba",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AX": {
+      "name": "Åland Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BA": {
+      "name": "Bosnia and Herzegovina",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BB": {
+      "name": "Barbados",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BE": {
+      "name": "Belgium",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "BF": {
+      "name": "Burkina Faso",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BI": {
+      "name": "Burundi",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BJ": {
+      "name": "Benin",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BL": {
+      "name": "Saint Barthélemy",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BM": {
+      "name": "Bermuda",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BN": {
+      "name": "Brunei Darussalam",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BO": {
+      "name": "Bolivia, Plurinational State of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BQ": {
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BR": {
+      "name": "Brazil",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BT": {
+      "name": "Bhutan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BV": {
+      "name": "Bouvet Island",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BW": {
+      "name": "Botswana",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BY": {
+      "name": "Belarus",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "BZ": {
+      "name": "Belize",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CA": {
+      "name": "Canada",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "CC": {
+      "name": "Cocos (Keeling) Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CD": {
+      "name": "Congo, The Democratic Republic of the",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CF": {
+      "name": "Central African Republic",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CG": {
+      "name": "Congo",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CI": {
+      "name": "Côte d'Ivoire",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CK": {
+      "name": "Cook Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CL": {
+      "name": "Chile",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CM": {
+      "name": "Cameroon",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CN": {
+      "name": "China",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "CO": {
+      "name": "Colombia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CU": {
+      "name": "Cuba",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CV": {
+      "name": "Cabo Verde",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CW": {
+      "name": "Curaçao",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CX": {
+      "name": "Christmas Island",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "CZ": {
+      "name": "Czechia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "DE": {
+      "name": "Germany",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "DK": {
+      "name": "Denmark",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "DM": {
+      "name": "Dominica",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "DO": {
+      "name": "Dominican Republic",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "EE": {
+      "name": "Estonia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "EG": {
+      "name": "Egypt",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "EH": {
+      "name": "Western Sahara",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ES": {
+      "name": "Spain",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "FI": {
+      "name": "Finland",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "FK": {
+      "name": "Falkland Islands (Malvinas)",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "FM": {
+      "name": "Micronesia, Federated States of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "FO": {
+      "name": "Faroe Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "FR": {
+      "name": "France",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "GA": {
+      "name": "Gabon",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "GD": {
+      "name": "Grenada",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GE": {
+      "name": "Georgia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GF": {
+      "name": "French Guiana",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GG": {
+      "name": "Guernsey",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GH": {
+      "name": "Ghana",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GI": {
+      "name": "Gibraltar",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GL": {
+      "name": "Greenland",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GM": {
+      "name": "Gambia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GN": {
+      "name": "Guinea",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GP": {
+      "name": "Guadeloupe",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GQ": {
+      "name": "Equatorial Guinea",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GR": {
+      "name": "Greece",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GS": {
+      "name": "South Georgia and the South Sandwich Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GU": {
+      "name": "Guam",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GW": {
+      "name": "Guinea-Bissau",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "GY": {
+      "name": "Guyana",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "HK": {
+      "name": "Hong Kong",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "HM": {
+      "name": "Heard Island and McDonald Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "HN": {
+      "name": "Honduras",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "HR": {
+      "name": "Croatia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "HT": {
+      "name": "Haiti",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "HU": {
+      "name": "Hungary",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "IE": {
+      "name": "Ireland",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "IL": {
+      "name": "Israel",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "IM": {
+      "name": "Isle of Man",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "IN": {
+      "name": "India",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "IO": {
+      "name": "British Indian Ocean Territory",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "IR": {
+      "name": "Iran, Islamic Republic of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "IS": {
+      "name": "Iceland",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "IT": {
+      "name": "Italy",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "JE": {
+      "name": "Jersey",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "JO": {
+      "name": "Jordan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "JP": {
+      "name": "Japan",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "KE": {
+      "name": "Kenya",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KG": {
+      "name": "Kyrgyzstan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KH": {
+      "name": "Cambodia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KI": {
+      "name": "Kiribati",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KM": {
+      "name": "Comoros",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KN": {
+      "name": "Saint Kitts and Nevis",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KP": {
+      "name": "Korea, Democratic People's Republic of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KR": {
+      "name": "Korea, Republic of",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KY": {
+      "name": "Cayman Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "KZ": {
+      "name": "Kazakhstan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LA": {
+      "name": "Lao People's Democratic Republic",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LB": {
+      "name": "Lebanon",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LC": {
+      "name": "Saint Lucia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LR": {
+      "name": "Liberia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LV": {
+      "name": "Latvia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "LY": {
+      "name": "Libya",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MA": {
+      "name": "Morocco",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MC": {
+      "name": "Monaco",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MD": {
+      "name": "Moldova, Republic of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MF": {
+      "name": "Saint Martin (French part)",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MG": {
+      "name": "Madagascar",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MH": {
+      "name": "Marshall Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ML": {
+      "name": "Mali",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MM": {
+      "name": "Myanmar",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MO": {
+      "name": "Macao",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MP": {
+      "name": "Northern Mariana Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MQ": {
+      "name": "Martinique",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MR": {
+      "name": "Mauritania",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MS": {
+      "name": "Montserrat",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MT": {
+      "name": "Malta",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MV": {
+      "name": "Maldives",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MW": {
+      "name": "Malawi",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MX": {
+      "name": "Mexico",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NA": {
+      "name": "Namibia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NC": {
+      "name": "New Caledonia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NE": {
+      "name": "Niger",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NF": {
+      "name": "Norfolk Island",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "NO": {
+      "name": "Norway",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NP": {
+      "name": "Nepal",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NR": {
+      "name": "Nauru",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NU": {
+      "name": "Niue",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "OM": {
+      "name": "Oman",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PA": {
+      "name": "Panama",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PE": {
+      "name": "Peru",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PF": {
+      "name": "French Polynesia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PG": {
+      "name": "Papua New Guinea",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PH": {
+      "name": "Philippines",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PL": {
+      "name": "Poland",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "PM": {
+      "name": "Saint Pierre and Miquelon",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PN": {
+      "name": "Pitcairn",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PS": {
+      "name": "Palestine, State of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PT": {
+      "name": "Portugal",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PW": {
+      "name": "Palau",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "QA": {
+      "name": "Qatar",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "RE": {
+      "name": "Réunion",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "RO": {
+      "name": "Romania",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "RS": {
+      "name": "Serbia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "RU": {
+      "name": "Russian Federation",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "RW": {
+      "name": "Rwanda",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "SB": {
+      "name": "Solomon Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SC": {
+      "name": "Seychelles",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SD": {
+      "name": "Sudan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SE": {
+      "name": "Sweden",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SG": {
+      "name": "Singapore",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "SH": {
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SJ": {
+      "name": "Svalbard and Jan Mayen",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SM": {
+      "name": "San Marino",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SN": {
+      "name": "Senegal",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SO": {
+      "name": "Somalia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SR": {
+      "name": "Suriname",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SS": {
+      "name": "South Sudan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ST": {
+      "name": "Sao Tome and Principe",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SX": {
+      "name": "Sint Maarten (Dutch part)",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SY": {
+      "name": "Syrian Arab Republic",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "SZ": {
+      "name": "Eswatini",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TC": {
+      "name": "Turks and Caicos Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TD": {
+      "name": "Chad",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TF": {
+      "name": "French Southern Territories",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TG": {
+      "name": "Togo",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TH": {
+      "name": "Thailand",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "TJ": {
+      "name": "Tajikistan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TK": {
+      "name": "Tokelau",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TL": {
+      "name": "Timor-Leste",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TM": {
+      "name": "Turkmenistan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TO": {
+      "name": "Tonga",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TR": {
+      "name": "Türkiye",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "TT": {
+      "name": "Trinidad and Tobago",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TV": {
+      "name": "Tuvalu",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "TW": {
+      "name": "Taiwan, Province of China",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "TZ": {
+      "name": "Tanzania, United Republic of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "UG": {
+      "name": "Uganda",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "UM": {
+      "name": "United States Minor Outlying Islands",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "US": {
+      "name": "United States",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "VA": {
+      "name": "Holy See (Vatican City State)",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "VC": {
+      "name": "Saint Vincent and the Grenadines",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "VE": {
+      "name": "Venezuela, Bolivarian Republic of",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "VG": {
+      "name": "Virgin Islands, British",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "VI": {
+      "name": "Virgin Islands, U.S.",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "VN": {
+      "name": "Viet Nam",
+      "coverage_status": "configured_source_legal_language_approved",
+      "configured_market": true,
+      "release_status": "SOURCE_LEGAL_LANGUAGE_PASS__PRODUCTION_OPERATIONAL_EVIDENCE_SEPARATE",
+      "legal_review_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
+      "country_specific_source_screening": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
+    },
+    "VU": {
+      "name": "Vanuatu",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "WF": {
+      "name": "Wallis and Futuna",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "WS": {
+      "name": "Samoa",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "YE": {
+      "name": "Yemen",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "YT": {
+      "name": "Mayotte",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ZA": {
+      "name": "South Africa",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "coverage_status": "unconfigured_not_country_screened",
+      "configured_market": false,
+      "release_status": "BLOCK",
+      "legal_review_status": "not_started_for_country_release",
+      "country_specific_source_screening": "not_completed"
+    }
+  }
+}
