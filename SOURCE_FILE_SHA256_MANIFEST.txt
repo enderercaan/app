@@ -1,6 +1,6 @@
 e863e923fe40facf29718c21f5ee051a76e3d5bdc10de649cff4a22877cdff8e  ./.env.example
 9ee864b5084abce12fc6002850835baa635c85c70f8b32561feb8c7fc2e1c231  ./.github/dependabot.yml
-a28d9f479b54d21146bb47a2bafa3558037faf1893712f68e8c1a03006edef04  ./.github/workflows/ci.yml
+def45839e4692d9ce7497074bde37f20c1a4c8127468b96d65933cad187af19f  ./.github/workflows/ci.yml
 9bcb0a87d002eb1a1bd83a55218249a47fca453bdf4ca5fa2161db65cbb47a47  ./.github/workflows/security-scan.yml
 411fc3ddd996d5dfccdccd1255874569656bc8ec366251f43556adb0744bc800  ./.gitignore
 c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
@@ -9,7 +9,7 @@ c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
 40aa3964248629a7b15447fc50ae505108defa38d45a19d698eb24cf712dd94a  ./NOTICE.md
 a9615384aab74a7a0c7635bf316d69c966fc22e8f291e4aa4556b4604a56ea0b  ./PRODUCT_STRATEGY_RETENTION_AND_MONETIZATION_BOUNDARY_2026-09-30.md
 e24920393900a3423dc708af5c5816785bb75f2885fd23c769511296fc053ac3  ./README.md
-a12cff077e9528fddf808187717e692e0bc1c107b12d36d8de31e34646117b48  ./RELEASE_EVIDENCE.json
+334c744197137f0814ea70fc5e52323a6d188e9a7daa53b13b6b530d634db199  ./RELEASE_EVIDENCE.json
 ff01e9ae66f2225fc9e35a683cb6ceec82c51e4f7edaac3204c18d6e471c74e8  ./RELEASE_MANIFEST.json
 a077b0eb631934e0d80b5f2338c706ac62c216838846648aad3c60d479e036ad  ./app.config.ts
 c1ac4dd9de0bbbced5d95c501a0db79cfe22c2eb83176b5fb53ba9308f9c9946  ./assets/adaptive-foreground.png
@@ -163,7 +163,7 @@ a683e79d9d55260f78400cac70d15568a70c037b3f65fbea572a0f002f0470b5  ./release/lega
 17fa37a2d27f175cf414572ae99d6f929c0e5b2eeafdcab03f1d510e7806ed7f  ./release/legal-language-applicability-r8.json
 2177968b99de307ac00cc12b0035153f8bef47c0ec57a437266dbb8e3bc6e323  ./release/legal-language-review-v19.json
 3f5365e193bb52292f1bf3e1e739a2517338b699a091522b1c8e2fb3f9e961e3  ./release/legal-web-localization-manifest-v1.json
-7b559992ebd8be6bb84fc803c36c27767c4a6841e773831d5f441d32826b8a67  ./release/local-typecheck-evidence.json
+c39367ac6d6e060412bfcb9a5bcb886edeca3bb78535cad62b382fbf47352e5b  ./release/local-typecheck-evidence.json
 33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1  ./release/local-validation/typecheck.txt
 c6a70aab79244ccf3e6bdeed4e5917df28021fa3f0f2c6cd54006c449160f266  ./release/localized-legal-web-manifest-r8.json
 55e5c8302450d272e71a18dda015b99650dd3ad42d942fa465dc8988f3e6eb5f  ./release/official-source-review-v19.json
