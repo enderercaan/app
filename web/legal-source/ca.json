@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Comprovacions de salut assistides per IA. Qualsevol comprovació assistida per IA de documents de vacunació o veterinaris és només una ajuda automatitzada preliminar. No pren cap decisió definitiva, vinculant ni jurídicament vàlida, i no constitueix un examen veterinari, un diagnòstic, una certificació ni una garantia de l'estat de salut o de vacunació d'un animal. La IA pot cometre errors, passar per alt fallades o llegir un document de manera incorrecta. Una persona revisa els resultats poc clars o discutits, i el senyal «document revisat» només indica que el document s'ha comprovat. Les decisions de salut s'han de recolzar en un veterinari col·legiat, i no s'ha de retardar l'atenció per un resultat mostrat a l'aplicació."
+              "text": "Comprovació de documents de salut assistida per IA. Tailmance pot fer servir reconeixement de text assistit per IA per revisar la cartilla de salut que puges de la teva mascota. La comprovació només llegeix el que diu el document: no identifica la raça d’un animal, no l’examina ni el diagnostica i no és una certificació veterinària. Si el document és complet i coherent (hi consta el número del microxip, les vacunes i els tractaments antiparasitaris interns i externs, sense errors ni dades contradictòries), la comprovació el pot marcar com a verificat. Els documents incomplets, poc clars o incoherents no es verifiquen automàticament i els pot revisar una persona. La IA pot cometre errors, passar per alt fallades o llegir malament un document, així que comprova tu mateix la informació important. L’etiqueta de verificat no garanteix l’estat de salut ni de vacunació d’un animal i no és una decisió definitiva, vinculant ni jurídicament vàlida. Confia en un veterinari col·legiat per a les decisions de salut i no endarrereixis l’atenció per un resultat mostrat a l’aplicació."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Comprovacions de salut assistides per IA. Qualsevol comprovació assistida per IA de documents de vacunació o veterinaris és només una ajuda automatitzada preliminar. No pren cap decisió definitiva, vinculant ni jurídicament vàlida, i no constitueix un examen veterinari, un diagnòstic, una certificació ni una garantia de l'estat de salut o de vacunació d'un animal. La IA pot cometre errors, passar per alt fallades o llegir un document de manera incorrecta. Una persona revisa els resultats poc clars o discutits, i el senyal «document revisat» només indica que el document s'ha comprovat. Les decisions de salut s'han de recolzar en un veterinari col·legiat, i no s'ha de retardar l'atenció per un resultat mostrat a l'aplicació."
+              "text": "Comprovació de documents de salut assistida per IA. Tailmance pot fer servir reconeixement de text assistit per IA per revisar la cartilla de salut que puges de la teva mascota. La comprovació només llegeix el que diu el document: no identifica la raça d’un animal, no l’examina ni el diagnostica i no és una certificació veterinària. Si el document és complet i coherent (hi consta el número del microxip, les vacunes i els tractaments antiparasitaris interns i externs, sense errors ni dades contradictòries), la comprovació el pot marcar com a verificat. Els documents incomplets, poc clars o incoherents no es verifiquen automàticament i els pot revisar una persona. La IA pot cometre errors, passar per alt fallades o llegir malament un document, així que comprova tu mateix la informació important. L’etiqueta de verificat no garanteix l’estat de salut ni de vacunació d’un animal i no és una decisió definitiva, vinculant ni jurídicament vàlida. Confia en un veterinari col·legiat per a les decisions de salut i no endarrereixis l’atenció per un resultat mostrat a l’aplicació."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Funcions assistides per IA. Algunes funcions utilitzen eines assistides per IA. En els dispositius compatibles, un model al dispositiu pot suggerir una raça a partir de la foto d'una mascota i revisar la seguretat de les fotos abans de pujar-les; els suggeriments són opcionals i poden ser incorrectes. Els documents de vacunació i veterinaris poden passar una revisió prèvia amb reconeixement de text assistit per IA, i els resultats poc clars passen a revisió humana. El resultat de la IA és només un senyal: no és assessorament veterinari ni un diagnòstic i, per si sol, no decideix un resultat rellevant per a una persona. Tailmance no ofereix cap xatbot d'IA ni diagnòstic veterinari per IA. Qui es vegi afectat per un resultat assistit per IA pot sol·licitar revisió humana mitjançant el procés d'apel·lació de l'aplicació o el Suport."
+              "text": "Funcions assistides per IA. Algunes funcions utilitzen eines assistides per IA. En els dispositius compatibles, un model al dispositiu pot revisar la seguretat de les fotos abans de pujar-les. Els documents de vacunació i veterinaris es poden comprovar amb reconeixement de text assistit per IA: una cartilla de salut completa i coherent (microxip, vacunes, tractaments antiparasitaris interns i externs, sense errors) es pot marcar com a verificada, i els documents incomplets o poc clars passen a revisió humana. La comprovació només llegeix el document i mai no identifica una raça ni diagnostica un animal. La IA pot cometre errors, així que comprova la informació important. El resultat de la IA és només un senyal: no és assessorament veterinari ni un diagnòstic i, per si sol, no decideix un resultat rellevant per a una persona. Tailmance no ofereix cap xatbot d'IA ni diagnòstic veterinari per IA. Qui es vegi afectat per un resultat assistit per IA pot sol·licitar revisió humana mitjançant el procés d'apel·lació de l'aplicació o el Suport."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "La IA pot cometre errors. Les comprovacions de documents assistides per IA són només preliminars: mai no prenen una decisió definitiva o jurídicament vàlida sobre la salut d'un animal, no són assessorament veterinari i no garanteixen l'estat de salut ni de vacunació. Consulteu sempre un veterinari col·legiat."
+              "text": "La IA pot cometre errors, així que comprova la informació important. Les comprovacions assistides per IA només llegeixen la cartilla de salut d’una mascota: mai no identifiquen una raça ni diagnostiquen, i només poden marcar un document com a verificat si és complet i coherent (microxip, vacunes, tractaments antiparasitaris interns i externs). L’etiqueta de verificat no és assessorament veterinari, certificació ni garantia. Consulta sempre un veterinari col·legiat."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "La IA pot cometre errors. Les comprovacions de documents assistides per IA són només preliminars: mai no prenen una decisió definitiva o jurídicament vàlida sobre la salut d'un animal, no són assessorament veterinari i no garanteixen l'estat de salut ni de vacunació. Consulteu sempre un veterinari col·legiat."
+              "text": "La IA pot cometre errors, així que comprova la informació important. Les comprovacions assistides per IA només llegeixen la cartilla de salut d’una mascota: mai no identifiquen una raça ni diagnostiquen, i només poden marcar un document com a verificat si és complet i coherent (microxip, vacunes, tractaments antiparasitaris interns i externs). L’etiqueta de verificat no és assessorament veterinari, certificació ni garantia. Consulta sempre un veterinari col·legiat."
             }
           ]
         }

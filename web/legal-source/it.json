@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Controlli sanitari assistiti dall’IA. Qualsiasi controllo assistito dall’IA di documenti vaccinali o veterinari è solo un ausilio automatico preliminare. Non adotta alcuna decisione definitiva, vincolante o giuridicamente valida e non costituisce una visita veterinaria, una diagnosi, una certificazione né una garanzia dello stato di salute o vaccinale di un animale. L’IA può commettere errori, non rilevare difetti o leggere in modo errato un documento. I risultati poco chiari o contestati sono esaminati da una persona e l’indicazione «documento esaminato» significa soltanto che il documento è stato controllato. Per le decisioni sulla salute ci si deve affidare a un medico veterinario abilitato e non si deve ritardare l’assistenza per un risultato mostrato nell’app."
+              "text": "Controlli dei documenti sanitari assistiti dall’IA. Tailmance può usare il riconoscimento del testo assistito dall’IA per esaminare il libretto sanitario che carichi per il tuo animale. Il controllo legge solo ciò che dice il documento: non identifica la razza di un animale, non visita né diagnostica l’animale e non è una certificazione veterinaria. Se il documento è completo e coerente (riporta il numero del microchip, le vaccinazioni e i trattamenti antiparassitari interni ed esterni, senza errori né dati contrastanti), il controllo può contrassegnarlo come verificato. I documenti incompleti, poco chiari o incoerenti non vengono verificati automaticamente e possono essere esaminati da una persona. L’IA può commettere errori, non rilevare difetti o leggere male un documento: controlla quindi tu stesso le informazioni importanti. L’etichetta «verificato» non garantisce lo stato di salute o vaccinale di un animale e non è una decisione definitiva, vincolante o giuridicamente valida. Per le decisioni sulla salute affidati a un medico veterinario abilitato e non ritardare le cure a causa di un risultato mostrato nell’app."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Controlli sanitari assistiti dall’IA. Qualsiasi controllo assistito dall’IA di documenti vaccinali o veterinari è solo un ausilio automatico preliminare. Non adotta alcuna decisione definitiva, vincolante o giuridicamente valida e non costituisce una visita veterinaria, una diagnosi, una certificazione né una garanzia dello stato di salute o vaccinale di un animale. L’IA può commettere errori, non rilevare difetti o leggere in modo errato un documento. I risultati poco chiari o contestati sono esaminati da una persona e l’indicazione «documento esaminato» significa soltanto che il documento è stato controllato. Per le decisioni sulla salute ci si deve affidare a un medico veterinario abilitato e non si deve ritardare l’assistenza per un risultato mostrato nell’app."
+              "text": "Controlli dei documenti sanitari assistiti dall’IA. Tailmance può usare il riconoscimento del testo assistito dall’IA per esaminare il libretto sanitario che carichi per il tuo animale. Il controllo legge solo ciò che dice il documento: non identifica la razza di un animale, non visita né diagnostica l’animale e non è una certificazione veterinaria. Se il documento è completo e coerente (riporta il numero del microchip, le vaccinazioni e i trattamenti antiparassitari interni ed esterni, senza errori né dati contrastanti), il controllo può contrassegnarlo come verificato. I documenti incompleti, poco chiari o incoerenti non vengono verificati automaticamente e possono essere esaminati da una persona. L’IA può commettere errori, non rilevare difetti o leggere male un documento: controlla quindi tu stesso le informazioni importanti. L’etichetta «verificato» non garantisce lo stato di salute o vaccinale di un animale e non è una decisione definitiva, vincolante o giuridicamente valida. Per le decisioni sulla salute affidati a un medico veterinario abilitato e non ritardare le cure a causa di un risultato mostrato nell’app."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Funzionalità assistite dall’IA. Alcune funzionalità usano strumenti assistiti dall’IA. Sui dispositivi compatibili, un modello sul dispositivo può suggerire una razza dalla foto di un animale e controllare la sicurezza delle foto prima del caricamento; i suggerimenti sono facoltativi e possono essere errati. I documenti vaccinali e veterinari possono essere pre-verificati con il riconoscimento del testo assistito dall’IA e i risultati poco chiari passano alla revisione umana. L’output dell’IA è solo un segnale: non è un parere veterinario né una diagnosi e da solo non decide un esito rilevante per una persona. Tailmance non offre un chatbot IA né una diagnosi veterinaria tramite IA. Chi è interessato da un risultato assistito dall’IA può chiedere una revisione umana tramite la procedura di ricorso nell’app o il Supporto."
+              "text": "Funzionalità assistite dall’IA. Alcune funzionalità usano strumenti assistiti dall’IA. Sui dispositivi compatibili, un modello sul dispositivo può controllare la sicurezza delle foto prima del caricamento. I documenti vaccinali e veterinari possono essere verificati con il riconoscimento del testo assistito dall’IA: un libretto sanitario completo e coerente (microchip, vaccinazioni, trattamenti antiparassitari interni ed esterni, senza errori) può essere contrassegnato come verificato, mentre i documenti incompleti o poco chiari passano alla revisione umana. Il controllo legge solo il documento e non identifica mai una razza né diagnostica un animale. L’IA può commettere errori: controlla quindi le informazioni importanti. L’output dell’IA è solo un segnale: non è un parere veterinario né una diagnosi e da solo non decide un esito rilevante per una persona. Tailmance non offre un chatbot IA né una diagnosi veterinaria tramite IA. Chi è interessato da un risultato assistito dall’IA può chiedere una revisione umana tramite la procedura di ricorso nell’app o il Supporto."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "L’IA può commettere errori. I controlli dei documenti assistiti dall’IA sono solo preliminari: non adottano mai una decisione definitiva o giuridicamente valida sulla salute di un animale, non sono un parere veterinario e non garantiscono lo stato di salute o vaccinale. Consultare sempre un medico veterinario abilitato."
+              "text": "L’IA può commettere errori: controlla le informazioni importanti. I controlli assistiti dall’IA leggono solo il libretto sanitario di un animale: non identificano mai una razza, non fanno diagnosi e possono contrassegnare un documento come verificato solo se è completo e coerente (microchip, vaccinazioni, trattamenti antiparassitari interni ed esterni). L’etichetta «verificato» non è un parere veterinario, una certificazione o una garanzia. Consulta sempre un medico veterinario abilitato."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "L’IA può commettere errori. I controlli dei documenti assistiti dall’IA sono solo preliminari: non adottano mai una decisione definitiva o giuridicamente valida sulla salute di un animale, non sono un parere veterinario e non garantiscono lo stato di salute o vaccinale. Consultare sempre un medico veterinario abilitato."
+              "text": "L’IA può commettere errori: controlla le informazioni importanti. I controlli assistiti dall’IA leggono solo il libretto sanitario di un animale: non identificano mai una razza, non fanno diagnosi e possono contrassegnare un documento come verificato solo se è completo e coerente (microchip, vaccinazioni, trattamenti antiparassitari interni ed esterni). L’etichetta «verificato» non è un parere veterinario, una certificazione o una garanzia. Consulta sempre un medico veterinario abilitato."
             }
           ]
         }

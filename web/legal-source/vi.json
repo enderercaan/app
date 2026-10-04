@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Kiểm tra sức khỏe có hỗ trợ AI. Mọi hoạt động kiểm tra giấy tờ tiêm chủng hoặc giấy tờ thú y có hỗ trợ AI chỉ là công cụ hỗ trợ tự động mang tính sơ bộ. Nó không đưa ra quyết định cuối cùng, ràng buộc hay có giá trị pháp lý, và không phải là khám thú y, chẩn đoán, chứng nhận hay bảo đảm về tình trạng sức khỏe hoặc tiêm chủng của vật nuôi. AI có thể mắc lỗi, bỏ sót sai sót hoặc đọc sai giấy tờ. Kết quả chưa rõ hoặc bị tranh chấp sẽ do con người xem xét, và dấu hiệu “đã xem xét giấy tờ” chỉ có nghĩa là giấy tờ đã được kiểm tra. Các quyết định về sức khỏe cần dựa vào bác sĩ thú y có giấy phép hành nghề, và không nên trì hoãn chăm sóc vì một kết quả hiển thị trong ứng dụng."
+              "text": "Kiểm tra tài liệu sức khỏe có hỗ trợ AI. Tailmance có thể dùng nhận dạng văn bản có hỗ trợ AI để xem xét sổ sức khỏe mà bạn tải lên cho thú cưng. Bước kiểm tra chỉ đọc nội dung ghi trong tài liệu: không xác định giống của thú cưng, không khám hay chẩn đoán thú cưng và không phải là chứng nhận của bác sĩ thú y. Nếu tài liệu đầy đủ và nhất quán (có số vi mạch, các mũi tiêm và việc xử lý ký sinh trùng trong và ngoài, không có lỗi hay thông tin mâu thuẫn), bước kiểm tra có thể đánh dấu tài liệu là đã xác minh. Tài liệu thiếu, không rõ hoặc không nhất quán sẽ không được xác minh tự động và có thể do một người xem xét. AI có thể mắc lỗi, bỏ sót sai sót hoặc đọc sai tài liệu, vì vậy hãy tự kiểm tra các thông tin quan trọng. Nhãn đã xác minh không bảo đảm tình trạng sức khỏe hay tiêm chủng của thú cưng và không phải là quyết định cuối cùng, ràng buộc hay có giá trị pháp lý. Hãy dựa vào bác sĩ thú y có giấy phép cho các quyết định về sức khỏe và đừng trì hoãn việc chăm sóc vì một kết quả hiển thị trong ứng dụng."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Kiểm tra sức khỏe có hỗ trợ AI. Mọi hoạt động kiểm tra giấy tờ tiêm chủng hoặc giấy tờ thú y có hỗ trợ AI chỉ là công cụ hỗ trợ tự động mang tính sơ bộ. Nó không đưa ra quyết định cuối cùng, ràng buộc hay có giá trị pháp lý, và không phải là khám thú y, chẩn đoán, chứng nhận hay bảo đảm về tình trạng sức khỏe hoặc tiêm chủng của vật nuôi. AI có thể mắc lỗi, bỏ sót sai sót hoặc đọc sai giấy tờ. Kết quả chưa rõ hoặc bị tranh chấp sẽ do con người xem xét, và dấu hiệu “đã xem xét giấy tờ” chỉ có nghĩa là giấy tờ đã được kiểm tra. Các quyết định về sức khỏe cần dựa vào bác sĩ thú y có giấy phép hành nghề, và không nên trì hoãn chăm sóc vì một kết quả hiển thị trong ứng dụng."
+              "text": "Kiểm tra tài liệu sức khỏe có hỗ trợ AI. Tailmance có thể dùng nhận dạng văn bản có hỗ trợ AI để xem xét sổ sức khỏe mà bạn tải lên cho thú cưng. Bước kiểm tra chỉ đọc nội dung ghi trong tài liệu: không xác định giống của thú cưng, không khám hay chẩn đoán thú cưng và không phải là chứng nhận của bác sĩ thú y. Nếu tài liệu đầy đủ và nhất quán (có số vi mạch, các mũi tiêm và việc xử lý ký sinh trùng trong và ngoài, không có lỗi hay thông tin mâu thuẫn), bước kiểm tra có thể đánh dấu tài liệu là đã xác minh. Tài liệu thiếu, không rõ hoặc không nhất quán sẽ không được xác minh tự động và có thể do một người xem xét. AI có thể mắc lỗi, bỏ sót sai sót hoặc đọc sai tài liệu, vì vậy hãy tự kiểm tra các thông tin quan trọng. Nhãn đã xác minh không bảo đảm tình trạng sức khỏe hay tiêm chủng của thú cưng và không phải là quyết định cuối cùng, ràng buộc hay có giá trị pháp lý. Hãy dựa vào bác sĩ thú y có giấy phép cho các quyết định về sức khỏe và đừng trì hoãn việc chăm sóc vì một kết quả hiển thị trong ứng dụng."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Tính năng có hỗ trợ AI. Một số tính năng dùng công cụ có hỗ trợ AI. Trên thiết bị được hỗ trợ, mô hình chạy trên thiết bị có thể gợi ý giống từ ảnh thú cưng và kiểm tra an toàn cho ảnh trước khi tải lên; gợi ý là tùy chọn và có thể sai. Giấy tờ tiêm chủng và giấy tờ thú y có thể được kiểm tra sơ bộ bằng nhận dạng văn bản có hỗ trợ AI, và kết quả chưa rõ sẽ chuyển cho con người xem xét. Kết quả AI chỉ là một tín hiệu: không phải lời khuyên hay chẩn đoán thú y và tự nó không quyết định một kết quả có hệ quả đối với người dùng. Tailmance không cung cấp chatbot AI hay chẩn đoán thú y bằng AI. Người dùng bị ảnh hưởng bởi kết quả có hỗ trợ AI có thể yêu cầu con người xem xét qua quy trình khiếu nại trong ứng dụng hoặc bộ phận Hỗ trợ."
+              "text": "Tính năng có hỗ trợ AI. Một số tính năng dùng công cụ có hỗ trợ AI. Trên thiết bị được hỗ trợ, mô hình chạy trên thiết bị có thể kiểm tra an toàn cho ảnh trước khi tải lên. Giấy tờ tiêm chủng và giấy tờ thú y có thể được kiểm tra bằng nhận dạng văn bản có hỗ trợ AI: sổ sức khỏe đầy đủ và nhất quán (vi mạch, tiêm chủng, xử lý ký sinh trùng trong và ngoài, không có lỗi) có thể được đánh dấu là đã xác minh, còn tài liệu thiếu hoặc không rõ sẽ chuyển cho con người xem xét. Bước kiểm tra chỉ đọc tài liệu và không bao giờ xác định giống hay chẩn đoán thú cưng. AI có thể mắc lỗi, vì vậy hãy kiểm tra thông tin quan trọng. Kết quả AI chỉ là một tín hiệu: không phải lời khuyên hay chẩn đoán thú y và tự nó không quyết định một kết quả có hệ quả đối với người dùng. Tailmance không cung cấp chatbot AI hay chẩn đoán thú y bằng AI. Người dùng bị ảnh hưởng bởi kết quả có hỗ trợ AI có thể yêu cầu con người xem xét qua quy trình khiếu nại trong ứng dụng hoặc bộ phận Hỗ trợ."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "AI có thể mắc lỗi. Việc kiểm tra giấy tờ có hỗ trợ AI chỉ mang tính sơ bộ: không bao giờ đưa ra quyết định cuối cùng hoặc có giá trị pháp lý về sức khỏe của vật nuôi, không phải lời khuyên thú y và không bảo đảm tình trạng sức khỏe hay tiêm chủng. Hãy luôn tham khảo bác sĩ thú y có giấy phép."
+              "text": "AI có thể mắc lỗi, vì vậy hãy kiểm tra thông tin quan trọng. Các bước kiểm tra có hỗ trợ AI chỉ đọc sổ sức khỏe của thú cưng: không bao giờ xác định giống hay chẩn đoán, và chỉ có thể đánh dấu tài liệu là đã xác minh khi tài liệu đầy đủ và nhất quán (vi mạch, tiêm chủng, xử lý ký sinh trùng trong và ngoài). Nhãn đã xác minh không phải là lời khuyên thú y, chứng nhận hay bảo đảm. Luôn tham khảo bác sĩ thú y có giấy phép."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "AI có thể mắc lỗi. Việc kiểm tra giấy tờ có hỗ trợ AI chỉ mang tính sơ bộ: không bao giờ đưa ra quyết định cuối cùng hoặc có giá trị pháp lý về sức khỏe của vật nuôi, không phải lời khuyên thú y và không bảo đảm tình trạng sức khỏe hay tiêm chủng. Hãy luôn tham khảo bác sĩ thú y có giấy phép."
+              "text": "AI có thể mắc lỗi, vì vậy hãy kiểm tra thông tin quan trọng. Các bước kiểm tra có hỗ trợ AI chỉ đọc sổ sức khỏe của thú cưng: không bao giờ xác định giống hay chẩn đoán, và chỉ có thể đánh dấu tài liệu là đã xác minh khi tài liệu đầy đủ và nhất quán (vi mạch, tiêm chủng, xử lý ký sinh trùng trong và ngoài). Nhãn đã xác minh không phải là lời khuyên thú y, chứng nhận hay bảo đảm. Luôn tham khảo bác sĩ thú y có giấy phép."
             }
           ]
         }

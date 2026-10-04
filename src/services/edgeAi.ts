@@ -11,7 +11,7 @@ const MAX_MANIFEST_VALIDITY_MS=180*24*60*60*1000;
 const manifestFlights=new Map<string,Promise<EdgeAiModelManifest>>();
 const modelFlights=new Map<string,Promise<File>>();
 
-type EdgeAiModelRole='breed'|'safety';
+type EdgeAiModelRole='safety';
 type EdgeAiPlatform='ios'|'android';
 type ModelFormat='mlmodel'|'tflite'|'task';
 
@@ -42,12 +42,10 @@ type EdgeAiModelManifest={
   publishedAt:string;
   expiresAt:string;
   models:{
-    breed:ModelDefinition;
     safety:ModelDefinition&{policy:SafetyPolicy};
   };
 };
 
-export type BreedSuggestion={label:string;displayName:string|null;confidence:number};
 type SafetyPrefilterDecision={
   decision:'allow'|'review'|'block'|'unavailable';
   reason?:string;
@@ -156,9 +154,8 @@ function validateManifest(raw:unknown,manifestUrl:string):EdgeAiModelManifest{
   const publishedAt=x.publishedAt; const expiresAt=x.expiresAt;
   const publishedMs=Date.parse(publishedAt); const expiresMs=Date.parse(expiresAt); const now=Date.now();
   if(!Number.isFinite(publishedMs)||!Number.isFinite(expiresMs)||publishedMs>now+5*60_000||expiresMs<=now||expiresMs<=publishedMs||expiresMs-publishedMs>MAX_MANIFEST_VALIDITY_MS)throw new Error('edge_ai_manifest_validity_invalid');
-  const models=exactObject(x.models,['breed','safety'],'edge_ai_manifest_models_missing');
+  const models=exactObject(x.models,['safety'],'edge_ai_manifest_models_missing');
   const origin=exactOrigin(manifestUrl);
-  const breed=validateModelDefinition(models.breed,origin);
   const safetyBase=validateModelDefinition(models.safety,origin,true);
   const safetyRaw=models.safety as Record<string,unknown>;
   const policy=exactObject(safetyRaw.policy,['blockLabels','reviewLabels','blockThreshold','reviewThreshold'],'edge_ai_manifest_safety_policy_missing');
@@ -170,7 +167,7 @@ function validateManifest(raw:unknown,manifestUrl:string):EdgeAiModelManifest{
   if(!Number.isFinite(blockThreshold)||!Number.isFinite(reviewThreshold)||reviewThreshold<0||blockThreshold>1||reviewThreshold>blockThreshold)throw new Error('edge_ai_manifest_safety_thresholds_invalid');
   return{
     schemaVersion:1,policyVersion,publishedAt,expiresAt,
-    models:{breed,safety:{...safetyBase,policy:{blockLabels,reviewLabels,blockThreshold,reviewThreshold}}}
+    models:{safety:{...safetyBase,policy:{blockLabels,reviewLabels,blockThreshold,reviewThreshold}}}
   };
 }
 
@@ -227,11 +224,6 @@ async function classify(role:EdgeAiModelRole,imageUri:string,maxResults:number,s
   const result=await NativeEdgeAi.classifyImageAsync(file.uri,artifact.sha256,imageUri,maxResults,scoreThreshold);
   validateNativeResult(result,artifact,platform);
   return{manifest,modelVersion:model.version,result};
-}
-
-export async function suggestPetBreeds(imageUri:string,maxResults=5):Promise<BreedSuggestion[]>{
-  const {result}=await classify('breed',imageUri,Math.min(Math.max(maxResults,1),10),0.05);
-  return result.categories.map(category=>({label:category.label,displayName:category.displayName,confidence:category.score}));
 }
 
 export async function prefilterImageSafety(imageUri:string):Promise<SafetyPrefilterDecision>{

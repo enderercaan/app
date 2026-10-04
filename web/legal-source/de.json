@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann sich irren, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
+              "text": "KI-gestützte Prüfung von Gesundheitsdokumenten. Tailmance kann KI-gestützte Texterkennung einsetzen, um den Gesundheitsnachweis zu prüfen, den du für dein Tier hochlädst. Die Prüfung liest nur, was im Dokument steht: Sie bestimmt nicht die Rasse eines Tieres, untersucht oder diagnostiziert das Tier nicht und ist keine tierärztliche Bescheinigung. Ist das Dokument vollständig und stimmig (es enthält eine Mikrochip-Nummer, die Impfungen sowie die Behandlungen gegen innere und äußere Parasiten, ohne Fehler oder widersprüchliche Angaben), kann die Prüfung es als verifiziert markieren. Unvollständige, unklare oder widersprüchliche Dokumente werden nicht automatisch verifiziert und können von einer Person geprüft werden. KI kann Fehler machen, Fehler übersehen oder ein Dokument falsch lesen. Bitte prüfe wichtige Informationen daher selbst. Eine Verifizierung ist keine Garantie für den Gesundheits- oder Impfstatus eines Tieres und keine endgültige, verbindliche oder rechtlich wirksame Entscheidung. Verlasse dich bei Gesundheitsentscheidungen auf eine Tierärztin oder einen Tierarzt und verzögere keine Behandlung wegen eines in der App angezeigten Ergebnisses."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann sich irren, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
+              "text": "KI-gestützte Prüfung von Gesundheitsdokumenten. Tailmance kann KI-gestützte Texterkennung einsetzen, um den Gesundheitsnachweis zu prüfen, den du für dein Tier hochlädst. Die Prüfung liest nur, was im Dokument steht: Sie bestimmt nicht die Rasse eines Tieres, untersucht oder diagnostiziert das Tier nicht und ist keine tierärztliche Bescheinigung. Ist das Dokument vollständig und stimmig (es enthält eine Mikrochip-Nummer, die Impfungen sowie die Behandlungen gegen innere und äußere Parasiten, ohne Fehler oder widersprüchliche Angaben), kann die Prüfung es als verifiziert markieren. Unvollständige, unklare oder widersprüchliche Dokumente werden nicht automatisch verifiziert und können von einer Person geprüft werden. KI kann Fehler machen, Fehler übersehen oder ein Dokument falsch lesen. Bitte prüfe wichtige Informationen daher selbst. Eine Verifizierung ist keine Garantie für den Gesundheits- oder Impfstatus eines Tieres und keine endgültige, verbindliche oder rechtlich wirksame Entscheidung. Verlasse dich bei Gesundheitsentscheidungen auf eine Tierärztin oder einen Tierarzt und verzögere keine Behandlung wegen eines in der App angezeigten Ergebnisses."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Funktionen. Einige Funktionen nutzen KI-gestützte Werkzeuge. Auf unterstützten Geräten kann ein Modell auf dem Gerät anhand eines Tierfotos eine Rasse vorschlagen und Fotos vor dem Hochladen auf Sicherheit prüfen; Vorschläge sind optional und können falsch sein. Impf- und Tierarztunterlagen können mit KI-gestützter Texterkennung vorgeprüft werden, unklare Ergebnisse gehen an eine menschliche Prüfung. KI-Ausgaben sind nur ein Signal: Sie sind keine tierärztliche Beratung oder Diagnose und treffen allein keine folgenreiche Entscheidung über eine Person. Tailmance bietet keinen KI-Chatbot und keine KI-Tierdiagnose an. Wer von einem KI-gestützten Ergebnis betroffen ist, kann über den Einspruchsprozess in der App oder den Support eine menschliche Überprüfung verlangen."
+              "text": "KI-gestützte Funktionen. Einige Funktionen nutzen KI-gestützte Werkzeuge. Auf unterstützten Geräten kann ein Modell auf dem Gerät Fotos vor dem Hochladen auf Sicherheit prüfen. Impf- und Tierarztunterlagen können mit KI-gestützter Texterkennung geprüft werden: Ein vollständiger, stimmiger Gesundheitsnachweis (Mikrochip, Impfungen, Behandlungen gegen innere und äußere Parasiten, keine Fehler) kann als verifiziert markiert werden, unvollständige oder unklare Unterlagen gehen an eine menschliche Prüfung. Die Prüfung liest nur das Dokument und bestimmt nie eine Rasse und stellt keine Diagnose. KI kann Fehler machen, bitte prüfe daher wichtige Informationen. KI-Ausgaben sind nur ein Signal: Sie sind keine tierärztliche Beratung oder Diagnose und treffen allein keine folgenreiche Entscheidung über eine Person. Tailmance bietet keinen KI-Chatbot und keine KI-Tierdiagnose an. Wer von einem KI-gestützten Ergebnis betroffen ist, kann über den Einspruchsprozess in der App oder den Support eine menschliche Überprüfung verlangen."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "KI kann Fehler machen. KI-gestützte Dokumentenprüfungen sind nur vorläufig: Sie treffen keine endgültige oder rechtlich wirksame Entscheidung über die Gesundheit eines Tieres, sind keine tierärztliche Beratung und garantieren keinen Gesundheits- oder Impfstatus. Es sollte stets eine Tierärztin oder ein Tierarzt konsultiert werden."
+              "text": "KI kann Fehler machen. Bitte prüfe wichtige Informationen. KI-gestützte Prüfungen lesen nur den Gesundheitsnachweis eines Tieres: Sie bestimmen nie eine Rasse, stellen keine Diagnose und markieren ein Dokument nur dann als verifiziert, wenn es vollständig und stimmig ist (Mikrochip, Impfungen, Behandlungen gegen innere und äußere Parasiten). Eine Verifizierung ist weder tierärztlicher Rat noch Bescheinigung oder Garantie. Konsultiere stets eine Tierärztin oder einen Tierarzt."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "KI kann Fehler machen. KI-gestützte Dokumentenprüfungen sind nur vorläufig: Sie treffen keine endgültige oder rechtlich wirksame Entscheidung über die Gesundheit eines Tieres, sind keine tierärztliche Beratung und garantieren keinen Gesundheits- oder Impfstatus. Es sollte stets eine Tierärztin oder ein Tierarzt konsultiert werden."
+              "text": "KI kann Fehler machen. Bitte prüfe wichtige Informationen. KI-gestützte Prüfungen lesen nur den Gesundheitsnachweis eines Tieres: Sie bestimmen nie eine Rasse, stellen keine Diagnose und markieren ein Dokument nur dann als verifiziert, wenn es vollständig und stimmig ist (Mikrochip, Impfungen, Behandlungen gegen innere und äußere Parasiten). Eine Verifizierung ist weder tierärztlicher Rat noch Bescheinigung oder Garantie. Konsultiere stets eine Tierärztin oder einen Tierarzt."
             }
           ]
         }

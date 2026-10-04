@@ -10,7 +10,7 @@
     "implementation": "Yekta Ozel",
     "overall_project": "Yekta Ozel"
   },
-  "generated_at": "2026-10-04T14:43:06.951Z",
+  "generated_at": "2026-10-04T20:55:46.815Z",
   "automated": {
     "domain": {
       "passed": 21,
@@ -28,7 +28,7 @@
       "status": "PASS"
     },
     "accessibility": {
-      "pressables": 217,
+      "pressables": 216,
       "text_inputs": 45,
       "switches": 2,
       "modals": 15,
@@ -72,8 +72,8 @@
         "th",
         "vi"
       ],
-      "runtime_catalog_key_count": 1709,
-      "source_used_dynamic_key_count": 1448,
+      "runtime_catalog_key_count": 1706,
+      "source_used_dynamic_key_count": 1445,
       "production_hardcoded_turkish_markers": 0,
       "visible_literal_text_markers": 0,
       "demo_only_turkish_markers": 82,

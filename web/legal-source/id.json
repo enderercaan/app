@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Pemeriksaan kesehatan berbantuan AI. Setiap pemeriksaan berbantuan AI atas dokumen vaksinasi atau dokumen dokter hewan hanyalah alat bantu otomatis yang bersifat awal. Pemeriksaan ini tidak membuat keputusan akhir, mengikat, atau sah secara hukum, dan bukan pemeriksaan dokter hewan, diagnosis, sertifikasi, maupun jaminan status kesehatan atau vaksinasi hewan. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen. Hasil yang tidak jelas atau disengketakan ditinjau oleh seseorang, dan tanda “dokumen ditinjau” hanya berarti dokumen telah diperiksa. Keputusan kesehatan harus mengandalkan dokter hewan berlisensi, dan perawatan tidak boleh ditunda karena hasil yang tampil di aplikasi."
+              "text": "Pemeriksaan dokumen kesehatan berbantuan AI. Tailmance dapat menggunakan pengenalan teks berbantuan AI untuk meninjau catatan kesehatan yang Anda unggah untuk hewan peliharaan Anda. Pemeriksaan ini hanya membaca isi dokumen: tidak menentukan ras hewan, tidak memeriksa atau mendiagnosis hewan, dan bukan sertifikasi dokter hewan. Jika dokumen lengkap dan konsisten (memuat nomor microchip, vaksinasi, serta perawatan parasit dalam dan luar, tanpa kesalahan atau data yang saling bertentangan), pemeriksaan dapat menandainya sebagai terverifikasi. Dokumen yang tidak lengkap, tidak jelas, atau tidak konsisten tidak diverifikasi secara otomatis dan dapat ditinjau oleh seseorang. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen, jadi mohon periksa sendiri informasi penting. Label terverifikasi bukan jaminan status kesehatan atau vaksinasi hewan dan bukan keputusan akhir, mengikat, atau sah secara hukum. Andalkan dokter hewan berlisensi untuk keputusan kesehatan dan jangan menunda perawatan karena hasil yang tampil di aplikasi."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Pemeriksaan kesehatan berbantuan AI. Setiap pemeriksaan berbantuan AI atas dokumen vaksinasi atau dokumen dokter hewan hanyalah alat bantu otomatis yang bersifat awal. Pemeriksaan ini tidak membuat keputusan akhir, mengikat, atau sah secara hukum, dan bukan pemeriksaan dokter hewan, diagnosis, sertifikasi, maupun jaminan status kesehatan atau vaksinasi hewan. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen. Hasil yang tidak jelas atau disengketakan ditinjau oleh seseorang, dan tanda “dokumen ditinjau” hanya berarti dokumen telah diperiksa. Keputusan kesehatan harus mengandalkan dokter hewan berlisensi, dan perawatan tidak boleh ditunda karena hasil yang tampil di aplikasi."
+              "text": "Pemeriksaan dokumen kesehatan berbantuan AI. Tailmance dapat menggunakan pengenalan teks berbantuan AI untuk meninjau catatan kesehatan yang Anda unggah untuk hewan peliharaan Anda. Pemeriksaan ini hanya membaca isi dokumen: tidak menentukan ras hewan, tidak memeriksa atau mendiagnosis hewan, dan bukan sertifikasi dokter hewan. Jika dokumen lengkap dan konsisten (memuat nomor microchip, vaksinasi, serta perawatan parasit dalam dan luar, tanpa kesalahan atau data yang saling bertentangan), pemeriksaan dapat menandainya sebagai terverifikasi. Dokumen yang tidak lengkap, tidak jelas, atau tidak konsisten tidak diverifikasi secara otomatis dan dapat ditinjau oleh seseorang. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen, jadi mohon periksa sendiri informasi penting. Label terverifikasi bukan jaminan status kesehatan atau vaksinasi hewan dan bukan keputusan akhir, mengikat, atau sah secara hukum. Andalkan dokter hewan berlisensi untuk keputusan kesehatan dan jangan menunda perawatan karena hasil yang tampil di aplikasi."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Fitur berbantuan AI. Beberapa fitur menggunakan alat berbantuan AI. Di perangkat yang didukung, model di perangkat dapat menyarankan ras dari foto hewan peliharaan dan memeriksa keamanan foto sebelum diunggah; saran bersifat opsional dan bisa keliru. Dokumen vaksinasi dan dokumen dokter hewan dapat diperiksa awal dengan pengenalan teks berbantuan AI, dan hasil yang tidak jelas diteruskan ke tinjauan manusia. Keluaran AI hanyalah sinyal: bukan saran atau diagnosis dokter hewan dan tidak menentukan sendiri hasil yang berdampak bagi pengguna. Tailmance tidak menyediakan chatbot AI atau diagnosis dokter hewan oleh AI. Pengguna yang terdampak oleh hasil berbantuan AI dapat meminta tinjauan manusia melalui proses banding di aplikasi atau Dukungan."
+              "text": "Fitur berbantuan AI. Beberapa fitur menggunakan alat berbantuan AI. Di perangkat yang didukung, model di perangkat dapat memeriksa keamanan foto sebelum diunggah. Dokumen vaksinasi dan dokumen dokter hewan dapat diperiksa dengan pengenalan teks berbantuan AI: catatan kesehatan yang lengkap dan konsisten (microchip, vaksinasi, perawatan parasit dalam dan luar, tanpa kesalahan) dapat ditandai terverifikasi, dan dokumen yang tidak lengkap atau tidak jelas diteruskan ke tinjauan manusia. Pemeriksaan ini hanya membaca dokumen dan tidak pernah menentukan ras atau mendiagnosis hewan. AI dapat membuat kesalahan, jadi mohon periksa informasi penting. Keluaran AI hanyalah sinyal: bukan saran atau diagnosis dokter hewan dan tidak menentukan sendiri hasil yang berdampak bagi pengguna. Tailmance tidak menyediakan chatbot AI atau diagnosis dokter hewan oleh AI. Pengguna yang terdampak oleh hasil berbantuan AI dapat meminta tinjauan manusia melalui proses banding di aplikasi atau Dukungan."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "AI dapat membuat kesalahan. Pemeriksaan dokumen berbantuan AI hanya bersifat awal: tidak pernah membuat keputusan akhir atau sah secara hukum tentang kesehatan hewan, bukan saran dokter hewan, dan tidak menjamin status kesehatan atau vaksinasi. Selalu konsultasikan dengan dokter hewan berlisensi."
+              "text": "AI dapat membuat kesalahan, jadi mohon periksa informasi penting. Pemeriksaan berbantuan AI hanya membaca catatan kesehatan hewan: tidak pernah menentukan ras atau mendiagnosis, dan hanya dapat menandai dokumen sebagai terverifikasi jika lengkap dan konsisten (microchip, vaksinasi, perawatan parasit dalam dan luar). Label terverifikasi bukan saran dokter hewan, sertifikasi, atau jaminan. Selalu konsultasikan dengan dokter hewan berlisensi."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "AI dapat membuat kesalahan. Pemeriksaan dokumen berbantuan AI hanya bersifat awal: tidak pernah membuat keputusan akhir atau sah secara hukum tentang kesehatan hewan, bukan saran dokter hewan, dan tidak menjamin status kesehatan atau vaksinasi. Selalu konsultasikan dengan dokter hewan berlisensi."
+              "text": "AI dapat membuat kesalahan, jadi mohon periksa informasi penting. Pemeriksaan berbantuan AI hanya membaca catatan kesehatan hewan: tidak pernah menentukan ras atau mendiagnosis, dan hanya dapat menandai dokumen sebagai terverifikasi jika lengkap dan konsisten (microchip, vaksinasi, perawatan parasit dalam dan luar). Label terverifikasi bukan saran dokter hewan, sertifikasi, atau jaminan. Selalu konsultasikan dengan dokter hewan berlisensi."
             }
           ]
         }

@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Contrôles de santé assistés par IA. Tout contrôle assisté par IA de documents de vaccination ou vétérinaires n’est qu’une aide automatisée préliminaire. Il ne rend aucune décision définitive, contraignante ou juridiquement valable, et ne constitue ni un examen vétérinaire, ni un diagnostic, ni une certification, ni une garantie de l’état de santé ou vaccinal d’un animal. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document. Les résultats incertains ou contestés sont examinés par une personne, et l’indication « document examiné » signifie seulement que le document a été vérifié. Pour toute décision de santé, il convient de s’en remettre à un vétérinaire diplômé, sans retarder les soins en raison d’un résultat affiché dans l’application."
+              "text": "Contrôles de documents de santé assistés par IA. Tailmance peut utiliser une reconnaissance de texte assistée par IA pour examiner le carnet de santé que vous téléversez pour votre animal. Le contrôle lit uniquement ce que dit le document : il n’identifie pas la race d’un animal, n’examine ni ne diagnostique l’animal et ne constitue pas une certification vétérinaire. Si le document est complet et cohérent (il mentionne un numéro de puce électronique, les vaccinations ainsi que les traitements antiparasitaires internes et externes, sans erreur ni information contradictoire), le contrôle peut le marquer comme vérifié. Les documents incomplets, peu clairs ou incohérents ne sont pas vérifiés automatiquement et peuvent être examinés par une personne. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document : vérifiez donc vous-même les informations importantes. La mention « vérifié » ne garantit ni l’état de santé ni l’état vaccinal d’un animal et n’est pas une décision définitive, contraignante ou juridiquement valable. Fiez-vous à un vétérinaire diplômé pour les décisions de santé et ne retardez pas les soins à cause d’un résultat affiché dans l’application."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Contrôles de santé assistés par IA. Tout contrôle assisté par IA de documents de vaccination ou vétérinaires n’est qu’une aide automatisée préliminaire. Il ne rend aucune décision définitive, contraignante ou juridiquement valable, et ne constitue ni un examen vétérinaire, ni un diagnostic, ni une certification, ni une garantie de l’état de santé ou vaccinal d’un animal. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document. Les résultats incertains ou contestés sont examinés par une personne, et l’indication « document examiné » signifie seulement que le document a été vérifié. Pour toute décision de santé, il convient de s’en remettre à un vétérinaire diplômé, sans retarder les soins en raison d’un résultat affiché dans l’application."
+              "text": "Contrôles de documents de santé assistés par IA. Tailmance peut utiliser une reconnaissance de texte assistée par IA pour examiner le carnet de santé que vous téléversez pour votre animal. Le contrôle lit uniquement ce que dit le document : il n’identifie pas la race d’un animal, n’examine ni ne diagnostique l’animal et ne constitue pas une certification vétérinaire. Si le document est complet et cohérent (il mentionne un numéro de puce électronique, les vaccinations ainsi que les traitements antiparasitaires internes et externes, sans erreur ni information contradictoire), le contrôle peut le marquer comme vérifié. Les documents incomplets, peu clairs ou incohérents ne sont pas vérifiés automatiquement et peuvent être examinés par une personne. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document : vérifiez donc vous-même les informations importantes. La mention « vérifié » ne garantit ni l’état de santé ni l’état vaccinal d’un animal et n’est pas une décision définitive, contraignante ou juridiquement valable. Fiez-vous à un vétérinaire diplômé pour les décisions de santé et ne retardez pas les soins à cause d’un résultat affiché dans l’application."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Fonctionnalités assistées par IA. Certaines fonctionnalités utilisent des outils assistés par IA. Sur les appareils compatibles, un modèle exécuté sur l’appareil peut suggérer une race à partir de la photo d’un animal et vérifier la sécurité des photos avant leur envoi ; les suggestions sont facultatives et peuvent être erronées. Les carnets de vaccination et documents vétérinaires peuvent faire l’objet d’une pré-vérification par reconnaissance de texte assistée par IA, et les résultats incertains sont transmis à un examen humain. Le résultat de l’IA n’est qu’un signal : il ne constitue ni un avis vétérinaire ni un diagnostic et ne décide pas à lui seul d’une issue importante pour une personne. Tailmance ne propose ni chatbot IA ni diagnostic vétérinaire par IA. Toute personne concernée par un résultat assisté par IA peut demander un examen humain via la procédure de recours dans l’application ou le support."
+              "text": "Fonctionnalités assistées par IA. Certaines fonctionnalités utilisent des outils assistés par IA. Sur les appareils compatibles, un modèle exécuté sur l’appareil peut vérifier la sécurité des photos avant leur envoi. Les carnets de vaccination et documents vétérinaires peuvent être contrôlés par reconnaissance de texte assistée par IA : un carnet de santé complet et cohérent (puce électronique, vaccinations, traitements antiparasitaires internes et externes, aucune erreur) peut être marqué comme vérifié, et les documents incomplets ou peu clairs sont transmis à un examen humain. Le contrôle lit uniquement le document et n’identifie jamais une race ni ne diagnostique un animal. L’IA peut se tromper : vérifiez donc les informations importantes. Le résultat de l’IA n’est qu’un signal : il ne constitue ni un avis vétérinaire ni un diagnostic et ne décide pas à lui seul d’une issue importante pour une personne. Tailmance ne propose ni chatbot IA ni diagnostic vétérinaire par IA. Toute personne concernée par un résultat assisté par IA peut demander un examen humain via la procédure de recours dans l’application ou le support."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "L’IA peut se tromper. Les contrôles de documents assistés par IA ne sont que préliminaires : ils ne rendent jamais de décision définitive ou juridiquement valable sur la santé d’un animal, ne constituent pas un avis vétérinaire et ne garantissent ni l’état de santé ni l’état vaccinal. Consultez toujours un vétérinaire diplômé."
+              "text": "L’IA peut se tromper : vérifiez les informations importantes. Les contrôles assistés par IA lisent uniquement le carnet de santé d’un animal : ils n’identifient jamais une race, ne posent aucun diagnostic et ne peuvent marquer un document comme vérifié que s’il est complet et cohérent (puce électronique, vaccinations, traitements antiparasitaires internes et externes). La mention « vérifié » n’est ni un avis vétérinaire, ni une certification, ni une garantie. Consultez toujours un vétérinaire diplômé."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "L’IA peut se tromper. Les contrôles de documents assistés par IA ne sont que préliminaires : ils ne rendent jamais de décision définitive ou juridiquement valable sur la santé d’un animal, ne constituent pas un avis vétérinaire et ne garantissent ni l’état de santé ni l’état vaccinal. Consultez toujours un vétérinaire diplômé."
+              "text": "L’IA peut se tromper : vérifiez les informations importantes. Les contrôles assistés par IA lisent uniquement le carnet de santé d’un animal : ils n’identifient jamais une race, ne posent aucun diagnostic et ne peuvent marquer un document comme vérifié que s’il est complet et cohérent (puce électronique, vaccinations, traitements antiparasitaires internes et externes). La mention « vérifié » n’est ni un avis vétérinaire, ni une certification, ni une garantie. Consultez toujours un vétérinaire diplômé."
             }
           ]
         }

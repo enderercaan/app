@@ -403,7 +403,7 @@
     },
     "on_device_edge_ai_prefilter": {
       "status": "IMPLEMENTED_SOURCE_EXTERNAL_MODEL_AND_DEVICE_VERIFY",
-      "detail": "Tailmance has native iOS Core ML/Vision and Android MediaPipe Tasks Vision classifier bridges integrated into pet-photo flows. Runtime-downloaded model artifacts are HTTPS same-origin constrained, size bounded and exact SHA-256 verified before native execution. A high-confidence local safety block can prevent upload; all other outcomes still require authoritative server moderation. Breed output is advisory and changes profile data only after explicit user selection. Model provenance/license/quality thresholds and physical-device performance remain mandatory external release evidence.",
+      "detail": "Tailmance has native iOS Core ML/Vision and Android MediaPipe Tasks Vision classifier bridges integrated into pet-photo flows. Runtime-downloaded model artifacts are HTTPS same-origin constrained, size bounded and exact SHA-256 verified before native execution. A high-confidence local safety block can prevent upload; all other outcomes still require authoritative server moderation. There is no AI breed detection: breed is only what the owner types. Model provenance/license/quality thresholds and physical-device performance remain mandatory external release evidence.",
       "evidence": [
         "modules/tailmance-edge-ai/expo-module.config.json",
         "src/services/edgeAi.ts",

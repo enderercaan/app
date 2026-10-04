@@ -12,10 +12,10 @@ CURRENT SOURCE VERIFICATION
 - security control applicability: 49/49 scoped controls classified PASS
 - product/retention/trust/monetization: 90/90 PASS
 - pending hardening: 107/107 PASS
-- accessibility: 217 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS
+- accessibility: 216 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS
 - backend contracts: 174 RPCs; 11 invoked Edge Functions; 30 function directories checked
 - repository hygiene: 126/126 app source modules reachable; 124/124 maintenance scripts command-reachable
-- runtime i18n: 19/19 x 1709; 1448 source-used/dynamic keys covered; 316/316 critical localized per non-English locale
+- runtime i18n: 19/19 x 1706; 1445 source-used/dynamic keys covered; 316/316 critical localized per non-English locale
 - legal static: 57/57 PASS
 - legal context: 91/91 PASS
 - legal documents/public routes: 22 x 11 = 242 / 242

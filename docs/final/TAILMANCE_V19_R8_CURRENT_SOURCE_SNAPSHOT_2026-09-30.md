@@ -19,13 +19,13 @@ No R7 or superseded/intermediate R8 tree may be merged back into this branch.
 - Authenticated RPC/session boundary: **125/125 PASS**; authenticated RLS/storage boundary: **4/4 PASS**.
 - Legal static: **57/57 PASS**.
 - Legal context: **91/91 PASS**.
-- Runtime i18n: **19/19 locales × 1,709 keys**; fixed critical localization **316/316** per non-English locale.
-- Source-used/dynamic runtime keys: **1,448 covered**.
+- Runtime i18n: **19/19 locales × 1,706 keys**; fixed critical localization **316/316** per non-English locale.
+- Source-used/dynamic runtime keys: **1,445 covered**.
 - Legal documents/public routes: **22/22 × 11 = 242 / 242**.
 - Country×topic sources: **594/594**; country×control evidence **594/594**; critical legal subdimensions **432/432**.
 - Security incident matrix: **27/27 configured markets**, source-derived and fail-closed for live operational evidence.
 - Backend contracts: **174 RPCs; 11 client-invoked Edge Functions; 30 function directories**.
-- Accessibility: **217 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS**; UX static gate: **57 TSX files PASS**.
+- Accessibility: **216 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS**; UX static gate: **57 TSX files PASS**.
 - Project lint: **2,397 text files PASS**.
 - Canonical migrations: **001–200 contiguous**.
 - Repository hygiene: **126/126 application source modules reachable; 124/124 maintenance scripts command-reachable**.

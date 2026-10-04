@@ -10,16 +10,13 @@ import { cancelUploadIntent, createUploadIntent, submitPetVerification } from '.
 import { getRuntimeLocale, translate } from '../i18n';
 import { confirmPrePermission } from './permissionPrompts';
 import { clearDurableClientOperation, getOrCreateDurableClientOperation } from './clientOperation';
-import { prefilterImageSafety, suggestPetBreeds, type BreedSuggestion } from './edgeAi';
+import { prefilterImageSafety } from './edgeAi';
 
 type ImageSource = 'camera' | 'library';
 
 type PetPhotoUploadResult={
   path:string;
-  breedSuggestions:BreedSuggestion[];
 };
-
-const MIN_BREED_SUGGESTION_CONFIDENCE=.15;
 
 async function assertImagePassesOnDeviceSafety(uri:string) {
   const safety=await prefilterImageSafety(uri);
@@ -29,18 +26,6 @@ async function assertImagePassesOnDeviceSafety(uri:string) {
   return safety;
 }
 
-async function inspectPetPhotoOnDevice(uri:string):Promise<BreedSuggestion[]> {
-  await assertImagePassesOnDeviceSafety(uri);
-  try{
-    const suggestions=await suggestPetBreeds(uri,5);
-    return suggestions
-      .filter(item=>Number.isFinite(item.confidence)&&item.confidence>=MIN_BREED_SUGGESTION_CONFIDENCE)
-      .sort((a,b)=>b.confidence-a.confidence)
-      .slice(0,3);
-  }catch{
-    return [];
-  }
-}
 const IMAGE_MIMES = ['image/jpeg','image/png','image/webp','image/heic','image/heif'];
 
 const IMAGE_MAX_BYTES = 10 * 1024 * 1024;
@@ -149,27 +134,26 @@ export async function pickAndUploadPetPhoto(petId: string, sortOrder: 1 | 2 | 3,
   if (result.canceled || !result.assets[0]) return null;
   const asset = result.assets[0]; assertImage(asset);
   const normalized=await privacyNormalizeImage(asset.uri,asset.width,asset.height,'webp');
-  const breedSuggestions=await inspectPetPhotoOnDevice(normalized.uri);
+  await assertImagePassesOnDeviceSafety(normalized.uri);
   const intent = await uploadWithIntent({petId,bucket:'pet-photos',purpose:`pet_photo_${sortOrder}`,uri:normalized.uri,mimeType:normalized.mimeType,extension:normalized.extension});
   try {
     const { error } = await supabase.rpc('attach_pet_photo', { p_pet_id: petId, p_storage_path: intent.path, p_sort_order: sortOrder });
-    if (error) throw error; return {path:intent.path,breedSuggestions};
+    if (error) throw error; return {path:intent.path};
   } catch(error) { await runBestEffort('upload_cancel_intent',()=>cancelUploadIntent(intent.id)); throw error; }
 }
 
 export async function pickAndUploadPetPhotos(petId:string, slots:Array<1|2|3>) {
   const uniqueSlots=[...new Set(slots)].filter((slot):slot is 1|2|3=>slot===1||slot===2||slot===3).slice(0,3);
-  if(!uniqueSlots.length)return {uploaded:0,failed:0,breedSuggestions:[] as BreedSuggestion[]};
+  if(!uniqueSlots.length)return {uploaded:0,failed:0};
   const result=await ImagePicker.launchImageLibraryAsync({mediaTypes:['images'],quality:.85,allowsMultipleSelection:true,selectionLimit:uniqueSlots.length,orderedSelection:true});
-  if(result.canceled)return {uploaded:0,failed:0,breedSuggestions:[] as BreedSuggestion[]};
+  if(result.canceled)return {uploaded:0,failed:0};
   const assets=result.assets.slice(0,uniqueSlots.length);assets.forEach(assertImage);
-  let uploaded=0; let failed=0; let firstError:unknown=null; const suggestionByLabel=new Map<string,BreedSuggestion>();
+  let uploaded=0; let failed=0; let firstError:unknown=null;
   for(let index=0;index<assets.length;index++){
     const asset=assets[index];const sortOrder=uniqueSlots[index];if(!asset||!sortOrder)continue;
     try{
       const normalized=await privacyNormalizeImage(asset.uri,asset.width,asset.height,'webp');
-      const localSuggestions=await inspectPetPhotoOnDevice(normalized.uri);
-      for(const suggestion of localSuggestions){const key=suggestion.label.trim().toLowerCase();const current=suggestionByLabel.get(key);if(!current||suggestion.confidence>current.confidence)suggestionByLabel.set(key,suggestion)}
+      await assertImagePassesOnDeviceSafety(normalized.uri);
       const intent=await uploadWithIntent({petId,bucket:'pet-photos',purpose:`pet_photo_${sortOrder}`,uri:normalized.uri,mimeType:normalized.mimeType,extension:normalized.extension});
       try{
         const {error}=await supabase.rpc('attach_pet_photo',{p_pet_id:petId,p_storage_path:intent.path,p_sort_order:sortOrder});
@@ -179,8 +163,7 @@ export async function pickAndUploadPetPhotos(petId:string, slots:Array<1|2|3>) {
     }catch(error){failed++;firstError??=error}
   }
   if(!uploaded&&failed&&firstError)throw firstError;
-  const breedSuggestions=[...suggestionByLabel.values()].sort((a,b)=>b.confidence-a.confidence).slice(0,3);
-  return {uploaded,failed,breedSuggestions};
+  return {uploaded,failed};
 }
 
 export async function pickAndUploadHealthDocument(petId: string, documentType: string) {

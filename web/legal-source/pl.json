@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Kontrole zdrowia wspierane przez AI. Każda wspierana przez AI kontrola dokumentów szczepień lub dokumentów weterynaryjnych jest wyłącznie wstępnym, zautomatyzowanym wsparciem. Nie podejmuje ostatecznej, wiążącej ani prawnie skutecznej decyzji i nie jest badaniem weterynaryjnym, diagnozą, poświadczeniem ani gwarancją stanu zdrowia lub szczepień zwierzęcia. AI może popełniać błędy, pomijać nieprawidłowości lub błędnie odczytać dokument. Niejasne lub kwestionowane wyniki sprawdza człowiek, a oznaczenie „dokument sprawdzony” oznacza jedynie, że dokument został zweryfikowany. W sprawach zdrowia należy polegać na lekarzu weterynarii z uprawnieniami i nie opóźniać opieki z powodu wyniku widocznego w aplikacji."
+              "text": "Kontrole dokumentów zdrowotnych wspierane przez AI. Tailmance może używać rozpoznawania tekstu wspieranego przez AI, aby przejrzeć książeczkę zdrowia, którą przesyłasz dla swojego zwierzęcia. Kontrola odczytuje wyłącznie to, co jest w dokumencie: nie określa rasy zwierzęcia, nie bada go ani nie stawia diagnozy i nie jest poświadczeniem weterynaryjnym. Jeśli dokument jest kompletny i spójny (zawiera numer mikroczipa, szczepienia oraz zabiegi przeciw pasożytom wewnętrznym i zewnętrznym, bez błędów i sprzecznych danych), kontrola może oznaczyć go jako zweryfikowany. Dokumenty niekompletne, niejasne lub niespójne nie są weryfikowane automatycznie i mogą zostać sprawdzone przez człowieka. AI może popełniać błędy, pomijać nieprawidłowości lub błędnie odczytać dokument, dlatego sprawdzaj ważne informacje również samodzielnie. Oznaczenie „zweryfikowany” nie gwarantuje stanu zdrowia ani szczepień zwierzęcia i nie jest decyzją ostateczną, wiążącą ani prawnie skuteczną. W sprawach zdrowia polegaj na lekarzu weterynarii i nie zwlekaj z opieką z powodu wyniku widocznego w aplikacji."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Kontrole zdrowia wspierane przez AI. Każda wspierana przez AI kontrola dokumentów szczepień lub dokumentów weterynaryjnych jest wyłącznie wstępnym, zautomatyzowanym wsparciem. Nie podejmuje ostatecznej, wiążącej ani prawnie skutecznej decyzji i nie jest badaniem weterynaryjnym, diagnozą, poświadczeniem ani gwarancją stanu zdrowia lub szczepień zwierzęcia. AI może popełniać błędy, pomijać nieprawidłowości lub błędnie odczytać dokument. Niejasne lub kwestionowane wyniki sprawdza człowiek, a oznaczenie „dokument sprawdzony” oznacza jedynie, że dokument został zweryfikowany. W sprawach zdrowia należy polegać na lekarzu weterynarii z uprawnieniami i nie opóźniać opieki z powodu wyniku widocznego w aplikacji."
+              "text": "Kontrole dokumentów zdrowotnych wspierane przez AI. Tailmance może używać rozpoznawania tekstu wspieranego przez AI, aby przejrzeć książeczkę zdrowia, którą przesyłasz dla swojego zwierzęcia. Kontrola odczytuje wyłącznie to, co jest w dokumencie: nie określa rasy zwierzęcia, nie bada go ani nie stawia diagnozy i nie jest poświadczeniem weterynaryjnym. Jeśli dokument jest kompletny i spójny (zawiera numer mikroczipa, szczepienia oraz zabiegi przeciw pasożytom wewnętrznym i zewnętrznym, bez błędów i sprzecznych danych), kontrola może oznaczyć go jako zweryfikowany. Dokumenty niekompletne, niejasne lub niespójne nie są weryfikowane automatycznie i mogą zostać sprawdzone przez człowieka. AI może popełniać błędy, pomijać nieprawidłowości lub błędnie odczytać dokument, dlatego sprawdzaj ważne informacje również samodzielnie. Oznaczenie „zweryfikowany” nie gwarantuje stanu zdrowia ani szczepień zwierzęcia i nie jest decyzją ostateczną, wiążącą ani prawnie skuteczną. W sprawach zdrowia polegaj na lekarzu weterynarii i nie zwlekaj z opieką z powodu wyniku widocznego w aplikacji."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Funkcje wspierane przez AI. Niektóre funkcje korzystają z narzędzi wspieranych przez AI. Na obsługiwanych urządzeniach model działający na urządzeniu może zasugerować rasę na podstawie zdjęcia zwierzęcia i sprawdzić bezpieczeństwo zdjęć przed ich przesłaniem; sugestie są opcjonalne i mogą być błędne. Dokumenty szczepień i weterynaryjne mogą być wstępnie sprawdzane przy użyciu rozpoznawania tekstu wspieranego przez AI, a niejasne wyniki trafiają do weryfikacji przez człowieka. Wynik AI jest tylko sygnałem: nie jest poradą weterynaryjną ani diagnozą i sam nie rozstrzyga o istotnym skutku dla danej osoby. Tailmance nie oferuje czatbota AI ani diagnozy weterynaryjnej AI. Osoba, której dotyczy wynik wspierany przez AI, może poprosić o weryfikację przez człowieka w ramach procesu odwołania w aplikacji lub przez Pomoc."
+              "text": "Funkcje wspierane przez AI. Niektóre funkcje korzystają z narzędzi wspieranych przez AI. Na obsługiwanych urządzeniach model działający na urządzeniu może sprawdzić bezpieczeństwo zdjęć przed ich przesłaniem. Dokumenty szczepień i weterynaryjne mogą być sprawdzane przy użyciu rozpoznawania tekstu wspieranego przez AI: kompletna i spójna książeczka zdrowia (mikroczip, szczepienia, zabiegi przeciw pasożytom wewnętrznym i zewnętrznym, brak błędów) może zostać oznaczona jako zweryfikowana, a dokumenty niekompletne lub niejasne trafiają do weryfikacji przez człowieka. Kontrola tylko odczytuje dokument i nigdy nie określa rasy ani nie stawia diagnozy zwierzęciu. AI może popełniać błędy, dlatego sprawdzaj ważne informacje. Wynik AI jest tylko sygnałem: nie jest poradą weterynaryjną ani diagnozą i sam nie rozstrzyga o istotnym skutku dla danej osoby. Tailmance nie oferuje czatbota AI ani diagnozy weterynaryjnej AI. Osoba, której dotyczy wynik wspierany przez AI, może poprosić o weryfikację przez człowieka w ramach procesu odwołania w aplikacji lub przez Pomoc."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "AI może popełniać błędy. Kontrole dokumentów wspierane przez AI mają charakter wyłącznie wstępny: nigdy nie podejmują ostatecznej ani prawnie skutecznej decyzji o zdrowiu zwierzęcia, nie są poradą weterynaryjną i nie gwarantują stanu zdrowia ani szczepień. Zawsze należy skonsultować się z lekarzem weterynarii."
+              "text": "AI może popełniać błędy, dlatego sprawdzaj ważne informacje. Kontrole wspierane przez AI odczytują wyłącznie książeczkę zdrowia zwierzęcia: nigdy nie określają rasy ani nie stawiają diagnozy, a dokument mogą oznaczyć jako zweryfikowany tylko wtedy, gdy jest kompletny i spójny (mikroczip, szczepienia, zabiegi przeciw pasożytom wewnętrznym i zewnętrznym). Oznaczenie „zweryfikowany” nie jest poradą weterynaryjną, poświadczeniem ani gwarancją. Zawsze skonsultuj się z lekarzem weterynarii."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "AI może popełniać błędy. Kontrole dokumentów wspierane przez AI mają charakter wyłącznie wstępny: nigdy nie podejmują ostatecznej ani prawnie skutecznej decyzji o zdrowiu zwierzęcia, nie są poradą weterynaryjną i nie gwarantują stanu zdrowia ani szczepień. Zawsze należy skonsultować się z lekarzem weterynarii."
+              "text": "AI może popełniać błędy, dlatego sprawdzaj ważne informacje. Kontrole wspierane przez AI odczytują wyłącznie książeczkę zdrowia zwierzęcia: nigdy nie określają rasy ani nie stawiają diagnozy, a dokument mogą oznaczyć jako zweryfikowany tylko wtedy, gdy jest kompletny i spójny (mikroczip, szczepienia, zabiegi przeciw pasożytom wewnętrznym i zewnętrznym). Oznaczenie „zweryfikowany” nie jest poradą weterynaryjną, poświadczeniem ani gwarancją. Zawsze skonsultuj się z lekarzem weterynarii."
             }
           ]
         }

@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Comprobaciones de salud asistidas por IA. Cualquier comprobación asistida por IA de documentos de vacunación o veterinarios es solo una ayuda automatizada preliminar. No toma una decisión definitiva, vinculante ni jurídicamente válida, y no constituye un examen veterinario, un diagnóstico, una certificación ni una garantía del estado de salud o de vacunación de un animal. La IA puede cometer errores, pasar por alto fallos o leer un documento de forma incorrecta. Una persona revisa los resultados poco claros o discutidos, y la señal «documento revisado» solo indica que el documento ha sido comprobado. Las decisiones de salud deben basarse en un veterinario colegiado, y no debe retrasarse la atención por un resultado mostrado en la app."
+              "text": "Comprobación de documentos de salud asistida por IA. Tailmance puede usar reconocimiento de texto asistido por IA para revisar la cartilla de salud que subes de tu mascota. La comprobación solo lee lo que dice el documento: no identifica la raza de un animal, no lo examina ni lo diagnostica y no es una certificación veterinaria. Si el documento está completo y es coherente (consta el número de microchip, las vacunas y los tratamientos antiparasitarios internos y externos, sin errores ni datos contradictorios), la comprobación puede marcarlo como verificado. Los documentos incompletos, poco claros o incoherentes no se verifican automáticamente y pueden ser revisados por una persona. La IA puede cometer errores, pasar por alto fallos o leer mal un documento, así que comprueba tú mismo la información importante. La etiqueta de verificado no garantiza el estado de salud ni de vacunación de un animal y no es una decisión definitiva, vinculante ni jurídicamente válida. Confía en un veterinario colegiado para las decisiones de salud y no retrases la atención por un resultado mostrado en la app."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Comprobaciones de salud asistidas por IA. Cualquier comprobación asistida por IA de documentos de vacunación o veterinarios es solo una ayuda automatizada preliminar. No toma una decisión definitiva, vinculante ni jurídicamente válida, y no constituye un examen veterinario, un diagnóstico, una certificación ni una garantía del estado de salud o de vacunación de un animal. La IA puede cometer errores, pasar por alto fallos o leer un documento de forma incorrecta. Una persona revisa los resultados poco claros o discutidos, y la señal «documento revisado» solo indica que el documento ha sido comprobado. Las decisiones de salud deben basarse en un veterinario colegiado, y no debe retrasarse la atención por un resultado mostrado en la app."
+              "text": "Comprobación de documentos de salud asistida por IA. Tailmance puede usar reconocimiento de texto asistido por IA para revisar la cartilla de salud que subes de tu mascota. La comprobación solo lee lo que dice el documento: no identifica la raza de un animal, no lo examina ni lo diagnostica y no es una certificación veterinaria. Si el documento está completo y es coherente (consta el número de microchip, las vacunas y los tratamientos antiparasitarios internos y externos, sin errores ni datos contradictorios), la comprobación puede marcarlo como verificado. Los documentos incompletos, poco claros o incoherentes no se verifican automáticamente y pueden ser revisados por una persona. La IA puede cometer errores, pasar por alto fallos o leer mal un documento, así que comprueba tú mismo la información importante. La etiqueta de verificado no garantiza el estado de salud ni de vacunación de un animal y no es una decisión definitiva, vinculante ni jurídicamente válida. Confía en un veterinario colegiado para las decisiones de salud y no retrases la atención por un resultado mostrado en la app."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Funciones asistidas por IA. Algunas funciones usan herramientas asistidas por IA. En los dispositivos compatibles, un modelo en el dispositivo puede sugerir una raza a partir de la foto de una mascota y revisar la seguridad de las fotos antes de subirlas; las sugerencias son opcionales y pueden ser incorrectas. Los documentos de vacunación y veterinarios pueden someterse a una revisión previa con reconocimiento de texto asistido por IA, y los resultados poco claros pasan a revisión humana. El resultado de la IA es solo una señal: no es asesoramiento veterinario ni un diagnóstico y, por sí solo, no decide un resultado relevante para una persona. Tailmance no ofrece un chatbot de IA ni diagnóstico veterinario por IA. Quien se vea afectado por un resultado asistido por IA puede solicitar revisión humana mediante el proceso de apelación de la app o el Soporte."
+              "text": "Funciones asistidas por IA. Algunas funciones usan herramientas asistidas por IA. En los dispositivos compatibles, un modelo en el dispositivo puede revisar la seguridad de las fotos antes de subirlas. Los documentos de vacunación y veterinarios pueden comprobarse con reconocimiento de texto asistido por IA: una cartilla de salud completa y coherente (microchip, vacunas, tratamientos antiparasitarios internos y externos, sin errores) puede marcarse como verificada, y los documentos incompletos o poco claros pasan a revisión humana. La comprobación solo lee el documento y nunca identifica una raza ni diagnostica a un animal. La IA puede cometer errores, así que comprueba la información importante. El resultado de la IA es solo una señal: no es asesoramiento veterinario ni un diagnóstico y, por sí solo, no decide un resultado relevante para una persona. Tailmance no ofrece un chatbot de IA ni diagnóstico veterinario por IA. Quien se vea afectado por un resultado asistido por IA puede solicitar revisión humana mediante el proceso de apelación de la app o el Soporte."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "La IA puede cometer errores. Las comprobaciones de documentos asistidas por IA son solo preliminares: nunca toman una decisión definitiva o jurídicamente válida sobre la salud de un animal, no son asesoramiento veterinario y no garantizan el estado de salud ni de vacunación. Consulte siempre a un veterinario colegiado."
+              "text": "La IA puede cometer errores, así que comprueba la información importante. Las comprobaciones asistidas por IA solo leen la cartilla de salud de una mascota: nunca identifican una raza ni diagnostican, y solo pueden marcar un documento como verificado si está completo y es coherente (microchip, vacunas, tratamientos antiparasitarios internos y externos). La etiqueta de verificado no es asesoramiento veterinario, certificación ni garantía. Consulta siempre a un veterinario colegiado."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "La IA puede cometer errores. Las comprobaciones de documentos asistidas por IA son solo preliminares: nunca toman una decisión definitiva o jurídicamente válida sobre la salud de un animal, no son asesoramiento veterinario y no garantizan el estado de salud ni de vacunación. Consulte siempre a un veterinario colegiado."
+              "text": "La IA puede cometer errores, así que comprueba la información importante. Las comprobaciones asistidas por IA solo leen la cartilla de salud de una mascota: nunca identifican una raza ni diagnostican, y solo pueden marcar un documento como verificado si está completo y es coherente (microchip, vacunas, tratamientos antiparasitarios internos y externos). La etiqueta de verificado no es asesoramiento veterinario, certificación ni garantía. Consulta siempre a un veterinario colegiado."
             }
           ]
         }

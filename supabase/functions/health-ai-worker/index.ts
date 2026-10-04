@@ -103,7 +103,10 @@ Deno.serve(async req=>{
               manual_review_confidence_min:0.65,
               reject_confidence_lt:0.65,
               iso_microchip_standards:['ISO 11784','ISO 11785'],
-              never_infer_missing_fields:true
+              never_infer_missing_fields:true,
+              auto_verify_only_when_complete:['microchip','vaccinations','internal_parasite_treatment','external_parasite_treatment'],
+              incomplete_or_inconsistent_to_manual_review:true,
+              breed_inference:false
             }
           })
         },PROVIDER_TIMEOUT_MS);

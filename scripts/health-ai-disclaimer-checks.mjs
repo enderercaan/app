@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { globSync, readFileSync } from 'node:fs';
 
-// The health-AI disclaimer ("AI-assisted document checks are preliminary, never a final or legally valid
+// The health-AI disclaimer ("AI-assisted document checks are may verify only complete, consistent records, can make mistakes
 // decision, and can make mistakes") must appear, in the document's own language, in every legal surface.
 const locales=['ar','ca','de','en','es','eu','fr','gl','hi','id','it','ja','ko','nl','pl','pt-BR','ru','th','tr','vi','zh-Hans','zh-Hant'];
 const sectionIndex={ // [doc, default section index, Turkish-specific index]
@@ -30,6 +30,8 @@ for(const file of globSync('web/legal-country-source/*/*.json')){
   assert.ok(paragraphs.includes(longText[locale]),`${file}: health-AI paragraph missing or in the wrong language`);
   countryDocs++;
 }
+assert.match(longText.en,/AI can make mistakes/);assert.match(longText.en,/microchip/);assert.match(longText.en,/internal and external parasite/);assert.match(longText.en,/does not identify a pet’s breed/);
+assert.match(shortText.en,/AI can make mistakes/);assert.match(shortText.en,/never identify a breed or diagnose/);
 assert.equal(countryDocs,594,'expected 594 country x language supplements');
 // Static Turkish pages.
 const html=(f)=>readFileSync(f,'utf8');

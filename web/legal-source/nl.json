@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "AI-ondersteunde gezondheidscontroles. Elke AI-ondersteunde controle van vaccinatie- of dierenartsdocumenten is slechts een voorlopig, geautomatiseerd hulpmiddel. Het neemt geen definitieve, bindende of rechtsgeldige beslissing en is geen diergeneeskundig onderzoek, diagnose, certificering of garantie voor de gezondheids- of vaccinatiestatus van een dier. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Onduidelijke of betwiste resultaten worden door een persoon beoordeeld, en het signaal ‘document beoordeeld’ betekent alleen dat het document is gecontroleerd. Voor gezondheidsbeslissingen moet een bevoegde dierenarts worden geraadpleegd, en zorg mag niet worden uitgesteld vanwege een resultaat in de app."
+              "text": "AI-ondersteunde controle van gezondheidsdocumenten. Tailmance kan AI-ondersteunde tekstherkenning gebruiken om het gezondheidsdocument te beoordelen dat je voor je huisdier uploadt. De controle leest alleen wat er in het document staat: ze bepaalt niet het ras van een dier, onderzoekt of diagnosticeert het dier niet en is geen diergeneeskundige certificering. Als het document volledig en consistent is (met een chipnummer, de vaccinaties en de behandelingen tegen inwendige en uitwendige parasieten, zonder fouten of tegenstrijdige gegevens), kan de controle het als geverifieerd markeren. Onvolledige, onduidelijke of inconsistente documenten worden niet automatisch geverifieerd en kunnen door een persoon worden beoordeeld. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Controleer belangrijke informatie daarom zelf. Het label geverifieerd is geen garantie voor de gezondheids- of vaccinatiestatus van een dier en geen definitieve, bindende of rechtsgeldige beslissing. Vertrouw bij gezondheidsbeslissingen op een bevoegde dierenarts en stel zorg niet uit vanwege een resultaat in de app."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "AI-ondersteunde gezondheidscontroles. Elke AI-ondersteunde controle van vaccinatie- of dierenartsdocumenten is slechts een voorlopig, geautomatiseerd hulpmiddel. Het neemt geen definitieve, bindende of rechtsgeldige beslissing en is geen diergeneeskundig onderzoek, diagnose, certificering of garantie voor de gezondheids- of vaccinatiestatus van een dier. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Onduidelijke of betwiste resultaten worden door een persoon beoordeeld, en het signaal ‘document beoordeeld’ betekent alleen dat het document is gecontroleerd. Voor gezondheidsbeslissingen moet een bevoegde dierenarts worden geraadpleegd, en zorg mag niet worden uitgesteld vanwege een resultaat in de app."
+              "text": "AI-ondersteunde controle van gezondheidsdocumenten. Tailmance kan AI-ondersteunde tekstherkenning gebruiken om het gezondheidsdocument te beoordelen dat je voor je huisdier uploadt. De controle leest alleen wat er in het document staat: ze bepaalt niet het ras van een dier, onderzoekt of diagnosticeert het dier niet en is geen diergeneeskundige certificering. Als het document volledig en consistent is (met een chipnummer, de vaccinaties en de behandelingen tegen inwendige en uitwendige parasieten, zonder fouten of tegenstrijdige gegevens), kan de controle het als geverifieerd markeren. Onvolledige, onduidelijke of inconsistente documenten worden niet automatisch geverifieerd en kunnen door een persoon worden beoordeeld. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Controleer belangrijke informatie daarom zelf. Het label geverifieerd is geen garantie voor de gezondheids- of vaccinatiestatus van een dier en geen definitieve, bindende of rechtsgeldige beslissing. Vertrouw bij gezondheidsbeslissingen op een bevoegde dierenarts en stel zorg niet uit vanwege een resultaat in de app."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "AI-ondersteunde functies. Sommige functies gebruiken AI-ondersteunde hulpmiddelen. Op ondersteunde apparaten kan een model op het apparaat op basis van een dierenfoto een ras voorstellen en foto's vóór het uploaden op veiligheid controleren; suggesties zijn optioneel en kunnen onjuist zijn. Vaccinatie- en dierenartsdocumenten kunnen vooraf worden gecontroleerd met AI-ondersteunde tekstherkenning; onduidelijke resultaten gaan naar menselijke beoordeling. AI-uitvoer is slechts een signaal: het is geen diergeneeskundig advies of diagnose en bepaalt niet zelfstandig een ingrijpend resultaat voor een persoon. Tailmance biedt geen AI-chatbot of AI-diagnose voor dieren. Wie door een AI-ondersteund resultaat wordt geraakt, kan via het bezwaarproces in de app of de support om menselijke beoordeling vragen."
+              "text": "AI-ondersteunde functies. Sommige functies gebruiken AI-ondersteunde hulpmiddelen. Op ondersteunde apparaten kan een model op het apparaat foto's vóór het uploaden op veiligheid controleren. Vaccinatie- en dierenartsdocumenten kunnen worden gecontroleerd met AI-ondersteunde tekstherkenning: een volledig en consistent gezondheidsdocument (chip, vaccinaties, behandelingen tegen inwendige en uitwendige parasieten, geen fouten) kan als geverifieerd worden gemarkeerd; onvolledige of onduidelijke documenten gaan naar menselijke beoordeling. De controle leest alleen het document en bepaalt nooit een ras en stelt geen diagnose. AI kan fouten maken, controleer dus belangrijke informatie. AI-uitvoer is slechts een signaal: het is geen diergeneeskundig advies of diagnose en bepaalt niet zelfstandig een ingrijpend resultaat voor een persoon. Tailmance biedt geen AI-chatbot of AI-diagnose voor dieren. Wie door een AI-ondersteund resultaat wordt geraakt, kan via het bezwaarproces in de app of de support om menselijke beoordeling vragen."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "AI kan fouten maken. AI-ondersteunde documentcontroles zijn slechts voorlopig: ze nemen nooit een definitieve of rechtsgeldige beslissing over de gezondheid van een dier, zijn geen diergeneeskundig advies en garanderen geen gezondheids- of vaccinatiestatus. Raadpleeg altijd een bevoegde dierenarts."
+              "text": "AI kan fouten maken, controleer dus belangrijke informatie. AI-ondersteunde controles lezen alleen het gezondheidsdocument van een dier: ze bepalen nooit een ras, stellen geen diagnose en markeren een document alleen als geverifieerd als het volledig en consistent is (chip, vaccinaties, behandelingen tegen inwendige en uitwendige parasieten). Het label geverifieerd is geen diergeneeskundig advies, certificering of garantie. Raadpleeg altijd een bevoegde dierenarts."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "AI kan fouten maken. AI-ondersteunde documentcontroles zijn slechts voorlopig: ze nemen nooit een definitieve of rechtsgeldige beslissing over de gezondheid van een dier, zijn geen diergeneeskundig advies en garanderen geen gezondheids- of vaccinatiestatus. Raadpleeg altijd een bevoegde dierenarts."
+              "text": "AI kan fouten maken, controleer dus belangrijke informatie. AI-ondersteunde controles lezen alleen het gezondheidsdocument van een dier: ze bepalen nooit een ras, stellen geen diagnose en markeren een document alleen als geverifieerd als het volledig en consistent is (chip, vaccinaties, behandelingen tegen inwendige en uitwendige parasieten). Het label geverifieerd is geen diergeneeskundig advies, certificering of garantie. Raadpleeg altijd een bevoegde dierenarts."
             }
           ]
         }

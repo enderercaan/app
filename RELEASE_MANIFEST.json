@@ -19,7 +19,7 @@
     "domain_rules": "21/21 PASS",
     "security_regressions": "382/382 PASS",
     "pending_hardening": "107/107 PASS",
-    "accessibility": "217 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS",
+    "accessibility": "216 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS",
     "backend_contracts": "174 RPCs (0 pending-patch only) + 11 client Edge Functions + 30 Edge Function directories PASS",
     "ux_static_gate": "57 TSX files + contrast/assets/journeys PASS",
     "legal_static": "57/57 PASS; production store/provider/native evidence remains separate",

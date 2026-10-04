@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "IAk lagundutako osasun-egiaztapenak. Txertaketa-dokumentuen edo albaitaritza-dokumentuen IAk lagundutako edozein egiaztapen aurretiazko laguntza automatizatua baino ez da. Ez du behin betiko, loteslea edo juridikoki baliozkoa den erabakirik hartzen, eta ez da albaitaritza-azterketa, diagnostikoa, ziurtagiria edo animalia baten osasun- edo txertaketa-egoeraren bermea. IAk akatsak egin ditzake, akatsak ikusi gabe utzi edo dokumentua gaizki irakurri. Emaitza argirik gabeak edo eztabaidatuak pertsona batek berrikusten ditu, eta «dokumentua berrikusita» seinaleak dokumentua egiaztatu dela soilik esan nahi du. Osasun-erabakietarako baimendun albaitari batengan oinarritu behar da, eta aplikazioan agertzen den emaitza baten ondorioz ez da arreta atzeratu behar."
+              "text": "IAk lagundutako osasun-dokumentuen egiaztapena. Tailmancek IAk lagundutako testu-ezagutza erabil dezake zure maskotarentzat igotzen duzun osasun-kartilla aztertzeko. Egiaztapenak dokumentuan idatzita dagoena baino ez du irakurtzen: ez du animaliaren arraza zehazten, ez du animalia aztertzen edo diagnostikatzen eta ez da albaitaritza-ziurtagiria. Dokumentua osoa eta koherentea bada (mikrotxip zenbakia, txertoak eta barruko zein kanpoko parasitoen tratamenduak agertzen dira, akatsik edo datu kontraesankorrik gabe), egiaztapenak egiaztatuta gisa marka dezake. Dokumentu osatugabeak, argitasun gabeak edo koherenterik gabeak ez dira automatikoki egiaztatzen eta pertsona batek berrikus ditzake. IAk akatsak egin ditzake, akatsak ikusi gabe utzi edo dokumentua gaizki irakurri, beraz egiaztatu zuk zeuk informazio garrantzitsua. Egiaztatuta etiketak ez du animalia baten osasun- edo txertaketa-egoeraren bermerik ematen eta ez da behin betiko, loteslea edo juridikoki baliozkoa den erabakia. Osasun-erabakietarako, fidatu lizentziadun albaitari batengan eta ez atzeratu zaintza aplikazioan ageri den emaitza batengatik."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "IAk lagundutako osasun-egiaztapenak. Txertaketa-dokumentuen edo albaitaritza-dokumentuen IAk lagundutako edozein egiaztapen aurretiazko laguntza automatizatua baino ez da. Ez du behin betiko, loteslea edo juridikoki baliozkoa den erabakirik hartzen, eta ez da albaitaritza-azterketa, diagnostikoa, ziurtagiria edo animalia baten osasun- edo txertaketa-egoeraren bermea. IAk akatsak egin ditzake, akatsak ikusi gabe utzi edo dokumentua gaizki irakurri. Emaitza argirik gabeak edo eztabaidatuak pertsona batek berrikusten ditu, eta «dokumentua berrikusita» seinaleak dokumentua egiaztatu dela soilik esan nahi du. Osasun-erabakietarako baimendun albaitari batengan oinarritu behar da, eta aplikazioan agertzen den emaitza baten ondorioz ez da arreta atzeratu behar."
+              "text": "IAk lagundutako osasun-dokumentuen egiaztapena. Tailmancek IAk lagundutako testu-ezagutza erabil dezake zure maskotarentzat igotzen duzun osasun-kartilla aztertzeko. Egiaztapenak dokumentuan idatzita dagoena baino ez du irakurtzen: ez du animaliaren arraza zehazten, ez du animalia aztertzen edo diagnostikatzen eta ez da albaitaritza-ziurtagiria. Dokumentua osoa eta koherentea bada (mikrotxip zenbakia, txertoak eta barruko zein kanpoko parasitoen tratamenduak agertzen dira, akatsik edo datu kontraesankorrik gabe), egiaztapenak egiaztatuta gisa marka dezake. Dokumentu osatugabeak, argitasun gabeak edo koherenterik gabeak ez dira automatikoki egiaztatzen eta pertsona batek berrikus ditzake. IAk akatsak egin ditzake, akatsak ikusi gabe utzi edo dokumentua gaizki irakurri, beraz egiaztatu zuk zeuk informazio garrantzitsua. Egiaztatuta etiketak ez du animalia baten osasun- edo txertaketa-egoeraren bermerik ematen eta ez da behin betiko, loteslea edo juridikoki baliozkoa den erabakia. Osasun-erabakietarako, fidatu lizentziadun albaitari batengan eta ez atzeratu zaintza aplikazioan ageri den emaitza batengatik."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "IAk lagundutako eginbideak. Eginbide batzuek IAk lagundutako tresnak erabiltzen dituzte. Onartutako gailuetan, gailuko modelo batek maskotaren argazki batetik arraza iradoki dezake eta argazkien segurtasuna egiaztatu dezake kargatu aurretik; iradokizunak aukerakoak dira eta okerrak izan daitezke. Txertaketa-dokumentuak eta albaitaritza-dokumentuak IAk lagundutako testu-ezagutzarekin aurrez egiaztatu daitezke, eta emaitza argirik gabeak giza berrikuspenera bideratzen dira. IAren emaitza seinale bat besterik ez da: ez da albaitaritza-aholkua edo diagnostikoa, eta bere kabuz ez du pertsona batentzat ondorio garrantzitsua duen emaitzarik erabakitzen. Tailmance-k ez du IA txatbotik edo IAren bidezko albaitaritza-diagnostikorik eskaintzen. IAk lagundutako emaitzak eragindako erabiltzaileak giza berrikuspena eska dezake aplikazioko apelazio-prozesuaren edo Laguntzaren bidez."
+              "text": "IAk lagundutako eginbideak. Eginbide batzuek IAk lagundutako tresnak erabiltzen dituzte. Onartutako gailuetan, gailuko modelo batek argazkien segurtasuna egiaztatu dezake kargatu aurretik. Txertaketa-dokumentuak eta albaitaritza-dokumentuak IAk lagundutako testu-ezagutzarekin egiaztatu daitezke: osasun-kartilla oso eta koherente bat (mikrotxipa, txertoak, barruko eta kanpoko parasitoen tratamenduak, akatsik gabe) egiaztatuta gisa marka daiteke, eta dokumentu osatugabeak edo argirik gabeak giza berrikuspenera bideratzen dira. Egiaztapenak dokumentua baino ez du irakurtzen eta ez du inoiz arrazarik zehazten ez animaliarik diagnostikatzen. IAk akatsak egin ditzake, beraz egiaztatu informazio garrantzitsua. IAren emaitza seinale bat besterik ez da: ez da albaitaritza-aholkua edo diagnostikoa, eta bere kabuz ez du pertsona batentzat ondorio garrantzitsua duen emaitzarik erabakitzen. Tailmance-k ez du IA txatbotik edo IAren bidezko albaitaritza-diagnostikorik eskaintzen. IAk lagundutako emaitzak eragindako erabiltzaileak giza berrikuspena eska dezake aplikazioko apelazio-prozesuaren edo Laguntzaren bidez."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "IAk akatsak egin ditzake. IAk lagundutako dokumentu-egiaztapenak aurretiazkoak baino ez dira: ez dute inoiz animalia baten osasunari buruzko behin betiko edo juridikoki baliozko erabakirik hartzen, ez dira albaitaritza-aholkua eta ez dute osasun- edo txertaketa-egoerarik bermatzen. Jarri beti harremanetan baimendun albaitari batekin."
+              "text": "IAk akatsak egin ditzake, beraz egiaztatu informazio garrantzitsua. IAk lagundutako egiaztapenek maskotaren osasun-kartilla baino ez dute irakurtzen: ez dute inoiz arrazarik zehazten ez diagnostikorik egiten, eta dokumentu bat egiaztatuta gisa markatu dezakete soilik osoa eta koherentea bada (mikrotxipa, txertoak, barruko eta kanpoko parasitoen tratamenduak). Egiaztatuta etiketa ez da albaitaritza-aholkua, ziurtagiria edo bermea. Kontsultatu beti lizentziadun albaitari bati."
             }
           ]
         },
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "IAk akatsak egin ditzake. IAk lagundutako dokumentu-egiaztapenak aurretiazkoak baino ez dira: ez dute inoiz animalia baten osasunari buruzko behin betiko edo juridikoki baliozko erabakirik hartzen, ez dira albaitaritza-aholkua eta ez dute osasun- edo txertaketa-egoerarik bermatzen. Jarri beti harremanetan baimendun albaitari batekin."
+              "text": "IAk akatsak egin ditzake, beraz egiaztatu informazio garrantzitsua. IAk lagundutako egiaztapenek maskotaren osasun-kartilla baino ez dute irakurtzen: ez dute inoiz arrazarik zehazten ez diagnostikorik egiten, eta dokumentu bat egiaztatuta gisa markatu dezakete soilik osoa eta koherentea bada (mikrotxipa, txertoak, barruko eta kanpoko parasitoen tratamenduak). Egiaztatuta etiketa ez da albaitaritza-aholkua, ziurtagiria edo bermea. Kontsultatu beti lizentziadun albaitari bati."
             }
           ]
         }
