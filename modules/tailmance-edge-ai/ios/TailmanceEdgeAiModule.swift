@@ -7,11 +7,27 @@ private let maxModelBytes: UInt64 = 256 * 1024 * 1024
 private let maxImageBytes: UInt64 = 30 * 1024 * 1024
 private let sha256Pattern = try! NSRegularExpression(pattern: "^[a-f0-9]{64}$")
 
+// Vision can report a failure through the request completion handler and also throw from perform(_:).
+// A checked continuation must be resumed exactly once, so every terminal branch claims this flag first.
+private final class SingleResume {
+  private let lock = NSLock()
+  private var claimed = false
+  func claim() -> Bool {
+    lock.lock(); defer { lock.unlock() }
+    if claimed { return false }
+    claimed = true
+    return true
+  }
+}
+
 public class TailmanceEdgeAiModule: Module {
   private let cacheLock = NSLock()
   private var modelCache: [String: VNCoreMLModel] = [:]
   private var modelCacheOrder: [String] = []
   private let maxCachedModels = 2
+  // Memo of already-hashed model files keyed by path, size and modification time (guarded by cacheLock),
+  // so a warm inference does not re-read up to 256 MB just to prove the same file is unchanged.
+  private var verifiedFileHashes: [String: String] = [:]
 
   private func localFileURL(_ uri: String, kind: String) throws -> URL {
     guard let url = URL(string: uri), url.isFileURL else {
@@ -41,6 +57,21 @@ public class TailmanceEdgeAiModule: Module {
     return hasher.finalize().map { String(format: "%02x", $0) }.joined()
   }
 
+  private func sha256FileMemoized(_ url: URL, size: UInt64) throws -> String {
+    let modified = (try? url.resourceValues(forKeys: [.contentModificationDateKey]))?.contentModificationDate?.timeIntervalSince1970 ?? 0
+    let key = "\(url.path)|\(size)|\(modified)"
+    cacheLock.lock()
+    let known = verifiedFileHashes[key]
+    cacheLock.unlock()
+    if let known { return known }
+    let hash = try sha256File(url)
+    cacheLock.lock()
+    if verifiedFileHashes.count >= 8 { verifiedFileHashes.removeAll() }
+    verifiedFileHashes[key] = hash
+    cacheLock.unlock()
+    return hash
+  }
+
   private func validateExpectedHash(_ hash: String) throws -> String {
     let normalized = hash.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
     let range = NSRange(normalized.startIndex..<normalized.endIndex, in: normalized)
@@ -60,7 +91,7 @@ public class TailmanceEdgeAiModule: Module {
     guard url.pathExtension.lowercased() == "mlmodel" else {
       throw Exception(name: "EdgeAiInvalidModelFormat", description: "edge_ai_ios_model_format_invalid")
     }
-    let actual = try sha256File(url)
+    let actual = try sha256FileMemoized(url, size: size)
     guard actual == expected else {
       throw Exception(name: "EdgeAiModelIntegrityMismatch", description: "edge_ai_model_integrity_mismatch")
     }
@@ -95,10 +126,11 @@ public class TailmanceEdgeAiModule: Module {
 
   private func classify(model: VNCoreMLModel, imageURL: URL, maxResults: Int, threshold: Float) async throws -> [[String: Any]] {
     try await withCheckedThrowingContinuation { continuation in
+      let once = SingleResume()
       let request = VNCoreMLRequest(model: model) { request, error in
-        if let error { continuation.resume(throwing: error); return }
+        if let error { if once.claim() { continuation.resume(throwing: error) }; return }
         guard let observations = request.results as? [VNClassificationObservation] else {
-          continuation.resume(throwing: Exception(name: "EdgeAiUnexpectedModelOutput", description: "edge_ai_classifier_output_invalid"))
+          if once.claim() { continuation.resume(throwing: Exception(name: "EdgeAiUnexpectedModelOutput", description: "edge_ai_classifier_output_invalid")) }
           return
         }
         let rows: [[String: Any]] = observations
@@ -113,7 +145,7 @@ public class TailmanceEdgeAiModule: Module {
               "index": offset
             ]
           }
-        continuation.resume(returning: rows)
+        if once.claim() { continuation.resume(returning: rows) }
       }
       request.imageCropAndScaleOption = .centerCrop
       DispatchQueue.global(qos: .userInitiated).async {
@@ -121,7 +153,7 @@ public class TailmanceEdgeAiModule: Module {
           let handler = VNImageRequestHandler(url: imageURL, options: [:])
           try handler.perform([request])
         } catch {
-          continuation.resume(throwing: error)
+          if once.claim() { continuation.resume(throwing: error) }
         }
       }
     }
@@ -136,6 +168,7 @@ public class TailmanceEdgeAiModule: Module {
       self.cacheLock.lock()
       self.modelCache.removeAll()
       self.modelCacheOrder.removeAll()
+      self.verifiedFileHashes.removeAll()
       self.cacheLock.unlock()
       return true
     }

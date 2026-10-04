@@ -104,6 +104,24 @@ public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPus
     }
   }
 
+  // iOS requires every VoIP push to be answered with a reported CallKit call; otherwise the system
+  // terminates the app and eventually stops delivering VoIP pushes. A push we cannot use (malformed,
+  // or a duplicate of a call already reported) therefore reports a placeholder call and ends it at once.
+  private func reportPlaceholderCallAndEnd(completion: @escaping () -> Void) {
+    ensureConfigured()
+    let placeholderId = UUID()
+    let update = CXCallUpdate()
+    update.localizedCallerName = "Tailmance"
+    update.remoteHandle = CXHandle(type: .generic, value: "Tailmance")
+    update.hasVideo = false
+    provider?.reportNewIncomingCall(with: placeholderId, update: update) { error in
+      if error == nil {
+        self.provider?.reportCall(with: placeholderId, endedAt: Date(), reason: .failed)
+      }
+      completion()
+    }
+  }
+
   public func definition() -> ModuleDefinition {
     Name("TailmanceSystemCalls")
 
@@ -225,7 +243,8 @@ public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPus
       UUID(uuidString: recipientPetId) != nil,
       let userId = raw["userId"] as? String,
       UUID(uuidString: userId) != nil
-    else { completion(); return }
+    else { reportPlaceholderCallAndEnd(completion: completion); return }
+    if metadata(callId: callId) != nil { reportPlaceholderCallAndEnd(completion: completion); return }
     reportIncoming(callId: callId, callerName: callerName, callType: callType, recipientPetId: recipientPetId, userId: userId) { _ in completion() }
   }
 }
