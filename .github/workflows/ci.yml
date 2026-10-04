@@ -13,7 +13,7 @@ jobs:
     steps:
       # The repository hygiene gate forbids node_modules inside the repository tree, so the checkout lives in
       # ./app and dependencies are installed one level above it (Node resolves them from the parent directory).
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: app
       - uses: actions/setup-node@v4
