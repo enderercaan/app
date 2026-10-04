@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Impossibile verificare dal server le registrazioni vaccinali.",
   "health.documentsTitle": "Documenti veterinari e sanitari",
   "health.documentsSubtitle": "I documenti caricati vengono inviati a una coda di revisione.",
-  "health.automatedReviewNotice": "I documenti possono essere precontrollati con un riconoscimento del testo assistito dall’IA. I risultati incerti passano alla revisione umana. Questo controllo esamina solo il documento e non formula mai diagnosi sul tuo animale.",
+  "health.automatedReviewNotice": "I documenti possono essere precontrollati con un riconoscimento del testo assistito dall’IA. L’IA può commettere errori, quindi un risultato non è mai una decisione definitiva. I risultati incerti passano alla revisione umana. Questo controllo esamina solo il documento e non formula mai diagnosi sul tuo animale.",
   "health.documentUploadedTitle": "Documento caricato",
   "health.documentUploadedBody": "È stato aggiunto alla coda di verifica.",
   "health.documentUploadFailed": "Impossibile caricare il documento",

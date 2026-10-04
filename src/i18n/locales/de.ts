@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Impfunterlagen konnten vom Server nicht verifiziert werden.",
   "health.documentsTitle": "Tierärztliche & Gesundheitsdokumente",
   "health.documentsSubtitle": "Hochgeladene Dokumente werden an eine Prüfwarteschlange gesendet.",
-  "health.automatedReviewNotice": "Dokumente können mit KI-gestützter Texterkennung vorgeprüft werden. Unklare Ergebnisse werden von Menschen geprüft. Diese Prüfung bewertet nur das Dokument und stellt keine Diagnose für dein Tier.",
+  "health.automatedReviewNotice": "Dokumente können mit KI-gestützter Texterkennung vorgeprüft werden. KI kann Fehler machen, daher ist ein Ergebnis nie eine endgültige Entscheidung. Unklare Ergebnisse werden von Menschen geprüft. Diese Prüfung bewertet nur das Dokument und stellt keine Diagnose für dein Tier.",
   "health.documentUploadedTitle": "Dokument hochgeladen",
   "health.documentUploadedBody": "Es wurde der Verifizierungswarteschlange hinzugefügt.",
   "health.documentUploadFailed": "Dokument konnte nicht hochgeladen werden",

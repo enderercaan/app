@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance ne fournit ni soins vétérinaires, ni diagnostic médical, ni service d’urgence. Les informations de vaccination, santé ou vérification ne remplacent pas une évaluation vétérinaire. En cas d’urgence, contacte un vétérinaire, un service d’urgence ou une autorité compétente."
+            },
+            {
+              "kind": "p",
+              "text": "Contrôles de santé assistés par IA. Tout contrôle assisté par IA de documents de vaccination ou vétérinaires n’est qu’une aide automatisée préliminaire. Il ne rend aucune décision définitive, contraignante ou juridiquement valable, et ne constitue ni un examen vétérinaire, ni un diagnostic, ni une certification, ni une garantie de l’état de santé ou vaccinal d’un animal. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document. Les résultats incertains ou contestés sont examinés par une personne, et l’indication « document examiné » signifie seulement que le document a été vérifié. Pour toute décision de santé, il convient de s’en remettre à un vétérinaire diplômé, sans retarder les soins en raison d’un résultat affiché dans l’application."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Les dossiers de santé et vaccination d’animaux peuvent contenir des informations sensibles. Fournis seulement le nécessaire et évite les données de tiers. Si l’assurance de l’âge utilise identité, visage, biométrie ou autre donnée sensible, des informations, garanties, limites de conservation, renseignements sur le prestataire et alternatives supplémentaires s’appliquent."
+            },
+            {
+              "kind": "p",
+              "text": "Contrôles de santé assistés par IA. Tout contrôle assisté par IA de documents de vaccination ou vétérinaires n’est qu’une aide automatisée préliminaire. Il ne rend aucune décision définitive, contraignante ou juridiquement valable, et ne constitue ni un examen vétérinaire, ni un diagnostic, ni une certification, ni une garantie de l’état de santé ou vaccinal d’un animal. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document. Les résultats incertains ou contestés sont examinés par une personne, et l’indication « document examiné » signifie seulement que le document a été vérifié. Pour toute décision de santé, il convient de s’en remettre à un vétérinaire diplômé, sans retarder les soins en raison d’un résultat affiché dans l’application."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "N’usurpe pas l’identité d’autrui et ne falsifie pas propriété, race, âge, sexe, santé, vaccination ou vérification. Les badges de vérification ne sont pas des garanties vétérinaires."
+            },
+            {
+              "kind": "p",
+              "text": "L’IA peut se tromper. Les contrôles de documents assistés par IA ne sont que préliminaires : ils ne rendent jamais de décision définitive ou juridiquement valable sur la santé d’un animal, ne constituent pas un avis vétérinaire et ne garantissent ni l’état de santé ni l’état vaccinal. Consultez toujours un vétérinaire diplômé."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance n’est pas un service vétérinaire ni d’urgence médicale. Pour un problème urgent de santé animale, contacte directement un service vétérinaire adapté."
+            },
+            {
+              "kind": "p",
+              "text": "L’IA peut se tromper. Les contrôles de documents assistés par IA ne sont que préliminaires : ils ne rendent jamais de décision définitive ou juridiquement valable sur la santé d’un animal, ne constituent pas un avis vétérinaire et ne garantissent ni l’état de santé ni l’état vaccinal. Consultez toujours un vétérinaire diplômé."
             }
           ]
         }

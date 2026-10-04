@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Nie udało się zweryfikować dokumentacji szczepień z serwera.",
   "health.documentsTitle": "Dokumenty weterynaryjne i zdrowotne",
   "health.documentsSubtitle": "Przesłane dokumenty trafiają do kolejki weryfikacji.",
-  "health.automatedReviewNotice": "Dokumenty mogą być wstępnie sprawdzane za pomocą rozpoznawania tekstu wspieranego przez AI. Niejasne wyniki trafiają do weryfikacji przez człowieka. Ta kontrola dotyczy tylko dokumentu i nigdy nie stawia diagnozy Twojemu zwierzęciu.",
+  "health.automatedReviewNotice": "Dokumenty mogą być wstępnie sprawdzane za pomocą rozpoznawania tekstu wspieranego przez AI. AI może popełniać błędy, dlatego wynik nigdy nie jest ostateczną decyzją. Niejasne wyniki trafiają do weryfikacji przez człowieka. Ta kontrola dotyczy tylko dokumentu i nigdy nie stawia diagnozy Twojemu zwierzęciu.",
   "health.documentUploadedTitle": "Dokument przesłany",
   "health.documentUploadedBody": "Dodano go do kolejki weryfikacji.",
   "health.documentUploadFailed": "Nie udało się przesłać dokumentu",

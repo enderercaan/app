@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance nie świadczy usług weterynaryjnych, diagnostycznych ani ratunkowych. Dane o szczepieniach, zdrowiu lub weryfikacji nie zastępują oceny weterynarza. W nagłym przypadku skontaktuj się z weterynarzem, służbą ratunkową lub właściwym organem."
+            },
+            {
+              "kind": "p",
+              "text": "Kontrole zdrowia wspierane przez AI. Każda wspierana przez AI kontrola dokumentów szczepień lub dokumentów weterynaryjnych jest wyłącznie wstępnym, zautomatyzowanym wsparciem. Nie podejmuje ostatecznej, wiążącej ani prawnie skutecznej decyzji i nie jest badaniem weterynaryjnym, diagnozą, poświadczeniem ani gwarancją stanu zdrowia lub szczepień zwierzęcia. AI może popełniać błędy, pomijać nieprawidłowości lub błędnie odczytać dokument. Niejasne lub kwestionowane wyniki sprawdza człowiek, a oznaczenie „dokument sprawdzony” oznacza jedynie, że dokument został zweryfikowany. W sprawach zdrowia należy polegać na lekarzu weterynarii z uprawnieniami i nie opóźniać opieki z powodu wyniku widocznego w aplikacji."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Dokumenty zdrowotne i szczepień zwierząt mogą zawierać dane wrażliwe. Przesyłaj tylko niezbędne i unikaj danych osób trzecich. Przy potwierdzaniu wieku z użyciem tożsamości, twarzy, biometrii lub innych danych wrażliwych stosuje się dodatkowe informacje, zabezpieczenia, limity przechowywania, dane dostawcy i alternatywy."
+            },
+            {
+              "kind": "p",
+              "text": "Kontrole zdrowia wspierane przez AI. Każda wspierana przez AI kontrola dokumentów szczepień lub dokumentów weterynaryjnych jest wyłącznie wstępnym, zautomatyzowanym wsparciem. Nie podejmuje ostatecznej, wiążącej ani prawnie skutecznej decyzji i nie jest badaniem weterynaryjnym, diagnozą, poświadczeniem ani gwarancją stanu zdrowia lub szczepień zwierzęcia. AI może popełniać błędy, pomijać nieprawidłowości lub błędnie odczytać dokument. Niejasne lub kwestionowane wyniki sprawdza człowiek, a oznaczenie „dokument sprawdzony” oznacza jedynie, że dokument został zweryfikowany. W sprawach zdrowia należy polegać na lekarzu weterynarii z uprawnieniami i nie opóźniać opieki z powodu wyniku widocznego w aplikacji."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Nie podszywaj się i nie fałszuj własności, rasy, wieku, płci, zdrowia, szczepień ani weryfikacji. Oznaczenia weryfikacji nie są gwarancją weterynaryjną."
+            },
+            {
+              "kind": "p",
+              "text": "AI może popełniać błędy. Kontrole dokumentów wspierane przez AI mają charakter wyłącznie wstępny: nigdy nie podejmują ostatecznej ani prawnie skutecznej decyzji o zdrowiu zwierzęcia, nie są poradą weterynaryjną i nie gwarantują stanu zdrowia ani szczepień. Zawsze należy skonsultować się z lekarzem weterynarii."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance nie jest usługą weterynaryjną ani medyczną usługą ratunkową. W nagłej sprawie zdrowia zwierzęcia skontaktuj odpowiednią pomoc weterynaryjną."
+            },
+            {
+              "kind": "p",
+              "text": "AI może popełniać błędy. Kontrole dokumentów wspierane przez AI mają charakter wyłącznie wstępny: nigdy nie podejmują ostatecznej ani prawnie skutecznej decyzji o zdrowiu zwierzęcia, nie są poradą weterynaryjną i nie gwarantują stanu zdrowia ani szczepień. Zawsze należy skonsultować się z lekarzem weterynarii."
             }
           ]
         }

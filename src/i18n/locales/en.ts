@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Vaccination records could not be verified from the server.",
   "health.documentsTitle": "Veterinary & health documents",
   "health.documentsSubtitle": "Uploaded documents are sent to a review queue.",
-  "health.automatedReviewNotice": "Documents may be pre-checked with AI-assisted text recognition. Unclear results go to human review. This check only reviews the document; it never diagnoses your pet.",
+  "health.automatedReviewNotice": "Documents may be pre-checked with AI-assisted text recognition. AI can make mistakes, so a result is never a final decision. Unclear results go to human review. This check only reviews the document; it never diagnoses your pet.",
   "health.documentUploadedTitle": "Document uploaded",
   "health.documentUploadedBody": "It was added to the verification queue.",
   "health.documentUploadFailed": "Document could not be uploaded",

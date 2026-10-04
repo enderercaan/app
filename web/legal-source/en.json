@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance does not provide veterinary care, medical diagnosis, or emergency services. Vaccination, health, or verification records in the app do not replace professional veterinary assessment. Seek an appropriate veterinarian, emergency service, or authority when needed."
+            },
+            {
+              "kind": "p",
+              "text": "AI-assisted health checks. Any AI-assisted check of vaccination or veterinary documents is only a preliminary, automated aid. It does not make a final, binding or legally valid decision, and it is not a veterinary examination, diagnosis, certification or guarantee of an animal’s health or vaccination status. AI can make mistakes and may miss errors or read a document incorrectly. Unclear or disputed results are reviewed by a person, and a ‘document reviewed’ signal only means that the document was checked. Rely on a licensed veterinarian for health decisions and do not delay care because of a result shown in the app."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Pet health and vaccination records may contain sensitive information. Upload only what is necessary and avoid third-party data. Where identity, facial, biometric, or other sensitive information is used for age assurance, additional notice, safeguards, retention limits, provider information, and alternative procedures must be supplied as required."
+            },
+            {
+              "kind": "p",
+              "text": "AI-assisted health checks. Any AI-assisted check of vaccination or veterinary documents is only a preliminary, automated aid. It does not make a final, binding or legally valid decision, and it is not a veterinary examination, diagnosis, certification or guarantee of an animal’s health or vaccination status. AI can make mistakes and may miss errors or read a document incorrectly. Unclear or disputed results are reviewed by a person, and a ‘document reviewed’ signal only means that the document was checked. Rely on a licensed veterinarian for health decisions and do not delay care because of a result shown in the app."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Do not impersonate people, misrepresent pet ownership, breed, age, sex, health, vaccination, or verification status, or submit fraudulent documents. Verification badges are not veterinary guarantees."
+            },
+            {
+              "kind": "p",
+              "text": "AI can make mistakes. AI-assisted document checks are preliminary only: they never make a final or legally valid decision about an animal’s health, are not veterinary advice, and do not guarantee health or vaccination status. Always consult a licensed veterinarian."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance is not a veterinary or emergency health service. For urgent animal-health concerns, contact an appropriate veterinary service directly."
+            },
+            {
+              "kind": "p",
+              "text": "AI can make mistakes. AI-assisted document checks are preliminary only: they never make a final or legally valid decision about an animal’s health, are not veterinary advice, and do not guarantee health or vaccination status. Always consult a licensed veterinarian."
             }
           ]
         }

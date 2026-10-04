@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance bietet keine tierärztliche Versorgung, Diagnose oder Notfallhilfe. Impf-, Gesundheits- oder Verifikationsdaten ersetzen keine tierärztliche Beurteilung. Wende dich bei Notfällen an geeignete Tierärzte, Notdienste oder Behörden."
+            },
+            {
+              "kind": "p",
+              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann Fehler machen, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Tiergesundheits- und Impfnachweise können sensible Informationen enthalten. Lade nur notwendige Daten hoch und vermeide Daten Dritter. Bei Altersprüfung mit Identitäts-, Gesichts-, biometrischen oder anderen sensiblen Daten gelten zusätzliche Hinweise, Schutzmaßnahmen, Aufbewahrungsgrenzen, Anbieterinformationen und Alternativen."
+            },
+            {
+              "kind": "p",
+              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann Fehler machen, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Identitätsvortäuschung sowie falsche Angaben zu Eigentum, Rasse, Alter, Geschlecht, Gesundheit, Impfung oder Verifikation sind verboten. Verifikationszeichen sind keine tierärztliche Garantie."
+            },
+            {
+              "kind": "p",
+              "text": "KI kann Fehler machen. KI-gestützte Dokumentenprüfungen sind nur vorläufig: Sie treffen keine endgültige oder rechtlich wirksame Entscheidung über die Gesundheit eines Tieres, sind keine tierärztliche Beratung und garantieren keinen Gesundheits- oder Impfstatus. Es sollte stets eine Tierärztin oder ein Tierarzt konsultiert werden."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance ist kein tierärztlicher oder medizinischer Notfalldienst. Wende dich bei dringenden Tiergesundheitsproblemen direkt an geeignete tierärztliche Hilfe."
+            },
+            {
+              "kind": "p",
+              "text": "KI kann Fehler machen. KI-gestützte Dokumentenprüfungen sind nur vorläufig: Sie treffen keine endgültige oder rechtlich wirksame Entscheidung über die Gesundheit eines Tieres, sind keine tierärztliche Beratung und garantieren keinen Gesundheits- oder Impfstatus. Es sollte stets eine Tierärztin oder ein Tierarzt konsultiert werden."
             }
           ]
         }

@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Catatan vaksinasi tidak dapat diverifikasi dari server.",
   "health.documentsTitle": "Dokumen dokter hewan & kesehatan",
   "health.documentsSubtitle": "Dokumen yang diunggah dikirim ke antrean peninjauan.",
-  "health.automatedReviewNotice": "Dokumen dapat diperiksa awal dengan pengenalan teks berbantuan AI. Hasil yang tidak jelas akan ditinjau oleh manusia. Pemeriksaan ini hanya meninjau dokumen; tidak pernah mendiagnosis hewan peliharaan Anda.",
+  "health.automatedReviewNotice": "Dokumen dapat diperiksa awal dengan pengenalan teks berbantuan AI. AI dapat membuat kesalahan, sehingga hasil tidak pernah menjadi keputusan akhir. Hasil yang tidak jelas akan ditinjau oleh manusia. Pemeriksaan ini hanya meninjau dokumen; tidak pernah mendiagnosis hewan peliharaan Anda.",
   "health.documentUploadedTitle": "Dokumen diunggah",
   "health.documentUploadedBody": "Dokumen ditambahkan ke antrean verifikasi.",
   "health.documentUploadFailed": "Dokumen tidak dapat diunggah",

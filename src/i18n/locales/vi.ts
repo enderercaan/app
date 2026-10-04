@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Không thể xác minh hồ sơ tiêm chủng từ máy chủ.",
   "health.documentsTitle": "Tài liệu thú y & sức khỏe",
   "health.documentsSubtitle": "Tài liệu đã tải lên được gửi vào hàng đợi xem xét.",
-  "health.automatedReviewNotice": "Tài liệu có thể được kiểm tra sơ bộ bằng nhận dạng văn bản có hỗ trợ AI. Kết quả chưa rõ ràng sẽ được con người xem xét. Bước kiểm tra này chỉ xem xét tài liệu, không bao giờ chẩn đoán thú cưng của bạn.",
+  "health.automatedReviewNotice": "Tài liệu có thể được kiểm tra sơ bộ bằng nhận dạng văn bản có hỗ trợ AI. AI có thể mắc lỗi nên kết quả không bao giờ là quyết định cuối cùng. Kết quả chưa rõ ràng sẽ được con người xem xét. Bước kiểm tra này chỉ xem xét tài liệu, không bao giờ chẩn đoán thú cưng của bạn.",
   "health.documentUploadedTitle": "Đã tải tài liệu lên",
   "health.documentUploadedBody": "Tài liệu đã được thêm vào hàng đợi xác minh.",
   "health.documentUploadFailed": "Không thể tải tài liệu lên",

@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance không cung cấp chăm sóc thú y, chẩn đoán y khoa hoặc dịch vụ khẩn cấp. Hồ sơ tiêm chủng, sức khỏe hoặc xác minh trong ứng dụng không thay thế đánh giá chuyên môn của bác sĩ thú y. Khi cần, hãy liên hệ bác sĩ thú y, dịch vụ khẩn cấp hoặc cơ quan có thẩm quyền thích hợp."
+            },
+            {
+              "kind": "p",
+              "text": "Kiểm tra sức khỏe có hỗ trợ AI. Mọi hoạt động kiểm tra giấy tờ tiêm chủng hoặc giấy tờ thú y có hỗ trợ AI chỉ là công cụ hỗ trợ tự động mang tính sơ bộ. Nó không đưa ra quyết định cuối cùng, ràng buộc hay có giá trị pháp lý, và không phải là khám thú y, chẩn đoán, chứng nhận hay bảo đảm về tình trạng sức khỏe hoặc tiêm chủng của vật nuôi. AI có thể mắc lỗi, bỏ sót sai sót hoặc đọc sai giấy tờ. Kết quả chưa rõ hoặc bị tranh chấp sẽ do con người xem xét, và dấu hiệu “đã xem xét giấy tờ” chỉ có nghĩa là giấy tờ đã được kiểm tra. Các quyết định về sức khỏe cần dựa vào bác sĩ thú y có giấy phép hành nghề, và không nên trì hoãn chăm sóc vì một kết quả hiển thị trong ứng dụng."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Hồ sơ sức khỏe và tiêm chủng của thú cưng có thể chứa thông tin nhạy cảm. Chỉ tải lên những gì cần thiết và tránh dữ liệu của bên thứ ba. Khi dữ liệu định danh, khuôn mặt, sinh trắc học hoặc thông tin nhạy cảm khác được dùng để bảo đảm độ tuổi, phải cung cấp thông báo bổ sung, biện pháp bảo vệ, giới hạn lưu giữ, thông tin nhà cung cấp và quy trình thay thế theo yêu cầu."
+            },
+            {
+              "kind": "p",
+              "text": "Kiểm tra sức khỏe có hỗ trợ AI. Mọi hoạt động kiểm tra giấy tờ tiêm chủng hoặc giấy tờ thú y có hỗ trợ AI chỉ là công cụ hỗ trợ tự động mang tính sơ bộ. Nó không đưa ra quyết định cuối cùng, ràng buộc hay có giá trị pháp lý, và không phải là khám thú y, chẩn đoán, chứng nhận hay bảo đảm về tình trạng sức khỏe hoặc tiêm chủng của vật nuôi. AI có thể mắc lỗi, bỏ sót sai sót hoặc đọc sai giấy tờ. Kết quả chưa rõ hoặc bị tranh chấp sẽ do con người xem xét, và dấu hiệu “đã xem xét giấy tờ” chỉ có nghĩa là giấy tờ đã được kiểm tra. Các quyết định về sức khỏe cần dựa vào bác sĩ thú y có giấy phép hành nghề, và không nên trì hoãn chăm sóc vì một kết quả hiển thị trong ứng dụng."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Không mạo danh người khác, khai sai quyền sở hữu thú cưng, giống, tuổi, giới tính, sức khỏe, tiêm chủng hoặc trạng thái xác minh, hoặc nộp tài liệu giả. Huy hiệu xác minh không phải là bảo đảm thú y."
+            },
+            {
+              "kind": "p",
+              "text": "AI có thể mắc lỗi. Việc kiểm tra giấy tờ có hỗ trợ AI chỉ mang tính sơ bộ: không bao giờ đưa ra quyết định cuối cùng hoặc có giá trị pháp lý về sức khỏe của vật nuôi, không phải lời khuyên thú y và không bảo đảm tình trạng sức khỏe hay tiêm chủng. Hãy luôn tham khảo bác sĩ thú y có giấy phép."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance không phải dịch vụ thú y hoặc y tế khẩn cấp. Đối với vấn đề sức khỏe động vật khẩn cấp, hãy liên hệ trực tiếp dịch vụ thú y phù hợp."
+            },
+            {
+              "kind": "p",
+              "text": "AI có thể mắc lỗi. Việc kiểm tra giấy tờ có hỗ trợ AI chỉ mang tính sơ bộ: không bao giờ đưa ra quyết định cuối cùng hoặc có giá trị pháp lý về sức khỏe của vật nuôi, không phải lời khuyên thú y và không bảo đảm tình trạng sức khỏe hay tiêm chủng. Hãy luôn tham khảo bác sĩ thú y có giấy phép."
             }
           ]
         }

@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance tidak menyediakan perawatan veteriner, diagnosis medis, atau layanan darurat. Catatan vaksinasi, kesehatan, atau verifikasi di aplikasi tidak menggantikan penilaian veteriner profesional. Hubungi dokter hewan, layanan darurat, atau otoritas yang sesuai bila diperlukan."
+            },
+            {
+              "kind": "p",
+              "text": "Pemeriksaan kesehatan berbantuan AI. Setiap pemeriksaan berbantuan AI atas dokumen vaksinasi atau dokumen dokter hewan hanyalah alat bantu otomatis yang bersifat awal. Pemeriksaan ini tidak membuat keputusan akhir, mengikat, atau sah secara hukum, dan bukan pemeriksaan dokter hewan, diagnosis, sertifikasi, maupun jaminan status kesehatan atau vaksinasi hewan. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen. Hasil yang tidak jelas atau disengketakan ditinjau oleh seseorang, dan tanda “dokumen ditinjau” hanya berarti dokumen telah diperiksa. Keputusan kesehatan harus mengandalkan dokter hewan berlisensi, dan perawatan tidak boleh ditunda karena hasil yang tampil di aplikasi."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Catatan kesehatan dan vaksinasi hewan dapat berisi informasi sensitif. Unggah hanya yang diperlukan dan hindari data pihak ketiga. Jika identitas, wajah, biometrik, atau informasi sensitif lain digunakan untuk jaminan usia, pemberitahuan tambahan, langkah perlindungan, batas retensi, informasi penyedia, dan prosedur alternatif wajib disediakan sesuai kebutuhan."
+            },
+            {
+              "kind": "p",
+              "text": "Pemeriksaan kesehatan berbantuan AI. Setiap pemeriksaan berbantuan AI atas dokumen vaksinasi atau dokumen dokter hewan hanyalah alat bantu otomatis yang bersifat awal. Pemeriksaan ini tidak membuat keputusan akhir, mengikat, atau sah secara hukum, dan bukan pemeriksaan dokter hewan, diagnosis, sertifikasi, maupun jaminan status kesehatan atau vaksinasi hewan. AI dapat membuat kesalahan, melewatkan kekeliruan, atau salah membaca dokumen. Hasil yang tidak jelas atau disengketakan ditinjau oleh seseorang, dan tanda “dokumen ditinjau” hanya berarti dokumen telah diperiksa. Keputusan kesehatan harus mengandalkan dokter hewan berlisensi, dan perawatan tidak boleh ditunda karena hasil yang tampil di aplikasi."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Jangan menyamar sebagai orang lain, memberikan keterangan palsu tentang kepemilikan hewan, ras, usia, jenis kelamin, kesehatan, vaksinasi, atau status verifikasi, atau mengirim dokumen palsu. Lencana verifikasi bukan jaminan veteriner."
+            },
+            {
+              "kind": "p",
+              "text": "AI dapat membuat kesalahan. Pemeriksaan dokumen berbantuan AI hanya bersifat awal: tidak pernah membuat keputusan akhir atau sah secara hukum tentang kesehatan hewan, bukan saran dokter hewan, dan tidak menjamin status kesehatan atau vaksinasi. Selalu konsultasikan dengan dokter hewan berlisensi."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance bukan layanan veteriner atau kesehatan darurat. Untuk masalah kesehatan hewan yang mendesak, hubungi layanan veteriner yang sesuai secara langsung."
+            },
+            {
+              "kind": "p",
+              "text": "AI dapat membuat kesalahan. Pemeriksaan dokumen berbantuan AI hanya bersifat awal: tidak pernah membuat keputusan akhir atau sah secara hukum tentang kesehatan hewan, bukan saran dokter hewan, dan tidak menjamin status kesehatan atau vaksinasi. Selalu konsultasikan dengan dokter hewan berlisensi."
             }
           ]
         }

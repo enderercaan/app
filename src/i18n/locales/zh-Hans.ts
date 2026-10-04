@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "无法从服务器验证疫苗记录。",
   "health.documentsTitle": "兽医与健康文件",
   "health.documentsSubtitle": "上传的文件会进入审核队列。",
-  "health.automatedReviewNotice": "文件可能会先经过 AI 辅助的文字识别进行预检。结果不明确时会转交人工审核。此检查仅审核文件，不会对你的宠物作出诊断。",
+  "health.automatedReviewNotice": "文件可能会先经过 AI 辅助的文字识别进行预检。AI 可能出错，因此结果绝不是最终决定。结果不明确时会转交人工审核。此检查仅审核文件，不会对你的宠物作出诊断。",
   "health.documentUploadedTitle": "文件已上传",
   "health.documentUploadedBody": "已加入验证审核队列。",
   "health.documentUploadFailed": "无法上传文件",

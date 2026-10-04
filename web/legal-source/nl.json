@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance biedt geen veterinaire zorg, diagnose of noodhulp. Vaccinatie-, gezondheids- of verificatiegegevens vervangen geen dierenarts. Neem bij nood contact op met een dierenarts, nooddienst of bevoegde autoriteit."
+            },
+            {
+              "kind": "p",
+              "text": "AI-ondersteunde gezondheidscontroles. Elke AI-ondersteunde controle van vaccinatie- of dierenartsdocumenten is slechts een voorlopig, geautomatiseerd hulpmiddel. Het neemt geen definitieve, bindende of rechtsgeldige beslissing en is geen diergeneeskundig onderzoek, diagnose, certificering of garantie voor de gezondheids- of vaccinatiestatus van een dier. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Onduidelijke of betwiste resultaten worden door een persoon beoordeeld, en het signaal ‘document beoordeeld’ betekent alleen dat het document is gecontroleerd. Voor gezondheidsbeslissingen moet een bevoegde dierenarts worden geraadpleegd, en zorg mag niet worden uitgesteld vanwege een resultaat in de app."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Gezondheids- en vaccinatieregistraties kunnen gevoelige informatie bevatten. Upload alleen wat nodig is en vermijd gegevens van derden. Bij leeftijdsgarantie met identiteit, gezicht, biometrie of andere gevoelige gegevens gelden aanvullende informatie, waarborgen, bewaarlimieten, providerinformatie en alternatieven."
+            },
+            {
+              "kind": "p",
+              "text": "AI-ondersteunde gezondheidscontroles. Elke AI-ondersteunde controle van vaccinatie- of dierenartsdocumenten is slechts een voorlopig, geautomatiseerd hulpmiddel. Het neemt geen definitieve, bindende of rechtsgeldige beslissing en is geen diergeneeskundig onderzoek, diagnose, certificering of garantie voor de gezondheids- of vaccinatiestatus van een dier. AI kan fouten maken, fouten over het hoofd zien of een document verkeerd lezen. Onduidelijke of betwiste resultaten worden door een persoon beoordeeld, en het signaal ‘document beoordeeld’ betekent alleen dat het document is gecontroleerd. Voor gezondheidsbeslissingen moet een bevoegde dierenarts worden geraadpleegd, en zorg mag niet worden uitgesteld vanwege een resultaat in de app."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Doe je niet voor als een ander en vervals geen eigendom, ras, leeftijd, geslacht, gezondheid, vaccinatie of verificatie. Verificatiebadges zijn geen veterinaire garantie."
+            },
+            {
+              "kind": "p",
+              "text": "AI kan fouten maken. AI-ondersteunde documentcontroles zijn slechts voorlopig: ze nemen nooit een definitieve of rechtsgeldige beslissing over de gezondheid van een dier, zijn geen diergeneeskundig advies en garanderen geen gezondheids- of vaccinatiestatus. Raadpleeg altijd een bevoegde dierenarts."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance is geen veterinaire of medische nooddienst. Neem bij urgente diergezondheid rechtstreeks contact op met passende veterinaire hulp."
+            },
+            {
+              "kind": "p",
+              "text": "AI kan fouten maken. AI-ondersteunde documentcontroles zijn slechts voorlopig: ze nemen nooit een definitieve of rechtsgeldige beslissing over de gezondheid van een dier, zijn geen diergeneeskundig advies en garanderen geen gezondheids- of vaccinatiestatus. Raadpleeg altijd een bevoegde dierenarts."
             }
           ]
         }

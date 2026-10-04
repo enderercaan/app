@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "無法從伺服器驗證疫苗記錄。",
   "health.documentsTitle": "獸醫與健康文件",
   "health.documentsSubtitle": "上傳的文件會進入審查佇列。",
-  "health.automatedReviewNotice": "文件可能會先經過 AI 輔助的文字辨識進行預檢。結果不明確時會轉交人工審核。此檢查僅審核文件，不會對你的寵物作出診斷。",
+  "health.automatedReviewNotice": "文件可能會先經過 AI 輔助的文字辨識進行預檢。AI 可能出錯，因此結果絕不是最終決定。結果不明確時會轉交人工審核。此檢查僅審核文件，不會對你的寵物作出診斷。",
   "health.documentUploadedTitle": "文件已上傳",
   "health.documentUploadedBody": "已加入驗證審查佇列。",
   "health.documentUploadFailed": "無法上傳文件",

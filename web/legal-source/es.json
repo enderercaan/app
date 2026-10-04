@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance no presta atención veterinaria, diagnóstico médico ni servicios de emergencia. Los registros de vacunación, salud o verificación no sustituyen la evaluación veterinaria. Ante una urgencia, acude al veterinario, servicio de emergencia o autoridad competente."
+            },
+            {
+              "kind": "p",
+              "text": "Comprobaciones de salud asistidas por IA. Cualquier comprobación asistida por IA de documentos de vacunación o veterinarios es solo una ayuda automatizada preliminar. No toma una decisión definitiva, vinculante ni jurídicamente válida, y no constituye un examen veterinario, un diagnóstico, una certificación ni una garantía del estado de salud o de vacunación de un animal. La IA puede cometer errores, pasar por alto fallos o leer un documento de forma incorrecta. Una persona revisa los resultados poco claros o discutidos, y la señal «documento revisado» solo indica que el documento ha sido comprobado. Las decisiones de salud deben basarse en un veterinario colegiado, y no debe retrasarse la atención por un resultado mostrado en la app."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Los registros de salud y vacunación de mascotas pueden contener información sensible. Sube solo lo necesario y evita datos de terceros. Si la garantía de edad usa identidad, rostro, biometría u otros datos sensibles, se aplicarán avisos, salvaguardias, límites de conservación, información del proveedor y alternativas adicionales."
+            },
+            {
+              "kind": "p",
+              "text": "Comprobaciones de salud asistidas por IA. Cualquier comprobación asistida por IA de documentos de vacunación o veterinarios es solo una ayuda automatizada preliminar. No toma una decisión definitiva, vinculante ni jurídicamente válida, y no constituye un examen veterinario, un diagnóstico, una certificación ni una garantía del estado de salud o de vacunación de un animal. La IA puede cometer errores, pasar por alto fallos o leer un documento de forma incorrecta. Una persona revisa los resultados poco claros o discutidos, y la señal «documento revisado» solo indica que el documento ha sido comprobado. Las decisiones de salud deben basarse en un veterinario colegiado, y no debe retrasarse la atención por un resultado mostrado en la app."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "No suplantes identidades ni falsees propiedad, raza, edad, sexo, salud, vacunación o verificación. Los distintivos de verificación no son garantías veterinarias."
+            },
+            {
+              "kind": "p",
+              "text": "La IA puede cometer errores. Las comprobaciones de documentos asistidas por IA son solo preliminares: nunca toman una decisión definitiva o jurídicamente válida sobre la salud de un animal, no son asesoramiento veterinario y no garantizan el estado de salud ni de vacunación. Consulte siempre a un veterinario colegiado."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance no es un servicio veterinario o de urgencias médicas. Ante problemas urgentes de salud animal, contacta directamente un servicio veterinario adecuado."
+            },
+            {
+              "kind": "p",
+              "text": "La IA puede cometer errores. Las comprobaciones de documentos asistidas por IA son solo preliminares: nunca toman una decisión definitiva o jurídicamente válida sobre la salud de un animal, no son asesoramiento veterinario y no garantizan el estado de salud ni de vacunación. Consulte siempre a un veterinario colegiado."
             }
           ]
         }

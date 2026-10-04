@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Impossible de vérifier les dossiers de vaccination depuis le serveur.",
   "health.documentsTitle": "Documents vétérinaires et de santé",
   "health.documentsSubtitle": "Les documents téléversés sont envoyés dans une file d'examen.",
-  "health.automatedReviewNotice": "Les documents peuvent être prévérifiés par une reconnaissance de texte assistée par IA. Les résultats incertains sont examinés par une personne. Ce contrôle porte uniquement sur le document et ne pose jamais de diagnostic sur ton animal.",
+  "health.automatedReviewNotice": "Les documents peuvent être prévérifiés par une reconnaissance de texte assistée par IA. L’IA peut se tromper ; un résultat n’est donc jamais une décision définitive. Les résultats incertains sont examinés par une personne. Ce contrôle porte uniquement sur le document et ne pose jamais de diagnostic sur ton animal.",
   "health.documentUploadedTitle": "Document téléversé",
   "health.documentUploadedBody": "Il a été ajouté à la file de vérification.",
   "health.documentUploadFailed": "Impossible de téléverser le document",

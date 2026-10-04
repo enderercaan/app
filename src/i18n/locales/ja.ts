@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "サーバー上のワクチン接種記録を確認できませんでした。",
   "health.documentsTitle": "獣医・健康書類",
   "health.documentsSubtitle": "アップロードした書類は審査キューに送られます。",
-  "health.automatedReviewNotice": "書類はAIによる文字認識で事前チェックされる場合があります。判定が不明確な場合は担当者が確認します。このチェックは書類を確認するだけで、ペットの診断は行いません。",
+  "health.automatedReviewNotice": "書類はAIによる文字認識で事前チェックされる場合があります。AIは間違えることがあるため、結果が最終的な判断になることはありません。判定が不明確な場合は担当者が確認します。このチェックは書類を確認するだけで、ペットの診断は行いません。",
   "health.documentUploadedTitle": "書類をアップロードしました",
   "health.documentUploadedBody": "確認キューに追加されました。",
   "health.documentUploadFailed": "書類をアップロードできませんでした",

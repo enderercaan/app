@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmancek ez du albaitaritza-arretarik, diagnostiko medikorik edo larrialdi-zerbitzurik ematen. Aplikazioko txertaketa-, osasun- edo egiaztapen-erregistroek ez dute albaitari profesional baten ebaluazioa ordezkatzen. Behar denean, jo ezazu dagokion albaitariarengana, larrialdi-zerbitzura edo agintaritzarengana."
+            },
+            {
+              "kind": "p",
+              "text": "IAk lagundutako osasun-egiaztapenak. Txertaketa-dokumentuen edo albaitaritza-dokumentuen IAk lagundutako edozein egiaztapen aurretiazko laguntza automatizatua baino ez da. Ez du behin betiko, loteslea edo juridikoki baliozkoa den erabakirik hartzen, eta ez da albaitaritza-azterketa, diagnostikoa, ziurtagiria edo animalia baten osasun- edo txertaketa-egoeraren bermea. IAk akatsak egin ditzake, akatsak ikusi gabe utzi edo dokumentua gaizki irakurri. Emaitza argirik gabeak edo eztabaidatuak pertsona batek berrikusten ditu, eta «dokumentua berrikusita» seinaleak dokumentua egiaztatu dela soilik esan nahi du. Osasun-erabakietarako baimendun albaitari batengan oinarritu behar da, eta aplikazioan agertzen den emaitza baten ondorioz ez da arreta atzeratu behar."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Maskoten osasun- eta txertaketa-erregistroek informazio sentikorra eduki dezakete. Igo beharrezkoa dena bakarrik eta saihestu hirugarrenen datuak. Adin-bermerako identitate-, aurpegi-, biometria- edo bestelako informazio sentikorra erabiltzen denean, behar diren ohar gehigarriak, babes-neurriak, gordetze-epeak, hornitzaileari buruzko informazioa eta prozedura alternatiboak eman behar dira."
+            },
+            {
+              "kind": "p",
+              "text": "IAk lagundutako osasun-egiaztapenak. Txertaketa-dokumentuen edo albaitaritza-dokumentuen IAk lagundutako edozein egiaztapen aurretiazko laguntza automatizatua baino ez da. Ez du behin betiko, loteslea edo juridikoki baliozkoa den erabakirik hartzen, eta ez da albaitaritza-azterketa, diagnostikoa, ziurtagiria edo animalia baten osasun- edo txertaketa-egoeraren bermea. IAk akatsak egin ditzake, akatsak ikusi gabe utzi edo dokumentua gaizki irakurri. Emaitza argirik gabeak edo eztabaidatuak pertsona batek berrikusten ditu, eta «dokumentua berrikusita» seinaleak dokumentua egiaztatu dela soilik esan nahi du. Osasun-erabakietarako baimendun albaitari batengan oinarritu behar da, eta aplikazioan agertzen den emaitza baten ondorioz ez da arreta atzeratu behar."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Ez ordezkatu beste pertsona baten nortasuna, ez faltsutu maskotaren jabetza, arraza, adina, sexua, osasuna, txertaketa edo egiaztapen-egoera, eta ez aurkeztu iruzurrezko dokumenturik. Egiaztapen-bereizgarriak ez dira albaitaritza-bermeak."
+            },
+            {
+              "kind": "p",
+              "text": "IAk akatsak egin ditzake. IAk lagundutako dokumentu-egiaztapenak aurretiazkoak baino ez dira: ez dute inoiz animalia baten osasunari buruzko behin betiko edo juridikoki baliozko erabakirik hartzen, ez dira albaitaritza-aholkua eta ez dute osasun- edo txertaketa-egoerarik bermatzen. Jarri beti harremanetan baimendun albaitari batekin."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance ez da albaitaritza- edo osasun-larrialdietako zerbitzua. Animalien osasun-arazo larrien aurrean, jarri zuzenean harremanetan albaitaritza-zerbitzu egoki batekin."
+            },
+            {
+              "kind": "p",
+              "text": "IAk akatsak egin ditzake. IAk lagundutako dokumentu-egiaztapenak aurretiazkoak baino ez dira: ez dute inoiz animalia baten osasunari buruzko behin betiko edo juridikoki baliozko erabakirik hartzen, ez dira albaitaritza-aholkua eta ez dute osasun- edo txertaketa-egoerarik bermatzen. Jarri beti harremanetan baimendun albaitari batekin."
             }
           ]
         }

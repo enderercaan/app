@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance no presta atenció veterinària, diagnòstic mèdic ni serveis d'emergència. Els registres de vacunació, salut o verificació de l'aplicació no substitueixen l'avaluació veterinària professional. Quan calgui, adreça't a un veterinari, servei d'emergències o autoritat competent."
+            },
+            {
+              "kind": "p",
+              "text": "Comprovacions de salut assistides per IA. Qualsevol comprovació assistida per IA de documents de vacunació o veterinaris és només una ajuda automatitzada preliminar. No pren cap decisió definitiva, vinculant ni jurídicament vàlida, i no constitueix un examen veterinari, un diagnòstic, una certificació ni una garantia de l'estat de salut o de vacunació d'un animal. La IA pot cometre errors, passar per alt fallades o llegir un document de manera incorrecta. Una persona revisa els resultats poc clars o discutits, i el senyal «document revisat» només indica que el document s'ha comprovat. Les decisions de salut s'han de recolzar en un veterinari col·legiat, i no s'ha de retardar l'atenció per un resultat mostrat a l'aplicació."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Els registres de salut i vacunació de mascotes poden contenir informació sensible. Puja només el que sigui necessari i evita dades de terceres persones. Quan s'utilitzin dades d'identitat, facials, biomètriques o altra informació sensible per a la garantia d'edat, s'han de proporcionar els avisos addicionals, salvaguardes, límits de conservació, informació del proveïdor i procediments alternatius que siguin exigibles."
+            },
+            {
+              "kind": "p",
+              "text": "Comprovacions de salut assistides per IA. Qualsevol comprovació assistida per IA de documents de vacunació o veterinaris és només una ajuda automatitzada preliminar. No pren cap decisió definitiva, vinculant ni jurídicament vàlida, i no constitueix un examen veterinari, un diagnòstic, una certificació ni una garantia de l'estat de salut o de vacunació d'un animal. La IA pot cometre errors, passar per alt fallades o llegir un document de manera incorrecta. Una persona revisa els resultats poc clars o discutits, i el senyal «document revisat» només indica que el document s'ha comprovat. Les decisions de salut s'han de recolzar en un veterinari col·legiat, i no s'ha de retardar l'atenció per un resultat mostrat a l'aplicació."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "No suplantis persones, no falsegis la propietat, raça, edat, sexe, salut, vacunació o estat de verificació d'una mascota, ni presentis documents fraudulents. Les insígnies de verificació no són garanties veterinàries."
+            },
+            {
+              "kind": "p",
+              "text": "La IA pot cometre errors. Les comprovacions de documents assistides per IA són només preliminars: mai no prenen una decisió definitiva o jurídicament vàlida sobre la salut d'un animal, no són assessorament veterinari i no garanteixen l'estat de salut ni de vacunació. Consulteu sempre un veterinari col·legiat."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance no és un servei veterinari ni d'emergències sanitàries. Per a problemes urgents de salut animal, contacta directament amb un servei veterinari adequat."
+            },
+            {
+              "kind": "p",
+              "text": "La IA pot cometre errors. Les comprovacions de documents assistides per IA són només preliminars: mai no prenen una decisió definitiva o jurídicament vàlida sobre la salut d'un animal, no són assessorament veterinari i no garanteixen l'estat de salut ni de vacunació. Consulteu sempre un veterinari col·legiat."
             }
           ]
         }

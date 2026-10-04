@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance não fornece atendimento veterinário, diagnóstico ou emergência. Registros de vacinação, saúde ou verificação não substituem avaliação veterinária. Em urgência, procure veterinário, serviço de emergência ou autoridade competente."
+            },
+            {
+              "kind": "p",
+              "text": "Verificações de saúde assistidas por IA. Qualquer verificação assistida por IA de documentos de vacinação ou veterinários é apenas um auxílio automatizado preliminar. Ela não toma decisão final, vinculante ou juridicamente válida e não é exame veterinário, diagnóstico, certificação nem garantia do estado de saúde ou de vacinação de um animal. A IA pode cometer erros, deixar passar falhas ou ler um documento de forma incorreta. Resultados pouco claros ou contestados são revisados por uma pessoa, e o sinal “documento revisado” significa apenas que o documento foi conferido. Decisões de saúde devem ser tomadas com um médico-veterinário habilitado, e o atendimento não deve ser adiado por causa de um resultado exibido no app."
             }
           ]
         },
@@ -238,6 +242,10 @@
             {
               "kind": "p",
               "text": "Registros de saúde e vacinação podem conter informação sensível. Envie somente o necessário e evite dados de terceiros. Se garantia de idade usar identidade, face, biometria ou outros dados sensíveis, aplicam-se avisos, salvaguardas, limites de retenção, informações do fornecedor e alternativas."
+            },
+            {
+              "kind": "p",
+              "text": "Verificações de saúde assistidas por IA. Qualquer verificação assistida por IA de documentos de vacinação ou veterinários é apenas um auxílio automatizado preliminar. Ela não toma decisão final, vinculante ou juridicamente válida e não é exame veterinário, diagnóstico, certificação nem garantia do estado de saúde ou de vacinação de um animal. A IA pode cometer erros, deixar passar falhas ou ler um documento de forma incorreta. Resultados pouco claros ou contestados são revisados por uma pessoa, e o sinal “documento revisado” significa apenas que o documento foi conferido. Decisões de saúde devem ser tomadas com um médico-veterinário habilitado, e o atendimento não deve ser adiado por causa de um resultado exibido no app."
             }
           ]
         },
@@ -362,6 +370,10 @@
             {
               "kind": "p",
               "text": "Não se passe por outra pessoa nem falsifique titularidade, raça, idade, sexo, saúde, vacinação ou verificação. Selos de verificação não são garantia veterinária."
+            },
+            {
+              "kind": "p",
+              "text": "A IA pode cometer erros. As verificações de documentos assistidas por IA são apenas preliminares: nunca tomam decisão final ou juridicamente válida sobre a saúde de um animal, não são orientação veterinária e não garantem o estado de saúde ou de vacinação. Consulte sempre um médico-veterinário habilitado."
             }
           ]
         },
@@ -779,6 +791,10 @@
             {
               "kind": "p",
               "text": "Tailmance não é serviço veterinário nem de emergência médica. Em problema urgente de saúde animal, procure serviço veterinário adequado."
+            },
+            {
+              "kind": "p",
+              "text": "A IA pode cometer erros. As verificações de documentos assistidas por IA são apenas preliminares: nunca tomam decisão final ou juridicamente válida sobre a saúde de um animal, não são orientação veterinária e não garantem o estado de saúde ou de vacinação. Consulte sempre um médico-veterinário habilitado."
             }
           ]
         }

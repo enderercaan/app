@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "서버에서 예방접종 기록을 확인하지 못했습니다.",
   "health.documentsTitle": "수의 및 건강 문서",
   "health.documentsSubtitle": "업로드한 문서는 검토 대기열로 전송됩니다.",
-  "health.automatedReviewNotice": "서류는 AI 기반 문자 인식으로 사전 확인될 수 있습니다. 결과가 불분명하면 사람이 직접 검토합니다. 이 확인은 서류만 검토하며 반려동물을 진단하지 않습니다.",
+  "health.automatedReviewNotice": "서류는 AI 기반 문자 인식으로 사전 확인될 수 있습니다. AI는 실수를 할 수 있으므로 결과가 최종 결정이 되는 일은 없습니다. 결과가 불분명하면 사람이 직접 검토합니다. 이 확인은 서류만 검토하며 반려동물을 진단하지 않습니다.",
   "health.documentUploadedTitle": "문서가 업로드되었습니다",
   "health.documentUploadedBody": "인증 검토 대기열에 추가되었습니다.",
   "health.documentUploadFailed": "문서를 업로드하지 못했습니다",

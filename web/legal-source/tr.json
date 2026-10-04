@@ -82,6 +82,10 @@
             {
               "kind": "p",
               "text": "Tailmance veteriner hizmeti, tıbbi teşhis veya acil yardım hizmeti sunmaz. Uygulamadaki aşı, sağlık veya doğrulama kayıtları veteriner değerlendirmesinin yerini tutmaz. Acil sağlık ya da güvenlik durumunda uygun veteriner, acil hizmet veya yetkili makama başvurmalısın."
+            },
+            {
+              "kind": "p",
+              "text": "Yapay zekâ destekli sağlık kontrolleri. Aşı veya veteriner belgelerine yapılan yapay zekâ destekli her kontrol yalnızca ön değerlendirme niteliğinde otomatik bir yardımcıdır. Nihai, bağlayıcı veya hukuken geçerli bir karar vermez; veteriner muayenesi, teşhis, belgelendirme veya bir hayvanın sağlık ya da aşı durumuna dair güvence değildir. Yapay zekâ hata yapabilir; hataları gözden kaçırabilir veya belgeyi yanlış okuyabilir. Belirsiz ya da itiraz edilen sonuçlar bir kişi tarafından incelenir; “belge incelendi” işareti yalnızca belgenin kontrol edildiği anlamına gelir. Sağlıkla ilgili kararlar için ruhsatlı bir veteriner hekime başvurulmalı ve uygulamada görünen bir sonuç nedeniyle bakım geciktirilmemelidir."
             }
           ]
         },
@@ -261,6 +265,10 @@
             {
               "kind": "p",
               "text": "Yapay zekâ destekli özellikler. Bazı özellikler yapay zekâ destekli araçlar kullanır. Desteklenen cihazlarda cihaz üzerindeki bir model, evcil hayvan fotoğrafından ırk önerebilir ve fotoğrafları yüklenmeden önce güvenlik açısından ön elemeden geçirebilir; öneriler isteğe bağlıdır ve hatalı olabilir. Aşı ve veteriner belgeleri yapay zekâ destekli metin tanımayla ön kontrolden geçirilebilir; belirsiz sonuçlar insan incelemesine gönderilir. Yapay zekâ çıktısı yalnızca bir sinyaldir: veteriner tavsiyesi veya teşhisi değildir ve kullanıcı için sonuç doğuran bir kararı tek başına vermez. Tailmance yapay zekâ sohbet botu veya yapay zekâ ile veteriner teşhisi sunmaz. Yapay zekâ destekli bir sonuçtan etkilenen kullanıcı, uygulama içi itiraz süreci veya Destek üzerinden insan incelemesi isteyebilir."
+            },
+            {
+              "kind": "p",
+              "text": "Yapay zekâ destekli sağlık kontrolleri. Aşı veya veteriner belgelerine yapılan yapay zekâ destekli her kontrol yalnızca ön değerlendirme niteliğinde otomatik bir yardımcıdır. Nihai, bağlayıcı veya hukuken geçerli bir karar vermez; veteriner muayenesi, teşhis, belgelendirme veya bir hayvanın sağlık ya da aşı durumuna dair güvence değildir. Yapay zekâ hata yapabilir; hataları gözden kaçırabilir veya belgeyi yanlış okuyabilir. Belirsiz ya da itiraz edilen sonuçlar bir kişi tarafından incelenir; “belge incelendi” işareti yalnızca belgenin kontrol edildiği anlamına gelir. Sağlıkla ilgili kararlar için ruhsatlı bir veteriner hekime başvurulmalı ve uygulamada görünen bir sonuç nedeniyle bakım geciktirilmemelidir."
             }
           ]
         },
@@ -415,6 +423,10 @@
                 "Başka kişilerin gereksiz kişisel verilerini profil, belge, mesaj veya içeriklere ekleme.",
                 "Yetkin olmadığın halde veteriner veya sağlık uzmanı gibi davranarak yanıltıcı teşhis ya da tedavi iddiasında bulunma."
               ]
+            },
+            {
+              "kind": "p",
+              "text": "Yapay zekâ hata yapabilir. Yapay zekâ destekli belge kontrolleri yalnızca ön değerlendirmedir: bir hayvanın sağlığı hakkında nihai veya hukuken geçerli bir karar vermez, veteriner tavsiyesi değildir ve sağlık ya da aşı durumunu garanti etmez. Her zaman ruhsatlı bir veteriner hekime danışılmalıdır."
             }
           ]
         },
@@ -849,6 +861,10 @@
             {
               "kind": "p",
               "text": "Tailmance veteriner veya acil sağlık hizmeti değildir. Acil bir hayvan sağlığı sorununda doğrudan uygun veteriner hizmetine başvur."
+            },
+            {
+              "kind": "p",
+              "text": "Yapay zekâ hata yapabilir. Yapay zekâ destekli belge kontrolleri yalnızca ön değerlendirmedir: bir hayvanın sağlığı hakkında nihai veya hukuken geçerli bir karar vermez, veteriner tavsiyesi değildir ve sağlık ya da aşı durumunu garanti etmez. Her zaman ruhsatlı bir veteriner hekime danışılmalıdır."
             }
           ]
         }

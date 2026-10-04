@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Vaccinatiegegevens konden niet via de server worden geverifieerd.",
   "health.documentsTitle": "Veterinaire en gezondheidsdocumenten",
   "health.documentsSubtitle": "Geüploade documenten worden naar een beoordelingswachtrij gestuurd.",
-  "health.automatedReviewNotice": "Documenten kunnen vooraf worden gecontroleerd met door AI ondersteunde tekstherkenning. Onduidelijke resultaten worden door een mens beoordeeld. Deze controle beoordeelt alleen het document en stelt nooit een diagnose voor je huisdier.",
+  "health.automatedReviewNotice": "Documenten kunnen vooraf worden gecontroleerd met door AI ondersteunde tekstherkenning. AI kan fouten maken, dus een resultaat is nooit een definitieve beslissing. Onduidelijke resultaten worden door een mens beoordeeld. Deze controle beoordeelt alleen het document en stelt nooit een diagnose voor je huisdier.",
   "health.documentUploadedTitle": "Document geüpload",
   "health.documentUploadedBody": "Het is toegevoegd aan de verificatiewachtrij.",
   "health.documentUploadFailed": "Document kon niet worden geüpload",

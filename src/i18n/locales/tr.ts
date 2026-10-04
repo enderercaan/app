@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Aşı kayıtları sunucudan doğrulanamadı.",
   "health.documentsTitle": "Veteriner & sağlık belgeleri",
   "health.documentsSubtitle": "Yüklenen belgeler inceleme kuyruğuna alınır.",
-  "health.automatedReviewNotice": "Belgeler, yapay zekâ destekli otomatik metin tanıma ile ön kontrolden geçirilebilir. Belirsiz sonuçlar insan incelemesine gider. Bu kontrol yalnızca belgeyi inceler; petine teşhis koymaz.",
+  "health.automatedReviewNotice": "Belgeler, yapay zekâ destekli otomatik metin tanıma ile ön kontrolden geçirilebilir. Yapay zekâ hata yapabilir; bu nedenle sonuç hiçbir zaman nihai karar değildir. Belirsiz sonuçlar insan incelemesine gider. Bu kontrol yalnızca belgeyi inceler; petine teşhis koymaz.",
   "health.documentUploadedTitle": "Belge yüklendi",
   "health.documentUploadedBody": "Doğrulama kuyruğuna alındı.",
   "health.documentUploadFailed": "Belge yüklenemedi",

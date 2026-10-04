@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "No se pudieron verificar los registros de vacunación desde el servidor.",
   "health.documentsTitle": "Documentos veterinarios y de salud",
   "health.documentsSubtitle": "Los documentos subidos se envían a una cola de revisión.",
-  "health.automatedReviewNotice": "Los documentos pueden revisarse primero con reconocimiento de texto asistido por IA. Los resultados dudosos pasan a revisión humana. Esta comprobación solo revisa el documento; nunca diagnostica a tu mascota.",
+  "health.automatedReviewNotice": "Los documentos pueden revisarse primero con reconocimiento de texto asistido por IA. La IA puede cometer errores, por lo que un resultado nunca es una decisión definitiva. Los resultados dudosos pasan a revisión humana. Esta comprobación solo revisa el documento; nunca diagnostica a tu mascota.",
   "health.documentUploadedTitle": "Documento subido",
   "health.documentUploadedBody": "Se añadió a la cola de verificación.",
   "health.documentUploadFailed": "No se pudo subir el documento",

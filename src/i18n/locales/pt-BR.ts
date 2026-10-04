@@ -737,7 +737,7 @@ const messages: Messages = {
   "health.recordsUnavailable": "Não foi possível verificar os registros de vacinação no servidor.",
   "health.documentsTitle": "Documentos veterinários e de saúde",
   "health.documentsSubtitle": "Os documentos enviados vão para uma fila de análise.",
-  "health.automatedReviewNotice": "Os documentos podem passar por uma pré-verificação com reconhecimento de texto assistido por IA. Resultados incertos vão para revisão humana. Essa verificação analisa apenas o documento; ela nunca diagnostica seu pet.",
+  "health.automatedReviewNotice": "Os documentos podem passar por uma pré-verificação com reconhecimento de texto assistido por IA. A IA pode cometer erros, então um resultado nunca é uma decisão final. Resultados incertos vão para revisão humana. Essa verificação analisa apenas o documento; ela nunca diagnostica seu pet.",
   "health.documentUploadedTitle": "Documento enviado",
   "health.documentUploadedBody": "Ele foi adicionado à fila de verificação.",
   "health.documentUploadFailed": "Não foi possível enviar o documento",
