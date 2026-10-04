@@ -26,9 +26,9 @@ No R7 or superseded/intermediate R8 tree may be merged back into this branch.
 - Security incident matrix: **27/27 configured markets**, source-derived and fail-closed for live operational evidence.
 - Backend contracts: **174 RPCs; 11 client-invoked Edge Functions; 30 function directories**.
 - Accessibility: **217 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS**; UX static gate: **57 TSX files PASS**.
-- Project lint: **2,395 text files PASS**.
+- Project lint: **2,396 text files PASS**.
 - Canonical migrations: **001–200 contiguous**.
-- Repository hygiene: **126/126 application source modules reachable; 123/123 maintenance scripts command-reachable**.
+- Repository hygiene: **126/126 application source modules reachable; 124/124 maintenance scripts command-reachable**.
 - Configured-27 subdivision source structure: **27/27 reviewed**, **1,278 ISO subdivision identifiers** runtime-context-bound, **0 source blockers**.
 - Configured-27 source legal/language approval: **27/27 legal + 27/27 language**, **34/34 binding routes**, **594/594 all-supported-language routes**, **0 source blockers**.
 - Worldwide inventory remains explicit and fail-closed outside the configured 27.

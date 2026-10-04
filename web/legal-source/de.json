@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann Fehler machen, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
+              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann sich irren, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann Fehler machen, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
+              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann sich irren, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Funktionen. Einige Funktionen nutzen KI-gestützte Werkzeuge. Auf unterstützten Geräten kann ein Modell auf dem Gerät anhand eines Tierfotos eine Rasse vorschlagen und Fotos vor dem Hochladen auf Sicherheit prüfen; Vorschläge sind optional und können falsch sein. Impf- und Tierarztunterlagen können mit KI-gestützter Texterkennung vorgeprüft werden, unklare Ergebnisse gehen an eine menschliche Prüfung. KI-Ausgaben sind nur ein Signal: Sie sind keine tierärztliche Beratung oder Diagnose und entscheiden allein keine folgenreiche Angelegenheit einer Person. Tailmance bietet keinen KI-Chatbot und keine KI-Tierdiagnose an. Wer von einem KI-gestützten Ergebnis betroffen ist, kann über den Einspruchsprozess in der App oder den Support eine menschliche Überprüfung verlangen."
+              "text": "KI-gestützte Funktionen. Einige Funktionen nutzen KI-gestützte Werkzeuge. Auf unterstützten Geräten kann ein Modell auf dem Gerät anhand eines Tierfotos eine Rasse vorschlagen und Fotos vor dem Hochladen auf Sicherheit prüfen; Vorschläge sind optional und können falsch sein. Impf- und Tierarztunterlagen können mit KI-gestützter Texterkennung vorgeprüft werden, unklare Ergebnisse gehen an eine menschliche Prüfung. KI-Ausgaben sind nur ein Signal: Sie sind keine tierärztliche Beratung oder Diagnose und treffen allein keine folgenreiche Entscheidung über eine Person. Tailmance bietet keinen KI-Chatbot und keine KI-Tierdiagnose an. Wer von einem KI-gestützten Ergebnis betroffen ist, kann über den Einspruchsprozess in der App oder den Support eine menschliche Überprüfung verlangen."
             }
           ]
         },

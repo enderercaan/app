@@ -14,7 +14,7 @@ CURRENT SOURCE VERIFICATION
 - pending hardening: 107/107 PASS
 - accessibility: 217 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS
 - backend contracts: 174 RPCs; 11 invoked Edge Functions; 30 function directories checked
-- repository hygiene: 126/126 app source modules reachable; 123/123 maintenance scripts command-reachable
+- repository hygiene: 126/126 app source modules reachable; 124/124 maintenance scripts command-reachable
 - runtime i18n: 19/19 x 1709; 1448 source-used/dynamic keys covered; 316/316 critical localized per non-English locale
 - legal static: 57/57 PASS
 - legal context: 91/91 PASS
@@ -24,7 +24,7 @@ CURRENT SOURCE VERIFICATION
 - critical legal subdimensions: 432/432
 - configured-27 legal/language source approval: 27/27 legal + 27/27 language; 34/34 binding + 594/594 all-language country routes; 0 source blockers
 - configured-27 subdivision source structure: 27/27 reviewed; 1278 ISO identifiers runtime-context-bound; 0 source blockers
-- project lint: 2395 text files PASS
+- project lint: 2396 text files PASS
 
 CURRENT RELEASE BOUNDARY
 - Source legal/language approval is not deployed/store/provider proof.
