@@ -22,23 +22,34 @@ private final class TailmanceSystemCallActionStore {
   }
 }
 
-public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPushRegistryDelegate {
-  private var provider: CXProvider?
-  private let callController = CXCallController()
+// The CallKit provider and the PushKit registry must exist from process launch: when a VoIP push wakes a
+// terminated app, iOS delivers it to the registry that was created during launch, before any JavaScript
+// (and therefore before any Expo module) runs. This singleton owns them so that the app-delegate subscriber
+// below can create them at launch and the module can reuse the same instances afterwards.
+public final class TailmanceCallCoordinator: NSObject, CXProviderDelegate, PKPushRegistryDelegate {
+  public static let shared = TailmanceCallCoordinator()
+
+  private let stateLock = NSLock()
+  private var providerStorage: CXProvider?
   private var pushRegistry: PKPushRegistry?
-  private let metadataLock = NSLock()
   private var callMetadata: [UUID: (recipientPetId: String, userId: String)] = [:]
   private let tokenDefaultsKey = "tailmance.voipPushToken"
+  let callController = CXCallController()
 
-  private func validatedUUID(_ raw: String) throws -> UUID {
-    guard let value = UUID(uuidString: raw) else {
-      throw Exception(name: "SystemCallInvalidId", description: "system_call_invalid_id")
-    }
-    return value
+  // Safe to read from any thread; written once under the lock on the main thread.
+  var provider: CXProvider? {
+    stateLock.lock(); defer { stateLock.unlock() }
+    return providerStorage
   }
 
-  private func ensureConfigured() {
-    if provider == nil {
+  var storedVoipPushToken: String? {
+    UserDefaults.standard.string(forKey: tokenDefaultsKey)
+  }
+
+  // Must run on the main thread.
+  func ensureConfigured() {
+    stateLock.lock()
+    if providerStorage == nil {
       let config = CXProviderConfiguration(localizedName: "Tailmance")
       config.supportsVideo = true
       config.maximumCallGroups = 1
@@ -46,7 +57,7 @@ public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPus
       config.supportedHandleTypes = [.generic]
       let next = CXProvider(configuration: config)
       next.setDelegate(self, queue: DispatchQueue.main)
-      provider = next
+      providerStorage = next
     }
     if pushRegistry == nil {
       let registry = PKPushRegistry(queue: DispatchQueue.main)
@@ -54,24 +65,32 @@ public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPus
       registry.desiredPushTypes = [.voIP]
       pushRegistry = registry
     }
+    stateLock.unlock()
+  }
+
+  func validatedUUID(_ raw: String) throws -> UUID {
+    guard let value = UUID(uuidString: raw) else {
+      throw Exception(name: "SystemCallInvalidId", description: "system_call_invalid_id")
+    }
+    return value
   }
 
   private func rememberMetadata(callId: UUID, recipientPetId: String, userId: String) {
-    metadataLock.lock(); defer { metadataLock.unlock() }
+    stateLock.lock(); defer { stateLock.unlock() }
     callMetadata[callId] = (recipientPetId, userId)
   }
 
-  private func removeMetadata(callId: UUID) -> (recipientPetId: String, userId: String)? {
-    metadataLock.lock(); defer { metadataLock.unlock() }
+  func removeMetadata(callId: UUID) -> (recipientPetId: String, userId: String)? {
+    stateLock.lock(); defer { stateLock.unlock() }
     return callMetadata.removeValue(forKey: callId)
   }
 
   private func metadata(callId: UUID) -> (recipientPetId: String, userId: String)? {
-    metadataLock.lock(); defer { metadataLock.unlock() }
+    stateLock.lock(); defer { stateLock.unlock() }
     return callMetadata[callId]
   }
 
-  private func queueAction(type: String, callId: UUID? = nil, recipientPetId: String? = nil, userId: String? = nil, token: String? = nil, error: String? = nil) {
+  func queueAction(type: String, callId: UUID? = nil, recipientPetId: String? = nil, userId: String? = nil, token: String? = nil, error: String? = nil) {
     var payload = ["type": type]
     if let callId { payload["callId"] = callId.uuidString.lowercased() }
     if let recipientPetId, !recipientPetId.isEmpty { payload["recipientPetId"] = recipientPetId }
@@ -81,7 +100,7 @@ public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPus
     TailmanceSystemCallActionStore.shared.append(payload)
   }
 
-  private func reportIncoming(callId: UUID, callerName: String, callType: String, recipientPetId: String, userId: String, completion: @escaping (Error?) -> Void) {
+  func reportIncoming(callId: UUID, callerName: String, callType: String, recipientPetId: String, userId: String, completion: @escaping (Error?) -> Void) {
     ensureConfigured()
     if metadata(callId: callId) != nil { completion(nil); return }
     rememberMetadata(callId: callId, recipientPetId: recipientPetId, userId: userId)
@@ -122,78 +141,8 @@ public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPus
     }
   }
 
-  public func definition() -> ModuleDefinition {
-    Name("TailmanceSystemCalls")
-
-    AsyncFunction("configureAsync") { () async -> Bool in
-      await MainActor.run { self.ensureConfigured() }
-      return true
-    }
-
-    AsyncFunction("drainActionsAsync") { () -> [[String: String]] in
-      TailmanceSystemCallActionStore.shared.drain()
-    }
-
-    AsyncFunction("getVoipPushTokenAsync") { () -> String? in
-      UserDefaults.standard.string(forKey: self.tokenDefaultsKey)
-    }
-
-    AsyncFunction("reportIncomingCallAsync") { (callIdRaw: String, callerName: String, callType: String, recipientPetId: String, userId: String) async throws -> Bool in
-      let callId = try self.validatedUUID(callIdRaw)
-      guard callType == "audio" || callType == "video" else { throw Exception(name: "SystemCallInvalidType", description: "system_call_invalid_type") }
-      guard !recipientPetId.isEmpty, !userId.isEmpty else { throw Exception(name: "SystemCallInvalidContext", description: "system_call_invalid_context") }
-      return try await withCheckedThrowingContinuation { continuation in
-        DispatchQueue.main.async {
-          self.reportIncoming(callId: callId, callerName: callerName, callType: callType, recipientPetId: recipientPetId, userId: userId) { error in
-            if let error { continuation.resume(throwing: error) } else { continuation.resume(returning: true) }
-          }
-        }
-      }
-    }
-
-    AsyncFunction("reportOutgoingCallAsync") { (callIdRaw: String, calleeName: String, callType: String) async throws -> Bool in
-      let callId = try self.validatedUUID(callIdRaw)
-      guard callType == "audio" || callType == "video" else { throw Exception(name: "SystemCallInvalidType", description: "system_call_invalid_type") }
-      await MainActor.run { self.ensureConfigured() }
-      let handle = CXHandle(type: .generic, value: "Tailmance")
-      let action = CXStartCallAction(call: callId, handle: handle)
-      action.isVideo = callType == "video"
-      return try await withCheckedThrowingContinuation { continuation in
-        self.callController.request(CXTransaction(action: action)) { error in
-          if let error { continuation.resume(throwing: error); return }
-          let update = CXCallUpdate()
-          update.localizedCallerName = String(calleeName.prefix(80))
-          update.remoteHandle = handle
-          update.hasVideo = callType == "video"
-          self.provider?.reportCall(with: callId, updated: update)
-          continuation.resume(returning: true)
-        }
-      }
-    }
-
-    AsyncFunction("reportCallConnectedAsync") { (callIdRaw: String) throws -> Bool in
-      let callId = try self.validatedUUID(callIdRaw)
-      self.provider?.reportOutgoingCall(with: callId, connectedAt: Date())
-      return true
-    }
-
-    AsyncFunction("reportCallEndedAsync") { (callIdRaw: String, reason: String) throws -> Bool in
-      let callId = try self.validatedUUID(callIdRaw)
-      let mapped: CXCallEndedReason
-      switch reason {
-      case "declined": mapped = .remoteEnded
-      case "failed": mapped = .failed
-      case "unanswered": mapped = .unanswered
-      default: mapped = .remoteEnded
-      }
-      self.provider?.reportCall(with: callId, endedAt: Date(), reason: mapped)
-      _ = self.removeMetadata(callId: callId)
-      return true
-    }
-  }
-
   public func providerDidReset(_ provider: CXProvider) {
-    metadataLock.lock(); callMetadata.removeAll(); metadataLock.unlock()
+    stateLock.lock(); callMetadata.removeAll(); stateLock.unlock()
     queueAction(type: "provider_reset")
   }
 
@@ -246,5 +195,86 @@ public final class TailmanceSystemCallsModule: Module, CXProviderDelegate, PKPus
     else { reportPlaceholderCallAndEnd(completion: completion); return }
     if metadata(callId: callId) != nil { reportPlaceholderCallAndEnd(completion: completion); return }
     reportIncoming(callId: callId, callerName: callerName, callType: callType, recipientPetId: recipientPetId, userId: userId) { _ in completion() }
+  }
+}
+
+// Registered through expo-module.config.json (appDelegateSubscribers) so the provider and push registry are
+// created during application launch, including a background launch caused by a VoIP push.
+public final class TailmanceSystemCallsAppDelegateSubscriber: ExpoAppDelegateSubscriber {
+  public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+    TailmanceCallCoordinator.shared.ensureConfigured()
+    return true
+  }
+}
+
+public final class TailmanceSystemCallsModule: Module {
+  public func definition() -> ModuleDefinition {
+    Name("TailmanceSystemCalls")
+
+    AsyncFunction("configureAsync") { () async -> Bool in
+      await MainActor.run { TailmanceCallCoordinator.shared.ensureConfigured() }
+      return true
+    }
+
+    AsyncFunction("drainActionsAsync") { () -> [[String: String]] in
+      TailmanceSystemCallActionStore.shared.drain()
+    }
+
+    AsyncFunction("getVoipPushTokenAsync") { () -> String? in
+      TailmanceCallCoordinator.shared.storedVoipPushToken
+    }
+
+    AsyncFunction("reportIncomingCallAsync") { (callIdRaw: String, callerName: String, callType: String, recipientPetId: String, userId: String) async throws -> Bool in
+      let callId = try TailmanceCallCoordinator.shared.validatedUUID(callIdRaw)
+      guard callType == "audio" || callType == "video" else { throw Exception(name: "SystemCallInvalidType", description: "system_call_invalid_type") }
+      guard !recipientPetId.isEmpty, !userId.isEmpty else { throw Exception(name: "SystemCallInvalidContext", description: "system_call_invalid_context") }
+      return try await withCheckedThrowingContinuation { continuation in
+        DispatchQueue.main.async {
+          TailmanceCallCoordinator.shared.reportIncoming(callId: callId, callerName: callerName, callType: callType, recipientPetId: recipientPetId, userId: userId) { error in
+            if let error { continuation.resume(throwing: error) } else { continuation.resume(returning: true) }
+          }
+        }
+      }
+    }
+
+    AsyncFunction("reportOutgoingCallAsync") { (callIdRaw: String, calleeName: String, callType: String) async throws -> Bool in
+      let callId = try TailmanceCallCoordinator.shared.validatedUUID(callIdRaw)
+      guard callType == "audio" || callType == "video" else { throw Exception(name: "SystemCallInvalidType", description: "system_call_invalid_type") }
+      await MainActor.run { TailmanceCallCoordinator.shared.ensureConfigured() }
+      let handle = CXHandle(type: .generic, value: "Tailmance")
+      let action = CXStartCallAction(call: callId, handle: handle)
+      action.isVideo = callType == "video"
+      return try await withCheckedThrowingContinuation { continuation in
+        TailmanceCallCoordinator.shared.callController.request(CXTransaction(action: action)) { error in
+          if let error { continuation.resume(throwing: error); return }
+          let update = CXCallUpdate()
+          update.localizedCallerName = String(calleeName.prefix(80))
+          update.remoteHandle = handle
+          update.hasVideo = callType == "video"
+          TailmanceCallCoordinator.shared.provider?.reportCall(with: callId, updated: update)
+          continuation.resume(returning: true)
+        }
+      }
+    }
+
+    AsyncFunction("reportCallConnectedAsync") { (callIdRaw: String) throws -> Bool in
+      let callId = try TailmanceCallCoordinator.shared.validatedUUID(callIdRaw)
+      TailmanceCallCoordinator.shared.provider?.reportOutgoingCall(with: callId, connectedAt: Date())
+      return true
+    }
+
+    AsyncFunction("reportCallEndedAsync") { (callIdRaw: String, reason: String) throws -> Bool in
+      let callId = try TailmanceCallCoordinator.shared.validatedUUID(callIdRaw)
+      let mapped: CXCallEndedReason
+      switch reason {
+      case "declined": mapped = .remoteEnded
+      case "failed": mapped = .failed
+      case "unanswered": mapped = .unanswered
+      default: mapped = .remoteEnded
+      }
+      TailmanceCallCoordinator.shared.provider?.reportCall(with: callId, endedAt: Date(), reason: mapped)
+      _ = TailmanceCallCoordinator.shared.removeMetadata(callId: callId)
+      return true
+    }
   }
 }

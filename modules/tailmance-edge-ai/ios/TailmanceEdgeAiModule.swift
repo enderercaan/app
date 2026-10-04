@@ -108,8 +108,25 @@ public class TailmanceEdgeAiModule: Module {
     cacheLock.unlock()
     if let cached { return cached }
 
-    let compiledURL = try await MLModel.compileModel(at: modelURL)
-    let mlModel = try MLModel(contentsOf: compiledURL)
+    // MLModel.compileModel writes into a temporary directory. Keep the compiled bundle in Caches (keyed by the
+    // verified source hash) so a later launch or cache eviction does not recompile it, and never leave the
+    // temporary copy behind.
+    let fileManager = FileManager.default
+    let cacheRoot = try compiledModelDirectory()
+    let permanentURL = cacheRoot.appendingPathComponent("\(sha256).mlmodelc", isDirectory: true)
+    if !fileManager.fileExists(atPath: permanentURL.path) {
+      let temporaryURL = try await MLModel.compileModel(at: modelURL)
+      defer { try? fileManager.removeItem(at: temporaryURL) }
+      try? fileManager.removeItem(at: permanentURL)
+      try fileManager.moveItem(at: temporaryURL, to: permanentURL)
+    }
+    let mlModel: MLModel
+    do {
+      mlModel = try MLModel(contentsOf: permanentURL)
+    } catch {
+      try? fileManager.removeItem(at: permanentURL)
+      throw error
+    }
     let visionModel = try VNCoreMLModel(for: mlModel)
 
     cacheLock.lock()
@@ -120,8 +137,25 @@ public class TailmanceEdgeAiModule: Module {
       let evicted = modelCacheOrder.removeFirst()
       modelCache.removeValue(forKey: evicted)
     }
+    let keep = Set(modelCacheOrder.map { "\($0).mlmodelc" })
     cacheLock.unlock()
+    pruneCompiledModels(keeping: keep)
     return visionModel
+  }
+
+  private func compiledModelDirectory() throws -> URL {
+    let base = try FileManager.default.url(for: .cachesDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+    let directory = base.appendingPathComponent("tailmance-edge-ai", isDirectory: true)
+    try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+    return directory
+  }
+
+  private func pruneCompiledModels(keeping keep: Set<String>) {
+    guard let directory = try? compiledModelDirectory(),
+          let entries = try? FileManager.default.contentsOfDirectory(atPath: directory.path) else { return }
+    for entry in entries where !keep.contains(entry) {
+      try? FileManager.default.removeItem(at: directory.appendingPathComponent(entry))
+    }
   }
 
   private func classify(model: VNCoreMLModel, imageURL: URL, maxResults: Int, threshold: Float) async throws -> [[String: Any]] {
@@ -170,6 +204,7 @@ public class TailmanceEdgeAiModule: Module {
       self.modelCacheOrder.removeAll()
       self.verifiedFileHashes.removeAll()
       self.cacheLock.unlock()
+      self.pruneCompiledModels(keeping: [])
       return true
     }
 

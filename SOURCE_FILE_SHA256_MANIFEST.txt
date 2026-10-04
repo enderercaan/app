@@ -9,7 +9,7 @@ c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
 40aa3964248629a7b15447fc50ae505108defa38d45a19d698eb24cf712dd94a  ./NOTICE.md
 a9615384aab74a7a0c7635bf316d69c966fc22e8f291e4aa4556b4604a56ea0b  ./PRODUCT_STRATEGY_RETENTION_AND_MONETIZATION_BOUNDARY_2026-09-30.md
 e24920393900a3423dc708af5c5816785bb75f2885fd23c769511296fc053ac3  ./README.md
-aaa1ddccd29790e32e16501c0fb069bea34866eed7c750c68a409440b68ad141  ./RELEASE_EVIDENCE.json
+3b2a64d12b39590b84e8e2c8d80eb34eb79e9fb8c24bdfe42695c9b4e1955686  ./RELEASE_EVIDENCE.json
 a6dbc6e638d7e6f39e2d9767b44044309673426510b6e5afef82873ae209a11d  ./RELEASE_MANIFEST.json
 a077b0eb631934e0d80b5f2338c706ac62c216838846648aad3c60d479e036ad  ./app.config.ts
 c1ac4dd9de0bbbced5d95c501a0db79cfe22c2eb83176b5fb53ba9308f9c9946  ./assets/adaptive-foreground.png
@@ -68,7 +68,7 @@ a66f1ef61b5aff564ae7cd2705c773df879eb99d94f84ae2fff0d42e441e8c7f  ./docs/SCREEN_
 d24eda96b9fe8c3a865d6e9c57ce58d23730720b579b00b9fc35118707a37eee  ./docs/SECURITY_CONTROL_COVERAGE_2026-09-30.md
 0d2115654656580899ce3339c78793e9cf09dce22a5495676ec874baf27ff6fe  ./docs/SECURITY_INCIDENT_RESPONSE.md
 a8cc6e72b8a2baa7a2d18aeeb623856a32bea7f1f4c301b87d13e8fcee73efaf  ./docs/SECURITY_TRANSPORT_DECISION.md
-4eeac33e6dfa3f72a5ae5128f311e5691c341486d80a59c1e934a4754386e84d  ./docs/SESSION_HANDOFF_2026-10-04.md
+04e09b28455c1da0178308a7938e65e31be613b90bd9083f8a75345f0bce51c6  ./docs/SESSION_HANDOFF_2026-10-04.md
 d7bafd464d1a397c96e17120fc73045f0c926347196356a0ad733940aab4c922  ./docs/STORE_LISTING_IDENTITY_2026-10-04.md
 e2774ba908befa1d126f4400ccea27bf97e0ca57d2f7f4c35173b0d69da830d7  ./docs/STORE_RELEASE_CHECKLIST.md
 c387e74d7f640ae75d1ba2c954be07dc81e93f82dc99cd19b55fed569c6e15d6  ./docs/STORE_REVIEW_ACCESS_RUNBOOK.md
@@ -123,16 +123,16 @@ b7ea1ad3884102383b8450e1fa2cbd9fb28a865b484849cc6319d2a8c6e893c9  ./modules/tail
 e1a9dd3286a9cc0ff9b22015b956e152529efc5631da6c3dabd5636500c7ea20  ./modules/tailmance-edge-ai/expo-module.config.json
 e75966b25d40a26f77b28c7d2a10614826165d361fefa49c7f0a893853bcd32b  ./modules/tailmance-edge-ai/index.ts
 0ff02a2997ca5306174d8a74d589250b05178e8c869051515d075a6d502b0ffc  ./modules/tailmance-edge-ai/ios/TailmanceEdgeAi.podspec
-1ad5097d8167eb3a81b94d7932d2a85da32f86136b99f2897a725afe1c962182  ./modules/tailmance-edge-ai/ios/TailmanceEdgeAiModule.swift
+d31a7dec1005034b04dc0222d84700c4d0be1a0d2c9c80dd7a73f26ac129c31a  ./modules/tailmance-edge-ai/ios/TailmanceEdgeAiModule.swift
 2b3250647df441b3f9d178f23a9ddb90394a76dfa4fe3c93f92f8875d3ef1e67  ./modules/tailmance-edge-ai/src/TailmanceEdgeAiModule.ts
 6193eb14daa828e404b83e9adda7b61c8371c72aeed6ae0e4c686441a5e32485  ./modules/tailmance-system-calls/android/build.gradle
 debfde6bfd3916e62b3cff20859776e831ed2a486f30adcfbe101cfa5b70dc7f  ./modules/tailmance-system-calls/android/src/main/java/expo/modules/tailmancesystemcalls/TailmanceConnectionService.kt
 bd900c5a99a62bec982f1017389426f41c0ee2672575c95572f6274408e1ef2b  ./modules/tailmance-system-calls/android/src/main/java/expo/modules/tailmancesystemcalls/TailmanceSystemCallStore.kt
 a887d58d4fca6b91de60c044be5227222a93a2e245496a89739323dbfdcf93e3  ./modules/tailmance-system-calls/android/src/main/java/expo/modules/tailmancesystemcalls/TailmanceSystemCallsModule.kt
-9f1cea7867bd48a75b4cf9eb132524502e3c122f4fb00043c8b878fe7e9aca6f  ./modules/tailmance-system-calls/expo-module.config.json
+4a983d6795d945989a3ee88516e60e8dfd2ad98716f6edac0a76123c3c40d77f  ./modules/tailmance-system-calls/expo-module.config.json
 2e560623e9e158f7ea8ced31985edfea9ceb611b447ce751bf9b99fe0106722b  ./modules/tailmance-system-calls/index.ts
 3ab961e93c499681027e7c58e4b53924129e725ba0970a2cf4383b3dd36c03cd  ./modules/tailmance-system-calls/ios/TailmanceSystemCalls.podspec
-f44d9150636b26f00814842981ca0ec2673a0c3edfc3d122f2c6ead6f6b9bd3e  ./modules/tailmance-system-calls/ios/TailmanceSystemCallsModule.swift
+588028866d8a3be9e863787e0745dda91ff04b8c0ed3524f810a0e6d3f4a2168  ./modules/tailmance-system-calls/ios/TailmanceSystemCallsModule.swift
 5e729f1a79ea91fc0ff16722141a14ece5999276dc2901712b2234135f3d7f99  ./modules/tailmance-system-calls/src/TailmanceSystemCallsModule.ts
 778e347b73d32dc04da602da4db4bc4bec390ce948ed2fb8db7f391966c8b3ae  ./package-lock.json
 11b56f84b0a8ae4120a50d460441bc454c3c373aa99e14ff99b20dad95b39dbc  ./package.json
@@ -164,7 +164,7 @@ a683e79d9d55260f78400cac70d15568a70c037b3f65fbea572a0f002f0470b5  ./release/lega
 17fa37a2d27f175cf414572ae99d6f929c0e5b2eeafdcab03f1d510e7806ed7f  ./release/legal-language-applicability-r8.json
 2177968b99de307ac00cc12b0035153f8bef47c0ec57a437266dbb8e3bc6e323  ./release/legal-language-review-v19.json
 7ce833db486f592c39a1bc4d6d7b9b978c6d81910085f9ade12adee7467225f6  ./release/legal-web-localization-manifest-v1.json
-880e8cafc3b3ee7bcbecc743026015436d894c69bbc726c0c37e55658cf2b864  ./release/local-typecheck-evidence.json
+a5d35bef8a7575af2c22159a7b0c4d9c78cccb22782b3ebc62b49b8eb78dcb08  ./release/local-typecheck-evidence.json
 33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1  ./release/local-validation/typecheck.txt
 8a518f10c6b4dc76f6eb11c7ca12e36f7720a9754952c57d9e7f9c594d8e4363  ./release/localized-legal-web-manifest-r8.json
 55e5c8302450d272e71a18dda015b99650dd3ad42d942fa465dc8988f3e6eb5f  ./release/official-source-review-v19.json
@@ -301,7 +301,7 @@ b24fb564ada0fd3a1df6fe2465a80556a838c7b828a29956bd94a9429bfc3593  ./scripts/stor
 48d1ac9326a0f71592438d66ad5220174addc783bc21e01031fe7cd4aca8613c  ./scripts/sync-legal-language-source-evidence.mjs
 d1ebe73c2ef4d8c1293b1ee123df4e11d297abd608de7df79d807e64c2ba176f  ./scripts/sync-official-source-summary.mjs
 c49bc7713a4b32c095c2d038e562f7e68bc234154482575a8734c3c8129b4754  ./scripts/sync-subnational-source-evidence.mjs
-ec68fdfd288cca41abf8531cb618754c69560dabb077cf78d60e4a0562f5a58a  ./scripts/system-call-integration-checks.mjs
+089de662692a3b960f0b116858313d4df555a4e66168b168451cd62301508f27  ./scripts/system-call-integration-checks.mjs
 6ea6f43cf52c88afafbc757e006968dd1a21b9e2e1c184ef291e3b16db60236a  ./scripts/temporal-effective-date-checks.mjs
 24b19b80195b31b3cb1fe6e87768e4d8e29887bfdbf17a1d3ed0100b479cee12  ./scripts/ux-checks.mjs
 b757c5ef229f0f3767290517f55bf4d68e992b347535bce39be8d7c284a5ab43  ./scripts/vendored-security-patch-checks.mjs

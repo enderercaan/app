@@ -27,6 +27,9 @@ Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (lates
 - Google Play: upload the service account JSON to EAS credentials (`eas credentials --platform android`), submit profile `production` uses track `internal`, draft. Apple: set up the App Store Connect API key via `eas credentials --platform ios`, then put the Apple ID of the app in `submit.production.ios.ascAppId` of `eas.json`.
 - Individual Apple accounts: only the Account Holder can generate signing credentials.
 
+## iOS native notes
+- Swift cannot be compiled in the cloud container. The CallKit/PushKit coordinator (created at launch via an app-delegate subscriber), the single-resume Vision continuation, the memoized model hash and the Caches-backed compiled model are verified only by source checks. First real check: the EAS iOS build, then a VoIP push to a terminated app on a physical iPhone.
+
 ## Next steps
 1. User adds environment secrets (names only): `EXPO_TOKEN`, `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_CONTENT_BASE64`, `APPLE_TEAM_ID`, then the app values from `.env.example` and `supabase/.env.example`. Old App Store key `6KTZU46J3L` must be revoked.
 2. In the new session: list env var NAMES only, run `npm run release:diagnose`, then `npx eas-cli build -p android --profile production --non-interactive` and `-p ios`, fix build errors in code.
