@@ -27,7 +27,7 @@
     "critical_legal_subdimensions": "432/432",
     "migrations": "001-200 contiguous",
     "repository_hygiene": "126/126 app source; 122/122 scripts command-reachable",
-    "project_lint": "2392 text files PASS",
+    "project_lint": "2393 text files PASS",
     "real_release_gate": "NO_GO_FAIL_CLOSED_PENDING_GENUINE_EXTERNAL_EVIDENCE_AND_REPRODUCIBLE_DEPENDENCY_LOCK",
     "authenticated_rls_storage_session_boundary": "4/4 PASS",
     "security_control_applicability": "49/49 scoped controls classified PASS",
