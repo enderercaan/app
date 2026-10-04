@@ -4,8 +4,8 @@
   "exit_code": 0,
   "node_version": "v22.22.0",
   "typescript_version": "5.9.3",
-  "started_at": "2026-10-04T13:01:25.195Z",
-  "completed_at": "2026-10-04T13:01:35.102Z",
+  "started_at": "2026-10-04T13:43:37.989Z",
+  "completed_at": "2026-10-04T13:43:58.994Z",
   "log_path": "release/local-validation/typecheck.txt",
   "log_sha256": "33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1",
   "input_hashes": {
