@@ -22,6 +22,11 @@ Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (lates
 - tsc 0 errors, `verify:offline` passes, Android release build verified earlier, `release:diagnose` 9/23 PASS, 14 BLOCK (all need external evidence or real keys; list in the scratchpad checklist `Tailmance_14_KAPI_KONTROL_LISTESI.md` and `npm run release:diagnose`).
 - EAS builds were NOT started: the earlier session had no `EXPO_TOKEN`.
 
+## EAS variables (important)
+- EAS cloud builds read variables from EAS servers, not from the Claude environment. The Claude environment only needs `EXPO_TOKEN` (plus store keys for local helpers). Put the app/server values in EAS: `eas env:create --name NAME --value VALUE --environment production --visibility sensitive` (or plaintext for non-secret `EXPO_PUBLIC_*`, `secret` for server-only). Files such as `google-services.json` go in as file variables (`GOOGLE_SERVICES_JSON`). `eas.json` build profiles now set `environment` (development/preview/production).
+- Google Play: upload the service account JSON to EAS credentials (`eas credentials --platform android`), submit profile `production` uses track `internal`, draft. Apple: set up the App Store Connect API key via `eas credentials --platform ios`, then put the Apple ID of the app in `submit.production.ios.ascAppId` of `eas.json`.
+- Individual Apple accounts: only the Account Holder can generate signing credentials.
+
 ## Next steps
 1. User adds environment secrets (names only): `EXPO_TOKEN`, `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_CONTENT_BASE64`, `APPLE_TEAM_ID`, then the app values from `.env.example` and `supabase/.env.example`. Old App Store key `6KTZU46J3L` must be revoked.
 2. In the new session: list env var NAMES only, run `npm run release:diagnose`, then `npx eas-cli build -p android --profile production --non-interactive` and `-p ios`, fix build errors in code.
