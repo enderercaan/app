@@ -70,7 +70,7 @@ const config: ExpoConfig = {
       'android.permission.READ_MEDIA_VIDEO',
       'android.permission.READ_EXTERNAL_STORAGE'
     ],
-    adaptiveIcon: { foregroundImage: './assets/adaptive-foreground.png', monochromeImage: './assets/adaptive-monochrome.png', backgroundColor: '#0F172A' }
+    adaptiveIcon: { foregroundImage: './assets/adaptive-foreground.png', monochromeImage: './assets/adaptive-monochrome.png', backgroundColor: '#301D31' }
   },
   web: { favicon: './assets/favicon.png' },
   plugins: [
@@ -87,13 +87,13 @@ const config: ExpoConfig = {
     ['./plugins/withIosReleaseHardening.cjs'],
     ['./plugins/withSystemCalls.cjs'],
     ['expo-build-properties', { android: { compileSdkVersion: 36, targetSdkVersion: 36, enableMinifyInReleaseBuilds: true, enableShrinkResourcesInReleaseBuilds: true } }],
-    ['expo-splash-screen', { image: './assets/icon.png', resizeMode: 'contain', backgroundColor: '#F0FDF4', dark: { image: './assets/icon.png', backgroundColor: '#0F172A' } }],
+    ['expo-splash-screen', { image: './assets/splash-icon.png', imageWidth: 220, resizeMode: 'contain', backgroundColor: '#301D31', dark: { image: './assets/splash-icon.png', backgroundColor: '#0F172A' } }],
     'expo-system-ui',
     ['expo-sqlite', { useSQLCipher: true, enableFTS: false }],
     ['expo-secure-store', { configureAndroidBackup: false }],
     ['expo-image-picker', { photosPermission: 'Tailmance accesses only the photos and videos you choose for pet profiles, social posts, stories, and Reels.', cameraPermission: 'Tailmance uses the camera for pet photos, stories, and pet verification.', microphonePermission: 'Tailmance uses the microphone only when you start or accept a matched-pet audio or video call.' }],
     ['expo-location', { locationWhenInUsePermission: 'Tailmance uses approximate location to show nearby pets by distance.' }],
-    ['expo-notifications', { icon: './assets/notification-icon.png', color: '#FF6B6B', defaultChannel: 'default' }]
+    ['expo-notifications', { icon: './assets/notification-icon.png', color: '#DFAA64', defaultChannel: 'default' }]
   ],
   extra: {
     owner: TAILMANCE_BRAND.owner,

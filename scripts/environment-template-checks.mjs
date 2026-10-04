@@ -54,4 +54,15 @@ assert.ok(serverTemplate.some(x=>x.key==='SUPABASE_AUTH_CAPTCHA_SECRET'),'supaba
 const serverSensitive=serverTemplate.filter(x=>/(?:SECRET|KEY|AUTH|TOKEN|SERVICE_ACCOUNT_JSON)$/.test(x.key));
 for(const {key,value} of serverSensitive)assert.ok(value===''||value==='{}'||value==='[]',`supabase/.env.example must not contain a real-looking secret for ${key}`);
 
+// Consumable credit products: the client template and the server credit authority must describe exactly the same product IDs.
+const templateValue=(path,key)=>(readFileSync(path,'utf8').match(new RegExp(`^${key}=(.*)$`,'m'))?.[1]??'').trim();
+const consumableMap=JSON.parse(templateValue('supabase/.env.example','REVENUECAT_CONSUMABLE_PRODUCTS_JSON')||'{}');
+const clientBoost=templateValue('.env.example','EXPO_PUBLIC_REVENUECAT_BOOST_PRODUCT_IDS').split(',').filter(Boolean);
+const clientSuper=templateValue('.env.example','EXPO_PUBLIC_REVENUECAT_SUPER_LIKE_PRODUCT_IDS').split(',').filter(Boolean);
+assert.ok(clientBoost.length&&clientSuper.length,'.env.example must list boost and super-like product IDs');
+assert.deepEqual(Object.keys(consumableMap).sort(),[...clientBoost,...clientSuper].sort(),'server consumable map must contain exactly the client product IDs');
+for(const id of clientBoost)assert.equal(consumableMap[id]?.kind,'boost',`${id} must be a boost on the server`);
+for(const id of clientSuper)assert.equal(consumableMap[id]?.kind,'super_like',`${id} must be a super_like on the server`);
+for(const id of Object.keys(consumableMap))assert.ok(Number.isInteger(consumableMap[id].quantity)&&consumableMap[id].quantity>0,`${id} must grant a positive integer quantity`);
+
 console.log(`environment-template-checks: client=${clientExpected.size}, server=${serverTemplate.length}, web=${webExpected.size}, release=1 surfaces synchronized`);
