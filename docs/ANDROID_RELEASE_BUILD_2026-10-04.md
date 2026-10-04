@@ -14,6 +14,7 @@ Verified on the built APK:
 - package `com.tailmance.app`, versionCode 1, versionName 1.0.0, compileSdk 36, targetSdk 36.
 - ABIs: arm64-v8a, armeabi-v7a, x86, x86_64 (32 native libraries each).
 - 64 of 64 64-bit `.so` files use 16 KB LOAD alignment (`readelf -l`); `zipalign -c -P 16 4` passes.
+- Permissions: `SYSTEM_ALERT_WINDOW` and `WRITE_EXTERNAL_STORAGE` were pulled in by libraries; both are now blocked in `app.config.ts` and absent from the rebuilt APK (second `assembleRelease`, 13 min 28 s, successful). No `com.google.android.play:core` classes in the APK.
 - Manifest: `allowBackup=false`, `usesCleartextTraffic=false`, `extractNativeLibs=false`, `dataExtractionRules` present.
 
 Defect found by this build and fixed: `modules/tailmance-device-integrity` (Play Integrity) did not compile in Kotlin (`Nothing` reified type and suspend calls inside non-suspend lambdas). Guarded by `npm run test:android-native-module`.

@@ -68,7 +68,9 @@ const config: ExpoConfig = {
       'android.permission.ACCESS_FINE_LOCATION',
       'android.permission.READ_MEDIA_IMAGES',
       'android.permission.READ_MEDIA_VIDEO',
-      'android.permission.READ_EXTERNAL_STORAGE'
+      'android.permission.READ_EXTERNAL_STORAGE',
+      'android.permission.WRITE_EXTERNAL_STORAGE',
+      'android.permission.SYSTEM_ALERT_WINDOW'
     ],
     adaptiveIcon: { foregroundImage: './assets/adaptive-foreground.png', monochromeImage: './assets/adaptive-monochrome.png', backgroundColor: '#301D31' }
   },
