@@ -15,7 +15,7 @@ Deno.serve(async req=>{
   if(req.method!=='POST')return json({error:'method_not_allowed'},405);
   const secret=Deno.env.get('IDENTITY_WEBHOOK_SECRET');if(!secret||secret.length<32)return json({error:'not_configured'},503);
   let raw:string;try{raw=await readRequestTextBounded(req,MAX_WEBHOOK_BYTES)}catch(error){return json({error:error instanceof Error&&error.message==='body_too_large'?'payload_too_large':'invalid_payload'},error instanceof Error&&error.message==='body_too_large'?413:400)}
-  const timestamp=req.headers.get('X-Tailmance-Timestamp')??'';const supplied=req.headers.get('X-Tailmance-Signature')??req.headers.get('X-PawLink-Signature')??'';
+  const timestamp=req.headers.get('X-Tailmance-Timestamp')??'';const supplied=req.headers.get('X-Tailmance-Signature')??'';
   if(!/^\d{10}$/.test(timestamp)||!/^[0-9a-f]{64}$/i.test(supplied))return json({error:'invalid_signature'},401);
   const signedAt=Number(timestamp);if(!Number.isFinite(signedAt)||Math.abs(Date.now()/1000-signedAt)>300)return json({error:'stale_signature'},401);
   const expected=await hmacHex(secret,`${timestamp}.${raw}`);if(!safeEqual(supplied.toLowerCase(),expected.toLowerCase()))return json({error:'invalid_signature'},401);

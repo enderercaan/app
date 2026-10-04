@@ -34,4 +34,4 @@ The legal policy engine supports both self-attestation and privacy-minimized ver
 
 ## Legacy technical identifiers
 
-`tailmance://` is the canonical user-facing callback scheme. `pawlink://` is accepted only as a migration compatibility scheme for previously issued callbacks. Existing bundle/application identifiers are not renamed casually because doing so can create a new store identity rather than upgrade the existing app.
+`tailmance://` is the canonical user-facing callback scheme. It is the only callback scheme. The bundle/application identifier is `com.tailmance.app`.

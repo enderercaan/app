@@ -34,10 +34,9 @@
   },
   "technical_identifiers": {
     "canonical_scheme": "tailmance",
-    "legacy_callback_scheme": "pawlink",
     "bundle_identifier": "com.tailmance.app",
     "android_package": "com.tailmance.app",
-    "note": "Tailmance is the canonical user-facing scheme. Legacy pawlink:// remains callback-migration-only; bundle/package identifiers are com.tailmance.app (renamed from the legacy PawLink id before the first store submission)."
+    "note": "tailmance:// is the only app callback scheme; bundle/package identifier is com.tailmance.app."
   },
   "release_blockers": {
     "reproducible_dependency_lock": "PRESENT",
@@ -116,5 +115,5 @@
     "expo_ui": "~57.0.19",
     "node": ">=22.13.0"
   },
-  "auth_hardening": "Mobile auth callbacks use PKCE code exchange and canonical allowlisted tailmance:// callback routes; legacy pawlink:// is accepted only for callback migration; raw access/refresh-token deep-link session injection is removed."
+  "auth_hardening": "Mobile auth callbacks use PKCE code exchange and canonical allowlisted tailmance:// callback routes; raw access/refresh-token deep-link session injection is removed."
 }

@@ -1,4 +1,4 @@
--- PawLink release operations: web deletion requests and notification extensibility.
+-- Tailmance release operations: web deletion requests and notification extensibility.
 
 alter type public.notification_type add value if not exists 'marketing';
 

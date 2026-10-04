@@ -1,4 +1,4 @@
--- PawLink production schema
+-- Tailmance production schema
 -- Public social identity is always a pet. Human accounts are private authorization/billing records.
 
 create extension if not exists pgcrypto;

@@ -5,7 +5,7 @@ import { secureStorage } from './secureStorage';
 
 const noopUrl = 'https://backend.invalid';
 const noopKey = 'tailmance-backend-disabled';
-const APP_SCHEMES = new Set(['tailmance:','pawlink:']);
+const APP_SCHEMES = new Set(['tailmance:']);
 const CLIENT_HTTP_TIMEOUT_MS = 45_000;
 const nativeFetch = globalThis.fetch.bind(globalThis);
 

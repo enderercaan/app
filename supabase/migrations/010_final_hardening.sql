@@ -1,4 +1,4 @@
--- PawLink final product/security hardening
+-- Tailmance final product/security hardening
 -- Single-use upload intents, pet verification, normalized discovery and cursor pagination.
 
 create or replace function public.normalize_search_text(p_value text)

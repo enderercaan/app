@@ -1,4 +1,4 @@
--- PawLink production polish: user controls, notification preferences, report transparency and reminder dedupe.
+-- Tailmance production polish: user controls, notification preferences, report transparency and reminder dedupe.
 
 alter table public.users
   add column if not exists notification_preferences jsonb not null default '{"matches":true,"messages":true,"social":true,"events":true,"health":true,"marketing":false}'::jsonb;

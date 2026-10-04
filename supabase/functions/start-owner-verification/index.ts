@@ -27,7 +27,7 @@ Deno.serve(async (req) => {
     try{parsedProviderUrl=requireAllowlistedHttpsUrl(providerUrl,Deno.env.get('IDENTITY_PROVIDER_ALLOWED_HOSTS_JSON'),{errorCode:'identity_provider_invalid_url'})}
     catch{throw new Error('identity_provider_invalid_url')}
     const returnUrl=Deno.env.get('IDENTITY_PROVIDER_RETURN_URL') ?? 'tailmance://verification-complete';
-    if(!['tailmance://verification-complete','pawlink://verification-complete'].includes(returnUrl))throw new Error('identity_return_url_invalid');
+    if(returnUrl!=='tailmance://verification-complete')throw new Error('identity_return_url_invalid');
 
     const {data:account,error:accountError}=await supabase.from('users').select('identity_verified').eq('id',user.id).single();
     if(accountError) throw accountError;

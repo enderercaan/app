@@ -65,7 +65,7 @@ const falseJwtAuthContracts={
   'storage-gc':[/STORAGE_GC_SECRET/,/Authorization/],
   'external-deletion-worker':[/EXTERNAL_DELETION_WORKER_SECRET/,/Authorization/],
   'reports-admin':[/REPORTS_ADMIN_SECRET/,/Authorization/],
-  'identity-verification-webhook':[/IDENTITY_WEBHOOK_SECRET/,/X-Tailmance-Signature|X-PawLink-Signature/,/safeEqual/],
+  'identity-verification-webhook':[/IDENTITY_WEBHOOK_SECRET/,/X-Tailmance-Signature/,/safeEqual/],
   'health-verification-webhook':[/HEALTH_VERIFICATION_WEBHOOK_SECRET/,/X-Tailmance-Signature/,/safeEqual/,/service_apply_health_verification_attestation/],
   'health-ai-worker':[/HEALTH_AI_WORKER_SECRET/,/verifyBearerSecret/,/claim_health_ai_jobs/,/service_apply_health_ai_result/,/service_defer_health_ai_job/],
   'ops-health':[/OPS_HEALTH_SECRET/,/Authorization/],

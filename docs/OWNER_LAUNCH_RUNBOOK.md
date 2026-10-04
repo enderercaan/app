@@ -3,7 +3,7 @@
 This is the human-only launch path. Source work must never wait on these steps.
 
 1. **Apple Developer + Google Play Console identity** — verify the publisher/seller identity is Yekta Özel (or the exact legally chosen entity), complete developer verification, tax and banking. `VERIFY` current account-type requirements in the official consoles.
-2. **Bundle/package identity** — the app identifier is `com.tailmance.app`. Create the App Store Connect and Play Console app records, Firebase apps and RevenueCat apps with exactly this ID. If a record already exists under legacy `com.pawlink.app`, stop and decide before submitting: changing IDs creates a separate app. Use `app.config.ts`, `eas.json`, `fastlane/Appfile` as source inputs.
+2. **Bundle/package identity** — the app identifier is `com.tailmance.app`. Create the App Store Connect and Play Console app records, Firebase apps and RevenueCat apps with exactly this ID. Use `app.config.ts`, `eas.json`, `fastlane/Appfile` as source inputs.
 3. **RevenueCat** — create/link iOS and Android products; entitlement must be `tailmance_premium`, package identifier `premium_access`. Use store-localized pricing; do not hard-code `$14.99` in purchase logic.
 4. **Push** — configure APNs and Firebase/FCM credentials in the release secret manager, never the repository. Validate delivery and revocation on both platforms.
 5. **AI/observability/maps/calls** — create production Google Cloud Vision (or approved alternative), Sentry, maps/geocoding and LiveKit accounts; restrict keys by app/server identity; record provider evidence in release evidence files.

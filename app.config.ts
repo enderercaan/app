@@ -17,10 +17,8 @@ const appLinkHost=rawAppLinkHost||undefined;
 
 const config: ExpoConfig = {
   name: TAILMANCE_BRAND.appName,
-  slug: 'pawlink',
-  // Tailmance is the canonical user-facing scheme. Keep the legacy PawLink scheme only
-  // for already-issued callbacks during the migration window.
-  scheme: ['tailmance','pawlink'],
+  slug: 'tailmance',
+  scheme: 'tailmance',
   version: '1.0.0',
   orientation: 'default',
   userInterfaceStyle: 'automatic',

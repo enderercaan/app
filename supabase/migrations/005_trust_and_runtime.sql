@@ -1,4 +1,4 @@
--- Trust center and runtime controls. PawLink never stores raw government-ID images here.
+-- Trust center and runtime controls. Tailmance never stores raw government-ID images here.
 
 create table if not exists public.owner_verification_sessions (
   id uuid primary key default gen_random_uuid(),

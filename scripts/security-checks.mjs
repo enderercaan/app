@@ -320,7 +320,7 @@ check('Premium does not invent a fallback price',()=>assert.doesNotMatch(premium
 check('moderation admin handles pet verification separately',()=>assert.match(moderationAdmin,/targetType==='pet_verification'[\s\S]*review_pet_verification/));
 check('mobile auth uses PKCE',()=>assert.match(supabaseClient,/flowType: 'pkce'/));
 check('mobile auth rejects raw token deep links',()=>assert.doesNotMatch(supabaseClient,/setSession\(\{ access_token/));
-check('mobile auth deep links use canonical Tailmance scheme with legacy migration allowlist',()=>{assert.match(supabaseClient,/APP_SCHEMES = new Set\(\['tailmance:','pawlink:'\]\)/);assert.match(supabaseClient,/host === 'auth' && path === '\/callback'[\s\S]*host === 'reset-password' && path === '\/'/);assert.match(authClient,/tailmance:\/\/auth\/callback/);assert.match(authClient,/tailmance:\/\/reset-password/)});
+check('mobile auth deep links use canonical Tailmance scheme with a single-scheme allowlist',()=>{assert.match(supabaseClient,/APP_SCHEMES = new Set\(\['tailmance:'\]\)/);assert.match(supabaseClient,/host === 'auth' && path === '\/callback'[\s\S]*host === 'reset-password' && path === '\/'/);assert.match(authClient,/tailmance:\/\/auth\/callback/);assert.match(authClient,/tailmance:\/\/reset-password/)});
 
 check('dynamic backend/provider HTTPS URLs are client-validated before opening',()=>{
   const externalLinks=read('src/services/externalLinks.ts');
@@ -1225,7 +1225,7 @@ check('transient operational retention is cutoff-driven and service-role only',(
 check('authenticated upload objects are immutable after their first insert',()=>{
   const sql=read('supabase/migrations/038_storage_immutable_upload_paths.sql');
   const uploads=read('src/services/uploads.ts');
-  assert.match(sql,/drop policy if exists pawlink_storage_update on storage\.objects/i);
+  assert.match(sql,/drop policy if exists tailmance_storage_update on storage\.objects/i);
   assert.match(uploads,/\.upload\(path, blob, \{ contentType, upsert: false \}\)/);
 });
 
@@ -2250,7 +2250,7 @@ check('native auth anti-bot source flow is CSPRNG/state-bound and deployment rem
   assert.match(challengePage,/Content-Security-Policy/);
   assert.match(challengePage,/frame-ancestors 'none'/);
   assert.match(challengeJs,/authTurnstileSiteKey/);
-  assert.match(challengeJs,/new URL\('tailmance:\/\/auth-challenge'\)/);assert.match(authChallenge,/CALLBACK_SCHEMES=new Set\(\['tailmance:','pawlink:'\]\)/);
+  assert.match(challengeJs,/new URL\('tailmance:\/\/auth-challenge'\)/);assert.match(authChallenge,/CALLBACK_SCHEMES=new Set\(\['tailmance:'\]\)/);
   assert.match(clientRelease,/EXPO_PUBLIC_AUTH_CHALLENGE_URL/);
   assert.match(webConfigGenerator,/TAILMANCE_WEB_AUTH_TURNSTILE_SITE_KEY/);
   assert.match(webConfigGenerator,/JSON\.stringify/);
@@ -2339,7 +2339,7 @@ check('outbound provider URLs are exact-host allowlisted and SSRF-resistant',()=
   assert.match(helper,/literal IPs|literal IP/i);
   assert.match(moderation,/MODERATION_ALLOWED_HOSTS_JSON/);
   assert.match(verification,/IDENTITY_PROVIDER_ALLOWED_HOSTS_JSON/);
-  assert.match(verification,/\['tailmance:\/\/verification-complete','pawlink:\/\/verification-complete'\]\.includes\(returnUrl\)/);
+  assert.match(verification,/returnUrl!=='tailmance:\/\/verification-complete'/);
   assert.match(integrity,/APPLE_APP_ATTEST_VERIFIER_ALLOWED_HOSTS_JSON/);
   for(const key of ['MODERATION_ALLOWED_HOSTS_JSON','IDENTITY_PROVIDER_ALLOWED_HOSTS_JSON','APPLE_APP_ATTEST_VERIFIER_ALLOWED_HOSTS_JSON'])assert.ok(serverRelease.includes(`'${key}'`),`${key} release requirement missing`);
   assert.match(serverRelease,/validateHttpsEndpointAgainstAllowlist\('MODERATION_API_URL','MODERATION_ALLOWED_HOSTS_JSON'\)/);
@@ -3322,7 +3322,7 @@ check('pet, Reel and Story universal links are strict, auth-gated and server-aut
   const routes=read('src/navigation/types.ts');
   const reels=read('src/screens/ReelsScreen.tsx');
   const feed=read('src/screens/FeedScreen.tsx');
-  assert.match(parser,/CUSTOM_SCHEMES=new Set\(\['tailmance:','pawlink:'\]\)/);
+  assert.match(parser,/CUSTOM_SCHEMES=new Set\(\['tailmance:'\]\)/);
   assert.match(parser,/const APP_LINK_HOST=/);
   assert.match(parser,/parsed\.username\|\|parsed\.password\|\|parsed\.port\|\|parsed\.hash\|\|parsed\.search/);
   assert.match(parser,/\(pet\|reel\|story\)/);

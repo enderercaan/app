@@ -1,4 +1,4 @@
--- PawLink production completion and security hardening.
+-- Tailmance production completion and security hardening.
 -- Keeps pet identity public while human account, precise location and billing stay private.
 
 create table if not exists public.push_receipts (

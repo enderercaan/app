@@ -1,4 +1,4 @@
--- PawLink private media lifecycle. Queue detached objects for delayed, server-side deletion.
+-- Tailmance private media lifecycle. Queue detached objects for delayed, server-side deletion.
 
 create table if not exists public.storage_gc_queue (
   id bigint generated always as identity primary key,

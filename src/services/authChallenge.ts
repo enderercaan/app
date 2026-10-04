@@ -5,7 +5,7 @@ import { getRuntimeLocale } from '../i18n';
 import { openSafeExternalHttpsUrl, requireSafeExternalHttpsUrl } from './externalLinks';
 
 type AuthChallengeAction='sign_in'|'sign_up'|'password_reset'|'phone_otp';
-const CALLBACK_SCHEMES=new Set(['tailmance:','pawlink:']);
+const CALLBACK_SCHEMES=new Set(['tailmance:']);
 const CALLBACK_HOST='auth-challenge';
 const TIMEOUT_MS=120_000;
 

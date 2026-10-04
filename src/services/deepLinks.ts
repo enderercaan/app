@@ -1,7 +1,7 @@
 import { env } from './config';
 
 const UUID=/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const CUSTOM_SCHEMES=new Set(['tailmance:','pawlink:']);
+const CUSTOM_SCHEMES=new Set(['tailmance:']);
 const APP_LINK_HOST=/^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/;
 type TailmanceDeepLinkTarget={kind:'pet'|'reel'|'story';id:string};
 

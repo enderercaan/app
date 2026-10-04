@@ -470,9 +470,9 @@ returns boolean language sql stable security definer set search_path='' as $$
     else false end;
 $$;
 
-create policy pawlink_storage_insert on storage.objects for insert to authenticated with check(public.can_upload_storage_object(bucket_id,name));
-create policy pawlink_storage_update on storage.objects for update to authenticated using(public.can_upload_storage_object(bucket_id,name));
-create policy pawlink_storage_select on storage.objects for select to authenticated using(public.can_read_storage_object(bucket_id,name));
+create policy tailmance_storage_insert on storage.objects for insert to authenticated with check(public.can_upload_storage_object(bucket_id,name));
+create policy tailmance_storage_update on storage.objects for update to authenticated using(public.can_upload_storage_object(bucket_id,name));
+create policy tailmance_storage_select on storage.objects for select to authenticated using(public.can_read_storage_object(bucket_id,name));
 
 -- RPC exposure. Tables stay mostly inaccessible; app actions go through audited functions.
 revoke all on all functions in schema public from public,anon;

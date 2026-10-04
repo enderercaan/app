@@ -69,7 +69,7 @@ match('APNS_ENVIRONMENT',/^(production|sandbox)$/,'must be production or sandbox
 if(value('APNS_VOIP_PRIVATE_KEY_P8')&&(!value('APNS_VOIP_PRIVATE_KEY_P8').includes('BEGIN PRIVATE KEY')||value('APNS_VOIP_PRIVATE_KEY_P8').length<120))failures.push('APNS_VOIP_PRIVATE_KEY_P8: must contain a complete APNs .p8 PKCS#8 private key');
 
 if(value('CORS_ALLOWED_ORIGIN')){try{const u=new URL(value('CORS_ALLOWED_ORIGIN'));if(u.protocol!=='https:'||u.username||u.password||u.search||u.hash||(u.pathname!=='/'&&u.pathname!=='')||(u.port&&u.port!=='443'))failures.push('CORS_ALLOWED_ORIGIN: must be an exact credential-free HTTPS origin')}catch{failures.push('CORS_ALLOWED_ORIGIN: invalid URL')}}
-match('IDENTITY_PROVIDER_RETURN_URL',/^(?:tailmance|pawlink):\/\/verification-complete$/,'must be tailmance://verification-complete (legacy pawlink:// accepted only during callback migration)');
+match('IDENTITY_PROVIDER_RETURN_URL',/^tailmance:\/\/verification-complete$/,'must be tailmance://verification-complete');
 validateHttpsEndpointAgainstAllowlist('MODERATION_API_URL','MODERATION_ALLOWED_HOSTS_JSON');
 validateHttpsEndpointAgainstAllowlist('HEALTH_AI_API_URL','HEALTH_AI_ALLOWED_HOSTS_JSON');
 match('HEALTH_AI_PROVIDER_CODE',/^[A-Za-z0-9._-]{2,80}$/,'must be a stable provider identifier');

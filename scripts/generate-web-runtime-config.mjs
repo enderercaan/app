@@ -14,7 +14,7 @@ for(const name of ['TAILMANCE_WEB_TURNSTILE_SITE_KEY','TAILMANCE_WEB_AUTH_TURNST
   const v=value(name);if(v&&!/^[A-Za-z0-9_-]{10,200}$/.test(v))failures.push(`${name}: implausible Cloudflare Turnstile site key`);
 }
 if(failures.length)throw new Error(`Web runtime production config failed (${failures.length} issues):\n- ${failures.join('\n- ')}`);
-const generated=`window.TAILMANCE_WEB_CONFIG = Object.freeze(${JSON.stringify({deletionRequestEndpoint:endpoint,turnstileSiteKey:value('TAILMANCE_WEB_TURNSTILE_SITE_KEY'),authTurnstileSiteKey:value('TAILMANCE_WEB_AUTH_TURNSTILE_SITE_KEY')},null,2)});\n// Backward-compatible alias for already-deployed cached pages. Remove after the web rollout is confirmed.\nwindow.PAWLINK_WEB_CONFIG = window.TAILMANCE_WEB_CONFIG;\n`;
+const generated=`window.TAILMANCE_WEB_CONFIG = Object.freeze(${JSON.stringify({deletionRequestEndpoint:endpoint,turnstileSiteKey:value('TAILMANCE_WEB_TURNSTILE_SITE_KEY'),authTurnstileSiteKey:value('TAILMANCE_WEB_AUTH_TURNSTILE_SITE_KEY')},null,2)});\n`;
 if(process.argv.includes('--check-file')){
   const current=readFileSync('web/config.js','utf8');
   if(current!==generated)throw new Error('web/config.js does not match the validated production web runtime environment; run npm run web-config:generate in the release workspace before deploying the web artifact');

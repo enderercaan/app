@@ -1,4 +1,4 @@
--- PawLink social/product polish: richer pet identity, hidden owner trust signal,
+-- Tailmance social/product polish: richer pet identity, hidden owner trust signal,
 -- post-meet feedback, feed modes and scale indexes.
 
 alter table public.users add column if not exists identity_verified boolean not null default false;

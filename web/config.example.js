@@ -4,4 +4,3 @@ window.TAILMANCE_WEB_CONFIG = {
   authTurnstileSiteKey: ''
 };
 // Temporary compatibility alias for older cached pages.
-window.PAWLINK_WEB_CONFIG = window.TAILMANCE_WEB_CONFIG;

@@ -136,7 +136,7 @@ For the current end-to-end control-by-control status, including deliberate N/A d
 ## Native auth anti-bot challenge
 
 - Production email sign-in/sign-up, password reset and phone OTP request a Cloudflare Turnstile token before calling Supabase Auth.
-- The app generates a 192-bit state with the native OS CSPRNG, opens only the configured HTTPS challenge page, and accepts only `pawlink://auth-challenge` callbacks whose action and state exactly match the pending request.
+- The app generates a 192-bit state with the native OS CSPRNG, opens only the configured HTTPS challenge page, and accepts only `tailmance://auth-challenge` callbacks whose action and state exactly match the pending request.
 - The challenge page is CSP-restricted, uses the configured Turnstile site key, and returns the short-lived token only to the app callback.
 - Supabase Auth validates `captchaToken`; source config mirrors Turnstile CAPTCHA locally. Hosted Auth CAPTCHA configuration and physical-device behavior remain release evidence and fail closed.
 - The static challenge also carries defense-in-depth meta CSP, but production hosting must send security headers at the HTTP layer. In particular, `frame-ancestors` must be enforced by the response header; this remains part of the production TLS/header evidence gate.

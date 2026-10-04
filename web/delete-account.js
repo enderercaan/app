@@ -1,7 +1,7 @@
 const form=document.getElementById('deleteForm');
 const result=document.getElementById('result');
 let turnstileToken='';
-const webConfig=window.TAILMANCE_WEB_CONFIG??window.PAWLINK_WEB_CONFIG??{};
+const webConfig=window.TAILMANCE_WEB_CONFIG??{};
 const siteKey=typeof webConfig.turnstileSiteKey==='string'?webConfig.turnstileSiteKey.trim():'';
 const siteKeyReady=/^[A-Za-z0-9_-]{10,200}$/.test(siteKey);
 const configuredHttpsEndpoint=(value)=>{
