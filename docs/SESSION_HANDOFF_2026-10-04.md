@@ -2,6 +2,9 @@
 
 Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (latest commit contains all work below). Default branch `main` already holds everything up to the previous merge.
 
+## Working rule (from the owner)
+- The current branch head is the only baseline. Never go back to older files or old zips. After every meaningful change: regenerate evidence, commit, push, update this note and hand over a fresh zip (`git archive --format=zip --prefix=tailmance/ HEAD`).
+
 ## Identity and rules
 - App: Tailmance, id `com.tailmance.app`, owner / creator / rights holder Yekta Özel (individual, no company). Public contact: yektaozel@icloud.com.
 - The postal address is private. Never write it in the repo, legal pages, store listing or chat output.
