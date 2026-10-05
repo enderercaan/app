@@ -5,7 +5,7 @@
 
 Date: 2026-09-30
 Status: **SOURCE-SIDE CONTROLS VERIFIED; PRODUCTION EVIDENCE REMAINS FAIL-CLOSED**
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 This matrix maps the security/privacy architecture requested for Tailmance to the actual product surface. It deliberately distinguishes **Implemented**, **External Production Evidence**, and **Not Applicable / Not Present**. A control is never marked complete merely because a configuration placeholder or dashboard setting exists.
 

@@ -2,7 +2,7 @@
 
 Date: 2026-10-01  
 Status: **SOURCE/STATIC HARDENED; PRODUCTION LEGAL RELEASE REMAINS FAIL-CLOSED**  
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 ## Authority and ancestry
 

@@ -2,7 +2,7 @@
 
 Date: 2026-10-01
 Status: **SOURCE HARDENING VERIFIED; PRODUCTION RELEASE REMAINS FAIL-CLOSED WHERE GENUINE EXTERNAL EVIDENCE IS MISSING**
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 ## Lineage
 

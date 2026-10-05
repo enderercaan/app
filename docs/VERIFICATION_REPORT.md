@@ -2,7 +2,7 @@
 
 Date: 2026-10-05
 Release candidate: 1.0.0
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 ## Current automated source verification
 

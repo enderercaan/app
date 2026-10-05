@@ -2,7 +2,7 @@
 
 Date: 2026-09-30
 Status: **SOURCE-SIDE SECURITY HARDENING VERIFIED; PRODUCTION RELEASE FAIL-CLOSED**
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 ## Scope
 

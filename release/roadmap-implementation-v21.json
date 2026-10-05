@@ -2,7 +2,7 @@
   "schema_version": 1,
   "reviewed_at": "2026-10-01",
   "product": "Tailmance",
-  "owner": "Yekta Ozel",
+  "owner": "Yekta Özel",
   "policy": "Roadmap requirements are mapped to the existing Expo/React Native + Supabase architecture. Equivalent managed components are preferred over technology-for-technology rewrites. Real gaps remain explicit until implemented; production/provider facts remain external gates.",
   "phases": {
     "1_clean_architecture_offline_sync": {

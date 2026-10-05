@@ -11,7 +11,7 @@ const en=JSON.parse(fs.readFileSync(path.join(root,'web/legal-source/en.json'),'
 const ph=s=>[...String(s).matchAll(/\{([A-Za-z0-9_]+)\}/g)].map(x=>x[1]).sort().join('|');
 const scripts={ar:/[\u0621-\u063A\u0641-\u064A]/,hi:/[\u0904-\u0939\u0958-\u0961]/,ja:/[\u3040-\u30ff\u4e00-\u9fff]/,ko:/[\uac00-\ud7af]/,ru:/[А-Яа-яЁё]/,'zh-Hans':/[\u4e00-\u9fff]/,'zh-Hant':/[\u4e00-\u9fff]/,th:/[\u0E01-\u0E2E]/};
 const normalized=s=>String(s).normalize('NFKC').toLocaleLowerCase('en').replace(/[^\p{L}\p{N}]+/gu,'').trim();
-const safeNonTranslated=s=>/^(?:Tailmance|App Store|Google Play|Premium|Standard|KVKK|GDPR|UK GDPR|DMCA|17 U\.S\.C\. §512|Yekta Ozel|Yekta Özel|yektaozel@icloud\.com)$/i.test(String(s).trim()) || /^https?:\/\//.test(String(s));
+const safeNonTranslated=s=>/^(?:Tailmance|App Store|Google Play|Premium|Standard|KVKK|GDPR|UK GDPR|DMCA|17 U\.S\.C\. §512|Yekta Özel|Yekta Özel|yektaozel@icloud\.com)$/i.test(String(s).trim()) || /^https?:\/\//.test(String(s));
 function strings(v,out=[]){if(typeof v==='string'){out.push(v);return out;} if(Array.isArray(v)){for(const x of v)strings(x,out);return out;} if(v&&typeof v==='object')for(const [k,x] of Object.entries(v)){if(['schema_version','locale','source_version'].includes(k))continue;strings(x,out)}return out;}
 const taiwanForbidden=['賬戶','數據','營銷','准則','啓用','知識產權','運營','默認','消息','網絡','用戶','服務器','登錄','設置','獲取','訪問','崩潰','導出','坐標','存儲'];
 const draftSentinel=/(?:\bTODO\b|\bTBD\b|\bFIXME\b|\bPLACEHOLDER\b|\blorem\s+ipsum\b|(?<![A-Za-z])N\s*\/\s*A(?![A-Za-z]))/iu;

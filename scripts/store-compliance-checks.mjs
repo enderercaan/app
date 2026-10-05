@@ -103,7 +103,7 @@ assert.match(x.subscription.apple_streamlined_purchasing.release_rule,/BLOCK/);
 
 const support=read('web/support.html');
 assert.match(support,/Çocuk güvenliği irtibat kişisi/i);
-assert.match(support,/Yekta Ozel/);
+assert.match(support,/Yekta Özel/);
 assert.match(community,/çocukların cinsel istismarı|çocukların cinsel sömürüsü/i);
 assert.match(community,/yetkili makamlara bildirim|yetkili makamlara.*bildir/i);
 const premium=read('src/screens/PremiumScreen.tsx');

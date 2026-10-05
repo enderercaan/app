@@ -184,7 +184,7 @@ const countryApproved=Object.entries(sourceLegalApproval.markets??{}).filter(([,
 const evidence={
   schema_version:3,
   product:'Tailmance',
-  attribution:{owner:'Yekta Ozel',creator:'Yekta Ozel',concept:'Yekta Ozel',product_design:'Yekta Ozel',development:'Yekta Ozel',implementation:'Yekta Ozel',overall_project:'Yekta Ozel'},
+  attribution:{owner:'Yekta Özel',creator:'Yekta Özel',concept:'Yekta Özel',product_design:'Yekta Özel',development:'Yekta Özel',implementation:'Yekta Özel',overall_project:'Yekta Özel'},
   generated_at:new Date().toISOString(),
   automated:{
     domain:{passed:Number(domainPassed),total:Number(domainTotal),status:'PASS'},
@@ -325,7 +325,7 @@ const verificationReport=`# Tailmance Verification Report
 
 Date: ${reportDate}
 Release candidate: ${String(packageJson.version)}
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 ## Current automated source verification
 

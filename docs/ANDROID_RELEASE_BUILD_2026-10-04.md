@@ -24,3 +24,14 @@ Not a store-ready artifact:
 - Built with placeholder values for Firebase / Google Maps key / Google URL scheme and staging environment. Production values come from EAS secrets.
 - Not installed or run on a device or emulator (no KVM in the build container).
 - iOS is not covered; it needs macOS or EAS Build.
+
+## Rebuild after the 2026-10-05 audit
+
+Same environment and command (`./gradlew bundleRelease assembleRelease --no-daemon`), after the dependency cleanup (`expo-font` added; `expo-modules-core` and `@expo/config-plugins` no longer direct dependencies), the AI breed-suggestion removal and the iOS-only native changes. Result: BUILD SUCCESSFUL in 13 min 50 s. Package `com.tailmance.app`, versionCode 1, versionName 1.0.0; no `ACCESS_FINE_LOCATION`, `READ_MEDIA_*`, `READ_/WRITE_EXTERNAL_STORAGE` or `SYSTEM_ALERT_WINDOW` permission in the APK.
+
+| Artifact | SHA-256 |
+|---|---|
+| `app-release.aab` | `0bc2e779f00abe4f012c4605dffa8796a3f168dcb36d079169c0a47777dc7ac1` |
+| `app-release.apk` | `0a96f8da9e691d3dff81e1cbec3d2034024a4ad96862c0e0cd280ad779f65bd2` |
+
+The same limits as above apply (debug keystore, placeholder Firebase/Maps/URL-scheme values, staging environment, no device run).

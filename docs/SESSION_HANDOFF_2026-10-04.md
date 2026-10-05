@@ -36,7 +36,15 @@ Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (lates
 - Phone, postal address, tax number: private file only, never in the repo.
 - Still needed from the owner: a domain name, then web publication, EAS variables, store forms.
 
+## Final audit notes (2026-10-05)
+- Owner name is `Yekta Özel` everywhere (the ASCII spelling in support documents and podspecs was fixed).
+- Privacy notice data categories now match the store-form answers in all 22 languages.
+- Dependencies: `expo-font` added (peer of expo-symbols); `expo-modules-core` and `@expo/config-plugins` are no longer direct dependencies (imports go through `expo` and `expo/config-plugins`).
+- Not set on purpose, owner decision needed before the first iOS upload: `ITSAppUsesNonExemptEncryption` (export-compliance declaration). The app uses TLS, SQLCipher and WebRTC; answer Apple's encryption questionnaire accurately.
+- iPad: `supportsTablet` is true, so App Store Connect requires iPad screenshots (or set it to false).
+- A new cloud session building the app must check out branch `claude/determined-cerf-m1od2d` (or `main` after the owner merges it); `main` alone does not contain this work.
+
 ## Next steps
-1. User adds environment secrets (names only): `EXPO_TOKEN`, `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_CONTENT_BASE64`, `APPLE_TEAM_ID`, then the app values from `.env.example` and `supabase/.env.example`. Old App Store key `6KTZU46J3L` must be revoked.
+1. User adds environment secrets (names only): `EXPO_TOKEN`, `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_CONTENT_BASE64`, `APPLE_TEAM_ID`, then the app values from `.env.example` and `supabase/.env.example`. The App Store Connect key that was shared in chat earlier must be revoked and a new one created.
 2. In the new session: list env var NAMES only, run `npm run release:diagnose`, then `npx eas-cli build -p android --profile production --non-interactive` and `-p ios`, fix build errors in code.
 3. Still open and user-side: domain with `apple-app-site-association` / `assetlinks.json`, store forms, review account, device evidence, operator tax/EU-representative questions, health AI provider contract, real on-device safety model files, GitHub account `yektaozel` and repo transfer, Italy D.Lgs. 30/2026 and German OS age-signal items in `docs/LEGAL_CROSS_CHECK_2026-10-04.md`.

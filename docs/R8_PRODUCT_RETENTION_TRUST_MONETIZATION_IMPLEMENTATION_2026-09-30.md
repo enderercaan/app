@@ -2,7 +2,7 @@
 
 Date: 2026-09-30  
 Status: **SOURCE IMPLEMENTATION VERIFIED; PRODUCTION RELEASE REMAINS FAIL-CLOSED**  
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 ## Exact base and lineage
 

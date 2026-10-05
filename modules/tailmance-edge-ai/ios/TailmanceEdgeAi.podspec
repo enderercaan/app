@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version        = '0.1.0'
   s.summary        = 'Tailmance verified on-device inference bridge'
   s.description    = 'Local Expo native bridge for hash-verified Core ML and Vision inference.'
-  s.author         = 'Yekta Ozel'
+  s.author         = 'Yekta Özel'
   # This pod is consumed as a local Expo module. Its source is the checked-out Tailmance tree,
   # not an invented remote repository.
   s.homepage       = "file://#{File.expand_path('../../..', __dir__)}"
