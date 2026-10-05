@@ -9,7 +9,7 @@ c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
 40aa3964248629a7b15447fc50ae505108defa38d45a19d698eb24cf712dd94a  ./NOTICE.md
 a9615384aab74a7a0c7635bf316d69c966fc22e8f291e4aa4556b4604a56ea0b  ./PRODUCT_STRATEGY_RETENTION_AND_MONETIZATION_BOUNDARY_2026-09-30.md
 e24920393900a3423dc708af5c5816785bb75f2885fd23c769511296fc053ac3  ./README.md
-898ccbb91f62cc4ce1123ec0e53ebc377e52761e7dd4ad4e583a13d579d0f45a  ./RELEASE_EVIDENCE.json
+a103a9e2e05a625e37553959b8fca7cdff389b464ea2d0291f160b8012c7f8a6  ./RELEASE_EVIDENCE.json
 9288e8a94708318605c4bccfb47f911a20d3071abac46e5653ae5d06fd6da2c5  ./RELEASE_MANIFEST.json
 a077b0eb631934e0d80b5f2338c706ac62c216838846648aad3c60d479e036ad  ./app.config.ts
 c1ac4dd9de0bbbced5d95c501a0db79cfe22c2eb83176b5fb53ba9308f9c9946  ./assets/adaptive-foreground.png
@@ -69,7 +69,7 @@ a66f1ef61b5aff564ae7cd2705c773df879eb99d94f84ae2fff0d42e441e8c7f  ./docs/SCREEN_
 3d2551ebe499201f49583dfa6b87be268a6659f80eb5a01bf8949768c1dc05c4  ./docs/SECURITY_CONTROL_COVERAGE_2026-09-30.md
 0d2115654656580899ce3339c78793e9cf09dce22a5495676ec874baf27ff6fe  ./docs/SECURITY_INCIDENT_RESPONSE.md
 a8cc6e72b8a2baa7a2d18aeeb623856a32bea7f1f4c301b87d13e8fcee73efaf  ./docs/SECURITY_TRANSPORT_DECISION.md
-6ee9d5fc9bc3b41c5f8ec22af2dbf14c6a5c83cc38e947baed59edfec24ff2b0  ./docs/SESSION_HANDOFF_2026-10-04.md
+e848fc7c6afa42ed5b656b6d1a84df8fd3f2f0a0942f8d8b4d23f53b4ed29e71  ./docs/SESSION_HANDOFF_2026-10-04.md
 d7bafd464d1a397c96e17120fc73045f0c926347196356a0ad733940aab4c922  ./docs/STORE_LISTING_IDENTITY_2026-10-04.md
 e2774ba908befa1d126f4400ccea27bf97e0ca57d2f7f4c35173b0d69da830d7  ./docs/STORE_RELEASE_CHECKLIST.md
 c387e74d7f640ae75d1ba2c954be07dc81e93f82dc99cd19b55fed569c6e15d6  ./docs/STORE_REVIEW_ACCESS_RUNBOOK.md
@@ -151,7 +151,7 @@ ee8e77febdd4b158291a47381c321e3b918d9b71c6ac0b6d02169177aab564a8  ./release/coun
 8c9aa5a5c650a617922aacd9c4cc178994e1eb18c2317ddb2ba94dc5433447f5  ./release/country-legal-supplement-manifest-v20.json
 1420f9581f471afc92a0160707a35c54384caec9b3bee1c6a3bdf4c2f353226e  ./release/country-release-gates.json
 2da21cfed538ddd1b47f540d9a8870769fb366851358da4a992afaa1e19a3ee9  ./release/critical-legal-subdimension-review-v19.json
-a285b88a7c8826394005ffedd9c8f9d30ab6e0ec8eadfbbdb13b3947acd68ae4  ./release/edge-ai-model-evidence-v21.json
+af85c6677ee5278c1cba53a4983300a5ff577f0d8c4713403fac95a0b7190e2e  ./release/edge-ai-model-evidence-v21.json
 2d0b0a48835a949916b40a565fcbacb70d75b847dfb16aa743b7241771311d1f  ./release/eu-national-implementation-review-v19.json
 d2a0890385ef86baf4305c743b724bf9f76c1b57ef99f5f022730a09c9c2f462  ./release/external-legal-evidence.json
 44d8b2ab7193668c85b090e14aaef87dfbfa3bc83c4b41c9c81da7e902c1959b  ./release/external-security-evidence.json
@@ -165,12 +165,12 @@ a683e79d9d55260f78400cac70d15568a70c037b3f65fbea572a0f002f0470b5  ./release/lega
 17fa37a2d27f175cf414572ae99d6f929c0e5b2eeafdcab03f1d510e7806ed7f  ./release/legal-language-applicability-r8.json
 2177968b99de307ac00cc12b0035153f8bef47c0ec57a437266dbb8e3bc6e323  ./release/legal-language-review-v19.json
 71cc1361429b39fbd3df91ade978a99635c3571dfb5819ea5d5b5880b8c841eb  ./release/legal-web-localization-manifest-v1.json
-fdaa49d2defc6d2d06775e743e271aab8fdaca30ae18b8a6003fce015548a51a  ./release/local-typecheck-evidence.json
+651de3827912e9115d45e102fa2d97b474b2e7a58f717ef612b95a5514363b40  ./release/local-typecheck-evidence.json
 33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1  ./release/local-validation/typecheck.txt
 677ff215c31c999312147aebddfcb9926a3683fefc086fc9787c2f674fed0e5a  ./release/localized-legal-web-manifest-r8.json
 55e5c8302450d272e71a18dda015b99650dd3ad42d942fa465dc8988f3e6eb5f  ./release/official-source-review-v19.json
 66d3239ebae77b04500b195d529e76ca9cbc0e7b58f0429f4da6aba6b07fa30a  ./release/operator-tax-registration-subdimension-review-v19.json
-09208e66af9b4cd3cb12e43f88ed1d3dd15f3dbc4b30428f54f3f6752ae69240  ./release/release-blocker-inventory-v19.json
+307275747e853427c120c1c22cc9944e18189c932c38de6b7abf17e11c0e5981  ./release/release-blocker-inventory-v19.json
 f314c0ed4983c6ae112f5cb1b31705f61f7ba2b90bb3f3431b4afd490aee6f0b  ./release/roadmap-implementation-v21.json
 4b2d6f7441c82c1a70ffc8a55b0d4b5296e24f9d7d229358acdf936d391b94e3  ./release/security-control-applicability-v19.json
 6a70d740a8dc4be8189f99a0a3ff87a00f5b20d5423676f63b21b818172b7d78  ./release/security-incident-obligations-v19.json
@@ -206,7 +206,7 @@ ab02cf2d3c158357d643c60c7dcf91c541140a985aebf7eea07b7ed21acaa454  ./scripts/dail
 17ad24edadccab11625e651bf4c3c3a19f56ade6e22e3f910faf471974dbe9be  ./scripts/design-token-purity-checks.mjs
 20c72fff508595f7570096892a11fb01bac3375983292f1ede7de7ef880b9892  ./scripts/domain-tests.mjs
 245be6ee91aae26c37db1c65e085f94c05efa538c34c7157e78681a7010963a0  ./scripts/eas-preinstall.mjs
-aed33c16aa67be4cbc9fc6b8f53c25d6380dd6cbfc96f0cc17bd96e2e333cf6d  ./scripts/edge-ai-release-check.mjs
+cd7d99dc87811d56c336a98cc42d1e64d7e894d7a7407bc1399637032d7ecf43  ./scripts/edge-ai-release-check.mjs
 bcc786a458b82d07f8575f1cad41fe3ef0145842819fddcf3749a3e45431485a  ./scripts/edge-ai-runtime-checks.mjs
 f6460b94cf2e8388752a7d66ff9173fe12dca0c1e477b19b8d3263aa2bb43e3f  ./scripts/edge-semantic-check.mjs
 f39d7f5aea927e135cc9876fb716d215dd7418f6377b289711fea7627b986211  ./scripts/edge-semantic-globals.d.ts
@@ -274,7 +274,7 @@ ef4d05da96599b738f7468bc2a6ed575aff16afd4ce1cd6981390bcb9dae5b91  ./scripts/prod
 15ffb0796de2de9c508a57b173620497e752f7a3c3fb0036a13628e4fbdcd164  ./scripts/reels-checks.mjs
 fe5b237d25feafcd38d50971b8cd8594a1ec703fc74da92bfc09c37d398f1c59  ./scripts/regional-billing-policy-checks.mjs
 da4e5e101a99ecb44eb3b4d4153d15ffc66a4f67369df8b499b0741231f56865  ./scripts/release-check-all.mjs
-6b93f8eda61b3b79ab1f12d1878d9fc8b12a7ed95ae9ba88ebaa1d3322c43807  ./scripts/release-config-check.mjs
+78b86162b251d8a31bb19439cc28394aed98407eea2166e3e590ea1dcc4571bc  ./scripts/release-config-check.mjs
 a4cf91883d98b3ce6f921870b714c633a2d4ae0aadc2b252332cc16aba45d995  ./scripts/release-structure-check.mjs
 237ebdb587eeb17c9c4e41cbd2e15496963472df55152edb563124a3a7b1ff7b  ./scripts/repository-hygiene-checks.mjs
 a8cc00c66fdea0b8c6adf8151f00f83901c9733245f8641bd805c01eb4c2fc26  ./scripts/resilience-chaos-checks.mjs

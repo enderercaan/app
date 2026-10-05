@@ -48,5 +48,13 @@
       "required_p95_warm_inference_ms_lte": 30,
       "measured_p95_warm_inference_ms": null
     }
+  },
+  "v1_scope_decision": {
+    "decision": "disabled_in_v1_server_moderation_authoritative",
+    "decided_at": "2026-10-05",
+    "decided_by": "Yekta Özel (operator); execution delegated to the assistant by the operator's written instruction of 2026-10-05",
+    "effect": "No on-device model is shipped or downloaded in the first store release. EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL/SHA256 stay unset; prefilterImageSafety returns 'unavailable' and every upload goes through server-side moderation (moderate-media), which is the authoritative decision maker.",
+    "reversal": "Set decision to 'enabled', supply the manifest and complete every required item below; the fail-closed matrix applies again unchanged.",
+    "user_facing_claims": "No store text, legal page or in-app text may claim on-device image screening while this decision is in force."
   }
 }

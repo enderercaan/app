@@ -135,6 +135,10 @@
           "requirement": "nonempty_nonplaceholder_release_value"
         },
         {
+          "name": "_EDGE_AI_",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
           "name": "EXPO_PUBLIC_APP_ENV",
           "required_value": "production"
         }

@@ -1,4 +1,5 @@
 import { existsSync, readFileSync } from 'node:fs';
+const edgeAiDisabledInV1 = JSON.parse(readFileSync('release/edge-ai-model-evidence-v21.json','utf8')).v1_scope_decision?.decision === 'disabled_in_v1_server_moderation_authoritative';
 const required = [
   'EXPO_PUBLIC_SUPABASE_URL',
   'EXPO_PUBLIC_SUPABASE_ANON_KEY',
@@ -27,7 +28,7 @@ const required = [
   'EXPO_PUBLIC_PLAY_INTEGRITY_CLOUD_PROJECT_NUMBER',
   'GOOGLE_MAPS_ANDROID_API_KEY',
   'GOOGLE_SERVICES_JSON'
-];
+].filter(name => !(edgeAiDisabledInV1 && name.includes('_EDGE_AI_')));
 const placeholder = /YOUR_|REPLACE_|xxxxx|example\.com|idREPLACE/i;
 const failures=[];
 const value=(name)=>(process.env[name]??'').trim();
@@ -71,8 +72,8 @@ match('EXPO_PUBLIC_SUPABASE_URL',/^https:\/\/[^/]+\.supabase\.co$/i,'must be an 
 match('EXPO_PUBLIC_SENTRY_DSN',/^https:\/\/[^\s]+$/i,'must use HTTPS');
 match('EXPO_PUBLIC_AUTH_CHALLENGE_URL',/^https:\/\/[^\s?#]+(?:[/?][^\s#]*)?$/i,'must be an HTTPS auth challenge page');
 match('EXPO_PUBLIC_APP_LINK_HOST',/^(?=.{1,253}$)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,63}$/,'must be a bare public DNS hostname without scheme, path, wildcard, port, localhost, or IP literal');
-match('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL',/^https:\/\/[^\s?#]+(?:\?[^\s#]*)?$/i,'must be a credential-free HTTPS model-manifest URL');
-match('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_SHA256',/^[a-f0-9]{64}$/i,'must be the exact SHA-256 of the approved model manifest');
+if(!edgeAiDisabledInV1)match('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL',/^https:\/\/[^\s?#]+(?:\?[^\s#]*)?$/i,'must be a credential-free HTTPS model-manifest URL');
+if(!edgeAiDisabledInV1)match('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_SHA256',/^[a-f0-9]{64}$/i,'must be the exact SHA-256 of the approved model manifest');
 if(value('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL')){try{const u=new URL(value('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL'));if(u.username||u.password||u.hash)failures.push('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL: credentials and fragments are forbidden')}catch{failures.push('EXPO_PUBLIC_EDGE_AI_MODEL_MANIFEST_URL: invalid URL')}}
 if(value('SENTRY_AUTH_TOKEN') && value('SENTRY_AUTH_TOKEN').length<20) failures.push('SENTRY_AUTH_TOKEN: implausibly short');
 for (const name of ['EXPO_PUBLIC_IOS_APP_URL','EXPO_PUBLIC_ANDROID_APP_URL']) match(name,/^https:\/\//i,'must use HTTPS');
