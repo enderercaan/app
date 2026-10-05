@@ -38,6 +38,28 @@ assert.match(longText.tr,/veteriner hekim, klinik veya sicil katılmaz/);assert.
 // The on-device photo model is not shipped in the first release, so no document may say that photos are screened on the device.
 for(const locale of locales){const pn=JSON.parse(readFileSync(`web/legal-source/${locale}.json`,'utf8')).documents.privacy_notice;const blob=JSON.stringify(pn);assert.doesNotMatch(blob,/on-device model|cihaz üzerindeki bir model|端末内のモデル|기기 내 모델|设备端模型|裝置端模型|модель на устройстве|Modell auf dem Gerät|modelo en el dispositivo|modèle exécuté sur l’appareil|modello sul dispositivo|model działający na urządzeniu|modelo no dispositivo|model di perangkat|mô hình chạy trên thiết bị|โมเดลบนอุปกรณ์|डिवाइस पर चलने वाला मॉडल|نموذج يعمل على الجهاز|model al dispositiu|gailuko modelo|modelo no dispositivo/i,`${locale}: privacy notice must not claim on-device photo screening`)}
 assert.equal(countryDocs,594,'expected 594 country x language supplements');
+// Mating is arranged by owners among themselves: every legal surface says Tailmance takes no part and gives no guarantee.
+const mateTail={};
+for(const locale of locales){
+  const docs=JSON.parse(readFileSync(`web/legal-source/${locale}.json`,'utf8')).documents;
+  const terms=docs.terms.sections[5].blocks[0].text;
+  const tail=terms.slice(-70);
+  mateTail[locale]=tail;
+  const cgBlocks=docs.community_guidelines.sections.flatMap(sec=>sec.blocks.flatMap(b=>b.text?[b.text]:(b.items??[])));
+  assert.ok(cgBlocks.some(t=>t.endsWith(tail)),`${locale}: community guidelines must carry the no-participation, no-guarantee mating statement`);
+  assert.ok(terms.length>200,`${locale}: terms mating section missing`);
+}
+assert.match(JSON.parse(readFileSync('web/legal-source/en.json','utf8')).documents.terms.sections[5].blocks[0].text,/Tailmance takes no part in it, gives no guarantee about it, its outcome or the health, fitness or pedigree of any animal/);
+let mateCountry=0;
+for(const file of globSync('web/legal-country-source/*/*.json')){
+  const locale=file.split('/').at(-1).replace('.json','');
+  const paragraphs=JSON.parse(readFileSync(file,'utf8')).sections.flatMap(sec=>sec.paragraphs??[]);
+  assert.ok(paragraphs.some(p=>p.endsWith(mateTail[locale])),`${file}: welfare paragraph must carry the mating no-guarantee statement`);
+  mateCountry++;
+}
+assert.equal(mateCountry,594);
+for(const f of ['web/terms.html','web/community-guidelines.html'])assert.ok(readFileSync(f,'utf8').includes(mateTail.tr),`${f}: Turkish mating no-guarantee statement missing`);
+
 // Static Turkish pages.
 const html=(f)=>readFileSync(f,'utf8');
 const trLong=longText.tr.replace(/^([^.]+\.) /,'$1</strong> ').replace(/^/,'<p><strong>');

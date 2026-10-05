@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance is geen dierenmarktplaats, verkoopplatform of fokkersmarktplaats. Prijzen, aanbetalingen, verkoop, levering, commerciële klantenwerving voor fokkers, illegale fokkerij en dierenhandel zijn verboden. Paring is standaard uitgeschakeld en kan alleen worden geactiveerd na uitdrukkelijke vrijgave en wanneer recht en dierenwelzijn dit toestaan. De dienst mag ook niet worden gebruikt om adoptie, herplaatsing of overdracht van eigendom van een huisdier aan te bieden, te vragen, te bemiddelen of te organiseren."
+              "text": "Tailmance is geen dierenmarktplaats, verkoopplatform of fokkersmarktplaats. Prijzen, aanbetalingen, verkoop, levering, commerciële klantenwerving voor fokkers, illegale fokkerij en dierenhandel zijn verboden. Paring is standaard uitgeschakeld en kan alleen worden geactiveerd na uitdrukkelijke vrijgave en wanneer recht en dierenwelzijn dit toestaan. De dienst mag ook niet worden gebruikt om adoptie, herplaatsing of overdracht van eigendom van een huisdier aan te bieden, te vragen, te bemiddelen of te organiseren. Eigenaren die een paring regelen, beheren het hele proces onderling; Tailmance neemt daar geen deel aan, geeft er geen garantie voor, noch voor de uitkomst of de gezondheid, geschiktheid of afstamming van enig dier en is, voor zover wettelijk toegestaan, niet verantwoordelijk voor afspraken tussen gebruikers. De AI-ondersteunde documentcontrole is zo’n garantie niet en AI kan fouten maken, controleer het dus alsjeblieft."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Paring is standaard uitgeschakeld en kan alleen na landspecifieke beoordeling van recht, welzijn, leeftijd, gezondheid en verwantschap worden geactiveerd. Schadelijke of illegale fokkerij mag niet worden bevorderd."
+              "text": "Paring is standaard uitgeschakeld en kan alleen na landspecifieke beoordeling van recht, welzijn, leeftijd, gezondheid en verwantschap worden geactiveerd. Schadelijke of illegale fokkerij mag niet worden bevorderd. Eigenaren die een paring regelen, beheren het hele proces onderling; Tailmance neemt daar geen deel aan, geeft er geen garantie voor, noch voor de uitkomst of de gezondheid, geschiktheid of afstamming van enig dier en is, voor zover wettelijk toegestaan, niet verantwoordelijk voor afspraken tussen gebruikers. De AI-ondersteunde documentcontrole is zo’n garantie niet en AI kan fouten maken, controleer het dus alsjeblieft."
             }
           ]
         },

@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance ist kein Tiermarkt, keine Verkaufsplattform und kein Züchtermarktplatz. Preise, Anzahlungen, Verkauf, Übergabe, gewerbliche Kundengewinnung für Züchter, rechtswidrige Zucht und Tierhandel sind untersagt. Verpaarung ist standardmäßig deaktiviert und nur nach ausdrücklicher Freigabe sowie bei rechtlicher und tierschutzrechtlicher Zulässigkeit nutzbar. Der Dienst darf außerdem nicht genutzt werden, um die Adoption, Vermittlung oder Übertragung des Eigentums an einem Tier anzubieten, anzufragen, zu vermitteln oder zu organisieren."
+              "text": "Tailmance ist kein Tiermarkt, keine Verkaufsplattform und kein Züchtermarktplatz. Preise, Anzahlungen, Verkauf, Übergabe, gewerbliche Kundengewinnung für Züchter, rechtswidrige Zucht und Tierhandel sind untersagt. Verpaarung ist standardmäßig deaktiviert und nur nach ausdrücklicher Freigabe sowie bei rechtlicher und tierschutzrechtlicher Zulässigkeit nutzbar. Der Dienst darf außerdem nicht genutzt werden, um die Adoption, Vermittlung oder Übertragung des Eigentums an einem Tier anzubieten, anzufragen, zu vermitteln oder zu organisieren. Halter, die eine Paarung vereinbaren, regeln den gesamten Ablauf untereinander; Tailmance ist daran nicht beteiligt, übernimmt keine Garantie dafür, für ihr Ergebnis oder für Gesundheit, Eignung oder Abstammung eines Tieres und haftet, soweit gesetzlich zulässig, nicht für Vereinbarungen zwischen Nutzern. Die KI-gestützte Dokumentenprüfung ist keine solche Garantie, und KI kann Fehler machen; bitte prüfe nach."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Verpaarung ist standardmäßig deaktiviert und wird nur nach länderspezifischer Prüfung von Recht, Tierwohl, Alter, Gesundheit und Verwandtschaft freigeschaltet. Schädliche oder rechtswidrige Zucht darf nicht gefördert werden."
+              "text": "Verpaarung ist standardmäßig deaktiviert und wird nur nach länderspezifischer Prüfung von Recht, Tierwohl, Alter, Gesundheit und Verwandtschaft freigeschaltet. Schädliche oder rechtswidrige Zucht darf nicht gefördert werden. Halter, die eine Paarung vereinbaren, regeln den gesamten Ablauf untereinander; Tailmance ist daran nicht beteiligt, übernimmt keine Garantie dafür, für ihr Ergebnis oder für Gesundheit, Eignung oder Abstammung eines Tieres und haftet, soweit gesetzlich zulässig, nicht für Vereinbarungen zwischen Nutzern. Die KI-gestützte Dokumentenprüfung ist keine solche Garantie, und KI kann Fehler machen; bitte prüfe nach."
             }
           ]
         },

@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance no es un mercado de animales, plataforma de venta ni mercado de criadores. No puede utilizarse para precios, depósitos, venta, entrega, captación comercial para criadores, cría ilegal o tráfico de animales. El apareamiento está desactivado por defecto y solo podrá activarse cuando Tailmance lo autorice expresamente y lo permitan la ley y el bienestar animal. El servicio tampoco puede utilizarse para ofrecer, solicitar, intermediar u organizar la adopción, la reubicación o la transferencia de titularidad de una mascota."
+              "text": "Tailmance no es un mercado de animales, plataforma de venta ni mercado de criadores. No puede utilizarse para precios, depósitos, venta, entrega, captación comercial para criadores, cría ilegal o tráfico de animales. El apareamiento está desactivado por defecto y solo podrá activarse cuando Tailmance lo autorice expresamente y lo permitan la ley y el bienestar animal. El servicio tampoco puede utilizarse para ofrecer, solicitar, intermediar u organizar la adopción, la reubicación o la transferencia de titularidad de una mascota. Las personas propietarias que acuerden un apareamiento gestionan el proceso completo entre ellas; Tailmance no participa en él, no ofrece ninguna garantía sobre el apareamiento, su resultado ni la salud, aptitud o pedigrí de ningún animal y, en la medida en que la ley lo permita, no se responsabiliza de los acuerdos entre usuarios. La comprobación documental asistida por IA no es una garantía de ese tipo, y la IA puede cometer errores, por lo que te pedimos que lo compruebes."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "El apareamiento está desactivado por defecto y solo puede activarse tras revisión específica de país sobre ley, bienestar, edad, salud y parentesco. No se permite promover cría dañina o ilegal."
+              "text": "El apareamiento está desactivado por defecto y solo puede activarse tras revisión específica de país sobre ley, bienestar, edad, salud y parentesco. No se permite promover cría dañina o ilegal. Las personas propietarias que acuerden un apareamiento gestionan el proceso completo entre ellas; Tailmance no participa en él, no ofrece ninguna garantía sobre el apareamiento, su resultado ni la salud, aptitud o pedigrí de ningún animal y, en la medida en que la ley lo permita, no se responsabiliza de los acuerdos entre usuarios. La comprobación documental asistida por IA no es una garantía de ese tipo, y la IA puede cometer errores, por lo que te pedimos que lo compruebes."
             }
           ]
         },

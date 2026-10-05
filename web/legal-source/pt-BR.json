@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance não é marketplace de animais, plataforma de venda ou marketplace de criadores. Preço, sinal, venda, entrega, captação comercial para criadores, criação ilegal e tráfico são proibidos. O acasalamento fica desativado por padrão e só pode ser ativado quando expressamente liberado e permitido pela lei e pelo bem-estar animal. O serviço também não pode ser usado para oferecer, solicitar, intermediar ou organizar adoção, realocação ou transferência de titularidade de um pet."
+              "text": "Tailmance não é marketplace de animais, plataforma de venda ou marketplace de criadores. Preço, sinal, venda, entrega, captação comercial para criadores, criação ilegal e tráfico são proibidos. O acasalamento fica desativado por padrão e só pode ser ativado quando expressamente liberado e permitido pela lei e pelo bem-estar animal. O serviço também não pode ser usado para oferecer, solicitar, intermediar ou organizar adoção, realocação ou transferência de titularidade de um pet. Os tutores que combinam um acasalamento conduzem o processo inteiro entre si; o Tailmance não participa dele, não dá nenhuma garantia sobre ele, seu resultado ou a saúde, a aptidão ou o pedigree de qualquer animal e, na medida permitida em lei, não se responsabiliza pelos acordos entre usuários. A verificação documental assistida por IA não é uma garantia desse tipo, e a IA pode cometer erros, por isso confira."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Acasalamento fica desativado por padrão e só pode ser ativado após revisão específica do país sobre lei, bem-estar, idade, saúde e parentesco. Não promova criação prejudicial ou ilegal."
+              "text": "Acasalamento fica desativado por padrão e só pode ser ativado após revisão específica do país sobre lei, bem-estar, idade, saúde e parentesco. Não promova criação prejudicial ou ilegal. Os tutores que combinam um acasalamento conduzem o processo inteiro entre si; o Tailmance não participa dele, não dá nenhuma garantia sobre ele, seu resultado ou a saúde, a aptidão ou o pedigree de qualquer animal e, na medida permitida em lei, não se responsabiliza pelos acordos entre usuários. A verificação documental assistida por IA não é uma garantia desse tipo, e a IA pode cometer erros, por isso confira."
             }
           ]
         },

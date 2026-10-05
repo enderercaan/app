@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance no és un mercat d'animals, una plataforma de venda d'animals ni un mercat de criadors. No es pot utilitzar per acordar preus, dipòsits, vendes o lliuraments d'animals, captar clients comercialment per a criadors, fer cria il·legal ni traficar amb animals. L'aparellament està desactivat per defecte i només es pot habilitar quan Tailmance l'activi expressament i ho permetin la legislació aplicable i les normes de benestar animal. El servei tampoc no es pot utilitzar per oferir, sol·licitar, intermediar o organitzar l’adopció, la reubicació o la transferència de titularitat d’una mascota."
+              "text": "Tailmance no és un mercat d'animals, una plataforma de venda d'animals ni un mercat de criadors. No es pot utilitzar per acordar preus, dipòsits, vendes o lliuraments d'animals, captar clients comercialment per a criadors, fer cria il·legal ni traficar amb animals. L'aparellament està desactivat per defecte i només es pot habilitar quan Tailmance l'activi expressament i ho permetin la legislació aplicable i les normes de benestar animal. El servei tampoc no es pot utilitzar per oferir, sol·licitar, intermediar o organitzar l’adopció, la reubicació o la transferència de titularitat d’una mascota. Les persones propietàries que concerten un aparellament gestionen tot el procés entre elles; Tailmance no hi pren part, no en dona cap garantia, ni sobre el resultat ni sobre la salut, l'aptitud o el llinatge de cap animal i, en la mesura que la llei ho permeti, no es fa responsable dels acords entre usuaris. La comprovació documental assistida per IA no és una garantia d'aquest tipus, i la IA pot cometre errors, per la qual cosa et demanem que ho comprovis."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Les funcions d'aparellament estan desactivades per defecte i només es poden habilitar després que s'aprovin els controls específics del país sobre legalitat, benestar, edat, salut i parentiu. Les persones usuàries no han d'utilitzar el servei per promoure cria perjudicial o il·legal."
+              "text": "Les funcions d'aparellament estan desactivades per defecte i només es poden habilitar després que s'aprovin els controls específics del país sobre legalitat, benestar, edat, salut i parentiu. Les persones usuàries no han d'utilitzar el servei per promoure cria perjudicial o il·legal. Les persones propietàries que concerten un aparellament gestionen tot el procés entre elles; Tailmance no hi pren part, no en dona cap garantia, ni sobre el resultat ni sobre la salut, l'aptitud o el llinatge de cap animal i, en la mesura que la llei ho permeti, no es fa responsable dels acords entre usuaris. La comprovació documental assistida per IA no és una garantia d'aquest tipus, i la IA pot cometre errors, per la qual cosa et demanem que ho comprovis."
             }
           ]
         },

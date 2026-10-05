@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance nie jest platformą sprzedaży zwierząt ani rynkiem hodowców. Ustalanie ceny, zaliczki, sprzedaż, dostawa, pozyskiwanie klientów dla hodowców, nielegalna hodowla i handel zwierzętami są zabronione. Funkcja kojarzenia jest domyślnie wyłączona i może zostać włączona tylko po wyraźnym uruchomieniu oraz gdy zezwala na to prawo i dobrostan zwierząt. Usługi nie wolno również używać do oferowania, poszukiwania, pośredniczenia ani organizowania adopcji, oddania do nowego domu lub przeniesienia własności zwierzęcia."
+              "text": "Tailmance nie jest platformą sprzedaży zwierząt ani rynkiem hodowców. Ustalanie ceny, zaliczki, sprzedaż, dostawa, pozyskiwanie klientów dla hodowców, nielegalna hodowla i handel zwierzętami są zabronione. Funkcja kojarzenia jest domyślnie wyłączona i może zostać włączona tylko po wyraźnym uruchomieniu oraz gdy zezwala na to prawo i dobrostan zwierząt. Usługi nie wolno również używać do oferowania, poszukiwania, pośredniczenia ani organizowania adopcji, oddania do nowego domu lub przeniesienia własności zwierzęcia. Opiekunowie, którzy umawiają krycie, samodzielnie prowadzą cały proces między sobą; Tailmance nie bierze w nim udziału, nie daje żadnej gwarancji co do niego, jego wyniku ani zdrowia, przydatności czy rodowodu jakiegokolwiek zwierzęcia i, w zakresie dozwolonym przez prawo, nie odpowiada za ustalenia między użytkownikami. Wspierane przez AI sprawdzenie dokumentów nie jest taką gwarancją, a AI może popełniać błędy, dlatego prosimy o sprawdzenie."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Kojarzenie jest domyślnie wyłączone i może zostać włączone dopiero po krajowej ocenie prawa, dobrostanu, wieku, zdrowia i pokrewieństwa. Nie promuj szkodliwej ani nielegalnej hodowli."
+              "text": "Kojarzenie jest domyślnie wyłączone i może zostać włączone dopiero po krajowej ocenie prawa, dobrostanu, wieku, zdrowia i pokrewieństwa. Nie promuj szkodliwej ani nielegalnej hodowli. Opiekunowie, którzy umawiają krycie, samodzielnie prowadzą cały proces między sobą; Tailmance nie bierze w nim udziału, nie daje żadnej gwarancji co do niego, jego wyniku ani zdrowia, przydatności czy rodowodu jakiegokolwiek zwierzęcia i, w zakresie dozwolonym przez prawo, nie odpowiada za ustalenia między użytkownikami. Wspierane przez AI sprawdzenie dokumentów nie jest taką gwarancją, a AI może popełniać błędy, dlatego prosimy o sprawdzenie."
             }
           ]
         },

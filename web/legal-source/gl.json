@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance non é un mercado de animais, unha plataforma de venda de animais nin un mercado de criadores. Non se pode utilizar para acordar prezos, depósitos, vendas ou entregas de animais, captar clientela comercialmente para criadores, realizar cría ilegal nin traficar con animais. O apareamento está desactivado por defecto e só poderá habilitarse cando Tailmance o active expresamente e o permitan a lexislación aplicable e as normas de benestar animal. O servizo tampouco se pode utilizar para ofrecer, solicitar, mediar ou organizar a adopción, o realoxamento ou a transferencia da titularidade dunha mascota."
+              "text": "Tailmance non é un mercado de animais, unha plataforma de venda de animais nin un mercado de criadores. Non se pode utilizar para acordar prezos, depósitos, vendas ou entregas de animais, captar clientela comercialmente para criadores, realizar cría ilegal nin traficar con animais. O apareamento está desactivado por defecto e só poderá habilitarse cando Tailmance o active expresamente e o permitan a lexislación aplicable e as normas de benestar animal. O servizo tampouco se pode utilizar para ofrecer, solicitar, mediar ou organizar a adopción, o realoxamento ou a transferencia da titularidade dunha mascota. As persoas propietarias que concerten un aparellamento xestionan o proceso completo entre elas; Tailmance non participa nel, non ofrece ningunha garantía sobre o aparellamento, o seu resultado nin a saúde, a aptitude ou o pedigrí de ningún animal e, na medida en que a lei o permita, non se responsabiliza dos acordos entre usuarios. A comprobación documental asistida por IA non é unha garantía deste tipo, e a IA pode cometer erros, polo que che pedimos que o comprobes."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "As funcións de apareamento están desactivadas por defecto e só se poderán habilitar despois de aprobar os controis específicos do país sobre legalidade, benestar, idade, saúde e parentesco. As persoas usuarias non deberán utilizar o servizo para promover cría prexudicial ou ilegal."
+              "text": "As funcións de apareamento están desactivadas por defecto e só se poderán habilitar despois de aprobar os controis específicos do país sobre legalidade, benestar, idade, saúde e parentesco. As persoas usuarias non deberán utilizar o servizo para promover cría prexudicial ou ilegal. As persoas propietarias que concerten un aparellamento xestionan o proceso completo entre elas; Tailmance non participa nel, non ofrece ningunha garantía sobre o aparellamento, o seu resultado nin a saúde, a aptitude ou o pedigrí de ningún animal e, na medida en que a lei o permita, non se responsabiliza dos acordos entre usuarios. A comprobación documental asistida por IA non é unha garantía deste tipo, e a IA pode cometer erros, polo que che pedimos que o comprobes."
             }
           ]
         },

@@ -63,7 +63,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Tailmance non è un marketplace di animali, piattaforma di vendita o marketplace di allevatori. Prezzi, caparre, vendita, consegna, acquisizione commerciale di clienti per allevatori, allevamento illecito e traffico sono vietati. L’accoppiamento è disattivato per impostazione predefinita e può essere abilitato solo se espressamente autorizzato e consentito da legge e benessere animale. Il servizio non può inoltre essere utilizzato per offrire, richiedere, intermediare o organizzare l’adozione, il ricollocamento o il trasferimento della proprietà di un animale."
+              "text": "Tailmance non è un marketplace di animali, piattaforma di vendita o marketplace di allevatori. Prezzi, caparre, vendita, consegna, acquisizione commerciale di clienti per allevatori, allevamento illecito e traffico sono vietati. L’accoppiamento è disattivato per impostazione predefinita e può essere abilitato solo se espressamente autorizzato e consentito da legge e benessere animale. Il servizio non può inoltre essere utilizzato per offrire, richiedere, intermediare o organizzare l’adozione, il ricollocamento o il trasferimento della proprietà di un animale. I proprietari che organizzano un accoppiamento gestiscono l’intero processo tra loro; Tailmance non vi partecipa, non offre alcuna garanzia in merito, sul suo esito né sulla salute, l’idoneità o il pedigree di alcun animale e, nei limiti consentiti dalla legge, non risponde degli accordi tra utenti. La verifica documentale assistita dall’IA non costituisce una tale garanzia e l’IA può commettere errori: controlla."
             }
           ]
         },
@@ -409,7 +409,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "L’accoppiamento è disattivato per default e attivabile solo dopo revisione specifica del Paese su legge, benessere, età, salute e parentela. Non promuovere allevamento dannoso o illegale."
+              "text": "L’accoppiamento è disattivato per default e attivabile solo dopo revisione specifica del Paese su legge, benessere, età, salute e parentela. Non promuovere allevamento dannoso o illegale. I proprietari che organizzano un accoppiamento gestiscono l’intero processo tra loro; Tailmance non vi partecipa, non offre alcuna garanzia in merito, sul suo esito né sulla salute, l’idoneità o il pedigree di alcun animale e, nei limiti consentiti dalla legge, non risponde degli accordi tra utenti. La verifica documentale assistita dall’IA non costituisce una tale garanzia e l’IA può commettere errori: controlla."
             }
           ]
         },
