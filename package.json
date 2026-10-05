@@ -186,7 +186,7 @@
     "expo-task-manager": "~57.0.21",
     "expo-video": "~57.0.5",
     "livekit-client": "2.22.3",
-    "react": "19.2.3",
+    "react": "19.3.0",
     "react-native": "0.86.3",
     "react-native-gesture-handler": "~2.32.0",
     "react-native-maps": "1.27.2",
@@ -198,7 +198,7 @@
     "react-native-url-polyfill": "^3.0.0"
   },
   "devDependencies": {
-    "@types/react": "~19.2.0",
+    "@types/react": "~19.3.0",
     "typescript": "~5.9.2"
   },
   "type": "module",
