@@ -196,6 +196,8 @@
                 "Abonelik verileri: mağaza abonelik durumu ve işlem referansları. Ödeme kartı numarası Tailmance tarafından doğrudan toplanmaz.",
                 "Güvenlik ve moderasyon verileri: raporlar, engellemeler, moderasyon kararları, itirazlar ve ilgili inceleme bilgileri.",
                 "Bildirim ve pazarlama tercihleri: hizmet bildirim tercihleri ve yalnız ayrıca seçersen pazarlama amaçlı mobil anlık bildirim rıza kayıtları.",
+                "Tanılama verileri: uygulama çökme ve performans kayıtları.",
+                "Kimlik ve yaş doğrulama sonuçları: bu özellikler kullanılırsa hayvan sahibinin kimlik doğrulaması ve yaş doğrulamasının durumu ve sonucu; Tailmance ham resmî kimlik belgesi görüntülerini saklamaz.",
                 "Hukuki bağlam kayıtları: sana hangi ülke, bölge ve belge dili bağlamında hangi hukuki belgelerin gösterildiğini ve hangi seçimleri yaptığını ispatlamaya yarayan kayıtlar."
               ]
             }

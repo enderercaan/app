@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Możemy przetwarzać dane konta/sesji; bezpieczeństwa, urządzenia, sieci, IP i push; profile zwierząt, zdjęcia i interakcje; przybliżoną lokalizację; dobrowolne dane zdrowia, szczepień i weryfikacji; status subskrypcji i referencje sklepu; zgłoszenia, blokady, moderację i odwołania; preferencje; oraz dowody kontekstu prawnego i pokazanych dokumentów."
+              "text": "Możemy przetwarzać dane konta i sesji, w tym Twój adres e-mail i identyfikatory logowania; dane bezpieczeństwa, urządzenia, sieci, adresu IP i tokenu push; diagnostykę awarii i wydajności; profile zwierząt, zdjęcia, posty, relacje i prywatne wiadomości między dopasowanymi zwierzętami; przybliżoną lokalizację do wyszukiwania; dane o zdrowiu, szczepieniach i weryfikacji, które zdecydujesz się przesłać; wyniki weryfikacji tożsamości właściciela i weryfikacji wieku, gdy z tych funkcji korzystasz; status subskrypcji i referencje transakcji ze sklepu; zgłoszenia, blokady, moderację i odwołania; preferencje powiadomień i marketingu; oraz dowody tego, jaki kontekst prawny i jakie dokumenty zostały Ci wyświetlone."
             }
           ]
         },

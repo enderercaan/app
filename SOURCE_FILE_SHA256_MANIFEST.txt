@@ -9,7 +9,7 @@ c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
 40aa3964248629a7b15447fc50ae505108defa38d45a19d698eb24cf712dd94a  ./NOTICE.md
 a9615384aab74a7a0c7635bf316d69c966fc22e8f291e4aa4556b4604a56ea0b  ./PRODUCT_STRATEGY_RETENTION_AND_MONETIZATION_BOUNDARY_2026-09-30.md
 e24920393900a3423dc708af5c5816785bb75f2885fd23c769511296fc053ac3  ./README.md
-4e4ad518cf90605f262d39a22931cd8d66fb781388a8c197faab4616dca7e362  ./RELEASE_EVIDENCE.json
+7ac8916d6709553b9160baf6f04fbe5f708614f76418817cb55398ec3583264e  ./RELEASE_EVIDENCE.json
 ade6cab3ed8b9a53578a334c6407a3dc5620537c92ce8dbe12f71fa273fee9dc  ./RELEASE_MANIFEST.json
 a077b0eb631934e0d80b5f2338c706ac62c216838846648aad3c60d479e036ad  ./app.config.ts
 c1ac4dd9de0bbbced5d95c501a0db79cfe22c2eb83176b5fb53ba9308f9c9946  ./assets/adaptive-foreground.png
@@ -163,10 +163,10 @@ a683e79d9d55260f78400cac70d15568a70c037b3f65fbea572a0f002f0470b5  ./release/lega
 55e93a20aef5456703d1da64f21a46720b6c72031f25b919dec8aa2e69fd1c74  ./release/legal-gap-register-v19.json
 17fa37a2d27f175cf414572ae99d6f929c0e5b2eeafdcab03f1d510e7806ed7f  ./release/legal-language-applicability-r8.json
 2177968b99de307ac00cc12b0035153f8bef47c0ec57a437266dbb8e3bc6e323  ./release/legal-language-review-v19.json
-7ce833db486f592c39a1bc4d6d7b9b978c6d81910085f9ade12adee7467225f6  ./release/legal-web-localization-manifest-v1.json
-70a1f8a1e57ac2b9cb0419a353c8d72729fab76f49fbe7d39b13754e11b3fcd9  ./release/local-typecheck-evidence.json
+2a6f48259a063adcb9965d8c85235cbd34ceee6cae6a4a2231204f45ae638ac6  ./release/legal-web-localization-manifest-v1.json
+45f36f797394879085be8d2bfd6ea63ea752deb5dbd80d7736ce1624d3df1c23  ./release/local-typecheck-evidence.json
 33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1  ./release/local-validation/typecheck.txt
-8a518f10c6b4dc76f6eb11c7ca12e36f7720a9754952c57d9e7f9c594d8e4363  ./release/localized-legal-web-manifest-r8.json
+095aded064dd5d9878e9d92c4eafa00243151e21e274566fbc99a871d3b404e5  ./release/localized-legal-web-manifest-r8.json
 55e5c8302450d272e71a18dda015b99650dd3ad42d942fa465dc8988f3e6eb5f  ./release/official-source-review-v19.json
 66d3239ebae77b04500b195d529e76ca9cbc0e7b58f0429f4da6aba6b07fa30a  ./release/operator-tax-registration-subdimension-review-v19.json
 09208e66af9b4cd3cb12e43f88ed1d3dd15f3dbc4b30428f54f3f6752ae69240  ./release/release-blocker-inventory-v19.json
@@ -718,7 +718,7 @@ ee3e5f1f89610d3d9dffcb49168707473a358a814c028b6db649f002b34ce2f0  ./web/config.j
 79431a74fc619be397b4bc653f510ab3c1373f8e9acc72844d8f3c47524f2bfd  ./web/delete-account.html
 4fb4978108af8005e1eb5b5153c78fd2409d070d0ba74bae29082a712b7914b6  ./web/delete-account.js
 0254b127d8e8122179dff31b0fa82da9ab53ec84efbe1dde6aa5c4a681c88493  ./web/intellectual-property.html
-2d43a90651e0eb7b44cca8866b7ef08f65cc7aaf138311aa2540ce47db19b50c  ./web/kvkk.html
+4996ff413439ac9b38cdcb41c9de0f5e4dd9f77b83382268f7343254d3fbdbda  ./web/kvkk.html
 eee52371970373f63abb88ba77cf2aeb294aacc8d7460a20347a6f96be35c97c  ./web/legal-chrome-copy.json
 63383ffed8365b01b6a742a8ac5ba037028a605fc21f4d89bbba1160f4eec94c  ./web/legal-country-source/AE/ar.json
 18d6aecf1a136c0d38a5463d38a8acc3d63f9a4d9c330dd01691ac41f748f2ff  ./web/legal-country-source/AE/ca.json
@@ -1932,28 +1932,28 @@ b088cfb87cdba2eca93f08b574b0584ea53e76dc43d0b4e5d5494e21b7e584c1  ./web/legal-lo
 4e97fce18bb0d66fba519e0f2e5a614c893baa3f865e369046d93376c7e58019  ./web/legal-locales/vi.json
 234ce26c5cf45c47889dc20c060015bf49c481d2906e6fd95bf3956d4d76cac0  ./web/legal-locales/zh-Hans.json
 2b968f7a1edbfb7b136806d1245abc427af49eb397b44b1852052b5c91ef0474  ./web/legal-locales/zh-Hant.json
-9e5ad4653893661b6f6e6cfb3f0aaa605fb8ef4502bfd310eb1ccdbe000e8b0f  ./web/legal-source/ar.json
-603fbf32e369efea71d7afbdc5671b4d2ebdef7b53bb6d43590bb1359a474cd4  ./web/legal-source/ca.json
-6e8cd143f04f22b1919173c55282275081d64b159a1bdcbc8e07d835da92e040  ./web/legal-source/de.json
-6ab5ac06b7d8fe1d2c4f0341b2b25d815f2a17303f6b7a67e31e6621d3b9884a  ./web/legal-source/en.json
-8398eb4984ac3fe739847895178d2f773fda28fb6039b5054e7eb75cdb578642  ./web/legal-source/es.json
-cad8ca447b3c7a3b92a3b874a3fe028426ba10a2096e76eb3564338914bfadd9  ./web/legal-source/eu.json
-2d9afbff7abd3d0cf6774c0c65b4aacf9cc62987d8fd67913af3c03cbfdcba9e  ./web/legal-source/fr.json
-d78cd376336d52f608f9abf349508eec752eefa0738d780cff44262fffe9addc  ./web/legal-source/gl.json
-6a8c8a971839799b2cb99027abbd3e7ecbf5557a53c342101d2ad8769d90d1a0  ./web/legal-source/hi.json
-b8b35317985c5027dcc0a07fd100c582fc794fe83b30cef4e7be83039ee40782  ./web/legal-source/id.json
-d83768a80ed92c2e8d72c6e60c6f3d239ce34092ca1fee3564012f32c9277a56  ./web/legal-source/it.json
-318cba883d71364092d02469e419f86f91b6f9e6e45913c79d6372789ba071a2  ./web/legal-source/ja.json
-78cb41132fb900611c4bbc39973531a7ea6c5f67ff81a3fc3bcdb12aec266f91  ./web/legal-source/ko.json
-4fea2f097fd1f4dc256751e88d7840b7c5cc9f331607b9833f9bf59c0d624790  ./web/legal-source/nl.json
-6e08ead5a6fb0e3a040a0c59644018dff1760cd7fb6b8d7313d99ca8cd07dca1  ./web/legal-source/pl.json
-f84ab8b3e5eeb77ae5094260e16f35b73fae128b1cf8d66babffad7380117a69  ./web/legal-source/pt-BR.json
-425b5ec7320c15c1de61db958693bfdb6043059a064b17083d40a5cc9f4cbb61  ./web/legal-source/ru.json
-d11ceafb63691ff88a65248f3125c8c2605bf02594995153377c51eca1bfd765  ./web/legal-source/th.json
-ffeaddffadb1271111fea235988fa340d2ca92448b33fb998f29b83b7e975b24  ./web/legal-source/tr.json
-bcc2f472dc5aec055a8c4398ec4d00697db87618fc7bb897b3380d58e3f7cdcc  ./web/legal-source/vi.json
-c508b577e5f776c2fc39a0629c2a7f3c1aad305b20cc01673012d5afed10b01e  ./web/legal-source/zh-Hans.json
-ff93e18103b24e27ac4fbd75397aaca71679438146500d5d49ab8d54211ed334  ./web/legal-source/zh-Hant.json
+01e804ac980acec51ec88eebdc4d643ec4ffc3cefea1607fca616454a866e8ae  ./web/legal-source/ar.json
+97a8514679e0c358fc076e1cda54c68dc00982e8bdfb81364b95d431718f7888  ./web/legal-source/ca.json
+4a0ff59bc8599d0f28c0826522d78ceabe59dc4580480c4d85fa5743451be9b7  ./web/legal-source/de.json
+b78493dab9abefda80711be769674f023e61069000ae1b9aa00f6586e50296a6  ./web/legal-source/en.json
+64de03968234ccd4777af9e7935bc5b29ba2c6c38673cfae240a6b6454fedb24  ./web/legal-source/es.json
+8a779e4f7a0845d88589ae8b6ccbd679c00a6dd2abaed1c0f0c170737fc1d259  ./web/legal-source/eu.json
+1651856716969c5869f94f489c9b5824b7ae75c496783c0cdc4de23daf803b47  ./web/legal-source/fr.json
+d4238161aba82edb81038952c4530681ac8cdb37d5104422e92900912ea5d37f  ./web/legal-source/gl.json
+3707e737c0ec4af7fd0cce5203f7c9df320376210ed510188651558f1262de81  ./web/legal-source/hi.json
+c975523ca36d635a98b474b48ca0fbef5858394d88e77d323d2184480789c488  ./web/legal-source/id.json
+737d7972f466905d7eb49c503ccf517f04a86ada44d65ed700fe7869c0ff45ac  ./web/legal-source/it.json
+984247aac40105e8d37b59ef2209fea492249278670c8b2972501db43ef6149a  ./web/legal-source/ja.json
+a7f47ef17da5181144328c3a59db054456db1fa734e24577674694b12e610eed  ./web/legal-source/ko.json
+a03a52537f43d18af8d1c42e3850121daf01c02d909ba615ee94169b7789a222  ./web/legal-source/nl.json
+29a3776796ea53c16e7b0d3ac83f67aa7e15769cd878dbee9f0ac8ebebd5ec7e  ./web/legal-source/pl.json
+f8827ac707a955321433942d2839287a55ff15cca931ee04da942397585996a4  ./web/legal-source/pt-BR.json
+12aecbd873b0c31d503eb2d567e595494e58b75b48aa887fbe56993b9727dfc4  ./web/legal-source/ru.json
+2461ceeec6249ed4d3e297885b1a1246bdf4590d4bdffe2ea65c4d21e4b5a0dc  ./web/legal-source/th.json
+dec806f7d13265d35f2c84a71c9c7c62e401447216fc71c57dd72ce5200f088d  ./web/legal-source/tr.json
+fbbf84241cc6bcfe9a3eac00603170a8102dc3da69036bfef3bb8f03f026d92c  ./web/legal-source/vi.json
+f71b9662f18e03571126747c3e2e4ab61c6f3e3850e8fd41051d322061ec1b48  ./web/legal-source/zh-Hans.json
+ec6da57c04edb78b6bb1c29dd55a5e8e61bac65c3534726cfc207f5952ace9df  ./web/legal-source/zh-Hant.json
 1bc115bc370b215cc30d0fcf6e3d13b1110286c71ec437a5339972223a065fc8  ./web/legal/ar/accessibility.html
 d5e8d743f8b37a46b2c7eb220bf6133dddf260eda53598b4d9adbbf8c56aecde  ./web/legal/ar/community-guidelines.html
 e1303b0f1c5d5a7e5e5f29df953a9244d0b209c4a66c67c98bfdbe203a18eb11  ./web/legal/ar/delete-account.html
@@ -1961,7 +1961,7 @@ f7c4de803abaaa9fe96700cf6d820c4c3886739e7908723e45fcd130a18e7b09  ./web/legal/ar
 3127930cb86ed0b21e650730012f803038a40b219bbfa348286c9affe515d5fc  ./web/legal/ar/jurisdiction-privacy.html
 766d42ba28615a70644408f9b224e16b95eaefeaaeb55a1124a84d09b0b1d7d9  ./web/legal/ar/marketing-push-consent.html
 f89603ed78a0726456a10202a4366f7259f66d495ac385642c2bc89d19054081  ./web/legal/ar/moderation-appeals.html
-994fd1d177ceef0b2f25bbce6d1e690efc3b145c46932fc9a8b71df3cc377b7e  ./web/legal/ar/privacy.html
+1266169be3af725df8cd33f12f7b9283e5c86979e2f1b82e4c69bb53ebf3858a  ./web/legal/ar/privacy.html
 d06d1d5fe559f2934a0f872beb102e3633a8f3b6f8aed8b1947b48421148fdfd  ./web/legal/ar/subscription-consumer.html
 71fa72143fd88313e9c6c9ac8678ee4916731eb9527e0c853ff49308ba405a33  ./web/legal/ar/support.html
 c1c35fb37bb4713335d95988ba9b5af3305f7f2ccaafc683990467aba36c1b7a  ./web/legal/ar/terms.html
@@ -1972,7 +1972,7 @@ db3499f9be81d472b61fcd317ba93ad351935798a876a0d93e38ace801bd54ce  ./web/legal/ca
 51c2db21cee8db0902cd4a26b6401328ad1f6ddf6ae06cc20801bacacc568136  ./web/legal/ca/intellectual-property.html
 2353f37790f26e7453a029960f74fa1d7ce916a50e8716e4110dbd1c91f69f3e  ./web/legal/ca/marketing-push-consent.html
 c3ddaa685e24c0354724f4dc183662b20476b532473e6d9ec26ec8db5ed169e0  ./web/legal/ca/moderation-appeals.html
-c4b131ab51f6f0e851d3d72361daa4a41712b8a280053b2526547a84c1457d92  ./web/legal/ca/privacy.html
+5aa64b99418bfd618950663f58fd3f36cff0bf615da0a7f7424810cdefb958de  ./web/legal/ca/privacy.html
 d92eb3982907b7c7a7968bf80237c2cfcf94eaeabf8e1a1be863841a5a570385  ./web/legal/ca/subscription-consumer.html
 f7c7971d3ba334cb345ecaf72a0b8e3464a132ce9f887924e5442a00d74452f0  ./web/legal/ca/support.html
 f7a738bdf0aeb715f594ea8a573b88c1d31c4bcf606d41da9496ff750fd7076b  ./web/legal/ca/terms.html
@@ -1983,7 +1983,7 @@ b2d330ab4bb983adb90ab9a9b4f3463da43a5c4dbb717926e5e3c6af0c6ae3d7  ./web/legal/de
 39c8a99b102533708cc4414d3d3ea735964541f9e4bbf9f2a0698439bade5a68  ./web/legal/de/jurisdiction-privacy.html
 c36c7ac85d063fd75ebf599e24885d8f78bb41427dcc748219b803535b466d3d  ./web/legal/de/marketing-push-consent.html
 004ba31ab20e82913a6884da407fe0ff63e3cd82d3e2759de54840b1457f0cad  ./web/legal/de/moderation-appeals.html
-84a56db7db3232386c2bbe1e5486e9fb74f19b8afca0a37c8a259423979f5e76  ./web/legal/de/privacy.html
+d29e6ac5471fc42c59c5725e6e0652844967ec73cdb3491744a16011ba799a4e  ./web/legal/de/privacy.html
 2e5fda4a02899a4fdf208f51fbf9bfff9dc0361f0cc4d9f36c564e76b7c5b508  ./web/legal/de/subscription-consumer.html
 bf265696ac7c133b12dddb4f8a366ca6596efd16de99cfe5b43e6953775eea9c  ./web/legal/de/support.html
 9cabd056cde2058e6bb7923345bb5dc079d74352147fa7411faf3a2ac3443891  ./web/legal/de/terms.html
@@ -1994,7 +1994,7 @@ d19717d4cbfd876688a3450facd654d9358727800880161c5a49cf8f9a515050  ./web/legal/en
 cc3c45c13fc4e4286fdac979916a779e7758c65574e86efe9011e9f9cc2a60f4  ./web/legal/en/jurisdiction-privacy.html
 df8ed5e1fb8085dbed1426af04d22added6e5aa1c4996b4923dd257c81540cfc  ./web/legal/en/marketing-push-consent.html
 139fe05ca227cbb0b62f76b6db1374c4cf3b8a007536ef03cb0614120cbd2749  ./web/legal/en/moderation-appeals.html
-a3e5b696ae0742a3a4f79717a72c8f4800de559fcc927a7510aa7ee0fe22bdca  ./web/legal/en/privacy.html
+8bb1b999047ad00639cf546db14370c1d693732540ca8bcf3a6e273a7ed47285  ./web/legal/en/privacy.html
 269839fa6966c1c7fc890e062dc27e467c8da37db8687ea0a0110c584cbb818a  ./web/legal/en/subscription-consumer.html
 03707715ed2dfc70625272efe7ec1535516621e00b6e587f7898cc3acd5a2ad6  ./web/legal/en/support.html
 2c28900952237b0a8944edf98175db347ee88ad7e0713a741b8d031b4bd012a8  ./web/legal/en/terms.html
@@ -2005,7 +2005,7 @@ a044c367c75c33f447ee54408927442c6f39d69a597ec8cd616c713577396924  ./web/legal/es
 188d06459b15e2fdc1683dbd16da2b79c42179bc76c407e173b128b4d15cb44c  ./web/legal/es/jurisdiction-privacy.html
 1e31189dab741763bbff04bc493e91fb930bc5d96e1e26074629dbb8b268bc9c  ./web/legal/es/marketing-push-consent.html
 ba42dbd682d0b57a391e5e00203797c7887de6e832883fb087331137504c87cf  ./web/legal/es/moderation-appeals.html
-dca41d80220ce334876c80376aa17b072a1db8f466bf84dbc568c4cbad8cb431  ./web/legal/es/privacy.html
+1585d17d370da5983e2e1572a2d6ee2b3042435ce76a1d45f14e3c54b234b930  ./web/legal/es/privacy.html
 4c0ba4c112d416385db36a319a8525e23434316b73acd3d2d1c8264776cc6efa  ./web/legal/es/subscription-consumer.html
 5a5a12b6c51f43340dfe62668f6e0b0d06eaa1d1b31fd164c89940f29a901a7a  ./web/legal/es/support.html
 d7da35519f0036d157ac2c51e048bfdc57cdecda9c1c11791e7307c8aad9e4d9  ./web/legal/es/terms.html
@@ -2016,7 +2016,7 @@ a0c6cdca3868ef5144f2263efc88916a0b0b8b542987a1ace8b6f584bc8519cb  ./web/legal/eu
 66183b05070fed9fb9f95b3f3c992ce0738acff493b4ad62eef271668370b0bc  ./web/legal/eu/intellectual-property.html
 7ac736e117d2e05377db7f3aff9151e216708de1294ae6bac1443d31a3e93f81  ./web/legal/eu/marketing-push-consent.html
 305a74d6e82c3f2277c5fcf9726f6c7fddb11b4fbcac7fa3ff19fa12213ab117  ./web/legal/eu/moderation-appeals.html
-86764e5a239d5fb6bc4f27bc5d542011877151783d7e98c6b2218b8f91f29774  ./web/legal/eu/privacy.html
+b9090df3533cadeaebd532277114de41ac7de552e30904d82525289a4a54e6f4  ./web/legal/eu/privacy.html
 cf602da34c7ee9332b33a41912181cbd7a996f2ca11e670c3f985b86aa6585fd  ./web/legal/eu/subscription-consumer.html
 e80fb78455d106a83445d78b363f24e3151cd82869218e2ee383ba47f32e42ab  ./web/legal/eu/support.html
 2f664fada55099943e166b2b87fd88df33f2c7a8b931f9fefb01473a50e2fb3f  ./web/legal/eu/terms.html
@@ -2027,7 +2027,7 @@ ed9c8f39466bdaf6da0f9fdc39833b3fec22610dd799156c049b35dc87e25247  ./web/legal/fr
 6ce128b926e2990accb9ed0803fa46d11f2b71c1459a7055f36fed5e011724c7  ./web/legal/fr/jurisdiction-privacy.html
 83d309275006a2ccc3e87ae6149f51e5a0e8a6f5c927126e8746af9467b3c262  ./web/legal/fr/marketing-push-consent.html
 a366a6aa4d1da7762c217382da43fac717290deeb874ac51cec769d25b48dd44  ./web/legal/fr/moderation-appeals.html
-ac7742281e3c419c2d5aff5cd7f0e12dac6e723129a531f6f5460e4038dff53e  ./web/legal/fr/privacy.html
+2f1161e355de4b937b2ce2baa28d34411a90756facbf4fa9267bd309879929a3  ./web/legal/fr/privacy.html
 aef9e0f225f65d04eb6304a6ca4f97e8745a9c752a9fd6edb89ff938f0755078  ./web/legal/fr/subscription-consumer.html
 04d23d74f7945f6a50be9f0b49b3f5391c6bf726c5a67ec2e963a71e14be706c  ./web/legal/fr/support.html
 95f796bf23a23d5dfba1bd01280541cb51647f54cb280358d37b3bfa4de176ff  ./web/legal/fr/terms.html
@@ -2038,7 +2038,7 @@ f37d70bd16e700dbbecc545043317951afe449e9bd3770e094c048d1be94fb39  ./web/legal/gl
 e1813e57d57275c440877bcc632c6d48717742ce30f1988678e8b7ef8d2af491  ./web/legal/gl/intellectual-property.html
 638e186897327c00122829ca38a5f78bde787d76e25a5bbf2f8b54afd622a8e6  ./web/legal/gl/marketing-push-consent.html
 ca130813f944d4418f6af89f4a21f0cb46ad728513a82f9cf714d3784b7b47b2  ./web/legal/gl/moderation-appeals.html
-d82ef7349ec283a439a17ed9e42b5183466b64b20816bcd4badfc36c2fa0f9ce  ./web/legal/gl/privacy.html
+838c9d252ff498056880d8400a85d3339846003880c374e784c7496fd5810776  ./web/legal/gl/privacy.html
 01fd94dc66672d6c24123c700c131dc49630b15053062f02fe47141ebe6d3f04  ./web/legal/gl/subscription-consumer.html
 dacabd12d9502406a57339fbf33a20d9368a3fd1e8aab407b9d159d5e17953e1  ./web/legal/gl/support.html
 72fc4ab9d2705118290429cea587c724c439cc246e25199c5de3e1dc689eb703  ./web/legal/gl/terms.html
@@ -2049,7 +2049,7 @@ b0111b592641703d0cad48645cb33a6eddd61d3cd80c77433877d8d5ce9483a5  ./web/legal/hi
 6cfeaf7c1634a73e85a117f3c65a08641a45111a447a90ac7b49ff91b3b08824  ./web/legal/hi/jurisdiction-privacy.html
 8ab766ad8706371410612303bc706ed2dd30478b22fadf4e2d176e6351ace4e2  ./web/legal/hi/marketing-push-consent.html
 def9cd2fb14682e40010c7f93c77091bd6aacb806b840a21ff5a0e7a6d68d98e  ./web/legal/hi/moderation-appeals.html
-01db71adfe33e8d0f4efbfe61a39116f29291f7af6bbfbb0bd0ab0909069932f  ./web/legal/hi/privacy.html
+4de91b735dd6c75389606d5f9e454199bc23cc80accdb81dd967a9397f29c467  ./web/legal/hi/privacy.html
 f86091526f7e7e7b3f1aa4ea6f7d23d4d903040078806001113fcfc1d022b1b1  ./web/legal/hi/subscription-consumer.html
 ca3b95c6eb0df75797a3c3346260ba9be06d14dd939acfaa3a224c73fbe58373  ./web/legal/hi/support.html
 5ad0193c57e3eeb284188c6fd27d10974e9b517817f2f327786444774cd28edd  ./web/legal/hi/terms.html
@@ -2060,7 +2060,7 @@ e1f1ac1371158d9a10cb685d9da1adb1bf1153e92f0b30042e9e7ea02d002a67  ./web/legal/id
 aae6e7fe628e9b5c81edb3a4aad8f10cc03d1118420d186816c827790cd79de3  ./web/legal/id/jurisdiction-privacy.html
 9a1b418eefebce0fcf117e8c25b877db98210b83fd5c2f85bd555c5e89c70741  ./web/legal/id/marketing-push-consent.html
 396b73b2192b281b6c18222d20fc61b0ac00d9690977007cb84714f3e04b1973  ./web/legal/id/moderation-appeals.html
-4f92edc7dd65a293915d6d121772cd32b36563cd8f3ee1e8c126850156da8d2a  ./web/legal/id/privacy.html
+f6437d5e5daa35eddaa0cf8ca1504faa0f1d1552129ca3adc3f1be19676b1814  ./web/legal/id/privacy.html
 a76a7ed30baef1680785deee1596721f69824e129c26223f96161fea327e1447  ./web/legal/id/subscription-consumer.html
 bba62cdbf0654751ad6309ba9ec0219e3f4c969343b0dbd8174a67778ba1597b  ./web/legal/id/support.html
 c8227f0c17cdc4f99f1834972e731f3b4a4fbfe7294a0bbd3443ce7b526f9332  ./web/legal/id/terms.html
@@ -2071,7 +2071,7 @@ e1513f18503a06426146d82f1a669ec7a4dfa2745f30cb8c5ff1b1f73aeeba56  ./web/legal/it
 a1625f0af1187ea222e7d772c354d22578f44fdfc7dfeaa4a9c39c521a4cbdd2  ./web/legal/it/jurisdiction-privacy.html
 92f4ca5b8376e9491a1e6154dfaf9a2a347faec6262eb7478759b6e92436d195  ./web/legal/it/marketing-push-consent.html
 f7193b286a6dad51e3f9401bd47fda38a5cf767ddaeb72543942433ae77ff751  ./web/legal/it/moderation-appeals.html
-22fa347b69ba53be71051720baa27fa0a8b47dd0eebb9677ba730e5c8dd0f274  ./web/legal/it/privacy.html
+eb5eb6f2178579c0dc69a38f44b841c6b4f7a3b7fe02131f6ec625a0e475811a  ./web/legal/it/privacy.html
 fd55e19e472e85927e77008a7401c05e2dcb7d4ec5028f25a67d4d3cafefd865  ./web/legal/it/subscription-consumer.html
 cc42cfc29f445c9ad342e60f5d444c3093be427227888bdea109535ae587179e  ./web/legal/it/support.html
 e7d4151931b696fb666cbc4469d80e0a7c8905774819296dbea570d3b913eb7d  ./web/legal/it/terms.html
@@ -2082,7 +2082,7 @@ cae28cf479a3dfc288a8a6809b6f192f4400aab089fe46e07476d231ea625220  ./web/legal/ja
 87bfa9851d17dab6ce81027c6fcb918a436015a8e66cded67db36b81b54500a4  ./web/legal/ja/jurisdiction-privacy.html
 14f4f99620d7dc80490803578b863277b6a6629904d7c2153f1d7daffde92f8e  ./web/legal/ja/marketing-push-consent.html
 7b521bbcd6e1173db0df458cf7054bc3c0a9d9402eae2e12430f3e06c184f164  ./web/legal/ja/moderation-appeals.html
-65526ca3d876d4131d0d7eb4a5b6542ae87eee85dc350b39d6f71fb94ab6ffe3  ./web/legal/ja/privacy.html
+83565b3d34247b63c1be8d9bed537dffec0206ea815d21d04b82e92f43a5dbe2  ./web/legal/ja/privacy.html
 b20cce362f640df6355c17e3c3f8afd1ad6ec19e1086f8d5930e308de830299a  ./web/legal/ja/subscription-consumer.html
 80ca250c225ff53ac97d76338444a26dd2001b4e9062bae5d72f0bf96d4c6243  ./web/legal/ja/support.html
 64398d0ccd95bfa8511b933e3c217db52cb89a5eaa3325a068da08b7d9066e63  ./web/legal/ja/terms.html
@@ -2093,7 +2093,7 @@ b20cce362f640df6355c17e3c3f8afd1ad6ec19e1086f8d5930e308de830299a  ./web/legal/ja
 9b48a70b1f46aba2e269ccdda7b3d1d9ef3fbb1bac0d8194de5e87e6113f6b79  ./web/legal/ko/jurisdiction-privacy.html
 56637731de1dfd751bfd7ffed268e18927fd056d8f3f16b1b280f9d5ebee85fb  ./web/legal/ko/marketing-push-consent.html
 69c3fa99edbd39c021bca5900649cffa3ac754cb784562430d582c9215cc55c5  ./web/legal/ko/moderation-appeals.html
-ae6a2a4d442721735720ca5b72821f8de85477d0fa2a9731f190148fd4170f7c  ./web/legal/ko/privacy.html
+76985037d4e4cde0cf22e0a4206919150052dd9d1ff1dce9e73e31890de3869b  ./web/legal/ko/privacy.html
 c7687406b065dca013b4066ea90d525071fb8ce6b4f4205a69cdf68ef883c3af  ./web/legal/ko/subscription-consumer.html
 7e1bb745cea8fe381c4b26b554a713287c006bfc589503e6b269969de9798de1  ./web/legal/ko/support.html
 d6ce4969a2f0eceb294e23f0cbbd6e6ac9eeb5cc52792562524561ec119c0e9e  ./web/legal/ko/terms.html
@@ -2104,7 +2104,7 @@ b475cf70f7f0bb2702ecc62a5f6e66fd7d2725066fc9f61ed14fa2dd9692cccd  ./web/legal/nl
 20036e140ebbca0dc270f1fdb84925c787b3abb56290774aa34a2df34691ada5  ./web/legal/nl/jurisdiction-privacy.html
 e79635a115f84f85b7fe3c975f8987b474f91d24e04d09f278a9b90db15e4ad9  ./web/legal/nl/marketing-push-consent.html
 8f72b21a13bf4b5a730a73cae34d52054e9ec5fd139d2d19fad1c1efff177eec  ./web/legal/nl/moderation-appeals.html
-1206624dd430eebd2fdf1c0f6022b141ffe49debfa1eaaec2495ffb2030f13ea  ./web/legal/nl/privacy.html
+87ba0b70d16cc6d3be0b57636d03a92898f29f04a2aec56f3503161559d07b43  ./web/legal/nl/privacy.html
 6917151800ca31de8d4ef16bb38994d470053150dba32f53189bdc6eace403d2  ./web/legal/nl/subscription-consumer.html
 23b7422904c03a34f86c3ff7eb0338614a820988c328d7583d9016cab1d386e9  ./web/legal/nl/support.html
 b7b195fd911e527a046de8f078cd17ae9a474da5936aed42717747f0188941ef  ./web/legal/nl/terms.html
@@ -2115,7 +2115,7 @@ e03036cd50b6bea33109760230182530314539030bfeb7c4729fbed17f293ce1  ./web/legal/pl
 2827b056fba8449beaa2ef455b4f9f195aa3ba32813cf486c82a5f08106d4e25  ./web/legal/pl/jurisdiction-privacy.html
 dc2d27ebde4a312498a46cd6207bf41638aa3db5474b6eed7b467ea31c34096f  ./web/legal/pl/marketing-push-consent.html
 45cefbf2121eef95fa39a98c0badbe6a8917b37739d0c3ad5104ceaa7821515d  ./web/legal/pl/moderation-appeals.html
-7186d4406d7c181a699f432e14d18234591d1bca3fb56a95fd0318e86dd97e3f  ./web/legal/pl/privacy.html
+7019b5662d751f1ffb786eeb1d771976213e4ac31ef58529ccd0df0e8fc250e4  ./web/legal/pl/privacy.html
 a65b449988a1054c8f5db8fb8f987c4edda7730a7399a4d711c96dca1c6faa97  ./web/legal/pl/subscription-consumer.html
 0e161f57b422ea09d0d89aa9464b678b5104ac2c7b53e5cdb8f7ef51f4275ca3  ./web/legal/pl/support.html
 539ab1a5966b0f276bc57398f3ec77634bc9d0abdabf7a6c3ba5f47a65ee1b0b  ./web/legal/pl/terms.html
@@ -2126,7 +2126,7 @@ c330818ac4ef41bc4fdbb0e4b566c13000323e7818c06450b39113f6b887d116  ./web/legal/pt
 ed7529f268a0c6a93bd2c74254719ac6a3b90c8b0dab80ab123dc2714ba784ea  ./web/legal/pt-BR/jurisdiction-privacy.html
 9d4ae28034d7f3b8bc823ff82cf873f938f5f892077e8121dded19f630153bd4  ./web/legal/pt-BR/marketing-push-consent.html
 1a75f719952e143cf1a6fceb8df3b049a234f126e3cf9908620469ad6d59bb3e  ./web/legal/pt-BR/moderation-appeals.html
-c2d59d07553e293e961e5277586ca1233b1a68bc8dfbcc2a35d3cbe3405ebc4b  ./web/legal/pt-BR/privacy.html
+62ac3f04aa6f4222c654aa24c82c5e7eb4b1c6da90fe2efa83d39a5d36ff40e3  ./web/legal/pt-BR/privacy.html
 28e2b3b1ddf29414d0fd13056bbbb3bbee146b86f7da1cc355eebdaa4ba639f5  ./web/legal/pt-BR/subscription-consumer.html
 4f5fdc32177d73a199ad1fe2f8cdd552510908fa986856f978c4113bf6c43bb0  ./web/legal/pt-BR/support.html
 543c30c4fb5ba68cf0a83fdd23a5861cc1a79ac320584dbd9c15a2b750a8ad1e  ./web/legal/pt-BR/terms.html
@@ -2137,7 +2137,7 @@ da43f78c8f5b82733ca1388d7aa2229d81ac9af2d95e8821ce28accd5e2ca77c  ./web/legal/ru
 af756e76f48701a24ba4ec4fc97496439e6dfb51cb76973ec0662a54b591e1c9  ./web/legal/ru/jurisdiction-privacy.html
 9a2d1edb1c5aec5da2464c4127818012f897c4f8671a70c16f46643e8354a1a0  ./web/legal/ru/marketing-push-consent.html
 30d7feafaf460f199f50181e94b4eead131ea0cc8e9475703bcbd46f7514a56b  ./web/legal/ru/moderation-appeals.html
-9df4547fbd2f6475067ce5de10f185daab7577e55effa129720ea147b3f2879f  ./web/legal/ru/privacy.html
+08881b7cde290e5ae6655112e401b898c446ddf6dc2e191bb455e9d3a1184887  ./web/legal/ru/privacy.html
 f7cb386e6ca0a31f8ea7e837fcd974b438b834384ffea7679a1dc8712784e494  ./web/legal/ru/subscription-consumer.html
 fbff8cecf85dd1471976476b0e9b452f5793cbc89571b11eb1b2da3245f1d47c  ./web/legal/ru/support.html
 7aa3cfd9496f9e6741b5db532e522be43a278ab772575c9e184cc6d969bee2e9  ./web/legal/ru/terms.html
@@ -2148,7 +2148,7 @@ fbff8cecf85dd1471976476b0e9b452f5793cbc89571b11eb1b2da3245f1d47c  ./web/legal/ru
 592fad7e75c02b1f19ede93b6e7b67b9a3d4b459e32c73bea305d44d7aa6c5f5  ./web/legal/th/jurisdiction-privacy.html
 569f9265c37aab37e530b6fd1c9a092ffee1689859d1bcc32f816e762e549d63  ./web/legal/th/marketing-push-consent.html
 8e59ad47266ebc61b0fcaeeca8f273776198db43946e85f9e47ae723cd5c482e  ./web/legal/th/moderation-appeals.html
-dcfc92f96db40eb2b3de6bf1a169c511365cd4787f0944659a47bda478ebaf68  ./web/legal/th/privacy.html
+de0897453e0ae7e3cf23904637f7b1d21fcf2efb434cf80fd093d34a0da1a584  ./web/legal/th/privacy.html
 225bf39abfc42cf421f71503298a6cbda527817e7783f1bf0189cb3310b40a20  ./web/legal/th/subscription-consumer.html
 690142ff4c9c1c452ce7ed2010e29c4053fcaeb17b70c9cdd30c5b5b45becf16  ./web/legal/th/support.html
 d4fff404c8cf8d7eeb6d37676c787ae792b8311b4b741f5049072598b8a23c1b  ./web/legal/th/terms.html
@@ -2159,7 +2159,7 @@ abe243c1cf809fb16d182d1663e1fad01f44391734fdeaeec762ddc1a6df4093  ./web/legal/tr
 7d68580844f85a3e9d3f3ea63fd5fe082922c4d2deb72c64fc08945fe9c918c0  ./web/legal/tr/jurisdiction-privacy.html
 1937a298cd36dc9694352eb8b4f44f791b1779d8da18f957fb43725526b741d3  ./web/legal/tr/marketing-push-consent.html
 ca348fc14a39f43a5c44b639438a71dfc47ad2ae30413b9b91b0d9328322248c  ./web/legal/tr/moderation-appeals.html
-a7546ec9aeb76e53d5226183a40544293138990b37e66461a44f9f36dd3c1805  ./web/legal/tr/privacy.html
+055b6b7f2a07c90ddbba4cafe52e96e90ba89c31caed9c0873b8ae6b7c211f5a  ./web/legal/tr/privacy.html
 c69ef165bbe9ad2b386c460d61dc3700d11291aab88939ba00b93b50386e1579  ./web/legal/tr/subscription-consumer.html
 537f554ca522576452f93aa28169d8dc7648bac6a1959b870207efefaa353951  ./web/legal/tr/support.html
 30ba582f772d17618974a85c0f5339bb968a348adc58299389b0adfe44bdc72e  ./web/legal/tr/terms.html
@@ -2170,7 +2170,7 @@ d2ae8e7875d0027f83fa021ea37a572e09efd89ac2e7d72db542629a511538ef  ./web/legal/vi
 ac7292a0eefa7cbdbf2d51867655f3836c1bbe3f6bf91dea611a78b34c089969  ./web/legal/vi/jurisdiction-privacy.html
 8b21fc35131c150b80053d929c5ccf4569132ad48eee10a93dc44ff255a199ca  ./web/legal/vi/marketing-push-consent.html
 b140de4d0d5c1b1e96836264a2f928d47d32dfb5d79bc85a714953d412a140bf  ./web/legal/vi/moderation-appeals.html
-7c8a84e394e7b885df1df32af657d669721ef48ab73dadd35eb765e0f2873234  ./web/legal/vi/privacy.html
+4267cd3fbc03fe0837728c107928336b77962b27f8706706327b2455a4d07968  ./web/legal/vi/privacy.html
 520c0acfbe29dfb088ddd9a74170caa33dd43c200d2822f9379d5bc63823c7f0  ./web/legal/vi/subscription-consumer.html
 e4efad6931b0564ef21d8b34a19a1eaa1a0d582fdea4e48f33c9ac7479d8e399  ./web/legal/vi/support.html
 2c260d3389e85f08da7bf7449859b3dd4cb7b5fd9ed9a6dee9d23dbc9425e33f  ./web/legal/vi/terms.html
@@ -2181,7 +2181,7 @@ e0949a3cfa0ec43777032e82a06cb7e08a86da5f6d55e1d8c647d86a68619bcf  ./web/legal/zh
 7f59084d6428a3360a387a767f03a3ced10ce7662b073604d3dd9939c28c5d37  ./web/legal/zh-Hans/jurisdiction-privacy.html
 76a2b47bda6bc40cc768ca34bb85c2228c86f68ca630e26fd207995dc3b62228  ./web/legal/zh-Hans/marketing-push-consent.html
 447f647c5088af3f3ace52d4d2fb4dcc6d3b71db09e000e069d6b1b05114048c  ./web/legal/zh-Hans/moderation-appeals.html
-3c89383f3181d61ecf7f600c61c95fe2e6fa54bd5900bc60d23d0fbc42bf35e0  ./web/legal/zh-Hans/privacy.html
+2dd782bfb0c90c3bc1622db9c48ab6086eb59e16ff5e709f93bc8212d5a1f87a  ./web/legal/zh-Hans/privacy.html
 280ce68900f047175ea0973bb567bbb433542d83dcd6af382d27ec8c3ae60761  ./web/legal/zh-Hans/subscription-consumer.html
 c4312f8b55216a0592d3a5aae81b892b284941a6cd207d91858e466e3d2b01c9  ./web/legal/zh-Hans/support.html
 05d42bc8a228050d0d20535ed2ddd32b9d903bf0d61da315edbbe59bd85f07cd  ./web/legal/zh-Hans/terms.html
@@ -2192,7 +2192,7 @@ a8b70e95d768947b5b4bbe769c0fb1988fe3700dd831ffe4fae52d83adaf7bb9  ./web/legal/zh
 3b33c3933bb8af89f9c1875ff52537e6a34d3bb447ff1c8794a80454ea0c3097  ./web/legal/zh-Hant/jurisdiction-privacy.html
 7e7e82a72af7ac2461133b309e803cff7c36707abb00751be10066c63e6c5d01  ./web/legal/zh-Hant/marketing-push-consent.html
 20b476c5186b797f231121d76077122b49b6d39a778f9270e7aac69375dad64a  ./web/legal/zh-Hant/moderation-appeals.html
-62aa430e497f70f2c46d937633cc9eaadbf49544260103411109c50d784085d4  ./web/legal/zh-Hant/privacy.html
+5561de581a286c4bcd70d033fd2eb32468fcd793d516f20bdd013423e487de54  ./web/legal/zh-Hant/privacy.html
 48676dad11cb6bc29c4805c51a72b12cd2bddd57ad3983c7afc3281885627088  ./web/legal/zh-Hant/subscription-consumer.html
 a2d32fb0a0888b7043ada58d4f151bcf8882937825481251bb73d0730bf9b082  ./web/legal/zh-Hant/support.html
 ec3aa6144e760c62f5a950b97cf41d8c06b2af6cf72dc5e73b991fbd2c0eaf45  ./web/legal/zh-Hant/terms.html
@@ -2203,7 +2203,7 @@ c85188f5b50f428cdc15e871154ead4da2739ba0f3dc05d2a0e9a0afaba27b6b  ./web/localize
 1104dfcb42e7da8c8cddc247dedfcacc1060c296f3d91c92743232c3971db49f  ./web/localized/ar/jurisdiction-privacy.html
 878e0d90812ad48dc3997d138d23d874de72c40eb0617956cc417b5466e90a4d  ./web/localized/ar/marketing-push-consent.html
 491186ee99e68b76c0ceef45f07d783134af701abc8b6eec0fe372b2980b0596  ./web/localized/ar/moderation-appeals.html
-a4288eb9933e33c76af515a010e7c9e44b6c98a12208dd3d0c7a5d8a3c50268f  ./web/localized/ar/privacy.html
+5c8cb93d27b6804d8089ce5201cb14f12857d3ac0931950a66f2e87fb4506c1a  ./web/localized/ar/privacy.html
 e02a2bca5c58c43de78cc843501f179a6790355e84df7004a5928b5e9e475e88  ./web/localized/ar/subscription-consumer.html
 bd866a62045b102d5668c7c05b253bdde039f9b5e41e5f50300a5d9c2a9342c1  ./web/localized/ar/support.html
 f9812034a8114681867b810fa2793daa35541931b8db69c2112c0d245b1249f8  ./web/localized/ar/terms.html
@@ -2214,7 +2214,7 @@ f6d332093c1a9d82b8b964c9ef3413e17f57cffc821dcfe2ad722e619292a7b7  ./web/localize
 17e2ecb1d017ab9a81df7613ba84ed85d66b727430855fc48f4485b5fb20543e  ./web/localized/ca/intellectual-property.html
 a091761c20a676ac00c9c53122241ecb15bded50d5e06c866e0e61463712a365  ./web/localized/ca/marketing-push-consent.html
 f7938785803099ca11c32e56b444eaff28f33e4cd8926d6463c58dcb8e3af1c2  ./web/localized/ca/moderation-appeals.html
-147f3e58cf7b3fb736d57e58be3208541ae332b2191d8f2926318b4a6bdca1e2  ./web/localized/ca/privacy.html
+6c4b326008524bf5b53835104791ea6f397a95b85d05374e39c712ad450b7f19  ./web/localized/ca/privacy.html
 8e03cf4169ea2a914e7d492df86958a22b2f5276482f8f4bc6ad3b710b47a887  ./web/localized/ca/subscription-consumer.html
 f2e0a5f507219fb8b240a25f219feb2d5772c34ca26d7261dfe105ab254fdc1a  ./web/localized/ca/support.html
 3a4a754973ab43a7a61bb20ce20df226fb492d157a50ec8325624e439f138f72  ./web/localized/ca/terms.html
@@ -2225,7 +2225,7 @@ ab56d1b99ec0607a0d222d5a1a2cc5ee657708c42c0ba7182c3c5dea210b4a4b  ./web/localize
 61f3154f4149f764e1d402a7ad5f6c46d709d8a2aec819d4306ce1accbab9a95  ./web/localized/de/jurisdiction-privacy.html
 921546dc8a660bbe3ee894247d2d9cff5ba62ccec62c69d3621988db17cc7f82  ./web/localized/de/marketing-push-consent.html
 f5d3320503ac2c3e4823352e42f23aeeec2c37fb6aa9784a0f3e521d6c50dedf  ./web/localized/de/moderation-appeals.html
-07fc3872dc6d7dd5be939515fe28349597c6b814662b66ffeb2f58dbb9ea2d4a  ./web/localized/de/privacy.html
+44a18128bbb2b2ecd63ca57087078dc8fa1934cde42de4e37a3965a4e88bbe28  ./web/localized/de/privacy.html
 898cf6fc780bfc1c5fcda0d39198b6fb259444c4f753031f2c9d5b840f12cd5b  ./web/localized/de/subscription-consumer.html
 e64bd6b45a0a1f4c67796b57ca8fd411b3b8258ccc4f6eeec23d49689745bebc  ./web/localized/de/support.html
 0940026177eaf488c94ed6ef75ff5589635c6f249824b97f1c0ee9a0bb128510  ./web/localized/de/terms.html
@@ -2236,7 +2236,7 @@ c99ca3dbbd6acba063e9aa12f875b128ffab569d61962cc8d984c813a7576393  ./web/localize
 a7ab73dabbe75b4902ca29372ce324f8d76fe2b0e622794a7f065bba07dc9401  ./web/localized/en/jurisdiction-privacy.html
 115acdca8ef4750fdfa78ad5b83734abf8d2732442f180c51eff7dcc602ac5da  ./web/localized/en/marketing-push-consent.html
 3425b125f41ba906910324573bd04d54852a9eabd475fa5b610a69d884806574  ./web/localized/en/moderation-appeals.html
-ed8dd491294e1685738ebab1e2aa00fadaeae214d8a1a10aa020b93548d08739  ./web/localized/en/privacy.html
+4f9779e090bfc597082c606d3c9197ddb9e90eb95a9faf82126efb60333d0597  ./web/localized/en/privacy.html
 835c88ad25120eb35276bf15c0d863875f39fc61bab1149cadb61c9e57a74880  ./web/localized/en/subscription-consumer.html
 56aad90d8a67c0c01f355fab1807e0211ed24328efec3e317402ffe7e8f63ac1  ./web/localized/en/support.html
 6556a7dba4a82528df0a616e1af2d75af3ca8e23842d4e086075b9786d829b56  ./web/localized/en/terms.html
@@ -2247,7 +2247,7 @@ ed8dd491294e1685738ebab1e2aa00fadaeae214d8a1a10aa020b93548d08739  ./web/localize
 adca206b2cf8f2c4b420fb619039c9405d5402723d244b5708f68b17badbeb15  ./web/localized/es/jurisdiction-privacy.html
 ed0631c1e3f275b16489463b00663db96ee7959c6452889bd89220ed36d6dc88  ./web/localized/es/marketing-push-consent.html
 4fbd9906ac452ae2160f9cc97fc9c47b23024102530c86b803fd9b5699a4d877  ./web/localized/es/moderation-appeals.html
-307d1843b301a42aeffd080b350284b3b9baddeb21e22e72e5e0a868a131dfbf  ./web/localized/es/privacy.html
+525965cd8bc95dc40bb2690a44869ceaadcd14c47e403962c384d228303a5619  ./web/localized/es/privacy.html
 66f30f4ec722a9bc6bfab7ed05f045907485650ce41c557e3bc56c3c1eed6ed6  ./web/localized/es/subscription-consumer.html
 b30a136d2df564dab7a8a3706d7ce9981b57fb529818bd442456c10c08e26ef4  ./web/localized/es/support.html
 fb131905796aba68f5f672bc297e366489c9cfa9802eab6a0f2e6ae79c08d855  ./web/localized/es/terms.html
@@ -2258,7 +2258,7 @@ b011783ca9fe0859ccee24a115a2aedb9e16d6b10cef26c0fc13debaa0f911bb  ./web/localize
 7682c01c827d3da979a03058246c89488237a2159b5e67d07c0bf60798853732  ./web/localized/eu/intellectual-property.html
 f667e296f6c98b7ce83186395c4f99a4dc31f16ea884338884b964792a64f93d  ./web/localized/eu/marketing-push-consent.html
 cdef9a5a7e2146f3d107c2d74faeaeafb613b443a0f995d1929137a6c191ad53  ./web/localized/eu/moderation-appeals.html
-04b313c1994635cbe3a439e1647e570391f7c3198c730a122c00b89e0bf3f84f  ./web/localized/eu/privacy.html
+81e948d22e9d4cc2920c2e2ffd9ac8d5606b93a09c9dcae3317a3d08ffe591d5  ./web/localized/eu/privacy.html
 76012bf9dbdd1c990c9b3ab0ee833b47a5b214390658fe2836d02401305378d3  ./web/localized/eu/subscription-consumer.html
 1e327ff18a6988994860c674ab6662a0fff00e327af0acde03c6f995aafd7bed  ./web/localized/eu/support.html
 deb3f8468cf1dfc8c0924833b283e04c0cc29064ee9b4e820e117f80e58802b0  ./web/localized/eu/terms.html
@@ -2269,7 +2269,7 @@ deb3f8468cf1dfc8c0924833b283e04c0cc29064ee9b4e820e117f80e58802b0  ./web/localize
 d3fc6b10325f68e9dada4c48a6740434613536165b7be9ff3b9d98ded9d16b59  ./web/localized/fr/jurisdiction-privacy.html
 6365865f02cac9d46d02bc1cc681a2c1da57c0f26f961736dfa3341237a9f3c3  ./web/localized/fr/marketing-push-consent.html
 37b454503e86466681f01cdb09d63bb220198ddf8ce82166a5fe68b679fb69d1  ./web/localized/fr/moderation-appeals.html
-017a4aacd9eceb738c34d9c70269cb65028aaf7059ab94e11d6fb4e9e8674091  ./web/localized/fr/privacy.html
+a26f288705c86420626806795426dbe63a75c669cc666eb7d21906e8fb8c4208  ./web/localized/fr/privacy.html
 70b135ceb806f91c3c718168c4bc229488d3e796a68c10a9df7db936dbcb6d39  ./web/localized/fr/subscription-consumer.html
 6627122d667bc6c9b237f6f202587964acb762293d3a108dc3c97aaf53383a9b  ./web/localized/fr/support.html
 442d9ff086bcdbf0fef9ed2cb4446c9fe3a9f693aa832e3986a888a00019dca2  ./web/localized/fr/terms.html
@@ -2280,7 +2280,7 @@ fe1647d350c4b0fc7afa7164522e109b52a3420fd3f6498f8b529274c4eb012b  ./web/localize
 e76d336f1012e8e682042210ab5e69139aae67f64cb0bc6534d47227f08fe54d  ./web/localized/gl/intellectual-property.html
 224a2811e8f4bb50d4380bffbb7512d0cb2c01a1853c4541a12313f90ea7cae8  ./web/localized/gl/marketing-push-consent.html
 04f67cee74ca668d2c6f7cd87673bfd40e853f678268c4445f08a74be6ffb16a  ./web/localized/gl/moderation-appeals.html
-06b81ae0f12a7a5abb14d5f5cf3363126e3b4d35557c6d8c5b28ce3592636107  ./web/localized/gl/privacy.html
+f01692bc2739d511b33a0ac7f765ab1580d126fbe6a94212c638f7d6a7b8148d  ./web/localized/gl/privacy.html
 c5b455478d6080848cfcc9cbce46dcf3a9acadcb482f566bca67e02eeb8b8617  ./web/localized/gl/subscription-consumer.html
 8c402a774c16a8d4e53f351b2254d6a0f14d4af0efa6a0e3f9e5ed238e42eb75  ./web/localized/gl/support.html
 87b56106a8d3af39332ae77043853d5019f56e755bb514831c076c8923235b35  ./web/localized/gl/terms.html
@@ -2291,7 +2291,7 @@ dfcf6bed8ced2c73667c2851a468fafcf6932468f42715968e580ea48f2a627c  ./web/localize
 2d6f83686da37a6d590ade9e7fc8fa9a0a501f3d32ae8944019de8fa77d7a510  ./web/localized/hi/jurisdiction-privacy.html
 92c3399245f617998ff5adff89d7b8ce011315c9a1f5b6395921e4574ce9d3b1  ./web/localized/hi/marketing-push-consent.html
 f05d11df392b048eb550b0bf41b872b08756cc43ddd00968deb20efab2fe13e9  ./web/localized/hi/moderation-appeals.html
-c3ce218eb869a7e036b112641c7b1914b125b5e1d3943db26555ea52edaad0e0  ./web/localized/hi/privacy.html
+ad293e03006382cbd80c0d75680bb0817650ef675bf28de40de4f24c608edd14  ./web/localized/hi/privacy.html
 0b5d30b9ac62936a2a0aa3a1fc140933b5de358f5b1ba272646e3610a97165bd  ./web/localized/hi/subscription-consumer.html
 d2e87a386528bceaf6bd8b59974a350d73cb3fda2a2e8bac2bff22a45cd63116  ./web/localized/hi/support.html
 1270fa606fbaec35e02d1273c55dd09f3c0573b7b4d02588f8bce7429c0d192a  ./web/localized/hi/terms.html
@@ -2302,7 +2302,7 @@ efde3812357d5579b14b90007377220b97b5a111a98b66997b92b11e5bf06af7  ./web/localize
 102ca5a8aa3893d7a32d89d5d5dff1789554dd440a75cab61c2aa3d17abc8e75  ./web/localized/id/jurisdiction-privacy.html
 775ebd27c58d278fc709ea1bdca3881bd4e6f5f1dc46be9308438f83980fd8e7  ./web/localized/id/marketing-push-consent.html
 8bd027e20c8548e80ee742156242c46f7c4a8d9eddbb455a82f94bbec7ea771a  ./web/localized/id/moderation-appeals.html
-331e407dda63d5db4c131f16891cf50ae24459bb88a6ed420b46f784faa0981d  ./web/localized/id/privacy.html
+2fa0ef887bdb16aa63dfa200671882e51aa341d4cfa6bb39cc8c2bb47be36e8a  ./web/localized/id/privacy.html
 885a2c6b4e1a14a4f6ee2bc6cfa6d0555beffb974b212bb9d35fe47cb75d03ee  ./web/localized/id/subscription-consumer.html
 edb60e2a3398250fb3cbc3ee8bfd32e8e240ef0a427b0305711c8781830e16ea  ./web/localized/id/support.html
 32e62c7e861b2214f54f03f7e6d69a49a4738df9c3f073141f8b0ee550998214  ./web/localized/id/terms.html
@@ -2313,7 +2313,7 @@ a38b9eb1d2b49e1d68cff729d05b6234a242550c8aa91c27141baeb4271e8568  ./web/localize
 8304f99fb570a620ae619cd9058abec5781f6263f89b1e9fdfa8426e0e953ad7  ./web/localized/it/jurisdiction-privacy.html
 12d34455c9af41371a0f1f4db33c072f8c13f2894eb8254cfcb7938336de0657  ./web/localized/it/marketing-push-consent.html
 a9c38fe4fc243037e33560afa712af6b06bc121044c2e666ce2c7d10dcb18b19  ./web/localized/it/moderation-appeals.html
-e930e20cf5fdda7063bfc35c6a2b38f81b33086c0e100aad577828e6d02d7668  ./web/localized/it/privacy.html
+14d3cef7c334868b28717e2c16f32cedd236f5dbca3c00718d314b0f24fc5cfd  ./web/localized/it/privacy.html
 0e5b050794379c9c31ccb80386e8591447c3904d02225940b55d1a4302f238f3  ./web/localized/it/subscription-consumer.html
 433122f1604894b475ba6702dd859a06ee022528c8dcbb5d608ef34745fe7f81  ./web/localized/it/support.html
 8180fd01811cb873e580f9abb64026ad52ddd16ffa77ac2a76e30aa3d9c6a3b7  ./web/localized/it/terms.html
@@ -2324,7 +2324,7 @@ f2cc14be9cda94c12fb7a88f72ce5cacf82895ec63ffd1fcd378eb4c9bd4c444  ./web/localize
 559de6e4f0d9732be044cd2f9c045f978b8a672d3b1be83f28b39a7d47c09c13  ./web/localized/ja/jurisdiction-privacy.html
 35de810431db4803593f42354e49e337cff1511f35b580ddfd8f6a1edec22d0e  ./web/localized/ja/marketing-push-consent.html
 39302a5e093b90a9a42fb24c7aa1b49b5ade18c131903f75e32ce0e55764023c  ./web/localized/ja/moderation-appeals.html
-951a03b2ad16a7092b22d35264a583a4c908eb8eb69314e82d2cdfbb0a5ab28b  ./web/localized/ja/privacy.html
+2be4f95135cb2c147a8e9d7dad5939fa613adea40c130d1bb8ddbcab371091f7  ./web/localized/ja/privacy.html
 69915ca458dec4de22dbdbcd7110099aa29dc06857ca25e6d888f0e0b43b36dd  ./web/localized/ja/subscription-consumer.html
 9ab1085a6e0196871ae755bd91d77e669584966da90d6e4e5fa4521065721a5f  ./web/localized/ja/support.html
 653990cc98dcabd2287e0e7b3962e4dd2fc0eade6fb09b09dd1a5ec08ba1c594  ./web/localized/ja/terms.html
@@ -2335,7 +2335,7 @@ f8076eb5f5f0eb2d04273365669ff7ccf0fc7175ba4e5e5b005895fde4baf867  ./web/localize
 f849e16f9afc9ce66e42dd82df783b37384b0b6f6f9a7e1c0bec2a3f032ef3d4  ./web/localized/ko/jurisdiction-privacy.html
 6830c2b39630f179953dacd85793cb1fac8da1538c30ae4d7500cb3df7adb310  ./web/localized/ko/marketing-push-consent.html
 bdc4dbac73bd841e211affa9986f65a54c0cc3a26a4a820d6433003a62e3ba41  ./web/localized/ko/moderation-appeals.html
-4a69e4a84ca3fa2917c3df642dcece371bde256c4b57a0638e3554efa0252221  ./web/localized/ko/privacy.html
+654b9bfd7d87270f1653504ea6d462c7803ccf529528e6bb4231bc64590931d7  ./web/localized/ko/privacy.html
 a29807fd5dd9e10415dfe5ffe8a0e56da86926463ce26189c30faba8367fb5d0  ./web/localized/ko/subscription-consumer.html
 017d458ae0edf01971b0df4161b040caed62f965610c43d283d4d4862cb3b0c0  ./web/localized/ko/support.html
 ccb8169ea9207a696067c53019eec7bb50c73eb6e0f00a4e0f4c770f1293523c  ./web/localized/ko/terms.html
@@ -2346,7 +2346,7 @@ fdc71bb41b542479f6587a50d29b65a300362079161b7785ecc858d418bdd8f9  ./web/localize
 30368a3b8265f0f8909be0a777e0bb0d9f6a2bdcc5eafaf829a35110a2d42f12  ./web/localized/nl/jurisdiction-privacy.html
 4bf403a077fd653524861627cf3aa21635ec3bd5efdfb1eab2860c3d1862b3e8  ./web/localized/nl/marketing-push-consent.html
 9298d710cef01876f41905055119b77086f38cd45532f222281790389fe717db  ./web/localized/nl/moderation-appeals.html
-9db955d45012bfa8ca4b0fce36449db13d4840b3aacceb4c367ad3d77106e1dd  ./web/localized/nl/privacy.html
+3594aa12daef93ec48b13f259d60fd986f8cd301cce32d2325ca69a0ebf97057  ./web/localized/nl/privacy.html
 c5fffc01d969a959b607fc12924ad00370eb06a253e524db0c05fc41ec2f5861  ./web/localized/nl/subscription-consumer.html
 842ccadef2d8a5ec96195212a3f7d312408ed0f5ec0f463216504452f19d61d2  ./web/localized/nl/support.html
 f1bad09a62856e106c238e5e5d734a9b000b6be7d00454a69b411a123eadb364  ./web/localized/nl/terms.html
@@ -2357,7 +2357,7 @@ ee326b465cd157939f0e8639f910db598fdc41643f5567f7acaa5935bfbde799  ./web/localize
 d0605732ee8b456727c6175b7dbd442d213769e1e0c8199dd0f6a69894651935  ./web/localized/pl/jurisdiction-privacy.html
 1db1573c8bcc7e9888c5d799acec78f32d97e3886e242ed36dcef2ac828d3cb5  ./web/localized/pl/marketing-push-consent.html
 063110af6a6b8bf67b2c820b4d22d57277518cd56f2b752df075c71e46d485de  ./web/localized/pl/moderation-appeals.html
-c8c75280a61a28e0ca93a991817a2647bff03bde9ac05915a6e39c82b54277fb  ./web/localized/pl/privacy.html
+d073fe5e6387291c3c49fbecdc2d8503419c39ff59c1228cb112bde1e39e288d  ./web/localized/pl/privacy.html
 53fc315aea0135fa23467abdb659419ce6c6f661d788a2cb779d3ec85ba631c9  ./web/localized/pl/subscription-consumer.html
 e33b6e14f22bc9f82026077077a2c2418efbd30e64161240f80ebd6a197eba77  ./web/localized/pl/support.html
 181d8a17c8a85b8d137b21d29701af7dc8b5fe852dfb2846353e4c164ce2b174  ./web/localized/pl/terms.html
@@ -2368,7 +2368,7 @@ a28c9325f3a2b45cf033e626be9dbd989f534b902cde1ce35b40bf7b34a4860a  ./web/localize
 322c579ff8d0524b969338ae086a8a1eccf980358cc415a8376737b3cb1c8308  ./web/localized/pt-BR/jurisdiction-privacy.html
 81ee3e1481784644e10d40349237769673a4b5abfdcc0b6c998ecb440787c630  ./web/localized/pt-BR/marketing-push-consent.html
 3cd7240899fd6a7e0691f2800364018fb06b45ecd8dfe2f32b274e0afccee20c  ./web/localized/pt-BR/moderation-appeals.html
-131bdf78ffe1c387b7b8b37d64cb6e69f624cbf4978bcf8b21200349bf9e0463  ./web/localized/pt-BR/privacy.html
+99b0161463b7a674ac59d23c0624b4e5eae43cebf2cac309a1fdfa30ca13b5d7  ./web/localized/pt-BR/privacy.html
 c631e9668c10d019575efb94c0a53b2c9b09f9bf8ea35f390499e79bef84c98d  ./web/localized/pt-BR/subscription-consumer.html
 969a52bf100181ac29b678ebf55d9f12adfe5e8b1763d71c9ec8fb7eabb3b222  ./web/localized/pt-BR/support.html
 9fdb2dd7d19b68e73d2aee0f831865a4bd53bb099e4ac097830d1415deb088cb  ./web/localized/pt-BR/terms.html
@@ -2379,7 +2379,7 @@ e54227185f4f38559b77e1e23afae22792889946d3c08e701c3783768cef5a2f  ./web/localize
 e6d710948c475f0080f30f76d22a90f6b587a3b62fd5794771c70a2f92690664  ./web/localized/ru/jurisdiction-privacy.html
 70864ebfb16c8b2b7bdfd1c0ae65e7eeed21e0c916a53886971272f441c918ad  ./web/localized/ru/marketing-push-consent.html
 3b0995b15b73dd1289abecf1cc99c485a1e0a2de6571710cba97913ea3da94d7  ./web/localized/ru/moderation-appeals.html
-5db02aca9269e71252f1921dc69bc80bed583b59a064db79a21b7f306cc6bf66  ./web/localized/ru/privacy.html
+a320efbf14d3b03dc13bc01a4e8595a2185f9028af58890e03c314bd969ef475  ./web/localized/ru/privacy.html
 c9dd120f1e56ed2cdc7793a7c7a5b613cecb291d3b0a0210b87044f0dddfe6dc  ./web/localized/ru/subscription-consumer.html
 4a1b9fbe56ebb9a404288ca162142e0d65fa6827b5643af947cdd39e7b43977c  ./web/localized/ru/support.html
 64d9e28eaccc9e1e1f0f8832cc6c98b504bc6d675dc017bc24a7806d83bffd75  ./web/localized/ru/terms.html
@@ -2390,7 +2390,7 @@ f9d1200e723d5599c7baeec23a837f9580b75dc03481a63d3a9ac627ed6a2dc9  ./web/localize
 b8917f4b3548957b1e53debbe4b4a72ae5725eb1d2a5bf5ce0ceffbc5178527f  ./web/localized/th/jurisdiction-privacy.html
 c0743799f596627b4fbbc60fce80c4055717df65eeedb62bf52642f6a5223824  ./web/localized/th/marketing-push-consent.html
 1c9ad8192f4666d6b2fade7f2743b75b623a8541b35594610efd8145264285bf  ./web/localized/th/moderation-appeals.html
-be06803bab6e62196403f9337b99dc26c892ac3ea6168ac6f512c65147d141da  ./web/localized/th/privacy.html
+97e25d9fbb2a55568023be7de8808b3b9776a03fe90718a5da790efc70c3623e  ./web/localized/th/privacy.html
 f2e1f60bd822218f606e8f718e28a525d3e2b2c524dd76c0a2316543e03f3d27  ./web/localized/th/subscription-consumer.html
 ecb88fb7036d5372138a7007c6f7e14992ec6ed942a5808877ff5ad156297e6c  ./web/localized/th/support.html
 bcefac3e7e630ee48bfb40fdd5d7bb6ef23a95bb888e3f68c13f8579399c0bfd  ./web/localized/th/terms.html
@@ -2401,7 +2401,7 @@ ff399a5dd6b0cfd17b517bc664cdea3f99cabef65d9e25c96db7517a5aa7830a  ./web/localize
 26b1096e7ab71c256927abbeec50ac3ddafe337594937135e8fe55eb0f1e119d  ./web/localized/tr/jurisdiction-privacy.html
 5fb1ef46615746bf2e0b80fecfe001d395ed1d9e09ae47b14db3a62254b9d4a0  ./web/localized/tr/marketing-push-consent.html
 ce070fe02462f70019d010f08481e9107682dd01559a24cd315572de50bc2e1c  ./web/localized/tr/moderation-appeals.html
-073cedf8b207b7c5a6e730d1575eef61ae6adc4ee78b18fa5fbc3497c56179a2  ./web/localized/tr/privacy.html
+16214d2221715913d67c9563d5a4f3fd5a83cd0da7d49519b5bc4794ea290bb6  ./web/localized/tr/privacy.html
 2543b759e9f2a6b00b46994fce6c8851648282a8a8ca91153ccc9f039f50eefb  ./web/localized/tr/subscription-consumer.html
 542c0ba3488d776f1013b3b4af5adc56bfe84690542c1b4d721e6c1acd267899  ./web/localized/tr/support.html
 8059d606353b4af9ec5bad7bb003903b3f7be3b286d0e499a1fc2f04c5fb1459  ./web/localized/tr/terms.html
@@ -2412,7 +2412,7 @@ c638fd13ec6c1dfc5b3ea62c5cc46784d0e971111f7063addd5895d7d932c5a4  ./web/localize
 81e569551d7d522ef8f23f4f658dbfbcc1c2a882e1812c72bf8347e83fe61367  ./web/localized/vi/jurisdiction-privacy.html
 05edaa580bd5e107aaf641503934e32c85723139301b7bf1ffd9ded7ea48afb1  ./web/localized/vi/marketing-push-consent.html
 50ab36fdaf8b8315cb6d783f33535a809bc2b7c5486a3849ea1e5e5a0157f587  ./web/localized/vi/moderation-appeals.html
-625a1137c836e25667b925c4dc4df7953a643907c9b32112af3685fe4a137e50  ./web/localized/vi/privacy.html
+ad3659f146b914cc4ee038eaeefac33b86b5eabec5a4ec4db6bb2b5d9ec80185  ./web/localized/vi/privacy.html
 fd2a2f316a1ff1f76d7c6863b5a3a3f585b984edadea1534cf40f1f1c63c6936  ./web/localized/vi/subscription-consumer.html
 41d7802df554adc690c4d62fb36522021fd49e539bf26f0a662222072dd3b287  ./web/localized/vi/support.html
 e6e360e397516c5d2c0771818d35aa4e6e744236960ae877300078b22e7c0036  ./web/localized/vi/terms.html
@@ -2423,7 +2423,7 @@ ad3375260c246ac45ece6d01e37680d655458df6a55d0d297d3fb6c55ba0b1c8  ./web/localize
 22114c8457b7c40c9b4d0569cdddc209735723bec42acdbe51c2dc8d1252c5db  ./web/localized/zh-Hans/jurisdiction-privacy.html
 22d7fa5de4c25be7e405e59362b92719975de3c9af7d73630401c232da715e11  ./web/localized/zh-Hans/marketing-push-consent.html
 aa83a8dead38e323bd112d61d0781f5e721f2d31ce1aab151b2a62d11ccafcde  ./web/localized/zh-Hans/moderation-appeals.html
-7f58cd313b84796dec330d2b31abc029b5a1c29073371413725b992cc0a9f085  ./web/localized/zh-Hans/privacy.html
+b673df3ccdb538e8a86409dc56457bb0bc0c4952b459a5bbdb6a56da3a2bb15e  ./web/localized/zh-Hans/privacy.html
 2eb95cec26c58d93eefb1a77d7f62f1647e20c80fbe0ed302bfc49ddbef6194c  ./web/localized/zh-Hans/subscription-consumer.html
 4eb37e352fea20d221e8eda52deb72f29974976e4ea0668d0ee1e3c8e7886f87  ./web/localized/zh-Hans/support.html
 66cddf387dda3bf92e8b9887bb9fbcea8d01f8c26b68dd73da4a4ac3d8e45c4b  ./web/localized/zh-Hans/terms.html
@@ -2434,13 +2434,13 @@ a11173a9daff3f1aecf59914c54419fccc9d6f73da34533bffc532949c55d199  ./web/localize
 15e320892d11c1104bbe2adbac6cb87ac864ff1ef42d7e1be6baeb4011a94fe4  ./web/localized/zh-Hant/jurisdiction-privacy.html
 16e2e3da163900251179529c1a2170fc921a7eb167244cd1434c6eacdb39ea83  ./web/localized/zh-Hant/marketing-push-consent.html
 ea6295eb8266ba1286d93951b2d8e0e5b2a08f14c1aad878f185cb361ab4f19c  ./web/localized/zh-Hant/moderation-appeals.html
-42fea49c2ab08b44962bff1aa66397a151421f729c9d09d19f98360b624ba7ee  ./web/localized/zh-Hant/privacy.html
+35de873c656119452bdc05f1a94a54679f07726a84a3d6bb99dfacd980bc75d3  ./web/localized/zh-Hant/privacy.html
 4f09c237f7fc0d9a9febfa80cf3e08572fa63b17ac2d48f72ffea16a82e627b3  ./web/localized/zh-Hant/subscription-consumer.html
 a237f62e0046841cd633f720bbf244c5d36581248c138d52e5ce35e3d0521f4d  ./web/localized/zh-Hant/support.html
 c68298f6278e3db1bd6c1ef607bac6bba98bb4e339d60965eb84bc685cb27d7d  ./web/localized/zh-Hant/terms.html
 f25b9477e2a337400498b0d9eb7ab9a754e325de19f8f42c4d09eae9b78b84d3  ./web/marketing-push-consent.html
 d5ae84bc57a82b599163c7b0517f788bb1fcf8d36b58de2435f985d5f67f933a  ./web/moderation-appeals.html
-de07ec8705ae1138d7818660de2c3f7edb19fa074b2fe6d1bab4e7a6db03f3c8  ./web/privacy.html
+349725552276237d576b0128e631c6a5a0788dadf6dd67863d43b12c64fa6677  ./web/privacy.html
 e5307e8828b79a43aa0fa77e20629ca5bfd10898f032ed14489f0882eb3e407c  ./web/styles.css
 6f7e682ae6253af359e1192b1592ad232567ade9a4b68051251c530266392acd  ./web/subscription-consumer.html
 0baf28388c3b62dcc303d21c912082233d1f7f9ea3a16d6d6a5babcabf95e210  ./web/support.html

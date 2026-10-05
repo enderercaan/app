@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Podem tractar dades del compte i de sessió; dades de seguretat, dispositiu, xarxa, IP i tokens push; perfils de mascotes, fotografies i interaccions socials; ubicació aproximada per a la descoberta; registres de salut, vacunació i verificació que decideixis pujar; estat de subscripció i referències de transaccions de la botiga; denúncies, bloquejos, moderació i apel·lacions; preferències de notificacions i màrqueting; i registres que acreditin quin context jurídic i quins documents se't van mostrar."
+              "text": "Podem tractar dades del compte i de sessió, inclosos el teu correu electrònic i els identificadors d'inici de sessió; dades de seguretat, dispositiu, xarxa, IP i token push; diagnòstics de errors i rendiment; perfils de mascotes, fotografies, publicacions, històries i missatges privats entre mascotes amb coincidència; ubicació aproximada per a la descoberta; registres de salut, vacunació i verificació que decideixis pujar; resultats de la verificació d'identitat del propietari i de la comprovació d'edat quan s'usin aquestes funcions; estat de subscripció i referències de transaccions de la botiga; denúncies, bloquejos, moderació i apel·lacions; preferències de notificacions i màrqueting; i registres que acreditin quin context jurídic i quins documents se't van mostrar."
             }
           ]
         },

@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Podemos tratar datos da conta e da sesión; datos de seguridade, dispositivo, rede, IP e tokens push; perfís de mascotas, fotografías e interaccións sociais; localización aproximada para descubrimento; rexistros de saúde, vacinación e verificación que decidas cargar; estado da subscrición e referencias de transaccións da tenda; denuncias, bloqueos, moderación e recursos; preferencias de notificacións e mercadotecnia; e rexistros que acrediten o contexto xurídico e os documentos que se che mostraron."
+              "text": "Podemos tratar datos da conta e da sesión, incluídos o teu correo electrónico e os identificadores de inicio de sesión; datos de seguridade, dispositivo, rede, IP e token push; diagnósticos de fallos e rendemento; perfís de mascotas, fotografías, publicacións, historias e mensaxes privadas entre mascotas con coincidencia; localización aproximada para descubrimento; rexistros de saúde, vacinación e verificación que decidas cargar; resultados da verificación de identidade do propietario e da comprobación de idade cando se usen estas funcións; estado da subscrición e referencias de transaccións da tenda; denuncias, bloqueos, moderación e recursos; preferencias de notificacións e mercadotecnia; e rexistros que acrediten o contexto xurídico e os documentos que se che mostraron."
             }
           ]
         },

@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "We kunnen account-/sessiegegevens; beveiliging, apparaat, netwerk, IP en push; huisdierprofielen, foto’s en interacties; geschatte locatie; vrijwillige gezondheids-, vaccinatie- en verificatiegegevens; abonnementsstatus en winkelreferenties; meldingen, blokkades, moderatie en bezwaar; voorkeuren; en bewijs van juridische context en getoonde documenten verwerken."
+              "text": "We kunnen account- en sessiegegevens verwerken, waaronder je e-mailadres en inlogidentificaties; beveiligings-, apparaat-, netwerk-, IP- en push-tokengegevens; crash- en prestatiediagnostiek; huisdierprofielen, foto’s, berichten, stories en privéberichten tussen gematchte huisdieren; de geschatte locatie voor ontdekken; gezondheids-, vaccinatie- en verificatiegegevens die je ervoor kiest te uploaden; resultaten van de identiteitsverificatie van de eigenaar en van leeftijdscontrole wanneer deze functies worden gebruikt; abonnementsstatus en winkeltransactiereferenties; meldingen, blokkades, moderatie en bezwaren; notificatie- en marketingvoorkeuren; en bewijs van welke juridische context en welke documenten je zijn getoond."
             }
           ]
         },

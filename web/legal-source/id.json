@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Kami dapat memproses data akun dan sesi; data keamanan, perangkat, jaringan, IP, dan token push; profil hewan, foto, dan interaksi sosial; lokasi perkiraan untuk penemuan; catatan kesehatan, vaksinasi, dan verifikasi yang Anda pilih untuk unggah; status langganan dan referensi transaksi toko; laporan, blokir, moderasi, dan banding; preferensi notifikasi dan pemasaran; serta catatan yang membuktikan konteks hukum dan dokumen yang ditampilkan kepada Anda."
+              "text": "Kami dapat memproses data akun dan sesi, termasuk alamat email dan pengenal masuk Anda; data keamanan, perangkat, jaringan, IP, dan token push; diagnostik kerusakan dan kinerja; profil hewan, foto, kiriman, cerita, dan pesan pribadi antara hewan yang cocok; lokasi perkiraan untuk penemuan; catatan kesehatan, vaksinasi, dan verifikasi yang Anda pilih untuk unggah; hasil verifikasi identitas pemilik dan verifikasi usia jika fitur tersebut digunakan; status langganan dan referensi transaksi toko; laporan, blokir, moderasi, dan banding; preferensi notifikasi dan pemasaran; serta catatan yang membuktikan konteks hukum dan dokumen yang ditampilkan kepada Anda."
             }
           ]
         },

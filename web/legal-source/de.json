@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Wir können Konto- und Sitzungsdaten, Sicherheits-, Geräte-, Netzwerk-, IP- und Pushdaten, Tierprofile, Fotos und soziale Interaktionen, ungefähren Entdeckungsstandort, freiwillig hochgeladene Gesundheits-, Impf- und Verifikationsdaten, Abo- und Store-Referenzen, Meldungen, Sperren, Moderations- und Beschwerdedaten, Benachrichtigungs- und Marketingpräferenzen sowie Nachweise über den angezeigten Rechts- und Dokumentkontext verarbeiten."
+              "text": "Wir können Konto- und Sitzungsdaten verarbeiten, einschließlich deiner E-Mail-Adresse und Anmeldekennungen; Sicherheits-, Geräte-, Netzwerk-, IP- und Push-Token-Daten; Absturz- und Leistungsdiagnosen; Tierprofile, Fotos, Beiträge, Stories und private Nachrichten zwischen gematchten Tieren; den ungefähren Standort für die Entdeckung; Gesundheits-, Impf- und Verifikationsnachweise, die du hochladen möchtest; Ergebnisse der Identitätsprüfung der Halterinnen und Halter sowie der Altersprüfung, sofern diese Funktionen genutzt werden; Abostatus und Store-Transaktionsreferenzen; Meldungen, Sperren, Moderation und Beschwerden; Benachrichtigungs- und Marketingpräferenzen; sowie Nachweise darüber, welcher Rechtskontext und welche Dokumente dir angezeigt wurden."
             }
           ]
         },

@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "We may process account and session data; security, device, network, IP and push-token data; pet profiles, photos and social interactions; approximate discovery location; health, vaccination and verification records you choose to upload; subscription status and store transaction references; reports, blocks, moderation and appeals; notification and marketing preferences; and records proving which legal context and documents were shown to you."
+              "text": "We may process account and session data, including your email address and sign-in identifiers; security, device, network, IP and push-token data; crash and performance diagnostics; pet profiles, photos, posts, stories and private messages between matched pets; approximate discovery location; health, vaccination and verification records you choose to upload; owner identity-verification and age-assurance results where these features are used; subscription status and store transaction references; reports, blocks, moderation and appeals; notification and marketing preferences; and records proving which legal context and documents were shown to you."
             }
           ]
         },
