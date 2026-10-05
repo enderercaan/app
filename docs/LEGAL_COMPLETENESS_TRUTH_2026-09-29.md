@@ -23,6 +23,6 @@ This report covers only the 27 configured Tailmance markets. It separates comple
 
 ## Separate production boundary
 
-External operational evidence verified: **20/80**; pending: **59**. Store-console, provider, hosted-publication, actual operator/tax-registration and other live facts are not legal-language source gaps and are not fabricated.
+External operational evidence verified: **23/80**; pending: **56**. Store-console, provider, hosted-publication, actual operator/tax-registration and other live facts are not legal-language source gaps and are not fabricated.
 
 Production decision: **NO_GO_EXTERNAL_OPERATIONAL_EVIDENCE_PENDING**

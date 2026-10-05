@@ -30,6 +30,12 @@ Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (lates
 ## iOS native notes
 - Swift cannot be compiled in the cloud container. The CallKit/PushKit coordinator (created at launch via an app-delegate subscriber), the single-resume Vision continuation, the memoized model hash and the Caches-backed compiled model are verified only by source checks. First real check: the EAS iOS build, then a VoIP push to a terminated app on a physical iPhone.
 
+## Owner decisions recorded on 2026-10-05
+- Owner declaration dated 2026-10-05: sole proprietor, Apple and Google identity verification done, Apple DSA Trader and Play payments profile done, Turkish tax registration active (details private), income only via the stores, EU representative not required. Recorded as three dated `owner-attestation:` evidence items (operator identity / address-tax / market operator disclosures) in `release/external-legal-evidence.json`; the owner explicitly approved this category. The boundary and legal-policy checks accept it only for the operator-identity boundary class with a dated attestation reference; 56 external items remain pending.
+- Legal content review passed (no untranslated text, placeholders or whitespace defects in 22 legal languages and 594 country supplements); not a lawyer or certified-translator sign-off.
+- Phone, postal address, tax number: private file only, never in the repo.
+- Still needed from the owner: a domain name, then web publication, EAS variables, store forms.
+
 ## Next steps
 1. User adds environment secrets (names only): `EXPO_TOKEN`, `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_CONTENT_BASE64`, `APPLE_TEAM_ID`, then the app values from `.env.example` and `supabase/.env.example`. Old App Store key `6KTZU46J3L` must be revoked.
 2. In the new session: list env var NAMES only, run `npm run release:diagnose`, then `npx eas-cli build -p android --profile production --non-interactive` and `-p ios`, fix build errors in code.

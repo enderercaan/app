@@ -10,14 +10,20 @@ const allowed=new Set([
   'production_or_operational_external',
   'out_of_scope_unconfigured_country',
 ]);
-let verified=0,pending=0,outOfScope=0,sourceOnlyPending=0;
+let verified=0,ownerAttested=0,pending=0,outOfScope=0,sourceOnlyPending=0;
 const classes={};
 for(const [key,item] of items){
   assert.ok(allowed.has(item.evidence_boundary_class),`${key}: evidence_boundary_class missing/invalid/deprecated`);
   assert.equal(typeof item.repository_source_can_satisfy_alone,'boolean',`${key}: repository_source_can_satisfy_alone required`);
   assert.ok(String(item.required_evidence_boundary??'').trim(),`${key}: required_evidence_boundary required`);
   classes[item.evidence_boundary_class]=(classes[item.evidence_boundary_class]??0)+1;
-  if(item.status==='verified'){
+  if(item.status==='verified'&&item.evidence_boundary_class!=='repository_source_internal_qa'){
+    // Operator facts the repository cannot prove: accepted only as an explicit, dated owner attestation whose
+    // private details stay outside the repository (owner approved this category on 2026-10-05).
+    ownerAttested++;
+    assert.equal(item.evidence_boundary_class,'real_identity_registration_or_market_operator_external',`${key}: only operator identity/registration facts may be owner-attested`);
+    assert.ok((item.evidence_reference??[]).length>0&&item.evidence_reference.every(ref=>/^owner-attestation:20\d\d-\d\d-\d\d:/.test(ref)),`${key}: owner-attested item requires a dated owner-attestation reference`);
+  } else if(item.status==='verified'){
     verified++;
     assert.equal(item.repository_source_can_satisfy_alone,true,`${key}: source/internal verified item must be explicitly source-satisfiable`);
     assert.ok((item.evidence_reference??[]).length>0,`${key}: verified item requires evidence references`);
@@ -35,7 +41,8 @@ for(const [key,item] of items){
   }
 }
 assert.equal(verified,20,'configured-27 source/internal verified evidence count drift');
-assert.equal(pending,59,'genuine production/store/operator external pending count drift');
+assert.equal(ownerAttested,3,'owner-attested operator identity item count drift');
+assert.equal(pending,56,'genuine production/store/operator external pending count drift');
 assert.equal(outOfScope,1,'one worldwide-unconfigured item must remain explicitly out of scope');
 assert.equal(sourceOnlyPending,0,'no source-remediable item may hide inside the pending external inventory');
-console.log(`external-legal-evidence-boundary-checks: ${items.length}/80 classified; source/internal verified=${verified}, genuine-external-pending=${pending}, out-of-scope=${outOfScope}, source-remediable-pending=${sourceOnlyPending}; classes=${JSON.stringify(classes)}`);
+console.log(`external-legal-evidence-boundary-checks: ${items.length}/80 classified; source/internal verified=${verified}, owner-attested=${ownerAttested}, genuine-external-pending=${pending}, out-of-scope=${outOfScope}, source-remediable-pending=${sourceOnlyPending}; classes=${JSON.stringify(classes)}`);

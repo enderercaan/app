@@ -21,8 +21,8 @@
     "source_legal_language_complete": true
   },
   "production_external_boundary": {
-    "external_evidence_verified": "20/80",
-    "external_evidence_pending": 59,
+    "external_evidence_verified": "23/80",
+    "external_evidence_pending": 56,
     "apple_age_rating_console_result_verified": false,
     "google_iarc_console_result_verified": false,
     "operator_registration_tax_account_live_facts_are_source_approval": false,

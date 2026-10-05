@@ -26,15 +26,19 @@
       "required_evidence_boundary": "Real deployed production/live operational evidence; source code alone cannot satisfy this item."
     },
     "real_support_business_identity_details": {
-      "status": "not_verified",
-      "evidence_reference": [],
+      "status": "verified",
+      "evidence_reference": [
+        "owner-attestation:2026-10-05: sole proprietor (no company); Apple Developer and Play Console identity verification, Apple DSA Trader declaration and Play payments profile completed; Turkish tax registration active (Gelir Idaresi Baskanligi digital tax office record, no outstanding tax debt shown on 2026-10-05); income only via App Store and Google Play; EU representative not required per owner decision; identity, address, phone and tax details are held privately outside this repository"
+      ],
       "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
       "repository_source_can_satisfy_alone": false,
       "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
     },
     "consumer_operator_address_tax_details_by_market": {
-      "status": "not_verified",
-      "evidence_reference": [],
+      "status": "verified",
+      "evidence_reference": [
+        "owner-attestation:2026-10-05: sole proprietor (no company); Apple Developer and Play Console identity verification, Apple DSA Trader declaration and Play payments profile completed; Turkish tax registration active (Gelir Idaresi Baskanligi digital tax office record, no outstanding tax debt shown on 2026-10-05); income only via App Store and Google Play; EU representative not required per owner decision; identity, address, phone and tax details are held privately outside this repository"
+      ],
       "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
       "repository_source_can_satisfy_alone": false,
       "required_evidence_boundary": "Real operator/business/registration/tax/representative facts or filings for the actual releasing entity and market."
@@ -302,8 +306,10 @@
       "source_legal_review_complete": true
     },
     "market_specific_operator_identity_address_tax_invoice_disclosures": {
-      "status": "not_verified",
-      "evidence_reference": [],
+      "status": "verified",
+      "evidence_reference": [
+        "owner-attestation:2026-10-05: sole proprietor (no company); Apple Developer and Play Console identity verification, Apple DSA Trader declaration and Play payments profile completed; Turkish tax registration active (Gelir Idaresi Baskanligi digital tax office record, no outstanding tax debt shown on 2026-10-05); income only via App Store and Google Play; EU representative not required per owner decision; identity, address, phone and tax details are held privately outside this repository"
+      ],
       "note": "Real legal entity/operator, postal address, tax/VAT/invoice and consumer disclosure details must be verified for each released market.",
       "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
       "repository_source_can_satisfy_alone": false,

@@ -73,7 +73,7 @@ const fullLegalComplete='false';
 const countryLegalApprovals=`${configuredSourceApprovedCount}/27`;
 const languageLegalApprovals=`${configuredSourceApprovedCount}/27`;
 const subnationalLegalApprovals='SOURCE_REVIEWED_RUNTIME_CONTEXT_SEPARATE';
-const [externalLegalItemsTotal,externalLegalVerified,externalLegalGenuinePending,externalLegalOutOfScope,externalLegalSourceRemediablePending]=one(/external-legal-evidence-boundary-checks:\s*(\d+)\/80 classified; source\/internal verified=(\d+), genuine-external-pending=(\d+), out-of-scope=(\d+), source-remediable-pending=(\d+)/,outputs.externalLegalBoundary,'external legal evidence boundary');
+const [externalLegalItemsTotal,externalLegalVerified,externalLegalOwnerAttested,externalLegalGenuinePending,externalLegalOutOfScope,externalLegalSourceRemediablePending]=one(/external-legal-evidence-boundary-checks:\s*(\d+)\/80 classified; source\/internal verified=(\d+), owner-attested=(\d+), genuine-external-pending=(\d+), out-of-scope=(\d+), source-remediable-pending=(\d+)/,outputs.externalLegalBoundary,'external legal evidence boundary');
 const [futureStates,temporalWatchItems,temporalAsOf]=one(/temporal-effective-date-checks:\s*(\d+) structured future-effective states \+ (\d+) high-volatility watch items consistent as of (\d{4}-\d{2}-\d{2})/,outputs.legalTemporal,'legal temporal watch');
 const [migrationFirst,migrationLast]=one(/migration-release-check:\s*canonical migrations (\d+)-(\d+) contiguous;/,outputs.migrationRelease,'migration release');
 const [storeMetadataValidated,storeMetadataExpected]=one(/store-metadata-release-check:\s*(\d+)\/(\d+) localized store metadata sets validated/,outputs.storeMetadataRelease,'store metadata release');

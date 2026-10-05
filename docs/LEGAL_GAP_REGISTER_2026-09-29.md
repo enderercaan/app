@@ -20,4 +20,4 @@ This register is scoped only to the 27 configured Tailmance markets. It treats o
 
 **GO_CONFIGURED_27_SOURCE_LEGAL_LANGUAGE**
 
-Production external legal/operational evidence still pending: **59**. This is a separate release/operations boundary, not a source legal-language deficiency.
+Production external legal/operational evidence still pending: **56**. This is a separate release/operations boundary, not a source legal-language deficiency.
