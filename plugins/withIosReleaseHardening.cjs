@@ -1,4 +1,4 @@
-const { withXcodeProject } = require('@expo/config-plugins');
+const { withXcodeProject } = require('expo/config-plugins');
 
 module.exports = function withIosReleaseHardening(config) {
   return withXcodeProject(config, (cfg) => {

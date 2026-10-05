@@ -1,4 +1,4 @@
-const { withAndroidStyles, AndroidConfig } = require('@expo/config-plugins');
+const { withAndroidStyles, AndroidConfig } = require('expo/config-plugins');
 
 // Tailmance ships its own semantic light and dark palettes (src/theme.ts). Android 10+ "force dark" can
 // recolor views a second time and break contrast-checked tokens, so it is disabled on the app theme.
