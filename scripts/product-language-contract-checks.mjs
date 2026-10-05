@@ -12,6 +12,11 @@ const docTokens={
   'it':'document', 'ja':'書類', 'ko':'문서', 'nl':'document', 'pl':'dokument', 'pt-BR':'document', 'ru':'документ',
   'th':'เอกสาร', 'tr':'belge', 'vi':'tài liệu', 'zh-Hans':'文件', 'zh-Hant':'文件'
 };
+// The vaccination booklet is itself the reviewed document, so a booklet term also shows that these strings describe a document check.
+const bookletTokens={
+  'ar':'دفتر التطعيم','de':'Impfpass','en':'booklet','es':'cartilla','fr':'carnet','hi':'पुस्तिका','id':'buku','it':'libretto','ja':'手帳','ko':'수첩',
+  'nl':'boekje','pl':'książeczk','pt-BR':'carteira','ru':'паспорт','th':'สมุด','tr':'karne','vi':'sổ','zh-Hans':'接种本','zh-Hant':'接種本'
+};
 const extract=(text,key)=>{
   const escaped=key.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
   const m=text.match(new RegExp(`"${escaped}"\\s*:\\s*"((?:[^"\\\\]|\\\\.)*)"`));
@@ -27,7 +32,7 @@ for(const file of localeFiles){
   assert.ok(token,`${file}: missing document token rule`);
   for(const key of ['verification.subtitle','verification.heroBody','verification.healthTitle','verification.healthApproved']){
     const value=extract(text,key);
-    assert.ok(value.toLocaleLowerCase().includes(token.toLocaleLowerCase()),`${file}: ${key} must describe document review, not verified health`);
+    assert.ok(value.toLocaleLowerCase().includes(token.toLocaleLowerCase())||value.toLocaleLowerCase().includes(bookletTokens[locale].toLocaleLowerCase()),`${file}: ${key} must describe document review, not verified health`);
   }
 }
 

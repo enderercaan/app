@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { globSync, readFileSync } from 'node:fs';
+import { existsSync, globSync, readFileSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 const read=(p)=>readFileSync(p,'utf8');
 const schema=read('supabase/migrations/001_schema.sql');
@@ -714,21 +714,19 @@ check('public account deletion challenge is fail closed, origin/action-bound and
   assert.match(webDelete,/readRequestJsonBounded[\s\S]*16_000/);
 });
 check('health verification trust rejects future-dated authority and invalid expiry',()=>{
-  const edge=read('supabase/functions/health-verification-webhook/index.ts');
   const sql=read('supabase/migrations/143_health_verification_temporal_authority.sql');
-  assert.match(edge,/verifiedAtMs>Date\.now\(\)\+5\*60\*1000/);
-  assert.match(edge,/expiresAtMs!=null&&expiresAtMs<=verifiedAtMs/);
+  const m201=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
   assert.match(sql,/new\.verified_at>now\(\)\+interval '5 minutes'/);
-  assert.match(sql,/a\.verified_at<=now\(\)[\s\S]*a\.expires_at is null or a\.expires_at>now\(\)/);
-  assert.match(sql,/create or replace function public\.health_trust_json[\s\S]*a\.verified_at<=now\(\)/);
+  assert.match(m201,/v_verified_at>v_now\+interval '5 minutes'/);
+  assert.match(m201,/v_expires_at<=coalesce\(v_verified_at,v_now\)/);
+  assert.match(m201,/create or replace function public\.has_current_vaccination_check[\s\S]*a\.verified_at<=now\(\)[\s\S]*a\.expires_at is null or a\.expires_at>now\(\)/);
 });
 check('HMAC webhook secrets fail closed below production strength',()=>{
   const identity=read('supabase/functions/identity-verification-webhook/index.ts');
-  const health=read('supabase/functions/health-verification-webhook/index.ts');
   const releaseGate=read('scripts/server-release-config-check.mjs');
   assert.match(identity,/IDENTITY_WEBHOOK_SECRET['"]\);if\(!secret\|\|secret\.length<32\)/);
-  assert.match(health,/HEALTH_VERIFICATION_WEBHOOK_SECRET['"]\);if\(!secret\|\|secret\.length<32\)/);
-  assert.match(releaseGate,/IDENTITY_WEBHOOK_SECRET','HEALTH_VERIFICATION_WEBHOOK_SECRET'[\s\S]*length<32/);
+  assert.match(releaseGate,/\['IDENTITY_WEBHOOK_SECRET'\][\s\S]*length<32/);
+  assert.equal(existsSync('supabase/functions/health-verification-webhook'),false,'the clinic/provider health webhook no longer exists');
 });
 check('server production gate covers every Edge runtime environment variable',()=>{
   const releaseGate=read('scripts/server-release-config-check.mjs');
@@ -736,7 +734,6 @@ check('server production gate covers every Edge runtime environment variable',()
   const envNames=[...edgeSources.matchAll(/Deno\.env\.get\(['"]([A-Z][A-Z0-9_]+)['"]\)/g)].map(match=>match[1]);
   const missing=[...new Set(envNames)].filter(name=>!releaseGate.includes(`'${name}'`)&&!releaseGate.includes(`"${name}"`));
   assert.deepEqual(missing,[],`Edge env values missing from production release validation: ${missing.join(', ')}`);
-  assert.match(releaseGate,/HEALTH_VERIFICATION_WEBHOOK_SECRET/);
 });
 check('unused durable mutation identities are cleared before stale-context preflight aborts',()=>{
   const files=['src/screens/DiscoverScreen.tsx','src/screens/ChatScreen.tsx','src/screens/EventsScreen.tsx','src/screens/FeedScreen.tsx','src/screens/MeetupsScreen.tsx','src/screens/LostPetAlertsScreen.tsx'];
@@ -1460,7 +1457,8 @@ check('every persisted application table is explicitly classified for account ex
     ,'pet_match_embeddings'          // private derived ranking vectors; cascade with pet deletion and are not user-authored records
     ,'ai_provider_cost_budgets'      // service-only provider cost circuit-breaker configuration; no user-authored data
     ,'ai_provider_cost_windows'      // service-only aggregate provider-call counters; no user identifiers or content
-    ,'health_ai_jobs'                // ephemeral service-only OCR/registry work queue; cascades with health-document deletion
+    ,'health_ai_jobs'                // ephemeral service-only OCR work queue; cascades with health-document deletion
+    ,'health_ai_monthly_units'       // service-only aggregate monthly page counter for the OCR provider's free tier; no user identifiers or content
     ,'client_performance_events'     // deliberately anonymous aggregate frame telemetry; no account/pet identifier stored
     ,'security_integrity_policy'      // global service-owned app-integrity enforcement policy
     ,'security_attestation_challenges' // ephemeral one-time server challenges; security-only anti-replay state
@@ -3004,63 +3002,59 @@ check('offline source semantic gate catches high-signal stale ref and call-signa
 });
 
 
-check('health verification provenance is evidence-bound and veterinarian trust fails closed',()=>{
-  const m=read('supabase/migrations/131_health_verification_provenance_and_trust.sql');
-  assert.match(m,/create table public\.health_verification_attestations/);
-  assert.match(m,/method in \('manual_document_review','provider_ocr_signature'\)/);
-  assert.match(m,/manual_document_review' and signal<>'veterinarian_verified'/);
-  assert.match(m,/provider_ocr_signature'[\s\S]*provider_reference_sha256 is not null[\s\S]*integrity_status in \('valid','invalid'\)/);
-  assert.match(m,/update public\.pet_health_summary set veterinarian_verified=false where veterinarian_verified=true/);
-  assert.match(m,/integrity_status='valid'[\s\S]*revoked_at is null[\s\S]*expires_at is null or a\.expires_at>now\(\)/);
+check('health verification provenance is evidence-bound and no veterinarian state exists',()=>{
+  const m=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  assert.match(m,/health_attestation_method_check check \(method in \('manual_document_review','ai_document_check'\)\)/);
+  assert.match(m,/health_attestation_method_evidence_check check \([\s\S]*method='manual_document_review' and provider_code is null and provider_reference_sha256 is null[\s\S]*method='ai_document_check' and provider_code is not null and provider_reference_sha256 is not null/);
+  assert.match(m,/delete from public\.health_verification_attestations where signal='veterinarian_verified'/);
+  assert.match(m,/alter table public\.pet_health_summary drop column veterinarian_verified/);
   const admin=read('supabase/functions/moderation-admin/index.ts');
-  assert.match(admin,/Provider attestation required for veterinarian verification/);
+  assert.doesNotMatch(admin,/veterinar/i);
   assert.match(m,/create or replace function public\.service_review_health_document/);
   assert.match(m,/select pet_id into v_pet_id from public\.health_documents where id=p_health_document_id for update/);
   assert.match(admin,/service_review_health_document/);
   assert.doesNotMatch(admin,/from\('health_documents'\)\.update\(\{verification_status/);
 });
 
-check('health verification webhook is signed replay-bounded and privacy-minimizes provider references',()=>{
-  const edge=read('supabase/functions/health-verification-webhook/index.ts');
-  assert.match(edge,/HEALTH_VERIFICATION_WEBHOOK_SECRET/);
-  assert.match(edge,/X-Tailmance-Timestamp/);assert.match(edge,/X-Tailmance-Signature/);
-  assert.match(edge,/Math\.abs\(Date\.now\(\)\/1000-signedAt\)>300/);
-  assert.match(edge,/hmacHex\(secret,`\$\{timestamp\}\.\$\{raw\}`\)/);
-  assert.match(edge,/referenceHash=await sha256Hex\(providerReference\)/);
-  assert.doesNotMatch(edge,/p_provider_reference_sha256:providerReference[},]/);
-  assert.match(edge,/service_apply_health_verification_attestation/);
+check('health document check hashes its provider reference and only the AI worker may write AI attestations',()=>{
+  const worker=read('supabase/functions/health-ai-worker/index.ts');
+  const m=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  assert.match(worker,/referenceHash\s*=\s*await sha256Hex\(/);
+  assert.match(worker,/p_provider_reference_sha256:\s*referenceHash/);
+  assert.match(m,/revoke all on function public\.service_apply_health_verification_attestation\(uuid,text,text,text,text,timestamptz,timestamptz\) from public,anon,authenticated/);
+  assert.match(m,/grant execute on function public\.service_apply_health_verification_attestation\(uuid,text,text,text,text,timestamptz,timestamptz\) to service_role/);
 });
 
 check('health attestation evidence is service-only, redacted in export and safe on public pet JSON',()=>{
   const m=read('supabase/migrations/131_health_verification_provenance_and_trust.sql');
+  const m201=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
   const exp=read('supabase/functions/export-download/index.ts');
   assert.match(m,/alter table public\.health_verification_attestations enable row level security/);
   assert.match(m,/revoke all on table public\.health_verification_attestations from public,anon,authenticated/);
-  assert.match(exp,/from\('health_verification_attestations'\)\.select\('id,pet_id,health_document_id,signal,method,clinic_public_id,provider_code,integrity_status,verified_at,expires_at,revoked_at,created_at'\)/);
+  assert.match(exp,/from\('health_verification_attestations'\)\.select\('id,pet_id,health_document_id,signal,method,provider_code,verified_at,expires_at,revoked_at,created_at'\)/);
   assert.doesNotMatch(exp,/health_verification_attestations'\)\.select\([^\n]*provider_reference_sha256/);
-  assert.match(m,/'trust',public\.health_trust_json\(p\.id\)/);
-  assert.doesNotMatch(m,/health_trust_json[\s\S]{0,1200}'providerReferenceSha256'/);
+  const petJson=m201.slice(m201.indexOf('create or replace function public.pet_json'),m201.indexOf('revoke all on function public.pet_json'));
+  assert.doesNotMatch(petJson,/trust|clinic|providerReferenceSha256|veterinar/i);
 });
 
 check('store price and health provider production evidence remain explicit fail-closed release gates',()=>{
   const evidence=JSON.parse(read('release/external-security-evidence.json'));
-  for(const id of ['storefront_subscription_price_tax_parity','production_health_verification_provider_ocr_signature']){
+  for(const id of ['storefront_subscription_price_tax_parity','production_health_document_check_provider']){
     assert.equal(evidence.items[id]?.required,true);assert.equal(evidence.items[id]?.status,'not_verified');assert.equal(evidence.items[id]?.evidence_ref,null);
   }
   assert.match(evidence.items.storefront_subscription_price_tax_parity.notes,/store-provided localized price string/);
-  assert.match(evidence.items.production_health_verification_provider_ocr_signature.notes,/signed webhook delivery/);
+  assert.match(evidence.items.production_health_document_check_provider.notes,/Google Cloud Vision/);
 });
 
 
-check('expired veterinarian attestations fail closed across public JSON discovery and mating eligibility',()=>{
-  const m=read('supabase/migrations/132_live_health_verification_expiry_enforcement.sql');
-  assert.match(m,/create or replace function public\.has_current_veterinarian_verification/);
-  assert.match(m,/integrity_status='valid'[\s\S]*revoked_at is null[\s\S]*expires_at is null or a\.expires_at>now\(\)/);
-  assert.match(m,/'veterinarianVerified',public\.has_current_veterinarian_verification\(p_pet_id\)/);
-  assert.match(m,/'veterinarianVerified',public\.has_current_veterinarian_verification\(p\.id\)/);
-  assert.match(m,/veterinarianVerifiedOnly'[\s\S]*public\.has_current_veterinarian_verification\(p\.id\)/);
-  assert.match(m,/public\.has_current_veterinarian_verification\(a\.id\)[\s\S]*public\.has_current_veterinarian_verification\(b\.id\)/);
-  assert.doesNotMatch(m,/ah\.veterinarian_verified|bh\.veterinarian_verified|coalesce\(h\.veterinarian_verified,false\)/);
+check('expired vaccination checks fail closed across public JSON discovery and mating eligibility',()=>{
+  const m=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  assert.match(m,/create or replace function public\.effective_vaccination_complete/);
+  assert.match(m,/create or replace function public\.has_current_vaccination_check/);
+  assert.match(m,/'vaccinationStatus',case when public\.effective_vaccination_complete\(p\.id\)/);
+  assert.match(m,/vaccinatedOnly'\)::boolean,false\)=false or public\.effective_vaccination_complete\(p\.id\)/);
+  assert.match(m,/public\.effective_vaccination_complete\(a\.id\) and public\.effective_vaccination_complete\(b\.id\)/);
+  assert.doesNotMatch(m.slice(m.indexOf('-- 6. Everything'),m.indexOf('-- 7. Remove the flag')).replace(/--.*$/gm,''),/veterinarian|has_current_veterinarian/);
 });
 
 

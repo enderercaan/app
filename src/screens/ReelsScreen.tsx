@@ -55,7 +55,7 @@ function ReelCard({reel,active,screenFocused,height,onLike,onSave,onComments,onR
     {playbackFailed?<View style={styles.playbackError}><Text style={styles.playbackErrorText}>{t('reels.playbackFailed')}</Text><Pressable accessibilityRole="button" accessibilityState={{busy:playbackRetrying,disabled:playbackRetrying}} disabled={playbackRetrying} onPress={()=>void recoverPlayback()} style={styles.playbackRetry}><Text style={styles.playbackRetryText}>{playbackRetrying?t('common.loading'):t('reels.retryPlayback')}</Text></Pressable></View>:null}
     <View pointerEvents="box-none" style={styles.reelOverlay}>
       <View style={styles.reelInfo}>
-        <Pressable accessibilityRole="button" onPress={onOpenPet} style={styles.reelPetRow}>{avatar?<Image source={{uri:avatar}} style={styles.reelAvatar}/>:<View style={styles.reelAvatarFallback}><AppIcon name="paw" size={20} color={theme.colors.white}/></View>}<Text numberOfLines={1} style={styles.reelPetName}>{reel.pet.name}</Text>{reel.pet.health.veterinarianVerified?<AppIcon name="verified" size={16} color={theme.colors.white}/>:null}</Pressable>
+        <Pressable accessibilityRole="button" onPress={onOpenPet} style={styles.reelPetRow}>{avatar?<Image source={{uri:avatar}} style={styles.reelAvatar}/>:<View style={styles.reelAvatarFallback}><AppIcon name="paw" size={20} color={theme.colors.white}/></View>}<Text numberOfLines={1} style={styles.reelPetName}>{reel.pet.name}</Text></Pressable>
         {reel.caption?<Text numberOfLines={3} style={styles.reelCaption}>{reel.caption}</Text>:null}
       </View>
       <View style={styles.reelActions}>

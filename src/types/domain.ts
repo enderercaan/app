@@ -12,9 +12,8 @@ export type PetPrompt = { id?: string; promptKey: string; answer: string; sortOr
 type PetPhoto = { id: string; url: string; sortOrder: 1 | 2 | 3; moderationStatus: ModerationState };
 export type VaccinationRecord = { id: string; vaccineName: string; doseDate?: string; nextDueDate?: string; verificationStatus: VerificationState };
 type HealthDocument = { id: string; documentType: string; verificationStatus: VerificationState; createdAt: string };
-export type HealthVerificationTrust = { method:'provider_ocr_signature'; clinicPublicId:string; providerCode:string; integrityStatus:'valid'; verifiedAt:string; expiresAt?:string|null; passportSignatureSha256:string };
-type HealthVerificationAttestation = { id:string; healthDocumentId:string; signal:'veterinarian_verified'|'microchip_verified'|'genetic_screening_available'|'pedigree_available'|'vaccination_complete'|'neutered'; method:'manual_document_review'|'provider_ocr_signature'; clinicPublicId?:string|null; providerCode?:string|null; integrityStatus:'not_applicable'|'valid'|'invalid'; verifiedAt:string; expiresAt?:string|null; revokedAt?:string|null };
-type HealthSummary = { vaccinationStatus: VaccinationStatus; veterinarianVerified: boolean; neutered: boolean | null; microchipVerified: boolean; geneticScreeningAvailable: boolean; pedigreeAvailable: boolean; trust?:HealthVerificationTrust|null };
+type HealthVerificationAttestation = { id:string; healthDocumentId:string; signal:'microchip_verified'|'genetic_screening_available'|'pedigree_available'|'vaccination_complete'|'neutered'; method:'manual_document_review'|'ai_document_check'; providerCode?:string|null; verifiedAt:string; expiresAt?:string|null; revokedAt?:string|null };
+type HealthSummary = { vaccinationStatus: VaccinationStatus; neutered: boolean | null; microchipVerified: boolean; geneticScreeningAvailable: boolean; pedigreeAvailable: boolean; documentCheck?:{ approved:boolean; validUntil?:string|null } };
 export type HealthDetails = { summary: HealthSummary; vaccinations: VaccinationRecord[]; documents: HealthDocument[]; attestations:HealthVerificationAttestation[] };
 
 export type Pet = {
@@ -29,7 +28,7 @@ export type DiscoveryFilters = {
   species: Species|'all'; breeds: string[]; sex: Sex|'all'; sizes: PetSize[]; minAge: number|null; maxAge: number|null;
   minWeightKg:number|null; maxWeightKg:number|null; energyLevels:number[]; temperamentTags:string[]; neutered:'all'|'yes'|'no';
   city: string|null; district: string|null; neighborhood: string|null; maxDistanceKm: number|null; purposes: Purpose[];
-  vaccinatedOnly: boolean; veterinarianVerifiedOnly: boolean; profileVerifiedOnly: boolean; ownerVerifiedOnly:boolean; microchipVerifiedOnly:boolean; geneticScreeningOnly:boolean; pedigreeOnly:boolean; matingOnlyNonNeutered: boolean;
+  vaccinatedOnly: boolean; profileVerifiedOnly: boolean; ownerVerifiedOnly:boolean; microchipVerifiedOnly:boolean; geneticScreeningOnly:boolean; pedigreeOnly:boolean; matingOnlyNonNeutered: boolean;
 };
 export type DiscoverySuggestions={breeds:string[];cities:string[];districts:string[];neighborhoods:string[]};
 export type PetVerificationStatus={profileVerified:boolean;latestStatus:'not_started'|'pending'|'approved'|'rejected'|'cancelled';latestRequestedAt?:string};

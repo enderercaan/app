@@ -21,7 +21,7 @@ export function defaultDiscoveryFilters(): DiscoveryFilters {
     species: 'all', breeds: [], sex: 'all', sizes: [], minAge: null, maxAge: null,
     minWeightKg:null,maxWeightKg:null,energyLevels:[],temperamentTags:[],neutered:'all',
     city: null, district: null, neighborhood: null, maxDistanceKm: null, purposes: [],
-    vaccinatedOnly: false, veterinarianVerifiedOnly: false, profileVerifiedOnly: true, ownerVerifiedOnly:false,microchipVerifiedOnly:false,geneticScreeningOnly:false,pedigreeOnly:false,
+    vaccinatedOnly: false, profileVerifiedOnly: true, ownerVerifiedOnly:false,microchipVerifiedOnly:false,geneticScreeningOnly:false,pedigreeOnly:false,
     matingOnlyNonNeutered: true
   };
 }

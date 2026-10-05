@@ -47,5 +47,7 @@ Operator: Yekta Özel (sole proprietor). These runbooks describe how the operato
 - Keep legal acceptance records and moderation decisions as the product already stores them; answer lawful authority requests only through the verified channel, recording requester, legal basis, scope and what was provided. Refuse over-broad requests and tell the user where the law allows.
 
 ## 10. Health-record check operations
-- The AI-assisted check reads all uploaded pages together and compares them with the schedule for the pet's species, age and the owner-entered breed. It marks a record "checked and approved" only when complete and current; everything else goes to a person within 24 hours.
-- Weekly sample: review 20 approved records and 20 non-approved records by hand; log false approvals and false rejections. Any false approval pauses automatic approval until the cause is fixed.
+- The check reads all uploaded booklet pages together 3 minutes after the last upload (Google Cloud Vision, EU endpoint) and compares the dated vaccinations and internal and external parasite treatments with the schedule for the pet's species and age (`_shared/healthBookletCheck.ts`). It marks a record "checked and approved" only when complete and current, until the earliest due date; everything else goes to a person within 24 hours. No veterinarian, clinic or register is involved.
+- Free-tier guard: the worker stops at 900 pages a month; later booklets wait for a person. Check `health_ai_monthly_units` and the Cloud console usage page monthly.
+- Weekly sample: review 20 approved records and 20 non-approved records by hand; log false approvals and false rejections. Any false approval pauses automatic approval until the cause is fixed (disable the `health_ai` row in `ai_provider_cost_budgets`).
+- Quarterly: compare the constants in `healthBookletCheck.ts` with the current WSAVA vaccination guidelines and ESCCAP guidelines 01 and 03 and raise `SCHEDULE_VERSION` when they change.

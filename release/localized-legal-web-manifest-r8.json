@@ -9,23 +9,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "fc7b45ac620d129ce8af8b0081b8df73d684de722388c9a3ce62dedc9ba818dd",
-          "source_sha256": "265cafbdf076f4880a4f7d32a86a75fe12b7e91069859351262422223ba81984",
-          "bytes": 10270,
+          "sha256": "406bb455e3442a5632174f6cf9b3d09c7224c121ca040cc0830b4a90012c841b",
+          "source_sha256": "7a00f13186ce7b3bcf3fef9faaf84f2cdfd0b2cb12df98ab1788965d189d5bb4",
+          "bytes": 10654,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "bf1c2ebb225438c1646089af56cbc1396f2f372a592e2a223ac8f662ea794ef3",
-          "source_sha256": "57da8726528dc1eee3cf274a0464a0f3e922305d940236aac0ca3f044a8cb0b7",
-          "bytes": 10801,
+          "sha256": "e9b20c1c58cad66621583924ea2daeff6d8ccc1ae86a5caf9a35a2c71cd9d004",
+          "source_sha256": "44891523e9e3c56fca01963ac8c9e9a407ed4e67be72da082c754579068ecd4d",
+          "bytes": 11060,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "429779020efaff8efbadc43a3371ad6fa2d2d15ba89aee387c64d098792a9c57",
-          "source_sha256": "c234431f69493f9575274f2f75dea9adb14cd6b22878ce1c6cda07136ca39629",
-          "bytes": 5271,
+          "sha256": "b1ccf803f1004d0db2be39e140e9a36037ebca058393dd202c4acfebc47ca49b",
+          "source_sha256": "dcf4004dbd140b2906d5267cf041d1e35380cb8efd32cfd493984cfcada213e1",
+          "bytes": 5277,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -72,9 +72,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "364056cecb11cd5ead5b850386315e0bbb2bbfb2f7db0e88b55fe53f79abfb61",
-          "source_sha256": "301e43aa5df949686334d761b3c66d7ff1876884c6cec1876bbc8a0a3bf81a6e",
-          "bytes": 3600,
+          "sha256": "b2514083f0fc31ecbf872defd63620d45d7e5cef31383feedf5f688b25df517b",
+          "source_sha256": "c306711ade01e40e4d7c5a7507559ad5690658276c3d574877cbd12612d83cb6",
+          "bytes": 3606,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -90,23 +90,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "d7638e6d5464bd80e8f142c1ea4fb01e9618f48dca170205791781eda2728afb",
-          "source_sha256": "d3f5c6e795b9a99f9f36e8bc123f75483828d4caaef9ea5d10d5417098c4c1d2",
-          "bytes": 10700,
+          "sha256": "a5785a2965734063b29e1c0d6cc9642c70e226a289551df296f9b5e9dc5812b4",
+          "source_sha256": "b4468c888f982860d17023e16f890778bf7c21932b3abb4440b4ba3a63bff63e",
+          "bytes": 11158,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "3640873477388d02913fe423830f2e33352e603e5ae8715844e220f54540be37",
-          "source_sha256": "40663b823046adf3648464df513d1a661e652e65ccdb516603934527c294a19c",
-          "bytes": 11380,
+          "sha256": "164455c115f97a5b8f0e6ef516eb7f675c4588201bed26efcfe8f625b8986acb",
+          "source_sha256": "9827ae0a7043a549902d3e9671b45545a1f21e7d95b0e72239f665e143ca5e23",
+          "bytes": 11658,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "82a318794180ebce498e2cabb619dbf04138e565ba2daae62fce04992828a940",
-          "source_sha256": "76f066dccc93b0e00b650b22a8ce0dcbc800070ea11004d69243b7dbff46b83b",
-          "bytes": 5401,
+          "sha256": "918ca9c0afe0e2e5dfc09ecdbfd4a18f41f1fafe697c729619fdd92c51f3f2fa",
+          "source_sha256": "e46471bb11a5874e47b5e7bf46e8d1fa7799a5be60861bf62efcc58014228a4a",
+          "bytes": 5400,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -153,9 +153,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "b62c0cef681daca181f5f07ab80d5d4c5324d0b10c33de2c7876cae5c729e60a",
-          "source_sha256": "3bac9767f2d0c44260b5491331b8dbed81cf368eb59dac2b626de971d9b102a9",
-          "bytes": 3751,
+          "sha256": "e526bb81f01c2190aaad562c2e57c3bea1d85310eeeda25244b67e470186d40e",
+          "source_sha256": "365b1959fb139d8390ae52728512cb9332730c876835719c820c233b6b9c9828",
+          "bytes": 3750,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -171,23 +171,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "143fe17dd38fea6dca2697eaa92c7ff0e3493f2558de39e62f2d1371df0ae910",
-          "source_sha256": "02db4576e7f0551a0645f9b54efd2145ae2a12062f4831b742188e9075eab91b",
-          "bytes": 10100,
+          "sha256": "dbc31f81041f5dd14ee60518e0767da24ec8f37b17f29643d8150ca09204f21f",
+          "source_sha256": "6a37bb948ccef3bad54def842b6ece05fe6d180d5c7d42c4ca2122b2adf086a7",
+          "bytes": 10534,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "74114103684a5e06f523562620109973dfcab8dc4d737983f9c8f46ccf45294f",
-          "source_sha256": "9d65554520f955cc446be77dde35d0d3b7f63ab5a6d58e83fc45c181aff03c97",
-          "bytes": 10743,
+          "sha256": "7bc168cf8356e8f8b00f6f214d33536036d0a2fd8d3e0969d2a11f7b79f2fc7b",
+          "source_sha256": "13e196d08acc842f3277750568801892fdb4005abc999423d692426f6d01aa87",
+          "bytes": 11009,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "a0e1f98b1cbab0a4c2f0e85e2bdc48fab158956611ec4323c2c289146558bde7",
-          "source_sha256": "0cb840f1ab81bceaaaef18eaec76eae6210f853154ccd4a9e43d4361ea3f2d7a",
-          "bytes": 5259,
+          "sha256": "3d74a37eb64f34b052359e7e7c78a97105e4962dc6fbe44ee918c420e880ae84",
+          "source_sha256": "5fb07b9a40082342ab2bf56e03dca7f313811c8cfb2d40752fbc11702d4977de",
+          "bytes": 5255,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -234,9 +234,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "578974a42a2032c72b90e494e69f2771f89c782c51687fb13709e4d538d78799",
-          "source_sha256": "42983558c01a0cc11d7ec101392f4b393e56bb94ba6f2afb4d961ee7c7d14397",
-          "bytes": 3680,
+          "sha256": "448937709801cdd6acdb629ebcf2569cf56847a960c8078bf6b1c2e076897651",
+          "source_sha256": "b73af46af85045730e56519618d3a90ac8c05cb43adba999e703aae39f494f8f",
+          "bytes": 3676,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -252,22 +252,22 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "7d3ef3ce16aae5cc3d88e5993a3f3ddc5f4d885340160629e8ebe0f8898fde7b",
-          "source_sha256": "6e6fd18c6b0e036ec48320c927cf78c06ada688346dfa8b87a8035bf3013af75",
-          "bytes": 11523,
+          "sha256": "adb9113d316a91e429ca03903a802966c512a9564b76b37de92e0b7d97bf35df",
+          "source_sha256": "4a90ddb4ee692ec53b06fff10cc050bf32d054586df2d844b1d43a24fa94c5d8",
+          "bytes": 12078,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "9c0a2092aa48b80312a74dd3fbcf06ac1a5243d91bbe62ac2e92af9ca5113a46",
-          "source_sha256": "f0000353f9cc092f82a3767af88fde121476f93ec9424c5452aac3be6c4d7795",
-          "bytes": 12180,
+          "sha256": "d370fa1f928c76ebbcf24b7ca72ea684cd966c75056e6e50b357cce60a985071",
+          "source_sha256": "3bf3cbd6477993501a66b5dfe859b1c735a872974c19f6b3f4df136a39f6b382",
+          "bytes": 12548,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "40188c7b30926cb72b82f46357557d8051f95877bb6e47736e67bbeabe30070b",
-          "source_sha256": "66940d9724d00e52ed690a6e0a05de5bf895b857156e8932c1818ed494db7b98",
+          "sha256": "3e14443ebfe8f93ab8fd9ec93bc61a40863dc1532eeb0559bbf1989b03e7f9ab",
+          "source_sha256": "4111b7f5be8f71f6c917230f21a965a76fe070b790d9270f99570741d3060749",
           "bytes": 5757,
           "sections": 9
         },
@@ -315,8 +315,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "4025032017627d4ae7e178be5dc9c9db7cc93fe612de6fb0cd38dc9791ddf910",
-          "source_sha256": "ecdbe67704b5b6e9bf763632f44fb9a6ccc4022229c0369f39d60a9f4f0ed304",
+          "sha256": "6bcc4eb3d5ec8467d264329a35506e5fa95e79a9d22551f44baf1b82ec5391dc",
+          "source_sha256": "759ef3497a7b56f1a32bb3d2f891baa645986bc8bcf9fbe627427baa70371372",
           "bytes": 3905,
           "sections": 6
         },
@@ -333,23 +333,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "b0e2e85c5d4ead174eda2433b08e893ae924b1cf65f01220989b54004ec96f1c",
-          "source_sha256": "fcaaa2f0b56deb9d5443df1af8db823931e9abb39fd474aa9c8ebe260231d9dc",
-          "bytes": 10609,
+          "sha256": "1bd251e6fd8e329d18d4c96afeb7e9e9e143b4f2988ab0420802d15174c38e6a",
+          "source_sha256": "92ebe513f68994a6020c267d708387719ea5d1606082acac831ca49e58ce8a0c",
+          "bytes": 11085,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "78a45e168081b327aadaefaf4d9771ac0c7cc3c80fe4f2396dae698986153d76",
-          "source_sha256": "5db21b69192ec25ab33d0cc0e49f09ad19f1492eac00f74eaca14d1a271cc644",
-          "bytes": 11210,
+          "sha256": "32fc6029209a00a556ae4306ebda85edc76d34691a078b23a4daa7fb362a1ccf",
+          "source_sha256": "ec9c66f9f0f9f7a974fb4cdf668d822185cc502d7b69a0e94f8a2daabeeab102",
+          "bytes": 11504,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "6bf89eeb7ed36a88fc69a9d4d1af1a715f091e322221fb589731e3747acacfb2",
-          "source_sha256": "bce149451c6fd6a94be47dd049461503d4cbfa30b2804770574f136dbe7ade3d",
-          "bytes": 5553,
+          "sha256": "6819c1e2cb426c96b82b6dc87153bc0772258b5ede49e6fbdb84309a2d752a3e",
+          "source_sha256": "afd1f8dc1121c8467dc89f70ba4b5a4e0b0d7535119c0a9e14e40a019b5883c7",
+          "bytes": 5543,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -396,9 +396,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "6f0ec6ba18aa7f78985fe1e217d7f80f3da5e754d52892322589ef118887c3eb",
-          "source_sha256": "816790b79bf7d7cd959d43519eaa3eb287e66d7a0c6831bd9de40d22352abf48",
-          "bytes": 3748,
+          "sha256": "944313bcd35e7c01564d665e94b225596c496af1c1336841dd7edaa8736a98ef",
+          "source_sha256": "8c38d66f89872728305f38dde8aea515c28f17b6309e46816e34cdf97fa07c7a",
+          "bytes": 3738,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -414,23 +414,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "277a21ff6f0e000d1345e7942f377d299d7e443d5ed7af5e95c6b5d340b483b5",
-          "source_sha256": "bdb1eeed236d5917b76ffdde06c664a833624d70c1f085a0b48c6479bd180e44",
-          "bytes": 10103,
+          "sha256": "4bc276509091a2bedf0be94c2ff57e72b2a7d3dbd409111046d5cbf10528b6a8",
+          "source_sha256": "94e4037f1f7e4d93458e49fafce4fb32e470ff596ee797d977e4201924ff0466",
+          "bytes": 10583,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "ea3460497646e5c9b9ca3d283d21027a3b31d54402dabaf8a3080ef4e1fda9c4",
-          "source_sha256": "82ad950aaf6b0da837636c84b96da94717511fbde87d47a26ae8468de50d1d7b",
-          "bytes": 10755,
+          "sha256": "f9f576270765760fc0520f6bbba30db472cae74e98382ae3e2e98e6d49bd6f62",
+          "source_sha256": "19776bf716bf3dc17dbd90c1dbdc053ffb6fce6075f99177fddca511e108c939",
+          "bytes": 11062,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "0e8931eb4e3c17ed91355683137f16f5f79d26742735a9475fada6a18403e725",
-          "source_sha256": "37252915f5bd1043f2fb4feb00a6ee3ffa023dfa9bba94b54f17d637f61d651c",
-          "bytes": 5271,
+          "sha256": "c5b74fb3a3c62095966c9d309221136e6bb27aed17e4896d9a9c8d35f6a07761",
+          "source_sha256": "1903bd974d836de1f5695d5fa5f78ef26dace25e94523c6249c30d4fd5ac991d",
+          "bytes": 5274,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -477,9 +477,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "51aa370d52d700c0fd0c59ec70a726eb2815640b83238dd1a479522e2e320705",
-          "source_sha256": "648b8e3b3e62d5a089ffa4f825f8d092c20e846f8dd175fab54aa78a5c9f19ba",
-          "bytes": 3654,
+          "sha256": "5708b5f082e9e7ea091b83123acb75519e2a6cc7d813db6843bfd9a8a2b28207",
+          "source_sha256": "b0c965711ff500ba80131e46cf8edfb4cebf6b153859e6af826662f241c0d81d",
+          "bytes": 3657,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -495,23 +495,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "eebb0c2fbf81622cc8e115a738bd268cc8b1cf4c001d98d020c022d8593cda33",
-          "source_sha256": "f1b09bea1e245f17e9700d9fb276101ad4286300666b9105f1814fed47c3b7f9",
-          "bytes": 19636,
+          "sha256": "c469a73fb9f4b6f645fa837460c688cdd3a60d8c9796769b9465d9b2d2d453e0",
+          "source_sha256": "c5294cfd7691f064c35e7fd0250a72222a39129dd40a0ea7e89083d282a8bf9f",
+          "bytes": 20381,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "adf966a841dc3060d420d879774e5e17f0915218d79895475dffd1a2da868a2b",
-          "source_sha256": "d5893affd03b4b6126526fa4c0d068200914f17003706c37fe091ef5879960d6",
-          "bytes": 20104,
+          "sha256": "0d75085467f65c075ea07c0b9b7c699f69a82cd6abe13096e08bb7e89acfacae",
+          "source_sha256": "6ac24ac9b2f0d148a70c87e344b7e00addc6a4f2a83c24ce0b2bde2bef149ec6",
+          "bytes": 20562,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "bc2ec6e2608f6d0e30f3478635e9ecdd9dea340399eb7ce32c6daab680b5d362",
-          "source_sha256": "c22bae76b8a29dda9d1b73b24ea1046406d986517fea4705c26e1d7a623cccd3",
-          "bytes": 9530,
+          "sha256": "2b876fefb6c2252c4641162b05a9fff174a660fef821ac8e0d933f77e4914359",
+          "source_sha256": "1a2d0a518b47ba0b8c45dfeb0c64e76b2fe93840aa6d5d9b12f6238351683067",
+          "bytes": 9537,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -558,9 +558,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "806c1e69b1332e9dc81b02d008ae0cfcf1e374e22d6c6206e3be177c65f124aa",
-          "source_sha256": "a1cad066a3765bd4a81c7fe50e2e8222710825cfc4f30235167a337d9380329b",
-          "bytes": 5874,
+          "sha256": "a6ca18cf465f5d22e3580faa4e51970162ff4b72767bdb649066217c7ff12a1a",
+          "source_sha256": "46cbecb8d827657720520c221d48f2ff17113e1d4fa63f81f9b7da5fe9d813ed",
+          "bytes": 5881,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -576,22 +576,22 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "67ca6c9fe6d5aeb1d1ec0357611c1326a92c0dc083e9d7b0ed1c80d51c01b654",
-          "source_sha256": "25a9cfbb473a01f5ed6dc5e1c8e513e3ee3f70eab5b4c1898e5ea87df3d0f75e",
-          "bytes": 11925,
+          "sha256": "d001a9f6b6d18cbeaad65f89ac66503f6b17c3236b0bf3d6909ca4b590f0e8a4",
+          "source_sha256": "119cde168ab89b6f54aa147d9dc59e1c987cceb6687d7a0f85f49fb55ff6831e",
+          "bytes": 12364,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "b66a11708efdc1e1b74ed5600e632cd7aa6479aef1b2a78f763cf832b322e1b3",
-          "source_sha256": "9b6f54e1830b0242acfc814e00aece39b6fdf552df2b9620f5ca35f90ddbde32",
-          "bytes": 15725,
+          "sha256": "8e412b76bdf0edeffbc796f5738178bf767ed0a523db70f28c24601c258cdb18",
+          "source_sha256": "7ee497cb1297b341dce6b2bb67bdae6cadc3c837ffd5ab487c82b5164f4cfd37",
+          "bytes": 15993,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "5e845fc1d8bcbc22f1ec7405cb182ce7d2452afa3d8b02be497aad4a600b2a81",
-          "source_sha256": "64a28d70418977418675b028cd152da2fee7da8d5d3bdc0af861eebd6f36a1ef",
+          "sha256": "d278ec5548388c57c865fa79f88585fe766910895cd1b91f9f8598cee4efb77e",
+          "source_sha256": "54a133b88212c3536b71f3dd59a23a668dee251996190261e6e26dfc0f7f86db",
           "bytes": 7151,
           "sections": 9
         },
@@ -639,8 +639,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "e2a57b839559ed2ab0a35f4366c11c96533599d67d54a33cdbaf49ec5a03e7e1",
-          "source_sha256": "472d7d79d4f3320d465af8213f3e05146ed997e1ad243363ccf931a8ce273a70",
+          "sha256": "ac29a5ca33fa7e10cc55d6a835b9b31d26901bb47433ca6e94bc032a5df7994f",
+          "source_sha256": "8b364c563175f0c225f0d6c73c756f77ba17430460746b3de5573c9b64627c5f",
           "bytes": 3806,
           "sections": 6
         },
@@ -657,23 +657,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "772c0633d54909051bfb22078666924650af8fd703a567e2ce439f16f29b8d5b",
-          "source_sha256": "363dd481a135f4cebc9b3c5566b9e67a2123e54f9741b5b5d9c45d22ea84e6ba",
-          "bytes": 14816,
+          "sha256": "f4726bfec548688ad225e98a94352b99905305241d05e9f6ec06044345923592",
+          "source_sha256": "1944b692aa9fe46b8d768e600d6268d6a0a5d2cb48df0452b1b9f082ed0eaa22",
+          "bytes": 15359,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "764cb9c542c63ff98e06968174253c0f156ff1a6a0e92193d1b322eee03f7ad1",
-          "source_sha256": "aac1960a128661ea8e9749a5a86f3f42702f95d70520aac6ddcea4cd3a747ae8",
-          "bytes": 15619,
+          "sha256": "1353ba5850c73bc082ed925ec35d8aa80d50fe814f994fe70ab42f853dc045cd",
+          "source_sha256": "91db7851e8c5e1ce725d430c26a5a7eed465e4acf52873ba90323715ce223bb0",
+          "bytes": 15941,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "54d9baef47bd89fe696fc4ec26b8629668270aa33862017f1e2c3f4794b22ed6",
-          "source_sha256": "7292617fb712ded78be3cbdfb1df6506b3672413fefc3df2255ef1d5430ff136",
-          "bytes": 7558,
+          "sha256": "f25bd40ef7b0e565a3f7472d635f8a4f8fc71effac48a5974133ea4aef02a330",
+          "source_sha256": "b012323e082db11a64b7448933af7b573b467f86de7907a1df393696533783c2",
+          "bytes": 7554,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -720,9 +720,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "3cfe6105ff54a4d598f697d738e5cc990d5d8f3917c909b66218427d01132446",
-          "source_sha256": "353163eac4c36629aca412286192c123c1df9f9b0fb685ab50df4f562e63dde0",
-          "bytes": 4816,
+          "sha256": "e06e3e0664711b9b3c51a98266c619646c875df7cdeeff9fa16ef48d70291dbb",
+          "source_sha256": "834bdf87da0a4d6693dfc2e93d0d63c4e2aa988291bb5d3d1e7ea5bd61f586bd",
+          "bytes": 4812,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -738,23 +738,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "6712494d776aedb856eb7ecc364cc4cbea95bccb6c9fb7b92414e9c48d51d151",
-          "source_sha256": "037f88562aa6ea704d541c4231c08a5d4e69e235db070a9803c8c2f425578c39",
-          "bytes": 22152,
+          "sha256": "32d10c55352528f6f892c76dcc1d8c5de7d134270f999aeda69f7b6d593ac62c",
+          "source_sha256": "f381162fcd3d45e8373777583b59e1c74042d9110a7a3f3bca7197ecb9cad79f",
+          "bytes": 23195,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "4121fd357918fda15b053aef7b49c87a63f1448d7a68b3f1431e5a46115e24b3",
-          "source_sha256": "f1f4332e72f71b3766ad154b9a2b81f0f9bb62f4174d6790ac4ff8466599e463",
-          "bytes": 23536,
+          "sha256": "35ab359a5cc412077ed88eff1aaeb06aceec9ce25b663a70b008ae04b1c560a9",
+          "source_sha256": "60ff3b0aa0b1fc05f0f879171d954cc01c2bd41620765299a7a6addcadd674b9",
+          "bytes": 24213,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "c224fbcde0c40ee34eec2e025a6644f5c27c7101ad5dd8e81b7e582e0298ec12",
-          "source_sha256": "19de1e1dafa942c21fa544639d4a32f14b8255b55367dea29c987eef57462189",
-          "bytes": 10352,
+          "sha256": "61566d4d405af2844d42a0bc2a3cf4e74f78f1f5c9cc56a925442647295529a2",
+          "source_sha256": "e3ef507c2611c12d68723e9a1e2a8f92a0fbfcf5b5925d73173b9526fe27455e",
+          "bytes": 10375,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -801,9 +801,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "9e31d9e1038b20c6fa6c79c1d4ea2e69fb1b79e7577c5947b808e439074472d5",
-          "source_sha256": "f34035a6ed4695477ebed7298e9ab566a7c5aa1c8b51559f5e5e28dc27e2eb05",
-          "bytes": 6255,
+          "sha256": "db125dbe88d8fb22ce0230167f9740c9889e44d7d827c554fccdd3e6fd8f3610",
+          "source_sha256": "5ff8b272f38e7f4bc8d96df8d5174a7163f574f82efdc2e89b80eb0052afbac0",
+          "bytes": 6278,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -819,23 +819,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "772fb9d713459cd52fe6c19428825975d483132741bab6da4de459b3efdb4075",
-          "source_sha256": "0c3dd2d2249e80f5c88edae5dde02a68f1808755af2c68a8eff906166bc0c3d1",
-          "bytes": 11064,
+          "sha256": "e12780e1d460de8abe549ed89815a5bf78eef919d87515607d29ccb79fbdf4a0",
+          "source_sha256": "82254085453b031b1c6e45e2ad585e2d745aa0deb81798e4097de5bdc0b9438d",
+          "bytes": 11502,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "6d99beb95a960634535096b9ae23e68751b25293b7423db8c7be5c3c25a4e228",
-          "source_sha256": "84775315353f1facaaea94152430a848fb7c8954eda4cefd90e6a39b417bc9f7",
-          "bytes": 11397,
+          "sha256": "b5a158cb1f6e00c2a639dd70cbcd0fc15e7c0829241ca15306870780e7002b9f",
+          "source_sha256": "03536d76ab84965770ef79a0f1442bb45830fc0eec85f9982a944e81fcec8dee",
+          "bytes": 11690,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "a804fbe4c14e708b102aa43f7d532645590379ab2554961038edf7a43c1e7a63",
-          "source_sha256": "8e77a21e1f1f7c160deb467928b157c856d7487cb933efa360ebd912d55e1280",
-          "bytes": 5661,
+          "sha256": "6d7c38ac016ba0bc2cf1c569b882c2dcef8d02a2c09c988949d0bb41d22445a1",
+          "source_sha256": "39b953ff22178a5837ca0d2c93b3a88e254bbbfdaff97085838516dd4eb63344",
+          "bytes": 5660,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -882,9 +882,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "5c75b70fb714a127c9daddc7d1afefa31cb2c8ff6b6fb8f4d293be135f19b024",
-          "source_sha256": "68119c2d3c81d41016e7af60e62c70df8fb9916b17c963a885eb43991e4248db",
-          "bytes": 3722,
+          "sha256": "361a5b7f0fb7bbf91a8939bcef5847860246676801e265740f80e415da5a069f",
+          "source_sha256": "582e5d209bcf5e5b8b17083a6fdcc4c7a7a467d104a33de4015c733ea68292b8",
+          "bytes": 3721,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -900,23 +900,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "c10dc7052addcce13d81006361e016e9c0a1590051c6220b053644a01dca1ae3",
-          "source_sha256": "22eefb8c1a14218d6351aa03d7caf908b8f26e5e4d023c2c9ec5b64a619283b0",
-          "bytes": 12525,
+          "sha256": "9eece0434a5ca999962217f95bb772719f33568c75419e5155be9140682f356f",
+          "source_sha256": "65eaf8dee61584ae27686d2f21ec9f7ed2f957a90561212137b81e05393dd987",
+          "bytes": 12998,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "2e5330983d56cd11f4393c89e4e712f22aa6186b617816ccfec9ba78949400db",
-          "source_sha256": "bc3f400a2515bc8c95b5517cab7043b0455b0aeb352154cab12a116bdf676c25",
-          "bytes": 13118,
+          "sha256": "d21ad7c66354f3b423140f46675744da76c9caf56fa2b2b301dfd986f996080e",
+          "source_sha256": "73f1819199082485cf09da12855f638d7612a1df89f15497bcbabc4a0d7b6912",
+          "bytes": 13402,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "b4485c0e1b4eced8f9d9ce31c7b42aaef6e0e3e59c568e156ff5b992da595e2a",
-          "source_sha256": "fb0c8bc9330e90c212707341bb1108e7197416c1d61d183ac9dd720fbd6b9ed9",
-          "bytes": 6218,
+          "sha256": "6ce4d653a34d9c9ca083febb8853e6b782650c893ecf7053ac13427bfca6e551",
+          "source_sha256": "aeb1c0334134215a1884efbc0cdc6878cf981b1a936edbb4f88e93a8761100f3",
+          "bytes": 6206,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -963,9 +963,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "1885fd035ca3fd8146aed8ba7616528fc4c489eaee224987f6b5d6bbe0e36cfe",
-          "source_sha256": "eeb1e633c6d05c70b6c92ab683cdb33a3bd6c5d02e7fd147b15d33936f443793",
-          "bytes": 4335,
+          "sha256": "40a4283cb92f5d1ffbc394c9bf28f092a42b7fd7b7733e641ff2796544c6af48",
+          "source_sha256": "9da86b27e77e4d8f55748ac3044aad641d1d4d73801d6b0e8d8b98eb846cc29d",
+          "bytes": 4323,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -981,23 +981,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "8776b9a2c2964d87f1a1c32ccdf2717bd97f03d75a707993c62442af1ba18611",
-          "source_sha256": "3e79a3216bad6e190bd7e6a60800e4dca7630e5576e9b71b430af1af3a1ccecf",
-          "bytes": 11557,
+          "sha256": "224fa604ef7af0f77c771f28581e98d926227c14361bb8ad39dd5df1e506e00f",
+          "source_sha256": "ffe81886d261301607058c01736b96c06248cb0afdea3491e40f7e6986e37112",
+          "bytes": 12052,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "900eb39672a7e26df472e395beafd8ab1af0201d053170f435e46afbf9afdd4f",
-          "source_sha256": "bfacca747a01b91652cd006746aab980a00d93b042b71a0d996e63c9fad198ae",
-          "bytes": 12039,
+          "sha256": "29fb20285770f8fd398699a3bd14ebf127f091ccf4c8cf82e50efb4a45abe316",
+          "source_sha256": "7e046d094002c0ffb623da34bfbf7c1a8fb24bb96c4068ab21b6854ddfff2d57",
+          "bytes": 12356,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "898b657a452c7b03fdf02ace6671f53fe1b5ea19203e42a5cd7e5666ddf14e7c",
-          "source_sha256": "245b74a23ed657fd464b54f0a763fcee5df9a78bf73998e6a7205d03e02fa61c",
-          "bytes": 5868,
+          "sha256": "5c453b857000f99c35047dbdcafddda6804b588850ef93afb0a6cc8281dba59b",
+          "source_sha256": "fe7ba542d3e5e4407106625a33da5f5fb54516b9bc318d145d79d50bbdcc2737",
+          "bytes": 5870,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1044,9 +1044,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "c272ced2e510662dd6b45c3301c07d51720472a185915fda5d762b89f5320636",
-          "source_sha256": "975f738eee6ebdf2cc89250200198e0c52eb32d2db7842c29a7b681e1ff3f285",
-          "bytes": 3849,
+          "sha256": "87cb984790583f3bf8044d6e6b0c9d838a60dac80da4700ecaedd00cf5e0746f",
+          "source_sha256": "334415da5e7b5db126f9692fc98af0e9cce3f02b87b86ebf879307a6b0932450",
+          "bytes": 3851,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -1062,23 +1062,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "bea3cd0616ad24bdc0955ee4b17a44f1d9aeb63008bece5454df0d9aaad2c3a2",
-          "source_sha256": "62867f1f33532962e16113ffe90b8b2fa42c9b897acc7cc9f8e2374505ce4af5",
-          "bytes": 9210,
+          "sha256": "d738a1c316feb7a79d3b6d89bd54d9437b420fe7e726596d10620b95ce5978f4",
+          "source_sha256": "548bc731cc1f42b6f27bf911299385a48407fdd5b0e61191cc34bd6cf6374f21",
+          "bytes": 9515,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "8f141ac57ea39773c2a86f5466854974ced6aad1bfa4aae230cbb3afa3e4a737",
-          "source_sha256": "6c8bea9e071409c5d1660f8a1cdb1f64d8cd36d7d9ead08495770875612a4919",
-          "bytes": 9630,
+          "sha256": "bb9233380459b03f47f544e59ed2fcccf53f6dc8b8a8eaca4697ebf5d29991fd",
+          "source_sha256": "a06ffe5b6f6c4b196dd4bf16bffbc07f4fd04c2024156e33332067810bbe6c84",
+          "bytes": 9812,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "001a37823a507b904a4afd85dc4f597764f4502940a2f1ca8011a47a6cbdf953",
-          "source_sha256": "e9d3dcbf20e82a2d54b369f54658320aac7b0acece9527eeb2faad249cf252a5",
-          "bytes": 4788,
+          "sha256": "14244ef097ffb32f02d84d1dcdb56c58f44abc3df04e75826af7726dc0adac13",
+          "source_sha256": "fe98f6c1c76d5e3490b30aa46f7a74918df7e28e2215e0925a9e97342b8d447d",
+          "bytes": 4794,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1125,9 +1125,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "8daab0528f5649b7073c40776dc110797c751cad8f40b977ad5146f082cc3235",
-          "source_sha256": "ccaa289f160a6d5c037443c85f53918dbe8abe1479fa2edf6c67877b09a13838",
-          "bytes": 3297,
+          "sha256": "74285d9395af914d380e832d1bede01ba273ce628fcdf741889fe36e2a39d7e3",
+          "source_sha256": "ea28fd67cedd327e8a4388163d30ce6d0ec21195b47c3248a0892111685868bd",
+          "bytes": 3303,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -1143,23 +1143,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "a661538cac4a3152fc5665f3635ccb25cb64b95e9cd9d33d0e4702c37ca390a5",
-          "source_sha256": "bd7c5034686ab40e673a485faa459b82b4859124dd8677e0f0c005e77e279d13",
-          "bytes": 9243,
+          "sha256": "2c8017cc5b10e20ac8f4acf228692b09571dd91816b8cb64855013e84d5136c9",
+          "source_sha256": "cea618f43d5b9bad2229ebdbd41765d1131c4bfa7834f180bb1c406ada9dca8c",
+          "bytes": 9551,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "d2e60af91e991e563482e5a5eed7a7454669022731ca8f071e2ea2cf8766058f",
-          "source_sha256": "548bb0d203888a7387a33582ae69c36028835ae88b841aae8f4b1eb9b69de1c0",
-          "bytes": 9666,
+          "sha256": "8c7e40c531ab193be9e288be434611d994e508eee4eabe38f8a9ac30538fa93d",
+          "source_sha256": "398cc53490c23319ea1d09085eae6ae70455551c4e88e70703f37434e19e7c8a",
+          "bytes": 9851,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "76b92d7f00de63df444eb0bc9f471f38cb83282e6c5c0b0a4eac83ec0ea6e55a",
-          "source_sha256": "db50c72d21657bed6fde17fcf2446fcbec60ea0f92c66c86533111c666ab38da",
-          "bytes": 4806,
+          "sha256": "805782c92142a67e54b0cd4a14d1fd5c0079b6baa69c4a5db52115b206a9d130",
+          "source_sha256": "90430a705526eb33132ff9bc3332b2a9013687ef3e3e670abb83f7d7ad7517c4",
+          "bytes": 4815,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1206,9 +1206,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "f10c5fe0edf1363ec7a62e5247c5f91f81c08f9c6e661badac63de27f523a34f",
-          "source_sha256": "527996ea29afb9ce7e3e4df0a9477b56301ce374368439e449b7398c3eedaf05",
-          "bytes": 3318,
+          "sha256": "c6a4f1089b4aa7a3ddae73cab60609bf4e1f9072d031006157643dd401fd3ecb",
+          "source_sha256": "b97eadae5f52227ef993eb58cd1a19e4d0bdd684b051e73ddfea03931521b916",
+          "bytes": 3327,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -1224,23 +1224,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "5e9a388ed5e23715529de73fd3d3c75c9e117d872259c4b19bc8ea202807c03c",
-          "source_sha256": "e9589c24753389ce13eae6e196d6d93d96daba62967e3c827b3fe2278fb7c2bc",
-          "bytes": 10056,
+          "sha256": "dc6f5b645aa81f9ad8e2d236e12403b0d596a6f269428acf658b4e130c2591af",
+          "source_sha256": "01f7d62f65ff45901f2a80740f29779eeb45d9a9591cddd39f6a2684ef18afda",
+          "bytes": 10511,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "0a91fa6d7b474e0034d5f4a57f4cc8685f2f560387fb0d99a8f04b69ab2ff7ac",
-          "source_sha256": "2d35c4f24d6d2172acf471f89486aa9b7e8c4135f3a25c7780be938e1670ea27",
-          "bytes": 10656,
+          "sha256": "805fbeb7775928331c071d1606bfd4e8d7e856cf7188203380c6bc4cdc224f7b",
+          "source_sha256": "4a9e77ed36e0a5465ff1a30a0a3b9b41c4f32a5c71e5b4ac3c96b987bcb87ef7",
+          "bytes": 10949,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "4b75c6a6097ab9f4ecc44b3588f7cbcd25264b1e357c300b4ba2dc3ce31d4765",
-          "source_sha256": "619576a8c593ae1de3f9fa14538c56ab045a875d52ffa740a6a2085ecb031092",
-          "bytes": 5209,
+          "sha256": "85708f6e3c7999e22f618cbda7108b60e9ac5befe6c6809ef6690687c6f8fa3a",
+          "source_sha256": "9066f69c768fdaa2d7178523b6932cf4d578d377d4823dc39c791531164e2061",
+          "bytes": 5216,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1287,9 +1287,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "9f15cf97f180da30c9aa4adbd1c91ce5652f0a4953f0c8b00e298ecc0c626a62",
-          "source_sha256": "b338087fc8d692daf384c0ba21e93e5a448a838c6085789cc3d4caa3cb33b73a",
-          "bytes": 3591,
+          "sha256": "144a90e677a2e73c17a98ae75e7686f0cf31df943c36337d345abdf71b8969e7",
+          "source_sha256": "14f070876f2963db81c455b8193e2b2b8dd9d98e9cccdccba52fe2ae6fb456d9",
+          "bytes": 3598,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -1305,23 +1305,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "60df7a957f0b6ef7a43f22b2aa89bce598bc34a75587b4517f4e322a26a6a8a6",
-          "source_sha256": "76c8a4545a5f20845aafbc2e45caf3856a39b148c3174e23f42fef54c19d8ccc",
-          "bytes": 10465,
+          "sha256": "bbb297c6a3d57fbe8c2249dae4ca1abf2780c5244914bf7b189418f027c2b0ac",
+          "source_sha256": "184db1a52cb20b0bdaf8e850df6f7d4039fb360f03150300716456816d617857",
+          "bytes": 10961,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "82d2a2e9e4975000c31d703cd5147071f52902e3dee84a10929356a1e37d44e8",
-          "source_sha256": "74b098fa649b8526ce3ab6d6da1e6577938301af4cabe07d0fbe3eac9e022e18",
-          "bytes": 10770,
+          "sha256": "68a5ec0b9c1fb8321c2de3c2fa8bce23466577ea5fa494c821a500411c594b59",
+          "source_sha256": "d47710a56fa69aea37dc8ceb0c8bae4afe19cba41dbdefa7410e63b713fb01ed",
+          "bytes": 11077,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "5f331dc7b98fd313e755332eb873ddfa442412273c22468a099cf2d495a4e282",
-          "source_sha256": "2e78633a8bdfebb6a65a37a294a1c7da7319f327ec5ec5a5526744cbe5a9267e",
-          "bytes": 5475,
+          "sha256": "7d6653e9c23915a13b315220ef7ecf469399fa0633b21fbdbb943779cc31037e",
+          "source_sha256": "265c01d3baae61c4747b4a58e20e87a565069e0dc9c0f04ca07d0a21c7e0bb8d",
+          "bytes": 5482,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1368,9 +1368,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "70dd65cc2cfc8953e9cfa29638b9971a15bbff140b4ae36603d952d93b690b23",
-          "source_sha256": "5b8a7633182cd01dc71f0d4ec8fc9e401820324869a0547c0d4f71814ea09a08",
-          "bytes": 3753,
+          "sha256": "c3bd4076877a656a31c1fa69d3d2c833110c3776cd0fd13a1e80ec102ef4d25c",
+          "source_sha256": "2f107521274efbbed1b937215f4d16163058f967b5dd6f9236813a80094b0f2f",
+          "bytes": 3760,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -1386,22 +1386,22 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "78ae4b376114e7f5b115192f24e2ea5cb34a872d463f1faca4d6d1d1a8aeb72a",
-          "source_sha256": "4510bcdd6653277d91592ac92648a81a6be4806b767f46502a71f4413237ad6e",
-          "bytes": 23117,
+          "sha256": "6d20b7e5b95b0e67f104b74da82ff9979b9b85573e8e0cb0c474b214ee862e2a",
+          "source_sha256": "1b24f45542d573de0d822f11e5fd4f1af213b64afdca196b66a46bf433a066c6",
+          "bytes": 24024,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "d461bbe1de15682bc341d8da98c09e837a2c2666d86accc319da6c2df533cf19",
-          "source_sha256": "30f6e390f45a0bfa059bc45a102b5e34538fd91d5a333aa9859026451311b252",
-          "bytes": 24112,
+          "sha256": "fbb1f3c045d9882b55fa3917e2180fe9d2b80e9fdf1ce0cfb4a0639a7d5b88e5",
+          "source_sha256": "8e586964f7597c47cdbe1415ce67b7248183441cf42a875ce6e4c35136d628dd",
+          "bytes": 24680,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "c86c05368fe3e5a0dc3ea8268ebfc6aae40bf0e3544bdb68c32bfac392bb5dd0",
-          "source_sha256": "29e003704f91dae51040678aaf2243010450111a43b58b42333b9d255d2e2a15",
+          "sha256": "22684264a473032e7cc480a252363dcddecab2bc7e0fb123361dc83094ca3136",
+          "source_sha256": "6e9d82ac3a50cae67f7372a81160ffad36e7bd6400feb209d26d72b9d1f19db2",
           "bytes": 11155,
           "sections": 9
         },
@@ -1449,8 +1449,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "f222a72941ee0adbd356fabf9de4e5fff7215d8f7bc268811f57cc9dab5a1238",
-          "source_sha256": "b89ac484689f82b09f607a679efdfbe5df85adb2d47f491ca7e592b480bcef04",
+          "sha256": "9863aca0ec2644f2eeb15f35cad0923838ad0d9f04269d00b55c5262ab9b2248",
+          "source_sha256": "90a284bc8fe04accd3ce5c428432c6106ca3624a54aa9607eec1388e7dc868c9",
           "bytes": 6882,
           "sections": 6
         },
@@ -1467,23 +1467,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "c763c48b5f3115c3bf7798190c8f302ed263a74b1816938ed292e2b6d503676a",
-          "source_sha256": "8b7625f051fe68520e4cf7247c0b474d47e75e9f610c7d29c92ab7568aac160a",
-          "bytes": 13636,
+          "sha256": "92b8695198234ce91720340b7e9d9616c9eb02f75a158436111fefe79d85a959",
+          "source_sha256": "3e094ff98be20a42068ebc801cb19f1b8dd5e69a0408b0976a4b36d3e3737014",
+          "bytes": 14175,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "78d1d54b39b8132c51b5757a53291b772e7096b653d7e71f9f2e2d6c56fef464",
-          "source_sha256": "2a3458bedb14f4eb6af0eacc9747157370f686f541046c814804071622717be5",
-          "bytes": 14219,
+          "sha256": "b13c706bdd7bd4cd13fa89972ed845f486c0344d647e80e18116f8b150da3b8d",
+          "source_sha256": "d43879c8d69145457f0152d273dd718211d4a16bdfb9907728cfcd6632c9d79d",
+          "bytes": 14544,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "44399473425fc8f965722604460d97add4517ca132afe41ddcaed65095028252",
-          "source_sha256": "3960c1544ee2d9eada7f9a4d74210c5d0c473186167a942f6e174201eb008b80",
-          "bytes": 6810,
+          "sha256": "9329cac579561ae02313ffbae6c5d95eebbcbaaafdc0a77f9ee987236fb2c346",
+          "source_sha256": "0323c5625012d79e987035920a39c4edd4491feb5221e74654eb77251897d142",
+          "bytes": 6803,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1530,9 +1530,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "1107889efb0a107f94799fd1e57c459ce0198b0551a38b0546ef91fa1c831719",
-          "source_sha256": "58993d0f55a6e57ce1ccd6a9658631c3d6aad3e30b05c28ed864ea6faa5b1f03",
-          "bytes": 4384,
+          "sha256": "80bf01fc48b354200a793034849388db3974013e5718e4e82adfcd03b7fe4d5b",
+          "source_sha256": "04e0c3230f5b9f981197fbe8a4db644ecf998ce44ea818acabef7e6e1c24d1bb",
+          "bytes": 4377,
           "sections": 6
         },
         "jurisdiction_privacy_supplement": {
@@ -1548,22 +1548,22 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "f32019591cae72c6bd74c2463da6c359d51c837bfdc97d8687c33d87681cf904",
-          "source_sha256": "55747677ce3d51262e32a55813af32edba0074f9f4a187c43ed4b94c88c04d19",
-          "bytes": 11577,
+          "sha256": "3025b64ae85cd03686e9bf4e928010cd1dc6fb6e2818fa99403c76b550323820",
+          "source_sha256": "aa36b306b94826576d2e9f7bcfde5288cd1b848aaade6c8bf208a9893ba858a0",
+          "bytes": 12033,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "5a6e8a45fce1b82110d3c93af75390aed43901a602f4b042192a7ac9da477fce",
-          "source_sha256": "886585484fd48898ca49c59b175b92e047d3c8244cdec898f0aeb3c2ce89a070",
-          "bytes": 12270,
+          "sha256": "5fc3773b22b9d9202691c3864c984c46391e17e85db88b6ddf95916e87faf4ac",
+          "source_sha256": "dcbe17572bc9dcf14642e57f4c401297a35a467efc8badbe595a7fedf41abbba",
+          "bytes": 12559,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "6a5a94e1829fb043390972ac6120dcad5809e2a7abe6cf8fdc1eb164b8aecd93",
-          "source_sha256": "e3ce3a17d32425be096dc6dccf5c2b758b4d8348fc0157f826f40f86b10ef9df",
+          "sha256": "907927b4a57c3887067d9c0c3b079b7624467ccbf95f8e82b51e7f9b2f39bf95",
+          "source_sha256": "a008228abca3fa8d67a6665f15ac31eee09544f4dc0ac4e08ce7ab2103172eb0",
           "bytes": 5898,
           "sections": 9
         },
@@ -1611,8 +1611,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "23e97980d89f04c6cef999eb3c2c13a014b09b77ff4a6b6941e8513b693e8563",
-          "source_sha256": "76a7705de4c4c8ab060e3a7d40601b1d6dd4a44bbc231579011b9a0e1a1c80b9",
+          "sha256": "7f798797fcdeb8bfe22784f9f7ba20ad1c209ad93854eb0f96f8a9c7e731991f",
+          "source_sha256": "94e8863ee929d62c4eb1e6a6ae3b5fbb0e42b4776ec7f499a2b280fb26f4b208",
           "bytes": 3954,
           "sections": 6
         },
@@ -1629,23 +1629,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "86ed06ad479ca6fc9a9757a82cfae484e074ddf3900e13623b59d6c77a7e6e9e",
-          "source_sha256": "3c543ca0570e4e85211f357809835372986e4c58991627b7fc47a02c613d35e1",
-          "bytes": 11653,
+          "sha256": "f598ec5b82c9f57f5a9f8ca11b11180b3af8f8b3e810885f0b3075c223d89db6",
+          "source_sha256": "8ea61d897a1d2fb1aad880e1c2db2a76eca064b8f3cda8a812081027a8d00209",
+          "bytes": 12111,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "2fe4eec82cd932a51b0dd649260bb2c66f71895bd5a860b87e73909af420cb45",
-          "source_sha256": "101c552fc4f7b87258b08b1ed7e74c084badfd847b80b120080862e5c1aa8e7a",
-          "bytes": 12263,
+          "sha256": "a8f6c01c224e057fd8584a614422cae58f31cd8c56d2a0871ed21296947e568a",
+          "source_sha256": "8420dcdfef844cc56030eb1faf4c3adbbe276f9b93ac58e621c4a629c95de9ba",
+          "bytes": 12566,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "b5cc938488a1cadfb9f5ec5b8151d63607976178b799cb9f6bb812acde86e21a",
-          "source_sha256": "4f2535d91cfe751b44adcebae00a5d5f334982f24d0753b48f726385358c408c",
-          "bytes": 5974,
+          "sha256": "de47995c03da9f3f35095ea916c2ca2f2499012e83a7f72cabae8f544d9905ee",
+          "source_sha256": "888aa25831e1aed0fd1166f8e4a213198f0a2f61986c5fc0480932c882900ccb",
+          "bytes": 5975,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1692,9 +1692,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "ece27cbe378c7cdccb21b24d76716db2cc4b1853620576459ecd81f753b72b83",
-          "source_sha256": "b79a1a83de5001e5b0955ae4d2e0cbbcd558acdf8a6bec875c5e931c8cd4c8a9",
-          "bytes": 3982,
+          "sha256": "afd1afb25432d43a6a4dbc7535d4065c12229433d6e794552f99fad2746777bb",
+          "source_sha256": "062f98839d910a0de2bd906ec6fac48cb5674fe6108c7bbcc183e640ba3858be",
+          "bytes": 3983,
           "sections": 6
         },
         "jurisdiction_consumer_supplement": {
@@ -1710,23 +1710,23 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "38d624de3338c633cea1c2d69017848eca570101ba4ed24c4595628a28c1452c",
-          "source_sha256": "7a6a4db331a90fcc88e0eee5c095844f08336e41ec95a46b7510a41ade18d9b3",
-          "bytes": 11697,
+          "sha256": "deccf0efb56d7ce9dd85a560295755fe50719907e2c7188ecbbdfa0404f94869",
+          "source_sha256": "9c844e2cb2b50a9caa0ac9731ad2c44d34ade4623f6cb466b682a366686c1df4",
+          "bytes": 12128,
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "6513993c519fd4c329cd392590cac5fcb6dba65af1f990bf9cd0077de6140503",
-          "source_sha256": "b50b5993ec46e68d8c2aa0cf853fb6f5f2498d96adbeae82e896f856513911e6",
-          "bytes": 12331,
+          "sha256": "f8e645c55431372c4a5899264757bd81b6bf80816d8a12cfad8dc15dcb94bd39",
+          "source_sha256": "57a574a5ff323d56198d0cf51247b69924375eb58df01d43dde4a80d11e47911",
+          "bytes": 12600,
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "b6ba1258962d0965c232c306acfb791812df0370d0f20d74a2ae10596db3db69",
-          "source_sha256": "af35bc2b09621e185f34d187333e80cc031bc4b0ecbf5cdb66672359fd946485",
-          "bytes": 5854,
+          "sha256": "cf0023ea25eceb849d9f925736e65da1b99a90f511602e7e62a5ca786bdaf362",
+          "source_sha256": "d8a3e6598c58725b1ce8493ad5542888bcb6d949e131077ce379de4f26310424",
+          "bytes": 5853,
           "sections": 9
         },
         "marketing_push_consent": {
@@ -1773,9 +1773,9 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "8f19c3a29a7f027f2903af5beae7fbcbc638263cad6a12a1f7b707365ba92d31",
-          "source_sha256": "f5ff5d67c7ce2c614f9b377671af3117cf176c22e1e583944862e83ac8d86a78",
-          "bytes": 3977,
+          "sha256": "721add58c6927efad0f105cf96da4c3b45f33592efeadccc2be1779288e75e78",
+          "source_sha256": "cf585736849542e426e15ee6b8eb882cc4e0c182f928f67134e800547ae9bc6d",
+          "bytes": 3976,
           "sections": 6
         },
         "jurisdiction_consumer_supplement": {

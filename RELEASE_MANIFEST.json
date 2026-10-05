@@ -19,9 +19,9 @@
     "domain_rules": "21/21 PASS",
     "security_regressions": "382/382 PASS",
     "pending_hardening": "107/107 PASS",
-    "accessibility": "216 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS",
-    "backend_contracts": "174 RPCs (0 pending-patch only) + 11 client Edge Functions + 30 Edge Function directories PASS",
-    "ux_static_gate": "57 TSX files + contrast/assets/journeys PASS",
+    "accessibility": "215 Pressables + 45 TextInputs + 2 Switches + 14 Modals PASS",
+    "backend_contracts": "174 RPCs (0 pending-patch only) + 11 client Edge Functions + 29 Edge Function directories PASS",
+    "ux_static_gate": "56 TSX files + contrast/assets/journeys PASS",
     "legal_static": "57/57 PASS; production store/provider/native evidence remains separate",
     "legal_context_matrix": "91/91 fail-closed context cases PASS",
     "country_registry": "27/27 configured launch markets; worldwide manifest 249 ISO entries = 27 configured + 222 explicitly BLOCK; 594 release controls + 594 source topics; source-approved=27",
@@ -29,7 +29,7 @@
     "store_compliance": "PASS_STATIC; Apple age result=UNVERIFIED; Google IARC=UNVERIFIED",
     "observability_static": "PASS; crash provider=@sentry/react-native; analytics provider=NOT_CONFIGURED; worker heartbeat=present; ops-health=present",
     "release_versioning": "EAS appVersionSource=remote; production autoIncrement=true",
-    "project_lint": "2399 text files PASS",
+    "project_lint": "2403 text files PASS",
     "i18n": "en,es,pt-BR,fr,de,it,ru,tr,ar,hi,id,ja,ko,zh-Hans,zh-Hant,nl,pl,th,vi ready; native metadata 19/19; status PASS"
   },
   "technical_identifiers": {

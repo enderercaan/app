@@ -32,6 +32,11 @@ for(const file of globSync('web/legal-country-source/*/*.json')){
 }
 assert.match(longText.en,/AI can make mistakes/);assert.match(longText.en,/every filled page/);assert.match(longText.en,/internal and external parasite/);assert.match(longText.en,/checked and approved/);assert.match(longText.en,/does not determine a pet['’]s breed from images/);assert.match(longText.en,/not a statement that the animal is in good health|It is not a statement that the animal is in good health/);
 assert.match(shortText.en,/AI can make mistakes/);assert.match(shortText.en,/every filled page/);assert.match(shortText.en,/checked and approved/);assert.match(shortText.en,/does not mean that the pet is in perfect health/);assert.match(shortText.en,/all information and guidance given by AI/);
+assert.match(longText.en,/No veterinarian, clinic or register takes part in or confirms the check/);assert.match(longText.en,/European Union region/);assert.match(longText.en,/species and date of birth/);assert.match(longText.en,/until the first date on which a vaccination or treatment falls due again/);
+assert.doesNotMatch(longText.en,/routine care|required care|age and the breed/);assert.doesNotMatch(shortText.en,/ and care that apply/);
+assert.match(longText.tr,/veteriner hekim, klinik veya sicil katılmaz/);assert.doesNotMatch(longText.tr,/gerekli bakımlarla|senin belirttiğin ırk\) göre/);
+// The on-device photo model is not shipped in the first release, so no document may say that photos are screened on the device.
+for(const locale of locales){const pn=JSON.parse(readFileSync(`web/legal-source/${locale}.json`,'utf8')).documents.privacy_notice;const blob=JSON.stringify(pn);assert.doesNotMatch(blob,/on-device model|cihaz üzerindeki bir model|端末内のモデル|기기 내 모델|设备端模型|裝置端模型|модель на устройстве|Modell auf dem Gerät|modelo en el dispositivo|modèle exécuté sur l’appareil|modello sul dispositivo|model działający na urządzeniu|modelo no dispositivo|model di perangkat|mô hình chạy trên thiết bị|โมเดลบนอุปกรณ์|डिवाइस पर चलने वाला मॉडल|نموذج يعمل على الجهاز|model al dispositiu|gailuko modelo|modelo no dispositivo/i,`${locale}: privacy notice must not claim on-device photo screening`)}
 assert.equal(countryDocs,594,'expected 594 country x language supplements');
 // Static Turkish pages.
 const html=(f)=>readFileSync(f,'utf8');
@@ -44,8 +49,12 @@ for(const file of globSync('src/i18n/locales/*.ts')){
   const text=readFileSync(file,'utf8');
   const value=/"health\.automatedReviewNotice":\s*"((?:[^"\\]|\\.)*)"/.exec(text)?.[1];
   assert.ok(value&&value.length>40,`${file}: health.automatedReviewNotice missing`);
-  for(const key of ['health.uploadDocumentBody','health.documentCheckApproved','health.documentCheckNote']){const v=new RegExp(`"${key.replace('.','\\.')}":\\s*"((?:[^"\\\\]|\\\\.)*)"`).exec(text)?.[1];assert.ok(v&&v.length>6,`${file}: ${key} missing`)}
+  for(const key of ['health.uploadDocumentBody','health.documentCheckApproved','health.documentCheckNote','health.documentCheckValidUntil','health.uploadConsentTitle','health.uploadConsentBody','health.uploadConsentConfirm']){const v=new RegExp(`"${key.replace('.','\\.')}":\\s*"((?:[^"\\\\]|\\\\.)*)"`).exec(text)?.[1];assert.ok(v&&v.length>2,`${file}: ${key} missing`)}
+  for(const gone of ['discover.vetVerified','petCard.vetVerified','petProfile.vetVerified','petProfile.matingReason.vet','health.vet','health.trust.title','health.trust.body'])assert.ok(!text.includes(`"${gone}"`),`${file}: removed veterinarian key ${gone} is still present`);
   appLocales++;
 }
 assert.equal(appLocales,19,'expected 19 runtime catalogs');
+const healthScreen=readFileSync('src/screens/HealthScreen.tsx','utf8');
+assert.match(healthScreen,/const confirmUpload=\(\)=>\{[\s\S]*health\.uploadConsentTitle[\s\S]*health\.uploadConsentBody[\s\S]*uploadDocument\(\)/,'sharing pages with the text-recognition provider needs an explicit in-app consent before the first upload');
+assert.match(healthScreen,/onPress=\{confirmUpload\}/);
 console.log(`health-ai-disclaimer-checks: ${checkedDocs} legal documents (22 languages), ${countryDocs} country supplements, 5 Turkish static pages, ${appLocales} app catalogs; PASS`);

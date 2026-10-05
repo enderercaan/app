@@ -4,7 +4,7 @@ import { readRequestJsonBounded } from '../_shared/http.ts';
 import { verifyBearerSecret } from '../_shared/secretAuth.ts';
 
 const ALLOWED_TARGET_TYPES = new Set(['pet_verification','pet_photo','pet_text','post_media','post_text','comment_text','message_text','story','event_text','meetup_text','health_document']);
-const ALLOWED_HEALTH_SIGNALS = new Set(['veterinarian_verified','microchip_verified','genetic_screening_available','pedigree_available','vaccination_complete','neutered']);
+const ALLOWED_HEALTH_SIGNALS = new Set(['microchip_verified','genetic_screening_available','pedigree_available','vaccination_complete','neutered']);
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 const MAX_ADMIN_BODY_BYTES=16_384;
 const MAX_REASON_LENGTH=500;
@@ -64,7 +64,6 @@ Deno.serve(async(req)=>{
   if(typeof targetType!=='string'||!ALLOWED_TARGET_TYPES.has(targetType)||typeof targetId!=='string'||!UUID_RE.test(targetId)||!['approved','rejected'].includes(decision))return json({error:'Invalid request'},400);
   if(healthSignal!=null&&(typeof healthSignal!=='string'||!ALLOWED_HEALTH_SIGNALS.has(healthSignal)))return json({error:'Invalid health signal'},400);
   if(healthSignal&&targetType!=='health_document')return json({error:'Health signal requires health document target'},400);
-  if(targetType==='health_document'&&decision==='approved'&&healthSignal==='veterinarian_verified')return json({error:'Provider attestation required for veterinarian verification'},400);
 
   const s=adminClient();
   const now=new Date().toISOString();

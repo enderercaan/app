@@ -11,7 +11,7 @@ export const demoActivePet: Pet = {
     approved('l2','https://images.unsplash.com/photo-1558788353-f76d92427f16?w=1000',2),
     approved('l3','https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=1000',3)
   ],
-  health: { vaccinationStatus: 'complete', veterinarianVerified: true, neutered: false, microchipVerified: true, geneticScreeningAvailable: true, pedigreeAvailable: false }
+  health: { vaccinationStatus: 'complete', neutered: false, microchipVerified: true, geneticScreeningAvailable: true, pedigreeAvailable: false }
 };
 
 export const demoPets: Pet[] = [
@@ -20,21 +20,21 @@ export const demoPets: Pet[] = [
     energyLevel:4, temperamentTags:['Sosyal','Nazik','Oyuncu'], city:'İstanbul', district:'Kadıköy', neighborhood:'Fenerbahçe', approximateDistanceKm:2,
     purposes:['socialize','playmate','walk'], bio:'Yeni park arkadaşları arıyor.', profileVerified:true, compatibilityScore:94, followersCount:284,
     photos:[approved('lu1','https://images.unsplash.com/photo-1558788353-f76d92427f16?w=1000',1),approved('lu2','https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=1000',2),approved('lu3','https://images.unsplash.com/photo-1552053831-71594a27632d?w=1000',3)],
-    health:{vaccinationStatus:'complete',veterinarianVerified:true,neutered:false,microchipVerified:true,geneticScreeningAvailable:true,pedigreeAvailable:true}
+    health:{vaccinationStatus:'complete',neutered:false,microchipVerified:true,geneticScreeningAvailable:true,pedigreeAvailable:true}
   },
   {
     id:'demo-miso', name:'Miso', species:'cat', breed:'British Shorthair', sex:'female', birthDate:'2024-02-10', ageYears:2, size:'small', weightKg:4.7,
     energyLevel:2, temperamentTags:['Sakin','Meraklı'], city:'İstanbul', district:'Beşiktaş', neighborhood:'Etiler', approximateDistanceKm:9,
     purposes:['socialize'], bio:'Sakin ev buluşmaları için uyumlu kedi arkadaşları.', profileVerified:true, compatibilityScore:58, followersCount:133,
     photos:[approved('mi1','https://images.unsplash.com/photo-1573865526739-10659fec78a5?w=1000',1),approved('mi2','https://images.unsplash.com/photo-1495360010541-f48722b34f7d?w=1000',2),approved('mi3','https://images.unsplash.com/photo-1533738363-b7f9aef128ce?w=1000',3)],
-    health:{vaccinationStatus:'complete',veterinarianVerified:true,neutered:true,microchipVerified:true,geneticScreeningAvailable:false,pedigreeAvailable:false}
+    health:{vaccinationStatus:'complete',neutered:true,microchipVerified:true,geneticScreeningAvailable:false,pedigreeAvailable:false}
   },
   {
     id:'demo-atlas', name:'Atlas', species:'dog', breed:'Border Collie', sex:'male', birthDate:'2022-11-01', ageYears:3, size:'medium', weightKg:20,
     energyLevel:5, temperamentTags:['Enerjik','Zeki','Atletik'], city:'İstanbul', district:'Şişli', neighborhood:'Teşvikiye', approximateDistanceKm:10,
     purposes:['playmate','walk'], bio:'Uzun yürüyüş ve koşu arkadaşı arıyor.', profileVerified:false, compatibilityScore:79, followersCount:410,
     photos:[approved('a1','https://images.unsplash.com/photo-1551717743-49959800b1f6?w=1000',1),approved('a2','https://images.unsplash.com/photo-1507146426996-ef05306b995a?w=1000',2),approved('a3','https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=1000',3)],
-    health:{vaccinationStatus:'complete',veterinarianVerified:false,neutered:false,microchipVerified:false,geneticScreeningAvailable:false,pedigreeAvailable:false}
+    health:{vaccinationStatus:'complete',neutered:false,microchipVerified:false,geneticScreeningAvailable:false,pedigreeAvailable:false}
   }
 ];
 

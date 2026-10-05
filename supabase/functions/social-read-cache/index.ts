@@ -32,7 +32,7 @@ function isDefaultDiscoveryFilters(filters:Record<string,unknown>){
   const expected:Record<string,unknown>={
     species:'all',breeds:[],sex:'all',sizes:[],minAge:null,maxAge:null,minWeightKg:null,maxWeightKg:null,
     energyLevels:[],temperamentTags:[],neutered:'all',city:null,district:null,neighborhood:null,maxDistanceKm:null,purposes:[],
-    vaccinatedOnly:false,veterinarianVerifiedOnly:false,profileVerifiedOnly:false,ownerVerifiedOnly:false,microchipVerifiedOnly:false,
+    vaccinatedOnly:false,profileVerifiedOnly:false,ownerVerifiedOnly:false,microchipVerifiedOnly:false,
     geneticScreeningOnly:false,pedigreeOnly:false,matingOnlyNonNeutered:true
   };
   return JSON.stringify(canonical(filters))===JSON.stringify(canonical(expected));
