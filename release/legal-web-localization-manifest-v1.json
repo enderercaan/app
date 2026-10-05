@@ -7,20 +7,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "6556a7dba4a82528df0a616e1af2d75af3ca8e23842d4e086075b9786d829b56",
-          "source_sha256": "6224498720019d688242ff4d8d3aad28032d7b4af4cb1b8211b51b80b0c1a578",
+          "sha256": "3ae6a437a388e39d9a8ee33169644084391bc0851de265166e1e9c0114d8d9eb",
+          "source_sha256": "2fbec670302ea09415cd6e2c95895af9eb215c28528d2d99e4bc722e09b4e7e7",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "4f9779e090bfc597082c606d3c9197ddb9e90eb95a9faf82126efb60333d0597",
-          "source_sha256": "81b32bfce7bd7bbf8573944b91065ba264f93c4f153a71d7b36ec8c2fae62f3d",
+          "sha256": "54ec7e7e09c7b02b9d907f10e3055f8a09bdda5d5e86427e1690f30ed3dd6e39",
+          "source_sha256": "126631eb0e34731f974f393cf6da10fe3c9f4d3e807b43656bef892315ea0e5a",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "4abfd3978aed10a451b54ecca1f20fe2f19b46b85a019001598c34f6d3eae14d",
-          "source_sha256": "991612275cbe3ed87b058d85f349c43d49d6f4c483c8a1b678db44c58abdd9a2",
+          "sha256": "89c7eea847d58f6d05b47dea2e0915a8fd2fe88508be1d543910841bb151a88f",
+          "source_sha256": "1b9cf0d782d9a406a5a65fb7f4ab471e01c999854b4777074fcb3ad33998d93d",
           "sections": 9
         },
         "subscription_consumer": {
@@ -55,8 +55,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "54d642167e5b910844f6a244a8be5f3332613ecbaee3e126c0d589d90685b61f",
-          "source_sha256": "ab4dade4d052bbff129c02df5c836fab139811409628d518289056463d185f10",
+          "sha256": "a992e63cddd5b7d7633cdd5ffea82dca0e3359e92cc9753a5965c36794351f64",
+          "source_sha256": "6f271fbe81d290664da2b1bec4a3b1e9c6d712716392b65a1c20da5cece31df4",
           "sections": 6
         },
         "account_deletion": {
@@ -77,20 +77,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "fb131905796aba68f5f672bc297e366489c9cfa9802eab6a0f2e6ae79c08d855",
-          "source_sha256": "8f4938712f3f08516666301b6038559cb4a2f42078a9038355f966c07a2ad09d",
+          "sha256": "6e8cccc731d44a03eec8e0ee312a3c4ed52a2597d094ac0527b7ba934aec2fa7",
+          "source_sha256": "d09b3ef6e454425bea0d201e7cd9e483b213f0d9d461badd337525edeb1524b9",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "525965cd8bc95dc40bb2690a44869ceaadcd14c47e403962c384d228303a5619",
-          "source_sha256": "bb8751496c345fd99b738bf7b33f12ae3a3dece6f2ec8466a7fc0d6a468c7425",
+          "sha256": "b299542c53fa829d97d04bb3cf77ffed5f8a5690d484a2a1d98239d33e05dd41",
+          "source_sha256": "c72c3b0b21782b0a4cb001d6f2b083c853be3e7a27e70bb40e0bc42f4b240d35",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "9e5bff1b3a774773f20f6b44f70d57cb686dff8c18d2691b197b7b494f07cb1c",
-          "source_sha256": "b7c16b852883a1ec9421260bb321057370f2b0b2777f86d1e98d631490d14cc2",
+          "sha256": "49e1faab694a3b435e964db909409e0f95cf7b8d7b52d6048224c98ea63ef3fc",
+          "source_sha256": "fb22fb140cb4f06921afff84f79fb01d4c873898bc825d30c7bc8f079395d176",
           "sections": 9
         },
         "subscription_consumer": {
@@ -125,8 +125,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "0b61485623034817e7271d035acf318e68de5f75f56a19bdaf7e3430e2734adc",
-          "source_sha256": "0d12b1a43bc91728dfbc1ef9c9955642c4fb5535d555f7eb052345ca3e8ec59e",
+          "sha256": "4191edbd3acf1eb44283a25af13e05610a67298f90950e24d67d0aa78c9f8b86",
+          "source_sha256": "42801f791c0f4633dddd3cd2f261ee639b4521d105d9b387961c48dee2637f83",
           "sections": 6
         },
         "account_deletion": {
@@ -147,20 +147,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "9fdb2dd7d19b68e73d2aee0f831865a4bd53bb099e4ac097830d1415deb088cb",
-          "source_sha256": "3b8f7f842eceff5623cd77bd1cc0023fee8d9735c263b2bc587153b3316ec96c",
+          "sha256": "51ee4ae6599839b5dbf6eebc3776020d2cb3418fe70b00333ed48f6da10fc347",
+          "source_sha256": "1706ee52c89cc3aae5871a6eec42dfa53cd6a4b53c823e872b1dcbba9b4bfaa5",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "99b0161463b7a674ac59d23c0624b4e5eae43cebf2cac309a1fdfa30ca13b5d7",
-          "source_sha256": "2894e37dd151ea5170ec37339c35461046420460f5ff085872cae489a9af3a85",
+          "sha256": "6fb29229063f026df2aeeb919388d651eb6b02de8efadeb4b2fb9136cb2d89b0",
+          "source_sha256": "07b958f2acfa2f6f1cb3c36e1f0b4f6b1a8e2167129f5f58ca8a53592ff1c38a",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "89adb6025a65d97f2f4e207cebe15d5e67f32eaf52742363a5e5408e955bcbde",
-          "source_sha256": "376b94a30fe5f69e61b7948d033abf1265b384e64d85e40ae258e41bf191b4b9",
+          "sha256": "1d281108d338b7263ec4b9988ded69577708baef17ee2fedf59ce69486f44eaf",
+          "source_sha256": "6719cdcc578d6f09b5feb6fe18b008aa27af880fc7258464283b03ea6f8bd4a8",
           "sections": 9
         },
         "subscription_consumer": {
@@ -195,8 +195,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "6f1af4269ee7da00afcfc7170356e182d31026d7c33044590ffede6a0a37e0c6",
-          "source_sha256": "6e0b9793c5a8828800383ac565f1fcd704e860ae7e189d1b6ee9b3d6902b5a14",
+          "sha256": "14b7535d9d727f6a32a3b5e64ae09c8895896f37e91fcbc9c79a1651c9e85d0d",
+          "source_sha256": "5e1c4c019e99eef17ccc0f75e5b3b19f3c9309e221efad61ea4c43058c59d0b0",
           "sections": 6
         },
         "account_deletion": {
@@ -217,20 +217,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "442d9ff086bcdbf0fef9ed2cb4446c9fe3a9f693aa832e3986a888a00019dca2",
-          "source_sha256": "434c5366c680f468cc3bba4e820fd9d226b843a78ed962366f951b9922a3e934",
+          "sha256": "0099ef9e8e58e91c146ef161365fc193e5cba57b5e6523119d4505725a6cbf63",
+          "source_sha256": "75a1e7ac95e2907b6215cb87cbaef025f2db80e76aa325db9df6cfd6c2321c11",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "a26f288705c86420626806795426dbe63a75c669cc666eb7d21906e8fb8c4208",
-          "source_sha256": "38833849111d082fae98c2122b7cb9071c5176e829c1a468cf96f3bc35326328",
+          "sha256": "329a968472ddb8b700ce433a0ef162bd4ebe5d4cb190207dd1fc876a7526f6f8",
+          "source_sha256": "fe6d2c6275d56d16d443f01baaae708a4c771ea80bb95c9f5a9b7637f4659356",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "5434b57d928756a94686bcfbe469ef8db8561d828343b00669e2ddfb8ecf329d",
-          "source_sha256": "bda17006b3e5a3faa96e045d1100698e494d11c5cda1221627413c5005ef84e8",
+          "sha256": "319ab9afe1a1777df9ec4de3e9691c54ae1a926ecfb78b7b18bc20696a694cf7",
+          "source_sha256": "186719f6a3dc2e774e036f07590ec6eba5e54995a12a954797ed0812a83832d7",
           "sections": 9
         },
         "subscription_consumer": {
@@ -265,8 +265,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "103dbc0bc6eaedfabb1e9bf8b287348df3e74b0a9df3c017d4ebd33ff88013eb",
-          "source_sha256": "ec64ad82a771c69fabdce0f34c3d246f413161b8cabe91d491a4f6d9449b2348",
+          "sha256": "c08bdceb4bb7b170ee6e87f124e45fc32dd643c96216beab5b818cadd537c631",
+          "source_sha256": "8f686438626944d6732fd42d7eb6b43e57b4674c44fe4d35b1f6dd4deacd5f80",
           "sections": 6
         },
         "account_deletion": {
@@ -287,20 +287,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "0940026177eaf488c94ed6ef75ff5589635c6f249824b97f1c0ee9a0bb128510",
-          "source_sha256": "1c15106b6fb27ad9264708f5cbaf945abefe6e71ffe462ba9efe5c4def726d91",
+          "sha256": "6e2d8bb7386f2415ecb25e8bf6a3f5303eaf37a1c2e39689e74235850a5e2cde",
+          "source_sha256": "e50dc9c75b72f82f006d8d9ec84fcdaef02bdc0c2da8c726ec93d080708b8f63",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "44a18128bbb2b2ecd63ca57087078dc8fa1934cde42de4e37a3965a4e88bbe28",
-          "source_sha256": "3a294ccf48a2bc5d6cbca828d39ebafe681eb6eccd0150542a05c3f391b44645",
+          "sha256": "cfa3d0a3feb8189b40ccc54a252d6e5f4352c3fe371b4aa362a0c1accfd5825f",
+          "source_sha256": "b8a9f9c63830409d94e20e0e8b628b2d1fbb22113d937bd48610ab6b14b605cc",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "af5140709151916a7a2303f931e241b620062e839abdd3e9c8b9399132aa728d",
-          "source_sha256": "c9ec3badfdafbe7207edffbebf2eda42bb931b6da4dcad9c97eced87afe2501d",
+          "sha256": "064e8b69416cea46d6fe8eb1c3eb29dc5413515d912864d9e50722ecb5b54249",
+          "source_sha256": "755e52cc2e7fffd873920d57c6619709f7f9df99de04fe9bc67a7c210b95c912",
           "sections": 9
         },
         "subscription_consumer": {
@@ -335,8 +335,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "d7accdaf14722b391f18e2feb90ec4808c67aa2b30401dfb2ef23b138802404b",
-          "source_sha256": "3d03c78e13086c45f88b3f6016d396dd2b54710664926992c7b774dcf1cb7445",
+          "sha256": "8bcea05a73a9b054c6b9c67f22bcce5b69e8aa7788c95bd80719a1f404841141",
+          "source_sha256": "fa0f8c8905a566d2b8c1b56a26ac58846a5df19d0a37ac1d48b56e006d0822c6",
           "sections": 6
         },
         "account_deletion": {
@@ -357,20 +357,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "8180fd01811cb873e580f9abb64026ad52ddd16ffa77ac2a76e30aa3d9c6a3b7",
-          "source_sha256": "8ad98382db2b4d939cea6d9b90126dee1d26c288e6cf2a3faca0172ed63d0df3",
+          "sha256": "0ce0d51433a69b87426c55154d2a8390340ef3395e45eb4e0524a994b3d2a81f",
+          "source_sha256": "28cbcab9c75b7f295bbf9183b379bb9e53f41e187cf2be36dc18885a5748ee92",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "14d3cef7c334868b28717e2c16f32cedd236f5dbca3c00718d314b0f24fc5cfd",
-          "source_sha256": "c9b63056cfd7082c7364db8e8200a75f05b3c18bfbbf38b6e8354df2d03253e2",
+          "sha256": "dada3921a81091b65cfce008b7b811ad6948deeec54ab393d39112d487b5e64f",
+          "source_sha256": "7eaf1ef53aeb22b1d0de2468cb0a10c7ee31589d26f6c2c6dde8fa17a1d5a9cd",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "646708a5709b782edf0cbc27faa2b7f6bf1e7b3cde8b26f7e883e7b8adbf1e9c",
-          "source_sha256": "f83600cbb5065e4724da6aaed832fc0aecda97a3cbfe28ea4896277147254b94",
+          "sha256": "a63669c39943c4533c1ad636afa54b6a7079fbe99c98b4856574e4205b797471",
+          "source_sha256": "8e3e82353ca0e4f4c9ece8d3f3b242c06e1856c8f9684920afa00097cfba29b1",
           "sections": 9
         },
         "subscription_consumer": {
@@ -405,8 +405,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "f0c28ccf2fc82beb003982fc93ce397d43b6145fc43497630f5bd7d205ed7b13",
-          "source_sha256": "a21de301dc21a8359775665eea7cf86757376b10239fb0a2e698441a3fdb66f2",
+          "sha256": "1d65379a315acf630d2d7a996984a3e559441e29da401c263894f663e8809c36",
+          "source_sha256": "50bc6f309834b6ec09e652e49cc32ae609ead4d76a52562fac3aaa53a1a154dc",
           "sections": 6
         },
         "account_deletion": {
@@ -427,20 +427,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "64d9e28eaccc9e1e1f0f8832cc6c98b504bc6d675dc017bc24a7806d83bffd75",
-          "source_sha256": "ef7549b80659b1872b060ea22e18dd4d08efd0e31ba583134565540e714ccc59",
+          "sha256": "ae4bcadb093787e19cf7f5f0c0b49eddfd6a78d204b44f4f0e77a15b67a02652",
+          "source_sha256": "b48efa0c800b5d54b9d658f90bb51970da7aef1e85bccc1e0fb0263f0d9516dc",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "a320efbf14d3b03dc13bc01a4e8595a2185f9028af58890e03c314bd969ef475",
-          "source_sha256": "cf2bd642b8b48c7a92e4ed15e059634c46d1ef5f60a67229a111418c5b088c4c",
+          "sha256": "d55e9ec2fc1f3a6e9822493e38dd2cd9ec2ab09896055ad4fa560e84fdcfad8c",
+          "source_sha256": "e48c580d48219cd01d1f802394ad128719ad24010a34bfed582a905064cae761",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "07c9077b860e99980ea342743fd5c26d8e8e1167186f4fcd4a6d0ad6475696e5",
-          "source_sha256": "a7a2a47fbaaed39e710d7cdeb39fd41863c9484542a9317378dcc8429e49b6b4",
+          "sha256": "6ebdcd98f89f0a360ec404d6855b445e60f862d6615533144fceb23a603888cc",
+          "source_sha256": "f780dd7037b329a4b47fb0b57e7101c35e118c29a1818f568c35f15f46de0d38",
           "sections": 9
         },
         "subscription_consumer": {
@@ -475,8 +475,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "fe519929aec5031e67230b9033ef1caf995d6966f58dd8939265990e27dbc5ec",
-          "source_sha256": "0d67cb6cb97c8c720b10534fb0c4e7ad9cbed5a67cc5403040875a336081934a",
+          "sha256": "7bc3ca0d2a2c1652da84b33133927893eaf03255eede6c1e9f94f64347ad9af5",
+          "source_sha256": "1ad7c5244237724389d227e835fc4c1e81caa7bfa54701a4943f77d747939177",
           "sections": 6
         },
         "account_deletion": {
@@ -497,20 +497,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "8059d606353b4af9ec5bad7bb003903b3f7be3b286d0e499a1fc2f04c5fb1459",
-          "source_sha256": "78e9e410c2b0b7592991b6ddd173e536eb554f70a7471b3d67cae03b9c9eff72",
+          "sha256": "0f87b8075b0b20518ee708ffe242cae1a551fe22f7f05c3057c462846c091c2d",
+          "source_sha256": "1288f062c923593f549fe4937a8ea7f25f4705349da88417b17a01b670c1686d",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "16214d2221715913d67c9563d5a4f3fd5a83cd0da7d49519b5bc4794ea290bb6",
-          "source_sha256": "89e743d7d639e10f69440e4cb627343bafb164b7fba544e5fde12c43a9f500ff",
+          "sha256": "2a4be69807bf8b3f26ef4feba3a451f4ddbf768e92276815f454ed1ec806b96b",
+          "source_sha256": "3c5511f5dbd9d1acc1c894a649ac2cd2547a52dc54545438dd24c3ee6b256964",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "ddcd226954796873d57edf8cc3e433c716fe6c6e32c0b795618035f007391e84",
-          "source_sha256": "3dbe2abd9e6deefda0b7ee6676bc9ba8d6695492db3d9aea8ebe28d3d276c91a",
+          "sha256": "bc455a6058abc7360438d6d8b1a763c091d56cd3526ec9688bbc3f76d1e8c7e9",
+          "source_sha256": "75eb12fd703c6d13b24cbf452ae968b2cd8c504f422f282e4ae77f7e9f887c39",
           "sections": 9
         },
         "subscription_consumer": {
@@ -521,8 +521,8 @@
         },
         "marketing_push_consent": {
           "file": "marketing-push-consent.html",
-          "sha256": "5fb1ef46615746bf2e0b80fecfe001d395ed1d9e09ae47b14db3a62254b9d4a0",
-          "source_sha256": "5a2f25f62767d52b8ca8fa4e1252e1666721b4de2592ac8b15a6d686bf013bf1",
+          "sha256": "02034923bafc26c4f5b2236cd0bab43f50cdf6e71204c087f5e2ee145105f14a",
+          "source_sha256": "e9367ae632e2c956d786d7cb0d7fbe6ba577173cee851487bbf20135eb40c557",
           "sections": 1
         },
         "moderation_appeals": {
@@ -533,8 +533,8 @@
         },
         "intellectual_property": {
           "file": "intellectual-property.html",
-          "sha256": "ff399a5dd6b0cfd17b517bc664cdea3f99cabef65d9e25c96db7517a5aa7830a",
-          "source_sha256": "40dd9aee4584666216f5be5f15164457f3f393d3549ac309668e01b32bf6e68a",
+          "sha256": "13ff675ba5abe854849a5823f96c6dd8f9ee99fc32d3ae59f4657cb586562d9b",
+          "source_sha256": "7ab6edb60d3d0705b2df7c7f0dd1ddfcbffa293915ccc1beb4cde33e41299108",
           "sections": 5
         },
         "accessibility": {
@@ -545,8 +545,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "c012a9409ba9ccaae15ec8637f0c98b253275acb2e6be30e0292f247ad122080",
-          "source_sha256": "79c60f06ad6ba6e18d7168523aaba04a1ae5ab9f351c1d5a119792f1414768ba",
+          "sha256": "ffd09ec685e5e05dd58911e5b9420df7b52187013764edd19322375980a51a1e",
+          "source_sha256": "c1641bf3f80183a5a8027fd4d424d6b59662350914aa3c9212b18f32585a3785",
           "sections": 6
         },
         "account_deletion": {
@@ -557,8 +557,8 @@
         },
         "jurisdiction_privacy_supplement": {
           "file": "jurisdiction-privacy.html",
-          "sha256": "26b1096e7ab71c256927abbeec50ac3ddafe337594937135e8fe55eb0f1e119d",
-          "source_sha256": "49dc95b1d0143b7fa07a08d923b67dde97399aa3239fc8ce49cb0b2bc490e1ba",
+          "sha256": "3f86660228e0ebea60820476431d04c262b30843df63d1732c48ec85dfb21583",
+          "source_sha256": "40b066d11d1bc1033e45a3b0951ac1d00cd6d113c01cba50fa872287155c6241",
           "sections": 7
         }
       }
@@ -567,20 +567,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "f9812034a8114681867b810fa2793daa35541931b8db69c2112c0d245b1249f8",
-          "source_sha256": "3fa77f487dfba2964e1d5bc2760efe836c8e95c8ae484bed481870870b1407c7",
+          "sha256": "c99aca1c1d2f817cd0779ac56c6354f13005868138ed2bc50733304fc1af1798",
+          "source_sha256": "933fac19acc675fc80229eef5cd18cf503bf4ab2d8390292ff3a984ef5f3c352",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "5c8cb93d27b6804d8089ce5201cb14f12857d3ac0931950a66f2e87fb4506c1a",
-          "source_sha256": "23d559296887621ecdc48ae4198e69dad7a8bf8e71ccbbc94b20722b7f8fbcf0",
+          "sha256": "2c091204d8518f6ac5563fbd1bf160a4caae624ab0b09723513bfea3b0e94105",
+          "source_sha256": "78cb623c6e82aa5c69f1e6d167d48f6b22e169bb74e85c6aec8aaeb7389491a7",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "fd89b599a7df551b702a0803b15496544bbb05aff32736026546b15584119188",
-          "source_sha256": "db6aa38d9f87da7172dbe62171e06259aa47b8bcb982ada20b548a880e60f8f1",
+          "sha256": "e361e40c6bc9ed7879c18e7d7409b4cd1138bc1bbe0f08dae0c0153fbf1af13b",
+          "source_sha256": "d4b8d0e73b68719019bf5c9b8f520be7ff72412987a95701cc6cae51a6f9d61c",
           "sections": 9
         },
         "subscription_consumer": {
@@ -615,8 +615,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "7482a1198a877307e49966a5028d1fad39fc109f6cb4f91d365ecc98ef847892",
-          "source_sha256": "4a464c34c6dae9968939482f5dcc73d88f5bd2067b379fb1ab8a352eb6a4f46a",
+          "sha256": "baf191dfe0bfb1d726a083a1d6cb75e150e6090b6dbc3c74fbe8ca7a37e86af9",
+          "source_sha256": "57135f077ac7cf476ab4bfefbfb2b36f348e649cdd79f1e062f7c6075eceff07",
           "sections": 6
         },
         "account_deletion": {
@@ -637,20 +637,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "1270fa606fbaec35e02d1273c55dd09f3c0573b7b4d02588f8bce7429c0d192a",
-          "source_sha256": "2efa474577b3b39b586c600042ab6218996ae1a0214a804a209876db8ca13372",
+          "sha256": "f4c30dbefe7aa8699f5b542cac3de400c42a538d6c7286a2e63bf4d17e9ef3bf",
+          "source_sha256": "58023a3e9b39f86d4ced9ffa041b417d35bb4faa6ca56c34bc1317d5c0964940",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "ad293e03006382cbd80c0d75680bb0817650ef675bf28de40de4f24c608edd14",
-          "source_sha256": "b8590c78f4a0d7646b366cefb43dd457340be2cd441190ffbd3c0e2cec0190cd",
+          "sha256": "c6d6e4e25e4a9444d1a659370a7bf00b722564aa20836ed02598c50754f6f7c6",
+          "source_sha256": "619b2ee658ee56f8011feafe98b40882e19ca6936832d1666a4884d1f6d94b89",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "dfcf6bed8ced2c73667c2851a468fafcf6932468f42715968e580ea48f2a627c",
-          "source_sha256": "e7f1b9716b408acce641cf5d54fe277ac959d77964044637a5ea47001a58c57d",
+          "sha256": "fb1b9c56bb6dee03c4b58475efd1ab4e1c0fa9b9f256f348bb2a50f077fe6ce0",
+          "source_sha256": "6744c3dfe5e3bdc8be7c360564d9587d7c1cc7b42f0382b1e55101c1107866a9",
           "sections": 9
         },
         "subscription_consumer": {
@@ -685,8 +685,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "bd980ad431899e87d060aca8813d3dbf116e6e24bafbe92d42a02b329bcbb1e8",
-          "source_sha256": "e35f8395ed6c9c2b4a125cc9b39216a34219388c07bacee59ed0e273359b003a",
+          "sha256": "cf7b42054957b75f319ce45b83830b65b5ecf131bf5d96a9a2bbb712d33e3b70",
+          "source_sha256": "44699b2a276b9371eb35f43a4488cab0327f6a0a2a92d3709dd9f31fe4526a11",
           "sections": 6
         },
         "account_deletion": {
@@ -707,20 +707,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "32e62c7e861b2214f54f03f7e6d69a49a4738df9c3f073141f8b0ee550998214",
-          "source_sha256": "73a6d441329f145810dff2523d443e81d65f250d74018abefcea5d18f8a1622f",
+          "sha256": "ffd9454190bcf9854386aacb78ca46de421707b3ed9e35139c4dfbda7b58bbd5",
+          "source_sha256": "e29cd5937dd85660baefb44d351f91c4cc1e1b229434e89332513205feb35a0d",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "2fa0ef887bdb16aa63dfa200671882e51aa341d4cfa6bb39cc8c2bb47be36e8a",
-          "source_sha256": "0af456cd6fe96e82160137e285fb3e83f27b27617fedd49a9666fa3882454fff",
+          "sha256": "4768e91d74d997ea3e5045d5ebdbed37ee8807e357d332aeb6e7328e9a05f25f",
+          "source_sha256": "9fefd281e88ca43427ae69b3dde7dd7ba0901d84c1edbd1f0e4c98d4cb5a6da1",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "770f0384f4ada234a7cb102ee0491092e63afdfb0d99e0e6b12a6860ae31263f",
-          "source_sha256": "7dccd14e54d265c24e2e2c8c76c0f7d03a400c60c148b122c5e1d78c6fed70c4",
+          "sha256": "9b354fc08016d63f41e83fed564cf6cba82847a9b8ce4690cca08e10cbd4d4ed",
+          "source_sha256": "2d1a3bf7f49d743e3aa56445df79c13cd1ad0110b94c497752704e3f929213cd",
           "sections": 9
         },
         "subscription_consumer": {
@@ -755,8 +755,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "754df5a9e096e4be3d1670a7bf398a8bae44592d0d8854c59d85c90475561cfe",
-          "source_sha256": "c00d7f1d42ef4945c66aaeac9c726761ca249d2e0625e15eb8f5c6fedfc93f4b",
+          "sha256": "6319d9b1c4385378c3b2bfd8ce81bd5d280982c70d226b30fbdaf1eb7ac0946f",
+          "source_sha256": "90d504c61dc41315b9fc4c45eb9a039dde8269dbb6aae406a1c316a7e47d96c9",
           "sections": 6
         },
         "account_deletion": {
@@ -777,20 +777,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "653990cc98dcabd2287e0e7b3962e4dd2fc0eade6fb09b09dd1a5ec08ba1c594",
-          "source_sha256": "ec51ebf12e5e4daf9fc30a58330d8e694206af054108a8720f4e9cf0a7af8fd4",
+          "sha256": "147384fd6dc8efd175cf3152ab5ed24fc15d21611b83648ba86604601bf3a5b7",
+          "source_sha256": "a8a7512e743d329a507d67cc1183ab7bbb2c9f4d3476093af3ef33f296fc0781",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "2be4f95135cb2c147a8e9d7dad5939fa613adea40c130d1bb8ddbcab371091f7",
-          "source_sha256": "576bba86348787957f1d4326d30efad05a945598f6557861e870fb37d88c680d",
+          "sha256": "cc24e07452f9a78807330be7db9fb8d9555057c80ad4b3afcd1ae3bc59d4b09a",
+          "source_sha256": "f84cbdd9cff440fac3e9c76271710ed13f622ebe2347736d0a36abef645b509b",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "731b028d945a7ec8fbeccd1bd3661bde371f13b928cd970430aaa3e86266cacf",
-          "source_sha256": "1b38791cbaf5ccf0daec7b149a4c1c2989992adf1fde4727751cc2fc0ab896d7",
+          "sha256": "63af1a08ecb069458b8f997aa18e16449cb5fb7e6be04b51b0b405d2af4dcabe",
+          "source_sha256": "d4dfa3d2d5b94b3decf6651d3bf1194fb7152b9719b7818b9606e62236c87a84",
           "sections": 9
         },
         "subscription_consumer": {
@@ -825,8 +825,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "93a3e3730e5c4e6be8bc1a7dee5587ef72ed918eab6559e98287bc3eb38ffa38",
-          "source_sha256": "1cf0a12a5059a5071705a95834757ba6203b4c69470dc5de9a538c88f0872226",
+          "sha256": "0a03d8f8948bf821b07cb29305c445003d0a7f75e40b993b4462b5adb9408790",
+          "source_sha256": "f4d6c4cf6dc8a55117d3f2a95690afeadb10f60e46634a828570e3c77e834179",
           "sections": 6
         },
         "account_deletion": {
@@ -847,20 +847,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "ccb8169ea9207a696067c53019eec7bb50c73eb6e0f00a4e0f4c770f1293523c",
-          "source_sha256": "13f2943255a242acbbe44ae9eb32e8238f933b2f62c691ea40558e1dbbaff2ab",
+          "sha256": "96df3c84800028e2e0dd4530b92b527f4ca5a5f0fe960bb3785367144f4e3198",
+          "source_sha256": "d8ace3d1b831262f040e220fec97229955cb4d111fa7ac0aa99c996ce7d7ca52",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "654b9bfd7d87270f1653504ea6d462c7803ccf529528e6bb4231bc64590931d7",
-          "source_sha256": "f8e0685e0f4bedf413b0cd3b5c8d341ac8a5cf9fad24a18a103e09a65597be52",
+          "sha256": "2bf96efcf224a3a3a90370d243e0ddb70205014f64eb1d9b8f0f469824276949",
+          "source_sha256": "b63888f7e4bbcbf7a258d0d7edb4d184b7a9e6a65ccf739f248f379936486ce5",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "44179b8e9bbd2f6282428b558f80231398b0ebc587c16b6c4fee46f45b698a84",
-          "source_sha256": "5dd752dc9b0f879e6640c0d85a8c78e3a6c7c365930da4dda4c5100a0ecc2334",
+          "sha256": "0fc59433beec3e6c012bb100611bd742df57c8950bf5bec28ed9db4970a3184f",
+          "source_sha256": "e4312140494d3b86dd4986fe73571f187be31d3ae2d36db504757a5fcc366bd2",
           "sections": 9
         },
         "subscription_consumer": {
@@ -895,8 +895,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "e1b4d4ee614df76a8d707f6b3e07370f22544c2df0f63336069cc0de9a7637eb",
-          "source_sha256": "27257ed98bc3f9b9efaefb810d0b192604d90bc263a85abc788c94f6b087b0d7",
+          "sha256": "acbb5da606325dbfc490dd45b70d9a14f7f6488e842ee292697ad5dbd5b74cb2",
+          "source_sha256": "309ff6a77c907dfa20996427a7473bfa6044b4dc6fab91f5785015516eb2c21b",
           "sections": 6
         },
         "account_deletion": {
@@ -917,20 +917,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "66cddf387dda3bf92e8b9887bb9fbcea8d01f8c26b68dd73da4a4ac3d8e45c4b",
-          "source_sha256": "4d7457f19ba2c096df647eab0661be9e4192bb63498d675af2b8a9faa6cd349a",
+          "sha256": "9ff7e5749118e4d678e08ba57d81183eb2055ff8bb8aaa59b49249b8d67047c7",
+          "source_sha256": "01063b84c86fdc167f4aeeaa375fabd39b768b8f7e789bab108232b0b01742d5",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "b673df3ccdb538e8a86409dc56457bb0bc0c4952b459a5bbdb6a56da3a2bb15e",
-          "source_sha256": "2fc3edb9a7e7fd9c75e24c72842b10115e934ebdd5b350b03bb66badad8f4489",
+          "sha256": "6910958364e0fc00c84ed5075d17992bbf80710ce7e53f0a6eb1c0ddd2be78f4",
+          "source_sha256": "6b0985816487864d72e6979cd8f06f9a62747f6f73ef45c1fa757daa2988103c",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "d2dc682c12a84c96761f3f85a7390fb586fa619314ef0970c01d60d7b4f67519",
-          "source_sha256": "086b2539287bfdcf068088242a1d4882025ebae9cd33e2de3b9eb3c77444de04",
+          "sha256": "81b76b820798d211d92c73106d8b2b07818cf3cf50fd6cfd7188dfcdde1e70ba",
+          "source_sha256": "3ac0236a27434701638bac9c211890e887dae26c6ad7fe8a9faa5ecc93ca056f",
           "sections": 9
         },
         "subscription_consumer": {
@@ -965,8 +965,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "458e579a15471c3a573cec90e15af26d31aacb1784c8f7e9a4e6e5889904e5ba",
-          "source_sha256": "228c5af33c9514301b80f03bae123095a712012fd11edc9b15d5d5d52770d34a",
+          "sha256": "818089a26657bf127207d9a28365763260bdf4a3e607ca55ecbd966cd910917c",
+          "source_sha256": "53fa583ec948d60fa81e4cc07e59d75c736299003044f8668f598e6ac781c777",
           "sections": 6
         },
         "account_deletion": {
@@ -987,20 +987,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "c68298f6278e3db1bd6c1ef607bac6bba98bb4e339d60965eb84bc685cb27d7d",
-          "source_sha256": "c44b6de7c4079bdc807760b2c5f95c33fd44b35d42c7ee255fd7fcad6cb461cc",
+          "sha256": "b9a374b789ace72e7aa45cf86765ddde9016cd454614f7052cf2436e072e2d76",
+          "source_sha256": "45c232a7c0cf8e3c1fd75a0b2aaaf86765ad56f40562ea87ffb4879e86029822",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "35de873c656119452bdc05f1a94a54679f07726a84a3d6bb99dfacd980bc75d3",
-          "source_sha256": "4105b41c58efc599848cca63520d832e0bb47511f783d7b995aecdf58f69ed01",
+          "sha256": "07eb9a260a370213f8e242c26d438a66faf0ec19d502683366269b174a807d5c",
+          "source_sha256": "a7bfd0a5360ddee2d06c5db8fa46d95755f46da2b3821874dc650f3895007150",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "4874967dbd70e60bb3a804d832aeecc3fd57e7192697c6c4607558c00edb0459",
-          "source_sha256": "e0e2aa5e2173d4f92cf9a48864ca6a6e74a729fa9da78dde9172b47bd1707a58",
+          "sha256": "c41ccb16f06692472d922f5c6b49397d8a6548ffa1edc81c56549e25c75eb9ff",
+          "source_sha256": "4af3a6948d86e2aceb224e8d0e435389bd7b1724658e97842f63d694f11e94a5",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1035,8 +1035,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "167c1359ac1021ad9f981eb22024e008c4ae9336abfc7dc76c6fe3da94f1284b",
-          "source_sha256": "a0beab8287825494595a61449f7eba79f206cc5178f993ed7554061557fa8257",
+          "sha256": "473a8dec1d1e8a854f19fd105e0ffe4d74544447ae04458c7009453c3b45246a",
+          "source_sha256": "fdd26f4417592526b6a635969032ee46e61f7780b4f8c004bf67e6ef9e91b348",
           "sections": 6
         },
         "account_deletion": {
@@ -1057,20 +1057,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "f1bad09a62856e106c238e5e5d734a9b000b6be7d00454a69b411a123eadb364",
-          "source_sha256": "a203151f325cbc605af1eb80eafa5efa608fd4d943f68b794b0a13718f5f012e",
+          "sha256": "7ec273e0732d7108b618421103d945c49121da727aeaa0da951ff1ab51c8aefe",
+          "source_sha256": "05a96f6e7737065a5a0f98f80a6c2d1ebbc86313299a860a48a4d31d8fa8666d",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "3594aa12daef93ec48b13f259d60fd986f8cd301cce32d2325ca69a0ebf97057",
-          "source_sha256": "b376bb81792a42da135dc23dd2a4ff31a181b2388b976fc39ad9c4320c0f7c3b",
+          "sha256": "aac59c9bee8c6b0c594f0a04ac182060800bfd4dcd21987f78d2530040c15ac0",
+          "source_sha256": "6f0ed51e6dc1db491a74d91d83e1c3a5d6e8ab3d7c67b90168470eea65829e2a",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "abf31fae2d94f102a3df7647cac7d9856e9f92b792cf295c4fcdc0a86bd02ed5",
-          "source_sha256": "c75197cc8740b5f178d3d7f30e033731d08d19305973be53f1bdf6a52c66f3b4",
+          "sha256": "77f7a2f8e6bcf500113389f7e085b8a1a2a0528626da493c0e6bfee6a580e8a1",
+          "source_sha256": "4300f94740cbc8d914d062cdeaa389f3a43d39cecac65281ae087585f46d7dc1",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1105,8 +1105,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "41d5fe7bf18ad385c640bc7f1ff6b3d7258ffb10f3ccd66dbc929201a8ecb561",
-          "source_sha256": "6856114ddd644151799345c39f5d0b999650dc8764ac33d1ae548452e423982a",
+          "sha256": "5bf65bf9abec95ff2d27af626fa9de63435cb99204e14139de322c5813f52c53",
+          "source_sha256": "326e31f424adad7c3ead1de8ad9b17151b2df1a84f20d0d76bb28878e5bc7d7f",
           "sections": 6
         },
         "account_deletion": {
@@ -1127,20 +1127,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "181d8a17c8a85b8d137b21d29701af7dc8b5fe852dfb2846353e4c164ce2b174",
-          "source_sha256": "036195958041b25e7fca37210c37caed1c8fcf5761b4e5245a9ac825e8a86467",
+          "sha256": "2bde50ee8e26b439b7112b10a8244bdfaf5d70cf3d5a138da5f13200806cd522",
+          "source_sha256": "f3f819a8af3e87cdb876ac147ffade25e61710a0780097a208377c4c86593682",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "d073fe5e6387291c3c49fbecdc2d8503419c39ff59c1228cb112bde1e39e288d",
-          "source_sha256": "6c2264979cf7ed572f82be1fe048375f96667235080ca12c64bc0618a9f7b706",
+          "sha256": "c176173d6546492d622804e6613f513236c190f89d7894a8be95d1a4c8db7f5e",
+          "source_sha256": "a09020db548ff1d9fa3d083ffbc81f9f749c1a1b1e5df3dc552b3571f939ae76",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "ee326b465cd157939f0e8639f910db598fdc41643f5567f7acaa5935bfbde799",
-          "source_sha256": "d9bddb34971a853a5c9462798d3bbed5fc4620bd3ae4b6a0a2792fe89f9c9149",
+          "sha256": "6bb13eb9b3f679aa0daa33755fd2d737bfac4b397935cdb58704667fdb3977b7",
+          "source_sha256": "c0916f1f0cb750f1e2fa9a9b0a32703a566a2ac498ebbcf7ec64dc6d6e3c5f4a",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1175,8 +1175,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "6a88e9eb64acadfb01d0c6607ff71909f7715e5025a9c124e1a504fb465fe6fb",
-          "source_sha256": "47044a932dfe4358ab0bdf2b9f55d4132b7d507959a0cd05d93be54237bbe36e",
+          "sha256": "9086fd4e807d91b98c39f144fb1379ee6df1c4ca4a6db68990880d7f3cc77829",
+          "source_sha256": "b88dfeef573fb0cb031c6557096e6064aa8e392822cada074c1bc1d17a01f2e5",
           "sections": 6
         },
         "account_deletion": {
@@ -1197,20 +1197,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "bcefac3e7e630ee48bfb40fdd5d7bb6ef23a95bb888e3f68c13f8579399c0bfd",
-          "source_sha256": "b7e3cfffb3b710e1365280bb29c2023696987776e286e79b141aa7a3ccddafa5",
+          "sha256": "f95096f816c0cad91d01536381dfb48ffa6f6a41c102c9754f446a7576cef6a5",
+          "source_sha256": "d02f42d93ad83bbe4e6a226f7b4359eee00d37c687b8b6eda2b4d9f8b2c4eefb",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "97e25d9fbb2a55568023be7de8808b3b9776a03fe90718a5da790efc70c3623e",
-          "source_sha256": "cabc0f2ce4a6af456bea1b402fc278535bf29859932b5a26c7394fb5b73ee587",
+          "sha256": "0749119c4ac28fbbe32bda820e360dba1f6ea353b98d50167c25a5089d1198f9",
+          "source_sha256": "6f3d35431ed155da544247de6233b260fa3bf1a258974375c75cbadc3349d0e5",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "f00756eb4728736fdb35d71212c27ece13ed3ee8802796c2c195ec85781b79a3",
-          "source_sha256": "a6ab77044637941a39a995f1e8b4572e2983801c279d9ac0b229af20c87317aa",
+          "sha256": "8db28ce3e1ebcb24e241b3e516837e29854aaa1f8c3022d70b051cc1d94477a1",
+          "source_sha256": "aaa7fcd1d5f5fe4f7ae30db8d8a525c27e9f4dc473430479d8cee7243cad4481",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1245,8 +1245,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "044ae1bdf84fc61dd00c889e0363bef1a37ffc964d84cf1fb09736da9ecadaa9",
-          "source_sha256": "f051b5683e68662fee0e5fac36c121b3f1d930c59393dfcbf30950c5987fa15f",
+          "sha256": "4497f02462c4441abb2ef65917089a7900fba0a154bd2bae865dfcb3a402e5e5",
+          "source_sha256": "eb9a12aab83597d14c89679bc1ddc96de4df403152500fdadee52619a01bc0c5",
           "sections": 6
         },
         "account_deletion": {
@@ -1267,20 +1267,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "e6e360e397516c5d2c0771818d35aa4e6e744236960ae877300078b22e7c0036",
-          "source_sha256": "78c0ad191b7e50c69b23dd92a94577567284df451f70d7daae169eca1b7b8185",
+          "sha256": "d1071f8cc2ced703df79ef18073d5a00daf2ca3f52f7abb8b8bd362dd1a50cef",
+          "source_sha256": "773354c216d53bdf23417e6add93d264258db12f4937e284faba1193c4b72d8e",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "ad3659f146b914cc4ee038eaeefac33b86b5eabec5a4ec4db6bb2b5d9ec80185",
-          "source_sha256": "fa4b862cb0e74d5be7b17f10ce73569bfdab5b40b2a0c8b780cd2647924dce1e",
+          "sha256": "8fc3fcfebc5878f43420e224c097b2d720c8b7362b6df04d06eb9a04fcff5fd9",
+          "source_sha256": "efeb44eafc47d6502befc56147ee67ff90de62d8492f4f61b40dd98e204486df",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "dd31c38539fd666db0b9224fdccad38099c1bd529c89547bab5b8efd75f18906",
-          "source_sha256": "d9cdebe1d07f981ffcf36ba2349782b1ea32ce45d8fb833a5c5d347eaaf54270",
+          "sha256": "3113a65d6f9facb75609b8bd972608b157ac68e8e69b918a1d9d51bdea66dfac",
+          "source_sha256": "9ff07ed5d191ed8fdbcd0971be3c2ecc07dda8d38a07905f417501371e13e0c5",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1315,8 +1315,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "5c6cdd561eea4e3ce0445881eb96db3fdaa85942d375e026ae9bdf194d7e443d",
-          "source_sha256": "fe25c757fd519c44ff2a7063a3a98410b897818835efd36fd5ffcb630bb69fdd",
+          "sha256": "836d664d78dc46448fe6755b8929d1dbe91621358cafd6db35fcacc0026f07d6",
+          "source_sha256": "73a0e39a281fc88f5b6c9a69f68c6cba98c6654320e509e27d1b65a78b3d3a04",
           "sections": 6
         },
         "account_deletion": {
@@ -1337,20 +1337,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "3a4a754973ab43a7a61bb20ce20df226fb492d157a50ec8325624e439f138f72",
-          "source_sha256": "843ce8cce9fb8a559ed844991df07b4bb957dca94b59347e84f41fde10f12cbc",
+          "sha256": "905522d2a215c9a707fc889e95cecd5ba85cc26107ce794598003c3c99586856",
+          "source_sha256": "22875666f11fad8b448c6eb433494586db776e4be1825e7add1156282026dc05",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "6c4b326008524bf5b53835104791ea6f397a95b85d05374e39c712ad450b7f19",
-          "source_sha256": "78905464aa520fcb90e2b226ed30b1ea431bd1e8b4308dc85da3e9031aa3e3d9",
+          "sha256": "777107679477f12437ed91d72b1184044b190d04102067664a0ad5085f73d55b",
+          "source_sha256": "f836dd58bc53d19551cca637f576143d271230a9cfe6a879e10972040a7d263b",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "f6d332093c1a9d82b8b964c9ef3413e17f57cffc821dcfe2ad722e619292a7b7",
-          "source_sha256": "5756c87187db225972e5fd276181928139320b85a89d130fa1e9f3d47168fa70",
+          "sha256": "ed4df79ec37534abf11fbbbaa0bab7f65c3cb556da6b30c54b3644491728a122",
+          "source_sha256": "0aab91657f30c74ede799d8f57e9c04ca1f8633b1d58321cd4e89e815a169b70",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1385,8 +1385,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "f5182053ecc4dfbd429d32d005d1ea9d00f6ea445f28bb42c28afb3dacbfa0c6",
-          "source_sha256": "1126a651446a02162c6bc3559f96b50180d39e2577e695bbbd84d1508242403a",
+          "sha256": "04ffc19c1b4d2c43c4d52d715ef07fbbc942b07b85ccb1a875765d4e53adbfbf",
+          "source_sha256": "b8ad9947f1d8c406d05640a563126e9cff6160f6a463bff13fdfc30888705713",
           "sections": 6
         },
         "account_deletion": {
@@ -1407,20 +1407,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "deb3f8468cf1dfc8c0924833b283e04c0cc29064ee9b4e820e117f80e58802b0",
-          "source_sha256": "c6d42cb4a8c5dd4c09a053392fa043afb5b3fa5da264f3f6c042d817d1eced08",
+          "sha256": "c4bddb5d06c24dc5e1e8b9b77e15cd32c5d135757590f7acdd5241b0c5099055",
+          "source_sha256": "895f386c37f1bc0c9c17a59edf830af250dc4f0e72ecaa01e38891f22636eb3a",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "81e948d22e9d4cc2920c2e2ffd9ac8d5606b93a09c9dcae3317a3d08ffe591d5",
-          "source_sha256": "c12393622082a243cb9d1a32dae6de8f4234179899a0e58d0b3932c52653fbb0",
+          "sha256": "75cd25178ea22b45486bd60e1f9257d5f73a3565c56872d2348ad2dd2f27a651",
+          "source_sha256": "f626d506a6f4710fdcc78c9adaa4856c49483e1c8872ec02351c86dc11a1f6f4",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "b0630769689d19d5d061ab82ae03ad6de475e140c36f6f8d731f6f5eec92fac3",
-          "source_sha256": "74fe0e80271a8d4819772a86bf4f12b44223f05b839492e66f930294c70cfff5",
+          "sha256": "d95028e2fab10324a64a6b001f2fae425edb66f4b9a0d8750ba270b60bf7b6f5",
+          "source_sha256": "53aa7dbc62dde00cac095d4103ad41b09ec283dfd978182c7eac996872c18887",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1455,8 +1455,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "f0e4337ce20b31a59eb57d677d2117ee05ab8a63f7cd81feb2f66f3ac94243d7",
-          "source_sha256": "793d1c57fe20cc05c1159b384163f805923e7bcff8007876f13043c4ce622ee2",
+          "sha256": "3d72bd1fbd7c678652be7ed9d8dea0ebfc5593f025c953827870bafdac8530b7",
+          "source_sha256": "3b0c9ce668da23b66d0efefb9ef4b17ac8567157d1e122fa97add3061168ac25",
           "sections": 6
         },
         "account_deletion": {
@@ -1477,20 +1477,20 @@
       "documents": {
         "terms": {
           "file": "terms.html",
-          "sha256": "87b56106a8d3af39332ae77043853d5019f56e755bb514831c076c8923235b35",
-          "source_sha256": "5a65e14464a9d50e1be507c80f987e4a4e0bb820796554c884aa37235a84c1dc",
+          "sha256": "f63eb2bbaa35e646c6a5aacd584629130a1de9a1cd4ea837d76551e01658b4b0",
+          "source_sha256": "8c7334c2ab6bc28c70746894dffa7567d6e6693c83a60e403ffac1717f32ca71",
           "sections": 17
         },
         "privacy_notice": {
           "file": "privacy.html",
-          "sha256": "f01692bc2739d511b33a0ac7f765ab1580d126fbe6a94212c638f7d6a7b8148d",
-          "source_sha256": "c7b6f9be309a0631f783d2a23806717121bdd0f7f7b5bdd46af7d9b55a426dd9",
+          "sha256": "dc37a73845f7716b0187ba2a586009b4fc239991cb79f96c3af0f47166f84bd4",
+          "source_sha256": "2d1f4328c8da0ed7c65972e6851730e391265d6a07c0171a70283758fde59435",
           "sections": 16
         },
         "community_guidelines": {
           "file": "community-guidelines.html",
-          "sha256": "979a7b11d003d7f9fdd090e7380b6a55e162e19acd5807005e49c1631e805b09",
-          "source_sha256": "43b19abcafa3be72b6b372293eb35c82bc0d999255e7e1b42ff9eda7157916fc",
+          "sha256": "f2eacf749fc6506bd37792bb4892717a1e35647480b588ca38961c5f238fc75f",
+          "source_sha256": "19e2dfa1af3a1230236a9730878678d8724aac15639634f948a3e2e0e9688a2e",
           "sections": 9
         },
         "subscription_consumer": {
@@ -1525,8 +1525,8 @@
         },
         "support": {
           "file": "support.html",
-          "sha256": "621f539f4781c747966f68360d7ca7198be83144f8a1a45c6f499c5007e79d65",
-          "source_sha256": "c04cd2be0a0a1e8f6e1add6218c67adc7d12a12d12d0a1ebb5d02b11ee336121",
+          "sha256": "23a9ff32b4def331789328bbb8cdfcf6eda5d53f3e7a0933fbbf809068764b66",
+          "source_sha256": "0dac5e8c2360b6492129defba6b9f0f3413aa18cb848ad4e8c9af08c8bed5656",
           "sections": 6
         },
         "account_deletion": {

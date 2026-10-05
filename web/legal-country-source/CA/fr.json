@@ -18,14 +18,14 @@
     {
       "heading": "Langue des documents",
       "paragraphs": [
-        "Les documents juridiques contraignants correspondant à cette configuration juridique sont tenus dans la ou les langues requises : anglais et français. Lorsqu’une langue déterminée est exigée, Tailmance ne la remplace pas automatiquement et sans avertissement par une autre langue."
+        "Les documents juridiques contraignants correspondant à cette configuration juridique sont tenus dans la ou les langues requises : anglais et français. Lorsqu’une langue déterminée est exigée, Tailmance ne la remplace pas automatiquement et sans avertissement par une autre langue."
       ]
     },
     {
       "heading": "Exigences juridiques propres au pays",
       "paragraphs": [
-        "Vingt-deux domaines d’exigences juridiques sont examinés pour le pays applicable à partir de sources officielles attribuables. Le droit en vigueur et ses dates d’effet sont distingués des projets, consultations et mesures futures ; une proposition n’est jamais présentée comme du droit en vigueur.",
-        "Date de revue des sources : 1er octobre 2026. Les mesures futures, les projets et les consultations sont suivis séparément et ne sont pas présentés comme du droit en vigueur."
+        "Vingt-deux domaines d’exigences juridiques sont examinés pour le pays applicable à partir de sources officielles attribuables. Le droit en vigueur et ses dates d’effet sont distingués des projets, consultations et mesures futures ; une proposition n’est jamais présentée comme du droit en vigueur.",
+        "Date de revue des sources : 1er octobre 2026. Les mesures futures, les projets et les consultations sont suivis séparément et ne sont pas présentés comme du droit en vigueur."
       ]
     },
     {
@@ -41,7 +41,7 @@
       "heading": "Vie privée, sécurité et droits des utilisateurs",
       "paragraphs": [
         "Les droits en matière de protection des données, les demandes d’accès et de suppression, les transferts internationaux, l’assurance de l’âge, le marketing électronique ainsi que les obligations de sécurité et de notification sont appliqués selon le contexte juridique exact. Le Centre juridique de l’application donne accès aux avis, à l’exportation et à la suppression.",
-        "Contrôles de documents de santé assistés par IA. Tailmance peut utiliser une reconnaissance de texte assistée par IA pour examiner le carnet de santé que vous téléversez pour votre animal. Le contrôle lit uniquement ce que dit le document : il n’identifie pas la race d’un animal, n’examine ni ne diagnostique l’animal et ne constitue pas une certification vétérinaire. Si le document est complet et cohérent (il mentionne un numéro de puce électronique, les vaccinations ainsi que les traitements antiparasitaires internes et externes, sans erreur ni information contradictoire), le contrôle peut le marquer comme vérifié. Les documents incomplets, peu clairs ou incohérents ne sont pas vérifiés automatiquement et peuvent être examinés par une personne. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document : vérifiez donc vous-même les informations importantes. La mention « vérifié » ne garantit ni l’état de santé ni l’état vaccinal d’un animal et n’est pas une décision définitive, contraignante ou juridiquement valable. Fiez-vous à un vétérinaire diplômé pour les décisions de santé et ne retardez pas les soins à cause d’un résultat affiché dans l’application."
+        "Vérification de documents de santé assistée par IA. Lorsque tu téléverses sur Tailmance les pages du carnet de vaccination ou d’un autre dossier de santé de ton animal, Tailmance peut les traiter par reconnaissance de texte assistée par IA. Il t’est demandé de téléverser chaque page remplie afin que le dossier puisse être apprécié dans son ensemble. La vérification confronte le contenu du document, dans les délais requis, aux vaccinations, aux traitements antiparasitaires internes et externes et aux soins courants applicables d’après les informations que tu as saisies dans le profil de l’animal (espèce, âge et race indiquée par toi). Tailmance ne détermine pas la race d’un animal à partir d’images et n’examine ni ne diagnostique aucun animal. Lorsque le dossier est complet, cohérent et à jour, il est marqué « vérifié et approuvé ». Les dossiers incomplets, peu clairs, incohérents ou périmés ne sont pas approuvés automatiquement et peuvent être examinés par une personne. Tu peux compléter le dossier à tout moment en téléversant d’autres pages. La mention « vérifié et approuvé » constate uniquement que les vaccinations, les traitements antiparasitaires internes et externes et les soins requis figurant dans le document ont été réalisés dans les délais requis. Elle n’emporte aucune déclaration quant à la bonne santé de l’animal, ne constitue ni un avis, ni un diagnostic, ni une certification vétérinaires, ne vaut garantie d’aucune sorte et ne constitue pas une décision définitive, contraignante ou juridiquement valable. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document ; il t’est donc demandé de vérifier toi-même les informations importantes. Le présent avis s’applique à toutes les informations et à toutes les orientations fournies par des fonctions assistées par IA. Consulte un vétérinaire diplômé pour toute décision de santé et ne retarde pas les soins en raison d’un résultat affiché dans l’application."
       ]
     },
     {
@@ -53,7 +53,7 @@
     {
       "heading": "Bien-être animal et absence de commerce",
       "paragraphs": [
-        "La vente commerciale d’animaux et les places de marché consacrées à l’élevage commercial sont interdites. Les accouplements organisés par les propriétaires ne sont disponibles que si les exigences applicables du pays en matière de bien-être animal, reproduction, santé, parenté et admissibilité sont remplies ; sinon la fonctionnalité reste indisponible."
+        "La vente commerciale d’animaux et les places de marché consacrées à l’élevage commercial sont interdites. Les accouplements organisés par les propriétaires ne sont disponibles que si les exigences applicables du pays en matière de bien-être animal, reproduction, santé, parenté et admissibilité sont remplies ; sinon la fonctionnalité reste indisponible."
       ]
     },
     {

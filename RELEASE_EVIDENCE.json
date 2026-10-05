@@ -10,7 +10,7 @@
     "implementation": "Yekta Özel",
     "overall_project": "Yekta Özel"
   },
-  "generated_at": "2026-10-05T12:59:34.125Z",
+  "generated_at": "2026-10-05T13:44:50.494Z",
   "automated": {
     "domain": {
       "passed": 21,
@@ -46,7 +46,7 @@
       "status": "PASS"
     },
     "project_lint": {
-      "text_files": 2398,
+      "text_files": 2399,
       "status": "PASS"
     },
     "i18n": {
@@ -72,8 +72,8 @@
         "th",
         "vi"
       ],
-      "runtime_catalog_key_count": 1706,
-      "source_used_dynamic_key_count": 1445,
+      "runtime_catalog_key_count": 1708,
+      "source_used_dynamic_key_count": 1447,
       "production_hardcoded_turkish_markers": 0,
       "visible_literal_text_markers": 0,
       "demo_only_turkish_markers": 82,

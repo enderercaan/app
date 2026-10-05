@@ -7,6 +7,7 @@ import { markWorkerHeartbeat } from '../_shared/workerHeartbeat.ts';
 
 const PROVIDER_TIMEOUT_MS=15_000;
 const MAX_RESPONSE_BYTES=192_000;
+const MAX_BOOKLET_PAGES=12;
 const ALLOWED_SIGNALS=new Set(['veterinarian_verified','microchip_verified','genetic_screening_available','pedigree_available','vaccination_complete','neutered']);
 
 type Signal={signal:string;confidence:number;verifiedAt?:string|null;expiresAt?:string|null};
@@ -76,7 +77,7 @@ Deno.serve(async req=>{
   for(const job of jobs??[]){
     const documentId=String(job.health_document_id??'');
     try{
-      const {data:doc,error:docError}=await supabase.from('health_documents').select('id,document_type,storage_path').eq('id',documentId).maybeSingle();
+      const {data:doc,error:docError}=await supabase.from('health_documents').select('id,pet_id,document_type,storage_path').eq('id',documentId).maybeSingle();
       if(docError||!doc)throw new Error('health_document_read_failed');
       if(doc.document_type!=='health_record'){
         const {error:manualError}=await supabase.rpc('service_route_health_ai_manual_review',{p_health_document_id:documentId,p_error_code:'health_ai_unsupported_document_type'});
@@ -86,6 +87,18 @@ Deno.serve(async req=>{
       }
       const {data:signed,error:signedError}=await supabase.storage.from('health-documents').createSignedUrl(doc.storage_path,60);
       if(signedError||!signed?.signedUrl)throw new Error('health_document_signed_url_failed');
+      // The whole booklet is evaluated together: every uploaded health-record page of this pet is passed to the provider,
+      // together with the pet facts the owner entered (species, birth date, owner-entered breed, sex). Breed is never inferred from images.
+      const {data:pet}=await supabase.from('pets').select('species,breed,sex,birth_date').eq('id',doc.pet_id).maybeSingle();
+      const {data:pages}=await supabase.from('health_documents').select('id,storage_path').eq('pet_id',doc.pet_id).eq('document_type','health_record').order('created_at',{ascending:true}).limit(MAX_BOOKLET_PAGES);
+      const pageUrls:{page_index:number;signed_url:string}[]=[];
+      for(const [index,page] of (pages??[]).entries()){
+        const {data:pageSigned}=await supabase.storage.from('health-documents').createSignedUrl(page.storage_path,60);
+        if(pageSigned?.signedUrl)pageUrls.push({page_index:index+1,signed_url:pageSigned.signedUrl});
+      }
+      if(!pageUrls.some(p=>p.signed_url===signed.signedUrl)&&pageUrls.length<MAX_BOOKLET_PAGES)pageUrls.push({page_index:pageUrls.length+1,signed_url:signed.signedUrl});
+      const birthMs=pet?.birth_date?Date.parse(String(pet.birth_date)):NaN;
+      const ageMonths=Number.isFinite(birthMs)?Math.max(0,Math.floor((Date.now()-birthMs)/(30.4375*86_400_000))):null;
       const {error:budgetError}=await supabase.rpc('service_consume_ai_provider_budget',{p_provider_key:'health_ai'});
       if(budgetError)throw new Error('health_ai_provider_cost_budget_exhausted');
       const started=Date.now();
@@ -96,6 +109,9 @@ Deno.serve(async req=>{
           body:JSON.stringify({
             schema_version:1,
             document:{signed_url:signed.signedUrl,declared_document_type:doc.document_type},
+            documents:pageUrls,
+            pet_context:{species:pet?.species??null,age_months:ageMonths,breed_owner_entered:pet?.breed??null,sex:pet?.sex??null},
+            evaluation_date:new Date().toISOString().slice(0,10),
             policy:{
               pet_health_only:true,
               require_registry_or_credential_verification:true,
@@ -106,7 +122,11 @@ Deno.serve(async req=>{
               never_infer_missing_fields:true,
               auto_verify_only_when_complete:['microchip','vaccinations','internal_parasite_treatment','external_parasite_treatment'],
               incomplete_or_inconsistent_to_manual_review:true,
-              breed_inference:false
+              breed_inference:false,
+              require_all_filled_pages:true,
+              evaluate_against_current_schedule:true,
+              schedule_basis:['species','age_months','breed_owner_entered','evaluation_date'],
+              result_scope:'document_check_only_not_a_health_assessment'
             }
           })
         },PROVIDER_TIMEOUT_MS);

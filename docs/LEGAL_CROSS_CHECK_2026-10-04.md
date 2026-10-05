@@ -21,7 +21,7 @@ Result: every one of the 27 markets has at least one claim checked, and the tabl
 | ID | PP 17/2025 (PP TUNAS), Permenkomdigi 9/2026, staged from 2026-03-28 | Matches |
 | IE | First Online Safety Code investigation opened 2026-09-08 (age assurance) | Matches |
 | IN | DPDP Rules phases: 2025-11-13, 2026-11-13, 2027-05-13 | Matches |
-| IT | Legislative Decree 30/2026 amending the Consumer Code (live animals as goods) | NOT CONFIRMED. No independent source found. Needs verification on Normattiva / Gazzetta Ufficiale. |
+| IT | Legislative Decree 30/2026 amending the Consumer Code (live animals as goods) | CONFIRMED 2026-10-05 against secondary sources reproducing the Gazzetta Ufficiale text: D.Lgs. 20 February 2026, n. 30 (GU Serie Generale n. 56 of 9 March 2026) implements Directive (EU) 2024/825, includes live animals in the Consumer Code definition of goods, and applies from 27 September 2026. |
 | JP | APPI amendment promulgated 2026-07-17; main provisions by Cabinet Order within two years | Matches |
 | KR | PIPA amendment promulgated 2026-03-10, effective 2026-09-11 | Matches |
 | NL | Cabinet backs an EU-wide minimum age of 15 (2026-09-11) | Matches |
@@ -38,6 +38,6 @@ Result: every one of the 27 markets has at least one claim checked, and the tabl
 Also confirmed: Google Android developer verification mandatory from 2026-09-30 in BR, ID, SG and TH.
 
 Open follow-ups:
-1. Italy D.Lgs. 30/2026: confirm the citation and content on Normattiva, or correct the registry note.
+1. Italy D.Lgs. 30/2026: confirmed on 2026-10-05 (see table). Re-check effective-date wording on Normattiva before each release.
 2. Germany OS age-signal duties: confirm against the official Länder / KJM text.
 3. Re-run this check before each release and at the registry `refresh_due_at` date.
