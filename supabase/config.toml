@@ -129,9 +129,6 @@ verify_jwt = false
 [functions.start-age-assurance]
 verify_jwt = true
 
-[functions.health-verification-webhook]
-verify_jwt = false
-
 [functions.social-read-cache]
 verify_jwt = true
 

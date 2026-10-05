@@ -13,7 +13,7 @@ assert.match(sql,/ai_provider_minute_budget_exceeded/);
 assert.match(sql,/ai_provider_hour_budget_exceeded/);
 assert.match(sql,/\('content_moderation',120,5000,true\)/);
 assert.match(sql,/\('health_ai',20,500,true\)/);
-assert.match(health,/service_consume_ai_provider_budget[\s\S]*p_provider_key:'health_ai'[\s\S]*health_ai_provider_cost_budget_exhausted[\s\S]*fetchWithTimeout/,'health AI must consume budget before provider call');
+assert.match(health,/service_consume_ai_provider_budget[\s\S]*p_provider_key:\s*'health_ai'[\s\S]*health_ai_provider_cost_budget_exhausted[\s\S]*fetchWithTimeout/,'health AI must consume budget before provider call');
 assert.match(moderation,/service_consume_ai_provider_budget[\s\S]*p_provider_key:'content_moderation'[\s\S]*provider_cost_budget_exhausted[\s\S]*fetchWithTimeout/,'moderation must consume budget before provider call');
 assert.match(sql,/service_purge_ai_provider_cost_windows/,'cost windows need bounded retention cleanup');
 console.log('ai-cost-protection-checks: service-only atomic minute/hour AI provider budgets + fail-closed worker enforcement PASS');

@@ -124,7 +124,7 @@
     "release:edge-ai": "node scripts/edge-ai-release-check.mjs",
     "test:system-calls": "node scripts/system-call-integration-checks.mjs",
     "test:pgvector-matchmaking": "node scripts/pgvector-matchmaking-checks.mjs",
-    "test:health-ai": "node scripts/health-ai-checks.mjs",
+    "test:health-ai": "node scripts/health-ai-checks.mjs && node scripts/health-booklet-check-tests.mjs && node scripts/health-ai-worker-simulation.mjs",
     "test:store-review-access": "node scripts/store-review-access-checks.mjs",
     "release:store-review-access": "node scripts/store-review-access-release-check.mjs",
     "release:health-ai-provider": "node scripts/health-ai-provider-release-check.mjs",

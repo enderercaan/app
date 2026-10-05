@@ -135,6 +135,10 @@
           "requirement": "nonempty_nonplaceholder_release_value"
         },
         {
+          "name": "_EDGE_AI_",
+          "requirement": "nonempty_nonplaceholder_release_value"
+        },
+        {
           "name": "EXPO_PUBLIC_APP_ENV",
           "required_value": "production"
         }
@@ -338,10 +342,6 @@
         },
         {
           "name": "SECURITY_ADMIN_SECRET",
-          "requirement": "nonempty_nonplaceholder_release_value"
-        },
-        {
-          "name": "HEALTH_VERIFICATION_WEBHOOK_SECRET",
           "requirement": "nonempty_nonplaceholder_release_value"
         },
         {
@@ -797,9 +797,9 @@
           "notes": "Verify the live monthly Premium product is configured at the intended USD 14.99 base price in the designated base storefront and that App Store / Google Play localized storefront pricing, renewal terms and applicable tax/VAT/KDV presentation match the native purchase sheet. The app must render the store-provided localized price string and must not calculate or append client-side tax."
         },
         {
-          "id": "production_health_verification_provider_ocr_signature",
+          "id": "production_health_document_check_provider",
           "status": "not_verified",
-          "notes": "Exercise the production health-verification provider/OCR/clinic-signature path end-to-end with representative vaccination, neutering, microchip and genetic/pedigree evidence. Confirm signed webhook delivery, clinic public identifier accuracy, false-positive/false-negative review, expiry/revocation behavior, provider DPA/retention/data-region settings, and that no raw provider reference or health-document content is exposed on public pet surfaces."
+          "notes": "The Google Cloud Vision document-text-detection call (EU endpoint) must be exercised from the deployed health-ai-worker with synthetic booklet pages: API key restricted to the Cloud Vision API, host allowlist limited to eu-vision.googleapis.com, free-tier guard and billing alert active, no raw OCR text written to Tailmance telemetry, and deletion/export covered."
         }
       ],
       "total_requirements": 29,

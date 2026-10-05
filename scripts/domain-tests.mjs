@@ -10,7 +10,7 @@ const safety=await import(pathToFileURL(`${process.cwd()}/${out}/domain/contentS
 const locale=await import(pathToFileURL(`${process.cwd()}/${out}/services/locale.js`));
 const checks=[]; const check=(name,fn)=>{fn();checks.push(name)};
 const photo=(id,sortOrder)=>({id,url:'x',sortOrder,moderationStatus:'approved'});
-const base={id:'1',name:'A',species:'dog',breed:'Golden Retriever',sex:'male',birthDate:'2023-01-01',ageYears:3,size:'large',weightKg:30,energyLevel:4,temperamentTags:['friendly'],city:'İstanbul',district:'Kadıköy',neighborhood:'Caddebostan',purposes:['socialize','walk'],bio:'ok',photos:[photo('1',1),photo('2',2),photo('3',3)],profileVerified:true,ownerVerified:true,health:{vaccinationStatus:'complete',veterinarianVerified:true,neutered:false,microchipVerified:true,geneticScreeningAvailable:false,pedigreeAvailable:false}};
+const base={id:'1',name:'A',species:'dog',breed:'Golden Retriever',sex:'male',birthDate:'2023-01-01',ageYears:3,size:'large',weightKg:30,energyLevel:4,temperamentTags:['friendly'],city:'İstanbul',district:'Kadıköy',neighborhood:'Caddebostan',purposes:['socialize','walk'],bio:'ok',photos:[photo('1',1),photo('2',2),photo('3',3)],profileVerified:true,ownerVerified:true,health:{vaccinationStatus:'complete',neutered:false,microchipVerified:true,geneticScreeningAvailable:false,pedigreeAvailable:false}};
 const other={...base,id:'2',name:'B',sex:'female',purposes:['socialize','playmate'],energyLevel:5};
 check('common purposes',()=>assert.deepEqual(matching.commonPurposes(base,other),['socialize']));
 check('compatibility score',()=>assert.ok(matching.compatibilityScore(base,other)>=70));

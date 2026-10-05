@@ -49,4 +49,11 @@ for(const expected of ['GRANT_RESULT | t','BALANCE  |             5 |           
 }
 if(/ERROR/.test(out))fail(`runtime smoke raised an error:\n${out}`);
 console.log('postgres-migration-chain-check: runtime smoke PASS (consumable credit grant, feature policy)');
+const health=spawnSync('psql',['-h',host,'-U',user,'-X','-q','-d',db,'-f','supabase/tests/health_document_check_smoke.sql'],{encoding:'utf8'});
+const healthOut=(health.stdout+health.stderr).replace(/[ \t]+/g,' ').replace(/ \|/g,' |').replace(/ +\|/g,' |');
+for(const expected of ['HC_BEFORE | f','HC_APPROVED | auto_verified','HC_DOC | verified','HC_SUMMARY | complete','HC_ATTESTATION | vaccination_complete | ai_document_check | google_cloud_vision','HC_CURRENT | t | t','HC_LOG | health_document_check | auto_verified','HC_DOWNGRADE | manual_review','HC_DETAILS | true','HC_NO_VET_FIELDS | t','HC_PET_JSON | complete','HC_EXPIRED | f | f','HC_PET_JSON_EXPIRED | unknown','HC_AI_NEUTERED_BLOCKED','HC_UNITS_BLOCKED','HC_UNITS_REFUND_OK']){
+  if(!healthOut.includes(expected))fail(`health document check smoke expectation missing: ${expected}\n${healthOut}`);
+}
+if(healthOut.includes('HC_AI_NEUTERED_ALLOWED')||healthOut.includes('HC_UNITS_NOT_BLOCKED')||/ERROR/.test(healthOut))fail(`health document check smoke failed:\n${healthOut}`);
+console.log('postgres-migration-chain-check: health document check smoke PASS (approval, expiry, downgrade, AI signal restriction, free-tier guard, no veterinarian fields)');
 psql(['-d','postgres','-c',`drop database if exists ${db}`]);

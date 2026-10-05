@@ -7,13 +7,13 @@
       "required": true,
       "status": "not_verified",
       "evidence_ref": null,
-      "notes": "Verify the exact production HEALTH_AI_API_URL/provider identity, HTTPS allowlist, secret rotation, signed provider agreement/DPA, data residency/retention and incident contacts."
+      "notes": "Accept the Google Cloud Data Processing Addendum (processor terms; no training on customer data) in the Cloud console, enable only the Cloud Vision API, restrict the API key to that API, keep HEALTH_AI_API_URL on the EU endpoint (eu-vision.googleapis.com) with HEALTH_AI_ALLOWED_HOSTS_JSON limited to that exact host, set a billing budget alert and the 900-unit monthly guard, rotate the key, and record the Turkish KVKK standard-contract transfer notification where the transfer rules require it. See docs/HEALTH_AI_PROVIDER_REVIEW_2026-10-05.md."
     },
-    "veterinary_registry_credential_coverage": {
+    "schedule_rules_review_and_ocr_language_coverage": {
       "required": true,
       "status": "not_verified",
       "evidence_ref": null,
-      "notes": "Document which configured markets and veterinary credential/registry sources are actually supported. Unsupported jurisdiction/document combinations must route to manual review, never auto-verify."
+      "notes": "Review the schedule constants in supabase/functions/_shared/healthBookletCheck.ts (vaccination and parasite-treatment intervals) against the current published guidance named in the document check notice, and measure the OCR plus rules on labelled booklet photos in each supported language. Unsupported species, languages, layouts or handwriting must route to a person, never to approval."
     },
     "confidence_calibration_and_false_decision_evaluation": {
       "required": true,

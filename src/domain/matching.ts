@@ -6,7 +6,7 @@ export function commonPurposes(a: Pet, b: Pet): Purpose[] {
   return intersect(a.purposes, b.purposes);
 }
 
-type MatingSafetyReason = 'species' | 'sex' | 'neutered' | 'vaccination' | 'vet';
+type MatingSafetyReason = 'species' | 'sex' | 'neutered' | 'vaccination';
 
 export function matingSafetySignals(a: Pet, b: Pet) {
   const reasons: MatingSafetyReason[] = [];
@@ -14,7 +14,6 @@ export function matingSafetySignals(a: Pet, b: Pet) {
   if (a.sex === b.sex) reasons.push('sex');
   if (a.health.neutered !== false || b.health.neutered !== false) reasons.push('neutered');
   if (a.health.vaccinationStatus !== 'complete' || b.health.vaccinationStatus !== 'complete') reasons.push('vaccination');
-  if (!a.health.veterinarianVerified || !b.health.veterinarianVerified) reasons.push('vet');
   return { eligibleForDiscovery: reasons.length === 0, reasons };
 }
 
