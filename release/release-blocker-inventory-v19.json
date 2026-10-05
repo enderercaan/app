@@ -815,18 +815,6 @@
           "repository_source_can_satisfy_alone": false
         },
         {
-          "id": "real_support_business_identity_details",
-          "status": "not_verified",
-          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
-          "repository_source_can_satisfy_alone": false
-        },
-        {
-          "id": "consumer_operator_address_tax_details_by_market",
-          "status": "not_verified",
-          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
-          "repository_source_can_satisfy_alone": false
-        },
-        {
           "id": "apple_age_rating_console_questionnaire",
           "status": "not_verified",
           "evidence_boundary_class": "store_console_or_distribution_external",
@@ -932,12 +920,6 @@
           "id": "digital_accessibility_country_applicability_and_manual_assistive_technology_audit",
           "status": "not_verified",
           "evidence_boundary_class": "production_or_operational_external",
-          "repository_source_can_satisfy_alone": false
-        },
-        {
-          "id": "market_specific_operator_identity_address_tax_invoice_disclosures",
-          "status": "not_verified",
-          "evidence_boundary_class": "real_identity_registration_or_market_operator_external",
           "repository_source_can_satisfy_alone": false
         },
         {
@@ -1165,6 +1147,8 @@
       ],
       "verified_items": [
         "legal_counsel_country_approval",
+        "real_support_business_identity_details",
+        "consumer_operator_address_tax_details_by_market",
         "uk_online_safety_scope_and_childrens_access_assessment",
         "uae_social_platform_and_child_digital_safety_applicability_assessment",
         "subnational_counsel_matrix_for_applicable_markets",
@@ -1173,6 +1157,7 @@
         "uae_child_digital_safety_scope_assessment",
         "uae_social_platform_applicability_assessment",
         "animal_welfare_breeding_mating_pet_commerce_country_matrix_and_counsel_approval",
+        "market_specific_operator_identity_address_tax_invoice_disclosures",
         "country_and_subnational_statutory_language_requirements_counsel_approval",
         "professional_legal_localization_per_approved_country_document_locale",
         "jurisdiction_specific_legal_language_scope_approval",
@@ -1234,7 +1219,7 @@
     "external_inventory_source_misclassifications": 0,
     "store_compliance_pending": 33,
     "external_security_pending": 29,
-    "external_legal_operational_pending": 59,
+    "external_legal_operational_pending": 56,
     "production_store_asset_paths_missing": 2,
     "critical_journey_visual_evidence_pending": 3,
     "app_link_association_artifacts_missing": 2,

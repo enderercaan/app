@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Controlli sanitari assistiti dall’IA. Qualsiasi controllo assistito dall’IA di documenti vaccinali o veterinari è solo un ausilio automatico preliminare. Non adotta alcuna decisione definitiva, vincolante o giuridicamente valida e non costituisce una visita veterinaria, una diagnosi, una certificazione né una garanzia dello stato di salute o vaccinale di un animale. L’IA può commettere errori, non rilevare difetti o leggere in modo errato un documento. I risultati poco chiari o contestati sono esaminati da una persona e l’indicazione «documento esaminato» significa soltanto che il documento è stato controllato. Per le decisioni sulla salute ci si deve affidare a un medico veterinario abilitato e non si deve ritardare l’assistenza per un risultato mostrato nell’app."
+              "text": "Verifica dei documenti sanitari assistita dall’IA. Qualora carichi su Tailmance le pagine del libretto vaccinale o di altra documentazione sanitaria del tuo animale, Tailmance può elaborarle mediante riconoscimento del testo assistito dall’IA. Ti viene chiesto di caricare ogni pagina compilata, affinché la documentazione possa essere valutata nel suo complesso. La verifica confronta il contenuto del documento, entro i termini richiesti, con le vaccinazioni, i trattamenti antiparassitari interni ed esterni e le cure di routine applicabili in base ai dati da te inseriti nel profilo dell’animale (specie, età e razza indicata da te). Tailmance non determina la razza di un animale dalle immagini e non visita né diagnostica alcun animale. Se la documentazione è completa, coerente e aggiornata, viene contrassegnata come «verificata e approvata». La documentazione incompleta, poco chiara, incoerente o scaduta non viene approvata automaticamente e può essere esaminata da una persona. Puoi integrare la documentazione in qualsiasi momento caricando altre pagine. La dicitura «verificata e approvata» attesta unicamente che le vaccinazioni, i trattamenti antiparassitari interni ed esterni e le cure necessarie risultanti dal documento sono stati eseguiti entro i termini richiesti. Non costituisce una dichiarazione sullo stato di salute dell’animale, né un parere, una diagnosi o una certificazione veterinaria, né una garanzia di alcun tipo, né una decisione definitiva, vincolante o giuridicamente valida. L’IA può commettere errori, non rilevare difetti o leggere male un documento; ti si chiede pertanto di controllare personalmente le informazioni importanti. Il presente avviso si applica a tutte le informazioni e indicazioni fornite da funzioni assistite dall’IA. Per ogni decisione sulla salute rivolgiti a un medico veterinario abilitato e non ritardare le cure a causa di un risultato mostrato nell’app."
             }
           ]
         },
@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Possiamo trattare dati di account/sessione; sicurezza, dispositivo, rete, IP e push; profili animali, foto e interazioni; posizione approssimativa; dati volontari di salute, vaccinazione e verifica; stato abbonamento e riferimenti store; segnalazioni, blocchi, moderazione e ricorsi; preferenze; e prove del contesto legale e documenti mostrati."
+              "text": "Possiamo trattare dati dell’account e della sessione, compresi il tuo indirizzo e-mail e gli identificativi di accesso; dati di sicurezza, dispositivo, rete, IP e token push; diagnostica di arresti anomali e prestazioni; profili degli animali, foto, post, storie e messaggi privati tra animali in match; posizione approssimativa per la scoperta; registri di salute, vaccinazione e verifica che scegli di caricare; esiti della verifica dell’identità del proprietario e della verifica dell’età quando queste funzioni sono usate; stato dell’abbonamento e riferimenti delle transazioni dello store; segnalazioni, blocchi, moderazione e ricorsi; preferenze di notifica e marketing; e registri che provano quale contesto giuridico e quali documenti ti sono stati mostrati."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "Controlli sanitari assistiti dall’IA. Qualsiasi controllo assistito dall’IA di documenti vaccinali o veterinari è solo un ausilio automatico preliminare. Non adotta alcuna decisione definitiva, vincolante o giuridicamente valida e non costituisce una visita veterinaria, una diagnosi, una certificazione né una garanzia dello stato di salute o vaccinale di un animale. L’IA può commettere errori, non rilevare difetti o leggere in modo errato un documento. I risultati poco chiari o contestati sono esaminati da una persona e l’indicazione «documento esaminato» significa soltanto che il documento è stato controllato. Per le decisioni sulla salute ci si deve affidare a un medico veterinario abilitato e non si deve ritardare l’assistenza per un risultato mostrato nell’app."
+              "text": "Verifica dei documenti sanitari assistita dall’IA. Qualora carichi su Tailmance le pagine del libretto vaccinale o di altra documentazione sanitaria del tuo animale, Tailmance può elaborarle mediante riconoscimento del testo assistito dall’IA. Ti viene chiesto di caricare ogni pagina compilata, affinché la documentazione possa essere valutata nel suo complesso. La verifica confronta il contenuto del documento, entro i termini richiesti, con le vaccinazioni, i trattamenti antiparassitari interni ed esterni e le cure di routine applicabili in base ai dati da te inseriti nel profilo dell’animale (specie, età e razza indicata da te). Tailmance non determina la razza di un animale dalle immagini e non visita né diagnostica alcun animale. Se la documentazione è completa, coerente e aggiornata, viene contrassegnata come «verificata e approvata». La documentazione incompleta, poco chiara, incoerente o scaduta non viene approvata automaticamente e può essere esaminata da una persona. Puoi integrare la documentazione in qualsiasi momento caricando altre pagine. La dicitura «verificata e approvata» attesta unicamente che le vaccinazioni, i trattamenti antiparassitari interni ed esterni e le cure necessarie risultanti dal documento sono stati eseguiti entro i termini richiesti. Non costituisce una dichiarazione sullo stato di salute dell’animale, né un parere, una diagnosi o una certificazione veterinaria, né una garanzia di alcun tipo, né una decisione definitiva, vincolante o giuridicamente valida. L’IA può commettere errori, non rilevare difetti o leggere male un documento; ti si chiede pertanto di controllare personalmente le informazioni importanti. Il presente avviso si applica a tutte le informazioni e indicazioni fornite da funzioni assistite dall’IA. Per ogni decisione sulla salute rivolgiti a un medico veterinario abilitato e non ritardare le cure a causa di un risultato mostrato nell’app."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "Funzionalità assistite dall’IA. Alcune funzionalità usano strumenti assistiti dall’IA. Sui dispositivi compatibili, un modello sul dispositivo può suggerire una razza dalla foto di un animale e controllare la sicurezza delle foto prima del caricamento; i suggerimenti sono facoltativi e possono essere errati. I documenti vaccinali e veterinari possono essere pre-verificati con il riconoscimento del testo assistito dall’IA e i risultati poco chiari passano alla revisione umana. L’output dell’IA è solo un segnale: non è un parere veterinario né una diagnosi e da solo non decide un esito rilevante per una persona. Tailmance non offre un chatbot IA né una diagnosi veterinaria tramite IA. Chi è interessato da un risultato assistito dall’IA può chiedere una revisione umana tramite la procedura di ricorso nell’app o il Supporto."
+              "text": "Funzionalità assistite dall’IA. Alcune funzionalità usano strumenti assistiti dall’IA. Sui dispositivi compatibili, un modello sul dispositivo può controllare la sicurezza delle foto prima del caricamento. Le pagine dei libretti vaccinali e dei documenti veterinari vengono lette insieme con riconoscimento del testo assistito dall’IA e confrontate, entro i termini richiesti, con le vaccinazioni, i trattamenti antiparassitari interni ed esterni e le cure applicabili all’animale in base alla specie, all’età e alla razza indicate da te; una documentazione completa e aggiornata viene contrassegnata come «verificata e approvata», mentre ogni altra non viene approvata automaticamente e può essere esaminata da una persona. La verifica non determina la razza dalle immagini e non diagnostica, e la dicitura non è una dichiarazione sulla salute dell’animale. L’IA può commettere errori: controlla quindi le informazioni importanti. L’output dell’IA è solo un segnale: non è un parere veterinario né una diagnosi e da solo non decide un esito rilevante per una persona. Tailmance non offre un chatbot IA né una diagnosi veterinaria tramite IA. Chi è interessato da un risultato assistito dall’IA può chiedere una revisione umana tramite la procedura di ricorso nell’app o il Supporto."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "L’IA può commettere errori. I controlli dei documenti assistiti dall’IA sono solo preliminari: non adottano mai una decisione definitiva o giuridicamente valida sulla salute di un animale, non sono un parere veterinario e non garantiscono lo stato di salute o vaccinale. Consultare sempre un medico veterinario abilitato."
+              "text": "L’IA può commettere errori; controlla. Carica ogni pagina compilata del libretto vaccinale. La verifica assistita dall’IA si limita a confrontare le pagine, entro i termini richiesti, con le vaccinazioni, i trattamenti antiparassitari interni ed esterni e le cure applicabili all’animale e può contrassegnare il libretto come «verificato e approvato». Ciò non significa che l’animale sia in perfetta salute e non costituisce parere veterinario, certificazione o garanzia. Il presente avviso si applica a tutte le informazioni e indicazioni fornite dall’IA. Rivolgiti a un medico veterinario abilitato."
             }
           ]
         },
@@ -736,7 +736,7 @@
       "intro": [
         {
           "kind": "p",
-          "text": "Operatore: Yekta Ozel. Per aiuto su account, pagamenti, privacy, sicurezza o moderazione usa Centro sicurezza e Legale e privacy nell’app o scrivi a yektaozel@icloud.com."
+          "text": "Operatore: Yekta Özel. Per aiuto su account, pagamenti, privacy, sicurezza o moderazione usa Centro sicurezza e Legale e privacy nell’app o scrivi a yektaozel@icloud.com."
         }
       ],
       "sections": [
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "L’IA può commettere errori. I controlli dei documenti assistiti dall’IA sono solo preliminari: non adottano mai una decisione definitiva o giuridicamente valida sulla salute di un animale, non sono un parere veterinario e non garantiscono lo stato di salute o vaccinale. Consultare sempre un medico veterinario abilitato."
+              "text": "L’IA può commettere errori; controlla. Carica ogni pagina compilata del libretto vaccinale. La verifica assistita dall’IA si limita a confrontare le pagine, entro i termini richiesti, con le vaccinazioni, i trattamenti antiparassitari interni ed esterni e le cure applicabili all’animale e può contrassegnare il libretto come «verificato e approvato». Ciò non significa che l’animale sia in perfetta salute e non costituisce parere veterinario, certificazione o garanzia. Il presente avviso si applica a tutte le informazioni e indicazioni fornite dall’IA. Rivolgiti a un medico veterinario abilitato."
             }
           ]
         }

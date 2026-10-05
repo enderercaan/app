@@ -73,7 +73,7 @@ const fullLegalComplete='false';
 const countryLegalApprovals=`${configuredSourceApprovedCount}/27`;
 const languageLegalApprovals=`${configuredSourceApprovedCount}/27`;
 const subnationalLegalApprovals='SOURCE_REVIEWED_RUNTIME_CONTEXT_SEPARATE';
-const [externalLegalItemsTotal,externalLegalVerified,externalLegalGenuinePending,externalLegalOutOfScope,externalLegalSourceRemediablePending]=one(/external-legal-evidence-boundary-checks:\s*(\d+)\/80 classified; source\/internal verified=(\d+), genuine-external-pending=(\d+), out-of-scope=(\d+), source-remediable-pending=(\d+)/,outputs.externalLegalBoundary,'external legal evidence boundary');
+const [externalLegalItemsTotal,externalLegalVerified,externalLegalOwnerAttested,externalLegalGenuinePending,externalLegalOutOfScope,externalLegalSourceRemediablePending]=one(/external-legal-evidence-boundary-checks:\s*(\d+)\/80 classified; source\/internal verified=(\d+), owner-attested=(\d+), genuine-external-pending=(\d+), out-of-scope=(\d+), source-remediable-pending=(\d+)/,outputs.externalLegalBoundary,'external legal evidence boundary');
 const [futureStates,temporalWatchItems,temporalAsOf]=one(/temporal-effective-date-checks:\s*(\d+) structured future-effective states \+ (\d+) high-volatility watch items consistent as of (\d{4}-\d{2}-\d{2})/,outputs.legalTemporal,'legal temporal watch');
 const [migrationFirst,migrationLast]=one(/migration-release-check:\s*canonical migrations (\d+)-(\d+) contiguous;/,outputs.migrationRelease,'migration release');
 const [storeMetadataValidated,storeMetadataExpected]=one(/store-metadata-release-check:\s*(\d+)\/(\d+) localized store metadata sets validated/,outputs.storeMetadataRelease,'store metadata release');
@@ -184,7 +184,7 @@ const countryApproved=Object.entries(sourceLegalApproval.markets??{}).filter(([,
 const evidence={
   schema_version:3,
   product:'Tailmance',
-  attribution:{owner:'Yekta Ozel',creator:'Yekta Ozel',concept:'Yekta Ozel',product_design:'Yekta Ozel',development:'Yekta Ozel',implementation:'Yekta Ozel',overall_project:'Yekta Ozel'},
+  attribution:{owner:'Yekta Özel',creator:'Yekta Özel',concept:'Yekta Özel',product_design:'Yekta Özel',development:'Yekta Özel',implementation:'Yekta Özel',overall_project:'Yekta Özel'},
   generated_at:new Date().toISOString(),
   automated:{
     domain:{passed:Number(domainPassed),total:Number(domainTotal),status:'PASS'},
@@ -325,7 +325,7 @@ const verificationReport=`# Tailmance Verification Report
 
 Date: ${reportDate}
 Release candidate: ${String(packageJson.version)}
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Ozel
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: Yekta Özel
 
 ## Current automated source verification
 

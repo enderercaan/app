@@ -2,7 +2,7 @@
   "schema_version": 1,
   "as_of": "2026-10-01",
   "product": "Tailmance",
-  "owner": "Yekta Ozel",
+  "owner": "Yekta Özel",
   "policy": {
     "authentication": "ordinary_production_authentication_only",
     "review_credentials_in_binary": false,

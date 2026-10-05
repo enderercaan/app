@@ -1,4 +1,4 @@
-const { withAppBuildGradle } = require('@expo/config-plugins');
+const { withAppBuildGradle } = require('expo/config-plugins');
 
 const LEAKCANARY = "debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.14'";
 

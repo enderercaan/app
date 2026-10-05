@@ -26,7 +26,8 @@ const runtimeText=files.map(file=>fs.readFileSync(file,'utf8')).join('\n');
 const infrastructureDependencies=new Map([
   ['react-native-screens','required by React Navigation native-stack'],
   ['@livekit/react-native-webrtc','required native WebRTC layer for @livekit/react-native'],
-  ['react-native-nitro-modules','required Nitro runtime for Nitro-based native modules']
+  ['react-native-nitro-modules','required Nitro runtime for Nitro-based native modules'],
+  ['expo-font','required peer dependency of expo-symbols (expo-doctor: native module peers must be installed directly)']
 ]);
 
 const unexplained=[];

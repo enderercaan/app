@@ -7,14 +7,13 @@ Dates for the EU AI Omnibus below come from secondary sources and must be confir
 
 | Surface | What it does | Where | User-facing disclosure |
 |---|---|---|---|
-| Breed suggestion | On-device model suggests a breed from a pet photo; optional, user chooses | `src/services/edgeAi.ts`, `PetEditorScreen` | Card titled "AI breed suggestions (on this device)" + "may be inaccurate" body (19 locales) |
-| Photo safety pre-filter | On-device model screens a photo before upload | `src/services/edgeAi.ts`, `uploads.ts` | Privacy notice, AI section (22 legal languages) |
-| Health document pre-check | AI-assisted text recognition on vaccination / veterinary documents, unclear results go to human review | `supabase/functions/health-ai-worker`, `HealthScreen` | `health.automatedReviewNotice` shown in Health (19 locales, includes “AI can make mistakes, a result is never a final decision”) + dedicated health-AI paragraph in the Terms (section 8), Privacy Notice (section 7; Turkish: section 8), Community Guidelines, Support, the Turkish KVKK page and all 594 country supplements, in all 22 legal languages |
+| Photo safety pre-filter | On-device model screens a photo before upload (breed is never inferred by AI; it is owner-entered only) | `src/services/edgeAi.ts`, `uploads.ts` | Privacy notice, AI section (22 legal languages) |
+| Health document check | The owner is asked to upload every filled page of the vaccination booklet. AI-assisted text recognition reads all pages together and compares them, within the required date ranges, with the vaccinations, internal and external parasite treatments and care that apply to the pet according to the species, age and breed the owner entered. A complete, current record is marked "checked and approved"; any other record is not approved automatically and may be reviewed by a person. The mark is not a statement about the pet's health, not veterinary advice and not a guarantee. AI never determines breed from images and never diagnoses | `supabase/functions/health-ai-worker`, `HealthScreen` | `health.uploadDocumentBody`, `health.automatedReviewNotice`, `health.documentCheckApproved` and `health.documentCheckNote` in 19 locales + a dedicated health-AI paragraph in the Terms, Privacy Notice (sections 7 and 14), Community Guidelines, Support, the Turkish KVKK page and all 594 country supplements, in all 22 legal languages. Every text says AI can make mistakes and users should check; the notice applies to all information and guidance given by AI |
 | Media moderation | Automated safety review with appeal path | `supabase/functions/moderate-media`, `moderation-appeals-admin` | Privacy notice section on automated systems; moderation appeals screen |
 | Match ranking | Algorithmic recommendations | `src/domain/matching.ts`, pgvector migrations | Privacy notice section on automated systems |
 | AI chatbot / AI veterinary diagnosis | Not offered. `aiVeterinaryDiagnosisEnabled=false` in the product feature policy | migrations 196/197 | Privacy notice states it is not offered |
 
-The on-device models stay disabled until real model files and licence evidence exist (`release/edge-ai-model-evidence-v21.json`). The health AI provider is not contracted yet (`release/health-ai-provider-evidence-v22.json`).
+The on-device safety model stays disabled until real model files and licence evidence exist (`release/edge-ai-model-evidence-v21.json`). The health AI provider is not contracted yet (`release/health-ai-provider-evidence-v22.json`).
 
 ## 2. EU AI Act applicability (Regulation (EU) 2024/1689)
 

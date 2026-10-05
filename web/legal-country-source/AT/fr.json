@@ -18,15 +18,15 @@
     {
       "heading": "Langue des documents",
       "paragraphs": [
-        "Les documents juridiques contraignants correspondant à cette configuration juridique sont tenus dans la ou les langues requises : allemand. Lorsqu’une langue déterminée est exigée, Tailmance ne la remplace pas automatiquement et sans avertissement par une autre langue.",
+        "Les documents juridiques contraignants correspondant à cette configuration juridique sont tenus dans la ou les langues requises : allemand. Lorsqu’une langue déterminée est exigée, Tailmance ne la remplace pas automatiquement et sans avertissement par une autre langue.",
         "Cette version est fournie comme traduction d’accessibilité. Elle ne remplace pas une version dans une langue obligatoire lorsque le droit applicable ou cette configuration juridique l’exige."
       ]
     },
     {
       "heading": "Exigences juridiques propres au pays",
       "paragraphs": [
-        "Vingt-deux domaines d’exigences juridiques sont examinés pour le pays applicable à partir de sources officielles attribuables. Le droit en vigueur et ses dates d’effet sont distingués des projets, consultations et mesures futures ; une proposition n’est jamais présentée comme du droit en vigueur.",
-        "Date de revue des sources : 1er octobre 2026. Les mesures futures, les projets et les consultations sont suivis séparément et ne sont pas présentés comme du droit en vigueur."
+        "Vingt-deux domaines d’exigences juridiques sont examinés pour le pays applicable à partir de sources officielles attribuables. Le droit en vigueur et ses dates d’effet sont distingués des projets, consultations et mesures futures ; une proposition n’est jamais présentée comme du droit en vigueur.",
+        "Date de revue des sources : 1er octobre 2026. Les mesures futures, les projets et les consultations sont suivis séparément et ne sont pas présentés comme du droit en vigueur."
       ]
     },
     {
@@ -43,7 +43,7 @@
       "heading": "Vie privée, sécurité et droits des utilisateurs",
       "paragraphs": [
         "Les droits en matière de protection des données, les demandes d’accès et de suppression, les transferts internationaux, l’assurance de l’âge, le marketing électronique ainsi que les obligations de sécurité et de notification sont appliqués selon le contexte juridique exact. Le Centre juridique de l’application donne accès aux avis, à l’exportation et à la suppression.",
-        "Contrôles de santé assistés par IA. Tout contrôle assisté par IA de documents de vaccination ou vétérinaires n’est qu’une aide automatisée préliminaire. Il ne rend aucune décision définitive, contraignante ou juridiquement valable, et ne constitue ni un examen vétérinaire, ni un diagnostic, ni une certification, ni une garantie de l’état de santé ou vaccinal d’un animal. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document. Les résultats incertains ou contestés sont examinés par une personne, et l’indication « document examiné » signifie seulement que le document a été vérifié. Pour toute décision de santé, il convient de s’en remettre à un vétérinaire diplômé, sans retarder les soins en raison d’un résultat affiché dans l’application."
+        "Vérification de documents de santé assistée par IA. Lorsque tu téléverses sur Tailmance les pages du carnet de vaccination ou d’un autre dossier de santé de ton animal, Tailmance peut les traiter par reconnaissance de texte assistée par IA. Il t’est demandé de téléverser chaque page remplie afin que le dossier puisse être apprécié dans son ensemble. La vérification confronte le contenu du document, dans les délais requis, aux vaccinations, aux traitements antiparasitaires internes et externes et aux soins courants applicables d’après les informations que tu as saisies dans le profil de l’animal (espèce, âge et race indiquée par toi). Tailmance ne détermine pas la race d’un animal à partir d’images et n’examine ni ne diagnostique aucun animal. Lorsque le dossier est complet, cohérent et à jour, il est marqué « vérifié et approuvé ». Les dossiers incomplets, peu clairs, incohérents ou périmés ne sont pas approuvés automatiquement et peuvent être examinés par une personne. Tu peux compléter le dossier à tout moment en téléversant d’autres pages. La mention « vérifié et approuvé » constate uniquement que les vaccinations, les traitements antiparasitaires internes et externes et les soins requis figurant dans le document ont été réalisés dans les délais requis. Elle n’emporte aucune déclaration quant à la bonne santé de l’animal, ne constitue ni un avis, ni un diagnostic, ni une certification vétérinaires, ne vaut garantie d’aucune sorte et ne constitue pas une décision définitive, contraignante ou juridiquement valable. L’IA peut se tromper, laisser passer des erreurs ou mal lire un document ; il t’est donc demandé de vérifier toi-même les informations importantes. Le présent avis s’applique à toutes les informations et à toutes les orientations fournies par des fonctions assistées par IA. Consulte un vétérinaire diplômé pour toute décision de santé et ne retarde pas les soins en raison d’un résultat affiché dans l’application."
       ]
     },
     {
@@ -55,7 +55,7 @@
     {
       "heading": "Bien-être animal et absence de commerce",
       "paragraphs": [
-        "La vente commerciale d’animaux et les places de marché consacrées à l’élevage commercial sont interdites. Les accouplements organisés par les propriétaires ne sont disponibles que si les exigences applicables du pays en matière de bien-être animal, reproduction, santé, parenté et admissibilité sont remplies ; sinon la fonctionnalité reste indisponible."
+        "La vente commerciale d’animaux et les places de marché consacrées à l’élevage commercial sont interdites. Les accouplements organisés par les propriétaires ne sont disponibles que si les exigences applicables du pays en matière de bien-être animal, reproduction, santé, parenté et admissibilité sont remplies ; sinon la fonctionnalité reste indisponible."
       ]
     },
     {

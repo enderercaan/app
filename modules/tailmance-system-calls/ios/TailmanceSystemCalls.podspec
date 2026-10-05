@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version        = '0.1.0'
   s.summary        = 'Tailmance native system-call integration'
   s.description    = 'CallKit and PushKit bridge for Tailmance matched-pet calls.'
-  s.author         = 'Yekta Ozel'
+  s.author         = 'Yekta Özel'
   s.homepage       = 'https://tailmance.invalid'
   s.platforms      = { :ios => '14.0' }
   s.source         = { git: '' }

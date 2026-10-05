@@ -2,7 +2,7 @@
 
 Status: **RELEASE BLOCKER UNTIL VERIFIED AGAINST THE DEPLOYED PRODUCTION PROJECT**
 
-Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: **Yekta Ozel**
+Owner / Creator / Concept / Product Design / Development / Implementation / Overall Project: **Yekta Özel**
 
 This checklist is deliberately separate from source-code checks. `supabase/config.toml` and client-side guards do not prove the effective settings of the hosted production Supabase Auth project. Do not mark these items PASS from source inspection alone.
 

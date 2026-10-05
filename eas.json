@@ -10,7 +10,8 @@
       "env": {
         "EXPO_PUBLIC_APP_ENV": "development",
         "EXPO_PUBLIC_ENABLE_DEMO": "false"
-      }
+      },
+      "environment": "development"
     },
     "preview": {
       "distribution": "internal",
@@ -20,17 +21,24 @@
       "env": {
         "EXPO_PUBLIC_APP_ENV": "staging",
         "EXPO_PUBLIC_ENABLE_DEMO": "false"
-      }
+      },
+      "environment": "preview"
     },
     "production": {
       "autoIncrement": true,
       "env": {
         "EXPO_PUBLIC_APP_ENV": "production",
         "EXPO_PUBLIC_ENABLE_DEMO": "false"
-      }
+      },
+      "environment": "production"
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "track": "internal",
+        "releaseStatus": "draft"
+      }
+    }
   }
 }

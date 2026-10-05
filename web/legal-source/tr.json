@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "Yapay zekâ destekli sağlık kontrolleri. Aşı veya veteriner belgelerine yapılan yapay zekâ destekli her kontrol yalnızca ön değerlendirme niteliğinde otomatik bir yardımcıdır. Nihai, bağlayıcı veya hukuken geçerli bir karar vermez; veteriner muayenesi, teşhis, belgelendirme veya bir hayvanın sağlık ya da aşı durumuna dair güvence değildir. Yapay zekâ hata yapabilir; hataları gözden kaçırabilir veya belgeyi yanlış okuyabilir. Belirsiz ya da itiraz edilen sonuçlar bir kişi tarafından incelenir; “belge incelendi” işareti yalnızca belgenin kontrol edildiği anlamına gelir. Sağlıkla ilgili kararlar için ruhsatlı bir veteriner hekime başvurulmalı ve uygulamada görünen bir sonuç nedeniyle bakım geciktirilmemelidir."
+              "text": "Yapay zekâ destekli sağlık belgesi kontrolü. Evcil hayvanının aşı karnesinin veya diğer sağlık kaydının sayfalarını Tailmance'a yüklemen hâlinde Tailmance bu sayfaları yapay zekâ destekli metin tanıma ile işleyebilir. Kaydın bir bütün olarak değerlendirilebilmesi için karnenin dolu olan her sayfasının yüklenmesi istenir. Kontrol, belgenin içeriğini, hayvan profilinde senin girdiğin bilgilere (tür, yaş ve senin belirttiğin ırk) göre geçerli olan aşılar, iç ve dış parazit uygulamaları ile gerekli bakımlarla, öngörülen tarih aralıkları bakımından karşılaştırır. Tailmance, bir hayvanın ırkını görüntülerden belirlemez; hiçbir hayvanı muayene etmez veya teşhis koymaz. Kayıt eksiksiz, tutarlı ve güncel ise “kontrol edildi ve onaylandı” olarak işaretlenir. Eksik, belirsiz, tutarsız veya süresi geçmiş kayıtlar otomatik olarak onaylanmaz ve bir kişi tarafından incelenebilir. Kaydı dilediğin zaman yeni sayfalar yükleyerek tamamlayabilirsin. “Kontrol edildi ve onaylandı” ibaresi yalnızca belgede görünen aşıların, iç ve dış parazit uygulamalarının ve gerekli bakımların öngörülen tarih aralıklarında yapılmış olduğunun tespit edildiğini kaydeder. Bu ibare hayvanın sağlıklı olduğuna ilişkin bir beyan değildir; veteriner tavsiyesi, teşhis veya belgelendirme niteliği taşımaz, herhangi bir güvence oluşturmaz ve nihai, bağlayıcı veya hukuken geçerli bir karar değildir. Yapay zekâ hata yapabilir, hataları gözden kaçırabilir veya belgeyi yanlış okuyabilir; bu nedenle önemli bilgileri kendinin de kontrol etmen rica olunur. Bu uyarı, yapay zekâ destekli özelliklerce verilen tüm bilgi ve yönlendirmeler için geçerlidir. Sağlıkla ilgili her karar için ruhsatlı bir veteriner hekime başvur; uygulamada görünen bir sonuç nedeniyle bakımı geciktirme."
             }
           ]
         },
@@ -196,6 +196,8 @@
                 "Abonelik verileri: mağaza abonelik durumu ve işlem referansları. Ödeme kartı numarası Tailmance tarafından doğrudan toplanmaz.",
                 "Güvenlik ve moderasyon verileri: raporlar, engellemeler, moderasyon kararları, itirazlar ve ilgili inceleme bilgileri.",
                 "Bildirim ve pazarlama tercihleri: hizmet bildirim tercihleri ve yalnız ayrıca seçersen pazarlama amaçlı mobil anlık bildirim rıza kayıtları.",
+                "Tanılama verileri: uygulama çökme ve performans kayıtları.",
+                "Kimlik ve yaş doğrulama sonuçları: bu özellikler kullanılırsa hayvan sahibinin kimlik doğrulaması ve yaş doğrulamasının durumu ve sonucu; Tailmance ham resmî kimlik belgesi görüntülerini saklamaz.",
                 "Hukuki bağlam kayıtları: sana hangi ülke, bölge ve belge dili bağlamında hangi hukuki belgelerin gösterildiğini ve hangi seçimleri yaptığını ispatlamaya yarayan kayıtlar."
               ]
             }
@@ -264,11 +266,11 @@
             },
             {
               "kind": "p",
-              "text": "Yapay zekâ destekli özellikler. Bazı özellikler yapay zekâ destekli araçlar kullanır. Desteklenen cihazlarda cihaz üzerindeki bir model, evcil hayvan fotoğrafından ırk önerebilir ve fotoğrafları yüklenmeden önce güvenlik açısından ön elemeden geçirebilir; öneriler isteğe bağlıdır ve hatalı olabilir. Aşı ve veteriner belgeleri yapay zekâ destekli metin tanımayla ön kontrolden geçirilebilir; belirsiz sonuçlar insan incelemesine gönderilir. Yapay zekâ çıktısı yalnızca bir sinyaldir: veteriner tavsiyesi veya teşhisi değildir ve kullanıcı için sonuç doğuran bir kararı tek başına vermez. Tailmance yapay zekâ sohbet botu veya yapay zekâ ile veteriner teşhisi sunmaz. Yapay zekâ destekli bir sonuçtan etkilenen kullanıcı, uygulama içi itiraz süreci veya Destek üzerinden insan incelemesi isteyebilir."
+              "text": "Yapay zekâ destekli özellikler. Bazı özellikler yapay zekâ destekli araçlar kullanır. Desteklenen cihazlarda cihaz üzerindeki bir model, fotoğrafları yüklenmeden önce güvenlik açısından ön elemeden geçirebilir. Aşı karnesi ve veteriner belgelerinin sayfaları yapay zekâ destekli metin tanımayla birlikte okunur ve girdiğin tür, yaş ve ırka göre hayvana uygulanması gereken aşılar, iç ve dış parazit uygulamaları ve bakımlarla, öngörülen tarih aralıkları bakımından karşılaştırılır; eksiksiz ve güncel kayıt “kontrol edildi ve onaylandı” olarak işaretlenir, diğer kayıtlar otomatik olarak onaylanmaz ve bir kişi tarafından incelenebilir. Kontrol, ırkı görüntülerden belirlemez ve teşhis koymaz; ibare, hayvanın sağlığına ilişkin bir beyan değildir. Yapay zekâ hata yapabilir, bu nedenle lütfen önemli bilgileri kontrol et. Yapay zekâ çıktısı yalnızca bir sinyaldir: veteriner tavsiyesi veya teşhisi değildir ve kullanıcı için sonuç doğuran bir kararı tek başına vermez. Tailmance yapay zekâ sohbet botu veya yapay zekâ ile veteriner teşhisi sunmaz. Yapay zekâ destekli bir sonuçtan etkilenen kullanıcı, uygulama içi itiraz süreci veya Destek üzerinden insan incelemesi isteyebilir."
             },
             {
               "kind": "p",
-              "text": "Yapay zekâ destekli sağlık kontrolleri. Aşı veya veteriner belgelerine yapılan yapay zekâ destekli her kontrol yalnızca ön değerlendirme niteliğinde otomatik bir yardımcıdır. Nihai, bağlayıcı veya hukuken geçerli bir karar vermez; veteriner muayenesi, teşhis, belgelendirme veya bir hayvanın sağlık ya da aşı durumuna dair güvence değildir. Yapay zekâ hata yapabilir; hataları gözden kaçırabilir veya belgeyi yanlış okuyabilir. Belirsiz ya da itiraz edilen sonuçlar bir kişi tarafından incelenir; “belge incelendi” işareti yalnızca belgenin kontrol edildiği anlamına gelir. Sağlıkla ilgili kararlar için ruhsatlı bir veteriner hekime başvurulmalı ve uygulamada görünen bir sonuç nedeniyle bakım geciktirilmemelidir."
+              "text": "Yapay zekâ destekli sağlık belgesi kontrolü. Evcil hayvanının aşı karnesinin veya diğer sağlık kaydının sayfalarını Tailmance'a yüklemen hâlinde Tailmance bu sayfaları yapay zekâ destekli metin tanıma ile işleyebilir. Kaydın bir bütün olarak değerlendirilebilmesi için karnenin dolu olan her sayfasının yüklenmesi istenir. Kontrol, belgenin içeriğini, hayvan profilinde senin girdiğin bilgilere (tür, yaş ve senin belirttiğin ırk) göre geçerli olan aşılar, iç ve dış parazit uygulamaları ile gerekli bakımlarla, öngörülen tarih aralıkları bakımından karşılaştırır. Tailmance, bir hayvanın ırkını görüntülerden belirlemez; hiçbir hayvanı muayene etmez veya teşhis koymaz. Kayıt eksiksiz, tutarlı ve güncel ise “kontrol edildi ve onaylandı” olarak işaretlenir. Eksik, belirsiz, tutarsız veya süresi geçmiş kayıtlar otomatik olarak onaylanmaz ve bir kişi tarafından incelenebilir. Kaydı dilediğin zaman yeni sayfalar yükleyerek tamamlayabilirsin. “Kontrol edildi ve onaylandı” ibaresi yalnızca belgede görünen aşıların, iç ve dış parazit uygulamalarının ve gerekli bakımların öngörülen tarih aralıklarında yapılmış olduğunun tespit edildiğini kaydeder. Bu ibare hayvanın sağlıklı olduğuna ilişkin bir beyan değildir; veteriner tavsiyesi, teşhis veya belgelendirme niteliği taşımaz, herhangi bir güvence oluşturmaz ve nihai, bağlayıcı veya hukuken geçerli bir karar değildir. Yapay zekâ hata yapabilir, hataları gözden kaçırabilir veya belgeyi yanlış okuyabilir; bu nedenle önemli bilgileri kendinin de kontrol etmen rica olunur. Bu uyarı, yapay zekâ destekli özelliklerce verilen tüm bilgi ve yönlendirmeler için geçerlidir. Sağlıkla ilgili her karar için ruhsatlı bir veteriner hekime başvur; uygulamada görünen bir sonuç nedeniyle bakımı geciktirme."
             }
           ]
         },
@@ -426,7 +428,7 @@
             },
             {
               "kind": "p",
-              "text": "Yapay zekâ hata yapabilir. Yapay zekâ destekli belge kontrolleri yalnızca ön değerlendirmedir: bir hayvanın sağlığı hakkında nihai veya hukuken geçerli bir karar vermez, veteriner tavsiyesi değildir ve sağlık ya da aşı durumunu garanti etmez. Her zaman ruhsatlı bir veteriner hekime danışılmalıdır."
+              "text": "Yapay zekâ hata yapabilir; lütfen kontrol et. Aşı karnesinin dolu olan her sayfasını yükle. Yapay zekâ destekli kontrol, sayfaları yalnızca öngörülen tarih aralıklarında hayvana uygulanması gereken aşılar, iç ve dış parazit uygulamaları ve bakımlarla karşılaştırır ve karneyi “kontrol edildi ve onaylandı” olarak işaretleyebilir. Bu, hayvanın kusursuz sağlıkta olduğu anlamına gelmez; veteriner tavsiyesi, belgelendirme veya güvence değildir. Bu uyarı, yapay zekâ tarafından verilen tüm bilgi ve yönlendirmeler için geçerlidir. Ruhsatlı bir veteriner hekime danış."
             }
           ]
         },
@@ -482,7 +484,7 @@
         },
         {
           "kind": "p",
-          "text": "Tailmance’ın yeni özellikler, ürün güncellemeleri ve benzeri pazarlama içeriklerini cihazıma mobil anlık bildirim olarak göndermesine açık rıza verebilirim."
+          "text": "Tailmance'ın yeni özellikler, ürün güncellemeleri ve benzeri pazarlama içeriklerini cihazıma mobil anlık bildirim olarak göndermesine açık rıza verebilirim."
         },
         {
           "kind": "list",
@@ -490,7 +492,7 @@
             "Bu rıza e-posta, SMS veya telefon araması için izin değildir.",
             "Rıza vermemek hesap açmayı, Standard kullanımı veya hizmet için gerekli bildirimleri engellemez.",
             "Rızamın hangi metne ve kapsama göre verildiği kaydedilir.",
-            "Rızamı Ayarlar’dan istediğim zaman geri çekebilirim.",
+            "Rızamı Ayarlar'dan istediğim zaman geri çekebilirim.",
             "Önceki genel pazarlama tercihleri yeni bir açık rıza verilmiş sayılmaz."
           ]
         },
@@ -689,7 +691,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "ABD hukukundaki §512 usulünün uygulanması gereken durumlarda, sana sunulan ABD'ye özgü ek bildirimde belirtilen temsilci ve bildirim usulleri geçerlidir. Bu sayfanın bulunması, Tailmance’ın kayıtlı veya yetkilendirilmiş temsilciye sahip olduğu ya da §512 güvenli liman şartlarını karşıladığı anlamına gelmez; bu bilgiler uygulanabildiği durumda ABD’ye özgü ek bildirimde açıkça belirtilir."
+              "text": "ABD hukukundaki §512 usulünün uygulanması gereken durumlarda, sana sunulan ABD'ye özgü ek bildirimde belirtilen temsilci ve bildirim usulleri geçerlidir. Bu sayfanın bulunması, Tailmance'ın kayıtlı veya yetkilendirilmiş temsilciye sahip olduğu ya da §512 güvenli liman şartlarını karşıladığı anlamına gelmez; bu bilgiler uygulanabildiği durumda ABD'ye özgü ek bildirimde açıkça belirtilir."
             }
           ]
         },
@@ -802,7 +804,7 @@
       "intro": [
         {
           "kind": "p",
-          "text": "İşletmeci: Yekta Ozel"
+          "text": "İşletmeci: Yekta Özel"
         },
         {
           "kind": "p",
@@ -864,7 +866,7 @@
             },
             {
               "kind": "p",
-              "text": "Yapay zekâ hata yapabilir. Yapay zekâ destekli belge kontrolleri yalnızca ön değerlendirmedir: bir hayvanın sağlığı hakkında nihai veya hukuken geçerli bir karar vermez, veteriner tavsiyesi değildir ve sağlık ya da aşı durumunu garanti etmez. Her zaman ruhsatlı bir veteriner hekime danışılmalıdır."
+              "text": "Yapay zekâ hata yapabilir; lütfen kontrol et. Aşı karnesinin dolu olan her sayfasını yükle. Yapay zekâ destekli kontrol, sayfaları yalnızca öngörülen tarih aralıklarında hayvana uygulanması gereken aşılar, iç ve dış parazit uygulamaları ve bakımlarla karşılaştırır ve karneyi “kontrol edildi ve onaylandı” olarak işaretleyebilir. Bu, hayvanın kusursuz sağlıkta olduğu anlamına gelmez; veteriner tavsiyesi, belgelendirme veya güvence değildir. Bu uyarı, yapay zekâ tarafından verilen tüm bilgi ve yönlendirmeler için geçerlidir. Ruhsatlı bir veteriner hekime danış."
             }
           ]
         }
@@ -876,7 +878,7 @@
       "intro": [
         {
           "kind": "p",
-          "text": "Bu belge, Tailmance’in ülkeye özgü gizlilik bilgilerini nasıl uyguladığını açıklar. Açık rıza metni değildir ve doğrulanmış hukuki ülkeniz için sunulan Ülkeye Özgü Hukuki Ek’in yerine geçmez."
+          "text": "Bu belge, Tailmance'in ülkeye özgü gizlilik bilgilerini nasıl uyguladığını açıklar. Açık rıza metni değildir ve doğrulanmış hukuki ülkeniz için sunulan Ülkeye Özgü Hukuki Ek'in yerine geçmez."
         }
       ],
       "sections": [
@@ -894,7 +896,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Gizlilik Bildirimi’nde açıklanan kişisel veri kategorileri ve işleme amaçları geçerliliğini korur. Ek veya daha sıkı yerel gereklilikler, kesin ülkeye özgü ek ve çalışma zamanı hukuki kontrolleri üzerinden uygulanır."
+              "text": "Gizlilik Bildirimi'nde açıklanan kişisel veri kategorileri ve işleme amaçları geçerliliğini korur. Ek veya daha sıkı yerel gereklilikler, kesin ülkeye özgü ek ve çalışma zamanı hukuki kontrolleri üzerinden uygulanır."
             }
           ]
         },

@@ -1,16 +1,16 @@
 {
   "product": "Tailmance",
   "attribution": {
-    "owner": "Yekta Ozel",
-    "creator": "Yekta Ozel",
-    "concept": "Yekta Ozel",
-    "product_design": "Yekta Ozel",
-    "development": "Yekta Ozel",
-    "implementation": "Yekta Ozel",
-    "overall_project": "Yekta Ozel"
+    "owner": "Yekta Özel",
+    "creator": "Yekta Özel",
+    "concept": "Yekta Özel",
+    "product_design": "Yekta Özel",
+    "development": "Yekta Özel",
+    "implementation": "Yekta Özel",
+    "overall_project": "Yekta Özel"
   },
   "version": "1.0.0",
-  "release_candidate_date": "2026-10-04",
+  "release_candidate_date": "2026-10-05",
   "platforms": [
     "iOS",
     "Android"
@@ -19,7 +19,7 @@
     "domain_rules": "21/21 PASS",
     "security_regressions": "382/382 PASS",
     "pending_hardening": "107/107 PASS",
-    "accessibility": "217 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS",
+    "accessibility": "216 Pressables + 45 TextInputs + 2 Switches + 15 Modals PASS",
     "backend_contracts": "174 RPCs (0 pending-patch only) + 11 client Edge Functions + 30 Edge Function directories PASS",
     "ux_static_gate": "57 TSX files + contrast/assets/journeys PASS",
     "legal_static": "57/57 PASS; production store/provider/native evidence remains separate",
@@ -29,7 +29,7 @@
     "store_compliance": "PASS_STATIC; Apple age result=UNVERIFIED; Google IARC=UNVERIFIED",
     "observability_static": "PASS; crash provider=@sentry/react-native; analytics provider=NOT_CONFIGURED; worker heartbeat=present; ops-health=present",
     "release_versioning": "EAS appVersionSource=remote; production autoIncrement=true",
-    "project_lint": "2397 text files PASS",
+    "project_lint": "2399 text files PASS",
     "i18n": "en,es,pt-BR,fr,de,it,ru,tr,ar,hi,id,ja,ko,zh-Hans,zh-Hant,nl,pl,th,vi ready; native metadata 19/19; status PASS"
   },
   "technical_identifiers": {
@@ -79,7 +79,7 @@
     "tablet_split_view_quality": "DOĞRULANAMADI_PHYSICAL_DEVICE_QA",
     "voiceover_talkback_dynamic_type_rtl_device_qa": "DOĞRULANAMADI_PHYSICAL_DEVICE_QA",
     "legal_policy_finalization": "PASS_CONFIGURED_27_INTERNAL_OFFICIAL_SOURCE_AND_LANGUAGE_REVIEW",
-    "external_legal_evidence": "BLOCKED_59_ITEMS_NOT_VERIFIED",
+    "external_legal_evidence": "BLOCKED_56_ITEMS_NOT_VERIFIED",
     "external_security_evidence": "BLOCKED_29_ITEMS_NOT_VERIFIED",
     "country_legal_approval": "PASS",
     "source_22_legal_document_locale_localization_internal_qa": "PASS",
@@ -87,8 +87,8 @@
     "professional_or_certified_legal_localization_external_evidence": "NOT_REQUIRED_FOR_CONFIGURED_SOURCE_APPROVAL_NO_CERTIFICATION_CLAIM",
     "jurisdiction_specific_legal_language_adequacy": "PASS_CONFIGURED_27_SOURCE",
     "real_web_delete_account_flow": "BLOCKED_EXTERNAL_EVIDENCE",
-    "real_support_business_identity_details": "BLOCKED_EXTERNAL_EVIDENCE",
-    "consumer_operator_address_tax_details_by_market": "BLOCKED_EXTERNAL_EVIDENCE",
+    "real_support_business_identity_details": "PASS",
+    "consumer_operator_address_tax_details_by_market": "PASS",
     "apple_age_rating_console_questionnaire": "BLOCKED_EXTERNAL_EVIDENCE",
     "google_iarc_console_questionnaire": "BLOCKED_EXTERNAL_EVIDENCE",
     "apple_app_privacy_console_declaration": "BLOCKED_EXTERNAL_EVIDENCE",

@@ -384,14 +384,15 @@ check('Apple UGC source controls cover filtering reporting blocking and contact 
 });
 check('configured-27 source legal/language evidence is internally verified while live/store/operator evidence stays external and unconfigured countries stay out of scope',()=>{
   const ext=JSON.parse(read('release/external-legal-evidence.json'));const store=JSON.parse(read('release/store-compliance-v19.json'));const pkg=JSON.parse(read('package.json'));
-  let sourceVerified=0, externalPending=0, outOfScope=0;
+  let sourceVerified=0, ownerAttested=0, externalPending=0, outOfScope=0;
   for(const [name,item] of Object.entries(ext.items)){
     assert.ok(!['external_counsel_or_regulatory_applicability','professional_or_certified_localization_external','country_by_country_external_review'].includes(item.evidence_boundary_class),`${name}: deprecated external counsel/localization boundary`);
-    if(item.status==='verified'){sourceVerified++;assert.equal(item.evidence_boundary_class,'repository_source_internal_qa',`${name}: only repository/internal QA may be source verified`);assert.ok((item.evidence_reference??[]).length>0,`${name}: verified source evidence reference required`);}
+    if(item.status==='verified'&&item.evidence_boundary_class==='real_identity_registration_or_market_operator_external'){ownerAttested++;assert.ok((item.evidence_reference??[]).length>0&&item.evidence_reference.every(ref=>/^owner-attestation:20\d\d-\d\d-\d\d:/.test(ref)),`${name}: owner-attested operator fact needs a dated owner-attestation reference`);}
+    else if(item.status==='verified'){sourceVerified++;assert.equal(item.evidence_boundary_class,'repository_source_internal_qa',`${name}: only repository/internal QA may be source verified`);assert.ok((item.evidence_reference??[]).length>0,`${name}: verified source evidence reference required`);}
     else if(item.status==='not_applicable'){outOfScope++;assert.equal(item.evidence_boundary_class,'out_of_scope_unconfigured_country');}
     else {externalPending++;assert.equal(item.status,'not_verified');assert.notEqual(item.evidence_boundary_class,'repository_source_internal_qa',`${name}: source-remediable evidence may not remain external pending`);assert.deepEqual(item.evidence_reference,[]);}
   }
-  assert.equal(sourceVerified,20);assert.equal(externalPending,59);assert.equal(outOfScope,1);
+  assert.equal(sourceVerified,20);assert.equal(ownerAttested,3);assert.equal(externalPending,56);assert.equal(outOfScope,1);
   assert.equal(store.google_account_deletion.production_endpoint_status,'not_verified');assert.match(pkg.scripts['release:check'],/release-check-all\.mjs/);const releaseRunner=read('scripts/release-check-all.mjs');assert.match(releaseRunner,/release:external-legal/);assert.match(releaseRunner,/release:store-compliance/);
 });
 check('Google Play child-safety source controls do not self-certify production compliance',()=>{

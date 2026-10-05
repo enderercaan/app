@@ -1,6 +1,6 @@
 const fs=require('fs');
 const path=require('path');
-const {withAndroidManifest,withDangerousMod,AndroidConfig}=require('@expo/config-plugins');
+const {withAndroidManifest,withDangerousMod,AndroidConfig}=require('expo/config-plugins');
 
 module.exports=function withNetworkSecurity(config){
   config=withAndroidManifest(config,async cfg=>{

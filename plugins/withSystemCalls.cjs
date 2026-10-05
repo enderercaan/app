@@ -1,4 +1,4 @@
-const { withAndroidManifest, withInfoPlist } = require('@expo/config-plugins');
+const { withAndroidManifest, withInfoPlist } = require('expo/config-plugins');
 
 const MANAGE_OWN_CALLS='android.permission.MANAGE_OWN_CALLS';
 const SERVICE='expo.modules.tailmancesystemcalls.TailmanceConnectionService';

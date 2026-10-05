@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "AI-assisted health checks. Any AI-assisted check of vaccination or veterinary documents is only a preliminary, automated aid. It does not make a final, binding or legally valid decision, and it is not a veterinary examination, diagnosis, certification or guarantee of an animal’s health or vaccination status. AI can make mistakes and may miss errors or read a document incorrectly. Unclear or disputed results are reviewed by a person, and a ‘document reviewed’ signal only means that the document was checked. Rely on a licensed veterinarian for health decisions and do not delay care because of a result shown in the app."
+              "text": "AI-assisted health document check. Where you upload the pages of your pet's vaccination booklet or other health record to Tailmance, Tailmance may process them with AI-assisted text recognition. You are asked to upload every filled page so that the record can be assessed as a whole. The check compares the content of the document, within the required date ranges, with the vaccinations, internal and external parasite treatments and routine care that apply according to the information you entered in the pet profile (species, age and the breed as entered by you). Tailmance does not determine a pet's breed from images and does not examine or diagnose any animal. Where the record is complete, consistent and current, it is marked as “checked and approved”. Records that are incomplete, unclear, inconsistent or outdated are not approved automatically and may be reviewed by a person. You may supplement the record at any time by uploading further pages. The label “checked and approved” records only that the vaccinations, internal and external parasite treatments and required care shown in the document were found to have been completed within the required date ranges. It is not a statement that the animal is in good health, is not veterinary advice, diagnosis or certification, is not a guarantee of any kind and is not a final, binding or legally valid decision. AI can make mistakes and may overlook errors or misread a document, so you are asked to check important information yourself. This notice applies to all information and guidance provided by AI-assisted features. Consult a licensed veterinarian for any health decision and do not delay care because of a result shown in the app."
             }
           ]
         },
@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "We may process account and session data; security, device, network, IP and push-token data; pet profiles, photos and social interactions; approximate discovery location; health, vaccination and verification records you choose to upload; subscription status and store transaction references; reports, blocks, moderation and appeals; notification and marketing preferences; and records proving which legal context and documents were shown to you."
+              "text": "We may process account and session data, including your email address and sign-in identifiers; security, device, network, IP and push-token data; crash and performance diagnostics; pet profiles, photos, posts, stories and private messages between matched pets; approximate discovery location; health, vaccination and verification records you choose to upload; owner identity-verification and age-assurance results where these features are used; subscription status and store transaction references; reports, blocks, moderation and appeals; notification and marketing preferences; and records proving which legal context and documents were shown to you."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "AI-assisted health checks. Any AI-assisted check of vaccination or veterinary documents is only a preliminary, automated aid. It does not make a final, binding or legally valid decision, and it is not a veterinary examination, diagnosis, certification or guarantee of an animal’s health or vaccination status. AI can make mistakes and may miss errors or read a document incorrectly. Unclear or disputed results are reviewed by a person, and a ‘document reviewed’ signal only means that the document was checked. Rely on a licensed veterinarian for health decisions and do not delay care because of a result shown in the app."
+              "text": "AI-assisted health document check. Where you upload the pages of your pet's vaccination booklet or other health record to Tailmance, Tailmance may process them with AI-assisted text recognition. You are asked to upload every filled page so that the record can be assessed as a whole. The check compares the content of the document, within the required date ranges, with the vaccinations, internal and external parasite treatments and routine care that apply according to the information you entered in the pet profile (species, age and the breed as entered by you). Tailmance does not determine a pet's breed from images and does not examine or diagnose any animal. Where the record is complete, consistent and current, it is marked as “checked and approved”. Records that are incomplete, unclear, inconsistent or outdated are not approved automatically and may be reviewed by a person. You may supplement the record at any time by uploading further pages. The label “checked and approved” records only that the vaccinations, internal and external parasite treatments and required care shown in the document were found to have been completed within the required date ranges. It is not a statement that the animal is in good health, is not veterinary advice, diagnosis or certification, is not a guarantee of any kind and is not a final, binding or legally valid decision. AI can make mistakes and may overlook errors or misread a document, so you are asked to check important information yourself. This notice applies to all information and guidance provided by AI-assisted features. Consult a licensed veterinarian for any health decision and do not delay care because of a result shown in the app."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "AI-assisted features. Some features use AI-assisted tools. On supported devices, an on-device model can suggest a breed from a pet photo and screen photos for safety before upload; suggestions are optional and may be wrong. Vaccination and veterinary documents may be pre-checked with AI-assisted text recognition, and unclear results go to human review. AI output is only a signal: it is not veterinary advice or a diagnosis and does not by itself decide a consequential outcome for a user. Tailmance does not offer an AI chatbot or AI veterinary diagnosis. A user affected by an AI-assisted result can ask for human review through the in-app appeal process or Support."
+              "text": "AI-assisted features. Some features use AI-assisted tools. On supported devices, an on-device model can screen photos for safety before upload. The pages of vaccination booklets and veterinary documents are read together with AI-assisted text recognition and compared, within the required date ranges, with the vaccinations, internal and external parasite treatments and care that apply to the pet according to the species, age and breed you entered; a record that is complete and current is marked as “checked and approved”, and any other record is not approved automatically and may be reviewed by a person. The check does not determine breed from images and does not diagnose, and the mark is not a statement about the animal's health. AI can make mistakes, so please check important information. AI output is only a signal: it is not veterinary advice or a diagnosis and does not by itself decide a consequential outcome for a user. Tailmance does not offer an AI chatbot or AI veterinary diagnosis. A user affected by an AI-assisted result can ask for human review through the in-app appeal process or Support."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "AI can make mistakes. AI-assisted document checks are preliminary only: they never make a final or legally valid decision about an animal’s health, are not veterinary advice, and do not guarantee health or vaccination status. Always consult a licensed veterinarian."
+              "text": "AI can make mistakes; please check. Upload every filled page of the vaccination booklet. The AI-assisted check only compares the pages, within the required date ranges, with the vaccinations, internal and external parasite treatments and care that apply to the pet, and may mark the booklet as “checked and approved”. This does not mean that the pet is in perfect health and is not veterinary advice, certification or a guarantee. This notice applies to all information and guidance given by AI. Consult a licensed veterinarian."
             }
           ]
         },
@@ -736,7 +736,7 @@
       "intro": [
         {
           "kind": "p",
-          "text": "Operator: Yekta Ozel. For account, billing, privacy, safety, or moderation help, use the in-app Safety Center and Legal & Privacy Center or email yektaozel@icloud.com."
+          "text": "Operator: Yekta Özel. For account, billing, privacy, safety, or moderation help, use the in-app Safety Center and Legal & Privacy Center or email yektaozel@icloud.com."
         }
       ],
       "sections": [
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "AI can make mistakes. AI-assisted document checks are preliminary only: they never make a final or legally valid decision about an animal’s health, are not veterinary advice, and do not guarantee health or vaccination status. Always consult a licensed veterinarian."
+              "text": "AI can make mistakes; please check. Upload every filled page of the vaccination booklet. The AI-assisted check only compares the pages, within the required date ranges, with the vaccinations, internal and external parasite treatments and care that apply to the pet, and may mark the booklet as “checked and approved”. This does not mean that the pet is in perfect health and is not veterinary advice, certification or a guarantee. This notice applies to all information and guidance given by AI. Consult a licensed veterinarian."
             }
           ]
         }

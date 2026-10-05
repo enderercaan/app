@@ -11,20 +11,6 @@
       "verified_at": null,
       "notes": "Provide the production HTTPS model-manifest artifact and its exact SHA-256. The manifest must identify model versions, platform artifacts, exact sizes/hashes, licenses, provenance and safety-policy thresholds. Do not substitute an example or unreviewed model."
     },
-    "ios_coreml_breed_model": {
-      "status": "not_verified",
-      "required": true,
-      "evidence_ref": null,
-      "verified_at": null,
-      "notes": "Validate the exact Core ML breed model on representative physical iOS hardware, including model hash, license/provenance, label contract, latency, memory and representative breed-quality review."
-    },
-    "android_mediapipe_breed_model": {
-      "status": "not_verified",
-      "required": true,
-      "evidence_ref": null,
-      "verified_at": null,
-      "notes": "Validate the exact TFLite/MediaPipe breed model on representative physical Android hardware, including model hash, metadata/label contract, license/provenance, latency, memory and representative breed-quality review."
-    },
     "ios_coreml_safety_model": {
       "status": "not_verified",
       "required": true,
@@ -44,14 +30,14 @@
       "required": true,
       "evidence_ref": null,
       "verified_at": null,
-      "notes": "Record model publisher/source, license compatibility, model-card/provenance review, dataset/privacy implications and any redistribution restrictions for all four production artifacts."
+      "notes": "Record model publisher/source, license compatibility, model-card/provenance review, dataset/privacy implications and any redistribution restrictions for both production artifacts (iOS and Android safety pre-filter)."
     },
     "representative_accuracy_bias_and_safety_evaluation": {
       "status": "not_verified",
       "required": true,
       "evidence_ref": null,
       "verified_at": null,
-      "notes": "Document representative breed coverage and safety-classifier evaluation across supported pet species, coat/color variation, image quality and relevant safety classes. The on-device model must remain advisory/defense-in-depth and cannot become the sole moderation authority."
+      "notes": "Document representative safety-classifier evaluation across supported pet species, coat/color variation, image quality and relevant safety classes. The on-device model must remain advisory/defense-in-depth and cannot become the sole moderation authority."
     },
     "physical_device_latency_memory_and_offline_smoke": {
       "status": "not_verified",

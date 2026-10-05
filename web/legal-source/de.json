@@ -85,7 +85,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann sich irren, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
+              "text": "KI-gestützte Prüfung von Gesundheitsunterlagen. Lädst du die Seiten des Impfpasses oder einer sonstigen Gesundheitsakte deines Tieres bei Tailmance hoch, kann Tailmance diese mit KI-gestützter Texterkennung verarbeiten. Es wird darum gebeten, jede ausgefüllte Seite hochzuladen, damit die Akte als Ganzes beurteilt werden kann. Die Prüfung gleicht den Inhalt der Unterlagen innerhalb der vorgeschriebenen Zeiträume mit den Impfungen, den Behandlungen gegen innere und äußere Parasiten und der üblichen Versorgung ab, die nach den von dir im Tierprofil gemachten Angaben (Tierart, Alter und die von dir angegebene Rasse) maßgeblich sind. Tailmance bestimmt die Rasse eines Tieres nicht anhand von Bildern und untersucht oder diagnostiziert kein Tier. Ist die Akte vollständig, stimmig und aktuell, wird sie als „geprüft und bestätigt“ gekennzeichnet. Unvollständige, unklare, widersprüchliche oder veraltete Akten werden nicht automatisch bestätigt und können von einer Person geprüft werden. Du kannst die Akte jederzeit durch das Hochladen weiterer Seiten ergänzen. Der Vermerk „geprüft und bestätigt“ hält ausschließlich fest, dass die in den Unterlagen ausgewiesenen Impfungen, Behandlungen gegen innere und äußere Parasiten sowie erforderlichen Versorgungsmaßnahmen innerhalb der vorgeschriebenen Zeiträume durchgeführt worden sind. Er ist keine Aussage über den Gesundheitszustand des Tieres, keine tierärztliche Beratung, Diagnose oder Bescheinigung, keine Garantie irgendeiner Art und keine endgültige, verbindliche oder rechtlich wirksame Entscheidung. KI kann Fehler machen, Fehler übersehen oder Unterlagen falsch lesen; Du wirst daher gebeten, wichtige Angaben selbst zu prüfen. Dieser Hinweis gilt für sämtliche Informationen und Hinweise, die von KI-gestützten Funktionen gegeben werden. Wende dich bei jeder Gesundheitsentscheidung an eine Tierärztin oder einen Tierarzt und verzögere keine Behandlung wegen eines in der App angezeigten Ergebnisses."
             }
           ]
         },
@@ -187,7 +187,7 @@
           "blocks": [
             {
               "kind": "p",
-              "text": "Wir können Konto- und Sitzungsdaten, Sicherheits-, Geräte-, Netzwerk-, IP- und Pushdaten, Tierprofile, Fotos und soziale Interaktionen, ungefähren Entdeckungsstandort, freiwillig hochgeladene Gesundheits-, Impf- und Verifikationsdaten, Abo- und Store-Referenzen, Meldungen, Sperren, Moderations- und Beschwerdedaten, Benachrichtigungs- und Marketingpräferenzen sowie Nachweise über den angezeigten Rechts- und Dokumentkontext verarbeiten."
+              "text": "Wir können Konto- und Sitzungsdaten verarbeiten, einschließlich deiner E-Mail-Adresse und Anmeldekennungen; Sicherheits-, Geräte-, Netzwerk-, IP- und Push-Token-Daten; Absturz- und Leistungsdiagnosen; Tierprofile, Fotos, Beiträge, Stories und private Nachrichten zwischen gematchten Tieren; den ungefähren Standort für die Entdeckung; Gesundheits-, Impf- und Verifikationsnachweise, die du hochladen möchtest; Ergebnisse der Identitätsprüfung der Halterinnen und Halter sowie der Altersprüfung, sofern diese Funktionen genutzt werden; Abostatus und Store-Transaktionsreferenzen; Meldungen, Sperren, Moderation und Beschwerden; Benachrichtigungs- und Marketingpräferenzen; sowie Nachweise darüber, welcher Rechtskontext und welche Dokumente dir angezeigt wurden."
             }
           ]
         },
@@ -245,7 +245,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Gesundheitsprüfungen. Jede KI-gestützte Prüfung von Impf- oder Tierarztunterlagen ist nur eine vorläufige, automatisierte Hilfe. Sie trifft keine endgültige, verbindliche oder rechtlich wirksame Entscheidung und ist weder eine tierärztliche Untersuchung, Diagnose oder Bescheinigung noch eine Garantie für den Gesundheits- oder Impfstatus eines Tieres. KI kann sich irren, Fehler übersehen oder ein Dokument falsch lesen. Unklare oder strittige Ergebnisse werden von einer Person geprüft; ein Hinweis „Dokument geprüft“ bedeutet lediglich, dass das Dokument kontrolliert wurde. Für gesundheitliche Entscheidungen ist eine approbierte Tierärztin oder ein approbierter Tierarzt maßgeblich; wegen eines in der App angezeigten Ergebnisses sollte keine Behandlung verzögert werden."
+              "text": "KI-gestützte Prüfung von Gesundheitsunterlagen. Lädst du die Seiten des Impfpasses oder einer sonstigen Gesundheitsakte deines Tieres bei Tailmance hoch, kann Tailmance diese mit KI-gestützter Texterkennung verarbeiten. Es wird darum gebeten, jede ausgefüllte Seite hochzuladen, damit die Akte als Ganzes beurteilt werden kann. Die Prüfung gleicht den Inhalt der Unterlagen innerhalb der vorgeschriebenen Zeiträume mit den Impfungen, den Behandlungen gegen innere und äußere Parasiten und der üblichen Versorgung ab, die nach den von dir im Tierprofil gemachten Angaben (Tierart, Alter und die von dir angegebene Rasse) maßgeblich sind. Tailmance bestimmt die Rasse eines Tieres nicht anhand von Bildern und untersucht oder diagnostiziert kein Tier. Ist die Akte vollständig, stimmig und aktuell, wird sie als „geprüft und bestätigt“ gekennzeichnet. Unvollständige, unklare, widersprüchliche oder veraltete Akten werden nicht automatisch bestätigt und können von einer Person geprüft werden. Du kannst die Akte jederzeit durch das Hochladen weiterer Seiten ergänzen. Der Vermerk „geprüft und bestätigt“ hält ausschließlich fest, dass die in den Unterlagen ausgewiesenen Impfungen, Behandlungen gegen innere und äußere Parasiten sowie erforderlichen Versorgungsmaßnahmen innerhalb der vorgeschriebenen Zeiträume durchgeführt worden sind. Er ist keine Aussage über den Gesundheitszustand des Tieres, keine tierärztliche Beratung, Diagnose oder Bescheinigung, keine Garantie irgendeiner Art und keine endgültige, verbindliche oder rechtlich wirksame Entscheidung. KI kann Fehler machen, Fehler übersehen oder Unterlagen falsch lesen; Du wirst daher gebeten, wichtige Angaben selbst zu prüfen. Dieser Hinweis gilt für sämtliche Informationen und Hinweise, die von KI-gestützten Funktionen gegeben werden. Wende dich bei jeder Gesundheitsentscheidung an eine Tierärztin oder einen Tierarzt und verzögere keine Behandlung wegen eines in der App angezeigten Ergebnisses."
             }
           ]
         },
@@ -312,7 +312,7 @@
             },
             {
               "kind": "p",
-              "text": "KI-gestützte Funktionen. Einige Funktionen nutzen KI-gestützte Werkzeuge. Auf unterstützten Geräten kann ein Modell auf dem Gerät anhand eines Tierfotos eine Rasse vorschlagen und Fotos vor dem Hochladen auf Sicherheit prüfen; Vorschläge sind optional und können falsch sein. Impf- und Tierarztunterlagen können mit KI-gestützter Texterkennung vorgeprüft werden, unklare Ergebnisse gehen an eine menschliche Prüfung. KI-Ausgaben sind nur ein Signal: Sie sind keine tierärztliche Beratung oder Diagnose und treffen allein keine folgenreiche Entscheidung über eine Person. Tailmance bietet keinen KI-Chatbot und keine KI-Tierdiagnose an. Wer von einem KI-gestützten Ergebnis betroffen ist, kann über den Einspruchsprozess in der App oder den Support eine menschliche Überprüfung verlangen."
+              "text": "KI-gestützte Funktionen. Einige Funktionen nutzen KI-gestützte Werkzeuge. Auf unterstützten Geräten kann ein Modell auf dem Gerät Fotos vor dem Hochladen auf Sicherheit prüfen. Die Seiten von Impfpässen und tierärztlichen Unterlagen werden gemeinsam mit KI-gestützter Texterkennung gelesen und innerhalb der vorgeschriebenen Zeiträume mit den Impfungen, Behandlungen gegen innere und äußere Parasiten und Versorgungsmaßnahmen abgeglichen, die nach der von dir angegebenen Tierart, dem Alter und der Rasse maßgeblich sind; eine vollständige und aktuelle Akte wird als „geprüft und bestätigt“ gekennzeichnet, jede andere Akte wird nicht automatisch bestätigt und kann von einer Person geprüft werden. Die Prüfung bestimmt die Rasse nicht anhand von Bildern und stellt keine Diagnose; der Vermerk ist keine Aussage über die Gesundheit des Tieres. KI kann Fehler machen, bitte prüfe daher wichtige Informationen. KI-Ausgaben sind nur ein Signal: Sie sind keine tierärztliche Beratung oder Diagnose und treffen allein keine folgenreiche Entscheidung über eine Person. Tailmance bietet keinen KI-Chatbot und keine KI-Tierdiagnose an. Wer von einem KI-gestützten Ergebnis betroffen ist, kann über den Einspruchsprozess in der App oder den Support eine menschliche Überprüfung verlangen."
             }
           ]
         },
@@ -373,7 +373,7 @@
             },
             {
               "kind": "p",
-              "text": "KI kann Fehler machen. KI-gestützte Dokumentenprüfungen sind nur vorläufig: Sie treffen keine endgültige oder rechtlich wirksame Entscheidung über die Gesundheit eines Tieres, sind keine tierärztliche Beratung und garantieren keinen Gesundheits- oder Impfstatus. Es sollte stets eine Tierärztin oder ein Tierarzt konsultiert werden."
+              "text": "KI kann Fehler machen; bitte prüfe nach. Lade jede ausgefüllte Seite des Impfpasses hoch. Die KI-gestützte Prüfung gleicht die Seiten nur innerhalb der vorgeschriebenen Zeiträume mit den für das Tier maßgeblichen Impfungen, Behandlungen gegen innere und äußere Parasiten und Versorgungsmaßnahmen ab und kann den Impfpass als „geprüft und bestätigt“ kennzeichnen. Das bedeutet nicht, dass das Tier völlig gesund ist, und ist weder tierärztliche Beratung noch Bescheinigung oder Garantie. Dieser Hinweis gilt für alle von KI gegebenen Informationen und Hinweise. Wende dich an eine Tierärztin oder einen Tierarzt."
             }
           ]
         },
@@ -736,7 +736,7 @@
       "intro": [
         {
           "kind": "p",
-          "text": "Betreiber: Yekta Ozel. Für Hilfe zu Konto, Abrechnung, Datenschutz, Sicherheit oder Moderation nutze Sicherheitszentrum und Recht & Datenschutz in der App oder schreibe an yektaozel@icloud.com."
+          "text": "Betreiber: Yekta Özel. Für Hilfe zu Konto, Abrechnung, Datenschutz, Sicherheit oder Moderation nutze Sicherheitszentrum und Recht & Datenschutz in der App oder schreibe an yektaozel@icloud.com."
         }
       ],
       "sections": [
@@ -794,7 +794,7 @@
             },
             {
               "kind": "p",
-              "text": "KI kann Fehler machen. KI-gestützte Dokumentenprüfungen sind nur vorläufig: Sie treffen keine endgültige oder rechtlich wirksame Entscheidung über die Gesundheit eines Tieres, sind keine tierärztliche Beratung und garantieren keinen Gesundheits- oder Impfstatus. Es sollte stets eine Tierärztin oder ein Tierarzt konsultiert werden."
+              "text": "KI kann Fehler machen; bitte prüfe nach. Lade jede ausgefüllte Seite des Impfpasses hoch. Die KI-gestützte Prüfung gleicht die Seiten nur innerhalb der vorgeschriebenen Zeiträume mit den für das Tier maßgeblichen Impfungen, Behandlungen gegen innere und äußere Parasiten und Versorgungsmaßnahmen ab und kann den Impfpass als „geprüft und bestätigt“ kennzeichnen. Das bedeutet nicht, dass das Tier völlig gesund ist, und ist weder tierärztliche Beratung noch Bescheinigung oder Garantie. Dieser Hinweis gilt für alle von KI gegebenen Informationen und Hinweise. Wende dich an eine Tierärztin oder einen Tierarzt."
             }
           ]
         }

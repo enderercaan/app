@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { globSync, readFileSync } from 'node:fs';
 
-// The health-AI disclaimer ("AI-assisted document checks are preliminary, never a final or legally valid
+// The health-AI disclaimer ("AI-assisted document checks are may verify only complete, consistent records, can make mistakes
 // decision, and can make mistakes") must appear, in the document's own language, in every legal surface.
 const locales=['ar','ca','de','en','es','eu','fr','gl','hi','id','it','ja','ko','nl','pl','pt-BR','ru','th','tr','vi','zh-Hans','zh-Hant'];
 const sectionIndex={ // [doc, default section index, Turkish-specific index]
@@ -30,6 +30,8 @@ for(const file of globSync('web/legal-country-source/*/*.json')){
   assert.ok(paragraphs.includes(longText[locale]),`${file}: health-AI paragraph missing or in the wrong language`);
   countryDocs++;
 }
+assert.match(longText.en,/AI can make mistakes/);assert.match(longText.en,/every filled page/);assert.match(longText.en,/internal and external parasite/);assert.match(longText.en,/checked and approved/);assert.match(longText.en,/does not determine a pet['’]s breed from images/);assert.match(longText.en,/not a statement that the animal is in good health|It is not a statement that the animal is in good health/);
+assert.match(shortText.en,/AI can make mistakes/);assert.match(shortText.en,/every filled page/);assert.match(shortText.en,/checked and approved/);assert.match(shortText.en,/does not mean that the pet is in perfect health/);assert.match(shortText.en,/all information and guidance given by AI/);
 assert.equal(countryDocs,594,'expected 594 country x language supplements');
 // Static Turkish pages.
 const html=(f)=>readFileSync(f,'utf8');
@@ -42,6 +44,7 @@ for(const file of globSync('src/i18n/locales/*.ts')){
   const text=readFileSync(file,'utf8');
   const value=/"health\.automatedReviewNotice":\s*"((?:[^"\\]|\\.)*)"/.exec(text)?.[1];
   assert.ok(value&&value.length>40,`${file}: health.automatedReviewNotice missing`);
+  for(const key of ['health.uploadDocumentBody','health.documentCheckApproved','health.documentCheckNote']){const v=new RegExp(`"${key.replace('.','\\.')}":\\s*"((?:[^"\\\\]|\\\\.)*)"`).exec(text)?.[1];assert.ok(v&&v.length>6,`${file}: ${key} missing`)}
   appLocales++;
 }
 assert.equal(appLocales,19,'expected 19 runtime catalogs');

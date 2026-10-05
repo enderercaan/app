@@ -4,7 +4,7 @@ import { existsSync, readFileSync } from 'node:fs';
 const data=JSON.parse(readFileSync('release/roadmap-implementation-v21.json','utf8'));
 assert.equal(data.schema_version,1);
 assert.equal(data.product,'Tailmance');
-assert.equal(data.owner,'Yekta Ozel');
+assert.equal(data.owner,'Yekta Özel');
 const phases=Object.entries(data.phases??{});
 assert.equal(phases.length,21,'all 21 roadmap phases must be explicitly classified');
 const allowed=/^(IMPLEMENTED|PARTIAL|GAP|EXTERNAL_)/;

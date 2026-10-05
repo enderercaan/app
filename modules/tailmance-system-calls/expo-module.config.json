@@ -1,5 +1,19 @@
 {
-  "platforms": ["android", "ios"],
-  "ios": { "modules": ["TailmanceSystemCallsModule"] },
-  "android": { "modules": ["expo.modules.tailmancesystemcalls.TailmanceSystemCallsModule"] }
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "ios": {
+    "modules": [
+      "TailmanceSystemCallsModule"
+    ],
+    "appDelegateSubscribers": [
+      "TailmanceSystemCallsAppDelegateSubscriber"
+    ]
+  },
+  "android": {
+    "modules": [
+      "expo.modules.tailmancesystemcalls.TailmanceSystemCallsModule"
+    ]
+  }
 }
