@@ -109,6 +109,7 @@
     "test:source-manifest": "node scripts/source-manifest-check.mjs",
     "generate:app-links": "node scripts/generate-app-link-associations.mjs",
     "release:app-links": "node scripts/generate-app-link-associations.mjs --check",
+    "verify:domain": "bash scripts/verify-domain-setup.sh",
     "test:content-safety": "node --no-warnings --experimental-strip-types scripts/content-safety-runtime-checks.mjs",
     "test:offline-sync": "node scripts/offline-sync-checks.mjs",
     "test:roadmap": "node scripts/roadmap-implementation-checks.mjs",
