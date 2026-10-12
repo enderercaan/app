@@ -34,7 +34,7 @@ const config: ExpoConfig = {
     privacyManifests: {
       NSPrivacyTracking: false
     },
-    bundleIdentifier: 'com.tailmance.app',
+    bundleIdentifier: 'tailmanceapp.wordpress.com',
     ...(googleServiceInfoPlist ? { googleServicesFile: googleServiceInfoPlist } : {}),
     ...(appLinkHost ? { associatedDomains: [`applinks:${appLinkHost}`] } : {}),
     usesAppleSignIn: true,
@@ -56,7 +56,7 @@ const config: ExpoConfig = {
     }
   },
   android: {
-    package: 'com.tailmance.app',
+    package: 'tailmanceapp.wordpress.com',
     ...(appLinkHost ? { intentFilters: [{ action: 'VIEW', autoVerify: true, data: [
       { scheme: 'https', host: appLinkHost, pathPrefix: '/pet/' },
       { scheme: 'https', host: appLinkHost, pathPrefix: '/reel/' },

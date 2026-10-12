@@ -6,7 +6,7 @@ Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (lates
 - The current branch head is the only baseline. Never go back to older files or old zips. After every meaningful change: regenerate evidence, commit, push, update this note and hand over a fresh zip (`git archive --format=zip --prefix=tailmance/ HEAD`).
 
 ## Identity and rules
-- App: Tailmance, id `com.tailmance.app`, owner / creator / rights holder Yekta Özel (individual, no company). Public contact: yektaozel@icloud.com.
+- App: Tailmance, id `tailmanceapp.wordpress.com`, owner / creator / rights holder Yekta Özel (individual, no company). Public contact: yektaozel@icloud.com.
 - The postal address is private. Never write it in the repo, legal pages, store listing or chat output.
 - Never paste or print keys. Secrets live only in the cloud environment settings (names listed below). Do not change Claude, Claude Code, repo or GitHub identity.
 - Never weaken a test or mark a release gate verified without real evidence.

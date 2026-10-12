@@ -46,7 +46,7 @@ platform :ios do
     required_env('MATCH_PASSWORD')
     match(
       type: 'appstore',
-      app_identifier: ['com.tailmance.app'],
+      app_identifier: ['tailmanceapp.wordpress.com'],
       readonly: true,
       git_url: ENV['MATCH_GIT_URL']
     )
@@ -69,7 +69,7 @@ platform :ios do
     upload_to_app_store(
       api_key: apple_api_key,
       ipa: ipa,
-      app_identifier: 'com.tailmance.app',
+      app_identifier: 'tailmanceapp.wordpress.com',
       skip_metadata: true,
       skip_screenshots: true,
       submit_for_review: false,
@@ -84,7 +84,7 @@ platform :android do
   lane :internal do
     aab = required_file_env('TAILMANCE_ANDROID_AAB_PATH', '.aab')
     upload_to_play_store(
-      package_name: 'com.tailmance.app',
+      package_name: 'tailmanceapp.wordpress.com',
       json_key_data: google_service_account_json,
       aab: aab,
       track: 'internal',
@@ -101,7 +101,7 @@ platform :android do
     rollout = Float(required_env('TAILMANCE_GOOGLE_PRODUCTION_ROLLOUT')) rescue nil
     UI.user_error!('TAILMANCE_GOOGLE_PRODUCTION_ROLLOUT must be > 0 and <= 1') unless rollout && rollout > 0.0 && rollout <= 1.0
     upload_to_play_store(
-      package_name: 'com.tailmance.app',
+      package_name: 'tailmanceapp.wordpress.com',
       json_key_data: google_service_account_json,
       aab: aab,
       track: 'production',

@@ -1,2 +1,2 @@
-app_identifier('com.tailmance.app')
-package_name('com.tailmance.app')
+app_identifier('tailmanceapp.wordpress.com')
+package_name('tailmanceapp.wordpress.com')

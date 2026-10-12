@@ -18,8 +18,8 @@ const onboardingFlow=read('e2e/maestro/onboarding-entry.yaml');
 const readyFlow=read('e2e/maestro/verification-paywall.yaml');
 const evidence=JSON.parse(read('release/ui-e2e-evidence-v23.json'));
 
-assert.match(app,/bundleIdentifier: 'com\.tailmance\.app'/);
-assert.match(app,/package: 'com\.tailmance\.app'/);
+assert.match(app,/bundleIdentifier: 'tailmanceapp\.wordpress\.com'/);
+assert.match(app,/package: 'tailmanceapp\.wordpress\.com'/);
 assert.match(primary,/testID\?:string/);
 for(const [source,id] of [
   [auth,'auth.screen'],[auth,'auth.email'],[auth,'auth.password'],[auth,'auth.primary'],
@@ -29,7 +29,7 @@ for(const [source,id] of [
 ]) assert.ok(source.includes(id),`missing deterministic UI selector ${id}`);
 for(const id of ['tab.feed','tab.discover','tab.matches','tab.messages','tab.profile'])assert.ok(nav.includes(id),`missing stable tab selector ${id}`);
 for(const flow of [onboardingFlow,readyFlow]){
-  assert.match(flow,/appId: com\.tailmance\.app/);
+  assert.match(flow,/appId: tailmanceapp\.wordpress\.com/);
   assert.doesNotMatch(flow,/password\s*:\s*['\"]?[^$\n]/i,'Maestro flow must not embed a password');
   assert.doesNotMatch(flow,/@tailmance\.com/i,'review/test email must not be embedded in repository');
   assert.doesNotMatch(flow,/EXPO_PUBLIC_ENABLE_DEMO|demoMode|premium.*bypass|iap.*bypass/i,'critical journey must use ordinary production paths');

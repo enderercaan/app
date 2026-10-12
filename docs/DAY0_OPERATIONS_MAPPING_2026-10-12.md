@@ -1,13 +1,13 @@
 # Day-0 operations package: mapping to the real Tailmance stack (2026-10-12)
 
-The "Day-0 operations and final store approval package" that was supplied assumes a Flutter / NestJS / Drift / Firebase stack and the bundle id `com.yektaozel.tailmance`. Tailmance is Expo SDK 57 / React Native 0.86 with Supabase (Postgres, RLS, Edge Functions), RevenueCat, Sentry and LiveKit, and its bundle id / package name is `com.tailmance.app` (`app.config.ts`). This file records, item by item, what was applied, what was adapted and what was deliberately not adopted. Secrets and account numbers are not stored in this repository.
+The "Day-0 operations and final store approval package" that was supplied assumes a Flutter / NestJS / Drift / Firebase stack and the bundle id `com.yektaozel.tailmance`. The owner has registered the Apple App ID `tailmanceapp.wordpress.com`, so that is the identifier used here. Tailmance is Expo SDK 57 / React Native 0.86 with Supabase (Postgres, RLS, Edge Functions), RevenueCat, Sentry and LiveKit, and its bundle id and Android package name are both `tailmanceapp.wordpress.com` (`app.config.ts`, changed from the earlier `com.tailmance.app` on 2026-10-12 at the owner's decision). This file records, item by item, what was applied, what was adapted and what was deliberately not adopted. Secrets and account numbers are not stored in this repository.
 
 ## Applied
 
 | Item | Where |
 | --- | --- |
 | Reviewer notes for App Store Connect / Google Play, matching what the app really does (report, block, in-app deletion, export, restore purchases, Lost Paw alerts, AI-assisted booklet check with "AI can make mistakes, please check.", mating non-involvement) | `docs/compliance/STORE_REVIEW_INSTRUCTIONS.txt` |
-| Association files use the real identifiers (`<TeamID>.com.tailmance.app`, `com.tailmance.app`) | `scripts/generate-app-link-associations.mjs`, `docs/DOMAIN_DNS_EMAIL_RUNBOOK_2026-10-05.md` |
+| Association files use the real identifiers (`<TeamID>.tailmanceapp.wordpress.com`, `tailmanceapp.wordpress.com`) | `scripts/generate-app-link-associations.mjs`, `docs/DOMAIN_DNS_EMAIL_RUNBOOK_2026-10-05.md` |
 | Apple Team ID is supplied through the `APPLE_TEAM_ID` environment variable, never committed | runbook section 3 |
 | Server-side Apple identifiers are prefilled from the Team ID | owner kit `gen-server-env.sh` (not part of the repo) |
 
@@ -29,10 +29,10 @@ The "Day-0 operations and final store approval package" that was supplied assume
 | NestJS, Drift, Flutter and `flutter-reviewer` instructions | Not this stack. |
 | `setup_adc.sh` fetched from a remote host | Executing a script downloaded from an unknown host is unsafe. Google Cloud Vision uses a restricted API key held as a Supabase secret (see `docs/HEALTH_AI_PROVIDER_REVIEW_2026-10-05.md`). |
 | "Production seal", "registered trademark" wording, "app was not created by AI" statements | These are not facts the repository can establish. Store and legal text must not claim a trademark registration or origin that has not been verified. |
-| AASA `appID` `<TeamID>.com.yektaozel.tailmance` | Wrong bundle id; would break universal links. |
+| AASA `appID` `<TeamID>.com.yektaozel.tailmance` | Wrong bundle id; would break universal links. The generator writes `<TeamID>.tailmanceapp.wordpress.com`. |
 
 ## Still open (owner)
 
-Register the Apple App ID as an explicit `com.tailmance.app` (do not use an identifier derived from a domain you do not own, such as a `wordpress.com` subdomain; the bundle id cannot be changed after the app is created in App Store Connect and must match `app.config.ts`, the association files, the server-side App Attest id and the Google iOS OAuth client). Create it (Apple Developer > Certificates, Identifiers & Profiles > Identifiers) with Sign in with Apple, Push Notifications, Associated Domains and App Attest enabled (`app.config.ts` uses all four; in-app purchase is on by default), or let `eas build` register it on the first iOS build. Create the Google **Web** client ID. Choose the domain; provision the review account and enter it in both consoles; capture real-device screenshots for `store/screenshots/ios` and `store/screenshots/android`; run `npm run release:diagnose` again after each external step.
+The Apple App ID `tailmanceapp.wordpress.com` is already registered by the owner. Confirm it has Sign in with Apple, Push Notifications, Associated Domains and App Attest enabled (`app.config.ts` uses all four; in-app purchase is on by default). The identifier cannot be changed after the app is created in App Store Connect, so create the App Store Connect record, the RevenueCat apps and the Google iOS OAuth client with exactly this ID. The Android package uses the same string; it becomes permanent at the first Play upload, so change it in `app.config.ts`, `fastlane/Appfile`, `fastlane/Fastfile`, `scripts/generate-app-link-associations.mjs` and the release checks before then if a different package name is wanted. Note that the bundle id is only an identifier and is unrelated to where the website is hosted. Create the Google **Web** client ID. Choose the domain; provision the review account and enter it in both consoles; capture real-device screenshots for `store/screenshots/ios` and `store/screenshots/android`; run `npm run release:diagnose` again after each external step.
 
 Decided by the owner on 2026-10-12: no analytics SDK is added.

@@ -34,9 +34,9 @@
   },
   "technical_identifiers": {
     "canonical_scheme": "tailmance",
-    "bundle_identifier": "com.tailmance.app",
-    "android_package": "com.tailmance.app",
-    "note": "tailmance:// is the only app callback scheme; bundle/package identifier is com.tailmance.app."
+    "bundle_identifier": "tailmanceapp.wordpress.com",
+    "android_package": "tailmanceapp.wordpress.com",
+    "note": "tailmance:// is the only app callback scheme; bundle/package identifier is tailmanceapp.wordpress.com."
   },
   "release_blockers": {
     "reproducible_dependency_lock": "PRESENT",

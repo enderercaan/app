@@ -11,7 +11,7 @@ Command: `./gradlew bundleRelease assembleRelease`. Result: BUILD SUCCESSFUL in 
 | R8 `mapping.txt` | 87 MB | `5b8b411901800fd4123ebaf1c98653d2b8d7309d79cd0ec0b1365085b84d175c` |
 
 Verified on the built APK:
-- package `com.tailmance.app`, versionCode 1, versionName 1.0.0, compileSdk 36, targetSdk 36.
+- package `tailmanceapp.wordpress.com`, versionCode 1, versionName 1.0.0, compileSdk 36, targetSdk 36.
 - ABIs: arm64-v8a, armeabi-v7a, x86, x86_64 (32 native libraries each).
 - 64 of 64 64-bit `.so` files use 16 KB LOAD alignment (`readelf -l`); `zipalign -c -P 16 4` passes.
 - Permissions: `SYSTEM_ALERT_WINDOW` and `WRITE_EXTERNAL_STORAGE` were pulled in by libraries; both are now blocked in `app.config.ts` and absent from the rebuilt APK (second `assembleRelease`, 13 min 28 s, successful). No `com.google.android.play:core` classes in the APK.
@@ -27,7 +27,7 @@ Not a store-ready artifact:
 
 ## Rebuild after the 2026-10-05 audit
 
-Same environment and command (`./gradlew bundleRelease assembleRelease --no-daemon`), after the dependency cleanup (`expo-font` added; `expo-modules-core` and `@expo/config-plugins` no longer direct dependencies), the AI breed-suggestion removal and the iOS-only native changes. Result: BUILD SUCCESSFUL in 13 min 50 s. Package `com.tailmance.app`, versionCode 1, versionName 1.0.0; no `ACCESS_FINE_LOCATION`, `READ_MEDIA_*`, `READ_/WRITE_EXTERNAL_STORAGE` or `SYSTEM_ALERT_WINDOW` permission in the APK.
+Same environment and command (`./gradlew bundleRelease assembleRelease --no-daemon`), after the dependency cleanup (`expo-font` added; `expo-modules-core` and `@expo/config-plugins` no longer direct dependencies), the AI breed-suggestion removal and the iOS-only native changes. Result: BUILD SUCCESSFUL in 13 min 50 s. Package `tailmanceapp.wordpress.com`, versionCode 1, versionName 1.0.0; no `ACCESS_FINE_LOCATION`, `READ_MEDIA_*`, `READ_/WRITE_EXTERNAL_STORAGE` or `SYSTEM_ALERT_WINDOW` permission in the APK.
 
 | Artifact | SHA-256 |
 |---|---|

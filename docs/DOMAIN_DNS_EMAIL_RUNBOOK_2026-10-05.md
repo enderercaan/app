@@ -48,7 +48,7 @@ Inputs (all from the operator's accounts):
 - `APPLE_TEAM_ID` (Apple Developer → Membership, 10 characters)
 - `ANDROID_APP_LINK_CERT_SHA256` (Play Console → Setup → App signing → "App signing key certificate" SHA-256; add the upload key too if testing sideloaded builds; at most five, comma separated)
 
-Commands: `npm run generate:app-links`, then `npm run release:app-links`. The generated AASA contains `<TeamID>.com.tailmance.app` with `/pet/*`, `/reel/*`, `/story/*`; assetlinks contains package `com.tailmance.app`. Neither file may be redirected, and both must be served as `application/json` (the `_headers` rules do this). Apple caches AASA on its CDN, so a first publish can take hours to show up.
+Commands: `npm run generate:app-links`, then `npm run release:app-links`. The generated AASA contains `<TeamID>.tailmanceapp.wordpress.com` with `/pet/*`, `/reel/*`, `/story/*`; assetlinks contains package `tailmanceapp.wordpress.com`. Neither file may be redirected, and both must be served as `application/json` (the `_headers` rules do this). Apple caches AASA on its CDN, so a first publish can take hours to show up.
 
 Store entries:
 - App Store Connect → App Privacy → Privacy Policy URL: `https://<domain>/privacy.html`; Support URL: `https://<domain>/support.html`.
@@ -56,7 +56,7 @@ Store entries:
 - Supabase Auth → URL configuration: Site URL and redirect allow-list use `https://<domain>` and the `tailmance://` scheme; Cloudflare Turnstile site key hostnames include `<domain>`.
 
 ## 6. Verify
-`scripts/verify-domain-setup.sh <domain> [dkim-selector]` checks DNS, TLS and headers, the six store-required pages, `config.js`, AASA and assetlinks (status, content type, no redirect, Team ID, paths, fingerprint, Apple CDN, Google Digital Asset Links API), SPF, DKIM, DMARC and MX. It makes only GET, HEAD and DNS requests. On a device: `adb shell pm get-app-links com.tailmance.app` (Android) and an Associated Domains test link from Notes (iOS).
+`scripts/verify-domain-setup.sh <domain> [dkim-selector]` checks DNS, TLS and headers, the six store-required pages, `config.js`, AASA and assetlinks (status, content type, no redirect, Team ID, paths, fingerprint, Apple CDN, Google Digital Asset Links API), SPF, DKIM, DMARC and MX. It makes only GET, HEAD and DNS requests. On a device: `adb shell pm get-app-links tailmanceapp.wordpress.com` (Android) and an Associated Domains test link from Notes (iOS).
 
 ## 7. Deliberately not adopted from the generic guide
 | Item | Reason |

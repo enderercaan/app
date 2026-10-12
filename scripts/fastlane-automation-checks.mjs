@@ -8,8 +8,8 @@ const gemfile=readFileSync('Gemfile','utf8');
 const ignore=readFileSync('.gitignore','utf8');
 
 assert.match(gemfile,/gem 'fastlane', '2\.240\.1'/);
-assert.match(appfile,/app_identifier\('com\.tailmance\.app'\)/);
-assert.match(appfile,/package_name\('com\.tailmance\.app'\)/);
+assert.match(appfile,/app_identifier\('tailmanceapp\.wordpress\.com'\)/);
+assert.match(appfile,/package_name\('tailmanceapp\.wordpress\.com'\)/);
 assert.match(fastfile,/lane :testflight/);
 assert.match(fastfile,/upload_to_testflight/);
 assert.match(fastfile,/lane :app_store_candidate/);

@@ -3,7 +3,7 @@
 # Usage: scripts/verify-domain-setup.sh <domain> [dkim-selector]
 set -u
 DOMAIN="${1:-}"; DKIM_SELECTOR="${2:-}"
-BUNDLE="com.tailmance.app"
+BUNDLE="tailmanceapp.wordpress.com"
 [ -n "$DOMAIN" ] || { echo "Usage: $0 <domain> [dkim-selector]"; exit 2; }
 case "$DOMAIN" in *[!a-z0-9.-]*|.*|*..*) echo "Invalid domain: $DOMAIN"; exit 2;; esac
 for tool in curl dig; do command -v "$tool" >/dev/null || { echo "$tool is required"; exit 2; }; done

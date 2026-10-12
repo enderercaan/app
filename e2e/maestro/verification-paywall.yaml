@@ -1,4 +1,4 @@
-appId: com.tailmance.app
+appId: tailmanceapp.wordpress.com
 ---
 - launchApp:
     clearState: true

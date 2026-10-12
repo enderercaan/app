@@ -16,7 +16,7 @@ assert.ok(fingerprints.length>=1&&fingerprints.length<=5,'ANDROID_APP_LINK_CERT_
 assert.equal(new Set(fingerprints).size,fingerprints.length,'ANDROID_APP_LINK_CERT_SHA256 contains duplicate fingerprints');
 for(const fingerprint of fingerprints)assert.match(fingerprint,fingerprintPattern,'ANDROID_APP_LINK_CERT_SHA256 must use colon-separated uppercase SHA-256 certificate fingerprints');
 
-const bundleId='com.tailmance.app';
+const bundleId='tailmanceapp.wordpress.com';
 const aasa={applinks:{details:[{appIDs:[`${teamId}.${bundleId}`],components:[
   {'/':'/pet/*','comment':'Tailmance pet-profile universal links'},
   {'/':'/reel/*','comment':'Tailmance Reel universal links'},

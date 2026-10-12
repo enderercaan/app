@@ -315,7 +315,7 @@ const manifest={
     project_lint:`${lintFiles} text files PASS`,
     i18n:`${readyLocales} ready; native metadata ${nativeLocaleCount}/19; status ${evidence.automated.i18n.status}`
   },
-  technical_identifiers:{canonical_scheme:'tailmance',bundle_identifier:'com.tailmance.app',android_package:'com.tailmance.app',note:'tailmance:// is the only app callback scheme; bundle/package identifier is com.tailmance.app.'},
+  technical_identifiers:{canonical_scheme:'tailmance',bundle_identifier:'tailmanceapp.wordpress.com',android_package:'tailmanceapp.wordpress.com',note:'tailmance:// is the only app callback scheme; bundle/package identifier is tailmanceapp.wordpress.com.'},
   release_blockers:evidence.limitations,
   dependency_baseline:{expo:dependencies.expo,react_native:dependencies['react-native'],react_native_gesture_handler:dependencies['react-native-gesture-handler'],expo_notifications:dependencies['expo-notifications'],expo_ui:dependencies['@expo/ui'],node:packageJson.engines?.node},
   auth_hardening:'Mobile auth callbacks use PKCE code exchange and canonical allowlisted tailmance:// callback routes; raw access/refresh-token deep-link session injection is removed.'
