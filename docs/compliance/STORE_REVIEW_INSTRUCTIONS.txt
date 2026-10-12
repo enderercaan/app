@@ -1,0 +1,64 @@
+TAILMANCE - APP REVIEW NOTES (App Store Connect "Notes" / Google Play "App access")
+=====================================================================================
+Use only after the review account is prepared as described in the runbook. Paste the
+text between the two lines into the store console. Do NOT add credentials
+to this file or to the repository: enter the review account's e-mail and password only in
+App Store Connect > App Review Information > Sign-In Information and in Google Play
+Console > App content > App access (see docs/STORE_REVIEW_ACCESS_RUNBOOK.md).
+-------------------------------------------------------------------------------------
+
+Tailmance is a social app for pet owners (profiles, feed, Stories and Reels, matches,
+chat, nearby discovery, Lost Paw alerts). Users must be 18 or older. Launch market:
+Istanbul, Turkiye.
+
+SIGN IN
+- Use the e-mail and password entered in "Sign-In Information". It is an ordinary
+  Tailmance account with the same production authentication as every user.
+- There is no reviewer-only login, code or bypass. Two-step verification is optional and
+  is not enrolled on this account, so no verification code is needed.
+- The account is 18+ eligible, has accepted the current legal documents, has a complete
+  pet profile and contains only synthetic, non-personal sample content.
+
+WHERE TO FIND THE REQUIRED FEATURES
+- Report / Block: open any pet profile > Report or Block. Blocked pets are listed in
+  Settings > Blocked pets, where a block can be removed. Reports are reviewed by the
+  moderation team; the user sees the status in the report history.
+- Delete account: Settings > Permanently delete account (in-app, no e-mail needed). Active
+  store subscriptions are managed in the App Store / Google Play subscription settings.
+  The same request is available without the app at the "Delete account" page of our website.
+- Data export: Settings > Export my data.
+- Subscriptions: Premium screen. Purchases use Apple StoreKit sandbox / Google Play
+  license testing. "Restore purchases" is on the same screen. Premium is granted only
+  through the normal store entitlement; there is no review override.
+- Lost Paw alerts: a pet owner can raise an alert for a lost pet and nearby owners are
+  notified.
+- Terms, Privacy Policy and Community Guidelines: Settings and the sign-up flow; also on
+  our website.
+
+PERMISSIONS (each is requested only when the related feature is used)
+- Camera and microphone: pet photos, Stories, Reels, pet verification and matched-pet
+  audio/video calls.
+- Photos: only the photos and videos the user picks.
+- Location (while in use): approximate location, to show nearby pets by distance.
+- Notifications: matches, messages and Lost Paw alerts; optional marketing messages
+  need separate consent.
+
+VACCINATION BOOKLET CHECK
+- Owners can upload the pages of a pet's vaccination booklet. An AI-assisted document
+  check compares dated vaccinations and parasite treatments with the schedule for the
+  pet's species and age; unclear pages are passed to a person. The result is shown as
+  "checked and approved" or not approved. It is not a statement about the pet's health
+  and is not a veterinary examination. The screen states "AI can make mistakes, please
+  check." There are no veterinarian, clinic or registry features.
+
+MATING
+- A "Mating" discovery purpose exists only as a filter between pet owners. Tailmance takes
+  no part in any mating and gives no guarantee about it; owners arrange everything among
+  themselves. The in-app filter text says the same.
+
+CONTENT SAFETY
+- User content is moderated; users can report content, block pets and appeal decisions.
+  Conversations are between pets that matched with each other.
+
+Contact for the review team: support address shown on the website's Support page.
+-------------------------------------------------------------------------------------
