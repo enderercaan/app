@@ -16,7 +16,7 @@ The "Day-0 operations and final store approval package" that was supplied assume
 | Item | Adaptation |
 | --- | --- |
 | Rate limiting / WAF for `api.tailmance.com` (Nginx) | There is no self-hosted API server. Requests go to Supabase Edge Functions, which already call the `rate_limit(action, limit, window)` RPC and Upstash. If a custom API domain is added later, put the WAF and rate-limit rules in Cloudflare in front of it, not Nginx. |
-| Google Cloud client ID | The app reads a **Web** client ID from `EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID` (`src/services/config.ts`, `src/services/nativeSocialAuth.ts`) and an iOS URL scheme from `GOOGLE_IOS_URL_SCHEME` (`com.googleusercontent.apps.<iOS client id prefix>`, `app.config.ts`). Which type the supplied ID is must be confirmed in Google Cloud Console before it is mapped to either variable. Client IDs are public identifiers, but they are set as EAS environment values, not committed. |
+| Google Cloud client ID | Owner confirmed the supplied ID is the **iOS** type. It maps to `GOOGLE_IOS_URL_SCHEME=com.googleusercontent.apps.<id before ".apps.googleusercontent.com">` (`app.config.ts`). The app additionally reads a separate **Web** client ID from `EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID` (`src/services/config.ts`, `src/services/nativeSocialAuth.ts`), which must be created in Google Cloud and is not yet supplied. Client IDs are public identifiers, but they are set as EAS environment values, not committed. |
 | App Store Connect "Developer ID" `8891c71a-...` | This is a UUID of the Issuer ID kind (App Store Connect API key, Users and Access > Integrations). It is used only with an API key held as an EAS secret. |
 | Google Play developer account number | Needed only for Play Console links and the service-account invitation; not used in code. |
 
@@ -33,4 +33,6 @@ The "Day-0 operations and final store approval package" that was supplied assume
 
 ## Still open (owner)
 
-Confirm the Apple App ID (`com.tailmance.app`) is the one registered in the developer account; choose the domain; provision the review account and enter it in both consoles; capture real-device screenshots for `store/screenshots/ios` and `store/screenshots/android`; run `npm run release:diagnose` again after each external step.
+Register the Apple App ID as an explicit `com.tailmance.app` (do not use an identifier derived from a domain you do not own, such as a `wordpress.com` subdomain; the bundle id cannot be changed after the app is created in App Store Connect and must match `app.config.ts`, the association files, the server-side App Attest id and the Google iOS OAuth client). Create it (Apple Developer > Certificates, Identifiers & Profiles > Identifiers) with Sign in with Apple, Push Notifications, Associated Domains and App Attest enabled (`app.config.ts` uses all four; in-app purchase is on by default), or let `eas build` register it on the first iOS build. Create the Google **Web** client ID. Choose the domain; provision the review account and enter it in both consoles; capture real-device screenshots for `store/screenshots/ios` and `store/screenshots/android`; run `npm run release:diagnose` again after each external step.
+
+Decided by the owner on 2026-10-12: no analytics SDK is added.
