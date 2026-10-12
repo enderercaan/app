@@ -9,7 +9,7 @@ c15cc7f52115cd7eac95d430b7a746da095976d1ec4f8c4e3c87bd83732d7197  ./App.tsx
 40aa3964248629a7b15447fc50ae505108defa38d45a19d698eb24cf712dd94a  ./NOTICE.md
 a9615384aab74a7a0c7635bf316d69c966fc22e8f291e4aa4556b4604a56ea0b  ./PRODUCT_STRATEGY_RETENTION_AND_MONETIZATION_BOUNDARY_2026-09-30.md
 e24920393900a3423dc708af5c5816785bb75f2885fd23c769511296fc053ac3  ./README.md
-af1f87335ef42b152bd4b35ddb2ebbc2b6b70649af003a841023462ce488eb6b  ./RELEASE_EVIDENCE.json
+14c10a5ae44f42d326f674d049726e8723635c5e4288aae068e69b405fa57b7e  ./RELEASE_EVIDENCE.json
 7578c5ac00ccf441658b106a6d414842e8280d2f7f9f7a074c2f9928a7d27cc5  ./RELEASE_MANIFEST.json
 a077b0eb631934e0d80b5f2338c706ac62c216838846648aad3c60d479e036ad  ./app.config.ts
 c1ac4dd9de0bbbced5d95c501a0db79cfe22c2eb83176b5fb53ba9308f9c9946  ./assets/adaptive-foreground.png
@@ -21,7 +21,7 @@ fa73a0cb75065e9bf96381f88e3d0684491a3005b3ab33925b330d4fd2567718  ./assets/favic
 f5c24098b171d81325fb4b5b74f535d0850b4e0f887a5783f77f1ad3514b838b  ./assets/splash-icon.png
 2695269bfbe48599244f0748f766096ce44d4e0c55aad2af7fd74cb00cfe30fe  ./brand.json
 57a20efab49e10d673493305e9f5f57c392a6143e489f944da3c85f09b807c3e  ./brand.ts
-d250ffc49fde5417e8e9920ee208892c4400bf28326b382bea7fa4031b03b42d  ./build_project.py
+01652afbfc4196952b1213b49e2d1d431d8e1c4986272179dfb325c2f2e9ea91  ./build_project.py
 c209c9b8303c90caacb1cbafb54e88e73259632c1d85e6b2f13fc2d98e2ac71e  ./docs/AI_TRANSPARENCY_AND_AI_ACT_APPLICABILITY_2026-10-03.md
 f8ddcfe6ed2c2bc75baa25acd90b1e97a5ec250ab7d8beb2cdc253ade0e3c4ef  ./docs/ANDROID_RELEASE_BUILD_2026-10-04.md
 160b9fe753cb39c19700b3ef831face905b9e5d9f179ab90cdec6c60e8a63fbd  ./docs/ARCHITECTURE.md
@@ -167,7 +167,7 @@ a683e79d9d55260f78400cac70d15568a70c037b3f65fbea572a0f002f0470b5  ./release/lega
 17fa37a2d27f175cf414572ae99d6f929c0e5b2eeafdcab03f1d510e7806ed7f  ./release/legal-language-applicability-r8.json
 2177968b99de307ac00cc12b0035153f8bef47c0ec57a437266dbb8e3bc6e323  ./release/legal-language-review-v19.json
 52fe1b837d4ebbd7fdd30545fdbb167baf323b63e7abe75fffdf1c64fdf662d9  ./release/legal-web-localization-manifest-v1.json
-972a77245ab9eebcaad932201495daa5e43855aeaa80a804e923269dddab225a  ./release/local-typecheck-evidence.json
+427e9903cc66f117bb550c7454de051cd4a65fcd685d94a4941ea73baef7abdc  ./release/local-typecheck-evidence.json
 33277c06318ffdc2fc20caa9520a7331a174183a0eef929636be14be2f017ae1  ./release/local-validation/typecheck.txt
 76ee1b183d7bc84ad11c51dbc0c363c0356c7f0dd24caf6cbde24caa0bca07d6  ./release/localized-legal-web-manifest-r8.json
 55e5c8302450d272e71a18dda015b99650dd3ad42d942fa465dc8988f3e6eb5f  ./release/official-source-review-v19.json
@@ -289,7 +289,7 @@ b01450ecd16e8d3ad2b78ba5de6260967d8694256ca979db0b7303e6f7a980b6  ./scripts/runt
 2389453c1c34827781b4516ccacaf14c07fb06d61fd6b0093c86b0edd79ca8b2  ./scripts/security-incident-obligation-checks.mjs
 8b3a47df5a8d9891859483ff00fa86b368ae063543e2a3b36c3270bf7bb94d6b  ./scripts/server-env-template-check.mjs
 5246056b605f9763380bd8eb64e86eb41fa004362eb3045de648fd39e99a4a27  ./scripts/server-release-config-check.mjs
-7fedcc1de7a4fbeb4a1ff1526c9182943ca747a387655a0d8d93be42d029dd30  ./scripts/source-manifest-check.mjs
+481942978bb059883ae59786ed15e456d6552fa6ea16b7ec8ab505616ab16ac7  ./scripts/source-manifest-check.mjs
 c6c23cf52ab00e106e1c2609e57d1c2ed82e2b7da95754a9cb5dbff54cb49d3f  ./scripts/source-semantic-local-check.mjs
 3eecf29e95941d9a80bf5677c53a722d7336c5e0958992c0beba726684da72c5  ./scripts/store-assets-release-check.mjs
 38e2d5426b9828077348879ac9fe5866efe2e977d367361782cd8fe14e566b0d  ./scripts/store-compliance-checks.mjs

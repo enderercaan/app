@@ -159,7 +159,12 @@ def main()->int:
   with tempfile.TemporaryDirectory(prefix='tailmance-gm-') as td:
    st=Path(td)/'source'; st.mkdir(); snapshot(root,st)
    status='PRODUCTION_SOURCE_PACKAGE' if production else 'HANDOFF_ONLY_NOT_PRODUCTION_READY'
-   (st/'release/GOLDEN_MASTER_STATUS.json').write_text(json.dumps({'schema_version':1,'app':APP,'owner_publisher':OWNER,'slogan':SLOGAN,'status':status,'package_version':meta.get('package_version'),'package_manager':meta.get('package_manager'),'external_live_release_gates_separate':True},ensure_ascii=False,indent=2,sort_keys=True)+'\n','utf-8')
+   sf=st/'release/GOLDEN_MASTER_STATUS.json'; keep=False
+   if sf.is_file():
+    try: keep=json.loads(sf.read_text('utf-8')).get('status')==status
+    except (OSError,ValueError): keep=False
+   # A committed status record that already states this package status stays byte-identical, so the extracted archive still matches SOURCE_FILE_SHA256_MANIFEST.txt.
+   if not keep: sf.write_text(json.dumps({'schema_version':1,'app':APP,'owner_publisher':OWNER,'slogan':SLOGAN,'status':status,'package_version':meta.get('package_version'),'package_manager':meta.get('package_manager'),'external_live_release_gates_separate':True},ensure_ascii=False,indent=2,sort_keys=True)+'\n','utf-8')
    manifest(st); zipdet(st,out)
   entries,hashed=verify(out); digest=sha(out); side=Path(str(out)+'.sha256'); side.write_text(f'{digest}  {out.name}\n','utf-8')
   print('='*78); print('TAILMANCE GOLDEN MASTER:', 'PASS' if production else 'HANDOFF PASS'); print('Output:',out); print('SHA-256:',digest); print('Entries:',entries,'Hashed:',hashed); print('Owner & Publisher:',OWNER); print('='*78)
