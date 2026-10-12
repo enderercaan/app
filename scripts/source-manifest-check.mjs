@@ -4,8 +4,8 @@ import path from 'node:path';
 
 const root=process.cwd();
 const manifestPath=path.join(root,'SOURCE_FILE_SHA256_MANIFEST.txt');
-const ignoredDirs=new Set(['.git','node_modules','.expo','dist','build']);
-const ignoredFiles=new Set(['SOURCE_FILE_SHA256_MANIFEST.txt']);
+const ignoredDirs=new Set(['.git','node_modules','.expo','dist','build','.claude']);
+const ignoredFiles=new Set(['SOURCE_FILE_SHA256_MANIFEST.txt','.claudeignore']);
 
 function walk(dir,base=''){
   const out=[];

@@ -21,7 +21,8 @@ REQUIRED_BASE=[
  'release/release-blocker-inventory-v19.json',
 ]
 PRODUCTION_ONLY=['package-lock.json']
-EXCLUDED_DIRS={'.git','.hg','.svn','.idea','.vscode','.expo','.next','.turbo','.gradle','node_modules','Pods','DerivedData','coverage','dist','build','__pycache__','.pytest_cache','.mypy_cache','.ruff_cache'}
+EXCLUDED_DIRS={'.git','.hg','.svn','.idea','.vscode','.expo','.next','.turbo','.gradle','.claude','node_modules','Pods','DerivedData','coverage','dist','build','__pycache__','.pytest_cache','.mypy_cache','.ruff_cache'}
+EXCLUDED_FILES={'.claudeignore'}
 SENSITIVE_EXACT={'.env','.npmrc','id_rsa','id_ed25519'}
 SENSITIVE_SUFFIXES={'.p8','.p12','.pfx','.pem','.key','.keystore','.jks','.mobileprovision'}
 SAFE_ENV={'.env.example','.env.sample','.env.template'}
@@ -87,7 +88,7 @@ def scan(root:Path)->None:
  for p in root.rglob('*'):
   if not p.is_file(): continue
   rel=p.relative_to(root)
-  if any(x in EXCLUDED_DIRS for x in rel.parts[:-1]): continue
+  if any(x in EXCLUDED_DIRS for x in rel.parts[:-1]) or p.name in EXCLUDED_FILES: continue
   if sensitive(p): bad.append(rel.as_posix()); continue
   if p.suffix.lower() not in TEXT_EXT and p.name not in {'package.json','package-lock.json'}: continue
   try:
@@ -104,7 +105,7 @@ def snapshot(src:Path,dst:Path)->None:
   rel=p.relative_to(src)
   if any(x in EXCLUDED_DIRS for x in rel.parts): continue
   if p.is_dir(): (dst/rel).mkdir(parents=True,exist_ok=True); continue
-  if not p.is_file() or sensitive(p): continue
+  if not p.is_file() or sensitive(p) or p.name in EXCLUDED_FILES: continue
   q=dst/rel; q.parent.mkdir(parents=True,exist_ok=True); shutil.copyfile(p,q)
   os.chmod(q,0o755 if p.stat().st_mode & stat.S_IXUSR else 0o644)
 

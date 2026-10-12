@@ -18,3 +18,6 @@ fastlane/Preview.html
 fastlane/screenshots/
 *.ipa
 *.aab
+# Claude Code local project files (never part of the source manifest or the release archive)
+.claude/
+.claudeignore

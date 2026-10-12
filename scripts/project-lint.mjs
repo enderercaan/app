@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
-const files=[]; const walk=(d)=>{for(const n of readdirSync(d)){if(['node_modules','.git','.tmp-domain-test'].includes(n))continue;const p=join(d,n);statSync(p).isDirectory()?walk(p):files.push(p)}}; walk('.');
+const files=[]; const walk=(d)=>{for(const n of readdirSync(d)){if(['node_modules','.git','.claude','.tmp-domain-test'].includes(n))continue;const p=join(d,n);statSync(p).isDirectory()?walk(p):files.push(p)}}; walk('.');
 const textFiles=files.filter(f=>/\.(ts|tsx|js|mjs|sql|json|md|html|toml|yml|yaml)$/.test(f) && !f.endsWith('scripts/project-lint.mjs'));
 const forbidden=[new RegExp('SUPABASE_SERVICE_ROLE_KEY\\s*=\\s*[\\\'\"][^\\\'\"]+[\\\'\"]','i'),new RegExp('sk_[A-Za-z0-9]{20,}'),new RegExp('-----BEGIN '+'PRIVATE KEY-----')];
 for(const f of textFiles){const s=readFileSync(f,'utf8');for(const p of forbidden)assert.doesNotMatch(s,p,`secret-like value in ${f}`)}
