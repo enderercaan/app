@@ -43,7 +43,7 @@ Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (lates
 - Dependencies: `expo-font` added (peer of expo-symbols); `expo-modules-core` and `@expo/config-plugins` are no longer direct dependencies (imports go through `expo` and `expo/config-plugins`).
 - Not set on purpose, owner decision needed before the first iOS upload: `ITSAppUsesNonExemptEncryption` (export-compliance declaration). The app uses TLS, SQLCipher and WebRTC; answer Apple's encryption questionnaire accurately.
 - iPad: `supportsTablet` is true, so App Store Connect requires iPad screenshots (or set it to false).
-- A new cloud session building the app must check out branch `claude/determined-cerf-m1od2d` (or `main` after the owner merges it); `main` alone does not contain this work.
+- Branch note (updated 2026-10-12): `main` contains everything up to pull request 15 (the health check, veterinarian removal, mating texts). Later work (domain readiness and anything after it) lives on branch `claude/determined-cerf-m1od2d` until the owner merges it; a new cloud session must check out that branch.
 
 ## Next steps
 1. User adds environment secrets (names only): `EXPO_TOKEN`, `GOOGLE_PLAY_SERVICE_ACCOUNT_JSON_BASE64`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, `APP_STORE_CONNECT_KEY_CONTENT_BASE64`, `APPLE_TEAM_ID`, then the app values from `.env.example` and `supabase/.env.example`. The App Store Connect key that was shared in chat earlier must be revoked and a new one created.
@@ -62,3 +62,42 @@ Read this first in a new session. Branch: `claude/determined-cerf-m1od2d` (lates
 - New in the app: an explicit agreement dialog before the first page is sent to the provider (`health.uploadConsent*`).
 - Provider review, costs, KVKK step and setup: `docs/HEALTH_AI_PROVIDER_REVIEW_2026-10-05.md`. The operator must accept the Google Cloud Data Processing Addendum before the live check is switched on.
 - Tests added: `health-booklet-check-tests` (25 rule scenarios), `health-ai-worker-simulation` (7 scenarios, real worker source), `supabase/tests/health_document_check_smoke.sql` (real PostgreSQL: approval, expiry, downgrade, restriction, free-tier guard).
+
+## State on 2026-10-12: domain readiness, Apple identity, Supabase project
+- Domain readiness is in the repository: `web/index.html` (site root), JSON headers for the two `.well-known` files in `web/_headers`, `web/favicon.png`, `npm run verify:domain -- <domain> [dkim-selector]` (read-only live check) and `docs/DOMAIN_DNS_EMAIL_RUNBOOK_2026-10-05.md` (hosting on Cloudflare Pages with a dependency-free build command, DNS/e-mail staging, store URLs, and the list of items from a generic deep-link guide that were deliberately not adopted). The domain name itself is not chosen yet (recommendation: `tailmance.com`, availability not checked from the sandbox).
+- Apple: the owner is enrolled as an Individual in the Apple Developer Program; the 10-character Team ID was given in chat and must be supplied as the environment variable `APPLE_TEAM_ID` (never committed). The Android App Signing certificate SHA-256 only exists after the first upload to Play Console (`ANDROID_APP_LINK_CERT_SHA256`). With the domain these three values let `generate-app-link-associations.mjs` produce the association files.
+- Supabase project `tailmance-prod` (ref `fskxcneajoujvnjxsbqi`, Frankfurt) exists but is NOT migrated. A trial through the connector left a partial state: migration history rows `m001_schema`, `m002a_security_and_rpcs_part1`, `m002b_discover_like_pass_fav`, 33 public tables, 13 public functions, the three storage buckets, the trigger `on_auth_user_created` and a leftover schema `tmp_setup`. The project has 0 users and 0 files. The connector cannot finish the job: large DDL calls time out after 60 seconds and destructive statements hang until they time out, so migrations 003-201 and the clean-up must be run by the owner.
+  1. Supabase dashboard -> SQL Editor: run the reset script below once (confirm the destructive-statement warning). It was tested on a local copy of the full chain database (121 tables, 372 functions, 13 types, 3 auth triggers -> all dropped, `public` schema kept) and migrations 001-003 then applied cleanly from zero.
+  2. On a machine with the repository: `npx supabase login`, `npx supabase link --project-ref fskxcneajoujvnjxsbqi`, `npx supabase db push` (asks for the database password, reset it in Dashboard -> Project Settings -> Database). Optionally `npx supabase config push` afterwards to apply the `[auth]` settings in `supabase/config.toml` (read the diff it prints first).
+  3. Then `npx supabase functions deploy` and `npx supabase secrets set --env-file <server env file>` (names in `supabase/.env.example`).
+  4. In a session with network access to the project: compare the remote against the local database fingerprints (functions, columns, constraints, indexes, triggers, policies, types, grants, legal supplement hashes) and run the Supabase advisors.
+
+```sql
+-- Tailmance: reset the partial test state on tailmance-prod (0 users, 0 files).
+-- Keeps the public schema and its default privileges, the storage buckets and every Supabase-managed object.
+drop trigger if exists on_auth_user_created on auth.users;
+do $$
+declare r record;
+begin
+  for r in select format('%I.%I', schemaname, tablename) as obj from pg_tables where schemaname = 'public' loop
+    execute 'drop table if exists ' || r.obj || ' cascade';
+  end loop;
+  for r in
+    select format('%I.%I(%s)', n.nspname, p.proname, pg_get_function_identity_arguments(p.oid)) as obj
+    from pg_proc p join pg_namespace n on n.oid = p.pronamespace
+    where n.nspname = 'public' and p.prokind = 'f'
+      and not exists (select 1 from pg_depend d where d.objid = p.oid and d.deptype = 'e')
+  loop
+    execute 'drop function if exists ' || r.obj || ' cascade';
+  end loop;
+  for r in
+    select format('%I.%I', n.nspname, t.typname) as obj
+    from pg_type t join pg_namespace n on n.oid = t.typnamespace
+    where n.nspname = 'public' and t.typtype in ('e', 'd')
+  loop
+    execute 'drop type if exists ' || r.obj || ' cascade';
+  end loop;
+end $$;
+drop schema if exists tmp_setup cascade;
+delete from supabase_migrations.schema_migrations;
+```

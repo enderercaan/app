@@ -28,7 +28,10 @@ for page in privacy.html terms.html kvkk.html community-guidelines.html support.
 done
 cfg=$("${CURL[@]}" -I "https://$DOMAIN/config.js" | tr -d '\r')
 echo "$cfg" | grep -qi '^cache-control:.*no-store' && ok "/config.js is no-store" || bad "/config.js is cacheable or missing"
-"${CURL[@]}" "https://$DOMAIN/config.js" | grep -q "YOUR_PROJECT" && bad "/config.js still contains the placeholder project" || ok "/config.js has no placeholder"
+webcfg=$("${CURL[@]}" "https://$DOMAIN/config.js")
+echo "$webcfg" | grep -Eqi 'YOUR_|REPLACE_|example\.com' && bad "/config.js still contains a placeholder" || ok "/config.js has no placeholder"
+echo "$webcfg" | grep -Eq '"deletionRequestEndpoint": "https://[^"]+"' && ok "/config.js has the account-deletion endpoint" || bad "/config.js deletionRequestEndpoint is empty (build env TAILMANCE_WEB_DELETION_ENDPOINT not set)"
+echo "$webcfg" | grep -Eq '"turnstileSiteKey": "[A-Za-z0-9_-]{10,200}"' && ok "/config.js has the Turnstile site key" || bad "/config.js turnstileSiteKey is empty"
 
 echo "== 3. Apple App Site Association =="
 aasa_h=$("${CURL[@]}" -I "https://$DOMAIN/.well-known/apple-app-site-association" | tr -d '\r')

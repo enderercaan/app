@@ -21,7 +21,7 @@ Operator: Yekta Özel. Replace `<domain>` with the registered domain (for exampl
 ## 3. Hosting: Cloudflare Pages (not GitHub Pages)
 `web/_headers` is a Cloudflare Pages / Netlify file. GitHub Pages ignores it and cannot set the CSP, HSTS and content-type headers that `scripts/security-checks.mjs` requires, so use Cloudflare Pages.
 1. Cloudflare dashboard → Workers & Pages → Create → Pages → connect the repository, build command empty, output directory `web`.
-2. Before the first deploy run `npm run web-config:generate` (see `scripts/generate-web-runtime-config.mjs`) and `npm run generate:app-links` with the real values (section 5) so that `web/config.js` and `web/.well-known/*` are present in the deployed folder.
+2. Build command (Node 22, no dependencies needed): `node scripts/generate-web-runtime-config.mjs && node scripts/generate-app-link-associations.mjs`. Set these as build environment variables in the Pages project, never in the repository: `TAILMANCE_WEB_DELETION_ENDPOINT` (the `request-account-deletion` Edge Function URL), `TAILMANCE_WEB_TURNSTILE_SITE_KEY`, `TAILMANCE_WEB_AUTH_TURNSTILE_SITE_KEY`, `EXPO_PUBLIC_APP_LINK_HOST`, `APPLE_TEAM_ID`, `ANDROID_APP_LINK_CERT_SHA256`. Both scripts refuse placeholder or malformed values, so a wrong value fails the build instead of shipping a broken site. The committed `web/config.js` is intentionally empty; the build overwrites it.
 3. Pages project → Custom domains → add `<domain>` and `www.<domain>`. If DNS is on Cloudflare the records are created for you.
 
 DNS records that matter (other records are created by the Pages wizard):
