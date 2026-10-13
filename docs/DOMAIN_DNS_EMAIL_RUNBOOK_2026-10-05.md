@@ -11,12 +11,20 @@ Operator: Yekta Özel. Replace `<domain>` with the registered domain (for exampl
 | Universal Links / App Links paths `/pet/*`, `/reel/*`, `/story/*`, scheme `tailmance` | `app.config.ts` |
 | Association files generator (needs real Team ID and signing fingerprints) | `npm run generate:app-links`, checked by `npm run release:app-links` |
 | Account deletion without a third-party form service | `web/delete-account.html` plus the `request-account-deletion` Edge Function |
-| Read-only live check of all of the above | `scripts/verify-domain-setup.sh <domain> [dkim-selector]` |
+| Read-only live check of all of the above | `scripts/verify-domain-setup.sh [--no-mail] <domain> [dkim-selector]` |
 
 ## 2. Choose and register the domain
 - Recommended: `<name>.com` (store reviewers, users and mail providers trust it most). `.app` is a good second choice (HTTPS-only by design). `.com.tr` only if a Turkish presence is wanted in addition.
 - Register at a registrar whose DNS you will use (Cloudflare Registrar is the simplest because hosting and DNS are in the same place). Turn on registrar lock and two-factor sign-in.
 - The domain must be a bare host name. It is the value of `EXPO_PUBLIC_APP_LINK_HOST` (no `https://`, no path, no `www.`).
+
+## 2a. Starting without a registered domain
+- A Cloudflare Pages project is served on `<project>.pages.dev` over HTTPS at no cost. That host can carry everything in `web/` (legal pages, account deletion page, `/.well-known/apple-app-site-association`, `/.well-known/assetlinks.json`, the `_headers` rules). Use it as `EXPO_PUBLIC_APP_LINK_HOST` (host only, no `https://`).
+- The host is compiled into the iOS entitlement (`applinks:<host>`) and the Android intent filters. Pick the final host before the first production build; changing it later needs a new store release.
+- `<name>.wordpress.com` cannot be used for the app-link host or the `web/` pages: WordPress.com does not let you serve arbitrary files under `/.well-known/` or custom JavaScript pages on a hosted subdomain. It can stay as a marketing site that links to the Pages host.
+- A `pages.dev` or `wordpress.com` host cannot carry mail records. Keep the existing contact address on the support and privacy pages until a branded domain exists; `scripts/verify-domain-setup.sh` skips the e-mail section for these hosts automatically (or with `--no-mail`).
+- `scripts/generate-app-link-associations.mjs` fails the Pages build while `ANDROID_APP_LINK_CERT_SHA256` is empty (1-5 colon-separated uppercase SHA-256 fingerprints are required), and the Play App Signing certificate only appears after the first upload. Seed the variable with the EAS upload keystore SHA-256 (`npx eas-cli credentials -p android`), then append the Play App Signing certificate fingerprint and redeploy.
+- Store listings need a reachable privacy policy URL, support URL and account deletion URL; the Pages URLs `https://<host>/privacy.html`, `https://<host>/support.html` and `https://<host>/delete-account.html` satisfy that.
 
 ## 3. Hosting: Cloudflare Pages (not GitHub Pages)
 `web/_headers` is a Cloudflare Pages / Netlify file. GitHub Pages ignores it and cannot set the CSP, HSTS and content-type headers that `scripts/security-checks.mjs` requires, so use Cloudflare Pages.
@@ -56,7 +64,7 @@ Store entries:
 - Supabase Auth → URL configuration: Site URL and redirect allow-list use `https://<domain>` and the `tailmance://` scheme; Cloudflare Turnstile site key hostnames include `<domain>`.
 
 ## 6. Verify
-`scripts/verify-domain-setup.sh <domain> [dkim-selector]` checks DNS, TLS and headers, the six store-required pages, `config.js`, AASA and assetlinks (status, content type, no redirect, Team ID, paths, fingerprint, Apple CDN, Google Digital Asset Links API), SPF, DKIM, DMARC and MX. It makes only GET, HEAD and DNS requests. On a device: `adb shell pm get-app-links tailmanceapp.wordpress.com` (Android) and an Associated Domains test link from Notes (iOS).
+`scripts/verify-domain-setup.sh [--no-mail] <domain> [dkim-selector]` checks DNS, TLS and headers, the six store-required pages, `config.js`, AASA and assetlinks (status, content type, no redirect, Team ID, paths, fingerprint, Apple CDN, Google Digital Asset Links API), SPF, DKIM, DMARC and MX. It makes only GET, HEAD and DNS requests. On a device: `adb shell pm get-app-links tailmanceapp.wordpress.com` (Android) and an Associated Domains test link from Notes (iOS).
 
 ## 7. Deliberately not adopted from the generic guide
 | Item | Reason |

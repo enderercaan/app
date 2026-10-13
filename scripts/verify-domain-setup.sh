@@ -1,10 +1,15 @@
 #!/usr/bin/env bash
 # Tailmance domain, app-link, legal-page and e-mail reputation check (read-only; only GET/HEAD/DNS lookups).
-# Usage: scripts/verify-domain-setup.sh <domain> [dkim-selector]
+# Usage: scripts/verify-domain-setup.sh [--no-mail] <domain> [dkim-selector]
+# --no-mail skips the SPF/DKIM/DMARC/MX section; it is applied automatically for *.pages.dev and *.wordpress.com hosts,
+# which cannot carry the app's own mail records.
 set -u
-DOMAIN="${1:-}"; DKIM_SELECTOR="${2:-}"
+SKIP_MAIL=0; ARGS=()
+for arg in "$@"; do case "$arg" in --no-mail) SKIP_MAIL=1;; *) ARGS+=("$arg");; esac; done
+DOMAIN="${ARGS[0]:-}"; DKIM_SELECTOR="${ARGS[1]:-}"
+case "$DOMAIN" in *.pages.dev|*.wordpress.com) SKIP_MAIL=1;; esac
 BUNDLE="tailmanceapp.wordpress.com"
-[ -n "$DOMAIN" ] || { echo "Usage: $0 <domain> [dkim-selector]"; exit 2; }
+[ -n "$DOMAIN" ] || { echo "Usage: $0 [--no-mail] <domain> [dkim-selector]"; exit 2; }
 case "$DOMAIN" in *[!a-z0-9.-]*|.*|*..*) echo "Invalid domain: $DOMAIN"; exit 2;; esac
 for tool in curl dig; do command -v "$tool" >/dev/null || { echo "$tool is required"; exit 2; }; done
 FAIL=0; WARN=0
@@ -52,6 +57,9 @@ echo "$dal" | grep -Eq '([A-F0-9]{2}:){31}[A-F0-9]{2}' && ok "assetlinks has a S
 "${CURL[@]}" "https://digitalassetlinks.googleapis.com/v1/statements:list?source.web.site=https://$DOMAIN&relation=delegate_permission/common.handle_all_urls" | grep -q "$BUNDLE" && ok "Google Digital Asset Links API confirms" || warn "Google Digital Asset Links API does not list the app yet"
 
 echo "== 5. E-mail reputation =="
+if [ "$SKIP_MAIL" -eq 1 ]; then
+  echo "SKIP  e-mail records (--no-mail or a host that cannot carry mail records); use a branded mailbox domain before relying on support@ / privacy@ addresses"
+else
 spf=$(dig +short TXT "$DOMAIN" | grep -i 'v=spf1')
 [ -n "$spf" ] && ok "SPF: $spf" || bad "SPF record missing"
 [ "$(echo "$spf" | grep -o 'v=spf1' | wc -l)" -le 1 ] || bad "More than one SPF record (invalid)"
@@ -61,6 +69,7 @@ else ok "DMARC: $dmarc"; echo "$dmarc" | grep -qi 'p=none' && warn "DMARC is in 
 if [ -n "$DKIM_SELECTOR" ]; then [ -n "$(dig +short TXT "$DKIM_SELECTOR._domainkey.$DOMAIN")" ] && ok "DKIM selector $DKIM_SELECTOR" || bad "DKIM selector $DKIM_SELECTOR missing"
 else warn "DKIM not checked (pass the selector of your sending provider as the second argument)"; fi
 [ -n "$(dig +short MX "$DOMAIN")" ] && ok "MX present (support inbox can receive mail)" || warn "No MX record"
+fi
 
 echo; echo "Result: $FAIL failed, $WARN warnings"
 [ "$FAIL" -eq 0 ]
