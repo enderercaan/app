@@ -8,7 +8,7 @@ Tailmance uses EAS Build as the default native build/signing authority. Fastlane
 - `fastlane ios app_store_candidate` uploads the IPA to App Store Connect but never auto-submits it for review or auto-releases it.
 - `fastlane ios sync_signing` performs read-only `match` synchronization only when an existing private Match repository is explicitly configured. It does not create or revoke certificates/profiles.
 
-Required environment values are `TAILMANCE_IOS_IPA_PATH`, `APP_STORE_CONNECT_KEY_ID`, `APP_STORE_CONNECT_ISSUER_ID`, and base64-encoded `APP_STORE_CONNECT_KEY_CONTENT_BASE64`. Match additionally requires `MATCH_GIT_URL` and `MATCH_PASSWORD`.
+Required environment values are `TAILMANCE_IOS_IPA_PATH`, `APP_STORE_CONNECT_KEY_ID`, and base64-encoded `APP_STORE_CONNECT_KEY_CONTENT_BASE64`. `APP_STORE_CONNECT_ISSUER_ID` is required for a team API key and is left unset for an individual API key. Match additionally requires `MATCH_GIT_URL` and `MATCH_PASSWORD`.
 
 ## Android
 

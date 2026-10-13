@@ -4,6 +4,11 @@ def required_env(name)
   value
 end
 
+def optional_env(name)
+  value = ENV[name]&.strip
+  value.nil? || value.empty? ? nil : value
+end
+
 def required_file_env(name, extension)
   path = File.expand_path(required_env(name))
   UI.user_error!("#{name} must point to an existing #{extension} file") unless File.file?(path) && File.extname(path).downcase == extension
@@ -13,7 +18,8 @@ end
 def apple_api_key
   app_store_connect_api_key(
     key_id: required_env('APP_STORE_CONNECT_KEY_ID'),
-    issuer_id: required_env('APP_STORE_CONNECT_ISSUER_ID'),
+    # Team keys need the Issuer ID; individual API keys do not, so it is optional (fastlane 2.240.1 supports both).
+    issuer_id: optional_env('APP_STORE_CONNECT_ISSUER_ID'),
     key_content: required_env('APP_STORE_CONNECT_KEY_CONTENT_BASE64'),
     is_key_content_base64: true,
     duration: 500,
