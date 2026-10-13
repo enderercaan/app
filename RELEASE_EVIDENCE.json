@@ -10,7 +10,7 @@
     "implementation": "Yekta Özel",
     "overall_project": "Yekta Özel"
   },
-  "generated_at": "2026-10-12T12:48:24.503Z",
+  "generated_at": "2026-10-13T06:03:58.409Z",
   "automated": {
     "domain": {
       "passed": 21,
@@ -161,7 +161,7 @@
     "legal_temporal": {
       "structured_future_effective_states": 5,
       "high_volatility_watch_items": 22,
-      "as_of": "2026-10-12",
+      "as_of": "2026-10-13",
       "status": "PASS_CURRENT_AS_OF_DATE"
     },
     "migration_release": {
