@@ -101,3 +101,24 @@ end $$;
 drop schema if exists tmp_setup cascade;
 delete from supabase_migrations.schema_migrations;
 ```
+
+## State on 2026-10-13
+
+Identifiers and accounts
+- iOS bundle id and Android package are both `tailmanceapp.wordpress.com` (the Apple App ID the owner registered). The Android package becomes permanent at the first Play upload. `.env.example` and `supabase/.env.example` still contain the old `com.tailmance.app` (environment files could not be edited from the session); replace it with `sed -i 's/com\.tailmance\.app/tailmanceapp.wordpress.com/g' .env.example supabase/.env.example`.
+- Google OAuth: an iOS client and a Web client exist. The Web client ID is `EXPO_PUBLIC_GOOGLE_WEB_CLIENT_ID` and the server-side `GOOGLE_OAUTH_SERVER_CLIENT_ID`; the Web client secret goes only into the Supabase dashboard (Auth Google provider and the `GOOGLE_OAUTH_SERVER_CLIENT_SECRET` Edge Function secret) and must be rotated because it was pasted into a chat.
+- No analytics SDK is added (owner decision). The only App Store Connect API key on the account was revoked on 2026-10-03; `fastlane/Fastfile` accepts a team key or an individual key (Issuer ID optional).
+
+`tailmance-prod`
+- The free-plan project had been paused (INACTIVE). It was restored on 2026-10-13 and is ACTIVE_HEALTHY. `postgis`, `vector` and `pg_cron` are enabled.
+- It still holds the partial trial state (33 tables, 0 users, 0 files, 3 trial migration rows, schema `tmp_setup`). The reset above and the 201 migrations (3.36 MB) are still to be applied: the Supabase connector times out on destructive statements and cannot carry the migration volume. Needs either `supabase db push` by the owner or `api.supabase.com` allowed in the session network plus `SUPABASE_ACCESS_TOKEN` as an environment variable.
+- Move to the Pro plan before launch; the free plan pauses the project after inactivity.
+
+Independent checks run on 2026-10-13 against the committed tree
+- `npm audit --omit=dev`: 0 vulnerabilities. Secret-pattern scan of tracked files: no matches.
+- 201/201 migrations on a real PostgreSQL with PostGIS and pgvector; `plpgsql_check` 0 runtime errors; runtime and health-document smoke tests pass.
+- Scratch database built from all migrations: 121 public tables, all with row level security enabled; 0 SECURITY DEFINER functions without a fixed `search_path`; 111 tables have RLS and no policy (access is through RPCs and service role only, by design); the only anonymous-executable definer functions are the pre-registration legal presentation and options readers, the runtime config reader and the OAuth guard trigger function.
+- All 29 Edge Functions authenticate the caller (platform JWT plus `authenticatedUser`, second-factor and device-integrity gates where required) or a worker/webhook secret or signature.
+- 19 locales, 1702 keys each: no missing, extra or empty keys and no placeholder mismatches; every statically referenced `t()` key exists. Web HTML audit: no issues.
+- `expo prebuild` and `expo export` (iOS and Android, Hermes) succeed. Generated native projects carry the new identifier. Android requests coarse location, camera, microphone, notifications, network state, internet, vibrate, wake lock, legacy Bluetooth, own-call management and audio settings; fine location, photo/video, external storage and overlay permissions are removed.
+- Not done: any on-device or simulator run, App Store / Play review, merged iOS privacy manifest inspection of a real archive, store screenshots, Fastlane execution.
