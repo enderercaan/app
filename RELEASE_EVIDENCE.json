@@ -10,11 +10,11 @@
     "implementation": "Yekta Ozel",
     "overall_project": "Yekta Ozel"
   },
-  "generated_at": "2026-10-03T10:07:20.061Z",
+  "generated_at": "2026-10-25T13:47:35.072Z",
   "automated": {
     "domain": {
-      "passed": 21,
-      "total": 21,
+      "passed": 27,
+      "total": 27,
       "status": "PASS"
     },
     "security": {
@@ -28,25 +28,25 @@
       "status": "PASS"
     },
     "accessibility": {
-      "pressables": 217,
-      "text_inputs": 45,
-      "switches": 2,
+      "pressables": 220,
+      "text_inputs": 46,
+      "switches": 4,
       "modals": 15,
       "status": "PASS"
     },
     "backend_contracts": {
-      "rpcs": 174,
+      "rpcs": 226,
       "pending_patch_only_rpcs": 0,
       "client_edge_invocations": 11,
       "function_directories": 30,
       "status": "PASS"
     },
     "ux": {
-      "tsx_files": 57,
+      "tsx_files": 63,
       "status": "PASS"
     },
     "project_lint": {
-      "text_files": 2388,
+      "text_files": 2400,
       "status": "PASS"
     },
     "i18n": {
@@ -72,8 +72,8 @@
         "th",
         "vi"
       ],
-      "runtime_catalog_key_count": 1653,
-      "source_used_dynamic_key_count": 1448,
+      "runtime_catalog_key_count": 1858,
+      "source_used_dynamic_key_count": 1611,
       "production_hardcoded_turkish_markers": 0,
       "visible_literal_text_markers": 0,
       "demo_only_turkish_markers": 82,
@@ -159,14 +159,14 @@
       "status": "PASS_SOURCE_SCREENING_RUNTIME_CONTEXT_SEPARATE"
     },
     "legal_temporal": {
-      "structured_future_effective_states": 5,
+      "structured_future_effective_states": 4,
       "high_volatility_watch_items": 22,
-      "as_of": "2026-10-03",
+      "as_of": "2026-10-25",
       "status": "PASS_CURRENT_AS_OF_DATE"
     },
     "migration_release": {
       "first": 1,
-      "last": 200,
+      "last": 204,
       "contiguous": true,
       "status": "PASS"
     },
@@ -269,7 +269,7 @@
     }
   },
   "structure": {
-    "migration_count": 200,
+    "migration_count": 204,
     "migrations": [
       "001_schema.sql",
       "002_security_and_rpcs.sql",
@@ -470,7 +470,11 @@
       "197_remote_configurable_daily_product_quota_windows.sql",
       "198_regional_billing_programs_fail_closed.sql",
       "199_executed_postgres_runtime_correctness.sql",
-      "200_location_privacy_neighbourhood_distance.sql"
+      "200_location_privacy_neighbourhood_distance.sql",
+      "201_spec_v5_identity_privacy_social.sql",
+      "202_spec_v5_real_world_lost_paw_checkins_events.sql",
+      "203_spec_v5_health_care_support_communities.sql",
+      "204_spec_v5_session_boundary_alignment.sql"
     ],
     "edge_functions": [
       "accept-legal",

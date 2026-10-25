@@ -14,6 +14,12 @@ const base={id:'1',name:'A',species:'dog',breed:'Golden Retriever',sex:'male',bi
 const other={...base,id:'2',name:'B',sex:'female',purposes:['socialize','playmate'],energyLevel:5};
 check('common purposes',()=>assert.deepEqual(matching.commonPurposes(base,other),['socialize']));
 check('compatibility score',()=>assert.ok(matching.compatibilityScore(base,other)>=70));
+check('match score weights sum to 100',()=>assert.equal(Object.values(matching.MATCH_SCORE_WEIGHTS).reduce((a,b)=>a+b,0),100));
+check('match score perfect pair',()=>assert.equal(matching.compatibilityScore(base,{...base,id:'3',approximateDistanceKm:0.5}),100));
+check('match score breakdown components',()=>assert.deepEqual(matching.matchScoreBreakdown(base,{...base,id:'3',approximateDistanceKm:0.5}).components,{proximity:30,energy:25,size:20,character:15,health:10}));
+check('match score distance decay',()=>assert.ok(matching.compatibilityScore(base,{...base,id:'3',approximateDistanceKm:20})<matching.compatibilityScore(base,{...base,id:'3',approximateDistanceKm:2})));
+check('giant-mini dogs excluded',()=>{const r=matching.matchScoreBreakdown({...base,size:'giant'},{...base,id:'3',size:'mini'});assert.equal(r.sizeExcluded,true);assert.equal(r.score,0);});
+check('giant-mini cats not excluded',()=>assert.equal(matching.isSizeSafetyExcluded({...base,species:'cat',size:'giant'},{...base,id:'3',species:'cat',size:'mini'}),false));
 check('mating baseline eligible',()=>assert.equal(matching.matingSafetySignals(base,other).eligibleForDiscovery,true));
 check('mating vaccine guard',()=>assert.equal(matching.matingSafetySignals(base,{...other,health:{...other.health,vaccinationStatus:'incomplete'}}).eligibleForDiscovery,false));
 check('valid discovery pet',()=>assert.deepEqual(validation.validatePetForDiscovery(base),[]));

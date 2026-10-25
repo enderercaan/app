@@ -34,10 +34,10 @@
       "id": "cn_minors_safe_internet_consultation_2026_10_17",
       "scope": "CN",
       "event_kind": "consultation_deadline",
-      "trigger_date": "2026-10-17",
-      "status_as_of": "draft_not_current",
+      "trigger_date": "2026-11-25",
+      "status_as_of": "draft_not_current_rechecked_2026_10_25",
       "official_source": "https://www.cac.gov.cn/2026-09/18/c_1791482017777471.htm",
-      "note": "The 2026-09-18 instrument is an explicit consultation draft. The comment deadline is 2026-10-17; reaching that date does not make the draft law, but it requires a fresh official-source check."
+      "note": "The 2026-09-18 instrument is an explicit consultation draft. The comment deadline is 2026-10-17; reaching that date does not make the draft law, but it requires a fresh official-source check. Re-checked 2026-10-25: the CAC page and state media still present it as a consultation draft and no final State Council text has been published, so it stays non-current. Next re-check 2026-11-25."
     },
     {
       "id": "au_childrens_online_privacy_code_2026_12_10",
@@ -110,7 +110,7 @@
       "trigger_date": "2026-10-31",
       "status_as_of": "proposal_not_current_internal_recheck",
       "official_source": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
-      "note": "EU KIDS Act was proposed 2026-09-17 and is not current law. Trigger date is an internal status-recheck deadline, not a statutory effective date."
+      "note": "EU KIDS Act was proposed 2026-09-17 and is not current law. Trigger date is an internal status-recheck deadline, not a statutory effective date. Re-verified 2026-10-25 on the Commission page: adopted by the Commission 2026-09-17 as a proposal; no Parliament/Council adoption or application date stated. Still not current law."
     },
     {
       "id": "ca_bill_c34_safe_social_media_status_recheck_2026_10_31",
@@ -119,7 +119,7 @@
       "trigger_date": "2026-10-31",
       "status_as_of": "proposal_not_current_internal_recheck",
       "official_source": "https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html",
-      "note": "Bill C-34 remained proposed legislation as of 2026-09-29. Trigger date is an internal legislative-status recheck deadline."
+      "note": "Bill C-34 remained proposed legislation as of 2026-09-29. Trigger date is an internal legislative-status recheck deadline. Re-verified 2026-10-25 on canada.ca: introduced 2026-06-10; page (last modified 2026-09-08) links the first-reading text and states no royal assent or in-force date. Still proposed legislation."
     },
     {
       "id": "gb_under16_social_media_policy_status_recheck_2026_10_31",
@@ -128,7 +128,7 @@
       "trigger_date": "2026-10-31",
       "status_as_of": "announced_future_policy_not_current_internal_recheck",
       "official_source": "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
-      "note": "Government announced future under-16 social-media rules. Current OSA duties remain separate; trigger date is an internal status recheck."
+      "note": "Government announced future under-16 social-media rules. Current OSA duties remain separate; trigger date is an internal status recheck. Re-verified 2026-10-25 on gov.uk: fact sheet (last visible update 2026-09-18) still uses future tense; no bill, Act or commencement date. Still announced policy."
     },
     {
       "id": "at_under14_avms_draft_status_recheck_2026_10_31",
@@ -137,7 +137,7 @@
       "trigger_date": "2026-10-31",
       "status_as_of": "draft_not_current_internal_recheck",
       "official_source": "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Begutachtungsentwurf/Audiovisuelle-Mediendienste-Gesetz-und-KommAustria-Gesetz",
-      "note": "Austria AVMS amendment is a consultation draft with planned 2027 commencement, not current law. Trigger date is an internal status recheck."
+      "note": "Austria AVMS amendment is a consultation draft with planned 2027 commencement, not current law. Trigger date is an internal status recheck. Re-verified 2026-10-25 on oesterreich.gv.at: consultation ran 2026-07-27 to 2026-09-21; in-force date mostly 2027-01-01 expected but unconfirmed; applies to video-sharing platforms with certain features, not a blanket ban. Still a draft."
     },
     {
       "id": "es_under16_social_network_policy_status_recheck_2026_10_31",
@@ -155,7 +155,7 @@
       "trigger_date": "2026-10-31",
       "status_as_of": "proposal_not_current_internal_recheck",
       "official_source": "https://www.government.nl/latest/news/2026/09/11/dutch-government-advocates-for-eu-wide-minimum-age-for-social-media",
-      "note": "Dutch position advocates an EU-wide minimum age; it is policy/proposal evidence, not a current Dutch standalone age ban. Trigger date is an internal status recheck."
+      "note": "Dutch position advocates an EU-wide minimum age; it is policy/proposal evidence, not a current Dutch standalone age ban. Trigger date is an internal status recheck. Re-verified 2026-10-25 on government.nl: position paper sent to the Commission jointly with Spain; no binding Dutch national age rule or date. Still proposal evidence."
     },
     {
       "id": "pl_online_porn_age_verification_bill_status_recheck_2026_10_31",
@@ -173,7 +173,7 @@
       "trigger_date": "2026-10-31",
       "status_as_of": "announced_future_policy_not_current_internal_recheck",
       "official_source": "https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-requesting-meta-to-deploy-teenage-usage-restriction-in-singapore/",
-      "note": "MDDI stated on 2026-09-08 that necessary legislative amendments are planned by early 2027. Trigger date is an internal status recheck, not an effective date."
+      "note": "MDDI stated on 2026-09-08 that necessary legislative amendments are planned by early 2027. Trigger date is an internal status recheck, not an effective date. Re-verified 2026-10-25 on mddi.gov.sg: amendments still planned, not introduced; timing 'early next year' (2027)."
     },
     {
       "id": "fr_accessibility_decree_2026_883_recent_effective_recheck_2026_10_31",
@@ -182,7 +182,7 @@
       "trigger_date": "2026-10-31",
       "status_as_of": "current_recently_effective_internal_recheck",
       "official_source": "https://www.legifrance.gouv.fr/eli/decret/2026/9/23/2026-883/jo/texte",
-      "note": "Décret n° 2026-883 was published 2026-09-24 and entered into force 2026-09-25. It is current, not future law. The trigger is an internal follow-up to confirm consolidated Code de la consommation implementation/enforcement details."
+      "note": "Décret n° 2026-883 was published 2026-09-24 and entered into force 2026-09-25. It is current, not future law. The trigger is an internal follow-up to confirm consolidated Code de la consommation implementation/enforcement details. Re-verified 2026-10-25 via Le Monde du Droit (secondary; Légifrance page not fetchable): published in the JO 2026-09-24, in force the day after (2026-09-25); strengthens accessibility provisions in the Code de la consommation. Still current."
     },
     {
       "id": "pl_animal_protection_amendment_2027_07_28",
@@ -207,9 +207,9 @@
       "scope": "BR",
       "event_kind": "effective_date",
       "trigger_date": "2026-10-23",
-      "status_as_of": "future_effective_not_current",
+      "status_as_of": "current_effective_reached_2026_10_23_BR_paid_promotion_remains_fail_closed",
       "official_source": "https://bibliotecadigital.mj.gov.br/handle/1/17694",
-      "note": "Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 was published 2026-09-23. Most paid-advertising/boosting duties become effective 30 days after publication. Tailmance contextual sponsored place/event promotion must remain fail-closed in Brazil until this effective date and the required retention/transparency controls are active."
+      "note": "Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 was published 2026-09-23. Most paid-advertising/boosting duties become effective 30 days after publication. Tailmance contextual sponsored place/event promotion must remain fail-closed in Brazil until this effective date and the required retention/transparency controls are active. Effective date reached 2026-10-23 (re-confirmed 2026-10-25 against the published text); the controls are not yet verified, so Brazil paid promotion stays fail-closed."
     },
     {
       "id": "br_paid_promotion_material_relationship_tools_2026_12_22",

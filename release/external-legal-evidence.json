@@ -711,14 +711,14 @@
     "runtime_ui_19_locale_source_translation_and_linguistic_qa": {
       "status": "verified",
       "evidence_reference": [
-        "src/i18n/locales/*.ts — 19 dedicated runtime catalogs, 1653 keys each",
+        "src/i18n/locales/*.ts — 19 dedicated runtime catalogs, 1858 keys each",
         "release/i18n-critical-keys-v1.json — fixed 316 legal/payment/age/safety critical-key manifest",
         "release/i18n-runtime-invariant-allowlist-v1.json — explicit locale invariant allowlists",
         "scripts/runtime-language-quality-checks.mjs — full-catalog/key/placeholder/script/invariant QA",
         "scripts/i18n-checks.mjs — 19/19 runtime/native metadata release readiness",
         "scripts/generate-push-copy.mjs — 19/19 localized push-copy parity"
       ],
-      "note": "Runtime UI translation is source-complete for all 19 configured locales (1653/1653 keys per locale) with fixed critical-key, placeholder, target-script and explicit-invariant QA. This verifies the application UI source catalogs only; it does not represent sworn/certified legal-document translation or the separate configured-market source legal-language approval artifact.",
+      "note": "Runtime UI translation is source-complete for all 19 configured locales (1858/1858 keys per locale) with fixed critical-key, placeholder, target-script and explicit-invariant QA. This verifies the application UI source catalogs only; it does not represent sworn/certified legal-document translation or the separate configured-market source legal-language approval artifact.",
       "evidence_boundary_class": "repository_source_internal_qa",
       "repository_source_can_satisfy_alone": true,
       "required_evidence_boundary": "Repository source artifacts plus deterministic internal QA."

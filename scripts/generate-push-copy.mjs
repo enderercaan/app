@@ -12,7 +12,15 @@ const keys=[
   'notifications.item.callTitle','notifications.item.callBody',
   'notifications.item.vaccinationTitle','notifications.item.vaccinationToday',
   'notifications.item.vaccinationTomorrow','notifications.item.vaccinationDays',
-  'notifications.item.lostPetTitle','notifications.item.lostPetBody'
+  'notifications.item.lostPetTitle','notifications.item.lostPetBody',
+  'notifications.item.followRequestTitle','notifications.item.followRequestBody',
+  'notifications.item.followAcceptedTitle','notifications.item.followAcceptedBody',
+  'notifications.item.lostPetSightingTitle','notifications.item.lostPetSightingBody','notifications.item.lostPetFoundBody',
+  'notifications.item.lostPetThanksTitle','notifications.item.lostPetThanksBody',
+  'notifications.item.eventReminderTitle','notifications.item.eventReminderDay','notifications.item.eventReminderHour',
+  'notifications.item.eventCancelledTitle','notifications.item.eventCancelledBody',
+  'notifications.item.eventWaitlistTitle','notifications.item.eventWaitlistBody',
+  'notifications.item.careReminderTitle','notifications.item.supportUpdateTitle','notifications.item.supportUpdateBody'
 ];
 function catalog(locale){
  const src=fs.readFileSync(path.join(root,'src/i18n/locales',`${locale}.ts`),'utf8');

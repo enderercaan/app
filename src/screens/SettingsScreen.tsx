@@ -313,6 +313,10 @@ export function SettingsScreen({navigation}:{navigation:NativeStackNavigationPro
     <Row icon="lock" title={t('settings.mfa')} help={t('settings.mfaHelp')} onPress={()=>navigation.navigate('MfaSettings')}/>
     <Row icon="shield" title={t('settings.safetyCenter')} help={t('settings.safetyCenterHelp')} onPress={()=>navigation.navigate('SafetyCenter')}/>
     <Row icon="shield" title={t('settings.blockedPets')} help={t('settings.blockedPetsHelp')} onPress={()=>activePet&&navigation.navigate('BlockedPets',{petId:activePet.id})}/>
+    <Row icon="lock" title={t('v5.privacy.title')} help={t('v5.settings.privacyHelp')} onPress={()=>activePet&&navigation.navigate('SocialPrivacy',{petId:activePet.id})}/>
+    <Row icon="health" title={t('v5.care.title')} help={t('v5.settings.careHelp')} onPress={()=>activePet&&navigation.navigate('Care',{petId:activePet.id})}/>
+    <Row icon="person" title={t('v5.community.title')} help={t('v5.settings.communitiesHelp')} onPress={()=>activePet&&navigation.navigate('Communities',{petId:activePet.id})}/>
+    <Row icon="info" title={t('v5.support.title')} help={t('v5.settings.supportHelp')} onPress={()=>navigation.navigate('Support')}/>
     <Row icon="flag" title={t('settings.reportHistory')} help={t('settings.reportHistoryHelp')} onPress={()=>navigation.navigate('ReportHistory')}/>
     <Row icon="flag" title={t('settings.guidelines')} onPress={()=>void open(legalContext?.communityGuidelinesUrl??'')}/>
     <Row icon="person" title={t('settings.support')} help={t('settings.supportHelp')} onPress={()=>void open(legalContext?.supportUrl??'')}/>

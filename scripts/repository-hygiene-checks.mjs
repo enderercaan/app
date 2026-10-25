@@ -34,11 +34,14 @@ const bannedDirs=new Set(['node_modules','.expo','dist','coverage','__pycache__'
 const bannedNames=new Set(['.DS_Store']);
 const bannedSuffixes=['.pyc','.pyo','.log','.tmp','.bak','.swp','~'];
 const problems=[];
+const gitignoresRootNodeModules=fs.existsSync(path.join(root,'.gitignore'))&&fs.readFileSync(path.join(root,'.gitignore'),'utf8').split(/\r?\n/).some(line=>/^\/?node_modules\/?$/.test(line.trim()));
 function walk(dir){
   for(const ent of fs.readdirSync(dir,{withFileTypes:true})){
     if(ent.name==='.git')continue;
     const full=path.join(dir,ent.name); const rel=path.relative(root,full).replaceAll('\\','/');
     if(ent.isDirectory()){
+      // `npm ci` installs the lockfile into a git-ignored root node_modules/; that is install output, not a source artifact.
+      if(rel==='node_modules'&&gitignoresRootNodeModules)continue;
       if(bannedDirs.has(ent.name))problems.push(rel+'/'); else walk(full);
     }else if(bannedNames.has(ent.name)||bannedSuffixes.some(s=>ent.name.endsWith(s))) problems.push(rel);
   }
