@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance umożliwia opiekunom kotów i psów tworzenie profili zwierząt oraz korzystanie z funkcji odkrywania i interakcji społecznych. Dbaj o prawidłowe dane i bezpieczeństwo konta i nie przenoś go na inną osobę. Tailmance nie jest usługą weterynaryjną, medyczną, ratunkową, sprzedaży zwierząt ani pośrednictwa płatniczego."
+              "text": "Tailmance umożliwia opiekunom kotów i psów tworzenie profili zwierząt oraz korzystanie z funkcji odkrywania i interakcji społecznych. Dbaj o prawidłowe dane i bezpieczeństwo konta i nie przenoś go na inną osobę. Tailmance nie jest usługą medyczną, ratunkową, sprzedaży zwierząt ani pośrednictwa płatniczego."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance nie świadczy usług weterynaryjnych, diagnostycznych ani ratunkowych. Dane o szczepieniach, zdrowiu lub weryfikacji nie zastępują oceny weterynarza. W nagłym przypadku skontaktuj się z weterynarzem, służbą ratunkową lub właściwym organem."
+              "text": "Tailmance nie świadczy usług medycznych, diagnostycznych ani ratunkowych. Dane o szczepieniach, zdrowiu lub weryfikacji nie zastępują oceny specjalisty. W nagłym przypadku skontaktuj się ze służbą ratunkową lub właściwym organem."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Nie podszywaj się i nie fałszuj własności, rasy, wieku, płci, zdrowia, szczepień ani weryfikacji. Oznaczenia weryfikacji nie są gwarancją weterynaryjną."
+              "text": "Nie podszywaj się i nie fałszuj własności, rasy, wieku, płci, zdrowia, szczepień ani weryfikacji. Oznaczenia weryfikacji nie są gwarancją."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance nie jest usługą weterynaryjną ani medyczną usługą ratunkową. W nagłej sprawie zdrowia zwierzęcia skontaktuj odpowiednią pomoc weterynaryjną."
+              "text": "Tailmance nie jest usługą medyczną ani ratunkową. W nagłej sprawie zdrowia zwierzęcia skontaktuj się bezpośrednio ze służbą ratunkową."
             }
           ]
         }

@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance ajuda les persones que tenen cura de gats i gossos a crear perfils de mascotes i a utilitzar funcions de descoberta i interacció social. Mantén exacta la informació del compte, protegeix-ne la seguretat i no el transfereixis. Tailmance no és un servei veterinari, mèdic, d'emergències, de venda d'animals ni d'intermediació de pagaments."
+              "text": "Tailmance ajuda les persones que tenen cura de gats i gossos a crear perfils de mascotes i a utilitzar funcions de descoberta i interacció social. Mantén exacta la informació del compte, protegeix-ne la seguretat i no el transfereixis. Tailmance no és un servei mèdic, d'emergències, de venda d'animals ni d'intermediació de pagaments."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance no presta atenció veterinària, diagnòstic mèdic ni serveis d'emergència. Els registres de vacunació, salut o verificació de l'aplicació no substitueixen l'avaluació veterinària professional. Quan calgui, adreça't a un veterinari, servei d'emergències o autoritat competent."
+              "text": "Tailmance no presta atenció mèdica, diagnòstic ni serveis d'emergència. Els registres de vacunació, salut o verificació de l'aplicació no substitueixen l'avaluació professional. Quan calgui, adreça't a un servei d'emergències o a l'autoritat competent."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "No suplantis persones, no falsegis la propietat, raça, edat, sexe, salut, vacunació o estat de verificació d'una mascota, ni presentis documents fraudulents. Les insígnies de verificació no són garanties veterinàries."
+              "text": "No suplantis persones, no falsegis la propietat, raça, edat, sexe, salut, vacunació o estat de verificació d'una mascota, ni presentis documents fraudulents. Les insígnies de verificació no són garanties."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance no és un servei veterinari ni d'emergències sanitàries. Per a problemes urgents de salut animal, contacta directament amb un servei veterinari adequat."
+              "text": "Tailmance no és un servei mèdic ni d'emergències sanitàries. Per a problemes urgents de salut animal, contacta directament amb un servei d'emergències adequat."
             }
           ]
         }

@@ -41,6 +41,10 @@ do $$ begin
     perform public.service_apply_health_verification_attestation('cccccccc-cccc-4ccc-8ccc-cccccccccccc','neutered','ai_document_check','google_cloud_vision',repeat('c',64),now(),null);
     raise notice 'HC_AI_NEUTERED_ALLOWED';
   exception when others then raise notice 'HC_AI_NEUTERED_BLOCKED %',sqlerrm; end;
+  begin
+    perform public.service_apply_health_verification_attestation('cccccccc-cccc-4ccc-8ccc-cccccccccccc','microchip_verified','ai_document_check','google_cloud_vision',repeat('d',64),now(),null);
+    raise notice 'HC_AI_MICROCHIP_OK %',(select microchip_verified from public.pet_health_summary where pet_id='bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb');
+  exception when others then raise notice 'HC_AI_MICROCHIP_FAILED %',sqlerrm; end;
   for i in 1..14 loop perform public.service_consume_health_ai_units(64,900); end loop;
   perform public.service_consume_health_ai_units(4,900);
   begin

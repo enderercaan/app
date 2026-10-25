@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmancek katuen eta txakurren arduradunei maskoten profilak sortzen eta aurkikuntza- eta gizarte-funtzioak erabiltzen laguntzen die. Mantendu kontuko informazioa zehatza, babestu kontuaren segurtasuna eta ez eskualdatu kontua. Tailmance ez da albaitaritza-, osasun-, larrialdi-, animalien salmenta- edo ordainketa-bitartekaritza zerbitzua."
+              "text": "Tailmancek katuen eta txakurren arduradunei maskoten profilak sortzen eta aurkikuntza- eta gizarte-funtzioak erabiltzen laguntzen die. Mantendu kontuko informazioa zehatza, babestu kontuaren segurtasuna eta ez eskualdatu kontua. Tailmance ez da osasun-, larrialdi-, animalien salmenta- edo ordainketa-bitartekaritza zerbitzua."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmancek ez du albaitaritza-arretarik, diagnostiko medikorik edo larrialdi-zerbitzurik ematen. Aplikazioko txertaketa-, osasun- edo egiaztapen-erregistroek ez dute albaitari profesional baten ebaluazioa ordezkatzen. Behar denean, jo ezazu dagokion albaitariarengana, larrialdi-zerbitzura edo agintaritzarengana."
+              "text": "Tailmancek ez du arreta medikorik, diagnostiko medikorik edo larrialdi-zerbitzurik ematen. Aplikazioko txertaketa-, osasun- edo egiaztapen-erregistroek ez dute ebaluazio profesionala ordezkatzen. Behar denean, jo ezazu dagokion larrialdi-zerbitzura edo agintaritzarengana."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Ez ordezkatu beste pertsona baten nortasuna, ez faltsutu maskotaren jabetza, arraza, adina, sexua, osasuna, txertaketa edo egiaztapen-egoera, eta ez aurkeztu iruzurrezko dokumenturik. Egiaztapen-bereizgarriak ez dira albaitaritza-bermeak."
+              "text": "Ez ordezkatu beste pertsona baten nortasuna, ez faltsutu maskotaren jabetza, arraza, adina, sexua, osasuna, txertaketa edo egiaztapen-egoera, eta ez aurkeztu iruzurrezko dokumenturik. Egiaztapen-bereizgarriak ez dira bermeak."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance ez da albaitaritza- edo osasun-larrialdietako zerbitzua. Animalien osasun-arazo larrien aurrean, jarri zuzenean harremanetan albaitaritza-zerbitzu egoki batekin."
+              "text": "Tailmance ez da osasun-larrialdietako zerbitzua. Animalien osasun-arazo larrien aurrean, jarri zuzenean harremanetan larrialdi-zerbitzu egoki batekin."
             }
           ]
         }

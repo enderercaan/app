@@ -20,7 +20,7 @@ const today=()=>new Date().toISOString().slice(0,10);
 const deviceTimeZone=()=>{try{return Intl.DateTimeFormat().resolvedOptions().timeZone||'UTC'}catch{return 'UTC'}};
 
 // Spec v5.0 5.3 / 33.3: weight log, allergy card and owner-defined care reminders. The app never
-// suggests a medicine or a dose; reminders only repeat what the owner's veterinarian prescribed.
+// suggests a medicine or a dose; reminders only repeat what the owner already gives the pet.
 export function CareScreen({route}:NativeStackScreenProps<RootStackParamList,'Care'>){
   const {styles}=useThemedStyles(createStyles);
   const {t,locale}=useI18n(); const {myPets}=useAppData(); const petId=route.params.petId; const pet=myPets.find(p=>p.id===petId)??null;
@@ -36,7 +36,7 @@ export function CareScreen({route}:NativeStackScreenProps<RootStackParamList,'Ca
   const entries=weight?.entries??[];
   return <Screen><TopBar title={t('v5.care.title')} subtitle={pet.name} showBack/><ScrollView contentContainerStyle={styles.body}>
     {error?<V5Notice tone="warning" text={error}/>:null}
-    <V5Notice text={t('v5.care.vetDisclaimer')}/>
+    <V5Notice text={t('v5.care.disclaimer')}/>
     <V5Section title={t('v5.care.weightTitle')} help={t('v5.care.weightHelp')}>
       {weight?.vetAdvisory?<V5Notice tone="warning" text={t('v5.care.weightAdvisory',{percent:String(weight.changePercent31d??'')})}/>:null}
       {entries.slice(-8).reverse().map(entry=><V5Row key={entry.id} title={t('v5.care.weightValue',{kg:String(entry.weightKg)})} meta={formatDate(entry.measuredOn)}><V5Link danger label={t('v5.delete')} onPress={()=>void run(()=>deletePetWeightLog(petId,entry.id))}/></V5Row>)}

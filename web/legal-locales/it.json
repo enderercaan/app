@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance consente ai proprietari di cani e gatti di creare profili degli animali e usare funzioni di scoperta e interazione sociale. Mantieni corretti i dati, proteggi l’account e non trasferirlo. Tailmance non è un servizio veterinario, medico, di emergenza, vendita di animali o intermediazione di pagamenti."
+              "text": "Tailmance consente ai proprietari di cani e gatti di creare profili degli animali e usare funzioni di scoperta e interazione sociale. Mantieni corretti i dati, proteggi l’account e non trasferirlo. Tailmance non è un servizio medico, di emergenza, vendita di animali o intermediazione di pagamenti."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance non fornisce cure veterinarie, diagnosi o emergenza. Registri di vaccinazione, salute o verifica non sostituiscono il veterinario. In emergenza rivolgiti a veterinario, servizio di emergenza o autorità competente."
+              "text": "Tailmance non fornisce cure, diagnosi o emergenza. Registri di vaccinazione, salute o verifica non sostituiscono la valutazione professionale. In emergenza rivolgiti a un servizio di emergenza o all’autorità competente."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Non impersonare e non falsificare proprietà, razza, età, sesso, salute, vaccinazione o verifica. I badge di verifica non sono garanzie veterinarie."
+              "text": "Non impersonare e non falsificare proprietà, razza, età, sesso, salute, vaccinazione o verifica. I badge di verifica non sono garanzie."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance non è servizio veterinario né di emergenza medica. Per problemi urgenti di salute animale contatta direttamente un servizio veterinario adeguato."
+              "text": "Tailmance non è un servizio medico né di emergenza. Per problemi urgenti di salute animale contatta direttamente un servizio di emergenza adeguato."
             }
           ]
         }

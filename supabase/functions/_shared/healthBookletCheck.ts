@@ -4,21 +4,35 @@
 // the pet's species and birth date, and the evaluation date.
 // Output: approved | manual_review | rejected, a reason code and an optional "valid until" date.
 //
-// The check compares dated entries with a published schedule. It does not look up, name or approve any
-// veterinarian or clinic, does not infer breed, and is never a statement about the pet's health. Anything
-// unreadable, ambiguous, implausible or outside the rules goes to a person; nothing is approved by guessing.
+// The check compares dated entries with a published schedule and reads the microchip number against the ISO 11784
+// structure. It does not look up, name or approve any person or organisation, does not infer breed, and is never a
+// statement about the pet's health. Anything unreadable, ambiguous, implausible or outside the rules goes to a
+// person; nothing is approved by guessing.
+//
+// Rule sources (checked 2026-10-25): WSAVA Guidelines for the Vaccination of Dogs and Cats (2024) for the core
+// puppy/kitten series, final dose at 16 weeks or later and revaccination at or after 26 weeks; ESCCAP Guideline 01
+// (worm control in dogs and cats) for the quarterly adult treatment window; ISO 11784 for the 15-digit transponder code.
+// None of these sources sets a different vaccine schedule by breed, sex or body size, so those facts are accepted as
+// inputs but change no rule; a rule is added to RULES below only together with its source.
 
-export const SCHEDULE_VERSION = 'tailmance-booklet-schedule-2026-10';
+export const SCHEDULE_VERSION = 'tailmance-booklet-schedule-2026-10-25';
 
 export type OcrWord = { text: string; conf: number; x: number; y: number; h: number };
 export type OcrPage = { words: OcrWord[] };
-export type PetFacts = { species: string | null; birthDate: string | null };
+// breed, sex, size and weight are owner-entered; the check never reads them from the pages and never infers them.
+export type PetFacts = {
+  species: string | null; birthDate: string | null;
+  breed?: string | null; sex?: string | null; size?: string | null; weightKg?: number | null;
+  declaredMicrochip?: string | null;
+};
+export type BookletSignal = { signal: 'vaccination_complete' | 'microchip_verified'; confidence: number; validUntil: string | null };
 export type BookletOutcome = {
   outcome: 'approved' | 'manual_review' | 'rejected';
   reasonCode: string;
   documentConfidence: number;
   signalConfidence: number;
   validUntil: string | null;
+  signals: BookletSignal[];
 };
 
 const DAY = 86_400_000;
@@ -40,7 +54,7 @@ export function fold(value: string) {
 // Keyword lists are written in folded form (no diacritics, lower case). `prefix` entries also match longer words
 // (dewormer, dhppi); `exact` entries must stand alone as a word.
 type Lexicon = { prefix: string[]; exact: string[] };
-const LEX: Record<'rabies' | 'dogCore' | 'catCore' | 'internal' | 'external' | 'both', Lexicon> = {
+const LEX: Record<'rabies' | 'dogCore' | 'catCore' | 'internal' | 'external' | 'both' | 'microchip', Lexicon> = {
   rabies: {
     prefix: ['rabies', 'kuduz', 'tollwut', 'rabbia', 'raiva', 'hondsdolheid', 'wscieklizn', 'rabia', 'rabiata', 'raivo', 'бешенств', '狂犬', '광견', 'سعار', 'داء الكلب', 'rabie'],
     exact: ['rage', 'rab'],
@@ -61,6 +75,10 @@ const LEX: Record<'rabies' | 'dogCore' | 'catCore' | 'internal' | 'external' | '
     prefix: ['flea', 'tick', 'dis parazit', 'dis antiparazit', 'ektoparazit', 'ectoparasit', 'ektoparasit', 'zecke', 'tique', 'garrapata', 'zecca', 'frontline', 'advantix', 'bravecto', 'nexgard', 'simparica', 'credelio', 'seresto', 'scalibor', 'effitix', 'spot-on', 'spot on', 'fipronil', 'imidacloprid', 'permethrin', 'isoxazolin', 'afoxolaner', 'fluralaner', 'sarolaner', 'lotilaner', 'external parasit', 'extern parasit', 'parasites externes', 'parasitos externos', 'parassiti esterni'],
     exact: ['pire', 'kene', 'floh', 'flohe', 'puce', 'puces', 'pulga', 'pulgas', 'pulce', 'pulci', 'vlo', 'vlooien', 'teek', 'teken', 'ticks', 'fleas'],
   },
+  microchip: {
+    prefix: ['microchip', 'mikrochip', 'mikrocip', 'mikroczip', 'microcip', 'transponder', 'puce electronique', 'chip electronico', 'chip elettronico', 'elektronische chip', 'identification electronique', 'микрочип', 'чип', '芯片', '晶片', 'マイクロチップ', '마이크로칩', 'شريحة', 'ไมโครชิป', 'vi mach', 'माइक्रोचिप', 'pet chip'],
+    exact: ['chip', 'cip', 'puce'],
+  },
   both: {
     prefix: ['simparica trio', 'nexgard spectra', 'nexgard combo', 'bravecto plus', 'advocate', 'broadline', 'stronghold', 'revolution plus', 'credelio quattro', 'ic ve dis parazit', 'internal and external', 'interne und externe', 'intern en extern'],
     exact: [],
@@ -76,8 +94,11 @@ function compile(lex: Lexicon) {
 }
 const RX = {
   rabies: compile(LEX.rabies), dogCore: compile(LEX.dogCore), catCore: compile(LEX.catCore),
-  internal: compile(LEX.internal), external: compile(LEX.external), both: compile(LEX.both),
+  internal: compile(LEX.internal), external: compile(LEX.external), both: compile(LEX.both), microchip: compile(LEX.microchip),
 };
+// ISO 11784: 15 digits, optionally grouped. Longer or shorter digit runs next to a chip label are other schemes.
+const ISO_CHIP = /(?<![\d])(\d{3}[\s.-]?\d{3}[\s.-]?\d{3}[\s.-]?\d{3}[\s.-]?\d{3})(?![\d])/g;
+const OTHER_CHIP_DIGITS = /(?<![\d])(?:\d{9,14}|\d{16,})(?![\d])/;
 // A date next to one of these words is a product or lot date, not an administration or due date.
 const IGNORE_DATE_CONTEXT = /(?:exp(?:iry|ires|\.)?|skt|son kullanma|lot|batch|serie|serial|verfall|haltbar|peremption|caducidad|scad(?:enza)?|vence|mfg|prod(?:uction)?|uretim|fabric)\s*[:.]?\s*$/u;
 
@@ -165,7 +186,7 @@ function resolveDateOrder(rows: Row[]) {
   }
 }
 
-type Row = { text: string; conf: number; dates: DateItem[]; cats: Set<string> };
+type Row = { text: string; conf: number; dates: DateItem[]; cats: Set<string>; chips: string[]; otherChipDigits: boolean };
 
 function buildRows(pages: OcrPage[]): { rows: Row[]; docConf: number; words: number } {
   const rows: Row[] = [];
@@ -196,7 +217,10 @@ function buildRows(pages: OcrPage[]): { rows: Row[]; docConf: number; words: num
       const both = RX.both.test(text);
       if (both || RX.internal.test(text)) cats.add('internal');
       if (both || RX.external.test(text)) cats.add('external');
-      rows.push({ text, conf, dates: parseDates(text), cats });
+      const isChipRow = RX.microchip.test(text);
+      if (isChipRow) cats.add('microchip');
+      const chips = isChipRow ? [...text.matchAll(ISO_CHIP)].map(m => m[1].replace(/\D/g, '')) : [];
+      rows.push({ text, conf, dates: parseDates(text), cats, chips, otherChipDigits: isChipRow && !chips.length && OTHER_CHIP_DIGITS.test(text) });
     }
   }
   resolveDateOrder(rows);
@@ -299,9 +323,47 @@ function parasiteVerdict(entries: Entry[], today: number, birth: number, kind: '
   return { ok: true, reason: 'ok', until, conf };
 }
 
+type ChipVerdict = { state: 'absent' | 'ok' | 'invalid'; reason: string; conf: number };
+
+// The microchip signal is additional: a booklet without a chip entry is still judged on vaccines and parasites alone,
+// but a chip entry that contradicts itself, the pet or the ISO structure sends the booklet to a person.
+function microchipVerdict(rows: Row[], todayMs: number, birthMs: number, declared: string | null | undefined): ChipVerdict {
+  const chipRows = rows.map((row, i) => ({ row, i })).filter(({ row }) => row.cats.has('microchip'));
+  if (!chipRows.length) return { state: 'absent', reason: 'ok', conf: 0 };
+  const numbers = new Set<string>();
+  let conf = 1;
+  let otherScheme = false;
+  const dates: DateItem[] = [];
+  for (const { row, i } of chipRows) {
+    // A label whose number sits on the following row (wrapped cell) takes that row's number.
+    const next = rows[i + 1];
+    const wrapped = !row.chips.length && !row.otherChipDigits && next && next.cats.size === 0 ? next : null;
+    const parts = wrapped ? [row, wrapped] : [row];
+    for (const part of parts) {
+      for (const m of part.text.matchAll(ISO_CHIP)) numbers.add(m[1].replace(/\D/g, ''));
+      if (OTHER_CHIP_DIGITS.test(part.text)) otherScheme = true;
+      dates.push(...part.dates);
+      conf = Math.min(conf, part.conf);
+    }
+  }
+  if (!numbers.size) return otherScheme ? { state: 'invalid', reason: 'microchip_number_not_iso', conf } : { state: 'absent', reason: 'ok', conf: 0 };
+  if (numbers.size > 1) return { state: 'invalid', reason: 'microchip_numbers_inconsistent', conf };
+  const [number] = [...numbers];
+  const code = Number(number.slice(0, 3));
+  if (code === 0 || code === 999) return { state: 'invalid', reason: 'microchip_code_invalid', conf };
+  const declaredDigits = (declared ?? '').replace(/\D/g, '');
+  if (declaredDigits.length >= 9 && declaredDigits !== number) return { state: 'invalid', reason: 'microchip_number_mismatch', conf };
+  for (const d of dates) {
+    if (d.candidates.length !== 1) continue;
+    const t = d.candidates[0].getTime();
+    if (t < birthMs || t > todayMs + DAY) return { state: 'invalid', reason: 'dates_inconsistent', conf };
+  }
+  return { state: 'ok', reason: 'ok', conf };
+}
+
 export function evaluateBooklet(pages: OcrPage[], pet: PetFacts, today: Date): BookletOutcome {
   const { rows, docConf, words } = buildRows(pages);
-  const base = { documentConfidence: docConf, signalConfidence: 0, validUntil: null as string | null };
+  const base = { documentConfidence: docConf, signalConfidence: 0, validUntil: null as string | null, signals: [] as BookletSignal[] };
   if (!words) return { outcome: 'rejected', reasonCode: 'no_text_found', ...base };
   if (docConf < MIN_OCR_CONFIDENCE) return { outcome: 'rejected', reasonCode: 'ocr_confidence_too_low', ...base };
   const manual = (reasonCode: string): BookletOutcome => ({ outcome: 'manual_review', reasonCode, ...base });
@@ -327,13 +389,20 @@ export function evaluateBooklet(pages: OcrPage[], pet: PetFacts, today: Date): B
   const failed = verdicts.find(([, v]) => !v.ok);
   if (failed) return manual(failed[1].reason);
 
+  const chip = microchipVerdict(rows, todayMs, birthMs, pet.declaredMicrochip);
+  if (chip.state === 'invalid') return manual(chip.reason);
+
   const until = Math.min(...verdicts.map(([, v]) => v.until as number));
   const signalConfidence = Math.min(docConf, ...verdicts.map(([, v]) => v.conf));
+  const validUntil = new Date(until).toISOString();
+  const signals: BookletSignal[] = [{ signal: 'vaccination_complete', confidence: signalConfidence, validUntil }];
+  if (chip.state === 'ok') signals.push({ signal: 'microchip_verified', confidence: Math.min(docConf, chip.conf), validUntil: null });
   return {
     outcome: 'approved',
     reasonCode: 'all_required_entries_current',
     documentConfidence: docConf,
     signalConfidence,
-    validUntil: new Date(until).toISOString(),
+    validUntil,
+    signals,
   };
 }

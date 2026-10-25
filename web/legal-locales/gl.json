@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance axuda ás persoas responsables de gatos e cans a crear perfís de mascotas e a utilizar funcións de descubrimento e interacción social. Mantén exacta a información da conta, protexe a súa seguridade e non a transfiras. Tailmance non é un servizo veterinario, médico, de emerxencias, de venda de animais nin de intermediación de pagamentos."
+              "text": "Tailmance axuda ás persoas responsables de gatos e cans a crear perfís de mascotas e a utilizar funcións de descubrimento e interacción social. Mantén exacta a información da conta, protexe a súa seguridade e non a transfiras. Tailmance non é un servizo médico, de emerxencias, de venda de animais nin de intermediación de pagamentos."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance non presta atención veterinaria, diagnóstico médico nin servizos de emerxencia. Os rexistros de vacinación, saúde ou verificación da aplicación non substitúen unha avaliación veterinaria profesional. Cando sexa necesario, acode a un servizo veterinario, de emerxencias ou á autoridade competente."
+              "text": "Tailmance non presta atención médica, diagnóstico nin servizos de emerxencia. Os rexistros de vacinación, saúde ou verificación da aplicación non substitúen unha avaliación profesional. Cando sexa necesario, acode a un servizo de emerxencias ou á autoridade competente."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Non suplantes persoas, non falsees a titularidade, raza, idade, sexo, saúde, vacinación ou estado de verificación dunha mascota nin presentes documentos fraudulentos. As insignias de verificación non son garantías veterinarias."
+              "text": "Non suplantes persoas, non falsees a titularidade, raza, idade, sexo, saúde, vacinación ou estado de verificación dunha mascota nin presentes documentos fraudulentos. As insignias de verificación non son garantías."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance non é un servizo veterinario nin de emerxencias sanitarias. Para problemas urxentes de saúde animal, contacta directamente cun servizo veterinario axeitado."
+              "text": "Tailmance non é un servizo médico nin de emerxencias sanitarias. Para problemas urxentes de saúde animal, contacta directamente cun servizo de emerxencias axeitado."
             }
           ]
         }

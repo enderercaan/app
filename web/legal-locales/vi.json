@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance giúp chủ nuôi mèo và chó tạo hồ sơ thú cưng và sử dụng các tính năng khám phá và xã hội. Hãy giữ thông tin tài khoản chính xác, bảo vệ an toàn tài khoản và không chuyển giao tài khoản cho người khác. Tailmance không phải là dịch vụ thú y, y tế, khẩn cấp, bán động vật hay trung gian thanh toán."
+              "text": "Tailmance giúp chủ nuôi mèo và chó tạo hồ sơ thú cưng và sử dụng các tính năng khám phá và xã hội. Hãy giữ thông tin tài khoản chính xác, bảo vệ an toàn tài khoản và không chuyển giao tài khoản cho người khác. Tailmance không phải là dịch vụ y tế, khẩn cấp, bán động vật hay trung gian thanh toán."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance không cung cấp chăm sóc thú y, chẩn đoán y khoa hoặc dịch vụ khẩn cấp. Hồ sơ tiêm chủng, sức khỏe hoặc xác minh trong ứng dụng không thay thế đánh giá chuyên môn của bác sĩ thú y. Khi cần, hãy liên hệ bác sĩ thú y, dịch vụ khẩn cấp hoặc cơ quan có thẩm quyền thích hợp."
+              "text": "Tailmance không cung cấp chăm sóc y tế, chẩn đoán y khoa hoặc dịch vụ khẩn cấp. Hồ sơ tiêm chủng, sức khỏe hoặc xác minh trong ứng dụng không thay thế đánh giá chuyên môn. Khi cần, hãy liên hệ dịch vụ khẩn cấp hoặc cơ quan có thẩm quyền thích hợp."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Không mạo danh người khác, khai sai quyền sở hữu thú cưng, giống, tuổi, giới tính, sức khỏe, tiêm chủng hoặc trạng thái xác minh, hoặc nộp tài liệu giả. Huy hiệu xác minh không phải là bảo đảm thú y."
+              "text": "Không mạo danh người khác, khai sai quyền sở hữu thú cưng, giống, tuổi, giới tính, sức khỏe, tiêm chủng hoặc trạng thái xác minh, hoặc nộp tài liệu giả. Huy hiệu xác minh không phải là bảo đảm."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance không phải dịch vụ thú y hoặc y tế khẩn cấp. Đối với vấn đề sức khỏe động vật khẩn cấp, hãy liên hệ trực tiếp dịch vụ thú y phù hợp."
+              "text": "Tailmance không phải dịch vụ y tế hay cấp cứu. Đối với vấn đề sức khỏe động vật khẩn cấp, hãy liên hệ trực tiếp dịch vụ khẩn cấp phù hợp."
             }
           ]
         }

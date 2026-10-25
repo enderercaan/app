@@ -5,7 +5,7 @@ const HIGH_RISK_PATTERNS = [
 ];
 
 // Tailmance is pet-first social matching, never an animal-sales or breeder marketplace.
-// Keep these patterns phrase-based to avoid blocking ordinary discussions about prices or vets.
+// Keep these patterns phrase-based to avoid blocking ordinary discussions about prices or pet care.
 const PROHIBITED_PET_COMMERCE_PATTERNS = [
   /\b(?:puppy|kitten|dog|cat|pet)\s+(?:for\s+sale|for\s+purchase)\b/i,
   /\b(?:sell|selling)\s+(?:my\s+)?(?:puppy|kitten|dog|cat|pet)\b/i,

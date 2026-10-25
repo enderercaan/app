@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance helpt eigenaren van katten en honden om huisdierprofielen te maken en ontdek- en sociale functies te gebruiken. Houd accountgegevens correct, beveilig je account en draag het niet over. Tailmance is geen veterinaire, medische, nood-, dierenverkoop- of betalingsbemiddelingsdienst."
+              "text": "Tailmance helpt eigenaren van katten en honden om huisdierprofielen te maken en ontdek- en sociale functies te gebruiken. Houd accountgegevens correct, beveilig je account en draag het niet over. Tailmance is geen medische, nood-, dierenverkoop- of betalingsbemiddelingsdienst."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance biedt geen veterinaire zorg, diagnose of noodhulp. Vaccinatie-, gezondheids- of verificatiegegevens vervangen geen dierenarts. Neem bij nood contact op met een dierenarts, nooddienst of bevoegde autoriteit."
+              "text": "Tailmance biedt geen medische zorg, diagnose of noodhulp. Vaccinatie-, gezondheids- of verificatiegegevens vervangen geen professionele beoordeling. Neem bij nood contact op met een nooddienst of bevoegde autoriteit."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Doe je niet voor als een ander en vervals geen eigendom, ras, leeftijd, geslacht, gezondheid, vaccinatie of verificatie. Verificatiebadges zijn geen veterinaire garantie."
+              "text": "Doe je niet voor als een ander en vervals geen eigendom, ras, leeftijd, geslacht, gezondheid, vaccinatie of verificatie. Verificatiebadges zijn geen garantie."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance is geen veterinaire of medische nooddienst. Neem bij urgente diergezondheid rechtstreeks contact op met passende veterinaire hulp."
+              "text": "Tailmance is geen medische nooddienst. Neem bij urgente diergezondheid rechtstreeks contact op met een passende nooddienst."
             }
           ]
         }

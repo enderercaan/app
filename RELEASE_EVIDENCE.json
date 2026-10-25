@@ -10,7 +10,7 @@
     "implementation": "Yekta Özel",
     "overall_project": "Yekta Özel"
   },
-  "generated_at": "2026-10-25T18:52:46.489Z",
+  "generated_at": "2026-10-25T21:13:11.215Z",
   "automated": {
     "domain": {
       "passed": 27,
@@ -46,7 +46,7 @@
       "status": "PASS"
     },
     "project_lint": {
-      "text_files": 2416,
+      "text_files": 2419,
       "status": "PASS"
     },
     "i18n": {
@@ -72,7 +72,7 @@
         "th",
         "vi"
       ],
-      "runtime_catalog_key_count": 1907,
+      "runtime_catalog_key_count": 1915,
       "source_used_dynamic_key_count": 1604,
       "production_hardcoded_turkish_markers": 0,
       "visible_literal_text_markers": 0,
@@ -161,12 +161,12 @@
     "legal_temporal": {
       "structured_future_effective_states": 4,
       "high_volatility_watch_items": 22,
-      "as_of": "2026-10-25",
+      "as_of": "2026-10-26",
       "status": "PASS_CURRENT_AS_OF_DATE"
     },
     "migration_release": {
       "first": 1,
-      "last": 205,
+      "last": 207,
       "contiguous": true,
       "status": "PASS"
     },
@@ -269,7 +269,7 @@
     }
   },
   "structure": {
-    "migration_count": 205,
+    "migration_count": 207,
     "migrations": [
       "001_schema.sql",
       "002_security_and_rpcs.sql",
@@ -475,7 +475,9 @@
       "202_spec_v5_real_world_lost_paw_checkins_events.sql",
       "203_spec_v5_health_care_support_communities.sql",
       "204_spec_v5_session_boundary_alignment.sql",
-      "205_health_document_check_without_veterinarian_signals.sql"
+      "205_health_document_check_without_veterinarian_signals.sql",
+      "206_ai_document_check_microchip_and_no_vet_places.sql",
+      "207_configured_27_legal_text_hash_sync.sql"
     ],
     "edge_functions": [
       "accept-legal",

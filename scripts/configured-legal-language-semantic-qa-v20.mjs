@@ -113,9 +113,9 @@ const migration133=fs.readFileSync('supabase/migrations/133_configured_27_intern
 const seedPattern=/\('([A-Z]{2})','([^']+)','2026-10-01','([^']+)','([0-9a-f]{64})','([^']+)','([0-9a-f]{64})',(\d+),'complete_internal_reviewed'/g;
 const bindingSeeds=new Map([...migration133.matchAll(seedPattern)].map(m=>[`${m[1]}/${m[2]}`,{source_file:m[3],source_sha256:m[4],public_file:m[5],public_sha256:m[6],official_source_count:Number(m[7])}]));
 assert.equal(bindingSeeds.size,34,'migration 133 must preserve the 34 required binding country-language seed rows');
-const migration140=fs.readFileSync('supabase/migrations/140_configured_27_current_law_language_hash_sync.sql','utf8');
+const migration207=fs.readFileSync('supabase/migrations/207_configured_27_legal_text_hash_sync.sql','utf8');
 const allSeedPattern=/\('([A-Z]{2})','([^']+)','2026-10-01','([^']+)','([0-9a-f]{64})','([^']+)','([0-9a-f]{64})',(\d+),'complete_internal_reviewed','([^']+)',(true|false)/g;
-const allSeeds=new Map([...migration140.matchAll(allSeedPattern)].map(m=>[`${m[1]}/${m[2]}`,{source_file:m[3],source_sha256:m[4],public_file:m[5],public_sha256:m[6],official_source_count:Number(m[7]),route_role:m[8],required_binding_locale:m[9]==='true'}]));
+const allSeeds=new Map([...migration207.matchAll(allSeedPattern)].map(m=>[`${m[1]}/${m[2]}`,{source_file:m[3],source_sha256:m[4],public_file:m[5],public_sha256:m[6],official_source_count:Number(m[7]),route_role:m[8],required_binding_locale:m[9]==='true'}]));
 assert.equal(allSeeds.size,594,'latest migration 140 must synchronize all 594 country-language supplement rows');
 for(const [cc,market] of Object.entries(manifest.markets)) for(const [locale,route] of Object.entries(market.routes)){
   assert.deepEqual(allSeeds.get(`${cc}/${locale}`),{source_file:route.source_file,source_sha256:route.source_sha256,public_file:route.public_file,public_sha256:route.public_sha256,official_source_count:route.official_source_count,route_role:route.route_role,required_binding_locale:route.required_binding_locale},`${cc}/${locale}: runtime all-language seed must equal frozen supplement manifest`);

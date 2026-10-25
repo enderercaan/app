@@ -20,7 +20,7 @@ const FULL = [
 let passed = 0;
 const ok = (name, fn) => { fn(); passed++; };
 
-ok('schedule version is pinned', () => assert.equal(SCHEDULE_VERSION, 'tailmance-booklet-schedule-2026-10'));
+ok('schedule version is pinned', () => assert.equal(SCHEDULE_VERSION, 'tailmance-booklet-schedule-2026-10-25'));
 ok('fold removes diacritics and Turkish dotless i', () => assert.equal(fold('KUDUZ Aşısı İç Parazit ıı'), 'kuduz asisi ic parazit ii'));
 
 ok('complete current booklet is approved and expires at the earliest date', () => {
@@ -115,10 +115,58 @@ ok('product name wrapping onto the row above its dates is joined', () => {
   const rows = ['Rabies', '14.03.2026 14.03.2027', 'DHPPi 20.03.2026 20.03.2027', 'Deworming 02.09.2026', 'Flea 15.09.2026'];
   assert.equal(evaluateBooklet([page(rows)], dog, TODAY).outcome, 'approved');
 });
-ok('the check never mentions or depends on a veterinarian', () => {
-  const r = evaluateBooklet([page([...FULL, 'Veterinarian Dr Example Clinic stamp'])], dog, TODAY);
+ok('stamps and signatures on the pages change nothing and are not returned', () => {
+  const r = evaluateBooklet([page([...FULL, 'Stamp Dr Example Clinic signature'])], dog, TODAY);
   assert.equal(r.outcome, 'approved');
-  assert.deepEqual(Object.keys(r).sort(), ['documentConfidence', 'outcome', 'reasonCode', 'signalConfidence', 'validUntil']);
+  assert.deepEqual(Object.keys(r).sort(), ['documentConfidence', 'outcome', 'reasonCode', 'signalConfidence', 'signals', 'validUntil']);
+});
+ok('a booklet without a chip entry yields the vaccination signal only', () => {
+  const r = evaluateBooklet([page(FULL)], dog, TODAY);
+  assert.deepEqual(r.signals.map(x => x.signal), ['vaccination_complete']);
+});
+
+const CHIP = 'Microchip 985 112 345 678 901 12.01.2022';
+ok('a consistent ISO chip number adds the microchip signal without an expiry', () => {
+  const r = evaluateBooklet([page([...FULL, CHIP])], dog, TODAY);
+  assert.equal(r.outcome, 'approved');
+  assert.deepEqual(r.signals.map(x => x.signal), ['vaccination_complete', 'microchip_verified']);
+  assert.equal(r.signals[1].validUntil, null);
+  assert.ok(r.signals[1].confidence > 0.85);
+});
+ok('dotted, plain and wrapped chip numbers are read', () => {
+  for (const rows of [[...FULL, 'Mikroçip no: 985.112.345.678.901'], [...FULL, 'Transponder 985112345678901'], [...FULL, 'Chip', '985 112 345 678 901']]) {
+    assert.deepEqual(evaluateBooklet([page(rows)], dog, TODAY).signals.map(x => x.signal), ['vaccination_complete', 'microchip_verified']);
+  }
+});
+ok('two different chip numbers go to a person', () => {
+  const r = evaluateBooklet([page([...FULL, CHIP, 'Microchip 985 112 345 678 902'])], dog, TODAY);
+  assert.equal(r.outcome, 'manual_review'); assert.equal(r.reasonCode, 'microchip_numbers_inconsistent');
+});
+ok('a test code or a non-ISO number goes to a person', () => {
+  assert.equal(evaluateBooklet([page([...FULL, 'Microchip 999 112 345 678 901'])], dog, TODAY).reasonCode, 'microchip_code_invalid');
+  assert.equal(evaluateBooklet([page([...FULL, 'Microchip 1234567890'])], dog, TODAY).reasonCode, 'microchip_number_not_iso');
+});
+ok('a chip number that differs from the owner-entered one goes to a person', () => {
+  const same = evaluateBooklet([page([...FULL, CHIP])], { ...dog, declaredMicrochip: '985112345678901' }, TODAY);
+  assert.equal(same.signals.length, 2);
+  const other = evaluateBooklet([page([...FULL, CHIP])], { ...dog, declaredMicrochip: '985112345678999' }, TODAY);
+  assert.equal(other.outcome, 'manual_review'); assert.equal(other.reasonCode, 'microchip_number_mismatch');
+});
+ok('a chip implant date before birth or in the future is inconsistent', () => {
+  assert.equal(evaluateBooklet([page([...FULL, 'Microchip 985 112 345 678 901 12.01.2019'])], dog, TODAY).reasonCode, 'dates_inconsistent');
+  assert.equal(evaluateBooklet([page([...FULL, 'Microchip 985 112 345 678 901 12.01.2029'])], dog, TODAY).reasonCode, 'dates_inconsistent');
+});
+ok('a chip entry never rescues a booklet whose vaccines are not current', () => {
+  const rows = [...FULL]; rows[1] = 'Rabies Nobivac 14.03.2025 14.03.2026';
+  const r = evaluateBooklet([page([...rows, CHIP])], dog, TODAY);
+  assert.equal(r.outcome, 'manual_review'); assert.equal(r.signals.length, 0);
+});
+ok('breed, sex, size and weight are accepted but change no schedule rule', () => {
+  const plain = evaluateBooklet([page(FULL)], dog, TODAY);
+  for (const facts of [{ breed: 'Rottweiler', sex: 'male', size: 'large', weightKg: 45 }, { breed: 'Chihuahua', sex: 'female', size: 'mini', weightKg: 2.1 }]) {
+    const r = evaluateBooklet([page(FULL)], { ...dog, ...facts }, TODAY);
+    assert.deepEqual([r.outcome, r.reasonCode, r.validUntil], [plain.outcome, plain.reasonCode, plain.validUntil]);
+  }
 });
 
 console.log(`health-booklet-check-tests: ${passed} scenarios PASS (${SCHEDULE_VERSION})`);

@@ -8,8 +8,9 @@ import { evaluateBooklet, SCHEDULE_VERSION, type OcrPage, type OcrWord } from '.
 
 // Vaccination-booklet check. Every uploaded page of a pet's booklet is read by Google Cloud Vision (document text
 // detection, EU endpoint) and the dated entries are compared with the published schedule in _shared/healthBookletCheck.ts.
-// The check approves, sends to a person, or rejects unreadable pages. It never looks up or names a veterinarian or clinic,
-// never infers breed, and its result is a document check, not a health assessment.
+// The check approves, sends to a person, or rejects unreadable pages. It reads the vaccine, parasite-treatment and
+// microchip entries only, never looks up or names any person or organisation, never infers breed, sex or size
+// (they are owner-entered), and its result is a document check, not a health assessment.
 const PROVIDER_TIMEOUT_MS = 30_000;
 const MAX_RESPONSE_BYTES = 8_000_000;
 const MAX_BOOKLET_PAGES = 12;
@@ -100,7 +101,8 @@ Deno.serve(async req => {
   for (const [petId, documentIds] of byPet) {
     let reserved = 0;
     try {
-      const { data: pet } = await supabase.from('pets').select('species,birth_date').eq('id', petId).maybeSingle();
+      const { data: pet } = await supabase.from('pets').select('species,birth_date,breed,sex,size,weight_kg').eq('id', petId).maybeSingle();
+      const { data: privateRow } = await supabase.from('pet_private').select('microchip_number').eq('pet_id', petId).maybeSingle();
       const { data: pages } = await supabase.from('health_documents').select('id,storage_path').eq('pet_id', petId).eq('document_type', 'health_record').order('created_at', { ascending: true }).limit(MAX_BOOKLET_PAGES);
       if (!pages?.length) throw new Error('health_ai_no_pages');
 
@@ -154,10 +156,19 @@ Deno.serve(async req => {
       }
 
       const today = new Date();
-      const result = evaluateBooklet(ocrPages, { species: pet?.species ?? null, birthDate: pet?.birth_date ?? null }, today);
+      const result = evaluateBooklet(ocrPages, {
+        species: pet?.species ?? null, birthDate: pet?.birth_date ?? null,
+        breed: pet?.breed ?? null, sex: pet?.sex ?? null, size: pet?.size ?? null, weightKg: pet?.weight_kg ?? null,
+        declaredMicrochip: privateRow?.microchip_number ?? null,
+      }, today);
       const referenceHash = await sha256Hex(`${providerCode}|${SCHEDULE_VERSION}|${pages.map((p: { id: string }) => p.id).join(',')}|${today.toISOString().slice(0, 10)}`);
-      const signals = result.outcome === 'approved' && result.validUntil
-        ? [{ signal: 'vaccination_complete', confidence: Math.round(result.signalConfidence * 1e5) / 1e5, verifiedAt: today.toISOString(), expiresAt: result.validUntil }]
+      const signals = result.outcome === 'approved'
+        ? result.signals.map(item => ({
+          signal: item.signal,
+          confidence: Math.round(item.confidence * 1e5) / 1e5,
+          verifiedAt: today.toISOString(),
+          ...(item.validUntil ? { expiresAt: item.validUntil } : {}),
+        }))
         : [];
       const latencyMs = Math.min(Date.now() - started, 120000);
       for (const documentId of documentIds) {

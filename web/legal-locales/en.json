@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance helps cat and dog owners create pet profiles and use discovery and social features. Keep account information accurate, protect account security, and do not transfer your account. Tailmance is not a veterinary, medical, emergency, pet-sale, or payment-intermediation service."
+              "text": "Tailmance helps cat and dog owners create pet profiles and use discovery and social features. Keep account information accurate, protect account security, and do not transfer your account. Tailmance is not a medical, emergency, pet-sale, or payment-intermediation service."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance does not provide veterinary care, medical diagnosis, or emergency services. Vaccination, health, or verification records in the app do not replace professional veterinary assessment. Seek an appropriate veterinarian, emergency service, or authority when needed."
+              "text": "Tailmance does not provide medical care, diagnosis, or emergency services. Vaccination, health, or verification records in the app do not replace professional assessment. Seek an appropriate emergency service or authority when needed."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Do not impersonate people, misrepresent pet ownership, breed, age, sex, health, vaccination, or verification status, or submit fraudulent documents. Verification badges are not veterinary guarantees."
+              "text": "Do not impersonate people, misrepresent pet ownership, breed, age, sex, health, vaccination, or verification status, or submit fraudulent documents. Verification badges are not guarantees."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance is not a veterinary or emergency health service. For urgent animal-health concerns, contact an appropriate veterinary service directly."
+              "text": "Tailmance is not a medical or emergency health service. For urgent animal-health concerns, contact an appropriate emergency service directly."
             }
           ]
         }

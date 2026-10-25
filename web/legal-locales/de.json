@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance ermöglicht Katzen- und Hundehaltern Tierprofile, Entdeckung und soziale Interaktionen. Halte Kontodaten richtig, schütze dein Konto und übertrage es nicht. Tailmance ist kein tierärztlicher, medizinischer, Notfall-, Tierverkaufs- oder Zahlungsdienst."
+              "text": "Tailmance ermöglicht Katzen- und Hundehaltern Tierprofile, Entdeckung und soziale Interaktionen. Halte Kontodaten richtig, schütze dein Konto und übertrage es nicht. Tailmance ist kein medizinischer, Notfall-, Tierverkaufs- oder Zahlungsdienst."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance bietet keine tierärztliche Versorgung, Diagnose oder Notfallhilfe. Impf-, Gesundheits- oder Verifikationsdaten ersetzen keine tierärztliche Beurteilung. Wende dich bei Notfällen an geeignete Tierärzte, Notdienste oder Behörden."
+              "text": "Tailmance bietet keine medizinische Versorgung, Diagnose oder Notfallhilfe. Impf-, Gesundheits- oder Verifikationsdaten ersetzen keine fachliche Beurteilung. Wende dich bei Notfällen an geeignete Notdienste oder Behörden."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Identitätsvortäuschung sowie falsche Angaben zu Eigentum, Rasse, Alter, Geschlecht, Gesundheit, Impfung oder Verifikation sind verboten. Verifikationszeichen sind keine tierärztliche Garantie."
+              "text": "Identitätsvortäuschung sowie falsche Angaben zu Eigentum, Rasse, Alter, Geschlecht, Gesundheit, Impfung oder Verifikation sind verboten. Verifikationszeichen sind keine Garantie."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance ist kein tierärztlicher oder medizinischer Notfalldienst. Wende dich bei dringenden Tiergesundheitsproblemen direkt an geeignete tierärztliche Hilfe."
+              "text": "Tailmance ist kein medizinischer Notfalldienst. Wende dich bei dringenden Tiergesundheitsproblemen direkt an einen geeigneten Notdienst."
             }
           ]
         }

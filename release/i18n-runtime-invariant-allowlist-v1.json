@@ -48,7 +48,11 @@
       "v5.care.weightValue",
       "v5.care.kind.vitamin",
       "v5.community.role.moderator",
-      "v5.size.mini"
+      "v5.size.mini",
+      "places.category.park",
+      "places.category.cafe",
+      "places.category.restaurant",
+      "places.category.hotel"
     ],
     "es": [
       "nav.feed",
@@ -71,7 +75,8 @@
       "petCard.superLike",
       "petProfile.matchTitle",
       "v5.care.weightValue",
-      "v5.size.mini"
+      "v5.size.mini",
+      "places.category.cafe"
     ],
     "fr": [
       "nav.messages",
@@ -116,7 +121,9 @@
       "v5.support.category.bug",
       "v5.support.messageLabel",
       "v5.community.descriptionLabel",
-      "v5.size.mini"
+      "v5.size.mini",
+      "places.category.cafe",
+      "places.category.restaurant"
     ],
     "pt-BR": [
       "nav.feed",
@@ -141,7 +148,8 @@
       "petCard.superLike",
       "petProfile.matchTitle",
       "v5.care.weightValue",
-      "v5.size.mini"
+      "v5.size.mini",
+      "places.category.cafe"
     ],
     "it": [
       "auth.password",
@@ -222,7 +230,11 @@
       "v5.support.status.open",
       "v5.community.title",
       "v5.community.role.moderator",
-      "v5.size.mini"
+      "v5.size.mini",
+      "places.category.cafe",
+      "places.category.restaurant",
+      "places.category.trainer",
+      "places.category.hotel"
     ],
     "pl": [
       "premium.title",

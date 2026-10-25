@@ -11,7 +11,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance membantu pemilik kucing dan anjing membuat profil hewan peliharaan serta menggunakan fitur penemuan dan sosial. Pastikan informasi akun tetap akurat, lindungi keamanan akun, dan jangan memindahtangankan akun Anda. Tailmance bukan layanan veteriner, medis, darurat, penjualan hewan, atau perantara pembayaran."
+              "text": "Tailmance membantu pemilik kucing dan anjing membuat profil hewan peliharaan serta menggunakan fitur penemuan dan sosial. Pastikan informasi akun tetap akurat, lindungi keamanan akun, dan jangan memindahtangankan akun Anda. Tailmance bukan layanan medis, darurat, penjualan hewan, atau perantara pembayaran."
             }
           ]
         },
@@ -74,7 +74,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance tidak menyediakan perawatan veteriner, diagnosis medis, atau layanan darurat. Catatan vaksinasi, kesehatan, atau verifikasi di aplikasi tidak menggantikan penilaian veteriner profesional. Hubungi dokter hewan, layanan darurat, atau otoritas yang sesuai bila diperlukan."
+              "text": "Tailmance tidak menyediakan perawatan medis, diagnosis medis, atau layanan darurat. Catatan vaksinasi, kesehatan, atau verifikasi di aplikasi tidak menggantikan penilaian profesional. Hubungi layanan darurat atau otoritas yang sesuai bila diperlukan."
             }
           ]
         },
@@ -374,7 +374,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Jangan menyamar sebagai orang lain, memberikan keterangan palsu tentang kepemilikan hewan, ras, usia, jenis kelamin, kesehatan, vaksinasi, atau status verifikasi, atau mengirim dokumen palsu. Lencana verifikasi bukan jaminan veteriner."
+              "text": "Jangan menyamar sebagai orang lain, memberikan keterangan palsu tentang kepemilikan hewan, ras, usia, jenis kelamin, kesehatan, vaksinasi, atau status verifikasi, atau mengirim dokumen palsu. Lencana verifikasi bukan jaminan."
             }
           ]
         },
@@ -833,7 +833,7 @@
           "blocks": [
             {
               "type": "p",
-              "text": "Tailmance bukan layanan veteriner atau kesehatan darurat. Untuk masalah kesehatan hewan yang mendesak, hubungi layanan veteriner yang sesuai secara langsung."
+              "text": "Tailmance bukan layanan medis atau kesehatan darurat. Untuk masalah kesehatan hewan yang mendesak, hubungi layanan darurat yang sesuai secara langsung."
             }
           ]
         }
