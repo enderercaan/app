@@ -104,7 +104,7 @@
         "https://developer.android.com/developer-verification/guides",
         "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
         "https://support.google.com/android-developer-console/answer/16561738?hl=en",
-        "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+        "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
         "https://sso.agc.gov.sg/Act/CONS1963",
         "https://sso.agc.gov.sg/SL/OSRAA2025-S400-2026?DocDate=20260625",
         "https://sso.agc.gov.sg/Act/CPFTA2003",
@@ -119,7 +119,7 @@
       ]
     }
   ],
-  "official_source_review_sha256": "02cba30dbdc63da3e8212b2a0a0d5a444001cea478a14eaffd40dae2fd6b24f4",
+  "official_source_review_sha256": "4ffc55f996e5232363caae306c796bf61227d1d3199bae9fcfe8e42d39f730a2",
   "official_source_count": 54,
   "official_topic_families": 22,
   "reviewed_legal_frameworks": [

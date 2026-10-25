@@ -190,8 +190,8 @@
         "evidence_reference": [
           "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
           "https://uaelegislation.gov.ae/en/legislations/1455",
-          "https://u.ae/en/information-and-services/business/ecommerce/",
-          "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+          "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection",
+          "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
           "https://uaelegislation.gov.ae/en/news/uae-government-issues-a-federal-decree-law-on-child-digital-safety",
           "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
           "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en"
@@ -218,7 +218,7 @@
           "https://www.uaelegislation.gov.ae/en/legislations/1972/download",
           "https://tdra.gov.ae/en/tdra-initiatives/marketing-short-message-service",
           "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
-          "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+          "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
           "https://uaelegislation.gov.ae/en/news/uae-government-issues-a-federal-decree-law-on-child-digital-safety",
           "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
           "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en"
@@ -720,10 +720,9 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+          "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
           "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
-          "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://developer.apple.com/news/?id=f5zj08ey",
           "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -745,7 +744,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://www.oaic.gov.au/privacy/notifiable-data-breaches/quick-reference-guide-for-responding-to-data-breaches",
@@ -773,9 +771,8 @@
           "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-8-app-8-cross-border-disclosure-of-personal-information",
           "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
-          "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+          "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://developer.apple.com/news/?id=f5zj08ey",
           "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -798,10 +795,9 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+          "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
           "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
-          "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://developer.apple.com/news/?id=f5zj08ey",
           "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -839,10 +835,9 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+          "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
           "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
-          "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://developer.apple.com/news/?id=f5zj08ey",
           "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -862,7 +857,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance"
         ],
@@ -883,7 +877,6 @@
           "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-8-app-8-cross-border-disclosure-of-personal-information",
           "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance"
         ],
@@ -936,7 +929,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme",
@@ -966,7 +958,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance"
         ],
@@ -984,7 +975,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://www.legislation.gov.au/C2004A00109/latest/text"
@@ -1001,7 +991,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance"
         ],
@@ -1019,7 +1008,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://www.oaic.gov.au/privacy/notifiable-data-breaches/quick-reference-guide-for-responding-to-data-breaches",
@@ -1039,7 +1027,6 @@
         },
         "evidence_reference": [
           "https://www.legislation.gov.au/C2024A00127/latest/text",
-          "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
           "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
           "https://www.esafety.gov.au/industry/regulatory-guidance",
           "https://www.legislation.gov.au/C2004A00109/latest/text"
@@ -7477,7 +7464,7 @@
           "https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act/data-protection-obligations",
           "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
           "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
-          "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+          "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
           "https://developer.android.com/developer-verification",
           "https://developer.android.com/developer-verification/guides",
           "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -7523,7 +7510,7 @@
           "https://www.pdpc.gov.sg/report-data-breach/before-you-report-a-data-breach-3/info",
           "https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act/data-protection-obligations",
           "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/keeping-records",
-          "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+          "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
           "https://developer.android.com/developer-verification",
           "https://developer.android.com/developer-verification/guides",
           "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -7683,7 +7670,7 @@
         "evidence_reference": [
           "https://mdes.go.th/news/detail/11499-%E0%B8%A3%E0%B8%A1%E0%B8%A7-%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B5-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1--MRRM--%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%99--M360-ASEAN-2026--%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%99",
           "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
-          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
+          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
         ],
         "source_evidence_present": true,
         "status": "screened_from_canonical_topics_source_evidence_complete"
@@ -7699,7 +7686,7 @@
         },
         "evidence_reference": [
           "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
-          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
+          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
         ],
         "source_evidence_present": true,
         "status": "screened_from_canonical_topics_source_evidence_complete"
@@ -7825,7 +7812,7 @@
           "https://www.rd.go.th/english/37741.html",
           "https://www.rd.go.th/65244.html",
           "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-          "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
+          "https://legal.dld.go.th/index.php/th",
           "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
           "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
           "https://developer.android.com/developer-verification",
@@ -7853,10 +7840,10 @@
           "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
           "https://gppc.pdpc.or.th/portfolio/operational-training-installation-course-1-content-4/",
           "https://register-gppc-plus.pdpc.or.th/",
-          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
           "https://www.pdpc.or.th/",
           "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-          "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
+          "https://legal.dld.go.th/index.php/th",
           "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
           "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
           "https://developer.android.com/developer-verification",
@@ -7921,7 +7908,7 @@
         },
         "evidence_reference": [
           "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
-          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
+          "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
         ],
         "source_evidence_present": true,
         "status": "screened_from_canonical_topics_source_evidence_complete"
@@ -8580,7 +8567,7 @@
           "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
           "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856",
           "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
           "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
           "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business"
         ],
@@ -8598,7 +8585,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
           "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
           "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business"
         ],
@@ -8663,7 +8650,7 @@
           "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
           "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856",
           "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
           "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
           "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
           "https://www.nysenate.gov/legislation/laws/GBS/349"
@@ -8724,7 +8711,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
         ],
         "source_evidence_present": true,
         "status": "screened_from_canonical_topics_source_evidence_complete"
@@ -8743,7 +8730,7 @@
           "https://www.ftc.gov/legal-library/browse/enforcement-policy-statement-promoting-adoption-age-verification-technology",
           "https://cppa.ca.gov/regulations/ccpa_updates.html",
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
         ],
         "source_evidence_present": true,
         "status": "screened_from_canonical_topics_source_evidence_complete"
@@ -8795,7 +8782,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
           "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
           "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
           "https://oag.ca.gov/privacy/ccpa",
@@ -8825,7 +8812,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
         ],
         "source_evidence_present": true,
         "status": "screened_from_canonical_topics_source_evidence_complete"
@@ -8841,7 +8828,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
           "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
           "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
           "https://www.nysenate.gov/legislation/laws/GBS/349"
@@ -8858,7 +8845,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
         ],
         "source_evidence_present": true,
         "status": "screened_from_canonical_topics_source_evidence_complete"
@@ -8874,7 +8861,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
           "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
           "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business"
         ],
@@ -8892,7 +8879,7 @@
         },
         "evidence_reference": [
           "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-          "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+          "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
           "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
           "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
           "https://www.nysenate.gov/legislation/laws/GBS/349"

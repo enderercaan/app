@@ -94,20 +94,20 @@
         "https://uaelegislation.gov.ae/en/legislations/1137",
         "https://www.difc.com/Business/registrars-and-commissioners/commissioner-of-data-protection",
         "https://www.adgm.com/operating-in-adgm/office-of-data-protection/guidance",
-        "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+        "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
         "https://uaelegislation.gov.ae/en/news/uae-government-issues-a-federal-decree-law-on-child-digital-safety",
         "https://tdra.gov.ae/en/tdra-initiatives/marketing-short-message-service",
         "https://uaelegislation.gov.ae/en/policy/details/telemarketing-regulation-in-the-uae",
         "https://tdra.gov.ae/en/FAQs",
         "https://uaelegislation.gov.ae/en/policy/details/the-national-digital-accessibility-policy",
-        "https://u.ae/en/information-and-services/business/ecommerce/",
+        "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection",
         "https://uaelegislation.gov.ae/en/legislations/1534",
         "https://www.uaelegislation.gov.ae/en/legislations/1972/download",
         "https://beta.uaeiec.gov.ae/en-us/"
       ]
     }
   ],
-  "official_source_review_sha256": "9530dee5e968dc4f09adb67bfa3e8a470dff1035c8a5d33892a7f7eac717fa82",
+  "official_source_review_sha256": "ec2c4331df6a224eaf669811597a53ab1d7c906c8acc41b220557fdefcb3db14",
   "official_source_count": 41,
   "official_topic_families": 22,
   "reviewed_legal_frameworks": [

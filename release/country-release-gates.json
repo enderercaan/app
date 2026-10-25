@@ -138,8 +138,8 @@
         "https://tdra.gov.ae/en/FAQs",
         "https://tdra.gov.ae/en/tdra-initiatives/marketing-short-message-service",
         "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
-        "https://u.ae/en/information-and-services/business/ecommerce/",
-        "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+        "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection",
+        "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
         "https://uaelegislation.gov.ae/en/legislations/1137",
         "https://uaelegislation.gov.ae/en/legislations/1455",
         "https://uaelegislation.gov.ae/en/legislations/1534",
@@ -290,7 +290,7 @@
           "review_required": false,
           "evidence_reference": [
             "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
-            "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+            "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
             "https://uaelegislation.gov.ae/en/news/uae-government-issues-a-federal-decree-law-on-child-digital-safety",
             "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
             "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en"
@@ -328,7 +328,7 @@
           "review_required": false,
           "evidence_reference": [
             "https://uaelegislation.gov.ae/en/legislations/1455",
-            "https://u.ae/en/information-and-services/business/ecommerce/"
+            "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection"
           ],
           "source_approval": "approved"
         },
@@ -368,7 +368,7 @@
       },
       "regulatory_sources": [
         "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
-        "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+        "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
         "https://uaelegislation.gov.ae/en/news/uae-government-issues-a-federal-decree-law-on-child-digital-safety",
         "https://uaelegislation.gov.ae/en/legislations/3912",
         "https://uaelegislation.gov.ae/en/legislations/4506",
@@ -381,7 +381,7 @@
         "https://uaelegislation.gov.ae/en/legislations/1534",
         "https://www.difc.com/Business/registrars-and-commissioners/commissioner-of-data-protection",
         "https://www.adgm.com/operating-in-adgm/office-of-data-protection/guidance",
-        "https://u.ae/en/information-and-services/business/ecommerce/"
+        "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection"
       ],
       "subnational_review_required": true,
       "subnational_review": {
@@ -1069,7 +1069,6 @@
         "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
         "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
         "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
-        "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
         "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
         "https://developer.apple.com/news/?id=f5zj08ey",
         "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -1102,10 +1101,9 @@
           "review_required": false,
           "evidence_reference": [
             "https://www.legislation.gov.au/C2024A00127/latest/text",
-            "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+            "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
             "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
             "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
-            "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
             "https://www.esafety.gov.au/industry/regulatory-guidance",
             "https://developer.apple.com/news/?id=f5zj08ey",
             "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -1118,7 +1116,6 @@
           "review_required": false,
           "evidence_reference": [
             "https://www.legislation.gov.au/C2024A00127/latest/text",
-            "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
             "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
             "https://www.esafety.gov.au/industry/regulatory-guidance"
           ],
@@ -1320,7 +1317,7 @@
         "https://www.legislation.gov.au/C2021A00076/latest/text",
         "https://www.agriculture.gov.au/animal/welfare/state",
         "https://www.legislation.gov.au/C2024A00127/latest/text",
-        "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+        "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
         "https://www.legislation.gov.au/C2004A00109/latest/text",
         "https://www.acma.gov.au/avoid-sending-spam",
         "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services",
@@ -9977,7 +9974,7 @@
       "reviewed_at": "2026-10-01",
       "reviewer": "Tailmance internal official-source legal review",
       "evidence_reference": [
-        "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+        "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
         "https://developer.android.com/developer-verification",
         "https://developer.android.com/developer-verification/guides",
         "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -10131,7 +10128,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "review_required": false,
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/"
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/"
           ],
           "source_approval": "approved"
         },
@@ -10139,7 +10136,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "review_required": false,
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/"
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/"
           ],
           "source_approval": "approved"
         },
@@ -10147,7 +10144,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "review_required": false,
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/"
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/"
           ],
           "source_approval": "approved"
         },
@@ -10163,7 +10160,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "review_required": false,
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
             "https://developer.android.com/developer-verification",
             "https://developer.android.com/developer-verification/guides",
             "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -10254,7 +10251,7 @@
       },
       "regulatory_sources": [
         "https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act/data-protection-obligations",
-        "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+        "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
         "https://www.cccs.gov.sg/consumer-protection/fair-trading-practices",
         "https://www.cccs.gov.sg/media-and-events/newsroom/announcements-and-media-releases/e-commerce-retailer-fashion-interactive-ordered-to-cease-unfair-trade-practices-and-stop-using--subscription-traps--481",
         "https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/internet/online-safety",
@@ -10458,8 +10455,8 @@
         "https://gppc.pdpc.or.th/portfolio/operational-training-installation-course-1-content-4/",
         "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf",
         "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-        "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-        "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+        "https://legal.dld.go.th/index.php/th",
+        "https://dld.go.th/webnew/index.php/laws/announ/publish",
         "https://mdes.go.th/news/detail/11499-%E0%B8%A3%E0%B8%A1%E0%B8%A7-%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B5-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1--MRRM--%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%99--M360-ASEAN-2026--%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%99",
         "https://ratchakitcha.soc.go.th/",
         "https://ratchakitcha.soc.go.th/documents/1879724.pdf",
@@ -10469,7 +10466,7 @@
         "https://www.amlo.go.th/dpl/",
         "https://www.dla.go.th/land/legalItemFon.do",
         "https://www.etda.or.th/getattachment/Regulator/DigitalPlatform/law/Clean-Royal-Decree-on-DP-Corrected-1.pdf.aspx?lang=th-TH",
-        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
         "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
         "https://www.ipthailand.go.th/images/26669/2566/laws/COPYRIGHT%20ACT%20%28NO.%205%29%2C2022.pdf",
         "https://www.ocpb.go.th/images/article/article_20250715151212.pdf",
@@ -10590,8 +10587,8 @@
           "review_required": false,
           "evidence_reference": [
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+            "https://legal.dld.go.th/index.php/th",
+            "https://dld.go.th/webnew/index.php/laws/announ/publish",
             "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf"
           ],
           "source_approval": "approved"
@@ -10601,8 +10598,8 @@
           "review_required": false,
           "evidence_reference": [
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+            "https://legal.dld.go.th/index.php/th",
+            "https://dld.go.th/webnew/index.php/laws/announ/publish",
             "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf"
           ],
           "source_approval": "approved"
@@ -10612,8 +10609,8 @@
           "review_required": false,
           "evidence_reference": [
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+            "https://legal.dld.go.th/index.php/th",
+            "https://dld.go.th/webnew/index.php/laws/announ/publish",
             "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf"
           ],
           "source_approval": "approved"
@@ -10633,7 +10630,7 @@
           "evidence_reference": [
             "https://www.pdpc.or.th/",
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
+            "https://legal.dld.go.th/index.php/th",
             "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
             "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
             "https://developer.android.com/developer-verification",
@@ -10699,7 +10696,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "review_required": false,
           "evidence_reference": [
-            "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
+            "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
           ],
           "source_approval": "approved"
         },
@@ -10716,8 +10713,8 @@
       "regulatory_sources": [
         "https://www.pdpc.or.th/",
         "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-        "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-        "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+        "https://legal.dld.go.th/index.php/th",
+        "https://dld.go.th/webnew/index.php/laws/announ/publish",
         "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf",
         "https://www.ocpb.go.th/news_view.php?nid=17494",
         "https://www.ocpb.go.th/index_en.php",
@@ -10731,7 +10728,7 @@
         "https://www.rd.go.th/26218.html",
         "https://www.rd.go.th/english/37741.html",
         "https://www.rd.go.th/65244.html",
-        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
         "https://aps.amlo.go.th/aps/public/thailandlist/",
         "https://aps.amlo.go.th/aps/public/unlist/"
       ],
@@ -11810,7 +11807,7 @@
         "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
         "https://oag.ca.gov/privacy/ccpa",
         "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-        "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+        "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
         "https://www.ada.gov/resources/web-guidance/",
         "https://www.aphis.usda.gov/animal-welfare-act",
         "https://www.copyright.gov/512/",
@@ -11887,7 +11884,7 @@
           "review_required": false,
           "evidence_reference": [
             "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-            "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+            "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
           ],
           "source_approval": "approved"
         },
@@ -12088,7 +12085,7 @@
           "evidence_reference": [
             "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
             "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
-            "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+            "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
           ],
           "source_approval": "approved"
         },

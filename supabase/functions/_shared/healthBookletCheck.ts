@@ -12,8 +12,12 @@
 // Rule sources (checked 2026-10-25): WSAVA Guidelines for the Vaccination of Dogs and Cats (2024) for the core
 // puppy/kitten series, final dose at 16 weeks or later and revaccination at or after 26 weeks; ESCCAP Guideline 01
 // (worm control in dogs and cats) for the quarterly adult treatment window; ISO 11784 for the 15-digit transponder code.
-// None of these sources sets a different vaccine schedule by breed, sex or body size, so those facts are accepted as
-// inputs but change no rule; a rule is added to RULES below only together with its source.
+// Re-read against the primary PDFs on 2026-10-25 (WSAVA 2024 executive summary: core vaccines, multiple doses every
+// 2-4 weeks with the final dose at 16+ weeks, revaccination at or after 26 weeks; ESCCAP GL1: at least four treatments
+// a year for adults, puppies fortnightly then monthly up to six months). Neither sets a different vaccine or treatment
+// schedule by breed or body size; ESCCAP's pregnancy/lactation entries are optional extra treatments and never a
+// requirement for approval. Breed, sex, size and weight are therefore accepted as inputs but change no rule; a rule is
+// added only together with its source.
 
 export const SCHEDULE_VERSION = 'tailmance-booklet-schedule-2026-10-25';
 

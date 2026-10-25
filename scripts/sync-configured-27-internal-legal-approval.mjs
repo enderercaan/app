@@ -4,6 +4,10 @@ import {readFileSync, writeFileSync} from 'node:fs';
 const check=process.argv.includes('--check');
 const today='2026-10-01';
 const validUntil='2026-12-30';
+// Official-source recheck of 2026-10-25 (release/official-source-recheck-2026-10-25.json): the screening freshness window restarts here,
+// while the legal dataset snapshot date (today) stays 2026-10-01.
+const recheckAt='2026-10-25';
+const refreshDueAt='2026-11-24';
 const approvalPath='release/configured-market-legal-language-source-approval-v20.json';
 const sourcePath='release/official-source-review-v19.json';
 const languagePath='release/legal-language-review-v19.json';
@@ -74,12 +78,13 @@ const replaceNarrativeDeep=(value,from,to)=>{
   return typeof value==='string'?value.replaceAll(from,to):value;
 };
 
+source.source_freshness_policy={...source.source_freshness_policy,screened_at:recheckAt,refresh_due_at:refreshDueAt,max_screening_age_days:30,recheck_ledger:'release/official-source-recheck-2026-10-25.json'};
 for(const code of countries){
   const m=source.markets[code]; assert.ok(m,`${code}: source market missing`);
   assert.equal(approval.markets[code].legal_source_status,'PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW');
   m.screening_status='PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW';
   m.legal_approval='approved_internal_official_source_review';
-  m.source_screened_at=today; m.last_official_source_recheck=today; m.source_review_valid_until=validUntil;
+  m.source_screened_at=recheckAt; m.last_official_source_recheck=recheckAt; m.source_review_valid_until=validUntil;
   m.source_review_model='official_sources_temporal_review_conservative_runtime_fail_closed';
   if(m.applicability_effective_date_review){m.applicability_effective_date_review.status='PASS_INTERNAL_CURRENT_VS_FUTURE_TEMPORAL_REVIEW';m.applicability_effective_date_review.as_of=today;m.applicability_effective_date_review.source_approval=true;}
   for(const [topic,t] of Object.entries(m.topics??{})){

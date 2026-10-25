@@ -12,8 +12,8 @@
         "https://tdra.gov.ae/en/FAQs",
         "https://tdra.gov.ae/en/tdra-initiatives/marketing-short-message-service",
         "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
-        "https://u.ae/en/information-and-services/business/ecommerce/",
-        "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+        "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection",
+        "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
         "https://uaelegislation.gov.ae/en/legislations/1137",
         "https://uaelegislation.gov.ae/en/legislations/1455",
         "https://uaelegislation.gov.ae/en/legislations/1534",
@@ -181,7 +181,7 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
-            "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+            "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
             "https://uaelegislation.gov.ae/en/news/uae-government-issues-a-federal-decree-law-on-child-digital-safety",
             "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
             "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en"
@@ -227,7 +227,7 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://uaelegislation.gov.ae/en/legislations/1455",
-            "https://u.ae/en/information-and-services/business/ecommerce/"
+            "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection"
           ],
           "screening_note": "This risk family is independently release-blocking until topic-specific official-source scope and internal exact-scope applicability review are evidenced. UAE Government eCommerce guidance states that an appropriate licence is required for eCommerce activity and distinguishes mainland/free-zone licensing. Tailmance subscription/platform applicability remains controlled by internal exact-scope applicability review.",
           "evidence_classification": "official_source_internal_legal_review_complete",
@@ -299,9 +299,9 @@
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout.",
         "2026-10-01 revalidation: Cabinet Resolution No. 106 of 2026 remains the current official source for social-media child-access controls and effective/reliable age-verification standards; source review does not substitute for actual deployed age-verification evidence."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -636,9 +636,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -670,7 +670,6 @@
         "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
         "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
         "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
-        "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
         "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
         "https://developer.apple.com/news/?id=f5zj08ey",
         "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -706,10 +705,9 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://www.legislation.gov.au/C2024A00127/latest/text",
-            "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+            "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
             "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
             "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
-            "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
             "https://www.esafety.gov.au/industry/regulatory-guidance",
             "https://developer.apple.com/news/?id=f5zj08ey",
             "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -723,7 +721,6 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://www.legislation.gov.au/C2024A00127/latest/text",
-            "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
             "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
             "https://www.esafety.gov.au/industry/regulatory-guidance"
           ],
@@ -980,9 +977,9 @@
         "2026-10-01 revalidation: eSafety confirms the Social Media Minimum Age obligation has been in effect since 10 December 2025 and the Rules were amended in March 2026; Tailmance retains an 18+ gate and treats service classification as feature/scope dependent, not as an automatic exemption.",
         "2026-10-01 revalidation: OAIC continues to identify the Children’s Online Privacy Code as a draft/finalisation process, with final registration due by 10 December 2026; Tailmance does not promote the exposure draft to current binding law before registration."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "applicability_effective_date_review": {
         "status": "PASS_INTERNAL_CURRENT_VS_FUTURE_TEMPORAL_REVIEW",
         "as_of": "2026-10-01",
@@ -1343,9 +1340,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -1688,9 +1685,9 @@
         "2026-10-01 revalidation: MJSP Portaria 1.312/2026, published on 29 September 2026, establishes the CNCA/Nidus national notification workflow under ECA Digital and Decree 12.880/2026. The Portaria defines 12-hour, 72-hour and 7-day reporting windows by risk/content category once the applicable reporting phase is operational, while provider registration and reporting-system activation are staged through subsequent Polícia Federal implementation acts. Tailmance treats the Portaria as current law, keeps the staged operational deadlines distinct from already-live reporting endpoints, and requires the configured Brazil incident/child-safety runbook to fail closed until the applicable CNCA/Nidus operational endpoint and registration state are verified in production.",
         "2026-10-01 revalidation: Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 was published on 23 September 2026 and regulates paid advertising/boosting by internet applications that intermediate third-party content for the Brazilian consumer market. Tailmance has contextual sponsored place/event surfaces, so the instrument is in-scope for prelaunch design. Most provisions become effective 30 days after publication (23 October 2026), while Article 3 transparency-tool requirements become effective 90 days after publication (22 December 2026). Until the applicable effective date and required transparency/retention controls are active, Brazil paid promotion must remain fail-closed rather than treating the future-effective rules as already-live or silently shipping non-compliant sponsored placement."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -2031,9 +2028,9 @@
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout.",
         "2026-10-01 revalidation: Bill C-36 (Protecting Privacy and Consumer Data Act) was introduced on 15 June 2026 and remains proposed legislation in Parliament; it is monitored as a future-law change and is not treated as current PIPEDA replacement law before enactment and commencement."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -2359,9 +2356,9 @@
         "CAC’s 2026-02-28 platform-identification measure is current. The 2026-09-18 proposed regulation on minors’ healthy and safe internet use is expressly a consultation draft with comments open through 2026-10-17; its proposed age-identification/social-service provisions are not current obligations as of 2026-10-01.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -2695,9 +2692,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -3042,9 +3039,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -3387,9 +3384,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -3720,9 +3717,9 @@
         "2026-10-01 revalidation: ICO confirms all data-protection provisions of the Data (Use and Access) Act 2025 were in force by 19 June 2026; Tailmance UK privacy screening therefore treats DUAA amendments as current, while draft Online Safety code amendments remain tracked separately until effective.",
         "2026-10-01 revalidation: the UK Government intends to lay the first regulations for service-level social-media age restrictions before Parliament by the end of 2026 and expects the first restrictions to take effect in Spring 2027. These planned under-16 rules are tracked as future regulations and are not treated as a standalone current Tailmance duty before the regulations are made and commence; current Online Safety Act duties remain separately applicable where their service scope is met."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -4043,9 +4040,9 @@
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout.",
         "As of 2026-09-30, Android developer-verification installation enforcement is current on certified Android devices in BR/ID/SG/TH for participating stores. This regional rollout is separate from the global Google Play package-registration requirement."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "applicability_effective_date_review": {
         "evidence_reference": [
           "https://portal.komdigi.go.id/kanal-publik/berita-kini/10541",
@@ -4409,9 +4406,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -4717,9 +4714,9 @@
         "2026-09-30 temporal recheck: current CERT-In six-hour reporting remains operational; DPDP Act sections 3–17 and DPDP Rules 3,5–16 are future-effective eighteen months after the 13 Nov 2025 Gazette notifications and are not treated as current on 2026-09-30.",
         "2026-10-01 revalidation: MeitY/PIB continue to list the notified DPDP Rules 2025 with phased implementation. Tailmance preserves the Gazette-staged commencement model and does not treat provisions scheduled one year/eighteen months after notification as current before their commencement dates."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -5092,9 +5089,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -5392,9 +5389,9 @@
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout.",
         "2026-10-01 revalidation: PPC confirms the 17 July 2026 APPI amendment was promulgated but, except for limited provisions, awaits a Cabinet-Order commencement date within two years. It remains enacted/future rather than current substantive law until commencement is verified."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -5697,9 +5694,9 @@
         "Korea Youth Protection Act and its Enforcement Decree are current from 2026-07-01 for youth-harmful media. The decree Article 17 enumerates age/identity-check methods; Tailmance applicability depends on whether any service/content falls within the youth-harmful-media regime and remains controlled by internal exact-scope applicability review.",
         "2026-10-01 revalidation: National Law Information Center continues to show the amended PIPA Enforcement Decree effective 11 September 2026, including 72-hour notification/reporting rules; the superseded 20 August 2026 interim state is not treated as current."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -6028,9 +6025,9 @@
         "European Commission DSA protection-of-minors guidelines published 14 July 2025 are current non-binding guidance; they do not replace the binding DSA text or internal exact-scope applicability analysis.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -6383,9 +6380,9 @@
         "Poland Animal Protection Act amendment Dz.U. 2026 poz. 1005 is enacted but future-effective 2027-07-28; do not treat as current before that date.",
         "Poland National Register of Marked Dogs and Cats Act Dz.U. 2026 poz. 755 has staged future commencement through 2028; recheck identification/registration implications before launch milestones."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "national_implementation_screening_note": "National official sources for EU directive-family implementation have been seeded into the canonical screening matrix; exact transposition/remedy/applicability conclusions remain controlled by internal exact-scope applicability review and release-blocking.",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
@@ -6680,9 +6677,9 @@
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout.",
         "2026-10-01 revalidation: Russia’s platform-economy law identified by the Government has entered into force on 1 October 2026. Its intermediary-platform rules are treated as current law from today. Tailmance remains architected as a non-commerce pet social service with no pet sales, physical-goods marketplace or peer-to-peer payment intermediation; exact applicability to any future transaction/intermediation feature must be re-evaluated before that feature can ship."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -6987,9 +6984,9 @@
         "2026-10-01 revalidation: CST continues to operate a current Social Media Platforms Notification service. Tailmance must not infer either applicability or non-applicability from the service page alone; the notification/filing trigger remains BLOCK pending legal-applicability review classification and attributable operational evidence.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -6998,7 +6995,7 @@
       "screening_status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
       "legal_approval": "approved_internal_official_source_review",
       "official_sources": [
-        "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+        "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
         "https://developer.android.com/developer-verification",
         "https://developer.android.com/developer-verification/guides",
         "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -7165,7 +7162,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/"
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/"
           ],
           "evidence_classification": "official_source_internal_legal_review_complete",
           "source_approval": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
@@ -7174,7 +7171,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/"
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/"
           ],
           "evidence_classification": "official_source_internal_legal_review_complete",
           "source_approval": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
@@ -7183,7 +7180,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/"
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/"
           ],
           "evidence_classification": "official_source_internal_legal_review_complete",
           "source_approval": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW"
@@ -7202,7 +7199,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
-            "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+            "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
             "https://developer.android.com/developer-verification",
             "https://developer.android.com/developer-verification/guides",
             "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -7329,9 +7326,9 @@
         "Apple states that from 2026-02-24 users in Australia, Brazil and Singapore cannot download App Store apps rated 18+ unless confirmed as adults through reasonable methods. Tailmance must verify its actual regional App Store rating and production age-assurance/distribution behavior; an internal 18+ product policy is not evidence of the App Store rating or of compliant platform integration.",
         "MDDI stated on 2026-09-08 that Singapore plans legislative amendments by early 2027 for stronger child safeguards/age assurance on social media. This is tracked as future policy development and is not treated as a current enacted Tailmance obligation."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -7347,8 +7344,8 @@
         "https://gppc.pdpc.or.th/portfolio/operational-training-installation-course-1-content-4/",
         "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf",
         "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-        "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-        "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+        "https://legal.dld.go.th/index.php/th",
+        "https://dld.go.th/webnew/index.php/laws/announ/publish",
         "https://mdes.go.th/news/detail/11499-%E0%B8%A3%E0%B8%A1%E0%B8%A7-%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B5-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1--MRRM--%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%99--M360-ASEAN-2026--%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%99",
         "https://ratchakitcha.soc.go.th/",
         "https://ratchakitcha.soc.go.th/documents/1879724.pdf",
@@ -7358,7 +7355,7 @@
         "https://www.amlo.go.th/dpl/",
         "https://www.dla.go.th/land/legalItemFon.do",
         "https://www.etda.or.th/getattachment/Regulator/DigitalPlatform/law/Clean-Royal-Decree-on-DP-Corrected-1.pdf.aspx?lang=th-TH",
-        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+        "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
         "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
         "https://www.ipthailand.go.th/images/26669/2566/laws/COPYRIGHT%20ACT%20%28NO.%205%29%2C2022.pdf",
         "https://www.ocpb.go.th/images/article/article_20250715151212.pdf",
@@ -7492,8 +7489,8 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+            "https://legal.dld.go.th/index.php/th",
+            "https://dld.go.th/webnew/index.php/laws/announ/publish",
             "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf"
           ],
           "evidence_classification": "official_source_internal_legal_review_complete",
@@ -7504,8 +7501,8 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+            "https://legal.dld.go.th/index.php/th",
+            "https://dld.go.th/webnew/index.php/laws/announ/publish",
             "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf"
           ],
           "evidence_classification": "official_source_internal_legal_review_complete",
@@ -7516,8 +7513,8 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+            "https://legal.dld.go.th/index.php/th",
+            "https://dld.go.th/webnew/index.php/laws/announ/publish",
             "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf"
           ],
           "evidence_classification": "official_source_internal_legal_review_complete",
@@ -7540,7 +7537,7 @@
           "evidence_reference": [
             "https://www.pdpc.or.th/",
             "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
-            "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
+            "https://legal.dld.go.th/index.php/th",
             "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
             "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
             "https://developer.android.com/developer-verification",
@@ -7620,7 +7617,7 @@
           "status": "PASS_INTERNAL_OFFICIAL_SOURCE_REVIEW",
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
-            "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
+            "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
           ],
           "screening_note": "The Electronic Transactions Act contains electronic-original and record-retention requirements, including preservation of origin/destination and sending/receipt date/time where applicable. Tailmance-specific statutory record categories and retention periods remain controlled by internal exact-scope applicability review.",
           "evidence_classification": "official_source_internal_legal_review_complete",
@@ -7652,9 +7649,9 @@
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout.",
         "As of 2026-09-30, Android developer-verification installation enforcement is current on certified Android devices in BR/ID/SG/TH for participating stores. This regional rollout is separate from the global Google Play package-registration requirement."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -7969,9 +7966,9 @@
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout.",
         "2026-10-01 revalidation: Türkiye’s 1 July 2026 amendment to the Commercial Advertising and Unfair Commercial Practices Regulation has been in force since 1 August 2026; profiling-based targeted advertising to children is treated as a current prohibition, not a future watch item."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -8263,9 +8260,9 @@
         "2026 public/citizen proposals advocating social-media age restrictions are not treated as enacted law. Tailmance relies on current official Taiwanese law/regulator sources and keeps age-assurance scope controlled by internal exact-scope applicability review.",
         "As of 2026-09-30, Google Play package registration is current: Play apps must be registered in Play Console, and remaining unregistered apps must be registered to avoid global Play removal. This global Play requirement must not be narrowed to the BR/ID/SG/TH rollout."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -8277,7 +8274,7 @@
         "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
         "https://oag.ca.gov/privacy/ccpa",
         "https://ofac.treasury.gov/sanctions-programs-and-country-information",
-        "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+        "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
         "https://www.ada.gov/resources/web-guidance/",
         "https://www.aphis.usda.gov/animal-welfare-act",
         "https://www.copyright.gov/512/",
@@ -8359,7 +8356,7 @@
           "release_effect": "SOURCE_LEGAL_REVIEW_COMPLETE__LIVE_OPERATIONAL_EVIDENCE_SEPARATE",
           "evidence_reference": [
             "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
-            "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+            "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
           ],
           "evidence_classification": "official_source_internal_legal_review_complete",
           "screening_note": "FTC COPPA source remains relevant to child-directed/actual-knowledge privacy scope. Current U.S. Code 18 U.S.C. §2258A separately creates provider reporting and preservation duties after specified actual knowledge; Tailmance provider classification, CyberTipline operations, evidence handling, secure preservation and staff escalation require U.S. applicability review and production runbook evidence.",
@@ -8588,7 +8585,7 @@
           "evidence_reference": [
             "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
             "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
-            "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A"
+            "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf"
           ],
           "screening_note": "Existing IRS/FTC sources cover business/data-breach recordkeeping context. Current 18 U.S.C. §2258A adds specific preservation duties for covered provider reports; Tailmance applicability, secure evidence segregation, retention interaction with privacy/deletion and lawful-request operations require legal-applicability review-approved production procedures.",
           "evidence_classification": "official_source_internal_legal_review_complete",
@@ -8638,9 +8635,9 @@
         "2026-10-01 revalidation: California CPPA final CCPA update/cybersecurity-audit/risk-assessment/ADMT regulations are effective 1 January 2026; risk-assessment duties can be current while the ADMT significant-decision compliance date is 1 January 2027. Future compliance dates are not promoted to current duties early.",
         "2026-10-01 revalidation: California chaptered a new child-online-safety package on 10 September 2026, including AB 1709, SB 1119, AB 1856, AB 1946 and AB 2246. The package includes under-16 social-media feature restrictions, companion-chatbot protections, child-safety reporting mechanisms and age-signal infrastructure. Tailmance is an 18+ pet-social service with no AI companion product, so no child-facing functionality is enabled from this package by assumption; exact effective/operative dates and feature-specific applicability are tracked bill-by-bill, and future-dated developer or platform signals are not promoted early."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     },
@@ -8983,9 +8980,9 @@
         "Apple states that from 2026-06-18 apps available in Vietnam receive a Vietnam region-specific age rating (00+, 12+, 16+ or 18+) based on App Store Connect questionnaire responses, aligning with Article 38 of Decree 147. Real Tailmance regional rating/console evidence remains external.",
         "Vietnam Cybersecurity Law 2025 is in force from 2026-07-01 and official government materials identify age-verification/control mechanisms for social-network users within the current framework. Exact Tailmance service classification and implementation remain controlled by internal exact-scope applicability review."
       ],
-      "source_screened_at": "2026-10-01",
+      "source_screened_at": "2026-10-25",
       "source_review_valid_until": "2026-12-30",
-      "last_official_source_recheck": "2026-10-01",
+      "last_official_source_recheck": "2026-10-25",
       "source_review_model": "official_sources_temporal_review_conservative_runtime_fail_closed",
       "external_counsel_required_for_source_approval": false
     }
@@ -9079,10 +9076,11 @@
     "sanctions_payments_distribution"
   ],
   "source_freshness_policy": {
-    "screened_at": "2026-10-01",
-    "refresh_due_at": "2026-10-31",
+    "screened_at": "2026-10-25",
+    "refresh_due_at": "2026-11-24",
     "max_screening_age_days": 30,
-    "expired_screening": "BLOCK_AND_REFRESH_OFFICIAL_SOURCES"
+    "expired_screening": "BLOCK_AND_REFRESH_OFFICIAL_SOURCES",
+    "recheck_ledger": "release/official-source-recheck-2026-10-25.json"
   },
   "evidence_classification_values": {
     "official_source_internal_legal_review_complete": "Topic-specific attributable official/regulator source evidence is pinned and internally reviewed for the configured Tailmance source-legal scope.",

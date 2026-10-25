@@ -5,6 +5,9 @@ const root=process.cwd();
 const manifestPath=path.join(root,'release','country-legal-supplement-manifest-v20.json');
 const migrationPath=path.join(root,'supabase','migrations','207_configured_27_legal_text_hash_sync.sql');
 const manifest=JSON.parse(fs.readFileSync(manifestPath,'utf8'));
+const sourceReview=JSON.parse(fs.readFileSync(path.join(root,'release','official-source-review-v19.json'),'utf8'));
+const screenedAt=sourceReview.source_freshness_policy.screened_at;
+const refreshDueAt=sourceReview.source_freshness_policy.refresh_due_at;
 const q=v=>`'${String(v).replaceAll("'","''")}'`;
 const bool=v=>v?'true':'false';
 const evidence=JSON.stringify([
@@ -19,7 +22,7 @@ for(const cc of Object.keys(manifest.markets).sort()){
     rows.push(`  (${[
       q(cc),q(locale),q(manifest.as_of),q(route.source_file),q(route.source_sha256),q(route.public_file),q(route.public_sha256),
       Number(route.official_source_count),q(route.internal_language_qa_status),q(route.route_role),bool(route.required_binding_locale),
-      `${q(evidence)}::jsonb`,q(`${manifest.as_of}T00:00:00Z`)+`::timestamptz`,q('2026-10-31T23:59:59Z')+`::timestamptz`,q('v19_207_legal_text_hash_sync')
+      `${q(evidence)}::jsonb`,q(`${screenedAt}T00:00:00Z`)+`::timestamptz`,q(`${refreshDueAt}T23:59:59Z`)+`::timestamptz`,q('v19_207_legal_text_hash_sync')
     ].join(',')})`);
   }
 }

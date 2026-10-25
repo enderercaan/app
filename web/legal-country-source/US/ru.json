@@ -80,7 +80,7 @@
         "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
         "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856",
         "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
-        "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+        "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
         "https://oag.ca.gov/node/608083",
         "https://www.nysenate.gov/legislation/laws/GBS/527-A",
         "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
@@ -122,7 +122,7 @@
       ]
     }
   ],
-  "official_source_review_sha256": "484ef9c24db58a4811e1c38d6c637bbdd7df46c33f8432fc3131cf0f9ee19662",
+  "official_source_review_sha256": "fd71ca0f77ed20cd6d274e4fc5bbb076e4c99f1c961409eb84c1b59bd269a047",
   "official_source_count": 55,
   "official_topic_families": 22,
   "reviewed_legal_frameworks": [

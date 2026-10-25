@@ -68,9 +68,8 @@
         "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
         "https://www.legislation.gov.au/C2004A00109/latest/text",
         "https://www.legislation.gov.au/C2024A00127/latest/text",
-        "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
-        "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
         "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+        "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
         "https://www.esafety.gov.au/industry/regulatory-guidance",
         "https://developer.apple.com/news/?id=f5zj08ey",
         "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
@@ -117,8 +116,8 @@
       ]
     }
   ],
-  "official_source_review_sha256": "d9090a4ea9ce0938a87b70250c39be72092e7681b69e12cc0783959f249e9ac9",
-  "official_source_count": 51,
+  "official_source_review_sha256": "fddfb67a60edd1a63c7949288e4dfdcee8c191d25e885cb00db425b389c1e071",
+  "official_source_count": 50,
   "official_topic_families": 22,
   "reviewed_legal_frameworks": [
     "Privacy Act 1988",

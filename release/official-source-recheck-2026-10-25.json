@@ -1,0 +1,4032 @@
+{
+ "schema_version": 1,
+ "scan_date": "2026-10-25",
+ "scanner": "scripts/official-source-recheck.py equivalent: HTTP GET, redirects followed, text SHA-256 baseline (no earlier baseline existed, so this scan sets it)",
+ "scope": "every official-source URL pinned in release/*.json for the 27 configured markets",
+ "summary": {
+  "urls_scanned": 606,
+  "reachable": 473,
+  "by_outcome": {
+   "waf_or_access_denied_from_scan_environment": 57,
+   "ok": 473,
+   "connection_refused_or_reset": 22,
+   "not_found_404": 11,
+   "timeout": 17,
+   "tls_chain_not_verifiable_from_scan_environment": 19,
+   "service_unavailable_503": 7
+  }
+ },
+ "honest_limits": [
+  "Reachable means the page answered with a non-error status; it does not mean the legal text on it was re-read in full.",
+  "Pages that answered 403/401, TLS-chain errors, timeouts or resets could not be re-verified from the scan environment; their evidence is carried forward from the 2026-10-01 screening and is listed under cells_without_reachable_source.",
+  "This ledger is the first content baseline: later scans compare text hashes against it."
+ ],
+ "dead_links_replaced": {
+  "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+  "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/": "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
+  "https://u.ae/en/information-and-services/business/ecommerce/": "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection",
+  "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety": "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
+  "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A": "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
+  "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF": "https://legal.dld.go.th/index.php/th",
+  "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF": "https://dld.go.th/webnew/index.php/laws/announ/publish",
+  "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx": "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx"
+ },
+ "markets": {
+  "AE": {
+   "urls": 41,
+   "reachable": 28,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 13
+  },
+  "AT": {
+   "urls": 52,
+   "reachable": 38,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 1
+  },
+  "AU": {
+   "urls": 51,
+   "reachable": 42,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 6
+  },
+  "BE": {
+   "urls": 55,
+   "reachable": 49,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "BR": {
+   "urls": 54,
+   "reachable": 53,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "CA": {
+   "urls": 54,
+   "reachable": 51,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 1
+  },
+  "CN": {
+   "urls": 49,
+   "reachable": 41,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 1
+  },
+  "DE": {
+   "urls": 51,
+   "reachable": 40,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "ES": {
+   "urls": 54,
+   "reachable": 48,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "FR": {
+   "urls": 53,
+   "reachable": 39,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 4
+  },
+  "GB": {
+   "urls": 52,
+   "reachable": 47,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 1
+  },
+  "ID": {
+   "urls": 48,
+   "reachable": 38,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 14
+  },
+  "IE": {
+   "urls": 54,
+   "reachable": 47,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "IN": {
+   "urls": 44,
+   "reachable": 27,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 4
+  },
+  "IT": {
+   "urls": 62,
+   "reachable": 54,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "JP": {
+   "urls": 42,
+   "reachable": 42,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "KR": {
+   "urls": 45,
+   "reachable": 39,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 3
+  },
+  "NL": {
+   "urls": 50,
+   "reachable": 44,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "PL": {
+   "urls": 56,
+   "reachable": 46,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "RU": {
+   "urls": 43,
+   "reachable": 28,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 15
+  },
+  "SA": {
+   "urls": 44,
+   "reachable": 29,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 11
+  },
+  "SG": {
+   "urls": 55,
+   "reachable": 54,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 3
+  },
+  "TH": {
+   "urls": 53,
+   "reachable": 44,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 5
+  },
+  "TR": {
+   "urls": 50,
+   "reachable": 44,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 2
+  },
+  "TW": {
+   "urls": 44,
+   "reachable": 33,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 14
+  },
+  "US": {
+   "urls": 57,
+   "reachable": 49,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  },
+  "VN": {
+   "urls": 56,
+   "reachable": 48,
+   "topic_cells": 22,
+   "cells_without_reachable_source": 0
+  }
+ },
+ "cells_without_reachable_source": [
+  "AE/consumer_protection",
+  "AE/age_age_assurance",
+  "AE/ugc_moderation_appeals",
+  "AE/subscription_iap_auto_renewal",
+  "AE/animal_welfare",
+  "AE/breeding_mating",
+  "AE/pet_commerce_restrictions",
+  "AE/legal_document_language_localization",
+  "AE/digital_accessibility",
+  "AE/operator_identity_tax_invoicing",
+  "AE/intellectual_property_notice_takedown",
+  "AE/cybersecurity_breach_notification",
+  "AE/sanctions_payments_distribution",
+  "AT/subnational_requirements",
+  "AU/animal_welfare",
+  "AU/breeding_mating",
+  "AU/pet_commerce_restrictions",
+  "AU/electronic_marketing_direct_marketing",
+  "AU/digital_accessibility",
+  "AU/sanctions_payments_distribution",
+  "CA/electronic_marketing_direct_marketing",
+  "CN/legal_document_language_localization",
+  "FR/animal_welfare",
+  "FR/breeding_mating",
+  "FR/pet_commerce_restrictions",
+  "FR/subnational_requirements",
+  "GB/ugc_moderation_appeals",
+  "ID/privacy_data_protection",
+  "ID/consumer_protection",
+  "ID/subscription_iap_auto_renewal",
+  "ID/international_data_transfers",
+  "ID/data_localization",
+  "ID/representative_requirement",
+  "ID/animal_welfare",
+  "ID/breeding_mating",
+  "ID/pet_commerce_restrictions",
+  "ID/subnational_requirements",
+  "ID/legal_document_language_localization",
+  "ID/electronic_marketing_direct_marketing",
+  "ID/digital_accessibility",
+  "ID/intellectual_property_notice_takedown",
+  "IN/consumer_protection",
+  "IN/subscription_iap_auto_renewal",
+  "IN/digital_accessibility",
+  "IN/intellectual_property_notice_takedown",
+  "KR/international_data_transfers",
+  "KR/data_localization",
+  "KR/subnational_requirements",
+  "RU/privacy_data_protection",
+  "RU/age_age_assurance",
+  "RU/ugc_moderation_appeals",
+  "RU/international_data_transfers",
+  "RU/data_localization",
+  "RU/representative_requirement",
+  "RU/animal_welfare",
+  "RU/breeding_mating",
+  "RU/pet_commerce_restrictions",
+  "RU/subnational_requirements",
+  "RU/electronic_marketing_direct_marketing",
+  "RU/digital_accessibility",
+  "RU/intellectual_property_notice_takedown",
+  "RU/cybersecurity_breach_notification",
+  "RU/sanctions_payments_distribution",
+  "SA/consumer_protection",
+  "SA/age_age_assurance",
+  "SA/ugc_moderation_appeals",
+  "SA/subscription_iap_auto_renewal",
+  "SA/animal_welfare",
+  "SA/breeding_mating",
+  "SA/pet_commerce_restrictions",
+  "SA/legal_document_language_localization",
+  "SA/digital_accessibility",
+  "SA/intellectual_property_notice_takedown",
+  "SA/sanctions_payments_distribution",
+  "SG/animal_welfare",
+  "SG/breeding_mating",
+  "SG/pet_commerce_restrictions",
+  "TH/privacy_data_protection",
+  "TH/international_data_transfers",
+  "TH/data_localization",
+  "TH/representative_requirement",
+  "TH/regulatory_recordkeeping",
+  "TR/ugc_moderation_appeals",
+  "TR/regulatory_recordkeeping",
+  "TW/privacy_data_protection",
+  "TW/age_age_assurance",
+  "TW/ugc_moderation_appeals",
+  "TW/international_data_transfers",
+  "TW/data_localization",
+  "TW/representative_requirement",
+  "TW/animal_welfare",
+  "TW/breeding_mating",
+  "TW/pet_commerce_restrictions",
+  "TW/subnational_requirements",
+  "TW/digital_accessibility",
+  "TW/operator_identity_tax_invoicing",
+  "TW/regulatory_recordkeeping",
+  "TW/sanctions_payments_distribution"
+ ],
+ "watchlist_rechecked": [
+  "at_under14_avms_draft_status_recheck_2026_10_31",
+  "ca_bill_c34_safe_social_media_status_recheck_2026_10_31",
+  "es_under16_social_network_policy_status_recheck_2026_10_31",
+  "eu_kids_act_proposal_status_recheck_2026_10_31",
+  "fr_accessibility_decree_2026_883_recent_effective_recheck_2026_10_31",
+  "gb_under16_social_media_policy_status_recheck_2026_10_31",
+  "nl_eu_social_media_minimum_age_proposal_recheck_2026_10_31",
+  "pl_online_porn_age_verification_bill_status_recheck_2026_10_31",
+  "sg_social_media_age_assurance_amendments_status_recheck_2026_10_31",
+  "au_childrens_online_privacy_code_2026_12_10"
+ ],
+ "entries": [
+  {
+   "url": "https://accessibility.moda.gov.tw/AppCases/AppDetectItems.aspx",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://accessibility.moda.gov.tw/Download/Detail/1425?Category=51",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB161-enr.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "b4672a280178426355dec957e03343e286109540641303d661e2d34b6aa00d33"
+  },
+  {
+   "url": "https://animal.moa.gov.tw/Frontend/Know/Detail/LT00000010",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://aps.amlo.go.th/aps/public/thailandlist/",
+   "status": 200,
+   "ok": true,
+   "sha256": "82099f8fefd7dfffa3e8e1e931653445ba8675c33aca758aae742da23239a56f",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://aps.amlo.go.th/aps/public/unlist/",
+   "status": 200,
+   "ok": true,
+   "sha256": "e32cb39c0ebede4d8ca9b8efa8e09289d9b7b1165985b28260f3604c691eba65",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://autoriteitpersoonsgegevens.nl/datalek-melden",
+   "status": 200,
+   "ok": true,
+   "sha256": "8bd17b5a9afc36cf239d067bd70ad09c2e71b8c759ca51754ccb86894ea8bd2f"
+  },
+  {
+   "url": "https://avs.nparks.gov.sg/pets/licensing-a-pet-business/",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://beta.uaeiec.gov.ae/en-us/",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://bibliotecadigital.mj.gov.br/handle/1/17694",
+   "status": 200,
+   "ok": true,
+   "sha256": "05793c5ab1b24cfa41eeb99b3d3fff9060933eb57c7d65901f6b77c5e5c5122c"
+  },
+  {
+   "url": "https://bienetreanimal.wallonie.be/fr/demandes/2444_obtenir-un-agrement-en-tant-qu-eleveur-de-chiens-ou-de-chats.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "498651bb4e6af9a925b2b7d233ffce1bb7d6dd650c98906e26616191507993c1"
+  },
+  {
+   "url": "https://bienetreanimal.wallonie.be/news/l-agw-du-25-04-2024-relatif-a-la-reproduction-des-chiens-et-des-chats",
+   "status": 200,
+   "ok": true,
+   "sha256": "30041fe9d1daf69826d34da0a7b4a3f8d72cb7dbf68166762f6e063c80c8265a"
+  },
+  {
+   "url": "https://business.gov.au/finance/payments-and-invoicing/how-to-invoice",
+   "status": 200,
+   "ok": true,
+   "sha256": "ca5f24f923a79ce3634ba7d0c77c4a9a8e17470af1166def198447bf8035c183"
+  },
+  {
+   "url": "https://business.gov.au/finance/payments-and-invoicing/receipts-and-proof-of-purchase",
+   "status": 200,
+   "ok": true,
+   "sha256": "d93fe7dd624276b9af784304180ce2e26861e374bfad7d3a9f9e1df1f37d5749"
+  },
+  {
+   "url": "https://business.gov.au/finance/payments-and-invoicing/record-keeping",
+   "status": 200,
+   "ok": true,
+   "sha256": "c99a7b7957461b05c49e9accaf5dcd4f3788a9315a9d0d0b26ca0466f21cab75"
+  },
+  {
+   "url": "https://cbic-gst.gov.in/gst-invoice-rules.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "19392cc8bcd57798294ba02356ee49b2037de3de31c3de75c1962a572519fbcf"
+  },
+  {
+   "url": "https://chinhphu.vn/?classid=1&docid=216503&orggroupid=1&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "a1270ae2a6ac40eb95f3c40d2373014be3ef0f6696eb2665c68b86eec72b56f6"
+  },
+  {
+   "url": "https://chinhphu.vn/default.aspx?docid=201221&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "d5fa33b56ec93bbcae189b02f37e06e60f5b893cbefb93457ccc54c2f3b0d40b"
+  },
+  {
+   "url": "https://codex.vlaanderen.be/PrintDocument.ashx?id=1039852",
+   "status": 200,
+   "ok": true,
+   "sha256": "de988d81cee77f15ed71968908f7e603ab48d44b93d5491dd84d1abf291a3902"
+  },
+  {
+   "url": "https://commission.europa.eu/law/law-topic/consumer-protection-law/consumer-contract-law/consumer-rights-directive_en",
+   "status": 200,
+   "ok": true,
+   "sha256": "72eb9cae85650f66c56137fc44f29bb6717f52a5136f4391850681548960ff23"
+  },
+  {
+   "url": "https://commission.europa.eu/law/law-topic/consumer-protection-law/modernisation-directive_en",
+   "status": 200,
+   "ok": true,
+   "sha256": "828ee4eb583559b3e9b3a67527db0ef29f1cabe371aa314aca2894993dad0e31"
+  },
+  {
+   "url": "https://commission.europa.eu/law/law-topic/consumer-protection-law/unfair-commercial-practices-and-price-indication/price-indication-directive_en",
+   "status": 200,
+   "ok": true,
+   "sha256": "8661f52356b63a81e46cc131f3c84c768ba22b857f692d56e059157b6f86a265"
+  },
+  {
+   "url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/european-accessibility-act-eaa_en",
+   "status": 200,
+   "ok": true,
+   "sha256": "33747e386d492c0b38fe07782444eb213cab7148c6a6dfa061a934547b20a7ad"
+  },
+  {
+   "url": "https://competition-bureau.canada.ca/en/deceptive-marketing-practices/general-impression-test",
+   "status": 200,
+   "ok": true,
+   "sha256": "19a6a92eca54e9425b14b0db23a7065918b9dc13f32d7e6b93305d4eb5b06f89"
+  },
+  {
+   "url": "https://consum.gencat.cat/ca/el-consum/durant-la-compra/drets-linguistics-/",
+   "status": 200,
+   "ok": true,
+   "sha256": "32b3cfef40c22121ca033ebf7c222ab54f7e699fd24af5a567b9028c765287c4"
+  },
+  {
+   "url": "https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions",
+   "status": 200,
+   "ok": true,
+   "sha256": "c127bd75f788bed0f6d5de4394e2d66dbbc5569bd3ede7ca4483746ab1fffc8a"
+  },
+  {
+   "url": "https://consumeraffairs.nic.in/acts-and-rules/consumer-protection/consumer-protection",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://consumeraffairs.nic.in/sites/default/files/E%20commerce%20rules_0.pdf",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://copyright.gov.in/Exceptions.aspx",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://cov.gov.vn/van-ban-phap-luat.html?id=17",
+   "status": 200,
+   "ok": true,
+   "sha256": "30a25fed8141863bd0e961d479277e49e328cc31583d21fbcc4304eede636b55"
+  },
+  {
+   "url": "https://cpc.ey.gov.tw/File/99162D02EC293DE0",
+   "status": 200,
+   "ok": true,
+   "sha256": "4bd870462c0820b7293d91137eaa2e650a88688a489493ba5fefbd12c0c307b2"
+  },
+  {
+   "url": "https://cpc.ey.gov.tw/Page/4432D6D5FA6677B9/326bfcfd-5f72-4ad5-9737-13a6e6813b50",
+   "status": 200,
+   "ok": true,
+   "sha256": "5d253fd8a2bf0500745438a91b0fc370d371395a86045909fb35504078b3b3bd"
+  },
+  {
+   "url": "https://cpc.ey.gov.tw/Page/960E744883E6A75D",
+   "status": 200,
+   "ok": true,
+   "sha256": "ea88d7ac1e7df891c33fb7647be1fa9ba3a52f10d3cf61db2b44f53a69c209f1"
+  },
+  {
+   "url": "https://cpc.ey.gov.tw/en/",
+   "status": 200,
+   "ok": true,
+   "sha256": "35ae8ea01a8a30d73c9785c19987ce8e746f7255e8a41ad8b3f47f5dcdcef687"
+  },
+  {
+   "url": "https://cppa.ca.gov/regulations/ccpa_updates.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "876c318ad53e5ae7510e94d546f10aaf4071aaf5a183946cc98da8f51ed4a687"
+  },
+  {
+   "url": "https://crtc.gc.ca/eng/com500/faq500.htm",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://dahd.gov.in/related-links/acts-rules",
+   "status": 200,
+   "ok": true,
+   "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+   "final_url": "https://www.dahd.gov.in/related-links/acts-rules",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://dataprotectionauthority.be/professionnel/actions/violation-de-donnees-personnelles",
+   "status": 200,
+   "ok": true,
+   "sha256": "e8c142098ce47206aeb4c2636bde732e88a128e38764e11d56615de691072597"
+  },
+  {
+   "url": "https://developer.android.com/developer-verification",
+   "status": 200,
+   "ok": true,
+   "sha256": "a38bbdd50e2ebe5090e9d1df9d86906e51da567e1c03282a242aee551c716288"
+  },
+  {
+   "url": "https://developer.android.com/developer-verification/guides",
+   "status": 200,
+   "ok": true,
+   "sha256": "1315e950a2e9546622c230232e6d2d519225a57e5775a9711d2ab47d3eb2f6ea"
+  },
+  {
+   "url": "https://developer.android.com/google/play/age-signals/request-age-signals",
+   "status": 200,
+   "ok": true,
+   "sha256": "c2b7fbe9e62a056ea5a818959d337562339aa79a6064830abc5099e2ad5c0141"
+  },
+  {
+   "url": "https://developer.android.com/google/play/age-signals/use-age-signals-api",
+   "status": 200,
+   "ok": true,
+   "sha256": "975e8f779634e109e42cf49874cb94e8b3bb0314627f03db6e780dcf6a96438b"
+  },
+  {
+   "url": "https://developer.apple.com/app-store/review/guidelines/",
+   "status": 200,
+   "ok": true,
+   "sha256": "ede2e256d6d263634bf11d451a0b8b62405249102429b9f0551c4169b801d191"
+  },
+  {
+   "url": "https://developer.apple.com/app-store/whats-new/",
+   "status": 200,
+   "ok": true,
+   "sha256": "6221bede8e83147fdb227c89369521a854cf96c758527ac5b69268abb3972429"
+  },
+  {
+   "url": "https://developer.apple.com/documentation/DeclaredAgeRange",
+   "status": 200,
+   "ok": true,
+   "sha256": "9676322124e1df8d0fdbeeb9de5ec7a770bd07e0af71968cb921138d294e682d"
+  },
+  {
+   "url": "https://developer.apple.com/documentation/bundleresources/app-privacy-configuration/nsprivacycollecteddatatypes/nsprivacycollecteddatatype",
+   "status": 200,
+   "ok": true,
+   "sha256": "9320f7d4799575cd436ed087c14d36698159260531c6d9941a9d5b9697ed3446"
+  },
+  {
+   "url": "https://developer.apple.com/documentation/declaredagerange/requesting-people-share-their-age-range-with-your-app",
+   "status": 200,
+   "ok": true,
+   "sha256": "57859a4e41adf0de8dd5955d87d9e418453c0c008ef3f49af2e589d78ceaa8a5"
+  },
+  {
+   "url": "https://developer.apple.com/help/app-store-connect/manage-app-information/manage-app-privacy",
+   "status": 200,
+   "ok": true,
+   "sha256": "fc614c40ac7a256ad7690ab921fa5ecf0a018f1ba0b316b9c8f5fe7ae8ccc949"
+  },
+  {
+   "url": "https://developer.apple.com/help/app-store-connect/manage-app-pricing/set-a-price/",
+   "status": 200,
+   "ok": true,
+   "sha256": "22afdf06a013c54125dddee1b4555de0c374967cbf76637dc5a3ab78e1f972b6"
+  },
+  {
+   "url": "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-purchase-options-for-auto-renewable-subscriptions/",
+   "status": 200,
+   "ok": true,
+   "sha256": "51ec76fcaaa757acab69eb71360d89a257385533bc72fccb2cc98736896b5edf"
+  },
+  {
+   "url": "https://developer.apple.com/help/app-store-connect/manage-subscriptions/manage-streamlined-purchasing/",
+   "status": 200,
+   "ok": true,
+   "sha256": "43df843c62f4200d86b1fd4f2517d2b445af18d75dd189073b695de68395d9e9"
+  },
+  {
+   "url": "https://developer.apple.com/help/app-store-connect/manage-subscriptions/set-up-auto-renewable-subscriptions/",
+   "status": 200,
+   "ok": true,
+   "sha256": "de59497c99084b0b76f1d6a42c4ec60cc9c0ee1078ec791bebe02f0770e7d5b8"
+  },
+  {
+   "url": "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions",
+   "status": 200,
+   "ok": true,
+   "sha256": "6e5ba2a8f26f548629be46abf56fa461f0523199fde8049361939ccff75a7634"
+  },
+  {
+   "url": "https://developer.apple.com/news/?id=f5zj08ey",
+   "status": 200,
+   "ok": true,
+   "sha256": "9dad0a881ae2a03122c53b9c0ea66cb6d93cca91f79f2a39ffc4a807508c3838"
+  },
+  {
+   "url": "https://developer.apple.com/news/?id=sg176nne",
+   "status": 200,
+   "ok": true,
+   "sha256": "e7cf629e87409f412e863e522b0e45ec8af2fa441c3bc7aaf6d55a93779ef98b"
+  },
+  {
+   "url": "https://developer.apple.com/news/?id=tlur8uvi",
+   "status": 200,
+   "ok": true,
+   "sha256": "315cf13050d83e17fd8c5b5f5250b3c6b0147779ace4fa0177c6c0780a4bc9da"
+  },
+  {
+   "url": "https://developer.apple.com/news/?id=yrrb45pw",
+   "status": 200,
+   "ok": true,
+   "sha256": "7fa78d38450078c0e145193199aa3254e551442df90382c5c225c1584151a7f9"
+  },
+  {
+   "url": "https://developer.apple.com/wwdc26/guides/app-store/",
+   "status": 200,
+   "ok": true,
+   "sha256": "f46e0764f3363ff5632b5bce74414643fc2d81054586ebcf21e20532fd5d78eb"
+  },
+  {
+   "url": "https://dga.gov.sa/sites/default/files/2022-12/The%20Guideline%20for%20Web%20Accessibility%20of%20Government%20Websites%20%E2%80%93%20V1.0_1.pdf",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://dgp.sdaia.gov.sa/wps/portal/pdp/knowledgecenter/details/PDPL2",
+   "status": 200,
+   "ok": true,
+   "sha256": "92e4c9dff3fe1f879704dc1677fd4ad885550402d610edb800c4baf859813e11"
+  },
+  {
+   "url": "https://dichvucong.moit.gov.vn/VdxpTTHCOnlineDetail.aspx?DocId=443",
+   "status": 200,
+   "ok": true,
+   "sha256": "4ec006bf760955d18cb96d1beecce513f175d0f39c2d25973b7dc1da3d29f87e"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/library/commission-sets-out-common-approach-eu-wide-age-verification-technologies",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/library/proposal-eu-kids-act-eu-keeping-internet-digital-spaces-accountable-and-trustworthy",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/dsa-guidelines",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://divyangjan.depwd.gov.in/upload/uploadfiles/files/RPwD%20%28Amendment%29%20Rules%2C%202023%20-%20Accessibility%20standards%20on%20ICT%20products%20and%20Services_compressed.pdf",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://dsb.gv.at/ueber-die-datenschutzbehoerde/data-breach-verfahren",
+   "status": 200,
+   "ok": true,
+   "sha256": "ebfa1dd7ccccdc8027cd7cbd276db376f5b9b1c770b0ec070392afbf7a264a18",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://economie.fgov.be/fr/themes/entreprises/guidance/pratiques-commerciales/obligations-dinformation-dans/questions-frequemment-posees",
+   "status": 200,
+   "ok": true,
+   "sha256": "d18662936e09e79761102c451a653ce44a6d17a36cd5266afadf6cd165c37288"
+  },
+  {
+   "url": "https://economie.fgov.be/fr/themes/protection-des-consommateurs/garantie/regles-de-garantie-pour-le",
+   "status": 200,
+   "ok": true,
+   "sha256": "8b6a2f73b4be591814026814696413164a0ee1e733c56184c95104cc007c52ba"
+  },
+  {
+   "url": "https://economie.fgov.be/sites/default/files/Files/Entreprises/guidelines-obligations-information-dans-le-cadre-du-e-commerce.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "c0c8fedcf333e6741ae306ef01ff8ce9573961cfd8ae388686ed0374ca7f4670"
+  },
+  {
+   "url": "https://eli.gov.pl/api/acts/DU/2023/1580/text.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "70080b2182ab55d42c0d491c18c9c906bdd041f987fa52290c99929399d775db"
+  },
+  {
+   "url": "https://eli.gov.pl/api/acts/DU/2024/1796/text.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "bed5dfd553b9a2251f75c0e6e8f00999350939a5cc01624d5848edd0b1c10ba2"
+  },
+  {
+   "url": "https://eli.gov.pl/api/acts/DU/2024/731/text.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "0de2593f85cc341ef2542d2c89c80e939d607187b17d1231f07fe8cef31b56a6"
+  },
+  {
+   "url": "https://eli.gov.pl/eli/DU/2024/1221/ogl",
+   "status": 200,
+   "ok": true,
+   "sha256": "435fecc6eb4960a5e98b665261de1a43ce1c370f9234dfd94f9f7d1cbe2da4b8"
+  },
+  {
+   "url": "https://eli.gov.pl/eli/DU/2026/1005/ogl",
+   "status": 200,
+   "ok": true,
+   "sha256": "11bd30d1f3e0d09c70588b01b4b09c7d60cd37df9ea49e38ad1296807c6cb99b"
+  },
+  {
+   "url": "https://eli.gov.pl/eli/DU/2026/755/ogl",
+   "status": 200,
+   "ok": true,
+   "sha256": "0ce567ca45995f1ecd2e8503a3b48063e0db3bfb02da694eb8170b876ed3fc2f"
+  },
+  {
+   "url": "https://etbis.ticaret.gov.tr/tr/Home/ETicaretAkademisi/etbis-kay%C4%B1t",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dir/2000/31/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dir/2005/29/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dir/2011/83/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/2161/oj/eng",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/770/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32002L0058",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32005L0029",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32011L0083",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32019L0770",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/NIM/?uri=CELEX:32019L0882",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022R2065",
+   "status": 202,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/overview-sanctions-and-related-resources_en",
+   "status": 200,
+   "ok": true,
+   "sha256": "4dc3a13d847e46543ea64764c4933b9c790b4e8fe1d699228f04ddc52db51c22"
+  },
+  {
+   "url": "https://government.ru/docs/57713/",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://government.ru/docs/all/115909/",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://government.ru/docs/all/139710/",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://government.ru/docs/all/163397/",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://gppc.pdpc.or.th/portfolio/operational-training-installation-course-1-content-4/",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://gxca.miit.gov.cn/zwgk/zcwj/flfg/art/2024/art_340a68cb6a8e45ae81c121630dd37346.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "a9892830e1107f1ee89fe31e3ddb640b97d36c41cfbbac111d8738f0d0a4ebb3"
+  },
+  {
+   "url": "https://hubca.miit.gov.cn/zwgk/zcwj/wjfb/art/2026/art_0c2a9c6b6dc648daa2e7d2e359b14765.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "5c106df5bcdcdd8e356328ed0a282b573479c74e475edb1a16a37f453a5c6f12",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://humanrights.gov.au/resource-hub/by-resource-type/guidelines-and-standards/guides-and-standards-disability-rights/guidelines-equal-access-digital-goods-and-services",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://ico.org.uk/about-the-ico/what-we-do/legislation-we-cover/data-use-and-access-act-2025/",
+   "status": 200,
+   "ok": true,
+   "sha256": "922ffffcc98e9ee164ce0c331b1fe47ae570e880cc04bfac99bf6593da4c2639"
+  },
+  {
+   "url": "https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/",
+   "status": 200,
+   "ok": true,
+   "sha256": "aa8b7103cb0b41a2862a7dd510ed27e6ecce4559094255b51730fafd92e1cfea"
+  },
+  {
+   "url": "https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach/personal-data-breaches-a-guide/",
+   "status": 200,
+   "ok": true,
+   "sha256": "3b41b59d24a63887b011b13dc0c9d8f24902637d12941f98213d585cde0293b4"
+  },
+  {
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/",
+   "status": 200,
+   "ok": true,
+   "sha256": "22f2852b39ce64f3adc99ebb20acb72fc3f52f43f6e0e777633af71ee15788a5"
+  },
+  {
+   "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/",
+   "status": 200,
+   "ok": true,
+   "sha256": "be8e0a4f800f4dded288efb87107c0d57a38ff1d1134724b293a8d235be736e4"
+  },
+  {
+   "url": "https://inspection.canada.ca/en/importing-food-plants-animals/e-commerce/animals",
+   "status": 200,
+   "ok": true,
+   "sha256": "63154b469af489db6a27491db9cb1157b49bedbe482994603bd6eccaa0671721"
+  },
+  {
+   "url": "https://inspection.canada.ca/en/importing-food-plants-animals/pets/dogs/commercial-imports-8-months",
+   "status": 200,
+   "ok": true,
+   "sha256": "aa7281d597673aab9f8a6e65404936e65abbd385754a8e3b8ae782eb248e7ee5"
+  },
+  {
+   "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000662",
+   "status": 200,
+   "ok": true,
+   "sha256": "97f506fd44efdfd08f2df16facad490b25ebbd0bfe0f9ac9e1de9d3cd9e05eba",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20260000720",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=wdu19971110724",
+   "status": 200,
+   "ok": true,
+   "sha256": "db0c4e5daafd56008fda9aa126c41662892d93f3d89cddf7a12d8be12e0cc4d9"
+  },
+  {
+   "url": "https://ised-isde.canada.ca/site/office-consumer-affairs/en/modern-marketplace/contracts",
+   "status": 200,
+   "ok": true,
+   "sha256": "0e97a658534654e9d38c1dfbbefeec63aa601d6a59978784bcf7ccd501d859b5"
+  },
+  {
+   "url": "https://ised-isde.canada.ca/site/strategic-policy-sector/en/marketplace-framework-policy/copyright-policy/frequently-asked-questions-legislative-amendments-copyright-act-notice-and-notice",
+   "status": 200,
+   "ok": true,
+   "sha256": "cef6e296d4186fe5fa0bae3d431d1c2cbf1f1020da086be2f601a1a6e0c43699"
+  },
+  {
+   "url": "https://jdih.komdigi.go.id/produk_hukum/abstrak/547",
+   "status": 200,
+   "ok": true,
+   "sha256": "16895e3184fc47b206d96dece71c90adad70d8a8ef99a7eda6f6df2509d03c13"
+  },
+  {
+   "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/1007/t/peraturan%2Bmenteri%2Bkomunikasi%2Bdan%2Bdigital%2Bnomor%2B9%2Btahun%2B2026",
+   "status": 200,
+   "ok": true,
+   "sha256": "cf0f681cd2c8fd7a2c46cd1c8c7df08ec3d725f7671f93ce1bf20d4b48408ac5"
+  },
+  {
+   "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/695/t/common",
+   "status": 200,
+   "ok": true,
+   "sha256": "31fc1d740b68b2fe3db6a54ec0861fe447f3b9dd75426f5549749f26a9e67c62"
+  },
+  {
+   "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/crc32/",
+   "status": 200,
+   "ok": true,
+   "sha256": "3f784d289c738c0a60896f767b7fe5f86e1670a8dab305252cb50c1e20b5bd5a"
+  },
+  {
+   "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/832/t/undangundang%2Bnomor%2B27%2Btahun%2B",
+   "status": 200,
+   "ok": true,
+   "sha256": "3f784d289c738c0a60896f767b7fe5f86e1670a8dab305252cb50c1e20b5bd5a"
+  },
+  {
+   "url": "https://jdih.komdigi.go.id/produk_hukum/view/id/965/t/peraturan%2Bpemerintah%2Bnomor%2B17%2Btahun%2B2025",
+   "status": 200,
+   "ok": true,
+   "sha256": "131f5228850deb4fef1f9273ca5ed21bbce703a2611e2438ad5850ff8578ebea"
+  },
+  {
+   "url": "https://law-out.mof.gov.tw/EngLawContent.aspx?id=20733",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://law.go.kr/LSW/lsEfInfoP.do?lsiSeq=253655",
+   "status": 200,
+   "ok": true,
+   "sha256": "fd9686de0b7ddabe93fdc69e5bc5471f43c3f3df1fa691a68f6054b8a82c1590"
+  },
+  {
+   "url": "https://law.go.kr/LSW/lsInfoP.do?lsId=000815",
+   "status": 200,
+   "ok": true,
+   "sha256": "f969c315e06c2ac6a016292b450ac5cab8a4f8efc85c5258cfd1289c371f7a60",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://law.go.kr/LSW/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=1000089686",
+   "status": 200,
+   "ok": true,
+   "sha256": "bd187e51befd1d0969cbeaea9c0117530dd22be7b8ea3692484195d842655d16"
+  },
+  {
+   "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029874175",
+   "status": 200,
+   "ok": true,
+   "sha256": "ed1ed8fc4d9111b6ef30674ad67287518ffdf199cbc8acf362b9e0c87a1d4723"
+  },
+  {
+   "url": "https://law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lspttninfSeq=182211",
+   "status": 200,
+   "ok": true,
+   "sha256": "9513c9e45d2162ef948dfedfb2cac7eb6bea1c605d864855f08f5a5712e37fa8"
+  },
+  {
+   "url": "https://law.go.kr/LSW/lumLsLinkPop.do?chrClsCd=010202&lspttninfSeq=121025",
+   "status": 200,
+   "ok": true,
+   "sha256": "89d9b9d80be31812ebe3303a358b515507b5f6d133d229d9a02bfb038c09cb29"
+  },
+  {
+   "url": "https://law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1030434423",
+   "status": 200,
+   "ok": true,
+   "sha256": "bbe3f339505aa3a6fd4d8fb7fda5b7e4da898a718a1b26ec741bf73c98e8f411"
+  },
+  {
+   "url": "https://law.moda.gov.tw/EngLawContent.aspx?id=93&lan=E",
+   "status": 200,
+   "ok": true,
+   "sha256": "8c1a732bb81e2513db65e6d869223d78d7e40e6f56da367e09eb3a5c0eee3320"
+  },
+  {
+   "url": "https://law.moda.gov.tw/EngLawContent.aspx?id=98&lan=E",
+   "status": 200,
+   "ok": true,
+   "sha256": "8aafe6e3442b3d072cef4c58afb241126dfa320de2981a62963eb9bbbd337f8e"
+  },
+  {
+   "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0040003",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://laws.boe.gov.sa/BoeLaws/Laws/LawDetails/2d3cb83a-0379-4cde-8e0b-a9a700f272bd/1",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://laws.boe.gov.sa/BoeLaws/Laws/SearchDetails/?Id=93f81644-fbbc-49ca-b33c-a9a700f16701",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://laws.e-gov.go.jp/law/322AC0000000067",
+   "status": 200,
+   "ok": true,
+   "sha256": "3566bf8ddcac68774bbca52b529de0c332a059119bfd6726a0bd5ae333c64f4d"
+  },
+  {
+   "url": "https://le.utah.gov/xcode/Title13/Chapter76/13-76-S202.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "43edacb0a6a2c759d3afab0d06f7810bf21cdacf1a5773edc8ba2839e0368e05"
+  },
+  {
+   "url": "https://legal.dld.go.th/images/Pho%20Roh%20Bor/Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/1%20Pongkan-kan-tharunnakamlae%20and%20kan-jat-sawatdiphapsat/13.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "932a885f4d511035b735378cb92ecaf954c787e95c166d5861fce5b280278f3d"
+  },
+  {
+   "url": "https://legal.dld.go.th/index.php/th/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557/phra-rach-bayyati-pxngkan-kar-tharun-krrm-laea-kar-cad-swasdiphaph-satw-ph-s-2557-prakas-krathrwng-kestr-laea-shkrn",
+   "status": 200,
+   "ok": true,
+   "sha256": "bb4f7a273c4e2cd8c418368641176a3a3c9b10ae275e9bcc483b69a3aa339edd"
+  },
+  {
+   "url": "https://legal.dld.go.th/web2012/news/P15/153/T_0012.PDF",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://legal.dld.go.th/web2012/news/P15/153/T_0017.PDF",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1043",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB1856",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.9.&part=4.&chapter=&article=",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://legislation.nsw.gov.au/view/pdf/inforce/current/act-1998-087",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://lokaleregelgeving.overheid.nl/zoeken",
+   "status": 200,
+   "ok": true,
+   "sha256": "95cc40c50d8bc9da12afa9ecb14992a7b844749be9bfd2a85865340121e298e5"
+  },
+  {
+   "url": "https://masak.hmb.gov.tr/5-maddeye-iliskin-bakanlar-kurulu-kararlari",
+   "status": 200,
+   "ok": true,
+   "sha256": "194f89ec9a186252861edf9a78c2bdd709d1b8d2b2e726cb62cae8d06d21058a"
+  },
+  {
+   "url": "https://mc.gov.sa/ar/ECC/pages/default.aspx",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://mc.gov.sa/en/guides/Documents/MerchantGuide.pdf",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://mc.gov.sa/en/mediacenter/News/Pages/29-03-23-02.aspx",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://mc.gov.sa/en/mediacenter/news/pages/14-10-19-01.aspx",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://mdes.go.th/news/detail/11499-%E0%B8%A3%E0%B8%A1%E0%B8%A7-%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B5-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1--MRRM--%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%82%E0%B8%99%E0%B8%B2%E0%B8%99--M360-ASEAN-2026--%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%B2%E0%B9%80%E0%B8%8B%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%A3%E0%B9%88%E0%B8%A7%E0%B8%A1%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87%E0%B8%AA%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B8%88%E0%B8%B4%E0%B8%97%E0%B8%B1%E0%B8%A5%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A5%E0%B8%AD%E0%B8%94%E0%B8%A0%E0%B8%B1%E0%B8%A2%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%A2%E0%B8%B2%E0%B8%A7%E0%B8%8A%E0%B8%99",
+   "status": 200,
+   "ok": true,
+   "sha256": "db373a05b1899a444cda0c5d64692f13cc50704f4adfd677bde65b72f56e60b7"
+  },
+  {
+   "url": "https://moit.gov.vn/en/news/building-a-transparent-safe-and-fair-e-commerce-environment.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "a25491f567b6d54b63e9a4886206c50c5bec865096571517312ea035df79b147"
+  },
+  {
+   "url": "https://moit.gov.vn/en/news/ministry-of-industry-and-trade-disseminates-the-law-on-e-commerce-and-government-decree-no.-248-2026-nd-cp.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "6786dd143e6e8e7f3030a0edf5ba68aae419fab51ad968d3203d892d7fc8f22d"
+  },
+  {
+   "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-pho-bien-luat-thuong-mai-dien-tu-va-nghi-dinh-so-248-2026-nd-cp.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "e6f60146254d4bff2364a07bec5b0c3eb7aa4bbc61923986655ac92fbe63aeb7"
+  },
+  {
+   "url": "https://moit.gov.vn/van-ban-phap-luat/van-ban-phap-quy/-nghi-di-nh-ve-thuong-ma-i-die-n-tu-.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "0f8ceb73ff38ee6a7e3c454bdab142dbb0d76b5cea0568d5b94f29a9c8cb24a4"
+  },
+  {
+   "url": "https://mojlaw.moj.gov.tw/ENG/LawContentE.aspx?LSID=FL081466",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://mps.gov.vn/chinh-sach-phap-luat/bai-viet/quy-dinh-moi-ve-cong-bo-thong-tin-to-chuc-ca-nhan-lien-quan-den-khung-bo-tai-tro-khung-bo-tren-cong-thong-tin-dien-tu-bo-cong-an-d1-t1455",
+   "status": 200,
+   "ok": true,
+   "sha256": "54b85232e4c2e5ea64b39406b97712937236ecf50ac4cc89de47cb6d2c7b9520"
+  },
+  {
+   "url": "https://ncclaw.ncc.gov.tw/FLAW/FLAWDAT0202.aspx?id=FL029860&keyword=R-SERVICE",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://news.economie.fgov.be/251714-directive-sur-l-accessibilite-un-pas-en-avant-pour-une-societe-plus-inclusive/",
+   "status": 200,
+   "ok": true,
+   "sha256": "1d2c36f4867a833874843e2bff350fd26fef8c3d6cee8c19acd3afcb1ac78473"
+  },
+  {
+   "url": "https://normelombardia.consiglio.regione.lombardia.it/NormeLombardia/Accessibile/main.aspx?iddoc=lr002009123000033&view=showdoc",
+   "status": 200,
+   "ok": true,
+   "sha256": "20a17bab013a93355ba6343890df3f95d381a4a9eb18fd1bab6441fc0159ab69"
+  },
+  {
+   "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=lr002009123000033ar0105a&view=showpart",
+   "status": 200,
+   "ok": true,
+   "sha256": "0996878d14072a03e2d778dc4ea1b0712924154a8ff394e7ebe42a4308c4e7bb"
+  },
+  {
+   "url": "https://normelombardia.consiglio.regione.lombardia.it/normelombardia/Accessibile/main.aspx?idparte=rr002017041300002ar0013a&view=showpart",
+   "status": 200,
+   "ok": true,
+   "sha256": "0018a7e1c08c946e13d6d730c18d1ddd19a7d037012e0033dd7d60faef93c6eb"
+  },
+  {
+   "url": "https://oag.ca.gov/node/608083",
+   "status": 200,
+   "ok": true,
+   "sha256": "0e5e1c68074ebc586f44f5f8bb75eeb17b42280c23ab770adcb61cb8dd12f99b"
+  },
+  {
+   "url": "https://oag.ca.gov/privacy/ccpa",
+   "status": 200,
+   "ok": true,
+   "sha256": "3ea2c003176df351820c0d25e392149bfa2365564bb4cc177fc7c9a72f4ba6b6"
+  },
+  {
+   "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information",
+   "status": 200,
+   "ok": true,
+   "sha256": "e64c7bc84fc0689329b76ba74f9bb1c2aafc474c63cbef5b2a7b987806d086ff"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Details/126143/pp-no-80-tahun-2019",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Details/229798/uu-no-27-tahun-2022",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Details/342589/permentan-no-32-tahun-2025",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Details/350898/permenkum-no-47-tahun-2025",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Details/351720/permendag-no-19-tahun-2026",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Details/37251/uu-no-8-tahun-2016",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Details/38685/uu-no-23-tahun-2014",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Download/133719/PP%20Nomor%2042%20Tahun%202020.pdf",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://peraturan.bpk.go.id/Download/27970/UU%20Nomor%2024%20Tahun%202009.pdf",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://pipc.go.kr/eng/user/ltn/new/noticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=3005",
+   "status": 200,
+   "ok": true,
+   "sha256": "80a4867a04467895280bf74f2228d4f9f4631772ba0fb8b8e7ddbf14e3fdb21b"
+  },
+  {
+   "url": "https://planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "4669d4877785abd4801c81fd6664a682caaf37837537d70af5cf0dd8de2c6783"
+  },
+  {
+   "url": "https://planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "93d993f514b1d7407b8e2395309c1158a8c50c3be6a1d55d9c8bae1a6736ab40"
+  },
+  {
+   "url": "https://planalto.gov.br/ccivil_03/_ato2023-2026/2026/lei/l15487.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "2f32422c2313a4f0e5982f02524916cdc8f9bb7279b31c6d373cefcc4c649e9d"
+  },
+  {
+   "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=90351",
+   "status": 200,
+   "ok": true,
+   "sha256": "06509999bf1f9aaf2f3f5fa067ffb6b22f014151fbed6ea636d44d2251b6f196"
+  },
+  {
+   "url": "https://portal.komdigi.go.id/kanal-publik/berita-kini/10541",
+   "status": 200,
+   "ok": true,
+   "sha256": "df9d0b6bb04e3ba8d8eff7ef8681624fd5670df79557eaa0a39b6c680f4cee53"
+  },
+  {
+   "url": "https://portal.komdigi.go.id/kanal-publik/berita-kini/10560",
+   "status": 200,
+   "ok": true,
+   "sha256": "0076dbf9e14a72c24c62742d8ad11bf99414773c150c428b76250c88658b1303"
+  },
+  {
+   "url": "https://pravo.gov.ru/proxy/ips/?docbody=&link_id=0&nd=102105292&intelsearch=&firstDoc=1",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://pse.komdigi.go.id/panduan/kriteria-pendaftaran-pse-lingkup-privat",
+   "status": 200,
+   "ok": true,
+   "sha256": "9acd8642a2699ffc022fe373f9159e4544a11fafd37cfa710126dc6acf6ad72a"
+  },
+  {
+   "url": "https://publication.pravo.gov.ru/Document/View/0001201812270064",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://publication.pravo.gov.ru/Document/View/0001202207140080",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://publication.pravo.gov.ru/Document/View/0001202512290057",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://publication.pravo.gov.ru/document/0001202406120011",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://publication.pravo.gov.ru/document/0001202503200003",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://publication.pravo.gov.ru/document/0001202602200044",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://ratchakitcha.soc.go.th/",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://ratchakitcha.soc.go.th/documents/1879724.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "8389439e6f959e872c5d199682f7535aba676e6204faa9531df68d1d6147fa6f"
+  },
+  {
+   "url": "https://register-gppc-plus.pdpc.or.th/",
+   "status": 200,
+   "ok": true,
+   "sha256": "5a7bcee6e2d69081a00ea7d0c27fee9f4d70f1ddd5b22610dbdeb9c0ef4b826f"
+  },
+  {
+   "url": "https://resmigazete.gov.tr/01.08.2026",
+   "status": 200,
+   "ok": true,
+   "sha256": "f7e34a3765fb9e2b37e74af8eaca27f2eed4503521a3250e55c2e24326fa2fba"
+  },
+  {
+   "url": "https://ris.bka.gv.at/Dokumente/Bundesnormen/NOR40279254/NOR40279254.html",
+   "status": 503,
+   "ok": false,
+   "reason": "service_unavailable_503"
+  },
+  {
+   "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=&Artikel=&FassungVom=2026-04-06&Gesetzesnummer=20011678&Paragraf=174&Uebergangsrecht=",
+   "status": 503,
+   "ok": false,
+   "reason": "service_unavailable_503"
+  },
+  {
+   "url": "https://ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20003541&Paragraf=8a",
+   "status": 503,
+   "ok": false,
+   "reason": "service_unavailable_503"
+  },
+  {
+   "url": "https://rkn.gov.ru/personal-data/",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://sdaia.gov.sa/en/SDAIA/about/Documents/ExecutiveRegulations.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "497db59364a2b68c2200e4c91f6318de228304108434b9b5dc9dd9ed4792092b"
+  },
+  {
+   "url": "https://sdaia.gov.sa/en/SDAIA/about/Documents/ImplementingRegulation.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "de6ca19d250f01f7277f94c71007399264e0f3bff96b4a89f424dd792e05c1ef"
+  },
+  {
+   "url": "https://sdaia.gov.sa/en/SDAIA/about/Pages/RegulationsAndPolicies.aspx",
+   "status": 200,
+   "ok": true,
+   "sha256": "b2fb20379c73653ac1eb8b41455fc82785fc3454bc939e7438714b140f3c8e85"
+  },
+  {
+   "url": "https://securitycouncil.mofa.gov.sa/en/Pages/Legalframework.aspx",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://securitycouncil.mofa.gov.sa/en/Pages/List.aspx",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://securitycouncil.mofa.gov.sa/en/Pages/Overview.aspx",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/Act/CONS1963",
+   "status": 200,
+   "ok": true,
+   "sha256": "b260c2074c385c361f3bbcb6c06733605cb1653b4f48b4c6ff393d7df25008bb"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/Act/CPFTA2003",
+   "status": 200,
+   "ok": true,
+   "sha256": "d7becb3234db2eee12439bcfee5159633b33ee52888250483f158292e0ced18b"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/Act/OSRAA2025",
+   "status": 200,
+   "ok": true,
+   "sha256": "8d91dd489b7091d95220812e85b21537c67cd1583e9970a01d9f985cd84a3b8d"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/Act/UNA2001?ViewType=Sl",
+   "status": 200,
+   "ok": true,
+   "sha256": "0905fba099a2c8364011a19cb435456c1a6e05c4999aa46889e4422b1bae8d7d"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/SL-Supp/S394-2026/Published/20260625?DocDate=20260625",
+   "status": 200,
+   "ok": true,
+   "sha256": "d1f5342409a13110d29356d27cf4941c3a5e3ceba0d2ed2ed1ffc592287a98d6"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/SL-Supp/S401-2026/Published?DocDate=20260625&ProvIds=pr5-",
+   "status": 200,
+   "ok": true,
+   "sha256": "239781acc80d3d4ba192db36c5143a63de1a073299e6cc73aae6569b7e10f274"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/SL/OSRAA2025-S397-2026",
+   "status": 200,
+   "ok": true,
+   "sha256": "c03d3fc60e180b534403c33a3470eb934ef756512bff1d106512a7a066a47a7d"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/SL/OSRAA2025-S400-2026?DocDate=20260625",
+   "status": 200,
+   "ok": true,
+   "sha256": "0e6b2206f7074e6736176b30cd2bfdf19015e9f0b77c45cc9c77587ea86a33df"
+  },
+  {
+   "url": "https://sso.agc.gov.sg/SL/OSRAA2025-S412-2026?DocDate=20260626",
+   "status": 200,
+   "ok": true,
+   "sha256": "ff24e39aafb3e2c9e661911921b4254b0c123a783288571fa59e27cb53303487"
+  },
+  {
+   "url": "https://support.google.com/android-developer-console/answer/16561738?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "5b127eea8068be2fd1034020f6dbe96efaf3975cd9976bbb1f39af056e98e2bd"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "95d3f93c9359372a783c11502b51d404fd2c62d68e04a083654a8e7f78a33ae4"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/10787469",
+   "status": 200,
+   "ok": true,
+   "sha256": "369874b63f5a5acb0e96e91de9044e7ebe5cab54434c4279ebcde5c7d3df2e37"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "4383319e2d3bce99dd8fce796409420e035dabffc645065436d97eff228f223c"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/13327111",
+   "status": 200,
+   "ok": true,
+   "sha256": "68adc688adfdc5386e572a0c07396e8522648e3c6e386c4d20a40145c4caac54"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/13327111?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "467ace8475d5fb305ee914167012d94673e2b51a71c32ef40d1cc8bce4552159"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/138412",
+   "status": 200,
+   "ok": true,
+   "sha256": "2cf129c30620b44da95a920427fcd7f5768ad42703472e7ce870299eb34ccb9f",
+   "final_url": "https://support.google.com/googleplay/android-developer/answer/6334373?visit_id=639285610782749166-3365481714&rd=1#paid_free"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/14747720?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "c65efe92c7f46088df185dd0a7dce938b9d12c8253509876781a681486d9d48a"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/16302250?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "05bb23165d10c9aa58cfd7fe51eeff2928bb86ab45faeeccf831830554158921"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/16558241",
+   "status": 200,
+   "ok": true,
+   "sha256": "9097b6e3b8bb23b7c882c9a53eaf8f78bdbd3fee739fc395a448d607d708c8ec"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/16706838?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "c67f6a1f15d93db7c5d1f1d2129af3046d993ca70dacb3316e71508f591a403b"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/16838200?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "e1658befbcebdd2691c14b35ca9ed5014a616eb71d9055645cb8a6bc4186643b"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/16909972",
+   "status": 200,
+   "ok": true,
+   "sha256": "f61c556f237c783d51657790fd6cfb2bc55bac81692eca4a0b2a77c532e2867f"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/16909972?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "823eee7bd203cf0771c36cffadb1b8a0cac0c2f6a7f1649677e8284c33577692"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/16984799?hl=en-GB",
+   "status": 200,
+   "ok": true,
+   "sha256": "2f97c29cbec67c28ee3e55ff55cfc6e03bf18682d921ff247c81020bae509563"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/17125096?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "43605fcf96195b0709f4b1386969d5f08bad68b2bb67e94c0a0e61d8b7b1828a",
+   "final_url": "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en&visit_id=639285610791377958-2456678057&rd=1"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/17134731",
+   "status": 200,
+   "ok": true,
+   "sha256": "bb44c955b01f66ff2d42a0a437cc313371e93f54ef06118243b992a6d57ea167"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/17134731?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "e4ed11f803dc7e20f2dee49a7ed8c489fd0cedcd3300788dde9056711d1692e7"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/6334373",
+   "status": 200,
+   "ok": true,
+   "sha256": "a165d2adeb06002685d784c7b6553d92629b8f2a63f033da524c8ebbe1453c85"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/9867159?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "fc95618403323ec240e195ccb96e6fd1b25afea1d0838fe7de50c0425d21257a"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/9876937?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "0eae801ef386f7cafb06383f5a52cc02a0a39bc97e81f43fdfc0b8e824d56f29"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/9878809?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "a995af7f2f1b9ab3c97902fbeaca279b7617b4c5423e515ce6c515d8b208fbd0"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/answer/9898843",
+   "status": 200,
+   "ok": true,
+   "sha256": "78c3e5aacf1ed972451fee46de5c77bda7c6f2924cfd318b655ea6749a4338d2"
+  },
+  {
+   "url": "https://support.google.com/googleplay/android-developer/table/12921780?hl=en",
+   "status": 200,
+   "ok": true,
+   "sha256": "81d82cf298580a8c42473bf60dff52e1f869c675e952e1bee26f0631bef8a29b"
+  },
+  {
+   "url": "https://tcss.legis.texas.gov/resources/BC/htm/BC.121.v3.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "757117deaa199ebbe4792c2ae17710055d5e778f4a7cfc4c0af0d5c418649a1f"
+  },
+  {
+   "url": "https://tdra.gov.ae/en/FAQs",
+   "status": 200,
+   "ok": true,
+   "sha256": "02b1b7b0e3756601ba38947f23b16d0025ef74d369f78aa8326739ec731c212f"
+  },
+  {
+   "url": "https://tdra.gov.ae/en/tdra-initiatives/marketing-short-message-service",
+   "status": 200,
+   "ok": true,
+   "sha256": "aff95c3d01463f4a1eb97aa6f7df66fe9eb87d2c0016b9af3c89c81dd6a9f210"
+  },
+  {
+   "url": "https://telifhaklari.ktb.gov.tr/TR-332372/telif-hakki-ihlali-halinde-ne-yapilabilir.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "b2cafd1d00be300758bc7d34a831423e408f07f107c0c7365471a2d992d6435e"
+  },
+  {
+   "url": "https://theme.ndc.gov.tw/lawout/EngLawContent.aspx?id=67&lan=E",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://theme.ndc.gov.tw/lawout/EngLawContent.aspx?id=89",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://ticaret.gov.tr/haberler/ticaret-bakanligindan-cocuklarin-dijital-guvenligini-guclendirecek-onemli-duzenleme",
+   "status": 200,
+   "ok": true,
+   "sha256": "752e8e6c5fb8b418b892972334f154398c65554c0dd9f0c9012b4d1fe247ec51"
+  },
+  {
+   "url": "https://ticaret.gov.tr/ic-ticaret/ticari-elektronik-iletiler",
+   "status": 200,
+   "ok": true,
+   "sha256": "402e567f7999f10aaeacdd98ae716959e81c23c3dae89fc5aa26631fbd0eaa80"
+  },
+  {
+   "url": "https://ticaret.gov.tr/ic-ticaret/ticari-elektronik-iletiler/ileti-yonetim-sistemi-iys",
+   "status": 200,
+   "ok": true,
+   "sha256": "dae0b27e4a1a571d2cb405ca15085e7abc1c7754b99438275c08bb029c832a5c"
+  },
+  {
+   "url": "https://trai.gov.in/node/3199",
+   "status": 200,
+   "ok": true,
+   "sha256": "fff8272a6e9ac6450e4e0d077ef050544f5118cbdaf643b45f9086a3832a0db6"
+  },
+  {
+   "url": "https://trai.gov.in/telecom/consumer-initiatives/unsolicited-commercial-communication",
+   "status": 200,
+   "ok": true,
+   "sha256": "5ac6a3f0d1e5060d6c465da217a143cd822948cd7800f780d6cbab324a3dc5ca"
+  },
+  {
+   "url": "https://tuketici.ticaret.gov.tr/data/5e819a8e13b876a1b04c7a4a/Mesafeli%20S%C3%B6zle%C5%9Fmeler%20Y%C3%B6netmeli%C4%9Fi.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "90e0f227ac7f9c35fdece77d8bba8f97bfe2afe68f1cb038c3c22d076f050353"
+  },
+  {
+   "url": "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/abonelik-sozlesmeleri-hakkinda-bilgilendirme",
+   "status": 200,
+   "ok": true,
+   "sha256": "c0b3d1dd2c0f58688eda9977d3c15e9764d8854fb67f7d48dfba0761f690e938",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/mesafeli-sozlesmeler-hakkinda-bilgilendirme",
+   "status": 200,
+   "ok": true,
+   "sha256": "84eb240b1771e70a4cdca67abb0917d5bcdec33f0cfe4381133a9eb00e39d15b"
+  },
+  {
+   "url": "https://tuketici.ticaret.gov.tr/yayinlar/tuketici-bilgi-rehberi/tuketici-sozlesmelerindeki-temel-ilkeler-ve-haksiz-sartlar-hakkinda-bilgilendirme",
+   "status": 200,
+   "ok": true,
+   "sha256": "4e7f69a4d78440c8a42fb4c30fd42801e1c91b602cf10c5b3217e1b7b76d8aec"
+  },
+  {
+   "url": "https://u.ae/en/about-the-uae/digital-uae/data/data-protection-laws",
+   "status": 200,
+   "ok": true,
+   "sha256": "d02fbb2a11a2013f7e39ce292a52912fdcde83d09468b239143da173af9714c5"
+  },
+  {
+   "url": "https://u.ae/en/information-and-services/business/ecommerce/",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://u.ae/en/information-and-services/social-affairs/children/Childrens-digital-safety",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/legislations/1137",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/legislations/1455",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/legislations/1534",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/legislations/3912",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/legislations/4506",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/news/uae-government-issues-a-federal-decree-law-on-child-digital-safety",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/policy/details/telemarketing-regulation-in-the-uae",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uaelegislation.gov.ae/en/policy/details/the-national-digital-accessibility-policy",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://uodo.gov.pl/pl/525/2583",
+   "status": 200,
+   "ok": true,
+   "sha256": "b9501267a2d56657d7e310b0727716c875ff90df494e40797dcde9fcc212c9b5"
+  },
+  {
+   "url": "https://uscode.house.gov/view.xhtml?edition=prelim&f=treesort&fq=true&granuleId=USC-prelim-title18-section2258A&hl=true&num=3&req=18+USC+2258A",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?classid=0&docid=216387&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "8e442b0bff6f529d514fd704cd4a89a905c9e9cd30b8034bd2a97eb93393a2ce"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?classid=0&docid=217275&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "30aff8d65869d82528a2a204734f029cab8e902ae5da4e40e03ba49807f9f01b",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?classid=0&docid=217303&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "8a7757e7362b6986b851f94ffe07ccbeb649dcc5d2bef2bd32fe8cd06c738484"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?classid=1&docid=211654&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "722d32a566562135a65b55789dec6192db7343915c07c32ede99da81835ed2b4",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?classid=1&docid=216387&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "307301c14937cc107cb6062d4dfc27c8f8ac045abb5f428251cdc270730f360c"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?classid=1&docid=217833&orggroupid=2&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "033e3ad934daf8c4d6ce9c02cb022ac0c32c1ba227c2c05fbabe6bba424d4ccf",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?classid=2629&docid=217352&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "83332ccfad0c4feaae3c7df255f7eff2cd5be3ec923234b925ea729dfb2004fe"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?docid=214590&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "0bb8ea2b9d32f845ae0218d16b143811b686c9e24b9b543e660cf258f7110237"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/?docid=96045&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "20267dd13269d23d90eb4e144a04a4a5dd9c5b50101e6dcb8a624c1c39ea66f1"
+  },
+  {
+   "url": "https://vanban.chinhphu.vn/default.aspx?docid=200773&pageid=27160",
+   "status": 200,
+   "ok": true,
+   "sha256": "9b96e20a28261c93cc3b776ec97a80c0888beb7a8377ba77a874f7b193998701"
+  },
+  {
+   "url": "https://vbpl.moj.gov.vn/TW/Pages/vbpq-thuoctinh.aspx?ItemID=160235",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://vbpl.vn/TW/Pages/ivbpq-toanvan.aspx?ItemID=187039",
+   "status": 200,
+   "ok": true,
+   "sha256": "bb8d006cf74d357c8bd0f28a5c07120b579faa45dea82145f1d69211468fdbcf",
+   "final_url": "https://vbpl.vn/",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://vbpl.vn/TW/Pages/vbpq-luocdo.aspx?ItemID=137311",
+   "status": 200,
+   "ok": true,
+   "sha256": "c2f636ea9fbef36b4f142a7409f8ef223269d7f45a76ca2035535c0cacadeea6",
+   "final_url": "https://vbpl.vn/"
+  },
+  {
+   "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=160278",
+   "status": 200,
+   "ok": true,
+   "sha256": "c2f636ea9fbef36b4f142a7409f8ef223269d7f45a76ca2035535c0cacadeea6",
+   "final_url": "https://vbpl.vn/"
+  },
+  {
+   "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=161263&Keyword=",
+   "status": 200,
+   "ok": true,
+   "sha256": "c2f636ea9fbef36b4f142a7409f8ef223269d7f45a76ca2035535c0cacadeea6",
+   "final_url": "https://vbpl.vn/"
+  },
+  {
+   "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=187276",
+   "status": 200,
+   "ok": true,
+   "sha256": "bb8d006cf74d357c8bd0f28a5c07120b579faa45dea82145f1d69211468fdbcf",
+   "final_url": "https://vbpl.vn/",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=32494",
+   "status": 200,
+   "ok": true,
+   "sha256": "c2f636ea9fbef36b4f142a7409f8ef223269d7f45a76ca2035535c0cacadeea6",
+   "final_url": "https://vbpl.vn/"
+  },
+  {
+   "url": "https://vbpl.vn/TW/Pages/vbpq-vanbanlienquan.aspx?ItemID=160235",
+   "status": 200,
+   "ok": true,
+   "sha256": "c2f636ea9fbef36b4f142a7409f8ef223269d7f45a76ca2035535c0cacadeea6",
+   "final_url": "https://vbpl.vn/"
+  },
+  {
+   "url": "https://vbpl.vn/bonongnghiep/Pages/vbpq-toanvan.aspx?ItemID=186454&dvid=319",
+   "status": 200,
+   "ok": true,
+   "sha256": "bb8d006cf74d357c8bd0f28a5c07120b579faa45dea82145f1d69211468fdbcf",
+   "final_url": "https://vbpl.vn/",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://vbpl.vn/bothongtin/Pages/vbpq-thuoctinh.aspx?ItemID=178340",
+   "status": 200,
+   "ok": true,
+   "sha256": "c2f636ea9fbef36b4f142a7409f8ef223269d7f45a76ca2035535c0cacadeea6",
+   "final_url": "https://vbpl.vn/"
+  },
+  {
+   "url": "https://wetten.overheid.nl/BWBR0049571/",
+   "status": 200,
+   "ok": true,
+   "sha256": "6852c1fff5dd03744a63560019b0f5be623eade9774989d58c759e30a4f9fe05",
+   "final_url": "https://wetten.overheid.nl/BWBR0049571/2025-06-28"
+  },
+  {
+   "url": "https://www.398-fz.rkn.gov.ru/docs/149-FZ.pdf",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://www.79.rospotrebnadzor.ru/osnovnye-napravleniya-deyatelnosti/zashchita-prav-potrebiteley/20324/",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://www.acm.nl/nl/verkoop-aan-consumenten/consumenten-informeren/verplichte-informatie-voor-en-na-de-koop",
+   "status": 200,
+   "ok": true,
+   "sha256": "acd0e33b5298c368153732085fd1757ad415b49ab78d228fbc3cbfee2ca1a868"
+  },
+  {
+   "url": "https://www.acm.nl/nl/verkoop-aan-consumenten/online-verkoop/checklist-online-verkoop",
+   "status": 200,
+   "ok": true,
+   "sha256": "bf308eeb93e91ab45e43c4450337d3bdb3c0e05bb14c756d76b90b6c5bde87b2"
+  },
+  {
+   "url": "https://www.acm.nl/nl/verkoop-aan-consumenten/reclame-en-verleiden/spam-voorkomen-uw-reclame",
+   "status": 200,
+   "ok": true,
+   "sha256": "d877aeb552b555bfa8e0b71f58d5fa5c4fd12e93d6ba4929c6679a90ca7a6d7f"
+  },
+  {
+   "url": "https://www.acma.gov.au/avoid-sending-spam",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.ada.gov/resources/web-guidance/",
+   "status": 200,
+   "ok": true,
+   "sha256": "c1eefe4ff1ed7c5bd7e7812cf0aa38d4ea64ca29104f116fa861ef7feca360c7"
+  },
+  {
+   "url": "https://www.adgm.com/operating-in-adgm/office-of-data-protection/guidance",
+   "status": 200,
+   "ok": true,
+   "sha256": "571f82325741918239ebbeedc662116b25575fa76cb9dccc314ca2ea87a64265"
+  },
+  {
+   "url": "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion",
+   "status": 200,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://www.agriculture.gov.au/animal/welfare/state",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.aile.gov.tr/media/219872/web_siteleri_ve_mobil_uygulamalarin_erisilebilirligi_hakkinda_genelge.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "4a942ae84f126a1c3dc735eeffc558d4137655dc4d96fed5d8fc5f1b44b36af8"
+  },
+  {
+   "url": "https://www.aile.gov.tr/sss/engelli-ve-yasli-hizmetleri-genel-mudurlugu/erisilebilirlik/",
+   "status": 200,
+   "ok": true,
+   "sha256": "3b0bd0adcdcd3afa305b390c89dd2be05abf3b51636d75bf39c9747a3de1b47a"
+  },
+  {
+   "url": "https://www.amlo.go.th/dpl/",
+   "status": 200,
+   "ok": true,
+   "sha256": "17f249837b8f97c73a38315209115b34b0004ee59b702fd97fc4681e2f0830cd"
+  },
+  {
+   "url": "https://www.aphis.usda.gov/animal-welfare-act",
+   "status": 200,
+   "ok": true,
+   "sha256": "04c42f614cc732e592772cfcf743420e3a60166b7275d3eb5df6042e8efe66ee",
+   "final_url": "https://www.aphis.usda.gov/animal-care/awa-services"
+  },
+  {
+   "url": "https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/04002_00_multi",
+   "status": 200,
+   "ok": true,
+   "sha256": "f47d051760a00bdd99b454928f6187b938f7ab1fcc540a6c538328b7e420cd35"
+  },
+  {
+   "url": "https://www.belgium.be/en/about_belgium/government/federale_staat",
+   "status": 200,
+   "ok": true,
+   "sha256": "e872d2fe81e53d46b38541c297c06d5b6653787b019694556270a0d133a8e6d5"
+  },
+  {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555",
+   "status": 200,
+   "ok": true,
+   "sha256": "64f9736fc1aec47b5e8d0ec2f89808453baf000b474bfbd6ea26bbe7de002647"
+  },
+  {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-20555&p=20250103&tn=1",
+   "status": 200,
+   "ok": true,
+   "sha256": "ccd0bd49e70677728d0db4057a5c4dda37c3acc8c958d37d76c5531cdd2d47b1"
+  },
+  {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2012-5595",
+   "status": 200,
+   "ok": true,
+   "sha256": "8100fdf78af9c3ad242b9c934d3d3055c95f7f37da3afcb485a9ddd2421087a3"
+  },
+  {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3280",
+   "status": 200,
+   "ok": true,
+   "sha256": "ccbbd06b2eb91e0988d261c23abb39456cc3cb3408a400e0720a48ed652daa9f"
+  },
+  {
+   "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7936",
+   "status": 200,
+   "ok": true,
+   "sha256": "d90d75b6e4ce51363c1ff70ca80913b8958e09b8f76e9e229bec52ecdda1f767"
+  },
+  {
+   "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-11022",
+   "status": 200,
+   "ok": true,
+   "sha256": "a7c01e6b18975a09669dd27ec378fec358b1c2bc2c1c623fe7395f7d53f7069a"
+  },
+  {
+   "url": "https://www.boe.es/eli/es-pv/l/2023/04/27/4",
+   "status": 200,
+   "ok": true,
+   "sha256": "affb3bb8f858e6e72af04f1037482bb7d606922f3ddef8c8c2cad041707df10a"
+  },
+  {
+   "url": "https://www.boe.es/eli/es/l/2002/07/11/34",
+   "status": 200,
+   "ok": true,
+   "sha256": "78aa991863b751f3c35d5806ccbcccaeca5a49a77b1844b9c0669581ca036145"
+  },
+  {
+   "url": "https://www.btk.gov.tr/uploads/boarddecisions/sosyal-ag-saglayici-hakkinda-usul-ve-esaslar/119-06-sosyal-ag-saglayici-hakkinda-usul-ve-esaslar-28-03-2023-id.pdf",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.bunka.go.jp/seisaku/chosakuken/kaizoku/",
+   "status": 200,
+   "ok": true,
+   "sha256": "a0cb83c6028e7ac93043750bb69ff381ea07b8f3ec7d3e9701b94d4dcd15c71c"
+  },
+  {
+   "url": "https://www.caa.go.jp/about_us/about/caa_pamphlet/jp_2026_004.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "ebd1d350f33dfa0608ae03476e823cd8c37cb73e3fcc04784ebf5182e12ffe62"
+  },
+  {
+   "url": "https://www.caa.go.jp/policies/policy/consumer_transaction/specified_commercial_transactions/",
+   "status": 200,
+   "ok": true,
+   "sha256": "14f64e53f68b56d8f380a95347911b87d2350736778311c768900606c8549a1e"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2013-02/18/c_126468776.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "8afd9b609acccb79ab33ccb51d5c1037e9ef8f56ac04f8684ee1b258d2aa323e",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "b003ad1a08795d192844ef7ca3147384996513924d965f8b0e48985e4aa5a006"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2023-02/24/c_1678884830036813.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "971a6c2a5fa42baee4159faa2673bbc72ce080ad14897d978fedf6e2b0ba0920",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2023-10/24/c_1699806932316206.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "c32001496c0ca40859e57249f3b576f74acc1b8b6a3b70c624aba78f64c93173",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2025-02/14/c_1741233507681519.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "a5ad00e540545404616d34d6f6e0e70522af0fb330377d9c80f14bb97d943e4a"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2025-09/15/c_1759583017563621.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "181e1367ab14b79f19301d00bb1fabaed71244106bc8b449922f46f60d58b6c4"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2025-09/15/c_1759583017717009.htm",
+   "status": 200,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2026-02/28/c_1774010730056867.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "32f2673d7ad5296339a58f66ddc243aec41871423da85c0bddcccc7c57d64bdb"
+  },
+  {
+   "url": "https://www.cac.gov.cn/2026-09/18/c_1791482017777471.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "221e50e287226de925475ccaae09a8f19d7a36a77bc4b181801b570ee577f95d"
+  },
+  {
+   "url": "https://www.canada.ca/en/canadian-heritage/news/2026/06/government-of-canada-introduces-legislation-to-make-social-media-services-and-ai-chatbots-safer-for-children.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "468b529ce83daab0e293b9dd04ca2d552495d837942c03d8ceb5daee0a181e90"
+  },
+  {
+   "url": "https://www.canada.ca/en/employment-social-development/programs/accessible-canada-regulations-guidance/category-digital-technologies.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "6cd15d305f54a02db385c1df9834b1a6f05d848122676be38e6153c1b558958a"
+  },
+  {
+   "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/15-1/general-requirements-books-records.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "923f62b1890d86ae041d90c550bd8e039424c5dbb300e51cf11fc8c0e85b91fd"
+  },
+  {
+   "url": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/charge-collect-which-rate.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "24ca5ff9e440bd973914cd97d957223b1b66cc7ac0f039308072387672b4ee27"
+  },
+  {
+   "url": "https://www.cccs.gov.sg/consumer-protection/fair-trading-practices",
+   "status": 200,
+   "ok": true,
+   "sha256": "3369973a38939f9a7771f4a2259a761601e7dc69aa5880b824fcd4397381e834",
+   "final_url": "https://www.ccs.gov.sg/consumer-protection/fair-trading-practices/"
+  },
+  {
+   "url": "https://www.cccs.gov.sg/media-and-events/newsroom/announcements-and-media-releases/e-commerce-retailer-fashion-interactive-ordered-to-cease-unfair-trade-practices-and-stop-using--subscription-traps--481",
+   "status": 200,
+   "ok": true,
+   "sha256": "c7f3abc48efde201fa4587bab817f9deca87a98389a2ef988dcb867beec26b29",
+   "final_url": "https://www.ccs.gov.sg/media-and-events/newsroom/announcements-and-media-releases/e-commerce-retailer-fashion-interactive-ordered-to-cease-unfair-trade-practices-and-stop-using--subscription-traps--481/"
+  },
+  {
+   "url": "https://www.cert-in.org.in/Directions70B.jsp",
+   "status": 200,
+   "ok": true,
+   "sha256": "419f1ecb9b04e84841d7aa9bf5462437bc01f420dcf0b57d8b85d4d387871704",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.cfa.go.jp/policies/youth-kankyou/internet_torikumi_hourei",
+   "status": 200,
+   "ok": true,
+   "sha256": "6dff4ce83d4aa8680d92e24b7e90d87569b6a13887fb690a53de2f8d4b7820ad"
+  },
+  {
+   "url": "https://www.cnam.ie/industry-and-professionals/online-safety-framework/online-safety-code/",
+   "status": 200,
+   "ok": true,
+   "sha256": "92d87f6d09a1d0f6f7f88848ca7da667fa16a83954232e4d34e031a149621cb6"
+  },
+  {
+   "url": "https://www.cnam.ie/investigation-commenced-into-x-under-online-safety-code/",
+   "status": 200,
+   "ok": true,
+   "sha256": "61a08bcb77500164c932141b146f919fcb12ff902c57f6026b4415d2c8b530dc"
+  },
+  {
+   "url": "https://www.cnil.fr/en",
+   "status": 200,
+   "ok": true,
+   "sha256": "416e200d3ea9484b72d4286022d1a11c61e13d3a3416293d30665badcb9f0ce7"
+  },
+  {
+   "url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique",
+   "status": 200,
+   "ok": true,
+   "sha256": "baa54c42d5412578acbddcdf37fe273dd707adc3526904237e668ed31d224329",
+   "final_url": "https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel"
+  },
+  {
+   "url": "https://www.cnil.fr/fr/services-en-ligne/notifier-une-violation-de-donnees-personnelles",
+   "status": 200,
+   "ok": true,
+   "sha256": "ef3e6185270579da9544ce0cd593dfd55681796f2d99816aa916234079b75494"
+  },
+  {
+   "url": "https://www.copyright.gov.in/Copyright_Rules_2013/chapter_xiv.html",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://www.copyright.gov/512/",
+   "status": 200,
+   "ok": true,
+   "sha256": "963d44717819d0aa9f2e962a8db9956025943da59ae1dc2ac7271b7f347650e4"
+  },
+  {
+   "url": "https://www.cst.gov.sa/en/business/services/Social-Media-platforms-notification",
+   "status": 200,
+   "ok": true,
+   "sha256": "c1bbb164e7adbf8b0c1a9f74f5c2ad0efe0f97f9a4e746faa6c23b4d187f76a9"
+  },
+  {
+   "url": "https://www.dataprotection.ie/en/organisations/know-your-obligations/breach-notification",
+   "status": 200,
+   "ok": true,
+   "sha256": "aec1e723733d7582350641bd211acc6b7a6dc470e7bdb80ae68a7b11416a0ab8"
+  },
+  {
+   "url": "https://www.dataprotection.ie/en/organisations/rules-electronic-and-direct-marketing",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.dataprotectionauthority.be/professionnel/themes/marketing-direct/bases-juridiques-a-vos-traitements-de-marketing-direct",
+   "status": 200,
+   "ok": true,
+   "sha256": "e7621db947cfc390f4dd0bd3d71f59ac30e5d50a165f8a0ca2289c733c0919d0"
+  },
+  {
+   "url": "https://www.dfat.gov.au/international-relations/security/sanctions/about-sanctions",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.dfat.gov.au/international-relations/security/sanctions/consolidated-list",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.die-medienanstalten.de/service/rechtsgrundlagen/jugendmedienschutz-staatsvertrag/",
+   "status": 200,
+   "ok": true,
+   "sha256": "2c661a67ad5ab9ddd9637614cb7b098552da76e543b49fc3171942b8e72db884"
+  },
+  {
+   "url": "https://www.difc.com/Business/registrars-and-commissioners/commissioner-of-data-protection",
+   "status": 200,
+   "ok": true,
+   "sha256": "bd1bdfd3e78a7566e84a4722aa0c816777cb9644b19082322713e2c30b65aed9",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.digital.go.jp/accessibility-statement",
+   "status": 200,
+   "ok": true,
+   "sha256": "52d9ae6c8776db62d98717152b9f6c48698a60533ab527e5e6cae2c754a5910a"
+  },
+  {
+   "url": "https://www.digital.go.jp/en/resources/introduction-to-web-accessibility-guidebook",
+   "status": 200,
+   "ok": true,
+   "sha256": "a601e3d295074b29c5a970ac8175b916e61d728c307a7e630170b7c9178801e9"
+  },
+  {
+   "url": "https://www.dla.go.th/land/legalItemFon.do",
+   "status": 200,
+   "ok": true,
+   "sha256": "9765b49f968c5fd7556cecff781aee7291ab367022e29dbc45d5ade145d34dac"
+  },
+  {
+   "url": "https://www.dms.gov.vn/web/guest/chi-tiet-vb/chi-tiet-van-ban/nghi-dinh-ve-viec-quy-dinh-xu-phat-vi-pham-hanh-chinh-trong-linh-vuc-thu-y-12403",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://www.dot.gov.tw/Eng/multiplehtml/en_189",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/la-nouvelle-directive-europeenne-accessibilite-pour-des-produits-et-des-services-accessibles-aux-personnes-en-situation",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.env.go.jp/nature/dobutsu/aigo/1_law/trader.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "15f7a8544581387a23b0b03f814e78d220e42f9eb41badde756bed31dab63acb"
+  },
+  {
+   "url": "https://www.env.go.jp/nature/dobutsu/aigo/index.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "93bfa2923baffa2b131a707daa133882648f49c6c843c5e9893a05468a180fcf"
+  },
+  {
+   "url": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.esafety.gov.au/industry/regulatory-guidance",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.etax.nat.gov.tw/etwmain/en/cbec-tax-area/business-tax",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://www.etda.or.th/getattachment/Regulator/DigitalPlatform/law/Clean-Royal-Decree-on-DP-Corrected-1.pdf.aspx?lang=th-TH",
+   "status": 200,
+   "ok": true,
+   "sha256": "b48445c65f142ff91d3c62333a8dbc99709d02a3f0d64b9bbcd18f53539befd5"
+  },
+  {
+   "url": "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://www.etda.or.th/th/regulator/Digitalplatform/law.aspx",
+   "status": 200,
+   "ok": true,
+   "sha256": "e68a523ed59163aa20216e663bd8388e080e26da833646ccb62b4d9e7fae8bbd"
+  },
+  {
+   "url": "https://www.fedsfm.ru/documents/terr-list",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business",
+   "status": 200,
+   "ok": true,
+   "sha256": "db20d0146a2fe5635ed1905f51d9fc0d577cb8330edc3f8fcde3f1d93bf16cbe"
+  },
+  {
+   "url": "https://www.ftc.gov/business-guidance/resources/data-breach-response-guide-business",
+   "status": 200,
+   "ok": true,
+   "sha256": "550b5e459658d62ea8ec00bbb94e481e9e01a5fae2d672d3bc4692ad8aef84a8"
+  },
+  {
+   "url": "https://www.ftc.gov/business-guidance/resources/rule-unfair-or-deceptive-fees-frequently-asked-questions",
+   "status": 200,
+   "ok": true,
+   "sha256": "58da71792954cc7ec0bbea9a82691825dfcfa474756ed55dba5c65d840c2fdd9"
+  },
+  {
+   "url": "https://www.ftc.gov/legal-library/browse/enforcement-policy-statement-promoting-adoption-age-verification-technology",
+   "status": 200,
+   "ok": true,
+   "sha256": "00faec55de2e5d74887ab2c015a82641d2cc0f37dfeb1f0e1b597a884ea59c6e"
+  },
+  {
+   "url": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+   "status": 200,
+   "ok": true,
+   "sha256": "46b2c0203718460d49ce1e396f0ddea82acd22d879f0fcadf4bd723c9a8181ed"
+  },
+  {
+   "url": "https://www.ftc.gov/legal-library/browse/statutes/restore-online-shoppers-confidence-act",
+   "status": 200,
+   "ok": true,
+   "sha256": "205343965607005d65dce414742ed0c8796bebe370cf184a843ce06f5713ed45"
+  },
+  {
+   "url": "https://www.garanteprivacy.it/data-breach",
+   "status": 200,
+   "ok": true,
+   "sha256": "2fbf66b1a28bd190f6176fb1a1f48e3f8b729cff7bb1af464fc1be5f19d57be1"
+  },
+  {
+   "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10225019",
+   "status": 200,
+   "ok": true,
+   "sha256": "0a3562a4f137c33e760eff5a9d1374f5672fff98faca32a5fd2e34c6430c6a0d"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/bfsg/",
+   "status": 200,
+   "ok": true,
+   "sha256": "ac9d1b568323818418ea67e2fc088eeca49b1ced2a42dbd0e6219bf7da1ca5b4",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/bgb/__312.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "db564cb68c81595897222d69e1cc47994b05d2a36991688ca08c2e0899c09eed",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/bgb/__327.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "b368adeb7a199d0e2d374b3f954e3e8d955e0236fe545d94b06eb0521e9c478c",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/gg/art_70.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "07ac4eaa4d154d0b65f114aec1845d78c9a1f82281b818f67b2506cb00c756f1"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/gg/art_72.html",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/tierschhuv/",
+   "status": 200,
+   "ok": true,
+   "sha256": "6c5d4676032e19cf22c62a544aa964c17fb1979e1b1db343bad92508537c648c",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/uwg_2004/",
+   "status": 200,
+   "ok": true,
+   "sha256": "49bb0d662506b31dc45d15a0bec586b6d357b9435aaaf5ee5783263f146f42f9"
+  },
+  {
+   "url": "https://www.gesetze-im-internet.de/uwg_2004/__7.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "db10cb20f0621dc694ed05728d7901f527b54c735493d685056b26203c360996"
+  },
+  {
+   "url": "https://www.gov.br/ancine/pt-br/acesso-a-informacao/legislacao/instrucoes-normativas/instrucao-normativa-174",
+   "status": 200,
+   "ok": true,
+   "sha256": "0c1f268d6fb10dc783d88252a8a5bbc198c8708d4bba995a9f349612f946156f"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd/documentos/rcis___anonimizado_final_ocultado_2_parte3.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "28998c700aeda964b4fea3a3bcd9d2e62e2c97d17295425f1accf86d1a5e6cac"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/transferencia-internacional-de-dados",
+   "status": 200,
+   "ok": true,
+   "sha256": "c273a97324b86af21f1b43d7aee5b80915622fc0173149a425542d90af75170a"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/assuntos/eca-digital/",
+   "status": 200,
+   "ok": true,
+   "sha256": "b0842a0ae4810ab6875caf7a6961214142f2f7d6cd169830ccb488d0aa3d8c56"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/assuntos/marco-civil-da-internet",
+   "status": 200,
+   "ok": true,
+   "sha256": "d9c8c0e3c96e3be15bc631ac6d22fc2a041663cbf5839265f2c8f047761b62c3"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-lanca-guia-orientativo-sobre-legitimo-interesse",
+   "status": 401,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados",
+   "status": 200,
+   "ok": true,
+   "sha256": "3131bc3dcfea730e91314ea880564d407911b876e74ad0903783a27184474f6e"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis",
+   "status": 200,
+   "ok": true,
+   "sha256": "d480cd7bbd769fe78166fe298b9907767ef8770a9f10eb0af12e24f3bf6f9d7f"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/relatorio-de-impacto-a-protecao-de-dados-pessoais-ripd",
+   "status": 200,
+   "ok": true,
+   "sha256": "e6afe04092b0e977751314c38ab18820364286d085ad252848e76bd852a40b9f"
+  },
+  {
+   "url": "https://www.gov.br/anpd/pt-br/canais_atendimento/cidadao-titular-de-dados/denuncia-peticao-de-titular-referente-lgpd",
+   "status": 200,
+   "ok": true,
+   "sha256": "183a3419d3dd3ae8a8c58b1ea91dbb4fc1a9042968bdd7133a5896d8d6b7e01b"
+  },
+  {
+   "url": "https://www.gov.br/mj/pt-br/assuntos/arquivos-imprensa/sedigi/decretos-eca-digital.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "bd8f8457565e3dd2bfcd63d4fcac3b53b57fcb23a88db1d794d1360a57f5656d"
+  },
+  {
+   "url": "https://www.gov.br/mj/pt-br/assuntos/noticias-1/mjsp-regulamenta-notificacao-de-crimes-contra-criancas-em-plataformas-digitais/",
+   "status": 200,
+   "ok": true,
+   "sha256": "a8ba847dd67b65a0e1590e42da70c4137470c1b28ddb2caa7129b412c8ba7eb4"
+  },
+  {
+   "url": "https://www.gov.br/mj/pt-br/assuntos/sua-protecao/cooperacao-internacional/csnu",
+   "status": 200,
+   "ok": true,
+   "sha256": "a5586a2e8c6f7f679511e149c4d438e29280c3503cf444e55cb2aa1f465c6f26"
+  },
+  {
+   "url": "https://www.gov.br/mj/pt-br/assuntos/sua-protecao/sedigi/eca-digital/eca-digital-1",
+   "status": 200,
+   "ok": true,
+   "sha256": "f05294104586a5b578935549f7155d20cedb700ca7e88466f2183bd11664d554"
+  },
+  {
+   "url": "https://www.gov.br/mma/pt-br/composicao/sbio/dpda/programas-e-Projetos/sinpatinhas/sinpatinhas",
+   "status": 200,
+   "ok": true,
+   "sha256": "aca5fb08836dc151ecb8a37d505c4525037c69cab0ed76cf5754c8868b034e23"
+  },
+  {
+   "url": "https://www.gov.ca.gov/2026/09/10/governor-newsom-signs-the-strongest-child-safety-chatbot-and-social-media-laws-in-the-nation/",
+   "status": 200,
+   "ok": true,
+   "sha256": "3607c6d638fd05163a1bec03b297a3de82bf68eb22b6549dc09b6e6fb6aec517"
+  },
+  {
+   "url": "https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/policy-information/dog-control/",
+   "status": 200,
+   "ok": true,
+   "sha256": "b9e997c6d7f5bc3095d27bdc48714cfa95ca37ee3cd5e440bf5fea762d62ad1e"
+  },
+  {
+   "url": "https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/publications/rules-on-the-sale-supply-and-advertising-of-pet-animals/",
+   "status": 200,
+   "ok": true,
+   "sha256": "827cc38c0134faf9b29bd7b78b724f011b1118a248e8f7dccacd140df4a0a9a0"
+  },
+  {
+   "url": "https://www.gov.ie/en/department-of-children-disability-and-equality/publications/european-accessibility-act/",
+   "status": 200,
+   "ok": true,
+   "sha256": "97347a9857f764889db38d25d3e2ed0dac884a576102839204ceaed4a5497093"
+  },
+  {
+   "url": "https://www.gov.ie/en/department-of-the-taoiseach/publications/empower-online-safety/",
+   "status": 200,
+   "ok": true,
+   "sha256": "b192f503ae796660bec8c36a052ddde268c10208633aad5fad16d8da7e96ff9f"
+  },
+  {
+   "url": "https://www.gov.pl/web/premier/projekt-ustawy-o-ochronie-maloletnich-przed-dostepem-do-tresci-pornograficznych-w-internecie",
+   "status": 200,
+   "ok": true,
+   "sha256": "2569d88588f346f3fd9d89c745800448841bade0cf683eedad2fe8915aa2f5fc"
+  },
+  {
+   "url": "https://www.gov.uk/government/collections/devolution-scotland-wales-and-northern-ireland",
+   "status": 200,
+   "ok": true,
+   "sha256": "ac225b5deb68c81d42883e8820b55b0a33675b85a852c3a85905ff13d67dbb97"
+  },
+  {
+   "url": "https://www.gov.uk/government/collections/uk-sanctions",
+   "status": 200,
+   "ok": true,
+   "sha256": "5390bd7e7343a087ce3cdecefa3cea9d9ea5c62a21a85f29e1b77cf2202e7f69"
+  },
+  {
+   "url": "https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation/outcome/growing-up-in-the-online-world-progress-statement",
+   "status": 200,
+   "ok": true,
+   "sha256": "d0fb118389b67c0f91ccbdd6d6b576ea1303edd001c67426d175402b00919092"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/action-plan-for-animal-welfare/action-plan-for-animal-welfare",
+   "status": 200,
+   "ok": true,
+   "sha256": "285795dc035ce0334db4e7951afd47d13aa1c9c9adc2d69fcbe6ae260511375a"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/dog-breeding-licensing-statutory-guidance-for-local-authorities",
+   "status": 200,
+   "ok": true,
+   "sha256": "09de86953312a0d3737efd5cf4f2805788fd4b53599549aef95ff846fa8b86be"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/animal-activities-licensing-guidance-for-local-authorities/selling-animals-as-pets-licensing-statutory-guidance-for-local-authorities--2",
+   "status": 200,
+   "ok": true,
+   "sha256": "a97f1d8b55797f134dc4d669cdc5c133d422f6f6dbddf6c3e8a6474268d5af0f"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/equality-act-2010-code-of-practice-for-services-public-functions-and-associations-2026",
+   "status": 200,
+   "ok": true,
+   "sha256": "c81874a21b78f079aa5be23a82c94a871abe19950764d6ca933c244302485c4b"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/fact-sheet-new-rules-to-protect-children-online",
+   "status": 200,
+   "ok": true,
+   "sha256": "2d4fca02e20686a26a75aceda82515f0346ed253a6518bb15f4ac2a471c11c1e"
+  },
+  {
+   "url": "https://www.gov.uk/government/publications/financial-sanctions-general-guidance/uk-financial-sanctions-general-guidance",
+   "status": 200,
+   "ok": true,
+   "sha256": "5aa5f7a5490bab7c753822ce618e474df1328b9f0254bac60105457aba253abf"
+  },
+  {
+   "url": "https://www.government.nl/latest/news/2026/09/11/dutch-government-advocates-for-eu-wide-minimum-age-for-social-media",
+   "status": 200,
+   "ok": true,
+   "sha256": "3e20637da7a17773fbaaaab6110293b05982bfbf86102f3dd0a730e55a46e851"
+  },
+  {
+   "url": "https://www.government.nl/topics/animal-welfare/welfare-of-pets",
+   "status": 200,
+   "ok": true,
+   "sha256": "2ef79ea7fb354af31d051d348f7c019f9212a3bd20abd5e81a5ad9a01a79d8a3",
+   "final_url": "https://www.government.nl/themes/nature-and-the-environment/animal-welfare/welfare-of-pets"
+  },
+  {
+   "url": "https://www.imda.gov.sg/how-we-can-help/age-assurance",
+   "status": 200,
+   "ok": true,
+   "sha256": "210eab470bab16f90e56d3cc6d4de26caccff676cbaaffe76888ed876d07b96a"
+  },
+  {
+   "url": "https://www.imda.gov.sg/infocomm-regulation-and-guides/unsolicited-communications/best-practices-for-organisations",
+   "status": 200,
+   "ok": true,
+   "sha256": "ab58741bac12fb8e5ca183f1a2a5d66bdff49bb9dc6945b15131591f3230740f"
+  },
+  {
+   "url": "https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/internet/online-safety",
+   "status": 200,
+   "ok": true,
+   "sha256": "9f797b1557df2f646bc3d13de1c366e9f3a7804792a52f2cfd3895a85bcbe1dd"
+  },
+  {
+   "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/consolidated-consolide.aspx?lang=eng",
+   "status": 200,
+   "ok": true,
+   "sha256": "c84a87323c76bbf1c88815d895312ff0977e6a67d8ecef19ab9d3241c80b74d5"
+  },
+  {
+   "url": "https://www.international.gc.ca/world-monde/international_relations-relations_internationales/sanctions/current-actuelles.aspx?lang=eng",
+   "status": 200,
+   "ok": true,
+   "sha256": "9d9ae8092aa45a896618ebd95c9043a0c97921c27096c97fe16911efc92b0ce8"
+  },
+  {
+   "url": "https://www.ipos.gov.sg/about-ip/copyright/forms-and-fees/",
+   "status": 200,
+   "ok": true,
+   "sha256": "246cb9112f69518d4def8e3a4530f0075bfe3e933ee62ba8f2ac5003e725bd2d"
+  },
+  {
+   "url": "https://www.ipthailand.go.th/images/26669/2566/laws/COPYRIGHT%20ACT%20%28NO.%205%29%2C2022.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/invoicing-customers",
+   "status": 200,
+   "ok": true,
+   "sha256": "fc41b8ef360d34b32852c265819d83c8020cb6581f941e0d0a4be8fa4b4ef6b5"
+  },
+  {
+   "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/invoicing-price-display-and-record-keeping/keeping-records",
+   "status": 200,
+   "ok": true,
+   "sha256": "40278ac863787567186724b2e777c6ada66b99f547aadb8d3b1f7d4a35c351ea"
+  },
+  {
+   "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/gst-invoicenow-requirement",
+   "status": 200,
+   "ok": true,
+   "sha256": "0ed6c151016411031f2a6fa81a6f3ef9b88083a14152c68aab482adc589d1fa3"
+  },
+  {
+   "url": "https://www.irishstatutebook.ie/eli/2010/act/29/enacted/en/html",
+   "status": 200,
+   "ok": true,
+   "sha256": "3ced71d8ca7b21c44bbc94642235a864a3651d034e683a25d933dc87663ce759"
+  },
+  {
+   "url": "https://www.irishstatutebook.ie/eli/2022/act/37/enacted/en/print.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "facc8d7db1abc79833f69085127aa4bac3af4069d25c259501c664facfd18aa8"
+  },
+  {
+   "url": "https://www.irishstatutebook.ie/eli/2022/act/37/section/107/enacted/en/html",
+   "status": 200,
+   "ok": true,
+   "sha256": "eba7b4576bda2c239324abccc233bfe239d41c3897c8139b84a9054d1b38c6a0"
+  },
+  {
+   "url": "https://www.irishstatutebook.ie/eli/isbc/2010_29.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "054726f00c9219a90bdd5c4acd4b790a2d781c03b325af30159c506cc9cb6aba"
+  },
+  {
+   "url": "https://www.irs.gov/businesses/business-taxes",
+   "status": 200,
+   "ok": true,
+   "sha256": "dd245a2070f6af7695aefd1ded3cf557bd62574888267662b56d19380042390f"
+  },
+  {
+   "url": "https://www.irs.gov/businesses/small-businesses-self-employed/starting-a-business",
+   "status": 200,
+   "ok": true,
+   "sha256": "346d57fe1c7b0bee293ea0e56e8ef72f8b55d2265389c339013ccaca72576ab0"
+  },
+  {
+   "url": "https://www.ised-isde.canada.ca/site/office-consumer-affairs/en/connected-consumer/notices-canadian-internet-subscribers",
+   "status": 200,
+   "ok": true,
+   "sha256": "36977b85fc41bea936cd717ffe2f79fee15f268c91b53885d2b4b696c65964b4"
+  },
+  {
+   "url": "https://www.kofiu.go.kr/eng/policy/ptfps02_1.do",
+   "status": 200,
+   "ok": true,
+   "sha256": "a593ab84733909eb1744ab7256eaf6fb106c1a34f7f49dd538ce89b3b71d8f25"
+  },
+  {
+   "url": "https://www.kontsumobide.euskadi.eus/hizkuntza-eskubideak-eta-enpresen-betebeharrak/webkon01-content/eu/",
+   "status": 200,
+   "ok": true,
+   "sha256": "013e2cce62c0cacb7c780290439399ffda07c62304e378e1310625fd19b1fe9e"
+  },
+  {
+   "url": "https://www.kslegislature.gov/b2025_26/bills/hb2422/",
+   "status": 200,
+   "ok": true,
+   "sha256": "2330d783519928bf508c43095eb6c05d2cc31e11b0f4d5db23dbb36ea33d9f72"
+  },
+  {
+   "url": "https://www.kslegislature.gov/b2025_26/bills/sb372/",
+   "status": 200,
+   "ok": true,
+   "sha256": "8ba3bd7a495a2f2ecf6f5b183bf696748bffeb0f3ee5c95dc708752610b36e89"
+  },
+  {
+   "url": "https://www.kvkk.gov.tr/",
+   "status": 200,
+   "ok": true,
+   "sha256": "32546a0bf32a9bc424fded579e2044955577d2479c7c7c78d06410c3c9ca5a7d"
+  },
+  {
+   "url": "https://www.kvkk.gov.tr/Icerik/5362/Veri-Ihlali-Bildirimi",
+   "status": 200,
+   "ok": true,
+   "sha256": "1bffd8f19cd59d0ae488b5e0924d7be9d3d00ad83e88311dbd005ed1f8790181"
+  },
+  {
+   "url": "https://www.kvkk.gov.tr/Icerik/7991/Standart-Sozlesmeler",
+   "status": 200,
+   "ok": true,
+   "sha256": "32546a0bf32a9bc424fded579e2044955577d2479c7c7c78d06410c3c9ca5a7d",
+   "final_url": "https://www.kvkk.gov.tr/"
+  },
+  {
+   "url": "https://www.kvkk.gov.tr/Icerik/8043/Standart-Sozlesme-Bildirim-Modulu-Hakkinda-Kamuoyu-Duyurusu",
+   "status": 200,
+   "ok": true,
+   "sha256": "48575ea1ff88e0a661dd6a30be76ad4dbba3a009fded5347f0bb14cf18b9d352"
+  },
+  {
+   "url": "https://www.kvkk.gov.tr/Icerik/8170/Yurt-Disina-Kisisel-Veri-Aktariminda-Kullanilacak-Standart-Sozlesmelerde-Dikkat-Edilmesi-Gereken-Hususlara-Iliskin-Kamuoyu-Duyurusu",
+   "status": 200,
+   "ok": true,
+   "sha256": "c8fb4f79fe0414c87ab7ca79481d65491097786920b35db556ce88f6f6abc6c2"
+  },
+  {
+   "url": "https://www.kvkk.gov.tr/Icerik/8595/kamuoyu-duyurusu",
+   "status": 200,
+   "ok": true,
+   "sha256": "a458cf6c793c23beecccadf841154a47023697ef10c306a60a319e3c25973a2f"
+  },
+  {
+   "url": "https://www.kvkk.gov.tr/Icerik/8666/cocuklarin-sosyal-medya-kullaniminda-kisisel-verilerinin-korunmasina-iliskin-kamuoyu-duyurusu",
+   "status": 200,
+   "ok": true,
+   "sha256": "c0d298bc5956bc22ce4610d0624094aebfb19a83f817f0fcb46d7eaea7ef99cc"
+  },
+  {
+   "url": "https://www.lamoncloa.gob.es/presidente/intervenciones/Paginas/2026/20260203-intervencion-pg-word-governments-summit.aspx",
+   "status": 200,
+   "ok": true,
+   "sha256": "887cc2446eda158b677ee6d7d7e7338aa7bda2b8f63b9b1e15d149e2493af0ab"
+  },
+  {
+   "url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=&chrClsCd=010202&efYd=20260122&lsiSeq=268619&urlMode=lsInfoP",
+   "status": 200,
+   "ok": true,
+   "sha256": "99adc09bfdb780f58140ae907dce51d1d8a8cd28d211ce4945ef078f9497a3be",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.law.go.kr/LSW/lsInfoP.do?ancYnChk=0&lsId=009318",
+   "status": 200,
+   "ok": true,
+   "sha256": "cfff3835ee8f0bb8e77b7ad7b9da59c6cf9e682da947f9b71347938d8d849e8f"
+  },
+  {
+   "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=287795",
+   "status": 200,
+   "ok": true,
+   "sha256": "b1393f00b6cc35b0f9d22394350afa28f268c6c5d63b20cd75ed0bc88e0dc279"
+  },
+  {
+   "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031811027",
+   "status": 200,
+   "ok": true,
+   "sha256": "d8c36df2e2de681245a2a92bc7b5091954a9ec207db92368463bd314ac5a9cce"
+  },
+  {
+   "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1031811893",
+   "status": 200,
+   "ok": true,
+   "sha256": "4409404528115d96c9c54355d433d917bd7857f5651b2fc0f03f5a7787876328",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.law.go.kr/lsInfoP.do?lsId=001656",
+   "status": 200,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.law.go.kr/lsInfoP.do?lsId=009318",
+   "status": 200,
+   "ok": true,
+   "sha256": "cfff3835ee8f0bb8e77b7ad7b9da59c6cf9e682da947f9b71347938d8d849e8f"
+  },
+  {
+   "url": "https://www.law.go.kr/lsLawLinkInfo.do?chrClsCd=010202&lsJoLnkSeq=900605727",
+   "status": 200,
+   "ok": true,
+   "sha256": "d2d9008d4563f7eae1c8afb0867f741bf35d9b903babd013f5a718eaa962b56e"
+  },
+  {
+   "url": "https://www.law.go.kr/lsLinkCommonInfo.do?chrClsCd=010202&lsJoLnkSeq=1029423293",
+   "status": 200,
+   "ok": true,
+   "sha256": "7a23dcc84e73d87424b881e0e6a55351a47ee18d9706c2ab6d85488b4110ef2e",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1014944783",
+   "status": 200,
+   "ok": true,
+   "sha256": "56fbcf55f9fa91abc123b9e4944ecbd6db519771665741f8c0f4440a312bd750"
+  },
+  {
+   "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lsJoLnkSeq=1032213603",
+   "status": 200,
+   "ok": true,
+   "sha256": "d4a9fbb7705fcaf9690827b4f5f26555ca72d2d25fe0bd7b31aec59fe4779ec5"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006421210",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006167705/",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006071367/LEGISCTA000006138321/",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/eli/decret/2026/9/23/2026-883/jo/texte",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054743001",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000054608588/2026-08-05",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006069565/2026-04-25",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.legis.la.gov/Legis/BillInfo.aspx?i=251085",
+   "status": 200,
+   "ok": true,
+   "sha256": "56486a87a606044e8501300c661e3988ff04bc79248958d4ae0aeeb5bec00b1d"
+  },
+  {
+   "url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1475238",
+   "status": 200,
+   "ok": true,
+   "sha256": "b4331c6182baff86794c1d641125c88465c48515765d10340fd8f391f17ddb67"
+  },
+  {
+   "url": "https://www.legislation.gov.au/C1968A00063/latest/text",
+   "status": 200,
+   "ok": true,
+   "sha256": "d8f0b0502fa1de51153390f4547d624737c708922479a80028a46e9a7d3c369d"
+  },
+  {
+   "url": "https://www.legislation.gov.au/C2004A00109/latest/text",
+   "status": 200,
+   "ok": true,
+   "sha256": "6ae1ac41b9c76b70c95b332598a03afb6670f69b2989f5f315f130c8acae212d"
+  },
+  {
+   "url": "https://www.legislation.gov.au/C2021A00076/latest/text",
+   "status": 200,
+   "ok": true,
+   "sha256": "6bd47c94b156a2bc9bac16dc98ead8c70523000c49d3e6c59f427575938629bb"
+  },
+  {
+   "url": "https://www.legislation.gov.au/C2024A00127/latest/text",
+   "status": 200,
+   "ok": true,
+   "sha256": "4cfeed9ec5e59803daf1090fe012964bfa8d8f9cfd988b494e2f3b5d78a0b67a"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/asp/2006/11/contents",
+   "status": 200,
+   "ok": true,
+   "sha256": "72998b47577de5a21b4572c1a9e2311b09b3df5f6e4999b470545259d70d4f08"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/nia/2011/16/contents",
+   "status": 200,
+   "ok": true,
+   "sha256": "936a753592619f7df9b58ae969b78fc7164ca87dcc36b58b504322d020682163"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/ukpga/2015/15/contents",
+   "status": 200,
+   "ok": true,
+   "sha256": "b38d2aea914e2e32c1d5438ee74e4fb32cf35b482d7246f12e6abcd10e451d31"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/ukpga/2024/13/contents",
+   "status": 200,
+   "ok": true,
+   "sha256": "8c0cee560f21e3464c8576204e10b08e974f8d337e1e01ff7c7928b4c54ecb36"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/uksi/2002/2013/regulation/19",
+   "status": 200,
+   "ok": true,
+   "sha256": "647f32265f40509ce7da1d8d3de2db153bee66672f994468a32d795b3cf67e8f"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/uksi/2002/2013/regulation/6",
+   "status": 200,
+   "ok": true,
+   "sha256": "5c031796c99fcb51381ee547fbfd47cb8651853b401fc1dfd4b25f81210bad40"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/uksi/2002/2013/regulation/9",
+   "status": 200,
+   "ok": true,
+   "sha256": "743f659cbac2dd19687801aae45e789496bdeb258aa87d0274012e9e0aed5ab3"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/uksi/2003/2498/regulation/27",
+   "status": 200,
+   "ok": true,
+   "sha256": "a7772e816f3d2735a98b03a53bb990141bef71eb575a623f99ff8146a3776195"
+  },
+  {
+   "url": "https://www.legislation.gov.uk/uksi/2013/3134",
+   "status": 200,
+   "ok": true,
+   "sha256": "541344823a74eab38d82e71018b02e111fa4f69f55fa229e5890687dc28222d0"
+  },
+  {
+   "url": "https://www.legislation.vic.gov.au/in-force/acts/domestic-animals-act-1994/062",
+   "status": 200,
+   "ok": true,
+   "sha256": "b729e51e92025f766446133e88970f7654936e3cad7b1e533dcba9fb288f400b"
+  },
+  {
+   "url": "https://www.legislative.gov.in/static/uploads/2025/08/7af1daa22d65f9d04c00ae9b9aa5a799.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "d001a5b4a1546f6dcf4c6f9c136b63504289627b4e560046fdbc10ee5e59d4d5",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.legisquebec.gouv.qc.ca/fr/version/lc/C-11?code=se%3A55",
+   "status": 200,
+   "ok": true,
+   "sha256": "2c62f2f30a6e541839f0328399e8f97364fedb3da8ff94798933126e0fe6f842"
+  },
+  {
+   "url": "https://www.legisquebec.gouv.qc.ca/fr/version/rc/B-3.1%2C%20r.%200.1?code=se%3A66",
+   "status": 200,
+   "ok": true,
+   "sha256": "3ab9d8c817e909b514ac45dacf413f4ebbd5496de26a338c1e6a9e38b39b015c"
+  },
+  {
+   "url": "https://www.mddi.gov.sg/committee-of-supply/cos-2026/",
+   "status": 200,
+   "ok": true,
+   "sha256": "67cd9d639ade09667dfc11239fdbd253512448e85142cc9ab8ee153419ba8eab"
+  },
+  {
+   "url": "https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-requesting-meta-to-deploy-teenage-usage-restriction-in-singapore/",
+   "status": 200,
+   "ok": true,
+   "sha256": "c760daf2312f7927c04d327428e1b12286f7123e47877d5f3de439a7181e11d7"
+  },
+  {
+   "url": "https://www.mddi.gov.sg/newsroom/mddi-s-response-to-pq-on-strengthening-digital-accessibility-requirements-for-providers-of-essential-consumer-services-for-persons-with-visual-impairments/",
+   "status": 200,
+   "ok": true,
+   "sha256": "d4eaac4537c859302e9ba027793bca29e01499d6e750b366a29d75613448e062"
+  },
+  {
+   "url": "https://www.mea.gov.in/Implementation-of-UNSC-Sanctions.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "75458062b2b09397832d95f4a9c814fd097cb0d4a6de4bd59107ef9254777909",
+   "final_url": "https://www.mea.gov.in/implementation-of-unsc-sanctions",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.meity.gov.in/",
+   "status": 200,
+   "ok": true,
+   "sha256": "e88cfdc200206919f56cf2ad0b231b0048344a6ab871a914e372a940570cd590",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.meity.gov.in/data-protection-framework",
+   "status": 200,
+   "ok": true,
+   "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+   "status": 200,
+   "ok": true,
+   "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.meity.gov.in/documents/act-and-policies?page=1&persona=Business-owner",
+   "status": 200,
+   "ok": true,
+   "sha256": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.meity.gov.in/static/uploads/2025/11/53450e6e5dc0bfa85ebd78686cadad39.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "eabc7d05e013144615d78ddc0e8b9c9aac1920e814f4fad38ce6560951f5aa08",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.meity.gov.in/static/uploads/2025/11/c56ceae6c383460ca69577428d36828b.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "6df25cd8c76ac8eb18cae81835d51d51128ffbf2ed13262843395efddf0998e5",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.meity.gov.in/static/uploads/2026/02/550681ab908f8afb135b0ad42816a1c9.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "7881536e07458e616f6c91b841814cc95b7084edc7ded8a0897a4beaec701351",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.mewa.gov.sa/ar/InformationCenter/DocsCenter/RulesLibrary/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D8%B1%D9%81%D9%82%20%D8%A8%D8%A7%D9%84%D8%AD%D9%8A%D9%88%D8%A7%D9%86%20%D9%88%D8%A7%D9%84%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A%D8%A9.pdf",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Implementing%20Regulations%20of%20The%20Agriculture%20Law.pdf",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Pet%20import%20mechanism.pdf",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://www.mha.gov.in/en/divisionofmha/counter-terrorism-and-counter-radicalization-division",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2021/art_81e8b738d6b24ad6a04f7ecb3f4e0702.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "c6656fd0572388d21c4e0b4fdc0013746668eba439d919e09ce2031274e9cb5f"
+  },
+  {
+   "url": "https://www.miit.gov.cn/jgsj/xgj/wjfb/art/2023/art_dd783a581c9644a4aee10afa582811db.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "75cd8130b7aa8f3d0e829fb7db29f20573ac71071d91c328cab20ab5c2f0301c"
+  },
+  {
+   "url": "https://www.miit.gov.cn/zwgk/zcwj/flfg/art/2022/art_fa48eb1becd2411eabf4081c716b62f6.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "b1e981e24f3cbb1c1bff3425032b39c772a486ed1a834a09a99b351684dcf408"
+  },
+  {
+   "url": "https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202606/t20260605_1438880.html",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/index.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "8d92b20c574204ba6a8c96c6ae00f77861b0d75513544b9ad021f76ab8ff92b3"
+  },
+  {
+   "url": "https://www.mof.go.jp/policy/international_policy/gaitame_kawase/gaitame/economic_sanctions/list.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "be4c9e0923fc04f25427a3c3133f6421f6c032315d0068a99ebe0314b805cca4"
+  },
+  {
+   "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202605/t20260505_534501.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "c167e8aea0fa29bc5fe25a0291e9557c6437c83e025f2f11ceb5fab7b0e5397d",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.moj.gov.cn/pub/sfbgw/gwxw/xwyw/202503/t20250324_516274.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "d99e71c0ad13fc95af9febb0eea89f28cdaf27775f885abc7aef422b960c8b2f"
+  },
+  {
+   "url": "https://www.nalog.gov.ru/rn77/taxation/submission_statements/el_count/",
+   "status": 200,
+   "ok": true,
+   "sha256": "a52782da5b01ef8e45197a22a13344a62013c64a514a3700319541f4810dfeb8"
+  },
+  {
+   "url": "https://www.no-trouble.caa.go.jp/foreignlanguage/english/mailorder/",
+   "status": 200,
+   "ok": true,
+   "sha256": "0484f4d35dc0d6752b3bc707feac10a99393a39873d48564b60e175edee4502e"
+  },
+  {
+   "url": "https://www.no-trouble.caa.go.jp/qa/advertising.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "72585d61ec91d9da25433a33e618735b8c0ae470f48a58c1a4f8b75b9936318f"
+  },
+  {
+   "url": "https://www.normattiva.it/eli/id/2026/03/09/26G00047/CONSOLIDATED",
+   "status": 200,
+   "ok": true,
+   "sha256": "1bce3ff73eff23974d56cf8d85a51592bf0cd2b59ae7679eb75286a8a1818a82"
+  },
+  {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206%21vig=",
+   "status": 200,
+   "ok": true,
+   "sha256": "21b360d4800db227a325df9566250cd1bc3cd42590518cf732be808c7790a7f0"
+  },
+  {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art51-com6=",
+   "status": 200,
+   "ok": true,
+   "sha256": "313d050d38f140010a2c2d5152c23617584aa00eea1087f7820b101cfb6e985a"
+  },
+  {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2005-09-06%3B206~art9=",
+   "status": 200,
+   "ok": true,
+   "sha256": "4b87efcab069e09b8949d529f2159ae8f2954ac4dbf370fdb6bda2d1c2a045a9"
+  },
+  {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-05-27%3B82%21vig=",
+   "status": 200,
+   "ok": true,
+   "sha256": "c5a47ca33db1cee7e42c87102b381819969a68e7ecaeed8a055951239f2eeb08"
+  },
+  {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Adecreto.legislativo%3A2022-08-05%3B134",
+   "status": 200,
+   "ok": true,
+   "sha256": "3bbfffa06b72397d778e0530a4b17e48db8755a0f7b62776e70bf7564d11b5f9"
+  },
+  {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2010%3B201",
+   "status": 200,
+   "ok": true,
+   "sha256": "e202f94d87c9918562c0240049c820487df481dfce3a63fce45bc77557e9f202"
+  },
+  {
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1991;281=",
+   "status": 200,
+   "ok": true,
+   "sha256": "722da0a70119489b155dac40e59e68e843e7438a4aa31ae2ba14777df1dbc0c2"
+  },
+  {
+   "url": "https://www.npc.gov.cn/c2/c183/c198/201905/t20190522_27188.html",
+   "status": null,
+   "ok": false,
+   "reason": "tls_chain_not_verifiable_from_scan_environment"
+  },
+  {
+   "url": "https://www.nusc.gov.tw/%E8%B3%87%E8%A8%8A%E5%85%AC%E9%96%8B/%E5%BB%89%E6%94%BF%E5%9C%92%E5%9C%B0/%E5%BB%89%E6%94%BF%E6%B3%95%E4%BB%A4%E5%B0%88%E5%8D%80/%E5%80%8B%E4%BA%BA%E8%B3%87%E6%96%99%E4%BF%9D%E8%AD%B7%E6%B3%95--219_203_206_1892.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "e2ce2f1c4bb1336cfdf4188e3308b46c6c3736ab9051c26827c7a5fe998b4413"
+  },
+  {
+   "url": "https://www.nysenate.gov/legislation/laws/AGM/403",
+   "status": 200,
+   "ok": true,
+   "sha256": "714c7824382bbe047d2eae7e49e736897d0231bd8619869582df798d9f86fbc1",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.nysenate.gov/legislation/laws/GBS/349",
+   "status": 200,
+   "ok": true,
+   "sha256": "8fa297a441e139a4cb89853f7d622288008079bf096bc4d421fd54c7cfd511e1",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.nysenate.gov/legislation/laws/GBS/527-A",
+   "status": 200,
+   "ok": true,
+   "sha256": "795e77bcac3d04c087c1cdfb1a019dfd28755e797e31cfe0aa62d985464def52",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.nysenate.gov/legislation/laws/GBS/753-F",
+   "status": 200,
+   "ok": true,
+   "sha256": "f5078d6833bd0ac9f8e15fd4075b0708e57c983595004a27c25042659157bfdd",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines",
+   "status": 200,
+   "ok": true,
+   "sha256": "e59f56cbe8199c22dc34bd6477976f3fce21018f05edb08bb310510a4bee0da5"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-guidelines/chapter-8-app-8-cross-border-disclosure-of-personal-information",
+   "status": 200,
+   "ok": true,
+   "sha256": "5545506a40dbfcfea23136fe637628b0dd89f8663426d45c86f833372b7504b5"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/notifiable-data-breaches/about-the-notifiable-data-breaches-scheme",
+   "status": 200,
+   "ok": true,
+   "sha256": "feaafc11aee6093900585cb6eb18e2ac1031b95444ba87b836bf24c583c03c46"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/notifiable-data-breaches/quick-reference-guide-for-responding-to-data-breaches",
+   "status": 200,
+   "ok": true,
+   "sha256": "d8cd1ba1673118936411abc6c82d9cde489819b5ce747a93d16f100ec35a6165"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/privacy-guidance-for-organisations-and-government-agencies/organisations/age-assurance-technologies-and-privacy-obligations",
+   "status": 200,
+   "ok": true,
+   "sha256": "342eca778cb9a51efd5f953b42a5b7d998a88ab78016541752d7707f119a3fcd"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/privacy-legislation/related-legislation/social-media-minimum-age",
+   "status": 200,
+   "ok": true,
+   "sha256": "fda9c9f12a25b85cf6ca749cfa457b3d33266f17bc9d653c9b0cd26d9707f776"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code",
+   "status": 200,
+   "ok": true,
+   "sha256": "e301564588cfdf9bbf4977dcf00610e7c3d00b7fab0c7407adc9ea1463f417b7"
+  },
+  {
+   "url": "https://www.oaic.gov.au/privacy/your-privacy-rights/children-and-young-people/childrens-online-privacy-code",
+   "status": 404,
+   "ok": false,
+   "reason": "not_found_404"
+  },
+  {
+   "url": "https://www.ocpb.go.th/images/article/article_20250715151212.pdf",
+   "status": 200,
+   "ok": true,
+   "sha256": "22e6aca6a0c985f6adc45a5636dd336b083a14bf24beec5cd10d9b531c81c4dc"
+  },
+  {
+   "url": "https://www.ocpb.go.th/index_en.php",
+   "status": 200,
+   "ok": true,
+   "sha256": "2e031f60c59d71c24d7763b8152b5eea5415fe14bb2abee2d5de29b306f71f6e"
+  },
+  {
+   "url": "https://www.ocpb.go.th/news_view.php?nid=13434",
+   "status": 200,
+   "ok": true,
+   "sha256": "296ecd0d5e95d756fca64ee8b37cac28ff4937b3a7d184aaf3a6dc1a5c13268a",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.ocpb.go.th/news_view.php?nid=17494",
+   "status": 200,
+   "ok": true,
+   "sha256": "d28e0617bf30fc49e7119e212f98fdfba0a8dd1069d7d509eae27d06fe2873cc"
+  },
+  {
+   "url": "https://www.oesterreich.gv.at/de/Gesetzliche-Neuerungen/Begutachtungsentwurf/Audiovisuelle-Mediendienste-Gesetz-und-KommAustria-Gesetz",
+   "status": 200,
+   "ok": true,
+   "sha256": "7f048d0c5c322fd2c9dcd79221c40fddf94cad2cad4887f47ea4fe5e1635b9f8"
+  },
+  {
+   "url": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/childrens-access-assessment-duties-under-the-online-safety-act",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/guide-for-services",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.ofcom.org.uk/online-safety/illegal-and-harmful-content/online-safety-regulatory-documents",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.ofcom.org.uk/online-safety/protecting-children/age-assurance",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.ofcom.org.uk/online-safety/protecting-children/protection-of-children-duties-under-the-online-safety-act",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.ontario.ca/laws/statute/19p13",
+   "status": 200,
+   "ok": true,
+   "sha256": "e3a4a91b746026cead749fd0de42592aba7f66ae144d8fa75e2ef029becc1f11"
+  },
+  {
+   "url": "https://www.ontario.ca/laws/statute/s24014",
+   "status": 200,
+   "ok": true,
+   "sha256": "e3a4a91b746026cead749fd0de42592aba7f66ae144d8fa75e2ef029becc1f11"
+  },
+  {
+   "url": "https://www.ontario.ca/page/your-rights-when-signing-or-cancelling-contract",
+   "status": 200,
+   "ok": true,
+   "sha256": "b8706e971cf05faa0553103c4229173d4516426c3e254b589645faf5e6ff5712"
+  },
+  {
+   "url": "https://www.opc.gouv.qc.ca/consommateur/nouvelles-protections",
+   "status": 200,
+   "ok": true,
+   "sha256": "117bf86d256f6a4c1acc8fff918284bb1b926fe95bf10d885c80b23625f1201a"
+  },
+  {
+   "url": "https://www.opc.gouv.qc.ca/en/commercant/nouvelles-obligations",
+   "status": 200,
+   "ok": true,
+   "sha256": "3a8d4972fb7d36db7430328db510961cbf1bf492ad906e845fb68e4712e48584"
+  },
+  {
+   "url": "https://www.oqlf.gouv.qc.ca/francisation/entreprises/contrats-adhesion.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "e6d564dd103354b33afd139408d0140ec45c5de2da231ff44a89ce9409d9541b"
+  },
+  {
+   "url": "https://www.pajak.go.id/id/peraturan/faktur-pajak-berbentuk-elektronik-e-faktur",
+   "status": 200,
+   "ok": true,
+   "sha256": "c801d5a980bc401c2b3306adc2ce79c7587739b6f06a580b4e9960d919ce9b60"
+  },
+  {
+   "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-34",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.parl.ca/legisinfo/en/bill/45-1/c-36",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.pdpc.gov.sg/complaints-and-reviews/before-you-lodge-a-complaint-with-us-3/spam",
+   "status": 200,
+   "ok": true,
+   "sha256": "438f393283b3e6bd83e675473b16615f756c0d1940e8f65bf88f12e83f619361",
+   "final_url": "https://www.pdpc.gov.sg/individuals/e-services/report-a-data-protection-concern/other-data-protection-concerns"
+  },
+  {
+   "url": "https://www.pdpc.gov.sg/overview-of-pdpa/the-legislation/personal-data-protection-act/data-protection-obligations",
+   "status": 200,
+   "ok": true,
+   "sha256": "da57f707d36268fc02a325747f15f7d5b4a9474e6d2c629588c607072305b706",
+   "final_url": "https://www.pdpc.gov.sg/data-protection-obligations"
+  },
+  {
+   "url": "https://www.pdpc.gov.sg/report-data-breach/before-you-report-a-data-breach-3/info",
+   "status": 200,
+   "ok": true,
+   "sha256": "a5c0f8d5035494302e05922db6b21d8f7eda55ae75b8d5959e443588b019e843",
+   "final_url": "https://www.pdpc.gov.sg/required-to-notify-the-pdpc"
+  },
+  {
+   "url": "https://www.pdpc.or.th/",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.pipc.go.kr/eng/user/ltn/new/noticeDetail.do",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "4669d4877785abd4801c81fd6664a682caaf37837537d70af5cf0dd8de2c6783"
+  },
+  {
+   "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "93d993f514b1d7407b8e2395309c1158a8c50c3be6a1d55d9c8bae1a6736ab40"
+  },
+  {
+   "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicaocompilado.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "c17dd73aa377d03563d6ab97e617f4ad872e0e821986b3ab993163f989361a63"
+  },
+  {
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "b65eec0bbb67507f0fa57e16f87e5e9c9ad0a038d93b23012b4a401a0930ba9c"
+  },
+  {
+   "url": "https://www.planalto.gov.br/ccivil_03/leis/l9610.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "bf725c26af22756e8638606a020dbd135f6478b1c5fe42526c617f28c2ed4c8c"
+  },
+  {
+   "url": "https://www.ppatk.go.id/dalam_negeri/read/1400/daftar-terduga-teroris-dan-organisasi-teroris-dttot.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "c90b55e54a1f1aa8644d50098ddd3be1681389361d12d158f73b190f8ffa4780",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.ppc.go.jp/en/legal/",
+   "status": 200,
+   "ok": true,
+   "sha256": "e921097436863c8a1f19bd2e13683dad807902c9cbfed0edd6ae57a60aee9568"
+  },
+  {
+   "url": "https://www.ppc.go.jp/news/press/2026/260717/",
+   "status": 200,
+   "ok": true,
+   "sha256": "a8f6e83d8f91317cca683d9852346feee656b71836da5b51b7a14f0e4a584d2d"
+  },
+  {
+   "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_offshore/",
+   "status": 200,
+   "ok": true,
+   "sha256": "77be73c9f868d3ec37340454ef045c96ae69169199e00420c0c8fca8c542bb36"
+  },
+  {
+   "url": "https://www.ppc.go.jp/personalinfo/legal/guidelines_tsusoku/",
+   "status": 200,
+   "ok": true,
+   "sha256": "b3f79b031704192ec90b0c6f2ceec434517a973117707ab4ab912b0fc1c9437f"
+  },
+  {
+   "url": "https://www.ppc.go.jp/personalinfo/legal/leakAction/",
+   "status": 200,
+   "ok": true,
+   "sha256": "fe9d303b72e55a37f1a1a143d3907ad0dfbc230bfe29f48e229dcc91927f23b2"
+  },
+  {
+   "url": "https://www.priv.gc.ca/en/privacy-topics/age-assurance/",
+   "status": 200,
+   "ok": true,
+   "sha256": "430318446f52add957216a71c501ec84ea44a45b3686a3ed59249aafe41e4aa4"
+  },
+  {
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/appropriate-handling-of-personal-information/gd_third-party_202609/",
+   "status": 200,
+   "ok": true,
+   "sha256": "c9d62326372ad97eb84ab6426355a8f17902a9e4bf34ddcdd017cf3e2520682b"
+  },
+  {
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/privacy-breaches-at-your-business/breach_101/breach_records/",
+   "status": 200,
+   "ok": true,
+   "sha256": "e0faf9905c093dc6c7efb42d24fc70653cf2eac9debeaf40b7a4c05572848eb1"
+  },
+  {
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-for-businesses/privacy-breaches-at-your-business/gd_pb_201810/",
+   "status": 200,
+   "ok": true,
+   "sha256": "bfac5a5fd57f5bc792ca99d5e2b15fd4dc675e1574ed4350f04e71a7d1ef5d25"
+  },
+  {
+   "url": "https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/",
+   "status": 200,
+   "ok": true,
+   "sha256": "dc47d4f84332a5cf6c41a8de92fe3e480c824206a0253b4a23c07116deea24da"
+  },
+  {
+   "url": "https://www.quebec.ca/agriculture-environnement-et-ressources-naturelles/sante-animale/animaux-compagnie/obligations-reproduction-animaux-domestiques",
+   "status": 200,
+   "ok": true,
+   "sha256": "f9b6b289fb25e46247e21d3fa374e6bd5fb7df0e715c4dabf663a2628298baa2"
+  },
+  {
+   "url": "https://www.rd.go.th/26218.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "f24aa6c74ee597921734bf95cf3a338d9df144826bbac30e7344782a7b8cb8fd"
+  },
+  {
+   "url": "https://www.rd.go.th/65244.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "d4c36f74436e78fe55fe53a4f066592c95543fb7ba2e736315a50be1db63d1d1"
+  },
+  {
+   "url": "https://www.rd.go.th/english/37741.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "bc12b76af6cf2e4589031ba565b7d27cc095f8ac82d083409cf285be01cfab1c"
+  },
+  {
+   "url": "https://www.regione.lombardia.it/agricoltura/zootecnia/regole-riproduzione-animale",
+   "status": 200,
+   "ok": true,
+   "sha256": "b6c690c4dc23601f574af90980aa0f21c6c6ec3813da4f1acf50781611c353c8"
+  },
+  {
+   "url": "https://www.regione.piemonte.it/web/temi/agricoltura/zootecnia-pascoli-apicoltura/normativa-materia-riproduzione-animale",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.regione.piemonte.it/web/temi/sanita/veterinaria-salute-alimentare/normativa-relativa-agli-animali-daffezione",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&FassungVom=2025-06-28&Gesetzesnummer=20012316",
+   "status": 503,
+   "ok": false,
+   "reason": "service_unavailable_503"
+  },
+  {
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20011654",
+   "status": 503,
+   "ok": false,
+   "reason": "service_unavailable_503"
+  },
+  {
+   "url": "https://www.ris.bka.gv.at/Land/",
+   "status": 503,
+   "ok": false,
+   "reason": "service_unavailable_503"
+  },
+  {
+   "url": "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Anlage=1&Gesetzesnummer=10002665&ShowPrintPreview=True",
+   "status": 503,
+   "ok": false,
+   "reason": "service_unavailable_503"
+  },
+  {
+   "url": "https://www.salute.gov.it/new/it/tema/animali-daffezione/",
+   "status": 200,
+   "ok": true,
+   "sha256": "0327f79a9a919d8795d6e5e74a9b30694326228afbaed67b23a4e9e138002b8f"
+  },
+  {
+   "url": "https://www.salute.gov.it/new/it/tema/animali-daffezione/possesso-responsabile/",
+   "status": 200,
+   "ok": true,
+   "sha256": "35eceeaf935100504a4c3e4b8f4cde708e875c20676a05e9a46eba6fb5f15259"
+  },
+  {
+   "url": "https://www.salute.gov.it/new/it/tema/animali-daffezione/viaggio-verso-litalia/",
+   "status": 200,
+   "ok": true,
+   "sha256": "7d6583682eb59f8c83116eb5be9878cf92de373ce0274ad371e90a671c4d0387"
+  },
+  {
+   "url": "https://www.salute.gov.it/portale/documentazione/p6_2_5_1.jsp?id=146",
+   "status": 200,
+   "ok": true,
+   "sha256": "7149d8d47ae080dd4080c20af1a69cb4172befd7f12125e1a10dc4a4a5581971"
+  },
+  {
+   "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2024/art_0aea188276a44f0baf940ab95ee00e0a.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "65bb9a045aad6c3215bb4a01e522943d60d648e175019dff0e2eae86bcd8b58f"
+  },
+  {
+   "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2025/art_4b47c79b8d994a42bba4835997688faa.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "10a6cc1766c3841c101418c930e2c3a1525c1cbffba8fae13da4841099a54751"
+  },
+  {
+   "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2026/art_85b474fc5a08494bb60ca6a280b98d7d.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "bfb53a60c1e47e225b7d2e99b8f0dbd4adcced7d7f4fb3665af2b61fc1c94949"
+  },
+  {
+   "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/jjjzs/art/2025/art_eef66659c9624c5091bd3acd050b1710.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "bfa5b33987c03f70fe322cb616fc12014ff0b448f8c84b3f86a13538299ca364"
+  },
+  {
+   "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=3405",
+   "status": 200,
+   "ok": true,
+   "sha256": "3f9ed61edad864f245b73276101b36b9962ef5749284db03e3931b29d7f09386"
+  },
+  {
+   "url": "https://www.sejm.gov.pl/Sejm10.nsf/PrzebiegProc.xsp?nr=2270",
+   "status": 200,
+   "ok": true,
+   "sha256": "3efc469c1989c1ccead69a8c3e234e1a98ba60fc61c5ad7c89de46549e3de5af",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.sejm.gov.pl/sejm10.nsf/PrzebiegProc.xsp?nr=2697",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.shanghai.gov.cn/gwk/search/content/GKXX-20260803152327433--1189",
+   "status": 200,
+   "ok": true,
+   "sha256": "939973c1a1da4cddc602c7456bf15fc61e189153e0aa4c5eefd5242bbd2ed35a"
+  },
+  {
+   "url": "https://www.shanghai.gov.cn/nw26192/20200820/0001-26192_27724.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "4dac895c335703360f7e851c9f661f63a6cf36c24feba4bd5fcac03948fa7ff1"
+  },
+  {
+   "url": "https://www.tarimorman.gov.tr/GKGM/Menu/81/Veteriner-Hizmetleri-Mevzuati",
+   "status": 200,
+   "ok": true,
+   "sha256": "6bd56808119a176fe034d3bcfccd3b14f111bf993f43e99059a8ad83c266dd48"
+  },
+  {
+   "url": "https://www.tarimorman.gov.tr/Sayfalar/Detay.aspx?TermId=fb841593-eb13-4a7b-90e6-762d1dc46795&TermStoreId=368e785b-af33-487d-a98d-c11d5495130b&UrlSuffix=6470%2FHayvanlarin-Korunmasina-Dair-Uygulama-Yonetmeligi-Resmi-Gazetede-Yayimlandi",
+   "status": 200,
+   "ok": true,
+   "sha256": "333c2f0f054af5d3f75cd96a6064a2251547d9ec9d19c23bea1e8358a8584f77"
+  },
+  {
+   "url": "https://www.ticaret.gov.tr/haberler/aldaticici-reklam-ve-haksiz-ticari-uygulamalarla-mucadelede-yeni-donem-basliyor",
+   "status": 200,
+   "ok": true,
+   "sha256": "bfee151a3ea4170181307b38e4657552f6e8adab5fc5966985c648493b2cbbf5",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.ticaret.gov.tr/ic-ticaret/mevzuat/elektronik-ticaret",
+   "status": 200,
+   "ok": true,
+   "sha256": "acfcf9b6345c8e61f20b449391eb9239aa38e5f2ff1742d8e2b7b819eb749fac",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.ticaret.gov.tr/tuketici/mevzuat/6502-sayili-tuketicinin-korunmasi-mevzuati",
+   "status": 200,
+   "ok": true,
+   "sha256": "16851784ed9a2926fe1af5f8c02e80f204ebcb0b39c89210ca51bbecd4cde91f",
+   "via": "retry_browser_user_agent"
+  },
+  {
+   "url": "https://www.tipo.gov.tw/tw/copyright/768-4911.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "693777ffcc5a8256456e8e5ce6351f7a684cfe29d71cb740e62bdda10a8b192a"
+  },
+  {
+   "url": "https://www.tipo.gov.tw/tw/copyright/768-4914.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "0909d0a0130636a927bd4d168608e195118762d4310dec0cfbf32950c9c05fd5"
+  },
+  {
+   "url": "https://www.uaelegislation.gov.ae/en/legislations/1972/download",
+   "status": 403,
+   "ok": false,
+   "reason": "waf_or_access_denied_from_scan_environment"
+  },
+  {
+   "url": "https://www.uqn.gov.sa/decisions-and-regulations/4000304",
+   "status": null,
+   "ok": false,
+   "reason": "timeout"
+  },
+  {
+   "url": "https://www.uqn.gov.sa/details?p=28845",
+   "status": null,
+   "ok": false,
+   "reason": "connection_refused_or_reset"
+  },
+  {
+   "url": "https://www.verbrauchergesundheit.gv.at/tiere/hund-und-katze.html",
+   "status": 200,
+   "ok": true,
+   "sha256": "4fdf216def16ab99416b985da5bda72a32ae785bcd53d2ec37458084ff50c187"
+  },
+  {
+   "url": "https://www.vlaanderen.be/honden-en-katten-kweken",
+   "status": 200,
+   "ok": true,
+   "sha256": "ea185a81c28c69ef2691c50a2d9fdc297076fbfd953d3966581d2a3019dc56c8",
+   "final_url": "https://www.vlaanderen.be/natuur-milieu-en-klimaat/dieren/huisdieren-en-landbouwhuisdieren/honden-en-katten-kweken"
+  },
+  {
+   "url": "https://www.vlaanderen.be/vlaamse-regering/beslissingen-van-de-vlaamse-regering/wijziging-mediadecreet-bescherming-minderjarigen-bij-tussenhandeldiensten-die-lichamelijke-geestelijke-of-morele-ontwikkeling-kunnen-aantasten-0",
+   "status": 200,
+   "ok": true,
+   "sha256": "2d14c6e388a2b8c7dc6602373dad1a5b540a5d9266a4ec713e705f8f358dbc07"
+  },
+  {
+   "url": "https://www.vlaanderen.be/vlaamse-regering/beslissingen-van-de-vlaamse-regering/wijziging-regelgeving-over-dierenwelzijn-afstemming-op-vlaamse-codex-dierenwelzijn",
+   "status": 200,
+   "ok": true,
+   "sha256": "f22c301c64f767970ab95dba0cccfa8d83bb768b360b584be1b88f5bc900e7c7"
+  },
+  {
+   "url": "https://www.wetgiw.gov.pl/handel-eksport-import/zasady-handlu---psy-koty-fretki",
+   "status": 200,
+   "ok": true,
+   "sha256": "a85bc14292c377bdae20ca4307ea6f2239ed6c72642e56573cb9e3442fb55d77"
+  },
+  {
+   "url": "https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-13-2023-nd-cp-bao-ve-du-lieu-ca-nhan-119230516104357809.htm",
+   "status": 200,
+   "ok": true,
+   "sha256": "714b1b6ed71eb028b6314450fb124b5cc1f566ee79e0520c16a972a3f261c758"
+  },
+  {
+   "url": "https://zpp.rospotrebnadzor.ru/news/federal/571840",
+   "status": 200,
+   "ok": true,
+   "sha256": "68f9274ea7b0f25636ff0055c7075bf0e407658973ed5619f9880858cab7c2c2"
+  },
+  {
+   "url": "https://zpp.rospotrebnadzor.ru/news/federal/572093",
+   "status": 200,
+   "ok": true,
+   "sha256": "ff8b3cd9166e94211adb0edc1b74fe86417910f69f3106df2800c1c7e9eb4976"
+  },
+  {
+   "url": "https://zpp.rospotrebnadzor.ru/npa/federal/192115",
+   "status": 200,
+   "ok": true,
+   "sha256": "5ab5cb901b0e29ea880a6c3b193474e57bfd15015528df43d664cdf41e6075a4"
+  }
+ ],
+ "dead_links_unreplaced": {
+  "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Pet%20import%20mechanism.pdf": "answered 404 to the scan but is returned by search engines; kept pinned, flagged for the next scan",
+  "https://www.mewa.gov.sa/en/InformationCenter/DocsCenter/RulesLibrary/Docs/Implementing%20Regulations%20of%20The%20Agriculture%20Law.pdf": "answered 404; kept pinned, flagged for the next scan"
+ },
+ "replacements_verified_http_200": [
+  "https://avs.nparks.gov.sg/businesses/pet-shop-owners/pet-shop-licence/",
+  "https://dld.go.th/webnew/index.php/laws/announ/publish",
+  "https://legal.dld.go.th/index.php/th",
+  "https://u.ae/en/information-and-services/justice-safety-and-the-law/consumer-protection",
+  "https://u.ae/en/information-and-services/social-affairs/Priority-groups/children/Childrens-digital-safety",
+  "https://www.etda.or.th/th/Useful-Resource/%E0%B8%81%E0%B8%8F%E0%B8%AB%E0%B8%A1%E0%B8%B2%E0%B8%A2-HTML/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%A3%E0%B8%B2%E0%B8%8A%E0%B8%9A%E0%B8%8D%E0%B8%8D%E0%B8%95%E0%B8%A7%E0%B8%B2%E0%B8%94%E0%B8%A7%E0%B8%A2%E0%B8%98%E0%B8%A3%E0%B8%81%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B8%81%E0%B8%97%E0%B8%A3%E0%B8%AD%E0%B8%99%E0%B8%81%E0%B8%AA-%E0%B8%9E-%E0%B8%A8-2544.aspx",
+  "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/pdf/USCODE-2024-title18-partI-chap110-sec2258A.pdf",
+  "https://www.oaic.gov.au/privacy/privacy-registers/privacy-codes/childrens-online-privacy-code"
+ ]
+}
