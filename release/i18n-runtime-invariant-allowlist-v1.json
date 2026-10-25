@@ -15,7 +15,10 @@
       "settings.premium",
       "settings.premiumAction",
       "petEditor.size.mini",
-      "petCard.superLike"
+      "petCard.superLike",
+      "v5.care.weightValue",
+      "v5.care.kind.vitamin",
+      "v5.size.mini"
     ],
     "de": [
       "nav.feed",
@@ -41,7 +44,11 @@
       "petEditor.size.mini",
       "petCard.superLike",
       "petProfile.matchTitle",
-      "petProfile.temperament"
+      "petProfile.temperament",
+      "v5.care.weightValue",
+      "v5.care.kind.vitamin",
+      "v5.community.role.moderator",
+      "v5.size.mini"
     ],
     "es": [
       "nav.feed",
@@ -62,7 +69,9 @@
       "meetups.no",
       "petEditor.size.mini",
       "petCard.superLike",
-      "petProfile.matchTitle"
+      "petProfile.matchTitle",
+      "v5.care.weightValue",
+      "v5.size.mini"
     ],
     "fr": [
       "nav.messages",
@@ -102,7 +111,12 @@
       "feed.likes.few",
       "feed.likes.two",
       "feed.likes.many",
-      "feed.likes.other"
+      "feed.likes.other",
+      "v5.care.weightValue",
+      "v5.support.category.bug",
+      "v5.support.messageLabel",
+      "v5.community.descriptionLabel",
+      "v5.size.mini"
     ],
     "pt-BR": [
       "nav.feed",
@@ -125,7 +139,9 @@
       "feed.title",
       "petEditor.size.mini",
       "petCard.superLike",
-      "petProfile.matchTitle"
+      "petProfile.matchTitle",
+      "v5.care.weightValue",
+      "v5.size.mini"
     ],
     "it": [
       "auth.password",
@@ -149,7 +165,12 @@
       "meetups.no",
       "petEditor.size.mini",
       "petCard.superLike",
-      "petProfile.matchTitle"
+      "petProfile.matchTitle",
+      "v5.care.weightValue",
+      "v5.support.category.account",
+      "v5.support.category.bug",
+      "v5.support.category.privacy",
+      "v5.size.mini"
     ],
     "nl": [
       "nav.feed",
@@ -193,7 +214,15 @@
       "feed.likes.few",
       "feed.likes.two",
       "feed.likes.many",
-      "feed.likes.other"
+      "feed.likes.other",
+      "v5.care.weightValue",
+      "v5.care.category.insect",
+      "v5.support.category.account",
+      "v5.support.category.privacy",
+      "v5.support.status.open",
+      "v5.community.title",
+      "v5.community.role.moderator",
+      "v5.size.mini"
     ],
     "pl": [
       "premium.title",
@@ -209,7 +238,10 @@
       "events.weekend",
       "petEditor.size.mini",
       "petCard.superLike",
-      "petProfile.temperament"
+      "petProfile.temperament",
+      "v5.care.weightValue",
+      "v5.community.role.moderator",
+      "v5.size.mini"
     ],
     "ru": [
       "auth.emailPlaceholder",
@@ -255,7 +287,13 @@
       "settings.premium",
       "settings.premiumAction",
       "petEditor.size.mini",
-      "petCard.superLike"
+      "petCard.superLike",
+      "v5.care.weightValue",
+      "v5.care.kind.vitamin",
+      "v5.care.kind.grooming",
+      "v5.support.category.bug",
+      "v5.community.role.moderator",
+      "v5.size.mini"
     ],
     "vi": [
       "auth.email",
@@ -269,7 +307,9 @@
       "settings.premium",
       "settings.premiumAction",
       "petEditor.size.mini",
-      "petCard.superLike"
+      "petCard.superLike",
+      "v5.care.weightValue",
+      "v5.care.kind.vitamin"
     ],
     "hi": [
       "auth.emailPlaceholder",
@@ -295,7 +335,8 @@
       "profile.premium",
       "settings.premium",
       "settings.premiumAction",
-      "petCard.superLike"
+      "petCard.superLike",
+      "v5.care.weightValue"
     ],
     "ko": [
       "auth.emailPlaceholder",
@@ -304,7 +345,8 @@
       "premium.feature.superTitle",
       "discover.superLikeTitle",
       "discover.breedPlaceholder",
-      "profile.premium"
+      "profile.premium",
+      "v5.care.weightValue"
     ],
     "zh-Hans": [
       "auth.emailPlaceholder",

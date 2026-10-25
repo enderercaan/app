@@ -61,6 +61,24 @@ const localizedNotificationCopy=(n:NotificationRow,locale:string)=>{
       body:interpolatePush(copy['notifications.item.lostPetBody'],{petName,district,neighborhood})
     };
   }
+  const params=n.template_params??{};
+  const petName=String(params.petName??'');
+  const eventTitle=String(params.eventTitle??'');
+  if(n.template_key==='follow_request')return{title:copy['notifications.item.followRequestTitle'],body:copy['notifications.item.followRequestBody']};
+  if(n.template_key==='follow_accepted')return{title:copy['notifications.item.followAcceptedTitle'],body:copy['notifications.item.followAcceptedBody']};
+  if(n.template_key==='lost_pet_sighting'){
+    const bodyKey=params.kind==='found'?'notifications.item.lostPetFoundBody':'notifications.item.lostPetSightingBody';
+    return{title:interpolatePush(copy['notifications.item.lostPetSightingTitle'],{petName}),body:copy[bodyKey]};
+  }
+  if(n.template_key==='lost_pet_thanks')return{title:interpolatePush(copy['notifications.item.lostPetThanksTitle'],{petName}),body:copy['notifications.item.lostPetThanksBody']};
+  if(n.template_key==='event_reminder'){
+    const bodyKey=params.window==='1h'?'notifications.item.eventReminderHour':'notifications.item.eventReminderDay';
+    return{title:interpolatePush(copy['notifications.item.eventReminderTitle'],{eventTitle}),body:copy[bodyKey]};
+  }
+  if(n.template_key==='event_cancelled')return{title:copy['notifications.item.eventCancelledTitle'],body:interpolatePush(copy['notifications.item.eventCancelledBody'],{eventTitle})};
+  if(n.template_key==='event_waitlist_promoted')return{title:copy['notifications.item.eventWaitlistTitle'],body:interpolatePush(copy['notifications.item.eventWaitlistBody'],{eventTitle})};
+  if(n.template_key==='care_reminder')return{title:interpolatePush(copy['notifications.item.careReminderTitle'],{petName}),body:String(params.reminderTitle??n.body)};
+  if(n.template_key==='support_ticket_update')return{title:interpolatePush(copy['notifications.item.supportUpdateTitle'],{ticketNumber:String(params.ticketNumber??'')}),body:copy['notifications.item.supportUpdateBody']};
   const type=['match','like','message','follow','comment'].includes(n.type)?n.type:null;
   if(!type)return{title:n.title,body:n.body};
   return{title:copy[`notifications.item.${type}Title`],body:copy[`notifications.item.${type}Body`]};
@@ -276,7 +294,8 @@ Deno.serve(async (req) => {
         skippedByMarketingConsent++;
         continue;
       }
-      if(n.type!=='system'){
+      // Lost Paw alerts are emergency notices (spec 4.5, 6.3): they are never held back by quiet hours.
+      if(n.type!=='system'&&n.type!=='lost_pet'){
         const quiet=quietHoursState(prefs);
         if(quiet.active){
           const nextAttempt=new Date(Date.now()+quiet.minutesUntilEnd*60_000).toISOString();
@@ -330,6 +349,8 @@ Deno.serve(async (req) => {
         const payload = expoCandidates.map((t: TokenRow) => ({
           to: t.token,
           sound: 'default',
+          priority: n.type==='lost_pet'||n.type==='call'?'high':'default',
+          ...(n.type==='lost_pet'?{interruptionLevel:'time-sensitive'}:{}),
           title: localized.title,
           body: localized.body,
           data: { type: n.type, entityId: n.entity_id, recipientPetId: n.recipient_pet_id, notificationId: n.id, userId: n.user_id }

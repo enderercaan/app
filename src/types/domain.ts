@@ -22,6 +22,7 @@ export type Pet = {
   approximateDistanceKm?: number; purposes: Purpose[]; prompts?: PetPrompt[]; bio: string; photos: PetPhoto[]; health: HealthSummary; profileVerified: boolean; ownerVerified?: boolean;
   followersCount?: number; followingCount?: number; isFollowing?: boolean; isFavorite?: boolean; compatibilityScore?: number;
   likedAt?: string; likeKind?: 'like'|'super_like'; favoritedAt?: string; blockedAt?: string; boosted?: boolean;
+  handle?: string|null; isPrivate?: boolean; followRequested?: boolean; isMuted?: boolean;
 };
 
 export type DiscoveryFilters = {
@@ -46,11 +47,11 @@ export type Message = { id: string; conversationId: string; senderPetId: string;
 export type Post = { id: string; pet: Pet; caption: string; mediaUrls: string[]; createdAt: string; likeCount: number; commentCount: number; likedByMe: boolean; savedByMe: boolean };
 export type Story = { id: string; petId: string; petName: string; avatarUrl?: string; mediaUrl: string; createdAt: string; expiresAt: string; seen: boolean };
 type CommercialEventOffer = { id:string; type:'external_ticket'|'sponsorship'|'sample'; bookingUrl?:string; priceMinor?:number; currency?:string; disclosure:string };
-export type PetEvent = { id: string; creatorPetId: string; title: string; description: string; city: string; district: string; neighborhood?: string; startsAt: string; endsAt?: string; capacity?: number; attendeeCount: number; myStatus?: 'going'|'interested'; eventKind?: 'community'|'walk'|'playdate'|'education'; recurrence?: 'none'|'weekly'; hostPlaceId?: string; hostPlaceName?: string; commercialOffer?:CommercialEventOffer|null };
+export type PetEvent = { id: string; creatorPetId: string; title: string; description: string; city: string; district: string; neighborhood?: string; startsAt: string; endsAt?: string; capacity?: number; attendeeCount: number; myStatus?: 'going'|'interested'; eventKind?: 'community'|'walk'|'playdate'|'education'; recurrence?: 'none'|'weekly'; hostPlaceId?: string; hostPlaceName?: string; commercialOffer?:CommercialEventOffer|null; allowedSpecies?: Species[]|null; allowedSizes?: PetSize[]|null; goingCount?: number; waitlistCount?: number; onWaitlist?: boolean; eligible?: boolean };
 export type MessageEntitlement = { tier: AccountTier; otherTier: AccountTier; newConversationsRemaining: number|null; resetAt: string; timeZone: string; conversationInitiated: boolean; conversationUnlocked: boolean; premiumReplyCourtesy: boolean; canSend: boolean };
 export type DailyProductQuotaStatus = { tier: AccountTier; swipeLimit:number|null; newConversationLimit:number|null; swipesRemaining: number|null; newConversationsRemaining: number|null; resetAt: string; timeZone: string };
 export type LocalNetworkStatus = { status:'open'|'waitlist'|'feed_only'; activePets:number; densityTarget:number; waitlistCount:number; waitlistTarget:number; remainingToOpen:number; pilot?:boolean };
-export type LostPetAlert = { id:string; petId:string; petName:string; breed:string; species:Species; photoPath?:string; photoUrl?:string; lastSeenAt:string; city:string; district:string; neighborhood?:string; approximateDistanceKm:number; createdAt:string; isMine:boolean };
+export type LostPetAlert = { id:string; petId:string; petName:string; breed:string; species:Species; photoPath?:string; photoUrl?:string; lastSeenAt:string; city:string; district:string; neighborhood?:string; approximateDistanceKm:number; createdAt:string; isMine:boolean; expiresAt?:string; radiusKm?:number; expandedAt?:string|null; description?:string; collarInfo?:string; hasMicrochip?:boolean|null };
 export type PetFriendlyPlace = { id:string; name:string; category:'park'|'cafe'|'restaurant'|'veterinary'|'groomer'|'trainer'|'hotel'|'shop'|'other'; city:string; district:string; neighborhood?:string; addressLabel:string; latitude:number; longitude:number; websiteUrl?:string; bookingUrl?:string; petPolicySummary:string; verificationPartner:boolean; verified:boolean; partnershipTier:'organic'|'featured'|'event_host'; sponsorshipDisclosure?:string; approximateDistanceKm?:number|null; businessPlan?:'free'|'featured'|'professional'|'verification_partner'|null; appointmentUrl?:string|null };
 export type TravelZone={id:string;city:string;district:string;neighborhood:string;pilot:boolean};
 export type TravelModeState={enabled:boolean;zoneId?:string;city?:string;district?:string;neighborhood?:string;pilot?:boolean};
@@ -79,4 +80,4 @@ export type ModerationDecision = { id:string; targetType:'account'|'pet'|'pet_ph
 export type VerificationStatus = { identityVerified:boolean; identityVerifiedAt?:string; latestStatus:'not_started'|'pending'|'verified'|'failed'|'expired'|'cancelled'; latestRequestedAt?:string };
 export type MeetupRequest = { id:string; matchId:string; proposedByPetId:string; startsAt:string; publicPlaceLabel:string; note?:string; status:'pending'|'accepted'|'declined'|'cancelled'; createdAt:string };
 
-export type PostComment = { id:string; postId:string; pet:Pet; body:string; createdAt:string };
+export type PostComment = { id:string; postId:string; pet:Pet; body:string; createdAt:string; parentCommentId?:string|null; likeCount?:number; likedByMe?:boolean };

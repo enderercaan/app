@@ -715,7 +715,7 @@ check('public account deletion challenge is fail closed, origin/action-bound and
 });
 check('health verification trust rejects future-dated authority and invalid expiry',()=>{
   const sql=read('supabase/migrations/143_health_verification_temporal_authority.sql');
-  const m201=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  const m201=read('supabase/migrations/205_health_document_check_without_veterinarian_signals.sql');
   assert.match(sql,/new\.verified_at>now\(\)\+interval '5 minutes'/);
   assert.match(m201,/v_verified_at>v_now\+interval '5 minutes'/);
   assert.match(m201,/v_expires_at<=coalesce\(v_verified_at,v_now\)/);
@@ -3003,7 +3003,7 @@ check('offline source semantic gate catches high-signal stale ref and call-signa
 
 
 check('health verification provenance is evidence-bound and no veterinarian state exists',()=>{
-  const m=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  const m=read('supabase/migrations/205_health_document_check_without_veterinarian_signals.sql');
   assert.match(m,/health_attestation_method_check check \(method in \('manual_document_review','ai_document_check'\)\)/);
   assert.match(m,/health_attestation_method_evidence_check check \([\s\S]*method='manual_document_review' and provider_code is null and provider_reference_sha256 is null[\s\S]*method='ai_document_check' and provider_code is not null and provider_reference_sha256 is not null/);
   assert.match(m,/delete from public\.health_verification_attestations where signal='veterinarian_verified'/);
@@ -3018,7 +3018,7 @@ check('health verification provenance is evidence-bound and no veterinarian stat
 
 check('health document check hashes its provider reference and only the AI worker may write AI attestations',()=>{
   const worker=read('supabase/functions/health-ai-worker/index.ts');
-  const m=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  const m=read('supabase/migrations/205_health_document_check_without_veterinarian_signals.sql');
   assert.match(worker,/referenceHash\s*=\s*await sha256Hex\(/);
   assert.match(worker,/p_provider_reference_sha256:\s*referenceHash/);
   assert.match(m,/revoke all on function public\.service_apply_health_verification_attestation\(uuid,text,text,text,text,timestamptz,timestamptz\) from public,anon,authenticated/);
@@ -3027,7 +3027,7 @@ check('health document check hashes its provider reference and only the AI worke
 
 check('health attestation evidence is service-only, redacted in export and safe on public pet JSON',()=>{
   const m=read('supabase/migrations/131_health_verification_provenance_and_trust.sql');
-  const m201=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  const m201=read('supabase/migrations/205_health_document_check_without_veterinarian_signals.sql');
   const exp=read('supabase/functions/export-download/index.ts');
   assert.match(m,/alter table public\.health_verification_attestations enable row level security/);
   assert.match(m,/revoke all on table public\.health_verification_attestations from public,anon,authenticated/);
@@ -3048,7 +3048,7 @@ check('store price and health provider production evidence remain explicit fail-
 
 
 check('expired vaccination checks fail closed across public JSON discovery and mating eligibility',()=>{
-  const m=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  const m=read('supabase/migrations/205_health_document_check_without_veterinarian_signals.sql');
   assert.match(m,/create or replace function public\.effective_vaccination_complete/);
   assert.match(m,/create or replace function public\.has_current_vaccination_check/);
   assert.match(m,/'vaccinationStatus',case when public\.effective_vaccination_complete\(p\.id\)/);

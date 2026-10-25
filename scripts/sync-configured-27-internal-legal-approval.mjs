@@ -330,7 +330,7 @@ for(const code of countries){
 {
   const brTiming=registry.markets.BR.applicability_effective_date_review.known_timing_notes;
   const addTiming=(instrument,status)=>{ if(!brTiming.some(x=>x.instrument===instrument)) brTiming.push({instrument,status}); };
-  addTiming('Brazil Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 — general paid-ad/boosting duties','future_effective_2026_10_23_as_of_2026_10_01');
+  addTiming('Brazil Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 — general paid-ad/boosting duties','current_effective_2026_10_23_BR_paid_promotion_fail_closed_until_retention_transparency_controls_verified');
   addTiming('Brazil Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 — Article 3 material-relationship transparency tools','future_effective_2026_12_22_as_of_2026_10_01');
 }
 
@@ -338,8 +338,8 @@ const temporal=clone(JSON.parse(readFileSync(temporalPath,'utf8')));
 temporal.as_of=today;
 const addWatch=item=>{ const i=temporal.items.findIndex(x=>x.id===item.id); if(i>=0) temporal.items[i]=item; else temporal.items.push(item); };
 addWatch({
-  id:'br_paid_promotion_portaria_general_2026_10_23',scope:'BR',event_kind:'effective_date',trigger_date:'2026-10-23',status_as_of:'future_effective_not_current',official_source:'https://bibliotecadigital.mj.gov.br/handle/1/17694',
-  note:'Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 was published 2026-09-23. Most paid-advertising/boosting duties become effective 30 days after publication. Tailmance contextual sponsored place/event promotion must remain fail-closed in Brazil until this effective date and the required retention/transparency controls are active.'
+  id:'br_paid_promotion_portaria_general_2026_10_23',scope:'BR',event_kind:'effective_date',trigger_date:'2026-10-23',status_as_of:'current_effective_reached_2026_10_23_BR_paid_promotion_remains_fail_closed',official_source:'https://bibliotecadigital.mj.gov.br/handle/1/17694',
+  note:'Portaria Conjunta SENACON/SEDIGI/SPDIGI nº 3/2026 was published 2026-09-23. Most paid-advertising/boosting duties become effective 30 days after publication. Tailmance contextual sponsored place/event promotion must remain fail-closed in Brazil until this effective date and the required retention/transparency controls are active. Effective date reached 2026-10-23 (re-confirmed 2026-10-25 against the published text); the controls are not yet verified, so Brazil paid promotion stays fail-closed.'
 });
 addWatch({
   id:'br_paid_promotion_material_relationship_tools_2026_12_22',scope:'BR',event_kind:'effective_date',trigger_date:'2026-12-22',status_as_of:'future_effective_not_current',official_source:'https://bibliotecadigital.mj.gov.br/handle/1/17694',

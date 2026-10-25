@@ -195,7 +195,7 @@ ok('mating is owner-arranged and remains jurisdiction fail-closed',()=>{
 });
 ok('mating eligibility uses welfare/health signals, not commerce',()=>{
   assert.match(m93,/vaccination_status='complete'/);
-  const m201=read('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql');
+  const m201=read('supabase/migrations/205_health_document_check_without_veterinarian_signals.sql');
   assert.match(m201,/mating_pair_profile_signals_eligible[\s\S]*effective_vaccination_complete\(a\.id\) and public\.effective_vaccination_complete\(b\.id\)/);
   assert.doesNotMatch(m201.slice(m201.indexOf('create or replace function public.mating_pair_profile_signals_eligible'),m201.indexOf('revoke all on function public.mating_pair_profile_signals_eligible')),/veterinarian_verified|has_current_veterinarian_verification/);
   assert.match(m93,/neutered is false/);

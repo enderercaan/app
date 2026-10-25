@@ -84,3 +84,12 @@ create publication supabase_realtime;
 alter default privileges in schema public grant all on tables to anon, authenticated, service_role;
 alter default privileges in schema public grant all on functions to anon, authenticated, service_role;
 alter default privileges in schema public grant all on sequences to anon, authenticated, service_role;
+
+-- pg_cron stand-in: migrations 202/203 register their housekeeping jobs with cron.schedule(name, schedule, command).
+create schema if not exists cron;
+create table if not exists cron.job (jobname text primary key, schedule text not null, command text not null);
+create or replace function cron.schedule(job_name text, schedule text, command text) returns bigint language sql as $$
+  insert into cron.job(jobname,schedule,command) values (job_name,schedule,command)
+  on conflict (jobname) do update set schedule=excluded.schedule, command=excluded.command
+  returning 1::bigint
+$$;

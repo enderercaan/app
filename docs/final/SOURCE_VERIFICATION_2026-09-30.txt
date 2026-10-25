@@ -3,19 +3,19 @@ Date: 2026-10-01
 Direct parent SHA-256: fee791990d84c4557fe4765dd12cf18ea80f9189c75921a8eb40261fea062827
 
 CURRENT SOURCE VERIFICATION
-- canonical migrations: 001-201 contiguous PASS
-- domain: 21/21 PASS
+- canonical migrations: 001-205 contiguous PASS
+- domain: 27/27 PASS
 - security: 382/382 PASS
-- authenticated RPC revocation/MFA boundary: 125/125 PASS
+- authenticated RPC revocation/MFA boundary: 173/173 PASS
 - authenticated RLS/storage boundary: 4/4 PASS
 - security incident obligation matrix: 27/27 configured markets PASS, live operations fail-closed
 - security control applicability: 49/49 scoped controls classified PASS
 - product/retention/trust/monetization: 90/90 PASS
 - pending hardening: 107/107 PASS
-- accessibility: 215 Pressables + 45 TextInputs + 2 Switches + 14 Modals PASS
-- backend contracts: 174 RPCs; 11 invoked Edge Functions; 29 function directories checked
-- repository hygiene: 125/125 app source modules reachable; 126/126 maintenance scripts command-reachable
-- runtime i18n: 19/19 x 1702; 1441 source-used/dynamic keys covered; 316/316 critical localized per non-English locale
+- accessibility: 218 Pressables + 46 TextInputs + 4 Switches + 14 Modals PASS
+- backend contracts: 226 RPCs; 11 invoked Edge Functions; 29 function directories checked
+- repository hygiene: 131/131 app source modules reachable; 126/126 maintenance scripts command-reachable
+- runtime i18n: 19/19 x 1907; 1604 source-used/dynamic keys covered; 316/316 critical localized per non-English locale
 - legal static: 57/57 PASS
 - legal context: 91/91 PASS
 - legal documents/public routes: 22 x 11 = 242 / 242
@@ -24,7 +24,7 @@ CURRENT SOURCE VERIFICATION
 - critical legal subdimensions: 432/432
 - configured-27 legal/language source approval: 27/27 legal + 27/27 language; 34/34 binding + 594/594 all-language country routes; 0 source blockers
 - configured-27 subdivision source structure: 27/27 reviewed; 1278 ISO identifiers runtime-context-bound; 0 source blockers
-- project lint: 2403 text files PASS
+- project lint: 2416 text files PASS
 
 CURRENT RELEASE BOUNDARY
 - Source legal/language approval is not deployed/store/provider proof.

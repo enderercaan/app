@@ -1,4 +1,4 @@
--- Tailmance migration 201: the health-record check never involves a veterinarian, clinic or registry (2026-10-05).
+-- Tailmance migration 205: the health-record check never involves a veterinarian, clinic or registry (2026-10-05).
 --
 -- Product decision: the AI-assisted check reads the uploaded vaccination-booklet pages and only compares
 -- the dated entries (vaccines, internal and external parasite treatment) with the published schedule for

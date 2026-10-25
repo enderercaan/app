@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 const sql=readFileSync('supabase/migrations/182_health_ai_ocr_registry_guardrail_pipeline.sql','utf8');
 const worker=readFileSync('supabase/functions/health-ai-worker/index.ts','utf8');
 const rules=readFileSync('supabase/functions/_shared/healthBookletCheck.ts','utf8');
-const m201=readFileSync('supabase/migrations/201_health_document_check_without_veterinarian_signals.sql','utf8');
+const m201=readFileSync('supabase/migrations/205_health_document_check_without_veterinarian_signals.sql','utf8');
 const lifecycle=readFileSync('supabase/migrations/184_health_ai_privacy_export_and_erasure_binding.sql','utf8');
 const sla=readFileSync('supabase/migrations/187_health_ai_manual_review_sla_and_ops_visibility.sql','utf8');
 const stale=readFileSync('supabase/migrations/188_health_ai_stale_claim_recovery.sql','utf8');

@@ -28,6 +28,10 @@ export type RootStackParamList = {
   Premium: undefined;
   Reels: { reelId?: string; linkNonce?: number } | undefined;
   Notifications: undefined;
+  SocialPrivacy: { petId: string };
+  Care: { petId: string };
+  Support: undefined;
+  Communities: { petId: string };
   Settings: undefined;
   LegalPrivacy: undefined;
   ModerationAppeals: undefined;
